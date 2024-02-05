@@ -57,3 +57,7 @@ git switch <branch adi> ile branch değiştirebiliriz.
 belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 "git clone --branch <branch adi> repo-url" komutu ile yapılabilir.
 
+14-"Merge conflict" ne demektir?
+Merge yani iki branch birleştirme yapılacağı zaman aynı sayfalardaki 
+değişiklikler merge conflict'e yol açar. Bunların birini seçip yolumuza 
+devam etmeliyiz.
