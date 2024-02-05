@@ -22,3 +22,9 @@ bu komutla github'da değişiklik var mı diye kontrol edilir.
 
 5-"HEAD" kelimesi neyi temsil etmektedir?
 Head kelimesi şu anda çalışmakta olduğumuz commit'i temsil etmektedir.
+
+6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Staging area git add yaptıktan sonra kodlarımızın bulunduğu bölgedir.
+Commit atmadan önce burda değişiklikleri kontrol etmemizi sağlar.
+
+
