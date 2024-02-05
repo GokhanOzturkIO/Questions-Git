@@ -30,3 +30,9 @@
     - Yazar
     - Tarih
     - Commit Açıklaması
+
+- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+  - git diff -> Dizinizdeki değişiklikler vs "staging area"
+  - git diff --cached  ->  "Staging area" vs son commit
+  - git diff <commit1> <commit2>  ->  İki commit arasındaki farklar
+  - git diff <branch1> <branch2>  ->  İki branch arasındaki farklar
