@@ -44,3 +44,6 @@
     Daha anlaşılır küçük bloklar halinde birbiri ile ilişkili şeyleri bir arada paket olarak commitlemektir.Geri dönük takibi kolaylaştırır.
 20->Repository ne demektir?
     Repository, git tarafından takip edilen, kodlar,eski versiyonlar,brachlerin tümüne verilen isimdir.
+21->"git tag" nedir? "git branch"’ten farkı nedir?
+    git tag, belirli bir commit'i işaret etmek için kullanılır ve genellikle sürüm numaraları gibi sabit durumları temsil etmek için kullanılır.
+    git branch, projede ayrı geliştirme dalları oluşturmak ve yönetmek için kullanılır.
