@@ -25,3 +25,5 @@
     Yada farklı parametreleri kullanabileceğiniz imkan sağlar.(Örneğin aynı uygulamanın Android 12 üzerine özel bir sürümü olması gibi)
 11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
    "git branch branchAdı" ile yeni branch oluşturabiliriz.
+12-Var olan bir "branch"e nasıl geçebiliriz?
+   "git checkout branchAdı" ile branchAdı adlı branche geçiş yapabiliriz.
