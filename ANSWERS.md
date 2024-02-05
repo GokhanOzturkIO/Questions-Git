@@ -62,3 +62,11 @@
   - GitKraken
   - SourceTree
   - GitExtensions
+
+- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+  - "git" VSC (Versiyon kontrol sistemidir)
+  - GitHub bu projelerin barındırılması, işbirliği yapılması ve paylaşılması için bir platform sağlar
+  - GitLab
+  - Bitbucket
+  - Azure DevOps
+  - GitHub: musaerbay
