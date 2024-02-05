@@ -65,3 +65,9 @@ devam etmeliyiz.
 15-"git log" komutu ile hangi bilgileri görebiliriz?
 commit tarihi, commit'i kimin yaptığı, commit mesajı gibi bilgileri görebiliriz.
 
+16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+git diff ile iki farklı commit arasındaki farkları görebiliriz.
+İki branch arasındaki farkları da görebiliriz. Temelde bu iki amaçla kullanılır.
+
+
+
