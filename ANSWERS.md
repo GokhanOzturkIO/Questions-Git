@@ -23,3 +23,10 @@
 - "HEAD" kelimesi neyi temsil etmektedir?
   - Mevcut konumunuzu gösterir
   - Genellikle son commit'i işaret eder.
+
+- "git log" komutu ile hangi bilgileri görebiliriz?
+  - Commit Tarihçesi :
+    - Commit Hash (SHA-1)
+    - Yazar
+    - Tarih
+    - Commit Açıklaması
