@@ -50,3 +50,6 @@ bize hız kazandırır.
 11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
 En basit haliyle git branch <branch adi> komutu ile oluşturulur.
 
+12-Var olan bir "branch"e nasıl geçebiliriz?
+git switch <branch adi> ile branch değiştirebiliriz.
+
