@@ -75,3 +75,15 @@ Branch oluşturmak için temel olarak yapabileceğimiz iki yöntem var.
 
  2 - Yeni bir branch oluşturma ve daha sonra o branch'e geçme işlemini tek bir komut ile de yapabiliriz. İşte o komut:
  `git checkout -b branch_ismi`
+
+ ## Soru 12: Var olan bir "branch"e nasıl geçebiliriz?
+
+Branchler arası geçişin nasıl yapıldığını söylemeden önce hangi branch üzerinde olduğumuzu nasıl öğrenebiliriz ona bakalım.
+
+Bu bilgiyi öğrenebilmek için `git branch` komutunu kullanabiliriz. Mevcut yani şu anda çalışmış olduğumuz branch yıldız(*) ile işaretlenmiş olan branchdir.
+
+![](/screenshots/2.png)
+
+Branch değiştirmek için kullanabildiğimiz komutlar.
+- `git checkout branch_ismi`
+- `git switch branch_ismi` 
