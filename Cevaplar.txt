@@ -92,6 +92,11 @@ Tagler oluşturulur ve değiştirilmez. Tagler oluşturulduktan sonra üzerine
 commit yapılmaz. Genelde belirli bir aşamada uygulamamızın nerede olduğunu
 belirtmek için kullanılır.
 
+22-Git'i görsel olarak kullanabilmek için hangi 
+üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Github Desktop kullanılabilir. Güzel bir arayüz sağlar. Commit farklarını
+detaylı bir şekilde görebilmemizi sağlar.
+
 
 
 
