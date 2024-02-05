@@ -36,3 +36,7 @@
   - git diff --cached  ->  "Staging area" vs son commit
   - git diff <commit1> <commit2>  ->  İki commit arasındaki farklar
   - git diff <branch1> <branch2>  ->  İki branch arasındaki farklar
+
+- Git reset ile neyi geri alıyoruz?
+  -  Remota gitmeyen Commitlerinizi geri alır.
+  - soft , mixed , hard
