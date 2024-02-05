@@ -19,3 +19,6 @@ bu çakışmaları çözüp sonra pull yapmalıyız.
 4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 Origin bizim githubdaki adresimizdir. Yani remote'taki repository'dir.
 bu komutla github'da değişiklik var mı diye kontrol edilir.
+
+5-"HEAD" kelimesi neyi temsil etmektedir?
+Head kelimesi şu anda çalışmakta olduğumuz commit'i temsil etmektedir.
