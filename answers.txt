@@ -11,3 +11,7 @@ derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde 
 
 *** muhtemelen "commit" ettikten sonra "push" etmemiştir. Veya biz "pull" etmeden önce "fetch" etmemişizdir.
 
+4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+*** "origin" klonlanan orjinal repository' i temsil eder. Yani birden fazla remote repository' e sahipsek "git fetch orgin" komutu bize klonlanan
+orjinal repodan "fetch" etme işlemini gerçekleştirir.
