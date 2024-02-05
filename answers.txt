@@ -1,3 +1,7 @@
 1) Git Nedir? 
 
 *** Git açık kaynak kodlu bir versiyon kontrol sistemidir.
+
+2) "git pull" ile "git fetch" komutlarının farkı nedir?
+
+*** "git pull" komutu remote daki commit' i çeker. "git fetch" remote ile local'i eşitler.
