@@ -40,3 +40,7 @@
 - Git reset ile neyi geri alıyoruz?
   -  Remota gitmeyen Commitlerinizi geri alır.
   - soft , mixed , hard
+
+- "git commit" ile "git push" arasındaki fark nedir?
+  - "git commit"  ->  Local repoya kayıt
+  - "git push"  ->  Remote repoya kayıt
