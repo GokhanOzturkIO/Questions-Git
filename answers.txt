@@ -33,4 +33,5 @@
     Merge conflict, branch birleşiminde, git pull, git push gibi komutlarda meydana gelecek zıtlaşma durumudur.
 15-"git log" komutu ile hangi bilgileri görebiliriz?
     commit geçmişini, commit yazarını, commit yazarının email adresini ve commitin atıldığı zaman bilgisini görebiliriz.
-
+16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+    2 farklı durumun(son commit ile son committen sonra yapılan değişiklikleri görebiliriz)
