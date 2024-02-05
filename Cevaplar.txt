@@ -42,5 +42,11 @@ her "git init" komutunu kullanıdığımızda otomatik olarak
 Git template özelliği ile oluşturduğumuz git template içerisine
 readme dosyasını ekliyoruz. Sonra git konfigürasyonuna bu template'i atıyoruz 
 
+10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Branch yapısı sayesinde herkes farklı bir özellik üzerinde çalışabilir.
+Bu sayede bağımsız özellikler paralel şekilde geliştirilebilir ve
+bize hız kazandırır.
+
+
 
 
