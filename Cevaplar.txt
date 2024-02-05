@@ -31,4 +31,9 @@ Commit atmadan önce burda değişiklikleri kontrol etmemizi sağlar.
 .gitignore klasöründeki dosyalar untracked file'dır. Bu klasördeki dosyalar
 uzaktaki sunucuya atılmaz. Daha çok kütüphane dosyaları burada tutulur.
 
+8-".git" klasörünü silersek ne olur?
+.git klasörü git init komutu çalıştırıldığında oluşturulur. Ve o çalışma dizininin
+git'e bağlandığını gösterir. Bunu silersek git'le bağımız gider ve commit history
+ile bağımızı kaybederiz. Projede eski değişikliklere dönemeyiz.
+
 
