@@ -27,3 +27,6 @@
    "git branch branchAdı" ile yeni branch oluşturabiliriz.
 12-Var olan bir "branch"e nasıl geçebiliriz?
    "git checkout branchAdı" ile branchAdı adlı branche geçiş yapabiliriz.
+13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+    "git clone -b branchAdı uzakRepoAdresi" ile repodan istenen branchi çekebiliriz.
+
