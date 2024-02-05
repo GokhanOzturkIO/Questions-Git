@@ -97,6 +97,16 @@ belirtmek için kullanılır.
 Github Desktop kullanılabilir. Güzel bir arayüz sağlar. Commit farklarını
 detaylı bir şekilde görebilmemizi sağlar.
 
+23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri 
+diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı 
+adlarını yazar mısınız?
+Github git'in bir deposudur. Git repolarının tutulduğu uzak bir sunucudur.
+Githuba benzer sitelere Bitbucket örnek verilebilir. Orda da aynı 
+git işlemleri yapılarak repolar oluşturulur. Ancak sektörde en çok kabul 
+edilen site github'dır.
+Github Kullanıcı adım:bymaskeli53
+Bu adı github'ı tam bilmediğim zamanlarda önemsemeyip koymuştum. Sonra
+değiştirmek istedim ancak cv'lerde bu şekilde yazdığı için değiştirmedim :)
 
 
 
