@@ -1,2 +1,5 @@
 1-Git Nedir ?
     Git bir version control sistemidir.
+2-"git pull" ile "git fetch" komutlarının farkı nedir?
+    Git fetch uzak sunucudaki değişikliklerin durumunu öğrenirken;
+    git pull değişikleririn kendini alır.
