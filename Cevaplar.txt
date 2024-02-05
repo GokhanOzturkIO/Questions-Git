@@ -61,3 +61,7 @@ belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 Merge yani iki branch birleştirme yapılacağı zaman aynı sayfalardaki 
 değişiklikler merge conflict'e yol açar. Bunların birini seçip yolumuza 
 devam etmeliyiz.
+
+15-"git log" komutu ile hangi bilgileri görebiliriz?
+commit tarihi, commit'i kimin yaptığı, commit mesajı gibi bilgileri görebiliriz.
+
