@@ -60,3 +60,9 @@ Eğer ".git" klasörünü silersek, projemizin Git ile yönetilen tüm geçmişi
 ## Soru 9: Kendi lokalimizde her `git init` komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
 Öncelikle içerisinde Readme.md olan bir şablon dosya hazırlayacağız. Ardından yeni bir repo oluşturmak istediğimizde `git init -- template [şablonDosyası konumu]` komutunu kullanarak oluşturabiliriz.
+
+## Soru 10: Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Bir proje üzerinde birden fazla geliştirici çalışıyor olabilir, bu durumda geliştiriciler birbirlerini etkilemeden kendi işlerinde çalışabilmelerini ve aynı anda birçok özelliği veya geliştirme yapabilmeyi sağlar.
+
+Her bir branch farklı geliştirmeleri, değişiklikleri veya özellikleri içerebilir.
