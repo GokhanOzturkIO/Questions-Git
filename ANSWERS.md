@@ -44,3 +44,7 @@
 - "git commit" ile "git push" arasındaki fark nedir?
   - "git commit"  ->  Local repoya kayıt
   - "git push"  ->  Remote repoya kayıt
+
+- Atomic commit ne demektir?
+  - Değişiklikler düzenli, tutarlı ve yönetilebilir bir şekilde kaydetmek
+  - Düzgün bir history ve anlaşılır commit mesajları
