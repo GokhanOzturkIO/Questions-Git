@@ -52,3 +52,7 @@ Anlık olarak çalışmış olduğumuz ortam hakkında bilgi verir.
 ![](/screenshots/1.png)
 
 resim.png dosyasını ben daha önceden `git add` kullanarak ekleme yapmadığım için Untracked kısmında duruyor ve Git tarafından takip edilmediği anlamına geliyor.
+
+## Soru 8: ".git" klasörünü silersek ne olur?
+
+Eğer ".git" klasörünü silersek, projemizin Git ile yönetilen tüm geçmişi, branch bilgileri, commit bilgileri gibi Git ile ilişkilendirilmiş tüm veriler kaybolur.
