@@ -25,3 +25,11 @@ Yani arkadaşımız değişiklikleri yaptıktan sonra `git commit -m ""` yaptık
 #### Peki Bunun Yapılandırmasını Nasıl Yapıyorduk?
 
 `git remote add istediğimizBirİsim url` komutunu kullanarak ayarlamasını yapıyorduk. :)
+
+## Soru 5: "HEAD" kelimesi neyi temsil etmektedir?
+
+**HEAD** kavramını bir gösterge veya işaretci olarak düşünebiliriz.     
+Anlık olarak çalışmış olduğumuz ortam hakkında bilgi verir. 
+- Bu en son atılmış commit
+- Yada üzerinde çalışma yapmış olduğumuz branch
+- Veya geçmişde var olan bir commit'i incelemek istedim ve o commite geçtim, bunu bir örnek ile anlatayım. Örneğin 1,2,3,4 adında commitlerimiz var. Şu anda **HEAD** kavramı 4'ü(en son commit) işaret eder. Ben bir ihtiyaç doğrultusunda 2. commit'te geçip sadece o commit sırasında yapılmış olan değişiklikleri incelemek istedim ve 2. commit'e geçiş yaptım. Bu durumda **HEAD** 2. commit'i temsil eder.
