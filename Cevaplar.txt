@@ -47,6 +47,6 @@ Branch yapısı sayesinde herkes farklı bir özellik üzerinde çalışabilir.
 Bu sayede bağımsız özellikler paralel şekilde geliştirilebilir ve
 bize hız kazandırır.
 
-
-
+11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+En basit haliyle git branch <branch adi> komutu ile oluşturulur.
 
