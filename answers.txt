@@ -49,3 +49,8 @@
     git branch, projede ayrı geliştirme dalları oluşturmak ve yönetmek için kullanılır.
 22->Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
     Kullanılan ide içinde gelen git arayüzleri, Github Desktop, SourceTree, GitKraken, SmartGit, Magit, RepoZ, GitViewer, Glint
+23->"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir?
+    Git, version controlü sağlayan bir araçtır.
+    Github, versionlarını tuttuğumuz repoları saklayabileceğimiz bir uzak sunucu hizmetidir.
+    GitLab, Bitbucket, SourceForge gibi servisler Github benzeri servislerdir.
+    Github'da kullanıcı adım: AAyar94 , https://github.com/AAyar94 linki ile Github profilime ulaşabilirsiniz.Projelerimde küçük bir sergim var.
