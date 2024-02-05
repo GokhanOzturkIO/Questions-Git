@@ -15,3 +15,7 @@
   - "git commit" komutu ve commit mesajı ile kalıcı olarak kaydedilir
   - "git push" local repository'deki commitleri uzak repoya gönderir
   - Bu işlemlerden hepsi yapılmalı. Genelde "git push" unutulur :)
+
+- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+  - Uzak sunucu
+  - Reponuzun uzak sunucudaki halini çekebilirsiniz.
