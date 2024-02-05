@@ -86,6 +86,13 @@ değişiklikleri alıyoruz. Eğer kod çalışmazsa değişiklikler geri alını
 Repository, kod depomuzdur. Githubda projemiz için repository oluştururuz.
 Sonra değişikliklerimizi bu repository'e pushlarız.
 
+21-"git tag" nedir? "git branch"’ten farkı nedir?
+Git tag bir uygulamanın sürümünü belirtmek için kullanılır. v1.0.0 gibi
+Tagler oluşturulur ve değiştirilmez. Tagler oluşturulduktan sonra üzerine 
+commit yapılmaz. Genelde belirli bir aşamada uygulamamızın nerede olduğunu
+belirtmek için kullanılır.
+
+
 
 
 
