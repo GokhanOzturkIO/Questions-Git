@@ -66,3 +66,12 @@ Eğer ".git" klasörünü silersek, projemizin Git ile yönetilen tüm geçmişi
 Bir proje üzerinde birden fazla geliştirici çalışıyor olabilir, bu durumda geliştiriciler birbirlerini etkilemeden kendi işlerinde çalışabilmelerini ve aynı anda birçok özelliği veya geliştirme yapabilmeyi sağlar.
 
 Her bir branch farklı geliştirmeleri, değişiklikleri veya özellikleri içerebilir.
+
+## Soru 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+Branch oluşturmak için temel olarak yapabileceğimiz iki yöntem var.
+
+ 1 - `git branch branch_ismi` komutunu kullanarak yeni bir branch oluşturabiliriz. Ardından `git checkout branch_ismi` komutunu kullanarak da oluşturduğumuz yeni branch'e geçiş yapabiliriz.
+
+ 2 - Yeni bir branch oluşturma ve daha sonra o branch'e geçme işlemini tek bir komut ile de yapabiliriz. İşte o komut:
+ `git checkout -b branch_ismi`
