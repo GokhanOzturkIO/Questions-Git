@@ -15,3 +15,8 @@ derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde 
 
 *** "origin" klonlanan orjinal repository' i temsil eder. Yani birden fazla remote repository' e sahipsek "git fetch orgin" komutu bize klonlanan
 orjinal repodan "fetch" etme işlemini gerçekleştirir.
+
+5) "HEAD" kelimesi neyi temsil etmektedir?
+
+*** "HEAD" kelimesi, en son atılan commit'i işaret eder. Bazen branch' i de temsil eder.
+
