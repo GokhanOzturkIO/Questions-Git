@@ -42,3 +42,13 @@ Anlık olarak çalışmış olduğumuz ortam hakkında bilgi verir.
 **Staging Area** veya **Index**, Git'in commit yapmadan önce değişiklikleri hazırlamanızı sağlayan bir ara bölgedir. Bu bölge, projenizdeki dosyalarda yaptığınız değişiklikleri seçip, bir sonraki commit'e dahil etmek üzere belirlemenizi sağlar. Bu ara bölge sayesinde, projenizdeki birden fazla değişikliği gruplamak, sadece belirli dosyaları commit'e dahil etmek veya commit yapmadan önce değişiklikleri kontrol etmek gibi avantajlar elde edersiniz. 
 
 `git add` komutunu kullanarak dosyalarımı **Staging Area** kısmına ekleme işlemini yaparız.
+
+## Soru 7: "Untracked file" ne demektir?
+
+*Untracked file* kelime anlamından da anlayabileceğimiz gibi, Git tarafından takip edilmeyen dosyalardır. Bu dosyalar, projenizde bulunabilir, ancak Git bu dosyaların değişikliklerini veya durumunu izlemez.
+
+Örneğin bu dosyamıza resim adında bir görüntü ekledim. Şimdi `git status` ile güncel durumumuza bir bakalım.
+
+![](/screenshots/1.png)
+
+resim.png dosyasını ben daha önceden `git add` kullanarak ekleme yapmadığım için Untracked kısmında duruyor ve Git tarafından takip edilmediği anlamına geliyor.
