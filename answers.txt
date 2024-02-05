@@ -20,3 +20,8 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 
 *** "HEAD" kelimesi, en son atılan commit'i işaret eder. Bazen branch' i de temsil eder.
 
+6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+*** Git'in commit işlemine hazırlık yapmak için kullandığı geçici bir depolama alanıdır. "Staging area" veya "index," projede yapılan değişiklikleri,
+ bir sonraki commit'e dahil etmek istediğimiz dosyaları seçme ve düzenleme imkanı sağlar.
+
