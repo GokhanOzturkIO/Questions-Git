@@ -76,5 +76,14 @@ istediğimiz bir commit'e geri dönmemizi sağlar.
 Git commit ile yaptığımız değişiklikleri yerel git depomuza atarız.
 Git push ile yaptığımız değişiklikleri github'a atmış oluruz.
 
+19-Atomic commit ne demektir?
+Atomic commit yani bölünemez commit, ya hep ya hiç prensibine dayanır. 
+Ya tüm değişiklikleri commit ederiz veya hiçbirini yapmayız.
+Önce commit attığımızı varsayalım. Sonra pull yapıp githubdaki
+değişiklikleri alıyoruz. Eğer kod çalışmazsa değişiklikler geri alınır.
+
+
+
+
 
 
