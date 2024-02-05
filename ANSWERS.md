@@ -48,3 +48,6 @@
 - Atomic commit ne demektir?
   - Değişiklikler düzenli, tutarlı ve yönetilebilir bir şekilde kaydetmek
   - Düzgün bir history ve anlaşılır commit mesajları
+
+- Repository ne demektir?
+  - Dosyalarının ve değişikliklerin depolandığı yer
