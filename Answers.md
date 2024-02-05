@@ -15,3 +15,13 @@ Bu komut, `git fetch` ve ardından `git merge` işlemlerini birleştirerek kulla
 Eğer gönderilen değişiklikleri `git pull` ile lokalimize alamıyorsak, arkadaşımız yazdığı kodları remote sunucuda bulunan repoya göndermemiştir. Yani `git push` komutunu kullanmamıştır.
 
 Yani arkadaşımız değişiklikleri yaptıktan sonra `git commit -m ""` yaptıktan sonra yaptığı değişikliklerin uzak sunucuya gönderildiğini sanmış ama `git push` komutunu kullanarak herhangi bir şekilde işlem yapmadığı için değişiklikler uzak sunucuya gönderilmemiş ve bizde bu değişikleri `git pull` ile local çalışma alanımıza dahil edemedik.
+
+## Soru 4: `git fetch origin` komutundaki *origin* neye karşılık gelmektedir?
+
+`git fetch origin` komutundaki *origin* ifadesi remote repositoryi temsil eden bir isimdir. 
+
+**origin terimi**, varsayılan olarak birçok Git deposunda kullanılan yaygın bir isimdir, ancak projenizin yapılandırmasına bağlı olarak farklı bir isim de kullanılabilir. Eğer Git'e remote bağlantı eklerken farklı bir isim kullanmış olsa idik onu kullanmamız gerekirdi.
+
+#### Peki Bunun Yapılandırmasını Nasıl Yapıyorduk?
+
+`git remote add istediğimizBirİsim url` komutunu kullanarak ayarlamasını yapıyorduk. :)
