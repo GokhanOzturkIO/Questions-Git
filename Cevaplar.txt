@@ -16,4 +16,6 @@ Conflict, yani çakışma olabilir. Çünkü aynı dosya üzerinde çalışmış
 git hangi değişiklikleri uygulayacağını bilmiyor olabilir. Bu yüzden önce
 bu çakışmaları çözüp sonra pull yapmalıyız.
 
-
+4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+Origin bizim githubdaki adresimizdir. Yani remote'taki repository'dir.
+bu komutla github'da değişiklik var mı diye kontrol edilir.
