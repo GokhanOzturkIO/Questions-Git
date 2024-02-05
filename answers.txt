@@ -23,3 +23,5 @@
     Branch aynı temelin farklı dalları olarak düşünebiliriz.
     Aynı anda birden fazla kişinin projede çalışmasını kolaylaştırır.
     Yada farklı parametreleri kullanabileceğiniz imkan sağlar.(Örneğin aynı uygulamanın Android 12 üzerine özel bir sürümü olması gibi)
+11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+   "git branch branchAdı" ile yeni branch oluşturabiliriz.
