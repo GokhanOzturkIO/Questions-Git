@@ -27,4 +27,8 @@ Head kelimesi şu anda çalışmakta olduğumuz commit'i temsil etmektedir.
 Staging area git add yaptıktan sonra kodlarımızın bulunduğu bölgedir.
 Commit atmadan önce burda değişiklikleri kontrol etmemizi sağlar.
 
+7-"Untracked file" ne demektir?
+.gitignore klasöründeki dosyalar untracked file'dır. Bu klasördeki dosyalar
+uzaktaki sunucuya atılmaz. Daha çok kütüphane dosyaları burada tutulur.
+
 
