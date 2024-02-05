@@ -11,3 +11,5 @@
     origin uzak sunuculardan(birden fazla ise) temel olan repoyu,zaten bir tane uzak sunucu reposu var is o repoyu temsil eder.
 5-"HEAD" kelimesi neyi temsil etmektedir?
     Bulunan brachdeki son commit'i ifade eder.
+6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+    Son commit den sonra git'in takip ettiği dosyalar arasından değişiklik yapılan dosyaları bir ,sonraki commite kadar tutulduğu yerdir.
