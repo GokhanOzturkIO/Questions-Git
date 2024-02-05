@@ -17,3 +17,5 @@
     Git tarafından takip edilmeyen dosya demektir.
 8-".git" klasörünü silersek ne olur?
     Daha önce indexlenmiş olan versiyonları kaybederiz, dosyaların en son hali elimizde kalır, fakat eski versiyonlarına erişemeyiz.
+9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+  Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i kullanarak init etmiş olmalıyız.
