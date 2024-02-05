@@ -55,3 +55,10 @@
 - "git tag" nedir? "git branch"’ten farkı nedir?
   - "git tag" -> belirli bir commit'i veya projenin bir noktasını "etiketlemek" için kullaılır
   - tag işaretlemek, etiketlemek için kullanılırken ; Branch'ler, geliştirmeleri izlemek ve paralel geliştirme için.
+
+- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+  - Fork
+  - GitHub Desktop
+  - GitKraken
+  - SourceTree
+  - GitExtensions
