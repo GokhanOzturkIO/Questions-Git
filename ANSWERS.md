@@ -70,3 +70,8 @@
   - Bitbucket
   - Azure DevOps
   - GitHub: musaerbay
+
+- main ya da master branch'inin diğer branchlerden farkı nedir?
+  - Ana Geliştirme branch'idir. Projenin Kalbidir :)
+  - Bu branch genelde korunur. İzin olmadan değişiklik yapılamaz.
+  - Diğer branchler genelde bu branchten merge alır.
