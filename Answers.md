@@ -87,3 +87,11 @@ Bu bilgiyi öğrenebilmek için `git branch` komutunu kullanabiliriz. Mevcut yan
 Branch değiştirmek için kullanabildiğimiz komutlar.
 - `git checkout branch_ismi`
 - `git switch branch_ismi` 
+
+## Soru 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+Remote sunucudan sadece belirli bir branch'i çekmek istiyorsak;
+`git clone -b branch_ismi url` komutunu kullanabiliriz.
+ Örneğin **ödev** adında bir branchimiz olsun ve remote sunucudan sadece bu branchi çekmek istiyorsak;
+ 
+  `git clone -b ödev url`
