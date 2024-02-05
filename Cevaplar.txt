@@ -109,6 +109,15 @@ Bu adı github'ı tam bilmediğim zamanlarda önemsemeyip koymuştum. Sonra
 değiştirmek istedim ancak cv'lerde bu şekilde yazdığı için değiştirmedim :)
 
 
+24-main ya da master branch'inin diğer branchlerden farkı nedir?
+Main veya diğer adıyla master branch uygulama ilk oluşturulurken 
+açılan branch'tir. Ancak geliştirme developer branch'i açılıp 
+orda herkes kendine özel branch açıp dallanmasıyla yapılır.
+En son uygulama yayınlandığında main branch'e merge yapılır.
+Not: Master, efendi anlamına geldiği için değiştirilip main yapılmıştır.
+
+
+
 
 
 
