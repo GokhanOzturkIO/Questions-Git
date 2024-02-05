@@ -1,39 +1,39 @@
-1-Git Nedir ?
+1->Git Nedir ?
     Git bir version control sistemidir.
-2-"git pull" ile "git fetch" komutlarının farkı nedir?
+2->"git pull" ile "git fetch" komutlarının farkı nedir?
     Git fetch uzak sunucudaki değişikliklerin durumunu öğrenirken;
     git pull değişikleririn kendini alır.
-3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+3->Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
     -Arkadaşımız commitlerini pushlamamış olabilir.
     -Arkadaşımız kodlarını commitlememiş olabilir.(commitledemen de pushlayamayacağı için push atamamıştır)
     -Biz kodda değişiklik yapıp commitlemediğimiz için pull edemiyor olabilir.
-4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+4->"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
     origin uzak sunuculardan(birden fazla ise) temel olan repoyu,zaten bir tane uzak sunucu reposu var is o repoyu temsil eder.
-5-"HEAD" kelimesi neyi temsil etmektedir?
+5->"HEAD" kelimesi neyi temsil etmektedir?
     Bulunan brachdeki son commit'i ifade eder.
-6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+6->"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
     Son commit den sonra git'in takip ettiği dosyalar arasından değişiklik yapılan dosyaları bir ,sonraki commite kadar tutulduğu yerdir.
-7-"Untracked file" ne demektir?
+7->"Untracked file" ne demektir?
     Git tarafından takip edilmeyen dosya demektir.
-8-".git" klasörünü silersek ne olur?
+8->".git" klasörünü silersek ne olur?
     Daha önce indexlenmiş olan versiyonları kaybederiz, dosyaların en son hali elimizde kalır, fakat eski versiyonlarına erişemeyiz.
-9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
-  Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i kullanarak init etmiş olmalıyız.
-10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+9->Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+    Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i kullanarak init etmiş olmalıyız.
+10->Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
     Branch aynı temelin farklı dalları olarak düşünebiliriz.
     Aynı anda birden fazla kişinin projede çalışmasını kolaylaştırır.
     Yada farklı parametreleri kullanabileceğiniz imkan sağlar.(Örneğin aynı uygulamanın Android 12 üzerine özel bir sürümü olması gibi)
-11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+11->Sıfırdan bir "branch" nasıl oluşturabiliriz?
    "git branch branchAdı" ile yeni branch oluşturabiliriz.
-12-Var olan bir "branch"e nasıl geçebiliriz?
+12->Var olan bir "branch"e nasıl geçebiliriz?
    "git checkout branchAdı" ile branchAdı adlı branche geçiş yapabiliriz.
-13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+13->"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
     "git clone -b branchAdı uzakRepoAdresi" ile repodan istenen branchi çekebiliriz.
-14-"Merge conflict" ne demektir?
+14->"Merge conflict" ne demektir?
     Merge conflict, branch birleşiminde, git pull, git push gibi komutlarda meydana gelecek zıtlaşma durumudur.
-15-"git log" komutu ile hangi bilgileri görebiliriz?
+15->"git log" komutu ile hangi bilgileri görebiliriz?
     commit geçmişini, commit yazarını, commit yazarının email adresini ve commitin atıldığı zaman bilgisini görebiliriz.
-16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+16->"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
     2 farklı durumun(son commit ile son committen sonra yapılan değişiklikleri görebiliriz)
 17->Git reset ile neyi geri alıyoruz?
     Git reset ile belirtilen commit HEAD olarak belirtmeye yarar.Yani commitleri geri alıyoruz.
