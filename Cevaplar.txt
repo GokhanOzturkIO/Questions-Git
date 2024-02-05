@@ -72,5 +72,9 @@ git diff ile iki farklı commit arasındaki farkları görebiliriz.
 17-Git reset ile neyi geri alıyoruz?
 istediğimiz bir commit'e geri dönmemizi sağlar.
 
+18-"git commit" ile "git push" arasındaki fark nedir?
+Git commit ile yaptığımız değişiklikleri yerel git depomuza atarız.
+Git push ile yaptığımız değişiklikleri github'a atmış oluruz.
+
 
 
