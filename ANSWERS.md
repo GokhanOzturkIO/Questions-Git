@@ -19,3 +19,7 @@
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
   - Uzak sunucu
   - Reponuzun uzak sunucudaki halini çekebilirsiniz.
+
+- "HEAD" kelimesi neyi temsil etmektedir?
+  - Mevcut konumunuzu gösterir
+  - Genellikle son commit'i işaret eder.
