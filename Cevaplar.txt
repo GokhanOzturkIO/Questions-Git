@@ -1,0 +1,7 @@
+1-Git Nedir?
+Git bir versiyon kontrol sistemidir. 
+Genelde yazılımcıların beraber çalışmasına olanak sağlar.
+Git sayesinde yazılım geliştirirken yaptığımız güncellemeleri 
+arkadaşlarımızla paylaşabiliriz. Veya bir hata yaptığımızda geriye dönebilmemize
+olanak sağlar. 
+
