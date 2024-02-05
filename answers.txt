@@ -54,3 +54,5 @@
     Github, versionlarını tuttuğumuz repoları saklayabileceğimiz bir uzak sunucu hizmetidir.
     GitLab, Bitbucket, SourceForge gibi servisler Github benzeri servislerdir.
     Github'da kullanıcı adım: AAyar94 , https://github.com/AAyar94 linki ile Github profilime ulaşabilirsiniz.Projelerimde küçük bir sergim var.
+24->main ya da master branch'inin diğer branchlerden farkı nedir?
+    İkiside aynı anlama gelen repodaki ana branchi temsil eder.
