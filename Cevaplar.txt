@@ -69,5 +69,8 @@ commit tarihi, commit'i kimin yaptığı, commit mesajı gibi bilgileri görebil
 git diff ile iki farklı commit arasındaki farkları görebiliriz.
 İki branch arasındaki farkları da görebiliriz. Temelde bu iki amaçla kullanılır.
 
+17-Git reset ile neyi geri alıyoruz?
+istediğimiz bir commit'e geri dönmemizi sağlar.
+
 
 
