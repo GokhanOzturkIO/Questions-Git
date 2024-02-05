@@ -19,3 +19,7 @@
     Daha önce indexlenmiş olan versiyonları kaybederiz, dosyaların en son hali elimizde kalır, fakat eski versiyonlarına erişemeyiz.
 9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
   Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i kullanarak init etmiş olmalıyız.
+10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+    Branch aynı temelin farklı dalları olarak düşünebiliriz.
+    Aynı anda birden fazla kişinin projede çalışmasını kolaylaştırır.
+    Yada farklı parametreleri kullanabileceğiniz imkan sağlar.(Örneğin aynı uygulamanın Android 12 üzerine özel bir sürümü olması gibi)
