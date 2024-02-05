@@ -82,6 +82,12 @@ Ya tüm değişiklikleri commit ederiz veya hiçbirini yapmayız.
 Önce commit attığımızı varsayalım. Sonra pull yapıp githubdaki
 değişiklikleri alıyoruz. Eğer kod çalışmazsa değişiklikler geri alınır.
 
+20-Repository ne demektir?
+Repository, kod depomuzdur. Githubda projemiz için repository oluştururuz.
+Sonra değişikliklerimizi bu repository'e pushlarız.
+
+
+
 
 
 
