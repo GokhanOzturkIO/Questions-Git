@@ -16,3 +16,5 @@ Bu durumda takım arkadaşınızın gönderdiği kodları çekecek olan git pull
 *"HEAD" kelimesi neyi temsil etmektedir?
 
 "HEAD", şu anda çalışılan branch'in son commit'ini ve çalışma kopyasının durumunu gösteren bir referanstır.
+
+
