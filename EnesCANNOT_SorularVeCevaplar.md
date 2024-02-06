@@ -37,3 +37,9 @@ Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yapt�
 
 ---
 
+## 5) "HEAD" kelimesi neyi temsil etmektedir?
+
+"HEAD", Git deposundaki mevcut konumu işaret eden özel bir işaretçidir. Genellikle mevcut çalışma kopyasının veya dalın en son commit'ini gösterir, ancak geçici olarak farklı bir konuma da yönlendirilebilir. Bu, farklı commit'leri, etiketleri veya referansları işaretlemek için kullanılabilir.
+
+---
+
