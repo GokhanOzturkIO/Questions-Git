@@ -73,3 +73,11 @@ kontrollerimizi kaybederiz.
     birbirimizden etkilenmemek için kullandığımız bir yapıdır.
 
 ===============================================================================
+
+11, 12- Sıfırdan bir "branch" nasıl oluşturabiliriz? Var olan bir "branch"e nasıl geçebiliriz?
+
+    "git branch <branch name>" komutuyla bir branch oluşturabiliriz. "git switch <branch name>" komutuyla
+veya "git checkout <branch name>" komutuyla, var olan bir branch'e geçebiliriz. Bir branch'i hem oluşturup
+hem de geçiş yapmak istiyorsak, "git checkout -b <branch name>" komutunu kullanabiliriz.
+
+===============================================================================
