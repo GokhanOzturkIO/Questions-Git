@@ -16,4 +16,6 @@
  bu şablonu Git imize tanımlamalıyız.
 	git config --global init.templateDir ~/templates
 bu kadar artık git init yaptığımızda default olarak gelicektir.
+10- Bizim şuanda yaptığımız gibi proje de kendime ait çalışma alanı sağlıyor.
+bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili projede dallandırma yaparak kolay anlaşılabilirlik sağlarız.
 
