@@ -67,3 +67,10 @@ Commit'in SHA-1 hash değeri
 Commit sahibinin adı ve mail adresi
 Commit tarihi ve saati
 Commit mesajı
+
+- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+3  durumu görebiliriz:
+- Working Directory ile Staging Area arasındaki fark
+- Working Directory ile HEAD arasındaki fark
+- Staging Area ile HEAD arasındaki fark
