@@ -1,4 +1,0 @@
-✔Git Nedir?
- -Git, dağıtık bir versiyon kontrol sistemi (VSC) olarak kullanılan açık kaynaklı bir yazılımdır.
- -Git, geliştiricilere bir projenin dosyalarının kodunun sürümlerini takip etmeye, değişiklikleri taki etmeye ve farklı geliştiriciler arasında işbirliği yapmamızda yardımcı olur.
- -Git sayesinde projemizde geçmişte yapılan değişiklikleri geri dönme, hataları düzeltme ve proje geçmişi görme(kim tarafından,ne zaman,ne yapıldığını) imkanı sağlar.
