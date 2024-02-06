@@ -35,3 +35,8 @@ Answer to question 7:
     Untracked file:Localde bir dosya oluşturulduğunda git'e eklenmediği zaman bu dosya git
     tarafından takip eidlemez. Bu dosyaya untracked file denir. add komutu ile staging area'ya
     eklenirse takip edilebilir hale gelir.
+
+Answer to question 8:
+    git klasörü -> deponun tğm geçmişini, dallarını, ayarlarını içerir. Silersek geçmiş silinir,
+    deponun yönetimi kaybedilir, depo artık git olmaz, değişiklikleri de geri alamayız.
+
