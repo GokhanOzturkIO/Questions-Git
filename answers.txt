@@ -28,3 +28,7 @@ Untracked file, git'in izlemediği ve değişikliklerini takip etmediği bir dos
 *".git" klasörünü silersek ne olur?
 
 ".git" klasörü, bir Git deposunun tüm versiyon kontrol verilerini içerir. Bu klasörü silmek, projenin Git ile yönetilen tüm geçmişini ve yapılandırmasını kaybetmenize neden olur.
+
+*Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+git init komutunu kullandığınızda otomatik olarak bir "ReadMe.md" dosyası oluşturmak için, Git'in bu özelliğini etkinleştirmek için git config komutunu kullanabilirsiniz.
