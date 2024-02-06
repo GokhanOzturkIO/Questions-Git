@@ -40,3 +40,7 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 	template = ~/.git-templates/README.md
 ~/.git-templates klasörünü oluşturun.
     README.md dosyanızı bu klasöre kopyalayın.
+
+- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branch , projenin farklı versiyonlarının geliştirilmesi ya da birden fazla kişinin aynı projede beraber çalışmasını sağlar.Aynı zamanda bir timeline oluşturur ve geçmişi takip etmemizi sağlar.
