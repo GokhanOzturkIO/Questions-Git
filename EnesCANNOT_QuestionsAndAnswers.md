@@ -85,3 +85,9 @@ We can use 2 different ways to solve this type of request:
      ```
 ---
 
+## 10) What is the "branch" structure mentioned in Git? What does it provide us?
+
+In Git, a "branch" is used to manage different versions of a project. Each branch allows the development of a different feature or change. This allows working on multiple features at the same time and isolates risks. It also provides benefits such as parallel development and history preservation.
+
+---
+
