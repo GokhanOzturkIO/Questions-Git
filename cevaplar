@@ -19,3 +19,6 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 
 - "HEAD" kelimesi neyi temsil etmektedir?
   Git ağacında üzerinde çalışılan uç diyebiliriz.Şu anki çalışma konumunuzu temsil eder. Farklı branch ve commitlere geçişimizi sağlar.
+
+  - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+  Git Staging Area , commit'lemeden önce hangi dosya değişikliklerinin kaydedileceğini seçtiğiniz alandır.
