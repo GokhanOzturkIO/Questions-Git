@@ -74,3 +74,7 @@ Commit mesajı
 - Working Directory ile Staging Area arasındaki fark
 - Working Directory ile HEAD arasındaki fark
 - Staging Area ile HEAD arasındaki fark
+
+- Git reset ile neyi geri alıyoruz?
+
+git reset komutu ile HEAD'i (en son commit'i) belirli bir commit'e geri alabilirsiniz.
