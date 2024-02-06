@@ -57,3 +57,8 @@ Answer to question 11:
 Answer to question 12:
     Var olan branch'e geçmek için ->>> git checkout [branch-name] komutu kullanılır. Komut yerine
     projenin yardımcı toollarını kullanabiliriz.
+
+Answer to question 13:
+    Belirli bir branch'i çekmek için ->>> git clone --branch [branch-name] komutu ile istenen
+    branch'i locale clone alabiliriz.
+
