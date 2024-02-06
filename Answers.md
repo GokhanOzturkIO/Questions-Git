@@ -208,4 +208,11 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
 ## Soru 20: Repository ne demektir?
 
     Repository, bir projenin tüm dosyalarını, geçmişini ve konfigürasyon bilgilerini içeren bir depolama ve yönetim yeridir.
-    
+
+## Soru 21: "git tag" nedir? "git branch"’ten farkı nedir?
+
+   -  **git tag** etiketleme işlemi yapar ve genellikle projenin sürüm numarasını veya önemli bir noktayı işaretler.
+
+   -  **git branch** ise proje içinde farklı geliştirme dalları oluşturur ve paralel olarak çalışan farklı özelliklerin veya değişikliklerin ayrı dallarda geliştirilmesini sağlar.
+
+   -  Taglar genellikle sabit bir noktayı işaretlerken, branchler genellikle belirli bir özellik veya geliştirme hattını temsil eder.
