@@ -31,3 +31,4 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 	commit yazarının email adresini 
 	commitin atıldığı zaman bilgisini görebiliriz.
 16-  Working directory'deki değişiklikleri ve son commit arasındaki farkları gösterir.
+17- staging Area kısmına eklenmiş olan dosyaları geri Working directorye çekeriz.
