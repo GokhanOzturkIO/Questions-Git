@@ -62,3 +62,8 @@ Answer to question 13:
     Belirli bir branch'i çekmek için ->>> git clone --branch [branch-name] komutu ile istenen
     branch'i locale clone alabiliriz.
 
+Answer to question 14:
+    Merge Conflict: birleştirme çakışması anlamına gelir. git'te birden fazla branch'in
+    birleştirilmesi sırasında karşılaşılır. farklı branch'lerde yapılan değişikliklerin aynı
+    satırlarda çakışması durumudur. git'in bu çakışma yüzünden branch'leri birleştiremesi sonucu oluşur.
+
