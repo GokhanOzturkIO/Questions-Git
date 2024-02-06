@@ -133,3 +133,9 @@ git clone --single-branch --branch branch_name repository_url
 
 ---
 
+## 14) "Merge conflict" ne demektir?
+
+Merge Conflict, Git'in birleştirme işlemi sırasında değişiklik setlerini otomatik olarak birleştirememesi durumunda ortaya çıkar. Bu durum, genellikle farklı yazılımcıların aynı dosyalarda aynı satırları değiştirmesi veya farklı dallarda yapılan değişikliklerin çakışması sonucunda meydana gelir. Merge conflictler, yazılımcılara çakışmanın olduğu dosyalarda değişiklikleri inceleyip çözümlemeleri için fırsat sunar.
+
+---
+
