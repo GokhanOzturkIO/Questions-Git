@@ -148,3 +148,13 @@ depodur.
 değiştirilip silinebilirken tag, değiştirilemez ve silinemez.
 
 ===============================================================================
+
+22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+    Bu işlem için farklı farklı araçlar var fakat benim en beğendiklerim şu şekilde: 
+        - https://visualizegit.com/
+        - https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+        - https://githistory.xyz/
+        - https://gource.io/
+
+===============================================================================
