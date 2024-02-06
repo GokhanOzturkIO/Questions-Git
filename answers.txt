@@ -1,0 +1,7 @@
+1- Git Nedir?
+
+    Git, bir versiyon kontrol sistemidir. Geliştirdiğimiz bir yazılımı,
+yazdığımız bir kitabı veya basitçe aldığımız notları versiyonlamak ve zaman
+damgasıyla yaptıklarımızı gözden geçirmek için harika bir sistemdir.
+
+===============================================================================
