@@ -159,3 +159,39 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
     Bu komut, Bu komut, belirli iki branch arasındaki değişiklikleri gösterir.
 
 ![](/screenshots/7.png)
+
+## Soru 17: Git reset ile neyi geri alıyoruz?
+`git reset` komutu, Git deposundaki commit geçmişini ve staging alanını yönetmek için kullanılır.
+
+Öncelikle ilk kullanım alanı staging Area kısmına eklenmiş olan dosyaları bu kısımdan kaldırmamıza olanak sağlar.
+
+
+- Yada herhangi bir commite geçmek ve ondan sonraki atılmış olan tüm commitleri silmek için kullanırız.
+
+`git reset commit_id`
+
+Örneğin 1,2,3,4 commitlerimiz var. Ve benim yapmak istediğim 2. commite geçmek aynı zamanda 3. ve 4. commitleride log historyimden silmek istiyorum.
+
+Şimdi bu komutu kullanırken --soft, --hard gibi parametreler alır. Bunlar ne işe yarıyor birde bunlara bakalım.
+
+### `git reset --soft commit_id`
+
+![](/screenshots/8.png)
+
+    Yukarıdaki örneği ele alalım, yani 2.commit'e geçmek istiyorum ve 3. ve 4. commitleri silmek istiyorum. 
+
+    Ama biz 3. ve 4. commitlerde birkaç değişiklik yaptık ve bunları kaybetmek istemiyorum diyorsak bu komutu kullanabiliriz. 
+
+`git reset --soft 04da` komutunu kullanarak istediğim işlemi yapıyorum. Bu işlemi yaptıktan sonra bir git loglarımıza bakalım ve birde status durumumuza bakalım.
+
+![](/screenshots/9.png)
+
+    Yeni logumuza baktığımızda 3. ve 4. commitlerin silindiğini görmüş oluyoruz.
+
+![](/screenshots/10.png)
+
+    Status kısmına baktığımızda ise 3. ve 4. commitlerde yaptığımız değişikler staging Area kısmına eklenmiş.
+
+### `git reset --hard commit_id`
+
+    Yukarıdaki ile aynı işlemi yapar ancak 3. ve 4. commit'de yaptığım değişiklikleri kalıcı olarak siler.
