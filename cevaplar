@@ -1,3 +1,7 @@
 - Git Nedir?
 
 Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişiklikleri kolayca yönetmenizi sağlayan bir dağıtık versiyon kontrol sistemidir.
+
+- "git pull" ile "git fetch" komutlarının farkı nedir?
+
+"git fetch" uzaktaki değişiklikleri getirip gösterirken, "git pull" hem getirir hem de yerel branch'e otomatik merge eder.
