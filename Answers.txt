@@ -96,3 +96,8 @@ Answer to question 19:
     uygulanmasını veya geri alınmasını sağlar. Commitlenen grubun neyi temsil ettiğine göre anlamlı
     bir commit mesajı yazılmalıdır.
 
+Answer to question 20:
+    Repository genellikle projenin dosyalarının vs depolandığı, yönetildiği veritabanı veya yer anlamına
+    gelir. version control system'i tarafından yönetilen proje veya kod deposunu temsil eder. git
+    için bakılırsa projenin kod dosyaları, resimleri, belgeleri vb. ve projenin bilgilerini içeren depodur.
+
