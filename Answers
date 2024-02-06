@@ -74,3 +74,8 @@ Question 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 -> git branch test : test adında bir branch oluşturur fakat ilgili branche geçiş yapmaz
 -> git checkout -b test : test adında bir branch oluşturur ve test branchine geçiş yapar
+
+
+Question 12: Var olan bir "branch"e nasıl geçebiliriz?
+
+-> git checkout branchName: bu komut ile var olan bir branche gçiş yapabiliriz
