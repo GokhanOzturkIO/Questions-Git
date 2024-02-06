@@ -57,3 +57,5 @@
 
 14- Merge Conflict terimi bir dosyada aynı satırda değişikliklerin yapılması ve bu değişikliklerin merge edilmesi sırasında git tarafından çözülemediği
     durumu ifade eder. Manuel olarak çözmemiz beklenir.
+
+15- git log komutu ile commit geçmişini ve commit detaylarını görebiliriz.
