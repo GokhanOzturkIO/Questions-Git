@@ -50,3 +50,11 @@ Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya
 push işlemlerinden etkilenmezler.
 
 ===============================================================================
+
+8- ".git" klasörünü silersek ne olur?
+
+    .git klasörünü silersek, Git tarafından kaydedilen bilgiler silinir ve o klasör artık Git
+Repository'si olmaktan çıkar. Öncesinde commit'leri uzak bir sunucuya push'lamadıysak tüm versiyon
+kontrollerimizi kaybederiz.
+
+===============================================================================
