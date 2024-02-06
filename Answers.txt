@@ -67,3 +67,6 @@ Answer to question 14:
     birleştirilmesi sırasında karşılaşılır. farklı branch'lerde yapılan değişikliklerin aynı
     satırlarda çakışması durumudur. git'in bu çakışma yüzünden branch'leri birleştiremesi sonucu oluşur.
 
+Answer to question 15:
+    log komutu ile; Commit geçmişlerinin benzersiz kimliklerini, yazan kişi bilgileri, tarih ve
+    saat bilgisi ve commit mesajını görebiliriz.
