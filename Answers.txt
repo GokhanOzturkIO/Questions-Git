@@ -70,3 +70,9 @@ Answer to question 14:
 Answer to question 15:
     log komutu ile; Commit geçmişlerinin benzersiz kimliklerini, yazan kişi bilgileri, tarih ve
     saat bilgisi ve commit mesajını görebiliriz.
+
+Answer to question 16:
+    1. Çalışma dosyası (yani henüz staging areaya eklenmemiş dosya) ile Staging area arasındaki
+    farkları görebiliriz.
+    2. Staging area'da bulunan dosya ile son commit arasındaki farkları görebiliriz.
+    3. belirlenen iki farklı commit arasındaki farkları görebiliriz.
