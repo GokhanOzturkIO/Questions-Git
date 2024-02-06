@@ -1,18 +1,19 @@
+
 1- Git Nedir?
 
     Git, bir versiyon kontrol sistemidir. Geliştirdiğimiz bir yazılımı,
-yazdığımız bir kitabı veya basitçe aldığımız notları versiyonlamak ve zaman
-damgasıyla yaptıklarımızı gözden geçirmek için harika bir sistemdir.
+ yazdığımız bir kitabı veya basitçe aldığımız notları versiyonlamak ve zaman
+ damgasıyla yaptıklarımızı gözden geçirmek için harika bir sistemdir.
 
 ===============================================================================
 
 2- "git pull" ile "git fetch" komutlarının farkı nedir?
 
     "git fetch" komutu, uzak sunucudaki değişiklikilerden lokalin haberdar
-olmasını sağlar. Değişiklikleri çekmez. "git pull" komutu ise, "git fetch" komutu ile haberdar
-olduğumuz değişiklikleri lokale çekmemizi sağlar. "git pull" komutu, sadece güncel (çalışılan) 
-branch'deki değişiklikleri çeker. Öncesinde mutlaka "git fetch" komutunun çalıştırılması gerekir.
-Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler oluşabilir.
+ olmasını sağlar. Değişiklikleri çekmez. "git pull" komutu ise, "git fetch" komutu ile haberdar
+ olduğumuz değişiklikleri lokale çekmemizi sağlar. "git pull" komutu, sadece güncel (çalışılan) 
+ branch'deki değişiklikleri çeker. Öncesinde mutlaka "git fetch" komutunun çalıştırılması gerekir.
+ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler oluşabilir.
 
 ===============================================================================
 
@@ -20,7 +21,7 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
  gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 
     "git fetch" komutunu çalıştırmamış olabiliriz. Farklı branch'lerde olabiliriz. Takım arkadaşımız
-sadece commit atıp push'lamayı unutmuş olabilir.
+ sadece commit atıp push'lamayı unutmuş olabilir.
 
 ===============================================================================
 
@@ -39,23 +40,23 @@ sadece commit atıp push'lamayı unutmuş olabilir.
 6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 
     Staging Area, yaptığımız değişiklikleri veya yeni oluşturduğumuz dosyaları, commit'lemeden
-önce tuttuğumuz ara bir bölgedir. Yaptığımız her değişikliği commit'lemek istemeyebiliriz.
-Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya alırız.     
+ önce tuttuğumuz ara bir bölgedir. Yaptığımız her değişikliği commit'lemek istemeyebiliriz.
+ Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya alırız.     
 
 ===============================================================================
 
 7- "Untracked file" ne demektir?
 
     Untracked file, Git tarafından takip edilmeyen dosyaları temsil eder. Bu dosyalar, commit ve
-push işlemlerinden etkilenmezler.
+ push işlemlerinden etkilenmezler.
 
 ===============================================================================
 
 8- ".git" klasörünü silersek ne olur?
 
     .git klasörünü silersek, Git tarafından kaydedilen bilgiler silinir ve o klasör artık Git
-Repository'si olmaktan çıkar. Öncesinde commit'leri uzak bir sunucuya push'lamadıysak tüm versiyon
-kontrollerimizi kaybederiz.
+ Repository'si olmaktan çıkar. Öncesinde commit'leri uzak bir sunucuya push'lamadıysak tüm versiyon
+ kontrollerimizi kaybederiz.
 
 ===============================================================================
 
@@ -63,7 +64,7 @@ kontrollerimizi kaybederiz.
  oluşturulmasını istiyorsak ne yapmalıyız?
 
     Bir template klasörü oluşturup, içerisinde ReadMe.md dosyası oluşturup,
-"git init --template <directory>" komutunu çalıştırarak Git'i başlatabiliriz.
+ "git init --template <directory>" komutunu çalıştırarak Git'i başlatabiliriz.
 
 ===============================================================================
 
@@ -77,8 +78,8 @@ kontrollerimizi kaybederiz.
 11, 12- Sıfırdan bir "branch" nasıl oluşturabiliriz? Var olan bir "branch"e nasıl geçebiliriz?
 
     "git branch <branch name>" komutuyla bir branch oluşturabiliriz. "git switch <branch name>" komutuyla
-veya "git checkout <branch name>" komutuyla, var olan bir branch'e geçebiliriz. Bir branch'i hem oluşturup
-hem de geçiş yapmak istiyorsak, "git checkout -b <branch name>" komutunu kullanabiliriz.
+ veya "git checkout <branch name>" komutuyla, var olan bir branch'e geçebiliriz. Bir branch'i hem oluşturup
+ hem de geçiş yapmak istiyorsak, "git checkout -b <branch name>" komutunu kullanabiliriz.
 
 ===============================================================================
 
@@ -91,61 +92,61 @@ hem de geçiş yapmak istiyorsak, "git checkout -b <branch name>" komutunu kulla
 14- "Merge conflict" ne demektir?
 
     Merge conflict, iki veya daha fazla kişinin çalıştığı bir projede, aynı dosyanın aynı satırını,
-iki veya daha fazla kişi değiştirip, bu değişiklikleri commit'leyip, kendi branch'lerine push'ladıktan
-sonra değişiklikleri master branch'ine merge etmeye çalışırken yaşanan çakışmadır. Çakışma olduğunda
-takım arkadaşlarımızla görüşüp, hangi kodun geçerli olacağına karar vermemiz gerekir.
+ iki veya daha fazla kişi değiştirip, bu değişiklikleri commit'leyip, kendi branch'lerine push'ladıktan
+ sonra değişiklikleri master branch'ine merge etmeye çalışırken yaşanan çakışmadır. Çakışma olduğunda
+ takım arkadaşlarımızla görüşüp, hangi kodun geçerli olacağına karar vermemiz gerekir.
 
 ===============================================================================
 
 15- "git log" komutu ile hangi bilgileri görebiliriz?
 
     "git log" komutu ile, atılan commitleri, commit'lerin id'lerini, commit'leri kimlerin attığını,
-ne zaman attığını, commit mesajını ve eğer güncel branch'e merge edildiyse, commit'lerin hangi
-branch'lerden atıldığını görebiliriz.
+ ne zaman attığını, commit mesajını ve eğer güncel branch'e merge edildiyse, commit'lerin hangi
+ branch'lerden atıldığını görebiliriz.
 
 ===============================================================================
 
 16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 
     "git diff" komutu ile, takip edilen dosyalardaki değişiklikleri görüntüleyebiliriz. Silinen yazıları,
-eklenen yazıları ve silinen dosyaları görüntüleyebiliriz.
+ eklenen yazıları ve silinen dosyaları görüntüleyebiliriz.
 
 ===============================================================================
 
 17- Git reset ile neyi geri alıyoruz?
 
     "git reset" komutu ile, Staging Area'ya aldığımız dosyaları veya değişiklikleri Staging Area'dan
-çıkartarak eski haline döndürebiliriz. Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi
-geri almaz.
+ çıkartarak eski haline döndürebiliriz. Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi
+ geri almaz.
 
 ===============================================================================
 
 18- "git commit" ile "git push" arasındaki fark nedir?
 
     "git commit" komutu, değişikliklerimizi ve versiyonlarımızı lokale kaydeder. "git push" ise,
-değişikliklerimizi ve versiyonlarımızı uzak sunucuya kaydeder, orada saklar.
+ değişikliklerimizi ve versiyonlarımızı uzak sunucuya kaydeder, orada saklar.
 
 ===============================================================================
 
 19- Atomic commit ne demektir?
 
     Atomic commit, tek bir iş yapan, geri alınması kolay ve zahmetsiz olan, yapılan işi tam anlamıyla
-açıklayan, kısa ve öz commit mesajıdır.
+ açıklayan, kısa ve öz commit mesajıdır.
 
 ===============================================================================
 
 20- Repository ne demektir?
 
     Repository, versiyonladığımız şeylerin tutulduğu, lokalde veya uzak sunucuda bulunabilen bir
-depodur.
+ depodur.
 
 ===============================================================================
 
 21- "git tag" nedir? "git branch"’ten farkı nedir?
 
     "git tag" komutu, kilometretaşı tarzında bir yapıdır. Projenin anlık snapshot'ını alır.
-"git branch" komutu ise, farklı geliştirme yolları oluşturmak için kullanılır. Branch,
-değiştirilip silinebilirken tag, değiştirilemez ve silinemez.
+ "git branch" komutu ise, farklı geliştirme yolları oluşturmak için kullanılır. Branch,
+ değiştirilip silinebilirken tag, değiştirilemez ve silinemez.
 
 ===============================================================================
 
@@ -163,7 +164,7 @@ değiştirilip silinebilirken tag, değiştirilemez ve silinemez.
  GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
     Git, bir versiyon kontrol sistemidir. GitHub ise, Git ile versiyonladığımız dosyaları ve
-klasörleri tutabildiğimiz bir depolama hizmetidir.
+ klasörleri tutabildiğimiz bir depolama hizmetidir.
   GitHub benzeri siteler şu şekildedir:
         - https://about.gitlab.com/
         - https://bitbucket.org/
@@ -173,7 +174,7 @@ klasörleri tutabildiğimiz bir depolama hizmetidir.
 24- main ya da master branch'inin diğer branchlerden farkı nedir?
 
     Master branch'i, projenin ana branch'idir. Geliştirmeler farklı branch'lerde yapılıp
-en son master branch'ine merge edilir. Master branch'ini, bir uygulamanın hataları ayıklanmış,
-stable versiyonu olarak düşünebiliriz.
+ en son master branch'ine merge edilir. Master branch'ini, bir uygulamanın hataları ayıklanmış,
+ stable versiyonu olarak düşünebiliriz.
 
 ===============================================================================
