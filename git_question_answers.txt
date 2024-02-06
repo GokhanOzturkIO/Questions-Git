@@ -41,4 +41,9 @@
 		# İlk commit'i yap
 		git commit -m "Initial commit with ReadMe.md"
 
+
+
+10- Branch yapısı, ekiplerin birbirlerinin çalışmalarını etkilemeden paralel olarak çalışabilmesine olanak tanır ve 
+    kodun ana dalına (master veya development) birleştirilmeden önce ayrı bir şekilde geliştirilip test edilmesine imkan verir.
+
 	
