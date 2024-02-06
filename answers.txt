@@ -1,0 +1,12 @@
+✔Git Nedir?
+ -Git, dağıtık bir versiyon kontrol sistemi (VSC) olarak kullanılan açık kaynaklı bir yazılımdır.
+ -Git, geliştiricilere bir projenin dosyalarının kodunun sürümlerini takip etmeye, değişiklikleri taki etmeye ve farklı geliştiriciler arasında işbirliği yapmamızda yardımcı olur.
+ -Git sayesinde projemizde geçmişte yapılan değişiklikleri geri dönme, hataları düzeltme ve proje geçmişi görme(kim tarafından,ne zaman,ne yapıldığını) imkanı sağlar.
+
+✔ "git pull" ile "git fetch" komutlarının farkı nedir?
+  -"git fetch" komuutu değişikliklerden haberder olmamızı sağlar değişikliklerin ne olduğunu gösterir ama lokal branchine almaz. 
+  -"git pull" ise uzak sunucudaki ilgili branchte ne varsa lokaline alır.
+
+✔Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+   - kodlarını pushlamamış olabilir.
+   - git fetch yapmamış olabilir.
