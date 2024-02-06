@@ -133,3 +133,10 @@ değişikliklerimizi ve versiyonlarımızı uzak sunucuya kaydeder, orada saklar
 açıklayan, kısa ve öz commit mesajıdır.
 
 ===============================================================================
+
+20- Repository ne demektir?
+
+    Repository, versiyonladığımız şeylerin tutulduğu, lokalde veya uzak sunucuda bulunabilen bir
+depodur.
+
+===============================================================================
