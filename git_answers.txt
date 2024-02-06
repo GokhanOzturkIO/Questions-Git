@@ -61,7 +61,9 @@
 20.Repository ne demektir?
 - Dosyalarin ve dosyalardaki degisikliklerin uzak bir sunucuda depolanmasidir. Repository projenin butun versiyoon sistemini icerir.
 
-"git tag" nedir? "git branch"’ten farkı nedir?
+21."git tag" nedir? "git branch"’ten farkı nedir?
+- Projelerde release'ler yapilir. yapilan bu release'lere tag eklenirse istenilen zaman o release'e tag kullanilarak direkt erisilebilir.
+
 Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 main ya da master branch'inin diğer branchlerden farkı nedir?
