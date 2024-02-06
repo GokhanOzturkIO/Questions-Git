@@ -42,7 +42,9 @@
 14."Merge conflict" ne demektir?
 - Bir projede aynı dosyanın aynı satırında iki farkli degisiklik varsa, bunlar cakisabilir, git hangsini kullanacagini secemez. Onemli olan degisiklik digerleri tarafindan ezilebilir.
 
-"git log" komutu ile hangi bilgileri görebiliriz?
+15."git log" komutu ile hangi bilgileri görebiliriz?
+- Her yapilan commit islemi icin bir hashcode olusturulur. Bu sayede yapilan iki commit arasindaki degisiklikleri gorebilriiz. Commit'i yapan kisinin ismi, emaili, ve commit yaptigi tarh ve commit mesaji gorulebilir.
+
 "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 Git reset ile neyi geri alıyoruz?
 "git commit" ile "git push" arasındaki fark nedir?
