@@ -204,3 +204,8 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
 
     Her bir commitin tek bir mantıksal değişiklikle ilişkili olan commit mesajları atmaktır. 
     Örneğin, bir projede bir özellik ekleniyorsa, bu özellikle ilgili tüm kod parçaları, testler ve dokümantasyonlar tek bir commit içinde toplanarak bir atomic commit oluşturulabilir.
+
+## Soru 20: Repository ne demektir?
+
+    Repository, bir projenin tüm dosyalarını, geçmişini ve konfigürasyon bilgilerini içeren bir depolama ve yönetim yeridir.
+    
