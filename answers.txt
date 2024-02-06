@@ -18,7 +18,6 @@
    -Bağlı olduğumuz branchtaki en son yapılmış olan commit'i temsil etmektedir.
 
 ✔ "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
-
    -Bir sonraki commit'e eklemek istediğiniz değişiklikleri geçici olarak depoladığımız yer.
 
  
