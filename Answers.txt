@@ -40,3 +40,6 @@ Answer to question 8:
     git klasörü -> deponun tğm geçmişini, dallarını, ayarlarını içerir. Silersek geçmiş silinir,
     deponun yönetimi kaybedilir, depo artık git olmaz, değişiklikleri de geri alamayız.
 
+Answer to question 9:
+    ############# Bu sorunun cevabından çok emin olamadığım için biraz araştırıp deneyerek cevabımı
+    güncelleyeceğim. #############
