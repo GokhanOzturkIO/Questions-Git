@@ -3,3 +3,8 @@ Soru 1 - Git nedir ?
 	olanak verir ve ekip çalışmasını daha kolay, düzenli hale getirir. Daha da açmak gerekirse projede yapılan değişiklikleri git ile beraber eş zamanlı
 	olarak kaydedebilir ve yapılan değişiklikleri takip edebiliriz.
 
+Soru 2 - Git pull ile git fetch komutlarının farkı nedir ?
+	-> Git fetch komutu ile uzak sunucuda bulunan değişikliklerden haberdar oluruz. Git pull komutunu kullanarak da bu değişiklikleri kendi lokal sunucumuza
+	çekeriz.
+
+
