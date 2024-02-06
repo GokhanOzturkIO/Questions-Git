@@ -26,3 +26,7 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 - "Untracked file" ne demektir?
 
 "Untracked file", Git deposunda hiç kaydedilmemiş dosya anlamına gelir.
+
+-".git" klasörünü silersek ne olur?
+
+.git klasörü geçmişin ve değişikliklerin kayıtlarının tutulduğu yerdir.Silinirse tüm her şey yok olur.
