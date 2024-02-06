@@ -24,3 +24,7 @@ Staging Area veya Index, değişikliklerin commit edilmek üzere hazırlandığ�
 *"Untracked file" ne demektir?
 
 Untracked file, git'in izlemediği ve değişikliklerini takip etmediği bir dosyadır. Genellikle bu dosyalar projeye yeni eklenmiş veya ignore edilmiş dosyalardır
+
+*".git" klasörünü silersek ne olur?
+
+".git" klasörü, bir Git deposunun tüm versiyon kontrol verilerini içerir. Bu klasörü silmek, projenin Git ile yönetilen tüm geçmişini ve yapılandırmasını kaybetmenize neden olur.
