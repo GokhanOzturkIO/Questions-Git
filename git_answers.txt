@@ -64,7 +64,9 @@
 21."git tag" nedir? "git branch"’ten farkı nedir?
 - Projelerde release'ler yapilir. yapilan bu release'lere tag eklenirse istenilen zaman o release'e tag kullanilarak direkt erisilebilir.
 
-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+22.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+- websiteleri: visualize.git , git historyxyz , gource.io , uygulamalar: sourcetree , gitkareken , tower, git desktop
+
 "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 main ya da master branch'inin diğer branchlerden farkı nedir?
 
