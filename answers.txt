@@ -23,4 +23,7 @@
 ✔"Untracked file" ne demektir?
    -İzlenmeyen dosya, commit'e eklenmemiş ve takip edilmeyen dosya diyebiliriz.
 
- 
+✔".git" klasörünü silersek ne olur?
+   Git'in tüm versiyon kontrol bilgileri, uzak bağlantı bilgileri , branch ve commit bilgilerimiz kaybolur. Yeniden git'i initialize etmemiz gerekecek.
+
+
