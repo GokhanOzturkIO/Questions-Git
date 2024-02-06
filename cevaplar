@@ -83,3 +83,7 @@ git reset komutu ile HEAD'i (en son commit'i) belirli bir commit'e geri alabilir
 
 git commit yapılan değişiklikleri yerel depoya kaydeder, ve staging alanına alır.
 git push ise yerel depodaki staging aşamasındaki değişiklikleri uzak depoya gönderir.
+
+- Atomic commit ne demektir?
+
+Her bir commitin tek bir değişikliği temsil etmesi anlamına gelir.Mümkün olduğunca Single Responsibility prensibine uygun commitler yaratmayı hedefler.
