@@ -30,3 +30,13 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 -".git" klasörünü silersek ne olur?
 
 .git klasörü geçmişin ve değişikliklerin kayıtlarının tutulduğu yerdir.Silinirse tüm her şey yok olur.
+
+- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+~/.gitconfig dosyasınının içine aşağıdaki satırları eklenir:
+[init]
+	defaultBranch = main
+	bare = false
+	template = ~/.git-templates/README.md
+~/.git-templates klasörünü oluşturun.
+    README.md dosyanızı bu klasöre kopyalayın.
