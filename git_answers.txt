@@ -1,2 +1,6 @@
 1.Git Nedir?
 - Git bir versiyon kontrol sistemidir. Linus Turvolds tarafindan Linux çekirdeginin gelisititrlmesi icin 2005 yilinda olusturulmustur. Git sayesinde birden fazla gelistirici es zamanli projelerde calisabilir ve projelerin farklı versiyonlarının kopyalarını alarak daha sonra kullanmak uzere bu kopyalara donebilir.
+
+2."git pull" ile "git fetch" komutlarının farkı nedir?
+- git fetch -> Uzak sunucudaki degisikliklerden localdeki bilgisayarin haberdar olmasini saglar. Local'deki kod ile uzak sunucudaki kolu karsilastirir.
+  git pull -> Hangi branch'te calisiliyorsa, o branchte yapilan degisiklikleri locak bilgisayara cekmek.
