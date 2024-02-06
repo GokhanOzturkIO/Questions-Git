@@ -95,3 +95,14 @@ Remote sunucudan sadece belirli bir branch'i çekmek istiyorsak;
  Örneğin **ödev** adında bir branchimiz olsun ve remote sunucudan sadece bu branchi çekmek istiyorsak;
  
   `git clone -b ödev url`
+
+  ## Soru 14: "Merge conflict" ne demektir?
+
+ Developerlar farklı branchler üzerinde çalışıp işlerini bitirdikten sonra bunları tek bir branch üzerinde birleştirmemiz gerekir.
+
+ Ama bu aşamada eğer geliştiriciler 
+ - aynı dosya üzerinde aynı satırda değişiklik yaptılarsa, 
+ - veya birisi dosyayı silmişken, diğer geliştirici o dosya üzerinde başka bir değişiklik yaptı ise
+
+ bu durumda **merge conflict** meydana gelir.
+ Ekip üyeleri meydana gelen bu çatışmayı manuel olarak düzetlmek zorundadır.
