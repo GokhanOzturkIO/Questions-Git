@@ -1,7 +1,7 @@
 
 Answer to question 1:
-    Dosyalar üzerinde versiyonlama yapabilmeyi sağlar. Dosyalar üzerinde birden çok kişi çalışıyorsa
-     takibi kolaylaştırır. (VCS, Versiyon kontrol sistemi)
+    git: Dosyalar üzerinde versiyonlama yapabilmeyi sağlar. Dosyalar üzerinde birden çok kişi
+    çalışıyorsa takibi kolaylaştırır. (VCS, Versiyon kontrol sistemi)
 
 Answer to question 2:
     git fetch: uzak sunucuda olan değişiklikleri sadece bildirir. Haber verir, localde
@@ -26,4 +26,8 @@ Answer to question 4:
 
 Answer to question 5:
     Head: Üzerinde çalışılan branch'ın son commitlerini temsil eder. Çalışılan son sürüm.
+
+Answer to question 6:
+    Staging Area: Localde yaptığımız değişiklikleri commitleyerek staging area kısmına almış oluruz.
+    Githuba eklemez fakat ara bölgeye ekler. Remote sunucuda gözükmez (push'layana kadar).
 
