@@ -1,0 +1,1 @@
+1- Git yazılım geliştirmede kullandığımız bir versiyon kontrol sistemidir.
