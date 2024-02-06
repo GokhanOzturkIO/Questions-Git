@@ -51,5 +51,11 @@ Soru 12 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece
 Soru 13 - "Merge conflict" ne demektir?
 	-> Aynı proje üzerinde çalışan kişilerin benzer satırlarda veya dosyalarda yaptıkları değişikliklerin çakışması.
 
+Soru 14 - "git log" komutu ile hangi bilgileri görebiliriz?
+	-> 1 ) Commit ID - Git tarafından oluşturulur.
+	   2 ) Author - Git üzerinde yapılan config ayarlarında girdiğimiz kullanıcı adı ve mail bilgileri. Kısaca commit'in kim tarafından atıldığı.
+	   3 ) Date - Commit'in atılma tarihi ve saati
+	   4 ) Commit Message - Commit atılırken girilen commit mesajı
+
 
 
