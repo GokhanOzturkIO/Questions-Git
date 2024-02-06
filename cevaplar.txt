@@ -62,5 +62,9 @@ Soru 15 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri g
 	   2 ) Staging area'da olan dosyalar üzerindeki değişiklikler
 	   3 ) İki commit arası değişiklikler
 
+Soru 16 - Git reset ile neyi geri alıyoruz?
+	-> git reset komutunu kullanarak git add ile staging area'ya taşıdığımız dosyaları staging area'dan çıkartırız. Dosyalar üzerindeki değişikliklerin geri alındığı
+	anlamına gelmez.
+
 
 
