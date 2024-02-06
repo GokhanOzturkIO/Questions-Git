@@ -111,3 +111,18 @@ branch'lerden atıldığını görebiliriz.
 eklenen yazıları ve silinen dosyaları görüntüleyebiliriz.
 
 ===============================================================================
+
+17- Git reset ile neyi geri alıyoruz?
+
+    "git reset" komutu ile, Staging Area'ya aldığımız dosyaları veya değişiklikleri Staging Area'dan
+çıkartarak eski haline döndürebiliriz. Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi
+geri almaz.
+
+===============================================================================
+
+18- "git commit" ile "git push" arasındaki fark nedir?
+
+    "git commit" komutu, değişikliklerimizi ve versiyonlarımızı lokale kaydeder. "git push" ise,
+değişikliklerimizi ve versiyonlarımızı uzak sunucuya kaydeder, orada saklar.
+
+===============================================================================
