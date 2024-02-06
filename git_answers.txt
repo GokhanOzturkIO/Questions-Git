@@ -18,7 +18,9 @@
 6."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - Local area ve uzak sunucu arasindaki bolgedir. Dosyalari git add komutu ile bu bolgeye gonderip git ile takip edilmesini saglariz. Yapilan degisiklikleri staging areaya eklemek uzak sunucudaki kodu degistirmez.
 
-"Untracked file" ne demektir?
+7."Untracked file" ne demektir?
+- git init ile git'i baslattigimiz klasorde git add ile yapilan degisiklikleri staging areaya eklemediysek , dosya git tarafindan takip edilemez. Bu nedenle untracked file olarak adlandirilir. 
+
 ".git" klasörünü silersek ne olur?
 Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
