@@ -27,3 +27,8 @@ Question 3: Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştir
 Question 4: "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
 -> Bir projenin uzak sunucudaki(remote) ana kaynağını temsil eder.
+
+
+Question 5: "HEAD" kelimesi neyi temsil etmektedir?
+
+-> "HEAD" aslında bir kısayol yani alias tır. Git'te olan mevcut çalışma durumumuzu yani bulunduğumuz branchteki en son/en yeni commiti temsil eder.
