@@ -43,4 +43,5 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 	git tag belirli bir commit üzerine etiketleme yapar genelde bir sürüm bilgisi olur ve sabitdir değiştirilemez
 	git branch projede bağımsız geliştirme dalları oluşturmamızı sağlar
 22- Kullanılan ide içinde gelen git arayüzleri, Github Desktop, SourceTree, GitKraken, SmartGit, Magit, RepoZ, GitViewer, Glint
-
+23-Github bir hostingdir uzak sunucu ve işbiriliği imkanı sağlar. Git ise projenin geçmiş takibini değişiklikleri takip eder.
+GitLab,Github,Bitbucket vb
