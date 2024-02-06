@@ -1,0 +1,2 @@
+Answer to question 1: Dosyalar üzerinde versiyonlama yapabilmeyi sağlar. Dosyalar üzerinde birden
+çok kişi çalışıyorsa takibi kolaylaştırır. (VCS, Versiyon kontrol sistemi)
