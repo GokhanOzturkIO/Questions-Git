@@ -13,3 +13,20 @@ Git is the most widely used version control system in the world. It is a free an
 `git fetch` is safer as it only downloads new data, while `git pull` integrates it into your current working copy files, which can cause conflicts and changes that require manual resolution.
 
 ---
+
+## 3) If our teammate says "I sent my codes, continue with my development" and we cannot get the codes she/he sent to our local location with "git pull", what could be a mistake?
+
+If your teammate says that she/he has sent her/his codes, but you are unable to get those codes locally with git pull, there could be several reasons for this. Here are some common mistakes to check:
+
+- **Repository not pushed to remote:** 
+Ensure that your teammate has pushed her changes to the remote repository. If not, you will not be able to get those changes with git pull.
+
+- **Incorrect branch name:** 
+Check that you are using the correct branch name for your teammate's code. You can use git branch -a to see a list of all available branches.
+
+- **Permissions issue:** 
+Check if there are any permission issues with the remote repository. If you don't have the necessary permissions to pull changes, you will not be able to get the latest changes.
+
+By checking for these common mistakes, you can identify and resolve any issues with getting your teammate's latest changes with git pull.
+
+---
