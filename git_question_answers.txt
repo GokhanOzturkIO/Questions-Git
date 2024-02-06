@@ -1,1 +1,9 @@
 1- Git yazılım geliştirmede kullandığımız bir versiyon kontrol sistemidir.
+
+2- git pull remote'daki değişiklikleri lokalimizde çalıştığımız branche çeker ve merge eder. git fetch ise sadece değişiklikleri çeker.
+
+	-Örnek "git pull": Arkadaşımız ile aynı branchte çalışıyoruz ve kendisi işlerini bitirdi ve pushladı. Bu değişiklikleri kendi lokalimize çekmemiz için git pull
+	komutunu kullanırız.
+	
+	-Örnek "git fetch": Arkadaşımız yeni bir branch açtı ve pushladı. Fakat takıldığı bir yer var bizim bakmamız gerekiyor. Yeni açılan branchi lokalimize çekebilmemiz
+	için öncelikle git fetch komutu ile remote'daki değişiklikleri getirmemiz gerekir.
