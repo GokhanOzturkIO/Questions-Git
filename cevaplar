@@ -87,3 +87,7 @@ git push ise yerel depodaki staging aşamasındaki değişiklikleri uzak depoya 
 - Atomic commit ne demektir?
 
 Her bir commitin tek bir değişikliği temsil etmesi anlamına gelir.Mümkün olduğunca Single Responsibility prensibine uygun commitler yaratmayı hedefler.
+
+- Repository ne demektir?
+
+Yerel ve uzak olmak üzere dosyaların ve değişikliklerin kaydedildiği yerdir.
