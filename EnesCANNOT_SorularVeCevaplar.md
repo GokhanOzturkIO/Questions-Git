@@ -123,3 +123,13 @@ git checkout branch_name
 
 ---
 
+## 13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+git clone komutunu kullanırken, yalnızca belirli bir branc'i çekmek istiyorsak, klonlamak istediğimiz branch'i belirtmek için --branch veya -b seçeneği ile birlikte --single-branch seçeneğini kullanabiliriz. İşte nasıl yapılacağı:
+
+```bash
+git clone --single-branch --branch branch_name repository_url
+```
+
+---
+
