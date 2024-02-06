@@ -68,3 +68,9 @@ Question 10: Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar
     -> Yeni bir özelliğin live a geçmeden(son kullanıcı ile buluşmadan) gerekli testlerin yapılmasına olanak sağlar.
     -> Bir projenin farklı versiyonlarını ve sürümlerini kontrol etmeyi kolaylaştırır. Sürümlerde oluşan hataları bağımsız olarak çözmeyi kolaylaştırır.
     -> Branchlerin birbirinden bağımsız olması nedeni ile yanlış yapılan işlerde değişiklik yapılmasını ve geri alınmasını  kolaylaştırır.
+
+
+Question 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+-> git branch test : test adında bir branch oluşturur fakat ilgili branche geçiş yapmaz
+-> git checkout -b test : test adında bir branch oluşturur ve test branchine geçiş yapar
