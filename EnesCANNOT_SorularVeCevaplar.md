@@ -61,3 +61,27 @@ Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yapt�
 
 ---
 
+## 9) Kendi lokalimizde her "git init" komutunu kullandığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Bu tarz bir isteğin çözümü için 2 farklı yol kullanabiliriz:
+
+- 1.1 Öncelikle herhangi bir yerde git şablonumuzu bulundurabilmek için bir klasör açıyoruz.
+    ```bash
+    mkdir ~/.git-templates
+    ```
+- 1.2 Daha sonrasında şablon içeriğimizi bir dosyaya yazdıktan sonra açtığımız git şablonları klasörüne ekliyoruz.
+    ```bash
+    echo "# My Project" > ~/.git-templates/ReadMe.md
+    ```
+- 1.3 Son olara git yapılandırmasını güncelleyerek init.templatedir özelliğini kendi özel şablon dizininize işaret edecek şekilde ayarlıyoruz.
+    ```bash
+    git config --global init.templatedir ~/.git-templates
+    ```
+--
+- 2.1 Bir önceki çözüm yolunda olduğu gibi burada da bir şablonumuzun olması gerekiyor. Şablonumuzun olduğunu varsayarak diğer adıma geçiyorum.
+- 2.2 Bu adımda ise şu şekilde bir şablonumuzun olduğunu git'i başlatacağımız sırada parametre olarak veriyoruz.
+    ```bash
+    git init --template=~/.git-template
+    ```
+
+---
