@@ -77,5 +77,10 @@ Soru 18 - Atomic commit ne demektir?
 Soru 19 - Repository ne demektir?
 	-> Herhangi bir proje içerisinde bulunan dosyaların, bilgilerin tutulduğu bir depo anlamına gelir.
 
+Soru 20 - "git tag" nedir? "git branch"’ten farkı nedir?
+	-> git tag kullanarak istediğimiz bir commit'e etiket verebiliriz. Bu sayede fazla sayıda olan commitler arasında karışıklık yaşamamış oluruz. Git branch'den farkı
+	ise branch'ler sürekli eklenip silinirler, etiketler ise sonsuza kadar kalma eğilimindedir. Branch'ler dinamik, etiketler ise sabittir. Yani branch’ler bir süreç 
+	için varlar. Etiketler ise bir geliştirmenin sonucunu işaretlemek için varlar.
+
 
 
