@@ -60,3 +60,10 @@ git clone -b [branchname] [url]
 - "Merge conflict" ne demektir?
 
 Birden fazla branchte yapılan değişiklikleri birleştirmeye çalışırken, aynı dosyanın farklı sürümlerinde farklı değişiklikler yapıldığında oluşan çakışmalara "merge conflict" denir.
+
+- "git log" komutu ile hangi bilgileri görebiliriz?
+
+Commit'in SHA-1 hash değeri
+Commit sahibinin adı ve mail adresi
+Commit tarihi ve saati
+Commit mesajı
