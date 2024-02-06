@@ -30,3 +30,10 @@ Uzak sunucuda herhangi bir izin sorunu olup olmadığını kontrol etmeliyiz. De
 Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yaptığı en son değişiklikleri almayla ilgili sorunları tanımlayabilir ve bu sorunları çözebiliriz.
 
 ---
+
+## 4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+`git fetch origin` komutundaki `origin`, değişiklikleri almak istediğiniz uzak depoya atanan varsayılan adı temsil eder. Genellikle bir Git deposunu klonladığınızda orijinal depo URL'sine verilen takma addır. Bu, kısa ve akılda kalıcı bir ad kullanarak uzak depoya başvurmanıza olanak tanır.
+
+---
+
