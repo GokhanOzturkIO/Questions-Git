@@ -24,3 +24,4 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 
 12- git checkout branch_ismi
     git switch branch_ismi   
+13-git clone -b branch_ismi URL
