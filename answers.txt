@@ -39,4 +39,70 @@ Bu komut, git init komutunu kullandığınızda otomatik olarak bir "ReadMe.md" 
 
 Branch, projenin farklı çalışma kopyalarını temsil eden ve bağımsız olarak geliştirme yapılmasını sağlayan bir kavramdır. Branch'ler, yeni özellikler eklemek, hataları düzeltmek veya denemeler yapmak için kullanılır. Ana branch genellikle main veya master olarak adlandırılır.
 
-*
+*Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+Yeni bir branch oluşturmak için git branch <branch_name> komutunu kullanabilirsiniz.
+
+*Var olan bir "branch"e nasıl geçebiliriz?
+
+Var olan bir branch'e geçmek için git checkout <branch_name> komutunu kullanabilirsiniz.
+
+*"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+Belirli bir branch'i sadece çekmek için git clone -b <branch_name> <repository_url> komutunu kullanabiliriz.
+
+git clone -b main https://github.com/example/example.git
+
+
+*"Merge conflict" ne demektir?
+
+Merge conflict, farklı branch'lerde yapılan değişikliklerin aynı dosya veya satırlara dokunduğunda ortaya çıkar. Git, bu değişiklikleri otomatik olarak birleştiremez ve çakışmayı çözmeniz gerektiğinde merge conflict oluşur.
+
+*"git log" komutu ile hangi bilgileri görebiliriz?
+
+git log, commit geçmişini gösterir. Her commit için commit ID'si, yazar, tarih, ve commit mesajı gibi bilgileri içerir.
+
+*"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+git diff, iki durum arasındaki farkları gösterir. Örneğin, çalışma kopyası ile Staging Area arasındaki farkları veya farklı commit'ler arasındaki değişiklikleri gösterebilir.
+
+*Git reset ile neyi geri alıyoruz?
+
+git reset, commit geçmişindeki bir değişikliği geri almak için kullanılır. Bağlı olduğu komut ve parametrelere bağlı olarak, staging alanını veya çalışma kopyasını geri alabilir veya commit geçmişindeki değişiklikleri geri alabiliriz.
+git reset --hard HEAD~1
+
+*"git commit" ile "git push" arasındaki fark nedir?
+
+git commit, yerel çalışma kopyasındaki değişiklikleri commit etmek için kullanılırken, git push, yerel commit'leri uzak bir depoya (genellikle GitHub gibi) göndermek için kullanılır.
+git push origin main
+
+*Atomic commit ne demektir?
+
+Atomic commit, bir commit'in bir işlev veya değişiklik grubunu tamamen temsil etmesi anlamına gelir. Bir commit, bir projede yapılan belirli bir değişikliği ifade etmelidir ve mantıksal olarak bağlantılı değişiklikler bir arada commit edilmelidir.
+
+git add answers.txt
+git commit -m "Answered: What is an atomic commit in Git?"  gibi
+
+*Repository ne demektir?
+
+Repository (Depo), bir projenin tüm dosyalarını, geçmişini ve versiyon kontrol bilgilerini içeren bir yerdir. Bir Git repository, bir projenin tüm versiyon kontrol bilgilerini içerir.
+
+*"git tag" nedir? "git branch"’ten farkı nedir?
+
+git tag, belirli bir commit'e bir etiket atamak için kullanılırken, git branch, farklı geliştirme yollarını temsil eden çalışma kopyaları oluşturmak için kullanılır.
+git tag v1.0
+git branch feature-branch
+
+*Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+Git'i görsel olarak kullanmak için GitHub Desktop, Sourcetree, GitKraken gibi üçüncü taraf araçlarını ve uygulamalarını kullanabiliriz.
+
+*"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git, dağıtık bir versiyon kontrol sistemi iken, GitHub, Git deposu barındırma hizmetidir. GitHub'a benzer diğer siteler arasında GitLab, Bitbucket, SourceForge gibi siteler bulunmaktadır.
+
+
+*main ya da master branch'inin diğer branchlerden farkı nedir?
+
+main veya master branch, genellikle projenin ana geliştirme dalını temsil eder. Diğer branch'ler ise genellikle main veya master branch'ten ayrılan ve belirli bir özelliği, hata düzeltmesini veya denemeyi temsil eder.
+
