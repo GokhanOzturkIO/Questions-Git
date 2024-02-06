@@ -45,7 +45,10 @@
 15."git log" komutu ile hangi bilgileri görebiliriz?
 - Her yapilan commit islemi icin bir hashcode olusturulur. Bu sayede yapilan iki commit arasindaki degisiklikleri gorebilriiz. Commit'i yapan kisinin ismi, emaili, ve commit yaptigi tarh ve commit mesaji gorulebilir.
 
-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+16."git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+- 1. local'deki degisiklikleri gorebiliriz.
+  2. staging area'daki degisiklikleri gorebiliriz. (git diff --staged komutu ile)
+
 Git reset ile neyi geri alıyoruz?
 "git commit" ile "git push" arasındaki fark nedir?
 Atomic commit ne demektir?
