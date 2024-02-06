@@ -244,3 +244,11 @@ Git: Bir sürüm kontrol sistemi olarak, projelerin lokal makinelerde depolanmas
 GitHub: Git depolarını barındıran ve sosyal özellikler sunan bir platformdur. GitHub üzerinden projelerinizi paylaşabilir, işbirliği yapabilir ve diğer geliştiricilerle etkileşimde bulunabilirsiniz.
 
 Gitlab, Bitbucket, SourceForge gibi siteler örnek olarak verilebilir.
+
+## Soru 24: main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Main veya master branchi git reposu oluşturulduğunda otomatik olarak oluşturulan ve varsayılan bir branchdir.
+
+Bu brancler, genellikle test edilmiş, stabil ve güvenilir bir durumu temsil eder. 
+Bu branch üzerinde var olan kodların sorunsuz bir şekilde çalıştığı ve canlıda olan kod
+olarak temsil edilir.
