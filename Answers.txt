@@ -1,2 +1,9 @@
 Answer to question 1: Dosyalar üzerinde versiyonlama yapabilmeyi sağlar. Dosyalar üzerinde birden
 çok kişi çalışıyorsa takibi kolaylaştırır. (VCS, Versiyon kontrol sistemi)
+
+Answer to question 2:
+    git fetch: uzak sunucuda olan değişiklikleri sadece bildirir. Haber verir, localde
+    çalıştığımız dosyada bir değişiklik yapmaz.
+    git pull: fetch gibi değişiklikleri bildirir fakat aynı zamanda değişiklikleri localde
+    çalıştığımız dosyaya çeker.
+
