@@ -195,3 +195,7 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
 ### `git reset --hard commit_id`
 
     Yukarıdaki ile aynı işlemi yapar ancak 3. ve 4. commit'de yaptığım değişiklikleri kalıcı olarak siler.
+
+## Soru 18: `git commit` ile `git push` arasındaki fark nedir?  
+
+    git commit lokalde değişiklikleri kaydetmek için kullanılırken, git push bu değişiklikleri uzak bir depoya göndermek ve diğerlerinin erişimine açmak için kullanılır.
