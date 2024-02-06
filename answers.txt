@@ -12,3 +12,7 @@ Bu durumda takım arkadaşınızın gönderdiği kodları çekecek olan git pull
 *"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
 "origin", uzak depoyu (örneğin GitHub repository'sini) adlandırmak için kullanılan bir takma addır. Genellikle projenin ana depo adını ifade eder.
+
+*"HEAD" kelimesi neyi temsil etmektedir?
+
+"HEAD", şu anda çalışılan branch'in son commit'ini ve çalışma kopyasının durumunu gösteren bir referanstır.
