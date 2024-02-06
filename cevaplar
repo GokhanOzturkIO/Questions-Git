@@ -109,3 +109,7 @@ Yerel ve uzak olmak üzere dosyaların ve değişikliklerin kaydedildiği yerdir
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
   Git bir versiyon kontrol sistemiyken, GitHub bir web tabanlı Git depolama hizmetidir.
+
+- main ya da master branch'inin diğer branchlerden farkı nedir?
+
+  Kök olarak diğer branchlerin atasıdır. Diğer branchlerin birleştiği yerdir.
