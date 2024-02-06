@@ -133,3 +133,29 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
 
 ![](/screenshots/5.png)
 
+## Soru 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+`git diff` komutu ile iki durum arasındaki değişiklikleri görmek için kullanılır.
+
+### Hangi durumlar arasındaki değişiklikleri görebiliriz ve bunların komutları:
+
+1 - `git diff`
+
+    Bu komut çalışma dizininde(Working Directory) yaptığımız ancak Staging Area alanına eklenmemiş değişiklikleri görmek için kullanırız.
+
+2 - `git diff --staged` && `git diff --cached`
+
+    Bu komut, staging alana eklenmiş ancak henüz commitlenmemiş değişiklikleri gösterir.
+
+3 - `git diff commit_id other_commit_id`
+
+    Bu komut, belirli iki commit arasındaki değişiklikleri gösterir.
+    Burada commit_id kısmında id kısmının hepsini yazmamıza gerek yok.
+
+![](/screenshots/6.png)
+
+4 - `git diff branch_name other_branch_name`
+
+    Bu komut, Bu komut, belirli iki branch arasındaki değişiklikleri gösterir.
+
+![](/screenshots/7.png)
