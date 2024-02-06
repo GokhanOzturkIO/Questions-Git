@@ -57,3 +57,14 @@ Question 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otom
     -> ~/.git-templates
 -> Daha sonra oluşturduğumuz "README.md" dosyayı oluşturduğumuz template dizinine ekliyoruz.
 -> Daha sonra her "git init --template ~/.git-templates" komutunu çalıştırdığımızda otomatik olarak Readme.md dosyası oluşmuş olacaktır.
+
+
+Question 10: Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+-> Bir projenin farklı paralel geliştirme süreçlerini yönetmek için kullanılır.
+
+    -> Aslında her bir "branch" farklı bir işi farklı bir özelliği temsil eder. Bu da ekip üyelerinin aynı anda farklı özellikler üzerinde çalışmasına olanak tanır.
+    -> Yeni bir özellik veya iş üzerinde çalışırken ana yapıyı riske atmadan geliştirmeleri ilerletmemizi sağlar.
+    -> Yeni bir özelliğin live a geçmeden(son kullanıcı ile buluşmadan) gerekli testlerin yapılmasına olanak sağlar.
+    -> Bir projenin farklı versiyonlarını ve sürümlerini kontrol etmeyi kolaylaştırır. Sürümlerde oluşan hataları bağımsız olarak çözmeyi kolaylaştırır.
+    -> Branchlerin birbirinden bağımsız olması nedeni ile yanlış yapılan işlerde değişiklik yapılmasını ve geri alınmasını  kolaylaştırır.
