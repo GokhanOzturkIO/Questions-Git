@@ -15,3 +15,11 @@ Question 2: "git pull" ile "git fetch" komutlarının farkı nedir?
 
     -> "git fetch": Uzak sunucudaki tüm değişiklikleri local kopyamıza indirir, fakat olduğumuz branchi etkilemez. Bu komut ile aslında ilk olarak yapılan değişikliği görüp daha sonra gerekirse local branchimize birleştirmemizi sağlar.
     -> "git pull": Bu komut ile ilk olarak uzak sunucudaki değişiklikleri kopyamıza indirir ve daha sonra olduğumuz branchi günceller. Aslında buradaki işlem "git fetch" i çağırırp daha sonra otomatik olarak local branchimi güncellemizi sağlar.
+
+
+Question 3: Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+-> İnternet bağlantımızda ve Uzak sunucuya erişim sorunumuz olabilir.
+-> Arkadaşımızın verdiği branch bilgisi hatalı olabilir.
+-> Tanımlanmış bir commit formatı varsa ve ona uymamış ise yaptığı commit hata ile sonuçlanmış olabilir.(Örn: Commit mesajı 250 karakterden fazla olamaz)
+-> Arkadaşımız commit yapıp pushlamayı unutmuş olabilir. Değişiklikler arkadaşımızın localinde vardır fakat uzak sunucuya göndermediği için bir göremiyoruzdur.
