@@ -39,3 +39,6 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 	-yarım kalmış, eksik ve hatalı olmamalıdır TAMAMLANMIŞLIK
 	-projenin geçmişindeki gelişimi anlamak için bir iz bırakılmalıdır ANLAMLILIK
 20-Projenin kod ve geçmişini kaydeder.
+21-İkiside farklı kavram ama projenin gelişimini sağlar
+	git tag belirli bir commit üzerine etiketleme yapar genelde bir sürüm bilgisi olur ve sabitdir değiştirilemez
+	git branch projede bağımsız geliştirme dalları oluşturmamızı sağlar
