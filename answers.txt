@@ -104,3 +104,10 @@ ne zaman attığını, commit mesajını ve eğer güncel branch'e merge edildiy
 branch'lerden atıldığını görebiliriz.
 
 ===============================================================================
+
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+    "git diff" komutu ile, takip edilen dosyalardaki değişiklikleri görüntüleyebiliriz. Silinen yazıları,
+eklenen yazıları ve silinen dosyaları görüntüleyebiliriz.
+
+===============================================================================
