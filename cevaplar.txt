@@ -70,6 +70,9 @@ Soru 17 - "git commit" ile "git push" arasındaki fark nedir?
 	-> git commit komutu ile yaptığımız değişiklikleri lokal sunucumuzda bulunan working tree kısmına kaydederiz. git push komutu ile commitlediğimiz değişiklikleri
 	uzak sunucuya göndeririz.
 
+Soru 18 - Atomic commit ne demektir?
+	-> Atomic commit birden fazla değişikliği bir araya getirip tek bir işlem olarak uygulamayı ifade eder. Bu, bir grup dosya değişikliğini tek bir commit olarak 
+	kaydetmek anlamına gelir.
 
 
 
