@@ -90,5 +90,9 @@ Soru 22 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer sitel
 	Github benzeri siteler -> BitBucket, GitLab, SourceForge, GitKraken vs. 
 	Github kullanıcı adı -> salihakbass
 
+Soru 23 - main ya da master branch'inin diğer branchlerden farkı nedir?
+	-> Main ya da master branch'i proje repo'sunun ilk oluşturulduğu anda açılan branch'lerdir. Genelde açılan bütün branch'ler projenin son halinde master veya main
+	branch'inde birleştirilir. Diğer branch'ler geçici olurken main ya da master branch'i kalıcı halde olur.
+
 
 
