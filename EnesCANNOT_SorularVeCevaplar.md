@@ -43,3 +43,9 @@ Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yapt�
 
 ---
 
+## 6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+"Staging Area" veya "Index", Git'in çalışma alanı ile depo arasında bir ara bölge olarak işlev görür. Bu bölge, değişiklikleri işlemek ve bir sonraki commit için hazırlamak için kullanılır. Değişiklikler öncelikle çalışma alanında yapılır ve daha sonra "Staging Area"e eklenir. Bu bölge, commit öncesi değişikliklerin kontrol edilmesini sağlar ve geliştiricilere değişiklikleri organize etme esnekliği sunar.
+
+---
+
