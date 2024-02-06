@@ -19,5 +19,9 @@ Soru 4 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 Soru 5 - "HEAD" kelimesi neyi temsil etmektedir?
 	-> Bulunduğumuz branch'te atılan son commit'in işaretçisidir.
 
+Soru 6 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+	-> Bu kavramları projemizdeki değişiklikleri commitlemeden önce sakladığımız bir ara bölge olarak ifade edebiliriz.
+
+
 
 
