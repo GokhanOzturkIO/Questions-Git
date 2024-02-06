@@ -37,3 +37,8 @@ Question 5: "HEAD" kelimesi neyi temsil etmektedir?
 Question 6: "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 
 -> Git'in commit işlemi öncesi değişiklikleri saklamamızı sağladığı bir ara alandır. Bu alan sayesinde commit etmek istediğimiz değişiklikleri seçip, düzenleyip, ekleyip ve çıkarmamıza olanak tanır. Bu sayede commit işelmelerimiz daha  kontrollü ve organize olur, sadece belirli değişiklikleri seçip düzenlememizi sağlar.
+
+
+Question 7: "Untracked file" ne demektir?
+
+-> "Untracked file" (izlenmeyen dosya), Git'in dosyaları izlemediği veya takip etmediği dosyaları ifade eder. Yani, bu dosyalar Git tarafından tanınmaz veya izlenmez.
