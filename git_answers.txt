@@ -12,3 +12,6 @@
 4."git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 - origin bir uzak sunucudur ve bu komutla uzaktaki sunucuda yapilan son degisikligi alabiliriz.
 
+5."HEAD" kelimesi neyi temsil etmektedir?
+- Commit islemini isaret eden yapiya HEAD denir. Bagli oldugumuz branch'e de isaret edebilir ama HEAD genelde atilan son commiti isaret eder.
+
