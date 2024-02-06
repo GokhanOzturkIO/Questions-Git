@@ -120,3 +120,10 @@ Answer to question 23:
     *** Github benzeri siteler: gitLab,Bitbucked..
     ( github kullanıcı adım: busramacak (diğer sitelere üyeliğim yok.))
 
+Answer to question 24:
+    Genel olarak projenin ana veya temel branch'ı olarak kullanılır. Diğer branchler belirli hedefi
+    olan geçici kopya çalışma alanıdır.
+    Varsayılan branch olarak ayarlanır. Projenin başlangıç noktası olarak görünür.
+    proje yönetimi ve kod kalitesini sağlamak için kontrol edilebilir. diğer brancler daha serbest
+    kullanılabilir.
+    Projenin yaşam döngüsü boyunca hep güncellenir ve geliştirilir.
