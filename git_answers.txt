@@ -1,0 +1,77 @@
+1.Git Nedir?
+- Git bir versiyon kontrol sistemidir. Linus Turvolds tarafindan Linux çekirdeginin gelisititrlmesi icin 2005 yilinda olusturulmustur. Git sayesinde birden fazla gelistirici es zamanli projelerde calisabilir ve projelerin farklı versiyonlarının kopyalarını alarak daha sonra kullanmak uzere bu kopyalara donebilir.
+
+2."git pull" ile "git fetch" komutlarının farkı nedir?
+- git fetch -> Uzak sunucudaki degisikliklerden localdeki bilgisayarin haberdar olmasini saglar. Local'deki kod ile uzak sunucudaki kolu karsilastirir.
+  git pull -> Hangi branch'te calisiliyorsa, o branchte yapilan degisiklikleri locak bilgisayara cekmek.
+
+3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+- 1. git commit ile gonderilmis olabilri fakat git push yapilmamis olabilrii
+  2. kodda ayni dosyanin ayni satirinda iki farkli degisiklik yapilmis olabilri. git buna karar veremez hangisinin secilecegini sorar.
+
+4."git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+- origin bir uzak sunucudur ve bu komutla uzaktaki sunucuda yapilan son degisikligi alabiliriz.
+
+5."HEAD" kelimesi neyi temsil etmektedir?
+- Commit islemini isaret eden yapiya HEAD denir. Bagli oldugumuz branch'e de isaret edebilir ama HEAD genelde atilan son commiti isaret eder.
+
+6."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+- Local area ve uzak sunucu arasindaki bolgedir. Dosyalari git add komutu ile bu bolgeye gonderip git ile takip edilmesini saglariz. Yapilan degisiklikleri staging areaya eklemek uzak sunucudaki kodu degistirmez.
+
+7."Untracked file" ne demektir?
+- git init ile git'i baslattigimiz klasorde git add ile yapilan degisiklikleri staging areaya eklemediysek , dosya git tarafindan takip edilemez. Bu nedenle untracked file olarak adlandirilir. 
+
+8.".git" klasörünü silersek ne olur?
+- git'in o klasorde calisabilmesi icin .git adli bir gizli dosyaya sahip olmasi gerekir. .git klasoru silinirse git ile yaptigimiz butun calismalari kaybetmis oluruz. Tekrar git'i initialize etmek gerekir.
+
+9.Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+- ReadMe.md dosyası olusturacak bir template ayarlamaliyiz.
+
+10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+- Projeyi farklı kollara ayırıp herkesin projein belli bir kısmında çalışmasını saglar. Bu sayede conflict onlenir.
+
+11.Sıfırdan bir "branch" nasıl oluşturabiliriz?
+- git branch 'feature/branchadi' ile yeni bir branch olusturabiliriz.
+
+12.Var olan bir "branch"e nasıl geçebiliriz?
+- git checkout 'feature/branchadi'
+
+13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+- git clone --branch 'branchadi'
+
+14."Merge conflict" ne demektir?
+- Bir projede aynı dosyanın aynı satırında iki farkli degisiklik varsa, bunlar cakisabilir, git hangsini kullanacagini secemez. Onemli olan degisiklik digerleri tarafindan ezilebilir.
+
+15."git log" komutu ile hangi bilgileri görebiliriz?
+- Her yapilan commit islemi icin bir hashcode olusturulur. Bu sayede yapilan iki commit arasindaki degisiklikleri gorebilriiz. Commit'i yapan kisinin ismi, emaili, ve commit yaptigi tarh ve commit mesaji gorulebilir.
+
+16."git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+- 1. local'deki degisiklikleri gorebiliriz.
+  2. staging area'daki degisiklikleri gorebiliriz. (git diff --staged komutu ile)
+
+17.Git reset ile neyi geri alıyoruz?
+- git add komutu ile staging area'ya gonderdigimiz dosyalari geri locale aliyoruz. gir reset dosya icindeki yapilan degisikligi geri almaz. sadece staging area'dan geri ceker.
+
+18."git commit" ile "git push" arasındaki fark nedir?
+- git commit yaptigimiz degisiklikleri uzak sunucuya gondermekteki bir adimdir ama hala tam olarak gondermez. Yani bizim yaptigimiz degisiklikleri baskalari goremez. Uzak sunucudan bir commit ileride olunur. git push ile yaptigimiz degisiklikleri uzak sunucuya tam olarak gondeririz. Digerlerinin bizim yaptigimiz degisikliklerden haberi olur.
+
+19.Atomic commit ne demektir?
+- Commit atarken belli bir kurala uymaktir. Yapilan degisiklikleri keywordler kullanarak yazmaktir. (add, update, delete gibi)
+
+20.Repository ne demektir?
+- Dosyalarin ve dosyalardaki degisikliklerin uzak bir sunucuda depolanmasidir. Repository projenin butun versiyoon sistemini icerir.
+
+21."git tag" nedir? "git branch"’ten farkı nedir?
+- Projelerde release'ler yapilir. yapilan bu release'lere tag eklenirse istenilen zaman o release'e tag kullanilarak direkt erisilebilir.
+
+22.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+- websiteleri: visualize.git , git historyxyz , gource.io , uygulamalar: sourcetree , gitkareken , tower, git desktop
+
+23."GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+- git projedeki kodlari takip eden ve kaydeden bir sistemdir. Github ise kisilerin projelerini paylasabilecekeri web tabanli bir uygulamadir.
+- github benzeri uygulamalar: gitlab, bitbucket
+github: hicranfiliz
+
+24.main ya da master branch'inin diğer branchlerden farkı nedir?
+- main veya master branch'i projenin ana, baslangic branch'idir ve uygulamanın hazir, yayinlanabilir halini barindirir. Diger branchler test amacli olusturulur.
+
