@@ -8,3 +8,12 @@
 6- Geçici alandır. Proje commitlenmeden önce kontrolleri yapılan yerdir.
 7- git' in takip edemediği dosyadır.
 8- .git klasörü projenin kalbidir silersek projeye ait geçmiş, takipler herşey silinir.
+9- bir template oluşturup bunu default olarak tanımlamalıyız sonrasında her git init komutunda kendi default olarak eklicektir Peki bunu nasıl yapmalıyız
+ bir şablon klasörümüz olmalı:
+ 	mkdir templates
+ klasör içine README.md oluşturulur:
+	touch README.md
+ bu şablonu Git imize tanımlamalıyız.
+	git config --global init.templateDir ~/templates
+bu kadar artık git init yaptığımızda default olarak gelicektir.
+
