@@ -23,3 +23,9 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 sadece commit atıp push'lamayı unutmuş olabilir.
 
 ===============================================================================
+
+4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+    "origin", uzak deponun URL'i yerine kullanılır. Uzak depomuzu işaret eder.
+
+===============================================================================
