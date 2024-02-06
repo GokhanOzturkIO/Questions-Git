@@ -126,3 +126,10 @@ geri almaz.
 değişikliklerimizi ve versiyonlarımızı uzak sunucuya kaydeder, orada saklar.
 
 ===============================================================================
+
+19- Atomic commit ne demektir?
+
+    Atomic commit, tek bir iş yapan, geri alınması kolay ve zahmetsiz olan, yapılan işi tam anlamıyla
+açıklayan, kısa ve öz commit mesajıdır.
+
+===============================================================================
