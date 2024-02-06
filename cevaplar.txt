@@ -16,5 +16,8 @@ Soru 3 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmem
 Soru 4 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 	-> 'origin' git fetch komutunu kullanacağımız uzak sunucuyu ifade eder.
 
+Soru 5 - "HEAD" kelimesi neyi temsil etmektedir?
+	-> Bulunduğumuz branch'te atılan son commit'in işaretçisidir.
+
 
 
