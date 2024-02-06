@@ -54,3 +54,6 @@ Answer to question 11:
     yeni branch oluşturmak için ->>> git branch [branch-name] komutu kullanılır. Komut yerine
     projenin yardımcı toolları üzerinden de git başlığı altından yeni bir branch oluşturulabilir.
 
+Answer to question 12:
+    Var olan branch'e geçmek için ->>> git checkout [branch-name] komutu kullanılır. Komut yerine
+    projenin yardımcı toollarını kullanabiliriz.
