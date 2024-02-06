@@ -42,3 +42,10 @@ Question 6: "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak n
 Question 7: "Untracked file" ne demektir?
 
 -> "Untracked file" (izlenmeyen dosya), Git'in dosyaları izlemediği veya takip etmediği dosyaları ifade eder. Yani, bu dosyalar Git tarafından tanınmaz veya izlenmez.
+
+
+Question 8: ".git" klasörünü silersek ne olur?
+
+-> Geçmiş olsun :)
+-> ".git" klasörü, bir Git deposunun tüm versiyon kontrolü ve diğer Git özelliklerini içeren çok önemli bir klasördür. Bu klasörü silerseniz, Gitten tüm versiyon kontrolü geçmişi ve diğer Git özelliklerini kaybetmiş olursunuz.
+-> ".git" dosyanızı yanlışlıkla silmemek için, gizli dosyaları görüntülemeyi kapatabilirsiniz.
