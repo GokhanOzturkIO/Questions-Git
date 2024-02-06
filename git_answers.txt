@@ -49,7 +49,9 @@
 - 1. local'deki degisiklikleri gorebiliriz.
   2. staging area'daki degisiklikleri gorebiliriz. (git diff --staged komutu ile)
 
-Git reset ile neyi geri alıyoruz?
+17.Git reset ile neyi geri alıyoruz?
+- git add komutu ile staging area'ya gonderdigimiz dosyalari geri locale aliyoruz. gir reset dosya icindeki yapilan degisikligi geri almaz. sadece staging area'dan geri ceker.
+
 "git commit" ile "git push" arasındaki fark nedir?
 Atomic commit ne demektir?
 Repository ne demektir?
