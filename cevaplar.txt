@@ -1,0 +1,5 @@
+Soru 1 - Git nedir ? 
+	- > Git en kısa tanımıyla bir versiyon kontrol sistemidir. Herhangi bir projenin üzerinde farklı bilgisayarlardan, birden fazla kişinin çalışmasına
+	olanak verir ve ekip çalışmasını daha kolay, düzenli hale getirir. Daha da açmak gerekirse projede yapılan değişiklikleri git ile beraber eş zamanlı
+	olarak kaydedebilir ve yapılan değişiklikleri takip edebiliriz.
+
