@@ -43,3 +43,10 @@ sadece commit atıp push'lamayı unutmuş olabilir.
 Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya alırız.     
 
 ===============================================================================
+
+7- "Untracked file" ne demektir?
+
+    Untracked file, Git tarafından takip edilmeyen dosyaları temsil eder. Bu dosyalar, commit ve
+push işlemlerinden etkilenmezler.
+
+===============================================================================
