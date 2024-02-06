@@ -1,0 +1,2 @@
+1- Git Nedir?
+# Yapılan işlemler için versiyonlama yapmak için kullanılır. Kod veya dosya işlemlerindeki değişiklerin takibini yapmak için kullanılan versiyon kontrol sistemidir.
