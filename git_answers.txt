@@ -21,7 +21,9 @@
 7."Untracked file" ne demektir?
 - git init ile git'i baslattigimiz klasorde git add ile yapilan degisiklikleri staging areaya eklemediysek , dosya git tarafindan takip edilemez. Bu nedenle untracked file olarak adlandirilir. 
 
-".git" klasörünü silersek ne olur?
+8.".git" klasörünü silersek ne olur?
+- git'in o klasorde calisabilmesi icin .git adli bir gizli dosyaya sahip olmasi gerekir. .git klasoru silinirse git ile yaptigimiz butun calismalari kaybetmis oluruz. Tekrar git'i initialize etmek gerekir.
+
 Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Sıfırdan bir "branch" nasıl oluşturabiliriz?
