@@ -52,7 +52,9 @@
 17.Git reset ile neyi geri alıyoruz?
 - git add komutu ile staging area'ya gonderdigimiz dosyalari geri locale aliyoruz. gir reset dosya icindeki yapilan degisikligi geri almaz. sadece staging area'dan geri ceker.
 
-"git commit" ile "git push" arasındaki fark nedir?
+18."git commit" ile "git push" arasındaki fark nedir?
+- git commit yaptigimiz degisiklikleri uzak sunucuya gondermekteki bir adimdir ama hala tam olarak gondermez. Yani bizim yaptigimiz degisiklikleri baskalari goremez. Uzak sunucudan bir commit ileride olunur. git push ile yaptigimiz degisiklikleri uzak sunucuya tam olarak gondeririz. Digerlerinin bizim yaptigimiz degisikliklerden haberi olur.
+
 Atomic commit ne demektir?
 Repository ne demektir?
 "git tag" nedir? "git branch"’ten farkı nedir?
