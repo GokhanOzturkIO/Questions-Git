@@ -17,4 +17,7 @@ Bu durumda takım arkadaşınızın gönderdiği kodları çekecek olan git pull
 
 "HEAD", şu anda çalışılan branch'in son commit'ini ve çalışma kopyasının durumunu gösteren bir referanstır.
 
+*"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Staging Area veya Index, değişikliklerin commit edilmek üzere hazırlandığı geçici bir alandır. Değişiklikler buraya eklenir ve commit işlemi yapıldığında bu değişiklikler bir sonraki versiyona dahil edilir.
 
