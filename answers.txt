@@ -21,3 +21,6 @@ Bu durumda takım arkadaşınızın gönderdiği kodları çekecek olan git pull
 
 Staging Area veya Index, değişikliklerin commit edilmek üzere hazırlandığı geçici bir alandır. Değişiklikler buraya eklenir ve commit işlemi yapıldığında bu değişiklikler bir sonraki versiyona dahil edilir.
 
+*"Untracked file" ne demektir?
+
+Untracked file, git'in izlemediği ve değişikliklerini takip etmediği bir dosyadır. Genellikle bu dosyalar projeye yeni eklenmiş veya ignore edilmiş dosyalardır
