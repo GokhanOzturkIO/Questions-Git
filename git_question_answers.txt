@@ -23,3 +23,22 @@
 7- Untracked file git tarafından takip edilmeyen dosyasyı takip eder. Örnek: .gitignore dosyası veya yeni eklediğimiz bir dosya.
  
 8- Eğer .git dosyasını silersek projenin tüm sürüm geçmişini ve git ile ilgili ayaları siler. Kısacası git ile bağlantısı kesilir ve pushlamadığımız değişiklikleri kaybederiz.
+
+9- git init sonrası otomatik olarak readme dosyası oluşturmak istiyorsak bu işlem için uygun bir bash script yazıp bu script içersinde git init komutunu çalıştırabliriz.
+	 
+	Örnek bash scirpt:
+		#!/bin/bash
+
+		# Git deposunu başlat
+		git init
+
+		# ReadMe.md dosyasını oluştur
+		echo "# Proje Başlığı" > ReadMe.md
+
+		# ReadMe.md dosyasını staging area'ya ekle
+		git add ReadMe.md
+
+		# İlk commit'i yap
+		git commit -m "Initial commit with ReadMe.md"
+
+	
