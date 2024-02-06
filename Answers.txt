@@ -24,3 +24,6 @@ Answer to question 4:
     origin : git deposunun varsayılan remote repository referansıdır. fetch origin komutuyla
     varsayılan uzak depodan değişiklikleri alırız.
 
+Answer to question 5:
+    Head: Üzerinde çalışılan branch'ın son commitlerini temsil eder. Çalışılan son sürüm.
+
