@@ -4,3 +4,12 @@ Git is the most widely used version control system in the world. It is a free an
 
 ---
 
+## 2) What is the difference between "git pull" and "git fetch" commands?
+
+`git fetch` downloads new data from a remote repository without integrating it into your working files, allowing you to review the changes before integrating them into your local repository.
+
+`git pull`, on the other hand, downloads new data and directly integrates it into your current working copy files, which can be faster but also introduces changes and conflicts into your local repository.
+
+`git fetch` is safer as it only downloads new data, while `git pull` integrates it into your current working copy files, which can cause conflicts and changes that require manual resolution.
+
+---
