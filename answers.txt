@@ -1,5 +1,10 @@
 Git Nedir?
 - Git, dağıtık bir versiyon kontrol sistemidir. Yazılım geliştirme projelerinde kaynak kodu ve dosyaların değişikliklerini takip etmek, yönetmek ve işbirliği yapmak için kullanılır.
+
 "git pull" ile "git fetch" komutlarının farkı nedir?
 
 git pull, uzak depodan (örneğin GitHub'dan) değişiklikleri çeker ve otomatik olarak mevcut çalışma kopyasına birleştirir. git fetch ise sadece uzak depodan değişiklikleri çeker ancak yerel çalışma kopyasını güncellemez.
+
+Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Bu durumda takım arkadaşınızın gönderdiği kodları çekecek olan git pull origin <branch> komutunu kullanmayı unutmuş olabilirsiniz veya projenin çalışma kopyası ile çakışan yerel değişiklikleriniz olabilir.
