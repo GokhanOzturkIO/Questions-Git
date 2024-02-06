@@ -52,3 +52,12 @@ The "Staging Area" or "Index" acts as an intermediate zone between Git's workspa
 ## 7) What does "untracked file" mean?
 
 "Untracked file" refers to files that Git does not track. These are files for which Git does not track or save changes. Newly created or modified files are not automatically tracked by Git and are therefore called "Untracked". These files are ignored by Git during the next commit. If you want to track them or save their changes, you must first add the files to the "Staging Area". This ensures that the files will be tracked by Git and saved in subsequent commits.
+
+---
+
+## 8) What happens if we delete the ".git" folder?
+
+Deleting the `.git` folder in a Git repository will remove all the version control history and settings associated with that repository, making the local repository a standard folder with no version control history or settings. However, if the repository has been pushed to a remote server, we can still download a new copy of the repository with all the version control history and settings by cloning or downloading it again.
+
+---
+
