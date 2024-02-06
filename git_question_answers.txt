@@ -12,4 +12,7 @@
    	3.2 Kendi değişikliklerimizi commitlememiş olabiliriz. 
 	3.3 conflict çıkmış olabilir. 
 	3.4 pull etme yetkimiz olmayabilir.
+
+
+4- origin kelimesi uzak sunucudaki repoyu temsil etmektedir.
  
