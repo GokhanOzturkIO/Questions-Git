@@ -43,7 +43,10 @@ Soru 10 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
 	   2 ) git checkout -b branchName komutu ile yeni bir branch oluşturur ve o branch'e geçiş yapabiliriz.
 
 Soru 11 - Var olan bir "branch"e nasıl geçebiliriz?
-	-> git checkout branchName komutu ile var olan branch'e geçiş yapabiliriz
+	-> git checkout branchName komutu ile var olan branch'e geçiş yapabiliriz.
+
+Soru 12 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+	-> git clone --branch <branchName> <uzak sunucu url'si>
 
 
 
