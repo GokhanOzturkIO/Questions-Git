@@ -19,4 +19,6 @@
 5- HEAD üzerinde çalıştığımız güncel commit'i temsil eder.
 
 6- Staging area veya index commit öncesi değişikliklerin geçici olarak beklediği alanı temsil eder.
+
+7- Untracked file git tarafından takip edilmeyen dosyasyı takip eder. Örnek: .gitignore dosyası veya yeni eklediğimiz bir dosya.
  
