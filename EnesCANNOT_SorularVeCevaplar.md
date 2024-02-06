@@ -85,3 +85,10 @@ Bu tarz bir isteğin çözümü için 2 farklı yol kullanabiliriz:
     ```
 
 ---
+
+## 10) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Git'te "branch" (dal), projenin farklı versiyonlarını yönetmek için kullanılır. Her bir dal, farklı bir özelliğin veya değişikliğin geliştirilmesine olanak tanır. Bu, aynı anda birden fazla özellik üzerinde çalışmayı sağlar ve riskleri izole eder. Ayrıca, paralel geliştirme ve geçmişi koruma gibi faydalar sağlar.
+
+---
+
