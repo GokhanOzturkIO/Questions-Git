@@ -22,4 +22,5 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
     git checkout -b yeni_branch (bu komut oluşturulan branche geçer)
     git switch -c yeni_branch (bu komut oluşturulan branche geçer)
 
-    
+12- git checkout branch_ismi
+    git switch branch_ismi   
