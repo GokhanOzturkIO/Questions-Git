@@ -78,3 +78,8 @@ Commit mesajı
 - Git reset ile neyi geri alıyoruz?
 
 git reset komutu ile HEAD'i (en son commit'i) belirli bir commit'e geri alabilirsiniz.
+
+- "git commit" ile "git push" arasındaki fark nedir?
+
+git commit yapılan değişiklikleri yerel depoya kaydeder, ve staging alanına alır.
+git push ise yerel depodaki staging aşamasındaki değişiklikleri uzak depoya gönderir.
