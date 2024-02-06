@@ -82,5 +82,8 @@ Soru 20 - "git tag" nedir? "git branch"’ten farkı nedir?
 	ise branch'ler sürekli eklenip silinirler, etiketler ise sonsuza kadar kalma eğilimindedir. Branch'ler dinamik, etiketler ise sabittir. Yani branch’ler bir süreç 
 	için varlar. Etiketler ise bir geliştirmenin sonucunu işaretlemek için varlar.
 
+Soru 21 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+	> Kullandığımız IDE, GitHub Desktop, SourceTree, GitKraken, GitExtensions, Tower
+
 
 
