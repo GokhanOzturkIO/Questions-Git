@@ -33,7 +33,9 @@
 11.Sıfırdan bir "branch" nasıl oluşturabiliriz?
 - git branch 'feature/branchadi' ile yeni bir branch olusturabiliriz.
 
-Var olan bir "branch"e nasıl geçebiliriz?
+12.Var olan bir "branch"e nasıl geçebiliriz?
+- git checkout 'feature/branchadi'
+
 "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 "Merge conflict" ne demektir?
 "git log" komutu ile hangi bilgileri görebiliriz?
