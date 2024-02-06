@@ -5,3 +5,10 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 - "git pull" ile "git fetch" komutlarının farkı nedir?
 
 "git fetch" uzaktaki değişiklikleri getirip gösterirken, "git pull" hem getirir hem de yerel branch'e otomatik merge eder.
+
+- Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+  - git url'si yanlış olabilir
+  - uzak sunucuya erişimimiz olmayabilir
+  - Takım arkadaşımız kodları doğru göndermemiş olabilir
+  - Yanlış branch'i pull etmiş olabilir
