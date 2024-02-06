@@ -61,3 +61,27 @@ Deleting the `.git` folder in a Git repository will remove all the version contr
 
 ---
 
+## 9) What should we do if we want a "ReadMe.md" file to be automatically created every time we use the "git init" command in our own local area?
+
+We can use 2 different ways to solve this type of request:
+
+- 1.1 First of all, we open a folder to keep our git template anywhere.
+     ```bash
+     mkdir ~/.git-templates
+     ```
+- 1.2 Afterwards, we write our template content to a file and add it to the git templates folder we opened.
+     ```bash
+     echo "# My Project" > ~/.git-templates/ReadMe.md
+     ```
+- 1.3 Finally, we update the git configuration and set the init.templatedir property to point to your own custom template directory.
+     ```bash
+     git config --global init.templatedir ~/.git-templates
+     ```
+--
+- 2.1 As in the previous solution, we need to have a template here too. Assuming we have a template, I move on to the next step.
+- 2.2 In this step, we have a template like this and we give it as a parameter when we initialize git.
+     ```bash
+     git init --template=~/.git-template
+     ```
+---
+
