@@ -74,5 +74,8 @@ Soru 18 - Atomic commit ne demektir?
 	-> Atomic commit birden fazla değişikliği bir araya getirip tek bir işlem olarak uygulamayı ifade eder. Bu, bir grup dosya değişikliğini tek bir commit olarak 
 	kaydetmek anlamına gelir.
 
+Soru 19 - Repository ne demektir?
+	-> Herhangi bir proje içerisinde bulunan dosyaların, bilgilerin tutulduğu bir depo anlamına gelir.
+
 
 
