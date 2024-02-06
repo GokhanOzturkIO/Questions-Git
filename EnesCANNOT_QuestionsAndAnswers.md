@@ -37,3 +37,8 @@ In the command "git fetch origin", "origin" represents the default name assigned
 
 ---
 
+## 5) What does the word "HEAD" represent?
+
+"HEAD" is a special pointer that points to the current location in the Git repository. It usually shows the latest commit of the current working copy or branch, but can also be temporarily redirected to a different location. This can be used to mark different commits, tags or references.
+
+---
