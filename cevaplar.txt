@@ -48,5 +48,8 @@ Soru 11 - Var olan bir "branch"e nasıl geçebiliriz?
 Soru 12 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 	-> git clone --branch <branchName> <uzak sunucu url'si>
 
+Soru 13 - "Merge conflict" ne demektir?
+	-> Aynı proje üzerinde çalışan kişilerin benzer satırlarda veya dosyalarda yaptıkları değişikliklerin çakışması.
+
 
 
