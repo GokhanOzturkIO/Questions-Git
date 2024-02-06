@@ -32,5 +32,11 @@ Soru 8 - ".git" klasörünü silersek ne olur?
 	-> .git klasörü çalıştığımız proje içerisinde git init komutu ile git'in kendi oluşturduğu gizli bir klasördür. Bu klasör git'in proje üzerinde aktif olduğu
 	anlamına gelir. Kısacası eğer bu klasörü silersek git'in projedeki aktifliğini kaldırırız ve git ile beraber yaptığımız tüm değişiklikleri kaybederiz.
 
+Soru 9 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+	-> Bir proje üzerinde farklı branch'ler açarak kendi çalışma ortamımızı yaratabiliriz. Bu sayede farklı branch'lerde yapılan değişiklikler birbirini etkilemez.
+	Örnek verecek olursak bir arkadaşımızla e-ticaret uygulaması geliştirdiğimizi varsayalım. Bir kişi üye kayıt-giriş kodlarını kendi branch'inde yazarken diğer
+	bir kişi ürünlerin kullanıcıya gösterimini kendi branch'inde hazırlayabilir. Daha sonrasında da bu branch'leri birleştirerek projeyi tamamlayabiliriz ve proje
+	üzerinde çalışan kişiler çalışma sırasında birbirini etkilememiş olur.
+
 
 
