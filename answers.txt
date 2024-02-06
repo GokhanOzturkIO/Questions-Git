@@ -32,3 +32,11 @@ Untracked file, git'in izlemediği ve değişikliklerini takip etmediği bir dos
 *Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
 git init komutunu kullandığınızda otomatik olarak bir "ReadMe.md" dosyası oluşturmak için, Git'in bu özelliğini etkinleştirmek için git config komutunu kullanabilirsiniz.
+git config --global init.defaultBranch main
+Bu komut, git init komutunu kullandığınızda otomatik olarak bir "ReadMe.md" dosyası oluşturulmasını sağlar.
+
+*Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branch, projenin farklı çalışma kopyalarını temsil eden ve bağımsız olarak geliştirme yapılmasını sağlayan bir kavramdır. Branch'ler, yeni özellikler eklemek, hataları düzeltmek veya denemeler yapmak için kullanılır. Ana branch genellikle main veya master olarak adlandırılır.
+
+*
