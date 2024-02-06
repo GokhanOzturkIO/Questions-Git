@@ -55,4 +55,9 @@ Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yapt�
 
 ---
 
+## 8) ".git" klasörünü silersek ne olur?
+
+".git" klasörünü bir Git deposunda silmek, o depo ile ilişkilendirilmiş olan tüm sürüm kontrolü geçmişini ve ayarlarını kaldırır, yerel deposunu sürüm kontrolü geçmişi olmayan standart bir klasör haline getirir. Ancak, eğer depo bir uzak sunucuya yüklenmişse, yeniden klonlama veya indirme yoluyla tüm sürüm kontrolü geçmişi ve ayarları ile birlikte depoyu yeni bir kopyasını indirebiliriz.
+
+---
 
