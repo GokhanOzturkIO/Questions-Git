@@ -101,3 +101,9 @@ Answer to question 20:
     gelir. version control system'i tarafından yönetilen proje veya kod deposunu temsil eder. git
     için bakılırsa projenin kod dosyaları, resimleri, belgeleri vb. ve projenin bilgilerini içeren depodur.
 
+Answer to question 21:
+    ->git tag komutu, belirli bir commiti işaretlemek için ve sabit bir isimle etiketlemek için
+    kullanılır. Genel olarak sürüm noktalarını belirlemek için kullanılır.
+    ->git branch komutu, paralel geliştirme noktalarını oluşturmak ve yönetmek için kullanılır. Farklı
+    özelliklerin veya değişikliklerin geliştirilmesi için kullanılır.
+
