@@ -113,3 +113,12 @@ git checkout -b branch_name
 
 ---
 
+## 12) How can we switch to an existing "branch"?
+
+Here's how to switch to an existing branch:
+```bash
+git checkout branch_name
+```
+
+---
+
