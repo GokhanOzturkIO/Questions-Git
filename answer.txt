@@ -18,4 +18,8 @@
 bu kadar artık git init yaptığımızda default olarak gelicektir.
 10- Bizim şuanda yaptığımız gibi proje de kendime ait çalışma alanı sağlıyor.
 bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili projede dallandırma yaparak kolay anlaşılabilirlik sağlarız.
+11- git branch yeni_branch (bu komut oluşturulan branche geçmez)
+    git checkout -b yeni_branch (bu komut oluşturulan branche geçer)
+    git switch -c yeni_branch (bu komut oluşturulan branche geçer)
 
+    
