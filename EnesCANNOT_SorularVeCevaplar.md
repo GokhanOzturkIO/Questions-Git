@@ -92,3 +92,25 @@ Git'te "branch" (dal), projenin farklı versiyonlarını yönetmek için kullan�
 
 ---
 
+## 11) Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+Sıfırdan bir branch'i şu şekilde oluşturabiliriz:
+
+```bash
+git branch branch_name
+```
+
+ve mevcut branch'den yeni oluşturduğumuz branche geçmek için şu komutu yazarız:
+```bash
+git checkout branch_name
+```
+
+--
+
+Veya kısaca yeni oluşturduğumuz branch'e şu şekilde geçiş yapabiliriz:
+```bash
+git checkout -b branch_name
+```
+
+---
+
