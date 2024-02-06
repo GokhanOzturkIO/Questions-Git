@@ -49,3 +49,11 @@ Question 8: ".git" klasörünü silersek ne olur?
 -> Geçmiş olsun :)
 -> ".git" klasörü, bir Git deposunun tüm versiyon kontrolü ve diğer Git özelliklerini içeren çok önemli bir klasördür. Bu klasörü silerseniz, Gitten tüm versiyon kontrolü geçmişi ve diğer Git özelliklerini kaybetmiş olursunuz.
 -> ".git" dosyanızı yanlışlıkla silmemek için, gizli dosyaları görüntülemeyi kapatabilirsiniz.
+
+
+Question 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+-> İlk olarak template'imizi konumlandıracağımız bir klasör oluşturmamız gerekir.
+    -> ~/.git-templates
+-> Daha sonra oluşturduğumuz "README.md" dosyayı oluşturduğumuz template dizinine ekliyoruz.
+-> Daha sonra her "git init --template ~/.git-templates" komutunu çalıştırdığımızda otomatik olarak Readme.md dosyası oluşmuş olacaktır.
