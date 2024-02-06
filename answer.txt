@@ -30,3 +30,4 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 	commit yazarını, 
 	commit yazarının email adresini 
 	commitin atıldığı zaman bilgisini görebiliriz.
+16-  Working directory'deki değişiklikleri ve son commit arasındaki farkları gösterir.
