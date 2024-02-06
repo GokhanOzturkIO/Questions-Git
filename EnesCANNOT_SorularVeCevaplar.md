@@ -114,3 +114,12 @@ git checkout -b branch_name
 
 ---
 
+## 12) Var olan bir "branch"e nasıl geçebiliriz?
+
+Var olan bir branch'e şu şekilde geçiş yaparız:
+```bash
+git checkout branch_name
+```
+
+---
+
