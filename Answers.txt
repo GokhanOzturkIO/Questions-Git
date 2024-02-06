@@ -111,3 +111,12 @@ Answer to question 22:
     Git i görselleştirmek için henüz bir araç veya uygulama kullanmadım. Biraz daha araştırıp
     22.sorunun cevabını güncelleyeceğim.
 
+Answer to question 23:
+    git: versiyon kontrol sistemi olan bir yazılımdır. local bir bilgisayarda, sunucuda veya repoda
+    bulunan dosyaların değişikliklerinin izlenmesi, yönetilmesi ve paylaşılmasını sağlar.
+    gitHub: Git tabanlı bir platformdur. Yazılım geliştirme projelerinin yönetilmesi ve iş birliği
+    için kullanılır. github git depolarını barındırır ve depoların çevrimiçi olarak erişimi ve
+    kontrolü sağlar.
+    *** Github benzeri siteler: gitLab,Bitbucked..
+    ( github kullanıcı adım: busramacak (diğer sitelere üyeliğim yok.))
+
