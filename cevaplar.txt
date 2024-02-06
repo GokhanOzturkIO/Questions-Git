@@ -66,5 +66,10 @@ Soru 16 - Git reset ile neyi geri alıyoruz?
 	-> git reset komutunu kullanarak git add ile staging area'ya taşıdığımız dosyaları staging area'dan çıkartırız. Dosyalar üzerindeki değişikliklerin geri alındığı
 	anlamına gelmez.
 
+Soru 17 - "git commit" ile "git push" arasındaki fark nedir?
+	-> git commit komutu ile yaptığımız değişiklikleri lokal sunucumuzda bulunan working tree kısmına kaydederiz. git push komutu ile commitlediğimiz değişiklikleri
+	uzak sunucuya göndeririz.
+
+
 
 
