@@ -1,3 +1,4 @@
+
 Answer to question 1: Dosyalar üzerinde versiyonlama yapabilmeyi sağlar. Dosyalar üzerinde birden
 çok kişi çalışıyorsa takibi kolaylaştırır. (VCS, Versiyon kontrol sistemi)
 
@@ -6,4 +7,16 @@ Answer to question 2:
     çalıştığımız dosyada bir değişiklik yapmaz.
     git pull: fetch gibi değişiklikleri bildirir fakat aynı zamanda değişiklikleri localde
     çalıştığımız dosyaya çeker.
+
+Answer to question 3:
+    1- Uzak sunucuya erişimim olmayabilir. Bu durumda pull komutu geçersiz kalır.
+    2- Takım arkadaşımın gönderdiği depo ile benim localimdeki deponun bağlantısında uyuşmazlık
+    yaşanmış olabilir. Uzak depoları kontrol edebiliriz.
+    3- Çakışma (Conflict) yaşanıyor olabilir. Takım arkadaşımın değiştirdiği kısım ile benim
+    çalıştığım kısımdaki değişiklikler çakışıyorsa da pull işlemi başarısız olur. Çakışma durumunu
+     çözmek gerekir.
+    4- Takım arkadaşım localinde yaptığı değişiklikleri commitlemiştir fakat yaptığı değişiklikleri
+    uzaktaki sunucuya gönderme aşamasını atlamış olabilir. (git push kullanarak bu sorunu
+    çözebiliriz)
+
 
