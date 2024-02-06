@@ -35,3 +35,11 @@ sadece commit atıp push'lamayı unutmuş olabilir.
     "HEAD", güncel branch'in son commit'ini temsil eder.
 
 ===============================================================================
+
+6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+    Staging Area, yaptığımız değişiklikleri veya yeni oluşturduğumuz dosyaları, commit'lemeden
+önce tuttuğumuz ara bir bölgedir. Yaptığımız her değişikliği commit'lemek istemeyebiliriz.
+Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya alırız.     
+
+===============================================================================
