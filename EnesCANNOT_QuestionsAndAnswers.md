@@ -121,4 +121,10 @@ git checkout branch_name
 ```
 
 ---
+## 13) When using the "git clone" command, if we only want to pull a specific branch, how can we do it?
 
+When using the git clone command, if we only want to pull a specific branch, we can use the --single-branch option along with the --branch or -b option to specify the branch we want to clone. Here's how to do it:
+
+```bash
+git clone --single-branch --branch branch_name repository_url
+```
