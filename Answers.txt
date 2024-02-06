@@ -31,3 +31,7 @@ Answer to question 6:
     Staging Area: Localde yaptığımız değişiklikleri commitleyerek staging area kısmına almış oluruz.
     Githuba eklemez fakat ara bölgeye ekler. Remote sunucuda gözükmez (push'layana kadar).
 
+Answer to question 7:
+    Untracked file:Localde bir dosya oluşturulduğunda git'e eklenmediği zaman bu dosya git
+    tarafından takip eidlemez. Bu dosyaya untracked file denir. add komutu ile staging area'ya
+    eklenirse takip edilebilir hale gelir.
