@@ -1,1 +1,2 @@
 1-Versiyon kontrol sistemidir.
+2-iki komutda remote repo dan local repoya çeker fakat git fetch local repo yu değiştirmez.
