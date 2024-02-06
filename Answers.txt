@@ -107,3 +107,7 @@ Answer to question 21:
     ->git branch komutu, paralel geliştirme noktalarını oluşturmak ve yönetmek için kullanılır. Farklı
     özelliklerin veya değişikliklerin geliştirilmesi için kullanılır.
 
+Answer to question 22:
+    Git i görselleştirmek için henüz bir araç veya uygulama kullanmadım. Biraz daha araştırıp
+    22.sorunun cevabını güncelleyeceğim.
+
