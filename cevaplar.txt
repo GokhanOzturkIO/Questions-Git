@@ -22,6 +22,11 @@ Soru 5 - "HEAD" kelimesi neyi temsil etmektedir?
 Soru 6 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 	-> Bu kavramları projemizdeki değişiklikleri commitlemeden önce sakladığımız bir ara bölge olarak ifade edebiliriz.
 
+Soru 7 - "Untracked file" ne demektir?
+	-> Untracked file git'in takip etmediği, değişikliklerinden haberdar olmadığı dosyalardır. Örneğin uzak sunucudan bir repo'yu lokal sunucumuza kopyaladık.
+	Kopyalama işleminden sonra lokal sunucumuzda bu repo'ya yeni bir dosya ekledik. Eğer git status komutunu çalıştırırsak yeni eklenen dosyayı "untracked file"
+	adı altında görürüz. Çünkü bizim kopyaladığımız repo'da bu dosya bulunmuyordu ve bu sebeple takip edilmiyor(git add komutu ile dosyayı takip edilebilir hale
+	getirebiliriz).
 
 
 
