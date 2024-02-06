@@ -34,3 +34,7 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 17- staging Area kısmına eklenmiş olan dosyaları geri Working directorye çekeriz.
 18-git commit local repoya kaydetmeyi sağlar
    git push remote repoya kaydetmeyi sağlar.
+19-Bir commit yazılırken gelişi güzel yazılamaz belli kriterleri vardır.
+	-bir commit diğerlerini etkilememeli ve diğerler olmadan anlamlı olmalıdır BAĞIMSIZLIK
+	-yarım kalmış, eksik ve hatalı olmamalıdır TAMAMLANMIŞLIK
+	-projenin geçmişindeki gelişimi anlamak için bir iz bırakılmalıdır ANLAMLILIK
