@@ -58,7 +58,9 @@
 19.Atomic commit ne demektir?
 - Commit atarken belli bir kurala uymaktir. Yapilan degisiklikleri keywordler kullanarak yazmaktir. (add, update, delete gibi)
 
-Repository ne demektir?
+20.Repository ne demektir?
+- Dosyalarin ve dosyalardaki degisikliklerin uzak bir sunucuda depolanmasidir. Repository projenin butun versiyoon sistemini icerir.
+
 "git tag" nedir? "git branch"’ten farkı nedir?
 Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
