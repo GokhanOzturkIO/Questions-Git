@@ -83,7 +83,12 @@ Soru 20 - "git tag" nedir? "git branch"’ten farkı nedir?
 	için varlar. Etiketler ise bir geliştirmenin sonucunu işaretlemek için varlar.
 
 Soru 21 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
-	> Kullandığımız IDE, GitHub Desktop, SourceTree, GitKraken, GitExtensions, Tower
+	-> Kullandığımız IDE, GitHub Desktop, SourceTree, GitKraken, GitExtensions, Tower
+
+Soru 22 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+	-> Git projeler üzerinde yaptığımız işlemleri takip ettiğimiz yerel bir versiyon kontrol sistemidir. Github ise bu projelerin depolandığı uzak sunucudur.
+	Github benzeri siteler -> BitBucket, GitLab, SourceForge, GitKraken vs. 
+	Github kullanıcı adı -> salihakbass
 
 
 
