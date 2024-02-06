@@ -20,4 +20,7 @@
 ✔ "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
    -Bir sonraki commit'e eklemek istediğiniz değişiklikleri geçici olarak depoladığımız yer.
 
+✔"Untracked file" ne demektir?
+   -İzlenmeyen dosya, commit'e eklenmemiş ve takip edilmeyen dosya diyebiliriz.
+
  
