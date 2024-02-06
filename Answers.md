@@ -106,3 +106,30 @@ Remote sunucudan sadece belirli bir branch'i çekmek istiyorsak;
 
  bu durumda **merge conflict** meydana gelir.
  Ekip üyeleri meydana gelen bu çatışmayı manuel olarak düzetlmek zorundadır.
+
+ ## Soru 15: `git log` komutu ile hangi bilgileri görebiliriz?
+
+ `git log` komutu, bir Git deposundaki commit geçmişini görüntülemek için kullanılır.
+
+#### Her bir commit hakkında aağıdaki bilgileri gösterir.
+ 
+ - **Commit Hash:** Her bir commit için benzersiz bir id
+ - **Yazar Bilgisi:** Değişikliğin kim tarafından yapıldığı bilgisi
+ - **Tarih ve Saat:** Commitin ne zaman yapıldığı
+ - **Commit Mesajı:** Yapılan değişikliği açıklayan bir commit mesajı
+
+ ![](/screenshots/3.png)
+
+Bu `git log` komutuna ekleyebileceğimiz farklı parametler olabilir bunlardan bazıları;
+
+### `git log --oneline`
+Logların her birini tek satırda göstermek için kullanılır.
+![](/screenshots/4.png)
+
+### `git log --oneline --all --graph`
+
+Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
+–graph yapısı ise bir grafik olarak göstermemizi sağlıyor.
+
+![](/screenshots/5.png)
+
