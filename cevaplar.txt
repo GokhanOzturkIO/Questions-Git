@@ -57,5 +57,10 @@ Soru 14 - "git log" komutu ile hangi bilgileri görebiliriz?
 	   3 ) Date - Commit'in atılma tarihi ve saati
 	   4 ) Commit Message - Commit atılırken girilen commit mesajı
 
+Soru 15 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+	-> 1 ) Henüz staging area'ya taşınmamış değişiklikler
+	   2 ) Staging area'da olan dosyalar üzerindeki değişiklikler
+	   3 ) İki commit arası değişiklikler
+
 
 
