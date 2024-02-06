@@ -90,3 +90,9 @@ Answer to question 18:
     push: Localde çalıştığımız dosyayı commitledikten sonra diğer ekip üyeleri ile paylaşılması veya
     yedeklenmesi için push komutu kullanılır. Hem localde hem remote sunucuda değişiklikler güncellenir.
 
+Answer to question 19:
+    Atomic commit, yapılan değişikliklerin bir bütün olarak kaydetmeyi sağlar. tutarlı ve mantıklı
+    bir birleşim yapmayı sağlar. Yapılan diğer değişikliklerle temas kurmadan bir commitin
+    uygulanmasını veya geri alınmasını sağlar. Commitlenen grubun neyi temsil ettiğine göre anlamlı
+    bir commit mesajı yazılmalıdır.
+
