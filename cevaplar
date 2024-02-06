@@ -22,3 +22,7 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 
   - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
   Git Staging Area , commit'lemeden önce hangi dosya değişikliklerinin kaydedileceğini seçtiğiniz alandır.
+
+- "Untracked file" ne demektir?
+
+"Untracked file", Git deposunda hiç kaydedilmemiş dosya anlamına gelir.
