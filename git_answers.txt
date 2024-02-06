@@ -36,7 +36,9 @@
 12.Var olan bir "branch"e nasıl geçebiliriz?
 - git checkout 'feature/branchadi'
 
-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+- git clone --branch 'branchadi'
+
 "Merge conflict" ne demektir?
 "git log" komutu ile hangi bilgileri görebiliriz?
 "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
