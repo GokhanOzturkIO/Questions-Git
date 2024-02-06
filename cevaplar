@@ -16,3 +16,6 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
     Git'te "origin" uzaktaki ana depoyu (remote repository) temsil eder.
+
+- "HEAD" kelimesi neyi temsil etmektedir?
+  Git ağacında üzerinde çalışılan uç diyebiliriz.Şu anki çalışma konumunuzu temsil eder. Farklı branch ve commitlere geçişimizi sağlar.
