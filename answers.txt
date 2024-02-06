@@ -10,3 +10,7 @@
 ✔Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
    - kodlarını pushlamamış olabilir.
    - git fetch yapmamış olabilir.
+
+✔"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+   Uzak sunucu 
+
