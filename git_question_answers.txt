@@ -50,3 +50,5 @@
 
 11- Yeni bir branch oluşturmak için eğer git bash kullanıyorsak git branch <branch-ismi> komutunu çalıştırabiliriz. Git için bir arayüz programı kullanıyosak bunu
     uygulamanın sağladığı kısayollar ile de yapabiliriz.
+
+12- Varolan bir branche git checkout <branch-ismi> komutu ile geçiş yapabiliriz.
