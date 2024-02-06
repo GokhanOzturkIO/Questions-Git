@@ -47,3 +47,6 @@
     kodun ana dalına (master veya development) birleştirilmeden önce ayrı bir şekilde geliştirilip test edilmesine imkan verir.
 
 	
+
+11- Yeni bir branch oluşturmak için eğer git bash kullanıyorsak git branch <branch-ismi> komutunu çalıştırabiliriz. Git için bir arayüz programı kullanıyosak bunu
+    uygulamanın sağladığı kısayollar ile de yapabiliriz.
