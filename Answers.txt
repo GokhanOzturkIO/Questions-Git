@@ -49,3 +49,8 @@ Answer to question 10:
     branch:dal, projenin paralelde farklı çalışma alanlarını temsil eden geliştirme çizgisidir.
     head ın kopyasını alarak, bu kopya üzerinde yeni değişiklikler yapılır. Her branch bağımsız bir
     geliştirme yolunu temsil eder.
+
+Answer to question 11:
+    yeni branch oluşturmak için ->>> git branch [branch-name] komutu kullanılır. Komut yerine
+    projenin yardımcı toolları üzerinden de git başlığı altından yeni bir branch oluşturulabilir.
+
