@@ -26,3 +26,7 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
     git switch branch_ismi   
 13-git clone -b branch_ismi URL
 14-Eğer iki veya daha fazla kişi ayn ısatırda farklı loglar değişiklikler yaparsa çakışma durumu ortaya çıkar çözümü ekip içinde olmalıdır.
+15-     commit geçmişini, 
+	commit yazarını, 
+	commit yazarının email adresini 
+	commitin atıldığı zaman bilgisini görebiliriz.
