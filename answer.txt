@@ -6,3 +6,4 @@
 4- remote repoyu
 5- En son yapılan commit i referans verir.
 6- Geçici alandır. Proje commitlenmeden önce kontrolleri yapılan yerdir.
+7- git' in takip edemediği dosyadır.
