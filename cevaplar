@@ -12,3 +12,7 @@ Git, bir projenin geçmiş ve güncel sürümlerini takip etmenizi ve değişikl
   - uzak sunucuya erişimimiz olmayabilir
   - Takım arkadaşımız kodları doğru göndermemiş olabilir
   - Yanlış branch'i pull etmiş olabilir
+
+- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+    Git'te "origin" uzaktaki ana depoyu (remote repository) temsil eder.
