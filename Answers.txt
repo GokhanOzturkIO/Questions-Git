@@ -76,3 +76,10 @@ Answer to question 16:
     farkları görebiliriz.
     2. Staging area'da bulunan dosya ile son commit arasındaki farkları görebiliriz.
     3. belirlenen iki farklı commit arasındaki farkları görebiliriz.
+
+Answer to question 17: git reset ile;
+    1.commit geçmişinde belirtilen commite geri dönebiliriz.
+    2.staging area ve çalışma dosyasındaki değişiklikleri geri alabiliriz.
+    3.commit referansı belirtmezsek, varsayılan olarak HEAD konumunu değiştirir. Yani head  konumunu
+     bir önceki commit'e taşır ama staging area ve  çalışma dosyası değişmez.
+
