@@ -48,3 +48,7 @@ Branch , projenin farklı versiyonlarının geliştirilmesi ya da birden fazla k
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 git branch [branchname] veya git checkout -b [branchname]
+
+- Var olan bir "branch"e nasıl geçebiliriz?
+
+git checkout [branchname]
