@@ -49,3 +49,10 @@ Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yapt�
 
 ---
 
+## 7) "Untracked file" ne demektir?
+
+"Untracked file", Git'in izlemediği dosyaları ifade eder. Bu dosyalar, Git'in değişiklikleri izlemediği veya kaydetmediği dosyalardır. Yeni oluşturulan veya değiştirilen dosyalar, Git tarafından otomatik olarak izlenmez ve bu nedenle "Untracked" olarak adlandırılır. Bu dosyalar, bir sonraki commit işlemi sırasında Git tarafından görmezden gelinir. Bunları takip etmek veya değişikliklerini kaydetmek istiyorsanız, önce dosyaları "Staging Area"e eklemeniz gerekir. Bu, dosyaların Git tarafından izlenmeye başlanmasını ve sonraki commit işlemlerinde kaydedilmesini sağlar.
+
+---
+
+
