@@ -81,3 +81,9 @@ veya "git checkout <branch name>" komutuyla, var olan bir branch'e geçebiliriz.
 hem de geçiş yapmak istiyorsak, "git checkout -b <branch name>" komutunu kullanabiliriz.
 
 ===============================================================================
+
+13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+    "git clone --branch <branch name> <url>" komutuyla belirli bir spesifik branch'i çekebiliriz.
+
+===============================================================================
