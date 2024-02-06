@@ -9,3 +9,6 @@
 - 1. git commit ile gonderilmis olabilri fakat git push yapilmamis olabilrii
   2. kodda ayni dosyanin ayni satirinda iki farkli degisiklik yapilmis olabilri. git buna karar veremez hangisinin secilecegini sorar.
 
+4."git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+- origin bir uzak sunucudur ve bu komutla uzaktaki sunucuda yapilan son degisikligi alabiliriz.
+
