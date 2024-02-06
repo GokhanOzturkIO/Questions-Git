@@ -27,7 +27,9 @@
 9.Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - ReadMe.md dosyası olusturacak bir template ayarlamaliyiz.
 
-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+- Projeyi farklı kollara ayırıp herkesin projein belli bir kısmında çalışmasını saglar. Bu sayede conflict onlenir.
+
 Sıfırdan bir "branch" nasıl oluşturabiliriz?
 Var olan bir "branch"e nasıl geçebiliriz?
 "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
