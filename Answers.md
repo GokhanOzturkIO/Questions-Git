@@ -236,3 +236,11 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
 8 - [Github Desktop](https://desktop.github.com/)
 
 9 - [Smart Git](https://www.syntevo.com/smartgit/)
+
+## Soru 23: GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir?
+
+Git: Bir sürüm kontrol sistemi olarak, projelerin lokal makinelerde depolanması ve takibi için kullanılır.
+
+GitHub: Git depolarını barındıran ve sosyal özellikler sunan bir platformdur. GitHub üzerinden projelerinizi paylaşabilir, işbirliği yapabilir ve diğer geliştiricilerle etkileşimde bulunabilirsiniz.
+
+Gitlab, Bitbucket, SourceForge gibi siteler örnek olarak verilebilir.
