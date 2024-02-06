@@ -216,3 +216,23 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
    -  **git branch** ise proje içinde farklı geliştirme dalları oluşturur ve paralel olarak çalışan farklı özelliklerin veya değişikliklerin ayrı dallarda geliştirilmesini sağlar.
 
    -  Taglar genellikle sabit bir noktayı işaretlerken, branchler genellikle belirli bir özellik veya geliştirme hattını temsil eder.
+
+## Soru 22: Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+1 - [Sublime Merge](https://www.sublimemerge.com/)
+
+2 - [Megit](https://github.com/eclipsesource/megit)
+
+3 - [Git Tower](https://www.git-tower.com/windows)
+
+4 - [Source Tree](https://www.sourcetreeapp.com/)
+
+5 - [Git Fork](https://git-fork.com/)
+
+6 - [Git Kraken](https://www.gitkraken.com/git-client) - Ücretli
+
+7 - [Tortoise Git](https://tortoisegit.org/)
+
+8 - [Github Desktop](https://desktop.github.com/)
+
+9 - [Smart Git](https://www.syntevo.com/smartgit/)
