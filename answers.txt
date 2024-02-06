@@ -96,3 +96,11 @@ sonra değişiklikleri master branch'ine merge etmeye çalışırken yaşanan ç
 takım arkadaşlarımızla görüşüp, hangi kodun geçerli olacağına karar vermemiz gerekir.
 
 ===============================================================================
+
+15- "git log" komutu ile hangi bilgileri görebiliriz?
+
+    "git log" komutu ile, atılan commitleri, commit'lerin id'lerini, commit'leri kimlerin attığını,
+ne zaman attığını, commit mesajını ve eğer güncel branch'e merge edildiyse, commit'lerin hangi
+branch'lerden atıldığını görebiliriz.
+
+===============================================================================
