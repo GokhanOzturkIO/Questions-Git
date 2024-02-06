@@ -4,3 +4,4 @@
    *Çevrimdışı olabiliriz.
    *Conflict durumu olabilir
 4- remote repoyu
+5- En son yapılan commit i referans verir.
