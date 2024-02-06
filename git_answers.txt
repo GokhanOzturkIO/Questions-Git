@@ -39,7 +39,9 @@
 13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - git clone --branch 'branchadi'
 
-"Merge conflict" ne demektir?
+14."Merge conflict" ne demektir?
+- Bir projede aynı dosyanın aynı satırında iki farkli degisiklik varsa, bunlar cakisabilir, git hangsini kullanacagini secemez. Onemli olan degisiklik digerleri tarafindan ezilebilir.
+
 "git log" komutu ile hangi bilgileri görebiliriz?
 "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 Git reset ile neyi geri alıyoruz?
