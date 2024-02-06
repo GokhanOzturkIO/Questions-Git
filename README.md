@@ -6,6 +6,7 @@
 - Yazdığınız her bir cevabı tek tek atomic commit olarak commitleyin.
 - Tüm sorular bittiğinde commitleriniz arasındaki farkları görmeye çalışın.
 - Tüm işleminiz bittikten sonra eklediğiniz tüm commitleri GitHub sayfamıza pushlayınız.
+(Pushlamadan önce WP channel üzerinden GitHub kullanıcı adınızı paylaşınız.)
 - En son olarak diğer kullanıcılardan gelen branch'leri lokal makinanıza indirerek, onların verdikleri cevapları kontrol edin.
 - Çok daha iyisi olmak istiyorsanız, öğrendiğiniz komutlarla ilgili bir medium makalesi yazın ve makalenin linkini cevapların en altına ekleyin.
 
