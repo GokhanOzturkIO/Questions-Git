@@ -52,3 +52,7 @@ git branch [branchname] veya git checkout -b [branchname]
 - Var olan bir "branch"e nasıl geçebiliriz?
 
 git checkout [branchname]
+
+- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+git clone -b [branchname] [url]
