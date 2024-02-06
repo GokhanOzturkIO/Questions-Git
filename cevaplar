@@ -101,3 +101,7 @@ Yerel ve uzak olmak üzere dosyaların ve değişikliklerin kaydedildiği yerdir
   Git Branch
   - Yeni bir özellik üzerinde çalışırken veya bir hata düzeltme yaparken ayrı bir çalışma alanı oluşturmak için idealdir.
   -  Bir branch, birden fazla commit içerebilir.
+
+- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+  
+  Herhangi gelişmiş bir IDE ve ya Text Editor ile ya da GitHub Desktop, GitKraken, SourceTree gibi GUI araçları kullanılabilir.
