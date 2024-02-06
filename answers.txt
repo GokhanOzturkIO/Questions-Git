@@ -58,3 +58,11 @@ Repository'si olmaktan çıkar. Öncesinde commit'leri uzak bir sunucuya push'la
 kontrollerimizi kaybederiz.
 
 ===============================================================================
+
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası 
+ oluşturulmasını istiyorsak ne yapmalıyız?
+
+    Bir template klasörü oluşturup, içerisinde ReadMe.md dosyası oluşturup,
+"git init --template <directory>" komutunu çalıştırarak Git'i başlatabiliriz.
+
+===============================================================================
