@@ -128,3 +128,12 @@ When using the git clone command, if we only want to pull a specific branch, we 
 ```bash
 git clone --single-branch --branch branch_name repository_url
 ```
+
+---
+
+## 14) What does "merge conflict" mean?
+
+Merge Conflict occurs when Git fails to automatically merge changesets during the merge process. This usually happens when different developers change the same lines in the same files, or when changes in different branches overlap. Merge conflicts give developers the opportunity to review and resolve changes in files where conflicts exist.
+
+---
+
