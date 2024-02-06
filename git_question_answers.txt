@@ -17,4 +17,6 @@
 4- origin kelimesi uzak sunucudaki repoyu temsil etmektedir.
 
 5- HEAD üzerinde çalıştığımız güncel commit'i temsil eder.
+
+6- Staging area veya index commit öncesi değişikliklerin geçici olarak beklediği alanı temsil eder.
  
