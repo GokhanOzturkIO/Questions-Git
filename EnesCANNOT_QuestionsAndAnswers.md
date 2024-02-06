@@ -91,3 +91,25 @@ In Git, a "branch" is used to manage different versions of a project. Each branc
 
 ---
 
+## 11) How can we create a "branch" from scratch?
+
+We can create a branch from scratch as follows:
+
+```bash
+git branch branch_name
+```
+
+and to move from the existing branch to the newly created branch, we write the following command:
+```bash
+git checkout branch_name
+```
+
+--
+
+Or briefly, we can switch to the branch we just created as follows:
+```bash
+git checkout -b branch_name
+```
+
+---
+
