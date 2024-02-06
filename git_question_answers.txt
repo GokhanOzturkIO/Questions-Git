@@ -54,3 +54,6 @@
 12- Varolan bir branche git checkout <branch-ismi> komutu ile geçiş yapabiliriz.
 
 13- Sadece belirli bir branchi clone etmek istiyorsak git clone -b <branchname> <remote-repo-url> komutu ile klonlayabiliriz.
+
+14- Merge Conflict terimi bir dosyada aynı satırda değişikliklerin yapılması ve bu değişikliklerin merge edilmesi sırasında git tarafından çözülemediği
+    durumu ifade eder. Manuel olarak çözmemiz beklenir.
