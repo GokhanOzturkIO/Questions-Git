@@ -3,3 +3,4 @@
 3- *remote repoya pushlanmamıştır.
    *Çevrimdışı olabiliriz.
    *Conflict durumu olabilir
+4- remote repoyu
