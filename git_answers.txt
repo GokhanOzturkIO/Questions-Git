@@ -55,7 +55,9 @@
 18."git commit" ile "git push" arasındaki fark nedir?
 - git commit yaptigimiz degisiklikleri uzak sunucuya gondermekteki bir adimdir ama hala tam olarak gondermez. Yani bizim yaptigimiz degisiklikleri baskalari goremez. Uzak sunucudan bir commit ileride olunur. git push ile yaptigimiz degisiklikleri uzak sunucuya tam olarak gondeririz. Digerlerinin bizim yaptigimiz degisikliklerden haberi olur.
 
-Atomic commit ne demektir?
+19.Atomic commit ne demektir?
+- Commit atarken belli bir kurala uymaktir. Yapilan degisiklikleri keywordler kullanarak yazmaktir. (add, update, delete gibi)
+
 Repository ne demektir?
 "git tag" nedir? "git branch"’ten farkı nedir?
 Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
