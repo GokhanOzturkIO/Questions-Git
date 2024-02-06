@@ -7,3 +7,9 @@
 	
 	-Örnek "git fetch": Arkadaşımız yeni bir branch açtı ve pushladı. Fakat takıldığı bir yer var bizim bakmamız gerekiyor. Yeni açılan branchi lokalimize çekebilmemiz
 	için öncelikle git fetch komutu ile remote'daki değişiklikleri getirmemiz gerekir.
+
+3- 	3.1 Arkadaşımız commitlemiş ama pushlamamış olabilir. 
+   	3.2 Kendi değişikliklerimizi commitlememiş olabiliriz. 
+	3.3 conflict çıkmış olabilir. 
+	3.4 pull etme yetkimiz olmayabilir.
+ 
