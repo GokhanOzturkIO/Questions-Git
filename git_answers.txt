@@ -30,7 +30,9 @@
 10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 - Projeyi farklı kollara ayırıp herkesin projein belli bir kısmında çalışmasını saglar. Bu sayede conflict onlenir.
 
-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+11.Sıfırdan bir "branch" nasıl oluşturabiliriz?
+- git branch 'feature/branchadi' ile yeni bir branch olusturabiliriz.
+
 Var olan bir "branch"e nasıl geçebiliriz?
 "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 "Merge conflict" ne demektir?
