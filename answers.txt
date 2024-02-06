@@ -5,3 +5,13 @@ yazdığımız bir kitabı veya basitçe aldığımız notları versiyonlamak ve
 damgasıyla yaptıklarımızı gözden geçirmek için harika bir sistemdir.
 
 ===============================================================================
+
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+
+    "git fetch" komutu, uzak sunucudaki değişiklikilerden lokalin haberdar
+olmasını sağlar. Değişiklikleri çekmez. "git pull" komutu ise, "git fetch" komutu ile haberdar
+olduğumuz değişiklikleri lokale çekmemizi sağlar. "git pull" komutu, sadece güncel (çalışılan) 
+branch'deki değişiklikleri çeker. Öncesinde mutlaka "git fetch" komutunun çalıştırılması gerekir.
+Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler oluşabilir.
+
+===============================================================================
