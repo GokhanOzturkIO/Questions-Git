@@ -91,3 +91,13 @@ Her bir commitin tek bir değişikliği temsil etmesi anlamına gelir.Mümkün o
 - Repository ne demektir?
 
 Yerel ve uzak olmak üzere dosyaların ve değişikliklerin kaydedildiği yerdir.
+
+
+- "git tag" nedir? "git branch"’ten farkı nedir?
+  Git Tag
+   - Sürüm numaraları, dönüm noktaları veya önemli değişiklikler gibi önemli noktaları işaretlemek için idealdir.
+   - Bir tag oluşturmak, kodda kalıcı bir işaret oluşturur ve o tag'e geri dönmenizi sağlar.
+
+  Git Branch
+  - Yeni bir özellik üzerinde çalışırken veya bir hata düzeltme yaparken ayrı bir çalışma alanı oluşturmak için idealdir.
+  -  Bir branch, birden fazla commit içerebilir.
