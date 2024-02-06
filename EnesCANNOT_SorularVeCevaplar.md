@@ -14,3 +14,19 @@ Git dünyada en yaygın kullanılan sürüm kontrol sistemidir. Zaman içinde ko
 
 ---
 
+## 3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Takım arkadaşımız bize kodlarını gönderdiğini söylüyor ancak biz bu kodları git pull ile local olarak alamıyorsanız bunun birkaç nedeni olabilir. Kontrol edilmesi gereken bazı yaygın hatalar şunlardır:
+
+- **Depo uzak sunucuya aktarılamama sorunu:**
+Takım arkadaşımızın değişikliklerini uzak sunucuya aktardığından emin olun. Aksi takdirde bu değişiklikleri git pull ile alamayız.
+
+- **Yanlış dal adı:**
+Takım arkadaşımızın kodu için doğru dal adını kullanıldığından emin olunmalı.
+
+- **İzin sorunu:**
+Uzak sunucuda herhangi bir izin sorunu olup olmadığını kontrol etmeliyiz. Değişiklikleri almak için gerekli izinlere sahip değilsek en son değişiklikleri alamayız.
+
+Bu yaygın hataları kontrol ederek, takım arkadaşımızın git pull ile yaptığı en son değişiklikleri almayla ilgili sorunları tanımlayabilir ve bu sorunları çözebiliriz.
+
+---
