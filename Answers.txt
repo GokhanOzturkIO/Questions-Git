@@ -83,3 +83,10 @@ Answer to question 17: git reset ile;
     3.commit referansı belirtmezsek, varsayılan olarak HEAD konumunu değiştirir. Yani head  konumunu
      bir önceki commit'e taşır ama staging area ve  çalışma dosyası değişmez.
 
+Answer to question 18:
+    commit: Localde çalıştığımız dosyayı git add ile git e ekledikten sonra commitlersek staging
+    area ya geçmiş olur ve localde kalıcı olarak kaydedilir. fakat remote sunucu tarafında bir
+    değişiklik gözlenmez.
+    push: Localde çalıştığımız dosyayı commitledikten sonra diğer ekip üyeleri ile paylaşılması veya
+    yedeklenmesi için push komutu kullanılır. Hem localde hem remote sunucuda değişiklikler güncellenir.
+
