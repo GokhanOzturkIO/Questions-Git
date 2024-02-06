@@ -7,3 +7,11 @@ Question 1: Git Nedir?
     -> Dağıtık olması ile her kullanıcının kendi kopyasına sahip olmasını ve uzak bir sunucuya gerek duyulmadan localden işelm yapmamızı sağlar.
     -> Branchler ile geliştirme sürecinde farklı özelliklerin ve değişikliklerin ayrı ayrı yönetilmesini olanak sağlar.
     -> Birden fazla geliştiricinin aynı projede çalışmasını kolaylaştırır.
+
+
+Question 2: "git pull" ile "git fetch" komutlarının farkı nedir?
+
+-> "git pull" ve "git fetch" komutları, uzak bir sunucudan değişiklikleri almak için kullanılır, ancak farklı şekillerde çalışırlar.
+
+    -> "git fetch": Uzak sunucudaki tüm değişiklikleri local kopyamıza indirir, fakat olduğumuz branchi etkilemez. Bu komut ile aslında ilk olarak yapılan değişikliği görüp daha sonra gerekirse local branchimize birleştirmemizi sağlar.
+    -> "git pull": Bu komut ile ilk olarak uzak sunucudaki değişiklikleri kopyamıza indirir ve daha sonra olduğumuz branchi günceller. Aslında buradaki işlem "git fetch" i çağırırp daha sonra otomatik olarak local branchimi güncellemizi sağlar.
