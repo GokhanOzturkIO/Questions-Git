@@ -199,3 +199,8 @@ Burada –all bütün branchleri dahil ederek commit mesajlarını gösteriyor.
 ## Soru 18: `git commit` ile `git push` arasındaki fark nedir?  
 
     git commit lokalde değişiklikleri kaydetmek için kullanılırken, git push bu değişiklikleri uzak bir depoya göndermek ve diğerlerinin erişimine açmak için kullanılır.
+
+## Soru 19:Atomic commit ne demektir?
+
+    Her bir commitin tek bir mantıksal değişiklikle ilişkili olan commit mesajları atmaktır. 
+    Örneğin, bir projede bir özellik ekleniyorsa, bu özellikle ilgili tüm kod parçaları, testler ve dokümantasyonlar tek bir commit içinde toplanarak bir atomic commit oluşturulabilir.
