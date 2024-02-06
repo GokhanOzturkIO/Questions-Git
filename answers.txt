@@ -14,3 +14,5 @@
 ✔"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
    Uzak sunucu 
 
+✔"HEAD" kelimesi neyi temsil etmektedir?
+   -Bağlı olduğumuz branchtaki en son yapılmış olan commit'i tercik etmektedir.
