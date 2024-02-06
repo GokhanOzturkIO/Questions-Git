@@ -16,7 +16,8 @@ Answer to question 3:
     3- Çakışma (Conflict) yaşanıyor olabilir. Takım arkadaşımın değiştirdiği kısım ile benim
     çalıştığım kısımdaki değişiklikler çakışıyorsa da pull işlemi başarısız olur. Çakışma durumunu
      çözmek gerekir.
-    4- Takım arkadaşım localinde yaptığı değişiklikleri commitlemiştir fakat yaptığı değişiklikleri
+    4- pull yapmadan önce değişikliklerden haberdar olmak için fetch komutunu kullanmamış olabilirim.
+    5- Takım arkadaşım localinde yaptığı değişiklikleri commitlemiştir fakat yaptığı değişiklikleri
     uzaktaki sunucuya gönderme aşamasını atlamış olabilir. (git push kullanarak bu sorunu
     çözebiliriz)
 
@@ -43,3 +44,8 @@ Answer to question 8:
 Answer to question 9:
     ############# Bu sorunun cevabından çok emin olamadığım için biraz araştırıp deneyerek cevabımı
     güncelleyeceğim. #############
+
+Answer to question 10:
+    branch:dal, projenin paralelde farklı çalışma alanlarını temsil eden geliştirme çizgisidir.
+    head ın kopyasını alarak, bu kopya üzerinde yeni değişiklikler yapılır. Her branch bağımsız bir
+    geliştirme yolunu temsil eder.
