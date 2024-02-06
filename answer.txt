@@ -38,3 +38,4 @@ bunu yaptığımız geliştirmelerde farklı branchler oluşturarak ilgili proje
 	-bir commit diğerlerini etkilememeli ve diğerler olmadan anlamlı olmalıdır BAĞIMSIZLIK
 	-yarım kalmış, eksik ve hatalı olmamalıdır TAMAMLANMIŞLIK
 	-projenin geçmişindeki gelişimi anlamak için bir iz bırakılmalıdır ANLAMLILIK
+20-Projenin kod ve geçmişini kaydeder.
