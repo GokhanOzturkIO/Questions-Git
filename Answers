@@ -23,3 +23,7 @@ Question 3: Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştir
 -> Arkadaşımızın verdiği branch bilgisi hatalı olabilir.
 -> Tanımlanmış bir commit formatı varsa ve ona uymamış ise yaptığı commit hata ile sonuçlanmış olabilir.(Örn: Commit mesajı 250 karakterden fazla olamaz)
 -> Arkadaşımız commit yapıp pushlamayı unutmuş olabilir. Değişiklikler arkadaşımızın localinde vardır fakat uzak sunucuya göndermediği için bir göremiyoruzdur.
+
+Question 4: "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+-> Bir projenin uzak sunucudaki(remote) ana kaynağını temsil eder.
