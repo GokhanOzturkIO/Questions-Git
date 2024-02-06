@@ -1,0 +1,9 @@
+
+Question 1: Git Nedir?
+
+-> Git dağıtık bir sürüm kontrol sistemidir. Yazılım geliştirme süreçlerinde kodun yönetimini kolaylaştırmak için kullanılır.
+
+    -> Versiyon kontolü ile projede yapılan değişiklikleri tutar ve geçmişte yaptığımız değişikleri görmemizi sağlar.
+    -> Dağıtık olması ile her kullanıcının kendi kopyasına sahip olmasını ve uzak bir sunucuya gerek duyulmadan localden işelm yapmamızı sağlar.
+    -> Branchler ile geliştirme sürecinde farklı özelliklerin ve değişikliklerin ayrı ayrı yönetilmesini olanak sağlar.
+    -> Birden fazla geliştiricinin aynı projede çalışmasını kolaylaştırır.
