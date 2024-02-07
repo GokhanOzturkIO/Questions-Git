@@ -1,0 +1,2 @@
+### Git Nedir?
+- Git, kısaca yapacağımız işlerin (bireysel proje geliştirmeleri veya ekip içerisindeki projelerin geliştirilmesinde) takibini, yönetilebilirliğini ve bir sorun olması durumunda versiyonlar arası geçiş yaparak kontrol edilmesini sağlayan bir versiyon yönetim aracıdır.
