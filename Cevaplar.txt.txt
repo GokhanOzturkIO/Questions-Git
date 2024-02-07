@@ -18,3 +18,6 @@
 
 7- "Untracked file" ne demektir?
 # git dosyasında bulunan ancak git tarafından henüz tanınmamış dosyalara denir. Bu dosyaları git add ile git'e tanıtırız ekleriz.
+
+8- ".git" klasörünü silersek ne olur?
+# Üzerinde çalışılan dosyanın git tarafındanki tüm bilgileri silinir. Repo bilgileri, kod geçmişi, log vb. tüm bilgiler kaldırılır.
