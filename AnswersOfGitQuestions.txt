@@ -122,3 +122,9 @@ Commit sahibini, commit geçmişini, commitin tarihini, commit mesajını ve com
 "git commit" yaptığımız değişiklikleri local repoya kaydederiz ve "git push" ile de oluşturduğumuz bu commitleri repoya yükleriz.
 #####
 
+
+19- Atomic commit ne demektir?
+
+Yapılan değişikliklerde her iş parçacığının tek tek commitlenmesidir. Böylece görev takibini yada varsa bir hatanın nerede meydana geldiğini görmemizi kolaylaşır.
+
+#####
