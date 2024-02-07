@@ -78,4 +78,9 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 12- git checkout branch_ismi
 
 
+*******************************************************************************************************************************************************
+
+
+13- Belirli bir spesifik dalı sadece klonlamak için git clone komutuna --single-branch bayrağını ve klonlamak istediğiniz dalı belirten -b bayrağını kullanabilirsiniz. Örneğin git clone --single branch -b branch_name repo_url
+
 
