@@ -34,3 +34,6 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 *** .git klasörü git init komutu çalıştırıldığında oluşturulur. Ve o çalışma dizininingit'e bağlandığını gösterir.
  Bunu silersek git'le bağımız gider ve commit historyile bağımızı kaybederiz. Projede eski değişikliklere dönemeyiz.
 
+9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+*** Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i kullanarak init etmiş olmalıyız.
