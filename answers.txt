@@ -248,8 +248,33 @@ Cevap:En popüler kullanılanlar:
        -GitExtensions
        -Magit
 Bu araçlar, Git komutlarını görsel bir arayüz üzerinden kullanmamıza olanak tanır ve özellikle Git'in karmaşık işlemlerini daha kullanıcı dostu bir şekilde yönetmemizi sağlar. 
-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Soru 23: "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
+Cevap:
+
+Git; 
+-Git, bir versiyon kontrol sistemidir.
+-Kodunuzu yönetmek, değişiklikleri takip etmek ve işbirliği yapmak için kullanılır.
+-Lokal ortamda çalışır ve bağımsızdır, yani internet bağlantısı gerektirmez.
+Sürüm geçmişini ve değişiklikleri takip eder, ancak bu bilgileri paylaşmak veya işbirliği yapmak için bir uzak depoya ihtiyaç duyar.
+
+GitHub;
+-GitHub, bir kod barındırma platformudur. 
+-Git tabanlı projeleri barındırmak, işbirliği yapmak ve projeleri paylaşmak için kullanılır.
+-Uzak depo (remote repository) sunar, bu da projenizi bulutta depolamanızı ve başkalarıyla işbirliği yapmanızı sağlar.
+-Web tabanlı bir arayüze sahiptir ve projelerinizi görsel olarak yönetmenize olanak tanır.
+
+GitHub Benzeri Diğer Platformlar;
+-GitLab
+-Bitbucket
+-GitKraken Glo
+-SourceForge
+-GitTea
+
+Github kullanıcı adım; SenaGezer
+
+------------------------------------------------------------------------------------
 
 
 
