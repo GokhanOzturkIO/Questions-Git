@@ -23,3 +23,14 @@ Birkaç olası hata vardır bunlar şu şekilde sıralanabilir:
 - Takım arkadaşınızın gönderdiği değişiklikler, sizin lokalde üzerinde çalıştığınız dosyalara çakışabilir.Bu sebeple git çakışmaları bildirecektir.
 
 ####################################################################################
+
+4. "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Origin, genellikle Git deposunun uzak sunucu adresini temsil eden bir kısaltmadır.
+Örneğin, bir GitHub deposu oluşturduğunuzda, bu depoya varsayılan olarak "origin" adı verilir ve GitHub'un depo URL'si bu "origin" adı altında depoya bağlanır.
+Git'te, "origin" dışında çeşitli isimler kullanılabilir. Bu isimler genellikle projenin gereksinimlerine ve iş akışına bağlı olarak değişir. 
+İşte yaygın olarak kullanılan bazı isimler: Origin, Upstream, fork,production,staging ve isterseniz random bir isimde koyabilirsiniz.
+
+####################################################################################
+
+
