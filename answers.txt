@@ -3,3 +3,4 @@
 3. Henüz remote repository ye pushlanmamıs olabilir veya fetch etmek ıcın gerekli izinlere sahip degilizdir. İnternet baglantısıyla ilgili veya remote repository adres ismiyle ilgili bir sıkıntı olmus olabılır.
 4. Remote repository url i için kullanılan standart default bir kısaltmadır. İsmi isteğe bağlı değiştirilebilir.
 5. Kullanıcının mevcut branchte hangi commit üzerinde çalıştığını gösterir. Bu dizindeki dosyaların hangi sürümde olduğunu belirler. Yeni commit oluşturulduğunda HEAD otomatik olarak bu konumu işaret eder.
+6. Staging area commit edilmeye hazır olan değişiklikleri içinde barındıran ara bi alandır. Working directorydeki değişiklikler staging area ya eklenerek sonraki commit e dahil edilebilir. Commit etmeden önce genel bir kontrol için kullanılabilir.
