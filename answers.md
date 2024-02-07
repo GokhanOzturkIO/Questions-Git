@@ -79,3 +79,8 @@ Sadece main çekilecekse git clone -b main https://github.com/kullaniciadi/proje
 
 Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikler arasındaki uyumsuzlukları tespit edemez ve birleştirme işlemini otomatik olarak tamamlayamaz. Bu durumda, Git çakışan dosyaları işaretler ve kullanıcıya çözümlemesi için işaretçiler (<<<<<<<, =======, >>>>>>> gibi) ekler.
 ==========================
+
+15. - "git log" komutu ile hangi bilgileri görebiliriz?
+
+  Commit Hash (Kimlik), Commit Yazarı, Tarih ve Saat, Commit Mesajı ve Commit İlişkileri (Parent Commit'ler)
+==========================
