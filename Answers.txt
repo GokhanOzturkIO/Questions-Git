@@ -35,8 +35,9 @@ Yeni bir branch oluşturmak için "git branch branchismi" komutu ile branch olu�
 13)"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 bunun için git clone -b branchadi url komutunu kullanabiliriz
 ****************************************************
-
-
+14)"Merge conflict" ne demektir?
+iki farklı dalı birleştiriyorken ortaya çıkan bir durumdur ve bunu git çözemez size bildirir ve sizden çözüm ister
+****************************************************
 
 
 
