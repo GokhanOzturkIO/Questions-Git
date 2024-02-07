@@ -38,6 +38,10 @@ bunun için git clone -b branchadi url komutunu kullanabiliriz
 14)"Merge conflict" ne demektir?
 iki farklı dalı birleştiriyorken ortaya çıkan bir durumdur ve bunu git çözemez size bildirir ve sizden çözüm ister
 ****************************************************
+15)"git log" komutu ile hangi bilgileri görebiliriz?
+Her commitin kimliği vardır bu kimliğini,kim commiti oluşturdugunu,commitin yapıldıgı tarih ve saat,commitin notlarını içerem metini görebiliriz
+****************************************************
+
 
 
 
