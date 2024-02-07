@@ -12,3 +12,14 @@ Git Fetch ve Git Pull arasındaki temel fark, git fetch’in kaynaktan en yeni m
 Daha çok değişikliklerin mevcut olup olmadığını bulmak için verileri incelemek gibidir, oysa git pull tüm değişiklikleri deponuza çekmekle birlikte aynı şeyi yapar.
 
 ####################################################################################
+
+3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Birkaç olası hata vardır bunlar şu şekilde sıralanabilir:
+
+- Erişim yetkisi olamaybilir
+- Farklı Branch'lerde çalışıyor olablirsiniz
+- Sunucu kaynaklı bağlantı problemi olabilir
+- Takım arkadaşınızın gönderdiği değişiklikler, sizin lokalde üzerinde çalıştığınız dosyalara çakışabilir.Bu sebeple git çakışmaları bildirecektir.
+
+####################################################################################
