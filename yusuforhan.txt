@@ -12,4 +12,7 @@ bu çakışmaları çözüp sonra pull yapmalıyız.
 
 6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir? : Genellikle bir değişiklik yapıldığında, bu değişiklikler önce çalışma dizininde (working directory) yapılır. Daha sonra, "git add" komutuyla bu değişiklikler Staging Area'ya eklenir ve bir sonraki commit'e dahil edilmek üzere hazır hale getirilir. Son olarak, "git commit" komutuyla Staging Area'daki değişiklikler commit edilir ve kalıcı olarak kaydedilir.
 Staging Area veya Index, Git'in esnek ve güçlü commit sürecinin bir parçasıdır ve değişikliklerin düzenli, tutarlı ve kontrol edilebilir bir şekilde kaydedilmesini sağlar.
+
+7) "Untracked file" ne demektir? : "Untracked file" (İzlenmeyen dosya), Git'in proje dosyalarını izleme yeteneğiyle ilgili bir terimdir. Bir dosya "untracked" olarak işaretlendiğinde, Git bu dosyanın içeriğini izlemiyor ve bu dosyayı proje geçmişinde kaydetmiyor.
+
  
