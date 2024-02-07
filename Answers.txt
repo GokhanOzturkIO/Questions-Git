@@ -64,3 +64,10 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 
 10- Git'te "branch" (dal), projenin farklı versiyonlarını, değişikliklerini ve geliştirmelerini izlemek için kullanılan bir yapıdır. Her dal, projenin ayrı bir hattını temsil eder ve bir dala yapılan değişiklikler, diğer dalları etkilemez. Bu, farklı özelliklerin veya değişikliklerin aynı anda geliştirilebilmesini sağlar ve bir daldaki çalışmaların diğer dallardaki çalışmalardan izole olmasını sağlar.
+
+
+*******************************************************************************************************************************************************
+
+
+11- git branch branch_ismi  şeklinde yeni bir branch oluşturulur. 
+
