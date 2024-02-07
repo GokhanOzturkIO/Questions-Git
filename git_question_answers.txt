@@ -1,0 +1,72 @@
+Git Nedir?
+Git, dağıtık bir versiyon kontrol sistemidir, yazılım geliştirme süreçlerinde dosyaların sürüm kontrolünü sağlar.
+
+"git pull" ile "git fetch" komutlarının farkı nedir?
+git pull, uzak depodan güncellemeleri çeker ve yerel çalışma dizinine entegre ederken, git fetch sadece güncellemeleri çeker, ancak entegre etmez.
+
+Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+Eğer "git pull" ile güncellemeleri alamıyorsak, takım arkadaşımız muhtemelen değişikliklerini uzak sunucuya push etmemiştir veya yanlış bir branch'te çalışıyor olabilir.
+
+"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+"origin", genellikle projenin orijinal depo adresine işaret eder.
+
+"HEAD" kelimesi neyi temsil etmektedir?
+"HEAD", şu anda çalışılan branch'in son commit'ini temsil eder.
+
+"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+"Staging Area" veya "Index", bir sonraki commit'e eklenecek dosyaların bulunduğu bölgedir.
+
+"Untracked file" ne demektir?
+"Untracked file", Git'in izlemediği ve versiyon kontrolü altına almadığı dosyalardır.
+
+".git" klasörünü silersek ne olur?
+".git" klasörünü silersek, projenin Git ile ilişkili tüm versiyon kontrol bilgilerini kaybederiz ve projeyi versiyon kontrolünden çıkarırız.
+
+Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+Kendi lokalimizde her "git init" komutunu kullanırken otomatik olarak "ReadMe.md" dosyası oluşturmak için, git init komutunu kullanmadan önce elle ReadMe.md dosyasını oluşturmalı veya kopyalamalıyız.
+
+Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Git'te "branch" yapısı, farklı geliştirme yollarını izlemek, değişiklikleri izlemek ve farklı özellikleri veya düzeltmeleri ayrı ayrı geliştirmek için kullanılır.
+
+Sıfırdan bir "branch" nasıl oluşturabiliriz?
+Sıfırdan bir "branch" oluşturmak için git branch branch_adı komutunu kullanabiliriz.
+
+Var olan bir "branch"e nasıl geçebiliriz?
+Var olan bir "branch"e geçmek için git checkout branch_adı komutunu kullanabiliriz.
+
+"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+Belirli bir spesifik branch'i sadece çekmek için git clone -b branch_adı komutunu kullanabiliriz.
+
+"Merge conflict" ne demektir?
+"Merge conflict", iki farklı branch'te aynı dosyanın aynı bölümünde yapılan değişikliklerin çakışması durumudur ve Git'in otomatik olarak birleştiremediği durumdur.
+
+"git log" komutu ile hangi bilgileri görebiliriz?
+git log komutu ile commit geçmişini, commit id'lerini, yazar bilgilerini ve commit mesajlarını görebiliriz.
+
+"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+ (genellikle iki commit arası veya iki branch arası) arasındaki değişiklikleri görebiliriz. Yani "git diff" ile iki farklı durum arasındaki değişiklikleri görebiliriz.
+
+Git reset ile neyi geri alıyoruz?
+
+git reset, belirli bir commit'e veya branch'in son haline geri dönmek için kullanılan bir komuttur. Dolayısıyla, git reset komutu ile geri alınan şey, genellikle son yapılan commit veya belirtilen bir commit'in değişiklikleridir.
+
+"git commit" ile "git push" arasındaki fark nedir?
+"git commit", yerel değişiklikleri yerel depoya kaydederken, "git push", yerel değişiklikleri uzak depoya gönderir.
+
+Atomic commit ne demektir?
+Atomic commit, bir commit'in tek bir mantıksal değişikliği temsil etmesidir.
+
+Repository ne demektir?
+Repository, proje dosyalarının ve versiyon kontrol bilgilerinin depolandığı bir veri deposunu ifade eder.
+
+"git tag" nedir? "git branch"’ten farkı nedir?
+git tag, belirli bir commit'e etiket eklemek için kullanılan bir komuttur. git branch, branch'leri yönetmek için kullanılır.
+
+Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Git'i görsel olarak kullanmak için GitHub Desktop, SourceTree gibi üçüncü taraf araçlarını kullanabiliriz.
+
+"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+GitHub, Git tabanlı bir proje yönetim ve işbirliği platformudur. Diğer benzer siteler arasında GitLab, Bitbucket bulunur. Örnek kullanıcı adları: GitHub'da "octocat", GitLab'da "gitlab-user", Bitbucket'ta "bitbucket-user".
+
+main ya da master branch'inin diğer branchlerden farkı nedir?
+Main veya master branch, genellikle proje geliştirmesinin ana branch'ini temsil eder ve diğer branch'lerden farkı, genellikle bu branch'in stabil olması ve yayınlanabilir nitelikte olmasıdır.
