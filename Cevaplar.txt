@@ -58,6 +58,22 @@ Git'in tam merkezinde olan bir klasör .git , eğer bu klasör silinirse bütün
 
 ####################################################################################
 
+9. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Bunun birkaç yöntemi vardır fakat bence en iyi kullanım template kullanımı olacaktır. Git, yeni bir repository oluşturulurken kullanılan bir şablon sistemine sahiptir. 
+Bu şablonlardan birini özelleştirerek her yeni repo oluşturulduğunda ReadMe.md dosyasının otomatik olarak eklenmesini sağlayabilirsiniz. Bu şablonlar, .git/templates dizininde yer alır.
+İlk olarak, ReadMe.md dosyasını içeren bir template dizini oluşturun:   
+                  
+mkdir -p ~/.git-templates/hooks
+touch ~/.git-templates/hooks/README.md
+
+Sonra, bu template dizinini Git'e tanıtın:
+
+git config --global init.templatedir '~/.git-templates'
+
+####################################################################################
+
+
 
 
 
