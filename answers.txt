@@ -1,1 +1,2 @@
 1. Git yazılım geliştirme sureclerinde kullanılan versiyon kontrol aracıdır. Projede farklı bilgisayarlardan birden fazla kisinin calısmasına ve proje uzerınde yapılan degısıklıklerının es zamanlı kaydedilmesine olanak tanır.
+2. Git pull remote repositorydeki degısıklıklerı alır ve local repository ile merge eder. Bu overwrite merge conflict e yol acabilir. Git fetch ise sadece degisiklikleri alır ve local repositoryde degisiklik yapmaz. Bu sayede değişiklikleri gözden geçirmek için zaman verir.
