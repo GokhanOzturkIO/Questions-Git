@@ -69,3 +69,5 @@
     * GitLab, Bitbucket benzer uygulamalar. github : mertcankartal
 
 - main ya da master branch'inin diğer branchlerden farkı nedir?
+    * bunlar genelde ana(release) branchleridir. uygulamanın son halinin olduğu branchlerdir.
+    * diğer branchlerde geliştirme bugfix yapılır ve bu branchlere pushlanır.
