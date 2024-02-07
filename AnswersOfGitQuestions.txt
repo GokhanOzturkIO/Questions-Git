@@ -40,3 +40,10 @@ Git'in çalışma alanındaki değişikliklerin geçici olarak saklandığı ve 
 
 "Untracked file" (İzlenmeyen dosya), Git'in takip etmediği, yani versiyon kontrolü altına almadığı dosyaları ifade eder. Bu dosyalar, genellikle proje klasöründe bulunabilir,
 #####
+
+
+8- ".git" klasörünü silersek ne olur?
+
+Git reposu ve tarihçesi kaybolur, ve bu dizindeki tüm dosyalar yalnızca basit bir dosya dizini olur. Yani, .git klasörünü silmek, o dizini artık bir Git deposu olarak tanımlamaktan çıkarır ve tarihçe, dal bilgileri, commit bilgileri gibi Git özellikleri kaybolur.
+#####
+
