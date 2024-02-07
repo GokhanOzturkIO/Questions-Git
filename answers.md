@@ -32,3 +32,8 @@
 
   "Untracked file" (İzlenmeyen dosya), Git'in çalışma dizininde bulunan ve Git tarafından takip edilmeyen bir dosyayı ifade eder. Yani, bu dosya Git'in sürüm kontrolü altında değildir ve Git tarafından izlenmez veya yönetilmez.
 ==========================
+
+8. ".git" klasörünü silersek ne olur?
+
+  .git klasörü, bir Git deposunun kalbidir ve sürüm kontrolü ile ilgili tüm bilgileri içerir. Bu klasörü silerseniz, Git deposunun tüm geçmişi, commit'leri, branch'leri ve diğer tüm bilgileri kaybolur. Bu durumda, Git deposu kullanılamaz hale gelir ve o projenin Git tarihçesi tamamen kaybolur.
+==========================
