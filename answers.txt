@@ -24,3 +24,9 @@ Uzak repoya denk gelir. "git pull" dediğimizde o "origin"den çekeriz
 5- - "HEAD" kelimesi neyi temsil etmektedir?
 
 Üzerinde çalıştığımız son commiti temsil eder. Farklı bi dala veya commite geçersek HEAD de güncellenir.
+#####
+
+5- - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+"git add" komutunu kullandıktan sonra henüz commitlemediysek dosyalarımız bir "ara bölge"de bulunur. Üstünde çalıştığınız dosya ile commit deposu arasında bir bekleme bölgesi denilebilir. Böylece tüm değişiklikleri bir seferde değil de grup grup gönderebiliriz.
+#####
