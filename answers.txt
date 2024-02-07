@@ -182,4 +182,8 @@ git branch komutu, projede farklı iş akışlarını veya geliştirme dalların
 22 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 GitHub Desktop, SourceTree, GitKraken, GitExtensions
 *****************************************************************
+23 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+git: Versiyon kontrol sistemidir. github: web tabanlı bir git depolama hizmetidir. github benzeri git depolama platformları:
+Gitlab, Bitbucket, GitKraken Glo, SourceForge.
+*****************************************************************
 
