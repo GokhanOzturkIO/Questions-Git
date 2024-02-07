@@ -66,3 +66,6 @@
 
 23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 # git versiyon kontrol sisteminin adıdır. GitHub ise git tabanlı bir kod, proje vb. dosyaları barındıran bir platformdur. Github gibi GitLab, BitBucket, SourceForge vb. platformlar da bulunmaktadır.
+
+24- main ya da master branch'inin diğer branchlerden farkı nedir?
+# Projenin ana kodunu barındırır. Genelde diğer branch'ler bu ana branch'i kullanarak oluşturulur. Yönetici isterse bu dalı erişime kapatabilir ve daha güvenli bir proje ilerlemesi sağlayabilir.
