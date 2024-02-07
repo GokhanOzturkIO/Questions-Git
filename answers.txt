@@ -69,5 +69,8 @@ Cevap: ".git klasörü" bir Git deposunun temelini oluşturan ve tüm depo ile i
      Herhangi bir yanlışlığa zemin hazırlamamak için ".git" klasörünü gömülü dosya olarak tutmak daha yararlı olacaktır.
     Bunun için ayarlar->dosya gezgini->gizli dosyalar ve sistem dosyalarını göster-> seçeneğini kapatınız.
 ---------------------------------------------------------------------------------------
+Soru 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
-    
+Cevap: Her git init komutunda otomatik ReadMe.md dosyası oluşturmak istiyorsak global bir git şablonu oluşturabiliriz template ile.
+---------------------------------------------------------------------------------------
+
