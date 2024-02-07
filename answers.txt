@@ -133,3 +133,9 @@ Git'te yaygın olarak kullanılan komutlar arasında git branch (dalları listel
 Örnek:
 git branch yeni-branch-adı
 *****************************************************************
+12 - Var olan bir "branch"e nasıl geçebiliriz?
+git checkout yeni-branch-adı
+veya
+git switch yeni-branch-adı
+*****************************************************************
+
