@@ -84,5 +84,6 @@ Android Studio (vcs özelliği)
 
 Diğer benzer siteler arasında bildiğim GitLab mevcuttur fakat github benim işimi gçrdüğü için sadece onu kullanmaktaım ve kullanıcı adım "Yusuf-Orhan"
 
-
+23) main ya da master branch'inin diğer branchlerden farkı nedir? :
+"main" veya "master" dalı, genellikle bir projenin ana dalını ve temel sürümünü temsil eder. Diğer dallar, genellikle "main" veya "master" dışında oluşturulur ve belirli özelliklerin veya geliştirmelerin yapılması için kullanılır. "main" veya "master" dalı, genellikle canlı ürünün sürümünü ve ana kod tabanını temsil ederken, diğer dallar daha fazla deneme, geliştirme veya özellik çalışmaları için kullanılır.
 
