@@ -35,3 +35,9 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 
 6- "Staging Area" veya "Index", Git'in çalışma alanındaki değişiklikleri yönetmek için kullandığı ara bir bölgedir. Bu bölge, çalışma dizininizde (working directory) yaptığınız değişikliklerin commit öncesinde geçici olarak saklandığı alandır.
+
+
+*******************************************************************************************************************************************************
+
+
+7- "Untracked file" (İzlenmeyen dosya), Git deposunun takip etmediği ve hakkında bilgi sahibi olmadığı dosyalardır. Yeni oluşturulmuş veya projeye eklenmemiş dosyalar bu kategoriye girer.
