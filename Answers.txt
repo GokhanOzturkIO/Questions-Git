@@ -22,3 +22,12 @@ git pull origin BranchName
 - Yanlış dizinde git komutu çalıştırıyor olabiliriz.
 
 - Localdeki depomuzun son yapılan değişikliklerden haberi olmayabilir. Bunu aşmak için "git fetch" veya "git remote update" komutu kullanılabilir.
+
+-------------------------------
+
+4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+origin genelde bir referans isim olarak kullanılır. Bu durumda origin kelimesi uzak sunucudaki depoyu temsil etmektedir.
+
+-----------------------------
+
