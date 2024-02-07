@@ -90,4 +90,13 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 14- "Merge conflict" (birleştirme çakışması), Git'te iki veya daha fazla dalı birleştirme işlemi sırasında karşılaşılan bir durumdur. Birleştirme işlemi sırasında, Git farklı dallarda yapılan değişikliklerin aynı dosyanın aynı satırlarını etkilediğini belirler ve bu durumu bir çakışma olarak tanımlar.
 
 
+*******************************************************************************************************************************************************
 
+
+15- git log komutu, Git deposunda yapılan commit'leri listelemek için kullanılır. Bu komut kullanıldığında, Git geçmişindeki commit'lerin listesi görüntülenir ve her bir commit için aşağıdaki bilgileri görebilirsiniz:
+
+1. Commit Hash: Her commit'in benzersiz bir kimliği vardır ve bu kimlik, commit hash olarak bilinir. Bu, commit'in tam olarak tanımlanmasını sağlar.
+2. Yazar: Commit'i yapan kişinin adı ve e-posta adresi.
+3. Tarih: Commit'in yapıldığı tarih ve saat.
+4. Commit Açıklaması: Commit'i açıklayan bir mesaj. Bu mesaj, yapılan değişikliklerin ne olduğunu ve neden yapıldığını belirtir.
+5. Değişiklikler: Commit ile eklenen, değiştirilen veya silinen dosyaların listesi ve bu dosyalardaki değişikliklerin özetleri.
