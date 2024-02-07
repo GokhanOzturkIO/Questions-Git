@@ -73,7 +73,14 @@ git config --global init.templatedir '~/.git-templates'
 
 ####################################################################################
 
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 
+Türkçeye "dal" olarak çevriliyor ve bu oldukça doğru bir tanım olabilir. Projenin geliştirilme sürecinde farklı çalışma alanlarındaki ekipler kendi branch'lerini açıp orda geliştirme yapabilirler. 
+Bunun bize birçok avantajı vardır:
 
+- Paralel Geliştirme
+- Risk Yönetimi
+- Kodu Koruma
+- Geri Alma ve Kurtarma
 
-
+####################################################################################
