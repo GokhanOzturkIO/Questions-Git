@@ -129,3 +129,7 @@ Git'te "branch" (dal) kavramı, projenin farklı paralel geliştirme hatlarını
 
 Git'te yaygın olarak kullanılan komutlar arasında git branch (dalları listeleme), git checkout (dal değiştirme), git merge (dalları birleştirme) ve git push (dalı uzak depoya gönderme) gibi komutlar, branch yönetimini kolaylaştırmak için kullanılır. Branch'lar, geliştirme sürecini daha organize, izlenebilir ve etkili hale getirir.
 *****************************************************************
+11 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
+Örnek:
+git branch yeni-branch-adı
+*****************************************************************
