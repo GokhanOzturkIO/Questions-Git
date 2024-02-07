@@ -1,0 +1,1 @@
+1. Git yazılım geliştirme sureclerinde kullanılan versiyon kontrol aracıdır. Projede farklı bilgisayarlardan birden fazla kisinin calısmasına ve proje uzerınde yapılan degısıklıklerının es zamanlı kaydedilmesine olanak tanır.
