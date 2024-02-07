@@ -89,3 +89,8 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
 
   git diff komutu, farklı iki durum arasındaki değişiklikleri göstermek için kullanılır. Bu durumlar genellikle iki farklı commit, iki farklı branch veya bir commit ve çalışma dizini arasındaki farklılıkları göstermek için kullanılır. Dolayısıyla, git diff komutu ile iki farklı durum arasındaki değişiklikleri görebilirsiniz.
 ==========================
+
+17. Git reset ile neyi geri alıyoruz?
+
+  git reset komutu, Git deposundaki yapılan değişiklikleri geri almak veya geri sarmak için kullanılan bir komuttur. git reset, farklı seçeneklerle kullanılabilir ve farklı derecelerde geri alma işlemleri yapabilir. Commitleri geri alma, Staging area değişikliklerini geri alma ve İç çalışma dizini değişikliklerini geri alma gibi işlemler yapılabilir.
+==========================
