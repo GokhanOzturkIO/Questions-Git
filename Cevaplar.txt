@@ -115,7 +115,13 @@ Bu şekilde istedğiniz branch girmiş olacaksınız.
 
 ####################################################################################
 
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
+Bu şekilde spesifik bir branch'i çekebiliriz:
+
+git clone -b branch_adı repo_url
+
+####################################################################################
 
 
 
