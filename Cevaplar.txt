@@ -224,4 +224,8 @@ En önemli farklardan biri ise her kullanıcının bu branch'lere erişim yetkis
 
 ####################################################################################
 
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır? 
 
+Git deposunda izlenmemesi gereken dosyaları ve klasörleri belirlemek için kullanılır. Bu dosya, Git'in belirli dosyaları veya klasörleri izleme veya takip etme işlemlerini atlamasını sağlar. 
+Genellikle proje dosyalarının yanında bulunur ve .gitignore adını taşır. gitignore dosyası, projenin temiz ve düzenli tutulmasını sağlar ve gereksiz dosya ve klasörlerin Git deposuna eklenmesini önler.
+Bu dosya, projenin gereksinimlerine ve çalışma ortamına bağlı olarak özelleştirilebilir.
