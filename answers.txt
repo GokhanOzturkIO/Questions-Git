@@ -237,7 +237,18 @@ git switch yeni-ozellik komutunu kullanmanız gerekir.
 Etiketler genellikle sürüm veya önemli noktalara atanırken, branch'ler geliştirme süreçlerini izlemek için kullanılır.
 ---------------------------------------------------------------------------------------
 
+Soru 22: Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
+Cevap:En popüler kullanılanlar:
+       -GitHub Desktop
+       -Sourcetree
+       -GitKraken
+       -Tower
+       -SmartGit
+       -GitExtensions
+       -Magit
+Bu araçlar, Git komutlarını görsel bir arayüz üzerinden kullanmamıza olanak tanır ve özellikle Git'in karmaşık işlemlerini daha kullanıcı dostu bir şekilde yönetmemizi sağlar. 
+----------------------------------------------------------------------------------------
 
 
 
