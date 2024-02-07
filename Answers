@@ -159,3 +159,8 @@ Question 23: - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer 
 -> Git : Yazılım geliştirme sırasında kaynak kodundaki değişiklikleri izlemek için kullanılan dağıtık bir sürüm kontrol sistemidir. Kullanıcıların kod sürümlerini yönetmelerine, dallar oluşturmalarına, değişiklikleri kaydetmelerine, kodları birleştirmelerine ve diğerleriyle işbirliği yapmalarına olanak tanıyan bir komut satırı aracıdır.
 
 -> Github : Git kullanarak sürüm kontrolü için bir web tabanlı barındırma hizmetidir. Geliştiricilere, projelerde işbirliği yapmaları, kod depolarını barındırmaları, sürüm kontrolünü yönetmeleri, sorunları izlemeleri ve kod incelemeleri yapmaları için bir platform sağlar.
+
+
+Question 24: main ya da master branch'inin diğer branchlerden farkı nedir?
+
+-> "main" veya "master" branch, Git'te olan ana dalı temsil eder ve genellikle projenin en kararlı ve üretim için hazır kodlarını içerir. Diğer branch'ler, genellikle bu ana dal üzerinde yeni özelliklerin veya geliştirmelerin yapıldığı yerlerdir.
