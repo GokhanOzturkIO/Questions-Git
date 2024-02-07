@@ -68,4 +68,7 @@ git config --global init.templatedir '~/.git-templates'
 .bashrc veya .zshrc dosyalarına aşağıdaki satırı ekleyerek bir alias tanımlayabiliriz.
 alias gitinit='git init && echo "# My Project" > ReadMe.md && git add ReadMe.md && git commit -m "Initial commit with ReadMe.md"'
 
+10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Bir proje üzerinde bağımsız çalışma alanı sunar kısaca bir çok çalışma arkadaşımızla aynı projenin farklı alanlarında daha rahat bir çalışma imkanı sağlar.
 
