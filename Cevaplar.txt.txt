@@ -12,3 +12,6 @@
 
 5- "HEAD" kelimesi neyi temsil etmektedir?
 # HEAD kelimesi üzerinde bulunulan branch'in son commit'ini gösterir. Bu HEAD commit işlemleri sırasında değişir. Stack mantığıyla düşünürsek, HEAD en eklenen commit'e denir.
+
+6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+# Staging Area çalışılan dosyaların git tarafından takip edilmesi için oluşturulmuş sanal bir bölümdür. git add ile değişiklikler veya direkt dosyalar Index bölümüne taşınır.
