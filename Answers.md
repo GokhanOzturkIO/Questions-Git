@@ -31,6 +31,6 @@ git tafından takip edilmeyen dosyalardır. Bu dosyaları takibe almak için "gi
 
 git ile daha önceden kaydetmiş olduğumuz tüm işlemler (versiyonlar, oluşturulan branchler vb.) silinir, projemizin sadece son hali elimizde kalır.
 
-## Soru 9: Kendi lokalimizde her `git init` komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+## Soru 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
 Önce içerisinde "ReadMe.md" olan bir template dosyası oluşturup ardından "git init --template=[oluşturduğumuz_dosyanın_konumu]" şeklinde bir kod yazdığımız zaman bundan sonra yazdığımız tüm "git init" komutları otomatik olarak "ReadMe.md" dosyasını otomatik oluşturur.
