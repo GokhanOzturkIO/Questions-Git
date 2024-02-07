@@ -1,3 +1,8 @@
 1) Git nedir : Git bir version kontrol sistemidir ve yazılım geliştirme süreçlerinde önemli bir role sahiptir.
 
 2) "git pull" ile "git fetch" komutlarının farkı nedir? :  "git pull" komutu hem uzak değişiklikleri çeker hem de yerel dala birleştirirken, "git fetch" komutu sadece uzak değişiklikleri çeker ve yerel dala birleştirmez. Bu nedenle, "git fetch" komutu genellikle güncellemeleri kontrol etmek ve ardından yerel dala birleştirmek için kullanılırken, "git pull" komutu bu işlemi tek bir adımda gerçekleştirir.
+
+3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir? : Çakışma (conflict) olabilir. Çünkü aynı dosya üzerinde çalışmışızdır ve
+git hangi değişiklikleri uygulayacağını bilmiyor olabilir. Bu yüzden önce
+bu çakışmaları çözüp sonra pull yapmalıyız.
+
