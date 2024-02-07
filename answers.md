@@ -130,4 +130,9 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
   "main" veya "master" branch'inin diğer branch'lerden farkı, genellikle projenin ana veya temel geliştirme hattını temsil etmesidir. Ancak, bu terimlerin kullanımı ve anlamı proje yönetimi ve takım tercihlerine göre değişebilir.
 ==========================
 
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+  .gitignore dosyası, bir Git deposunda izlenmemesi gereken dosyaları ve dizinleri belirtmek için kullanılan bir dosyadır. Bu dosya, Git'e hangi dosyaların ve dizinlerin izlenmemesi gerektiğini söyleyerek, proje dosyalarının düzenli ve temiz tutulmasına yardımcı olur.
+
+.gitignore dosyası, genellikle proje klasörünün kök dizininde bulunur ve dosya adı tam olarak .gitignore olarak adlandırılır. Bu dosya, Git'in belirli dosya ve dizinleri izlememesini sağlamak için özel desenler ve kurallar içerir.
 
