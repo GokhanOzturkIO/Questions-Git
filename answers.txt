@@ -51,3 +51,8 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 
 *** "git checkout branchName" ile oluşturduğumuz yeni branch'e geçiş yapabiliriz.
 
+13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+
+*** "git clone --onurkaraduman url" komutu url adresinde bulunan reponun onurkaraduman branchini çeker
+
