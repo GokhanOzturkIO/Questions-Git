@@ -143,3 +143,12 @@ Question 21: "git tag" nedir? "git branch"’ten farkı nedir?
 
 -> "git tag" : Projenin belirli bir noktasında durdurulduğu veya işaretlendiği anlamına gelir. Bu, projenin belirli bir sürümünü veya belirli bir durumunu işaretlemek için kullanılır
 -> "git branch" : Projenin farklı geliştirme yollarını veya branch yapılarını yönetmek için kullanılır.
+
+
+Question 22: Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+-> Githup Desktop: GitHub'ın resmi masaüstü uygulamasıdır.
+-> GitKraken: Windows, macOS ve Linux'ta kullanılabilir.
+-> SourceTree: Atlassian tarafından geliştirilen Git ve Mercurial istemcisidir. Windows ve macOS için kullanılabilir
+-> Git Extensions: Windows kullanıcıları için popülerdir.
+-> GitUp: GitUp, macOS kullanıcıları için popüler bir Git istemcisidir.
