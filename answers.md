@@ -34,6 +34,8 @@
 
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "Merge conflict" ne demektir?
+    * versiyon kontrol sistemi kullanılırken iki veya daha fazla farklı kaynaktan gelen değişikliklerin uygun bir şekilde birleştirilemediği durumu ifade eder. 
+
 - "git log" komutu ile hangi bilgileri görebiliriz?
     * commit geçmişini gösterir. commit id - tarih - yazar - commit mesajı bilgilerini içerir.
 
