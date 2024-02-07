@@ -57,3 +57,6 @@
 
 20- Repository ne demektir?
 # Çalışılan projenin(yazılım projesi olmak zorunda değil) bir versiyon kontrol sistemiyle dijital ortamdaki haline denir. Uzaktan dosya yönetimi ve ilerlemesi takip edilebilir.
+
+21- "git tag" nedir? "git branch"’ten farkı nedir?
+# git tag komutu commit ile ilgilidir. İstenilen commit'i etiketlemeye yarar. gir branch ise çeşitli commit'lere sahip dalları temsil eder.
