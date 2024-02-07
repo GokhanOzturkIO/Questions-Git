@@ -42,3 +42,6 @@
 
 15- "git log" komutu ile hangi bilgileri görebiliriz?
 # Yapılan commit'ler hakkında bilgiler verir. Yapan kişi, tarih, commit mesajı gibi bilgileri git log komutu ile görebiliriz.
+
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+# Stagind Area'daki son commit'ler arasındaki farklılıklara git diff --staged veya git diff --cached komutlarıyla bakabiliriz. Kısaca commit'ler arası farklılıklar git diff ile öğrenilebilir.
