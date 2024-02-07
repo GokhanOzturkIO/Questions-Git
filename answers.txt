@@ -20,3 +20,7 @@ Eğer teknik bir sorun(bağlantı kopması vb) yoksa arkadaşımız commitlediğ
 
 Uzak repoya denk gelir. "git pull" dediğimizde o "origin"den çekeriz
 #####
+
+5- - "HEAD" kelimesi neyi temsil etmektedir?
+
+Üzerinde çalıştığımız son commiti temsil eder. Farklı bi dala veya commite geçersek HEAD de güncellenir.
