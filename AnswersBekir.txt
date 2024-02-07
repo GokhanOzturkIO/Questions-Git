@@ -4,6 +4,8 @@
 
 3-Arkadaşımız kendi bilgisayarından commitlemiş olduğu değişiklikleri push etmediğinden değişikliller sadece onun bilgisayarında yer alır, bu yüzden probleblem oluşabilir
 
-4-Origin sunucudaki ana depoyu temsil eder
+4-Origin sunucudaki ana depoyu temsil eder.
 
-5-Çalıştığımız projede bulunduğumuz branchdeki son commiti ve branchi işaret eder
+5-Çalıştığımız projede bulunduğumuz branchdeki son commiti ve branchi işaret eder.
+
+6-Staging Area,projede yapılan değişiklerin geçici olarak gösterildiği commit atmadan önce gözden geçirmemizi sağlayan bölümdür.Git diff de staged area ile projemiz arasındaki farkları gösterir.
