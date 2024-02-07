@@ -21,3 +21,8 @@
 
 -Takip edilmeyen dosya anlamına gelmektedir. Yeni oluşturulan dosyalar bu kapsamdadır. Git tarafından takip edilmeyen bu dosyalar git add komutu ile staging area'ya alınmazsa yapılan değişiklikler git tarafından takip edilmez.
 
+7-) ".git" klasörünü silersek ne olur?
+
+-Git ile ilgili çalıştığımız tüm bilgiler kaybolacaktır. git init komutu kullanılarak git'in yeniden initiliaze edilmesi gerekecektir.
+
+
