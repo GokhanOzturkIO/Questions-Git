@@ -99,3 +99,10 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
 
   git commit : Bu komut ile yapılan değişiklikler local Repository'e kaydedilir. git diff <dosya adı> : Bu komut yardımı ile commit işleminden sonra kendi branchimizdeki yapılan değişiklikleri görebiliriz. git push : Localde yapılan değişiklikleri uzak sunucuya (Github vs.) gönderme işlemidir.
 ==========================
+
+19. Atomic commit ne demektir?
+
+  Atomic commit" terimi, yazılım geliştirme sürecinde kullanılan bir terimdir ve bir commit'in tek bir mantıksal değişikliği temsil etmesi gerektiği anlamına gelir.
+==========================
+
+
