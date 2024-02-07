@@ -158,3 +158,9 @@ GitHub: GitHub, Git tabanlı bir kod barındırma ve işbirliği platformudur. G
 
 GitLab, BitBucket
 
+
+*******************************************************************************************************************************************************
+
+
+24- main veya master branch, bir Git deposunun varsayılan ana daldır ve genellikle depodaki temel çalışma daldır. Diğer branch'ler genellikle main veya master branch'inden türetilir ve geliştirme, özellik ekleme veya düzeltmeler gibi farklı işlevleri gerçekleştirmek için kullanılır.
+
