@@ -94,5 +94,7 @@ Soru 23 - main ya da master branch'inin diğer branchlerden farkı nedir?
 	-> Main ya da master branch'i proje repo'sunun ilk oluşturulduğu anda açılan branch'lerdir. Genelde açılan bütün branch'ler projenin son halinde master veya main
 	branch'inde birleştirilir. Diğer branch'ler geçici olurken main ya da master branch'i kalıcı halde olur.
 
+Medium makale Linki -> [Medium](https://medium.com/@salihhakbass/git-basics-0d2bca55341a)
+
 
 
