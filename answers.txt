@@ -16,3 +16,9 @@ Cevap: -Takım arkadaşımız commitlemiş ancak pushlamayı atlamış ise,
        -İnternet bağlantımızda bir sıkıntı var ise internet bağlantısını kontrol etmediysek.
        Bu durumlarda git pull ile yeni geliştirmeleri localimize alamayız.
 ---------------------------------------------------------------------------------------
+4.Soru: "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Cevap: "origin" kelimesi, git deposundaki varsayılan olarak adlandırılan uzak depoyu temsil eder.
+       Bu isimlendirme, genellikle git deposunu oluştururken eklediğiniz uzak depo referansına atıfta bulunur.
+      Yani origin, genellikle birinci uzak depoyu temsil eder ve projenin asıl kopyasının bulunduğu yerdir.
+---------------------------------------------------------------------------------------
