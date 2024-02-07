@@ -179,4 +179,7 @@ Bir yazılım projesinin, belgelerin, kaynak kodunun, dosyaların ve projeye ait
 git tag komutu, bir belirteci (tag) belirli bir commit'e atamak veya gösterilen commit için bir etiket oluşturmak için kullanılır. Genellikle, bir projenin belirli bir sürümünü veya önemli bir noktasını işaretlemek için tag'ler kullanılır. Tag'ler, genellikle sürüm numaralarını (örneğin, "v1.0") veya projenin belirli bir aşamasını temsil eden açıklamaları içerir. Tag'ler, commit'ler üzerine eklenir ve bu commit'in belirli bir noktasını işaretler.
 git branch komutu, projede farklı iş akışlarını veya geliştirme dallarını temsil eden branch'leri oluşturmak ve yönetmek için kullanılır. Branch'ler, projede paralel geliştirmelerin veya farklı özelliklerin üzerinde çalışmanın bir yolunu sağlar. Her branch, kendi bağımsız commit geçmişine sahiptir.
 *****************************************************************
+22 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+GitHub Desktop, SourceTree, GitKraken, GitExtensions
+*****************************************************************
 
