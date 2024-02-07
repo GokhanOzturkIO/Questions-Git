@@ -33,6 +33,9 @@ Son olarak, bu dosyayı çalıştırılabilir hale getirin:chmod +x ~/.git-templ
 
 11) Var olan bir "branch"e nasıl geçebiliriz? : git checkout -Branch Adı- komutuyla branchler arası geçiş yapabiliriz.
 
+12) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? : git clone --single-branch --branch <branch_adi> <repository_url> bu komutu kullanılarak  istediğimiz branchi klonlayabiliriz.
+
+
 
 
  
