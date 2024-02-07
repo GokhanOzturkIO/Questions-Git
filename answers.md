@@ -52,6 +52,8 @@
     * git push ile localdeki değişiklikleri remote repositorye göndeririz.
 
 - Atomic commit ne demektir?
+    * düzgün anlaşılır yapılan işle ilgili bilgileri özetleyebilen commit mesajı 
+
 - Repository ne demektir?
 - "git tag" nedir? "git branch"’ten farkı nedir?
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
