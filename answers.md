@@ -38,7 +38,7 @@
   .git klasörü, bir Git deposunun kalbidir ve sürüm kontrolü ile ilgili tüm bilgileri içerir. Bu klasörü silerseniz, Git deposunun tüm geçmişi, commit'leri, branch'leri ve diğer tüm bilgileri kaybolur. Bu durumda, Git deposu kullanılamaz hale gelir ve o projenin Git tarihçesi tamamen kaybolur.
 ==========================
 
-9. - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+9. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
   
   Her git init komutu kullanıldığında otomatik olarak bir ReadMe.md dosyası oluşturulmasını istiyorsanız, bir çözüm olarak aşağıdaki adımları izleyebilirsiniz:
 
@@ -56,17 +56,17 @@ Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.
   Git'te "branch" (dal), projenin farklı çalışma alanlarını temsil eden bir yapıdır. Her branch, projenin farklı bir versiyonunu veya farklı bir iş özelliğini temsil eder. Branch'ler, projenin geliştirilmesi sırasında paralel çalışma yapmayı sağlar ve birçok avantaj sunar. Bu avantajları şu şekilde sıralayabiliriz; paralel geliştirme, risk izolasyonu, geneme ve inceleme, geri dönüşüm ve paralel yayınlama gibi avantajlar sağlar.
 ==========================
 
-11. - Sıfırdan bir "branch" nasıl oluşturabiliriz?
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
   git branch isim
 ==========================
 
-12. - Var olan bir "branch"e nasıl geçebiliriz?
+12. Var olan bir "branch"e nasıl geçebiliriz?
  
   git checkout isim
 ==========================
 
-13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
   git clone -b <branch-adı> <repo-url>
 Örnek: git clone --single-branch -b main https://github.com/kullaniciadi/proje.git
@@ -80,7 +80,12 @@ Sadece main çekilecekse git clone -b main https://github.com/kullaniciadi/proje
 Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikler arasındaki uyumsuzlukları tespit edemez ve birleştirme işlemini otomatik olarak tamamlayamaz. Bu durumda, Git çakışan dosyaları işaretler ve kullanıcıya çözümlemesi için işaretçiler (<<<<<<<, =======, >>>>>>> gibi) ekler.
 ==========================
 
-15. - "git log" komutu ile hangi bilgileri görebiliriz?
+15. "git log" komutu ile hangi bilgileri görebiliriz?
 
   Commit Hash (Kimlik), Commit Yazarı, Tarih ve Saat, Commit Mesajı ve Commit İlişkileri (Parent Commit'ler)
+==========================
+
+16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+  git diff komutu, farklı iki durum arasındaki değişiklikleri göstermek için kullanılır. Bu durumlar genellikle iki farklı commit, iki farklı branch veya bir commit ve çalışma dizini arasındaki farklılıkları göstermek için kullanılır. Dolayısıyla, git diff komutu ile iki farklı durum arasındaki değişiklikleri görebilirsiniz.
 ==========================
