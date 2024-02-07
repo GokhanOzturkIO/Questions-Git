@@ -7,3 +7,12 @@ Cevap: Git,yazılım geliştirme projelerini izlemek,yönetmek ve sürüm kontro
 Cevap: Git fetch komutu uzak sunucudaki değişiklikleri alır ancak sizin localinize entegre etmez, fetch sizi sadece değişiklikler hakkında bilgilendirir.
 Git pull ise uzak sunucudaki değişiklikleri alıp localinize entegrede eder.
 ---------------------------------------------------------------------------------------
+3.Soru: Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Cevap: -Takım arkadaşımız commitlemiş ancak pushlamayı atlamış ise,
+       -Takım arkadaşımız ile kodlarımız arasında bir conflict var ise,
+       -Takım arkadaşımızın değişiklik yaptığı branchte değilsek yani doğru branchte değilsek,
+       -Localimiz uzak sunucudaki yeni değişiklikler hakkında bilgi sahibi değilse git fetch yapmadıysak,
+       -İnternet bağlantımızda bir sıkıntı var ise internet bağlantısını kontrol etmediysek.
+       Bu durumlarda git pull ile yeni geliştirmeleri localimize alamayız.
+---------------------------------------------------------------------------------------
