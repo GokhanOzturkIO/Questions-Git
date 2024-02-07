@@ -24,3 +24,6 @@ Kullandığımız klasörde git tanımlanmamış olur.
 
 Soru 9 -> Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 İlk önce git template kullanraka template ediyoruz.Template ettiğimiz yere README.md dosyasını ekleyip kullanabiliriz.
+
+Soru 10 -> Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Branch bize projede farklı dallarında çalışma olanağı sağlayan bir özelliktir. Bu özellikle bir takım çalışması yaparsak projede ayrı ayrı geliştirme ve düzeltme yapabiliriz.
