@@ -45,3 +45,7 @@ Soru 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik
 Hazırladığımız ReadMe.md şablon dosyasını bir Git şablon dizinine eklememiz gerekmektedir. Bu dizin, Git'in yeni bir repo oluşturulduğunda kullanacağı varsayılan şablonları içerir.
 Artık her yeni bir repo oluşturmak istediğimizde, "git init" komutunu kullanırken "--template" flag'ini ekleyerek kullanacağımız şablon dosyasını belirtmemiz gerekmektedir. Bu sayede Git, yeni repo oluşturulduğunda ReadMe.md dosyasını içeren şablonu kullanacaktır.
 Özetle, ReadMe.md içeren bir şablon dosyası hazırlayarak ve bu şablonu git init -- template [şablondosyası konumu] kullanarak belirtiriz. Böylece her yeni repo oluşturulduğunda otomatik olarak ReadMe.md dosyası eklenmiş olur.
+
+Soru 10:Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Projelerin farklı dallara ayrılarak geliştirilebilmesini sağlayan bir özelliktir. Bu sayede projenin farklı özellikleri ayrı ayrı geliştirilebilir ve sonrasında birleştirebiliriz.
