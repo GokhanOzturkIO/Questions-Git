@@ -115,3 +115,10 @@ Commit sahibini, commit geçmişini, commitin tarihini, commit mesajını ve com
 
  yaptığımız son commiti geri alıyoruz. Git reset komutu localde yaptığımız hiç bir değişikliği geri almaz.
 #####
+
+
+18- "git commit" ile "git push" arasındaki fark nedir?
+
+"git commit" yaptığımız değişiklikleri local repoya kaydederiz ve "git push" ile de oluşturduğumuz bu commitleri repoya yükleriz.
+#####
+
