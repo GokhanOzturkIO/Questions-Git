@@ -46,6 +46,11 @@ Bu bölge, Git'in içinde bulunduğu üçlü dosya sistemi yapısının bir par�
 
 ####################################################################################
 
+7. "Untracked file" ne demektir?
+
+Adında anlaşılacağı üzere bu izlenemeyen dosyadır. Git bu dosyayı izleyemez ve takip edemez. Bu durumu görmek için "git status" kullanabiliriz.
+
+####################################################################################
 
 
 
