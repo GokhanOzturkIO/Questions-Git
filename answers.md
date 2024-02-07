@@ -33,6 +33,8 @@
     * geçmek istediğimiz branche git checkout <branchadi> ile geçiş yapabiliriz.
 
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+    *  git clone -b <branchadi> <repo_url> komutunu kullanabiliriz.
+
 - "Merge conflict" ne demektir?
     * versiyon kontrol sistemi kullanılırken iki veya daha fazla farklı kaynaktan gelen değişikliklerin uygun bir şekilde birleştirilemediği durumu ifade eder. 
 
