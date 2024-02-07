@@ -21,3 +21,6 @@
 
 8- ".git" klasörünü silersek ne olur?
 # Üzerinde çalışılan dosyanın git tarafındanki tüm bilgileri silinir. Repo bilgileri, kod geçmişi, log vb. tüm bilgiler kaldırılır.
+
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+# git ile çalışacağımız dosyada ReadMe.md dosyası için bir template belirliyoruz. İlk defa git'i aktif ederken git init komutu ile birlikte --template [Template konumu/ dosya yolu] kodunu da kullanıyoruz. "git init --template [template konumu]"
