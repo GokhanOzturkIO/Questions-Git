@@ -148,3 +148,13 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 22- GitHub Desktop, GitKraken, GitLab, BitBucket
 
+
+*******************************************************************************************************************************************************
+
+
+23- Git: Git, dağıtık bir sürüm kontrol sistemidir. Yazılım geliştirme projelerinde kaynak kodunun yönetilmesine olanak tanır. Git, yerel bir bilgisayar üzerinde depolanan bir projenin sürüm kontrolünü sağlar ve projenin geçmişini, değişikliklerini ve dallarını izler.
+
+GitHub: GitHub, Git tabanlı bir kod barındırma ve işbirliği platformudur. GitHub, Git depolarının bulut tabanlı bir şekilde barındırılmasını sağlar ve projelerin çevrimiçi olarak paylaşılmasını, işbirliği yapılmasını ve izlenmesini sağlar. Ayrıca, proje yönetimi, sorun izleme, wiki ve CI/CD gibi bir dizi ek özellik sunar.
+
+GitLab, BitBucket
+
