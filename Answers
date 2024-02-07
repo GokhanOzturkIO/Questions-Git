@@ -125,3 +125,11 @@ Question 18: "git commit" ile "git push" arasındaki fark nedir?
 
 -> "git commit": yapılan değişiklikleri lokal depoya (yani bilgisayarınızdaki Git deposuna) kaydeder.
 -> "git push": lokal depodaki değişiklikleri uzak bir Git sunucusuna göndermek için kullanılır.
+
+
+Question 19: Atomic commit ne demektir?
+
+-> Yazılan commit mesajlarının belirli formata göre yazılmasına atomic commit denir.
+
+    ->Örn - feat(api) : "blabla" api bağlantısı eklendi
+
