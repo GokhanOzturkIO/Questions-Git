@@ -22,3 +22,8 @@
  
   "HEAD", Git deposunda şu anki çalışma konumunu (pozisyonunu) ifade eden bir gösterge veya referanstır. Git'in içerisinde bulunduğunuz branch veya commit'in adını veya kimliğini temsil eder. HEAD göstergesi, Git deposundaki anlık konumunuzu belirtir ve hangi commit'in veya branch'in üzerinde çalıştığınızı belirlemenize yardımcı olur. Bu, Git'in iş akışı ve durumu hakkında önemli bilgiler sağlar.
 ==========================
+
+6. "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+  "Staging Area" veya "Index", Git'in çalışma prensibinde önemli bir konsepttir. Bu bölge, değişikliklerinizi geçici olarak sakladığınız ve bir sonraki commit'e dahil etmek istediğiniz dosyaları belirttiğiniz yerdir.
+==========================
