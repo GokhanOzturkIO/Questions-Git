@@ -19,6 +19,9 @@
     * mevcutta çalıştığımız branchin son commitini işaret eder.
     
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+    * değişikliklerin commit edilmek için oluşturulan geçici bir alandır.
+    * amaç : değişiklikleri commit etmeden önce kontrol etmek ve düzenlemek için bir ara alan sağlamaktır.
+
 - "Untracked file" ne demektir?
     * versiyon kontrol sistemi tarafından izlenmeyen veya takip edilmeyen bir dosyayı ifade eder.
 
