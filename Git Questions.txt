@@ -39,3 +39,6 @@ Clone'lamak istediğimiz github adresinin url'sini alıp git bash here'a git clo
 
 Soru 14 -> "Merge conflict" ne demektir?
 Adından da anlaşıldığı gibi birleştirme çatışması demektir. Git'te 2 farklı branchin birleştirilmeye çalışılıp Git'in otomatik birleştirme yapamamasıyla kaynaklanır. 
+
+Soru 15 -> "git log" komutu ile hangi bilgileri görebiliriz?
+Bu komutla daha önce hangi commitlerin ne zaman kim tarafından atıldığını görebiliriz.
