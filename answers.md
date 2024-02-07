@@ -24,9 +24,11 @@
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
+    * git branch <branchadi> komutuyla oluşturabiliriz.
+
 - Var olan bir "branch"e nasıl geçebiliriz?
     * geçmek istediğimiz branche git checkout <branchadi> ile geçiş yapabiliriz.
-    
+
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "Merge conflict" ne demektir?
 - "git log" komutu ile hangi bilgileri görebiliriz?
