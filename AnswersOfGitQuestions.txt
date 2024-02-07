@@ -111,3 +111,7 @@ Commit sahibini, commit geçmişini, commitin tarihini, commit mesajını ve com
 #####
 
 
+17- Git reset ile neyi geri alıyoruz?
+
+ yaptığımız son commiti geri alıyoruz. Git reset komutu localde yaptığımız hiç bir değişikliği geri almaz.
+#####
