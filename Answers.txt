@@ -35,3 +35,17 @@ Genel olarak, git fetch komutu uzak değişiklikleri alır ve onları yerel depo
 
 ===========================================================
 
+3. Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+
+"Takım arkadaşımızın kodlarını gönderdim, benim geliştirmemin üzerine devam et" dediğinde ve git pull komutunu kullanarak kodları lokalimize alamıyorsak, bu durumda birkaç olası hata veya sorun olabilir:
+
+Uzak depoya erişim sorunu: Takım arkadaşınızın kodlarını gönderdiği uzak depoya erişim sorunu olabilir. Bu durumda, öncelikle uzak depoya erişimi kontrol etmek ve gerekirse yetkilendirmeyi sağlamak önemlidir.
+
+Doğru depoyu kontrol etmiyor olma: Takım arkadaşınızın kodlarını gönderdiği depoyu doğru olarak belirtmediyseniz, git pull komutu doğru depoya erişmeye çalışmayabilir. Doğru depoya eriştiğinizden emin olun.
+
+Değişikliklerin gönderilmemiş olması: Takım arkadaşınızın kodlarını gönderdiği depoya değişiklikleri push etmemiş olabilir. Bu durumda, git pull komutu lokal depoda bir değişiklik bulamaz ve kodları alamaz.
+
+Güncellenmiş bir branch üzerinde çalışma: Takım arkadaşınızın kodlarını gönderdiği branch, sizin üzerinde çalıştığınız branch'ten farklı olabilir. Bu durumda, git pull komutu, kodları alamaz çünkü kendi branch'inizde değişiklikler varken, üzerine çekme işlemi yapamaz.
+
+Bu tür sorunları gidermek için, öncelikle hata mesajlarını ve geri bildirimleri dikkatlice incelemek önemlidir. Daha sonra, olası sorunların nereden kaynaklandığını belirlemek ve gereken düzeltmeleri yapmak için doğru adımları atabilirsiniz. Bu durumda, takım arkadaşınızla iletişime geçmek ve hangi branch üzerinde çalıştığını kontrol etmek de faydalı olabilir.
