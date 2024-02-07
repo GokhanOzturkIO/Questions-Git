@@ -13,3 +13,7 @@
 4-) "HEAD" kelimesi neyi temsil etmektedir?
 
 -Mevcut branch'teki en son commit'i temsil etmektedir.
+
+5-) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Üzerinde değişiklik yapılan dosyaların Git’e gönderilmeden önce tutulduğu alandır.
+
