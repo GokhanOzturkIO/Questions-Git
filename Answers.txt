@@ -48,3 +48,14 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 8- Git yapısının geçmişini silmiş oluruz. Tüm commitler gider.
 
+
+*******************************************************************************************************************************************************
+
+
+9- 
+1. Öncelikle, "ReadMe.md" dosyasını içeren bir şablon dosyası oluşturun veya hazırlayın. Bu dosya, projenizin varsayılan açıklamasını veya talimatlarını içerebilir.
+
+2 .Ardından, bu "ReadMe.md" dosyasını her "git init" komutu çalıştırıldığında oluşturulacak bir klasöre (örneğin, Git'in varsayılan şablonlarının bulunduğu bir dizine) yerleştirin. 
+
+3. Son olarak, Git'in şablonlarının bulunduğu dizini belirtmek için Git'in "template" konfigürasyonunu ayarlayın
+
