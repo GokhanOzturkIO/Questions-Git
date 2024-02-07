@@ -139,3 +139,18 @@ Merge Conflict, Git'in birleştirme işlemi sırasında değişiklik setlerini o
 
 ---
 
+## 15) "git log" komutu ile hangi bilgileri görebiliriz?
+
+Bu komut, en son işlemden başlayarak geçerli branchin commit geçmişini görüntüler. Çıktı, commit hash code'unu, yazarı, tarihi ve commit mesajını içerir.
+
+Örneğin;
+```
+commit 24be20e2f27315d165ede25784f1d04bb4214553
+Author: Enes CAN <enesscann98@gmail.com>
+Date:   Tue Feb 6 21:13:34 2024 +0300
+
+    ""Merge conflict" ne demektir?" sorusunun cevabı eklendi.
+```
+
+---
+
