@@ -10,3 +10,6 @@ Kodda aynı dosyanın aynı satırında farklı değişiklikler yapılmış olab
 4)"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 Origin Git'te varsayılan olarak kullanılan ana uzak depoyu temsil eder.Bu komut ise ana uzak depodan güncellemeleri çekmek için kullanılır.
 ****************************************************
+5)"HEAD" kelimesi neyi temsil etmektedir?
+Git'te üzerinde çalıştığımız konumu gösteren bir işarettir.Ya en son commiti ya da üzerinde bulunduğumuz branch ifade eder.
+****************************************************
