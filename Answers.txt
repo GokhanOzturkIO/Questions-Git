@@ -15,3 +15,12 @@ Senin local bilgisayarında ve benim local bilgisayarımda birbirimizin yaptığ
 
 
 3- Takım arkadaşımız yaptığı değişiklikleri pushlamamış olabilir veya biz git fetch yapmadan git pull yapmış olabiliriz.
+
+
+*******************************************************************************************************************************************************
+
+
+4- origin, Git'te genellikle varsayılan olarak tanımlanan bir uzak depo (remote repository) ismidir. Bir projeyi klonlarken (git clone), Git otomatik olarak bu varsayılan uzak depoyu origin olarak adlandırır.
+
+Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini temsil eder. origin yerine farklı bir isim de kullanabilirsiniz, ancak çoğu durumda projeler origin adını kullanır.
+
