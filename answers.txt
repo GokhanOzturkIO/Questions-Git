@@ -135,3 +135,11 @@ Git tag, belirli commitleri işaretlemek için kullanılır. Genelde proje sür�
 branch fonksiyon olarak apayrı bir şeydir. Paralel geliştirme için kullanılır.  Ayrıca tag'ler genelde değişmez kabul edilirken branchler değişime açıktır. Son olarak, tagler sabit bir commite referans iken branch son commite referans verir.
 #####
 
+22 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+https://visualizegit.com/,
+https://onlywei.github.io/explain-git-with-d3/#branch
+https://github.com/git-school/visualizing-git
+https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+#####
+
