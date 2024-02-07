@@ -113,3 +113,6 @@ Commit geçmişi, sahipleri ve commit hashlerini görebiliriz.
 Varsayılan haliyle kullanılırsa, son commiti geri alıyoruz.
 #####
 
+18- "git commit" ile "git push" arasındaki fark nedir?
+
+Git commit ile yapılan değişiklikler yerel repoya kayıt olarak işlenir. Git push ile de bu commitler uzak repoya gönderilir.
