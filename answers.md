@@ -20,6 +20,8 @@
     
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?
+    * versiyon kontrol sistemi tarafından izlenmeyen veya takip edilmeyen bir dosyayı ifade eder.
+
 - ".git" klasörünü silersek ne olur?
     * git ile kullandığımız projeyi kaybederiz
 
