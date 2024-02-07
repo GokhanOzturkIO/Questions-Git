@@ -72,3 +72,10 @@ Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.
 Örnek: git clone --single-branch -b main https://github.com/kullaniciadi/proje.git
 Sadece main çekilecekse git clone -b main https://github.com/kullaniciadi/proje.git
 ==========================
+
+14. "Merge conflict" ne demektir?
+
+  "Merge conflict" (birleştirme çakışması), Git'te farklı dalları birleştirme işlemi sırasında karşılaşılan bir durumdur. Bu durum, Git'in iki farklı kaynağı (genellikle farklı branch'lerden gelen değişiklikleri) birleştirmeye çalıştığında, çakışan veya çelişen değişiklikler bulması durumunda ortaya çıkar.
+
+Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikler arasındaki uyumsuzlukları tespit edemez ve birleştirme işlemini otomatik olarak tamamlayamaz. Bu durumda, Git çakışan dosyaları işaretler ve kullanıcıya çözümlemesi için işaretçiler (<<<<<<<, =======, >>>>>>> gibi) ekler.
+==========================
