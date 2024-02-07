@@ -11,3 +11,9 @@
 3. Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 
   Commitlediği dosyaları pushlamayı unutmuş olabilir. Yanlış branche göndermiş olabilir.
+==========================
+
+4."Git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+  "Git fetch origin" komutundaki "origin", genellikle yerel depoya bağlı olan bir uzak depoyu ifade eder.
+==========================
