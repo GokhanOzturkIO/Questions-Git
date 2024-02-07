@@ -127,3 +127,11 @@ Değişiklikleri parça parça, küçük küçük "kaydetmek" demektir. Böylece
 
 Projenin version kontrolü ile izleme altına alındığı depodur.
 #####
+
+21- "git tag" nedir? "git branch"’ten farkı nedir?
+
+Git tag, belirli commitleri işaretlemek için kullanılır. Genelde proje sürümünü işaretlemede kullanıldığı görülür.
+
+branch fonksiyon olarak apayrı bir şeydir. Paralel geliştirme için kullanılır.  Ayrıca tag'ler genelde değişmez kabul edilirken branchler değişime açıktır. Son olarak, tagler sabit bir commite referans iken branch son commite referans verir.
+#####
+
