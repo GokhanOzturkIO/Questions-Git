@@ -200,4 +200,20 @@ Git görsel olarak kullanabileceğin birçok üçüncü taraf araçlar vardır.�
 
 ####################################################################################
 
+23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git: Git, dağıtık bir versiyon kontrol sistemi (VCS)dir. 
+
+GitHub: GitHub, Git tabanlı bir bulut tabanlı kod barındırma platformudur. 
+
+Github benzeri siteler:
+
+-GitLab
+-Bitbucket
+
+Aktif olarak sadece Github profilim bulunmakta. 
+
+Kullanıcı adım: oktyGnc
+
+####################################################################################
 
