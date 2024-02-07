@@ -247,3 +247,16 @@ In Git, a tag is a marker that is used to identify a specific commit in the repo
 
 ---
 
+## 23) What is the difference between "GitHub" and "git"? What are other sites similar to GitHub? Can you write the usernames on GitHub or other sites?
+
+`Git:` Git is a version control system and open-source software management tool. It operates on your local computer and is used via the command line.
+
+`Github:` GitHub is a Git-based code hosting platform. It is a web-based service that allows you to manage Git repositories over the internet. It provides tools for project management, facilitates collaboration, and enables sharing your code with other developers.
+
+Similarly, other sites similar to GitHub include GitLab and Bitbucket. These platforms offer services for code hosting, version control, and collaboration.
+
+--
+
+My Github Username : [EnesCANNOT](https://github.com/EnesCANNOT)
+
+---
