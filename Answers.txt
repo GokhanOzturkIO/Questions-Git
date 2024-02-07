@@ -142,3 +142,9 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 21- git tag komutu, belirli bir commit'e etiket eklemek veya etiketleri listelemek için kullanılırken, git branch komutu, projenin farklı dallarını oluşturmak, listelemek veya geçiş yapmak için kullanılır.
 
+
+*******************************************************************************************************************************************************
+
+
+22- GitHub Desktop, GitKraken, GitLab, BitBucket
+
