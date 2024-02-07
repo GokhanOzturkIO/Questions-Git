@@ -39,5 +39,14 @@ Kısaca "HEAD" en son yapılan commit'i gösteren bir işaretçidir ve mevcut ç
 
 ####################################################################################
 
+6. "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+"Staging Area" veya "Index", Git'in çalışma alanındaki değişiklikleri hazırlamak ve sonraki bir commit'e dahil etmek için kullanılan geçici bir bölgedir. 
+Bu bölge, Git'in içinde bulunduğu üçlü dosya sistemi yapısının bir parçasıdır.
+
+####################################################################################
+
+
+
 
 
