@@ -210,5 +210,10 @@ Atomik commitler, projenin sürekli entegrasyon (CI) süreçlerinde ve otomatik 
 Her commit, kodun durumunu bozmamalı ve testleri başarılı bir şekilde geçmelidir.
 Örneğin, bir özellik eklemek, bir hata düzeltmek veya bir iyileştirme yapmak amacıyla yapılan değişiklikleri içeren bir commit, 
 tek bir amacı ifade eden ve geri alındığında bu amacı tersine çevirebilen bir atomik commit örneğidir.
------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Soru 20: Repository ne demektir?
+
+Cevap: "Repository" veya kısaca "repo", bir projenin, kodun, belgelerin ve diğer dosyaların depolandığı, yönetildiği ve izlendiği bir yerdir. 
+
+--------------------------------------------------------------------------------------
 
