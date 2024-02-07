@@ -22,3 +22,7 @@ HEAD git içerisinde nerede olduğumuz gösterir. Genelde son commit'i gösterir
 ## Soru 6: "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 
 "git add" komutu ile dosyalarımız eklediğimiz alandır. Dosyalarımız local repository'e commit etmeden önce incelememizi sağlar. Ayrıca hangi dosyaların eklenip hangilerinin eklenmeyeceğini de belirleyebildiğimiz bir alandır.
+
+## Soru 7: "Untracked file" ne demektir?
+
+git tafından takip edilmeyen dosyalardır. Bu dosyaları takibe almak için "git add" komutunu kullanabiliriz.
