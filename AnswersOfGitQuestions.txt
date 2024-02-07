@@ -152,5 +152,13 @@ Farklar:
 
 * Sourcetree https://www.sourcetreeapp.com/ tamamen ücretsiz destek sunar.
 * Gitkraken https://www.gitkraken.com/ bazı kısımlardarında ücretli destek sunmaktadır.
+#####
 
+
+23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git bir versiyon kontrol sistemidir. Github ise git'in komutlarını kullanarak projelerimizi depoladığımız ve yönetildiğimiz bir sistemdir.
+
+- GitLab
+- Bitbucket
 #####
