@@ -23,6 +23,9 @@
 - ".git" klasörünü silersek ne olur?
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+    * Branch, projenin farklı çalışma kopyalarını oluşturur ve bize bağımsız olarak geliştirme yapılmasını sağlar.
+    * Yeni feature geliştirme veya var olan bir bug fix yapmak için yeni branchler açıp bunlarla remote branchi etkilemeden çalışabiliriz.
+
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
     * git branch <branchadi> komutuyla oluşturabiliriz.
 
