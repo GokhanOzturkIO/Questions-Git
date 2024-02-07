@@ -100,3 +100,14 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 3. Tarih: Commit'in yapıldığı tarih ve saat.
 4. Commit Açıklaması: Commit'i açıklayan bir mesaj. Bu mesaj, yapılan değişikliklerin ne olduğunu ve neden yapıldığını belirtir.
 5. Değişiklikler: Commit ile eklenen, değiştirilen veya silinen dosyaların listesi ve bu dosyalardaki değişikliklerin özetleri.
+
+
+*******************************************************************************************************************************************************
+
+
+16- 
+1. Çalışma Dizini ile "Staging Area" Arasındaki Farklar: Bu durumda, git diff komutunu çalıştırdığınızda, çalışma dizinizdeki dosyalar ile "staging area" (izin alanı) arasındaki farkları görebilirsiniz. Bu, çalışma dizinizde yaptığınız ancak henüz git add komutuyla "staging area"ya eklememiş olduğunuz değişiklikleri gösterir.
+
+2. "Staging Area" ile Son Commit Arasındaki Farklar: git diff --staged veya git diff --cached komutları, "staging area" ile son commit arasındaki farkları gösterir. Bu, "staging area"daki değişikliklerin son commit ile karşılaştırılmasını sağlar.
+
+3. İki Farklı Commit Arasındaki Farklar: git diff commit1 commit2 komutu, iki farklı commit arasındaki değişiklikleri gösterir. Burada "commit1" ve "commit2", karşılaştırmak istediğiniz iki commit'in hash veya etiketleridir.
