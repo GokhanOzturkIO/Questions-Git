@@ -166,6 +166,12 @@ Yani, yerelde yaptığınız commit'leri uzak depoya yükler ve paylaşır.
 
 ####################################################################################
 
+19. Atomic commit ne demektir?
+
+Atomic commit prensibi, bir değişiklik grubunun bağımsız bir işlevi gerçekleştirdiği ve diğer değişiklik gruplarından bağımsız olarak ele alındığı anlamına gelir.
+Atomic commit prensibi, Git ve diğer versiyon kontrol sistemlerinde yaygın olarak kullanılan bir uygulamadır.
+
+####################################################################################
 
 
 
