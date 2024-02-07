@@ -9,3 +9,6 @@
 
 4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 # Bağlı olunan ana repoyo temsil eder. git fetch origin ile uzaktaki repodaki değişiklikleri lokale alırız.
+
+5- "HEAD" kelimesi neyi temsil etmektedir?
+# HEAD kelimesi üzerinde bulunulan branch'in son commit'ini gösterir. Bu HEAD commit işlemleri sırasında değişir. Stack mantığıyla düşünürsek, HEAD en eklenen commit'e denir.
