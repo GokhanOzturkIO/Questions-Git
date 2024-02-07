@@ -1,1 +1,11 @@
+Soru 1 -> Git Nedir?
+Git yazılım geliştirme sürecimizde kullandığımız kodlarımızı takip ettiğimiz veya aynı projede çalışmak için arkadaşlarımızla iş birliği yaptığımız versiyon kontrol sistemidir.
 
+Soru 2 -> "git pull" ile "git fetch" komutlarının farkı nedir?
+"git pull", "git fetch" komutunu içerir ve ardından yerel çalışma dizinini günceller. "git fetch" ise sadece uzak depodan değişiklikleri alır, ancak yerel dosyaları güncellemez.
+
+Soru 3 -> Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+Arkadaşımız git push komutunu kullanmayı unutmuş olabilir.Eğer kullansaydı biz git pull ile kendi lokalimize çekebilirdik.
+
+Soru 4 -> "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+"origin", Git'te bir uzak depoyu temsil eden bir isimdir. 
