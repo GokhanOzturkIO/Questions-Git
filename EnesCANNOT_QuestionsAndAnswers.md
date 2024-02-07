@@ -151,3 +151,42 @@ Date:   Tue Feb 6 21:21:16 2024 +0300
 ```
 
 ---
+
+## 16) How many different changes between two situations can we see with "git diff"?
+
+With the "git diff" command, we can see the differences between two different states of our Git repository. There are several ways to use this command, but the most common usage is to compare the current state of our working directory with the latest commit. This will show us any changes we have made since the last commit.
+</br>
+Here is an example of how we might use the "git diff" command:
+```
+git diff HEAD
+```
+This command will show us the differences between the latest commit and the current state of our working directory.
+</br>
+If we want to compare two specific commits, we can use the following command:
+```
+git diff commit1 commit2
+```
+This will show us the differences between the two specified commits.
+</br>
+If we want to compare a specific commit with the current state of our working directory, we can use the following command:
+```
+git diff commit1
+```
+This will show us the differences between the specified commit and the current state of our working directory.
+</br>
+If we want to compare two specific branches, we can use the following command:
+```
+git diff branch1 branch2
+```
+This will show us the differences between the two specified branches.
+</br>
+If we want to compare a specific branch with the current state of our working directory, we can use the following command:
+```
+git diff branch1
+```
+This will show us the differences between the specified branch and the current state of our working directory.
+</br>
+In all of these cases, the output will show us the differences between the two states, including any added, modified, or deleted files.
+
+---
+
