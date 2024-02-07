@@ -47,3 +47,8 @@ origin genelde bir referans isim olarak kullanılır. Bu durumda origin kelimesi
 
 Bu dosyalar git tarafından izlenmezler. Dosya üzerindeki hehrangi bir değişikliği "git status" ile göremeyiz. Dosyalar "git push" ile uzak depoya gönderilmez. Bu dosyalar yalnızca localde durur.
 
+---------------------------------------
+
+8) ".git" klasörünü silersek ne olur?
+
+Çalışma dizinindeki git deposu silinmiş olur ve git tarafından kaydedilen tüm bilgiler silinir. Commit bilgileri, branch bilgileri gibi tüm bilgiler silinir. Bu yüzden de git'in sağlamış olduğu tüm avantajları kaybederiz.
