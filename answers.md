@@ -58,6 +58,9 @@
     * Bir repository, bir projenin tüm dosyalarının, geçmiş versiyonlarının ve yapılandırma bilgilerinin depolandığı bir yerdir. 
 
 - "git tag" nedir? "git branch"’ten farkı nedir?
+    * git tag belirli bir commiti etiketlemek için kullanılır.
+    * branchler geliştirme yapılmak için kullanılır.
+
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
     * Fork,Github Desktop, Sourcetree 
 
