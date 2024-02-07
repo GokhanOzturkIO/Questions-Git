@@ -168,3 +168,9 @@ Git bir versiyon kontrol sistemidir. Github ise git'in komutlarını kullanarak 
 
 "main" veya "master" branch'i, genellikle projenin ana ve stabil geliştirme hattını temsil eder. Production için kullanılan stabil kod burada bulunur ve diğer branch'lerden gelen değişiklikler main yada master brunch'e entegre edilir.
 #####
+
+
+25- ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+Projemizde takip edilmemesi gereken dosyaların ve dizinlerin listesini içeren bir konfigürasyon dosyasıdır.
+#####
