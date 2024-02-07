@@ -137,7 +137,7 @@ Merge Conflict occurs when Git fails to automatically merge changesets during th
 
 ---
 
-## 14) What information can we see with the "git log" command?
+## 15) What information can we see with the "git log" command?
 
 This command displays the commit history for the current branch, starting with the most recent commit. The output includes the commit hash, author, date, and commit message.
 
