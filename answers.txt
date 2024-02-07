@@ -30,3 +30,8 @@ Uzak repoya denk gelir. "git pull" dediğimizde o "origin"den çekeriz
 
 "git add" komutunu kullandıktan sonra henüz commitlemediysek dosyalarımız bir "ara bölge"de bulunur. Üstünde çalıştığınız dosya ile commit deposu arasında bir bekleme bölgesi denilebilir. Böylece tüm değişiklikleri bir seferde değil de grup grup gönderebiliriz.
 #####
+
+6- - "Untracked file" ne demektir?
+
+Git sistemiyle takip edilmeyen, değişiklikleri izlenmeyen dosyadır.
+#####
