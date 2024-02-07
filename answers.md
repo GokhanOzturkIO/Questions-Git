@@ -35,6 +35,8 @@
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "Merge conflict" ne demektir?
 - "git log" komutu ile hangi bilgileri görebiliriz?
+    * commit geçmişini gösterir. commit id - tarih - yazar - commit mesajı bilgilerini içerir.
+    
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 - Git reset ile neyi geri alıyoruz?
 - "git commit" ile "git push" arasındaki fark nedir?
