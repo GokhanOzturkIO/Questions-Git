@@ -15,3 +15,8 @@ Uzak bir repoyla çalışırken git fetch komutunu kullanırsak uzak repodaki so
 Eğer teknik bir sorun(bağlantı kopması vb) yoksa arkadaşımız commitlediği değişikleri push ile uzak repoya göndermemiş olabilir. Push ettiği halde sorun devam ediyorsa farklı bir branche push etmiş olabilri.
 #####
 
+
+4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Uzak repoya denk gelir. "git pull" dediğimizde o "origin"den çekeriz
+#####
