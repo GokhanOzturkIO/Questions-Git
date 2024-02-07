@@ -92,3 +92,8 @@ Bir proje üzerinde bağımsız çalışma alanı sunar kısaca bir çok çalı�
 Aynı dosyanın aynı yerinde değişiklik yapılmışsa ve Git yapılan bu değişiklikleri otomatik olarak birleştiremezse conflict(çakışma) olur. ve git bize yapılan değişikliği birleştiremediğini bu hatayı göstererek bildirir.
 #####
 
+
+15- "git log" komutu ile hangi bilgileri görebiliriz?
+
+Commit sahibini, commit geçmişini, commitin tarihini, commit mesajını ve commit hashlerini((SHA)) görebiliriz.
+#####
