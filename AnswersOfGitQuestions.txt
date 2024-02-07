@@ -162,3 +162,9 @@ Git bir versiyon kontrol sistemidir. Github ise git'in komutlarını kullanarak 
 - GitLab
 - Bitbucket
 #####
+
+
+24- main ya da master branch'inin diğer branchlerden farkı nedir?
+
+"main" veya "master" branch'i, genellikle projenin ana ve stabil geliştirme hattını temsil eder. Production için kullanılan stabil kod burada bulunur ve diğer branch'lerden gelen değişiklikler main yada master brunch'e entegre edilir.
+#####
