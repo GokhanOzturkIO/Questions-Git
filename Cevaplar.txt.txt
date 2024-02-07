@@ -60,3 +60,6 @@
 
 21- "git tag" nedir? "git branch"’ten farkı nedir?
 # git tag komutu commit ile ilgilidir. İstenilen commit'i etiketlemeye yarar. gir branch ise çeşitli commit'lere sahip dalları temsil eder.
+
+22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+# Github Desktop, Source Tree, Git Kraken, Tower vb. gibi programlar kullanılabilir.
