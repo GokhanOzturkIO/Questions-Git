@@ -48,3 +48,6 @@ Bu komutla 2 commit arasındaki farkları veya branch arasındaki farkları gör
 
 Soru 17 -> Git reset ile neyi geri alıyoruz?
 Yazdığımız commiti veya staging areadaki değişiklik yapmak istediğimiz yeri geri alabiliyoruz.
+
+Soru 18 -> "git commit" ile "git push" arasındaki fark nedir?
+git commit yerel depoya değişiklikleri kaydeder, git push ise yereldeki değişiklikleri uzak depoya gönderir ve paylaşır.
