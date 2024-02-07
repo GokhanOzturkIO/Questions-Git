@@ -26,3 +26,7 @@ HEAD git içerisinde nerede olduğumuz gösterir. Genelde son commit'i gösterir
 ## Soru 7: "Untracked file" ne demektir?
 
 git tafından takip edilmeyen dosyalardır. Bu dosyaları takibe almak için "git add" komutunu kullanabiliriz.
+
+## Soru 8: ".git" klasörünü silersek ne olur?
+
+git ile daha önceden kaydetmiş olduğumuz tüm işlemler (versiyonlar, oluşturulan branchler vb.) silinir, projemizin sadece son hali elimizde kalır.
