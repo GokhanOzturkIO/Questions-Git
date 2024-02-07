@@ -189,3 +189,7 @@ Gitlab, Bitbucket, GitKraken Glo, SourceForge.
 24 - main ya da master branch'inin diğer branchlerden farkı nedir?
 main ya da master branch'i projenin temel geliştirme yapılan dalıdır. Bu ana branch üzerinden yan branchler türetilerek projeye yeni özellik eklemek, hataların düzeltilmesi vb bütün işlemlerden sonra main branch'e eklenecekse 'merge' veya 'pull request' yapılarak eklenir.
 *****************************************************************
+25 - ".gitignore" dosyası nedir ve ne amaçla kullanılır? 
+.gitignore dosyası, bir Git deposundaki belirli dosyaların veya klasörlerin izlenmesini engellemek veya takip edilmemesini sağlamak için kullanılan bir konfigürasyon dosyasıdır. Bu dosya, Git'e hangi dosyaların veya klasörlerin versiyon kontrol sistemine dahil edilmemesi gerektiğini bildirir.
+
+Bu dosya, projenin kök dizininde bulunmalıdır ve özellikle versiyon kontrolüne eklenmesini istemediğiniz geçici dosyalar, derleme çıktıları, kullanıcı özel ayar dosyaları gibi dosya ve klasörleri belirtmenizi sağlar. .gitignore dosyası, projenin temiz ve düzenli kalmasına yardımcı olur ve gereksiz dosyaların depoya eklenmesini önler.
