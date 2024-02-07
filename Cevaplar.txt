@@ -130,6 +130,16 @@ Bu durum, genellikle iki farklı branch'in aynı dosyanın aynı bölümlerine y
 
 ####################################################################################
 
+15. "git log" komutu ile hangi bilgileri görebiliriz?
+
+Git deposundaki commit geçmişini gösterir. Bu komutla birlikte görülebilecek bazı temel bilgiler şunlardır:
+
+-Commit SHA
+-Yazar
+-Tarih
+-Commit mesajı
+
+####################################################################################
 
 
 
