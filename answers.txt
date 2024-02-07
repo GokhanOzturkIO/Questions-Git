@@ -137,9 +137,6 @@ branch fonksiyon olarak apayrı bir şeydir. Paralel geliştirme için kullanıl
 
 22 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
-https://visualizegit.com/,
-https://onlywei.github.io/explain-git-with-d3/#branch
-https://github.com/git-school/visualizing-git
-https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+GitKraken, Fork, Sourcetree, Tower Github Desktop, Smartgit...
 #####
 
