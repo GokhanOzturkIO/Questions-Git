@@ -1,0 +1,4 @@
+1- Git nedir?
+
+Git bir versiiyon kontrol sistemidir. Dosyaların zaman içinde uğradığı değişiklikleri işaretlemek, raporlamak, etiketlemek için kullanılır. Bu hem tek başına çalışırken hem de grupla çalışırken düzenli ve verimli bir çalışma ortamı oluşturmaya yardımcı olur.
+#####
