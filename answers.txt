@@ -25,3 +25,7 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 *** Git'in commit işlemine hazırlık yapmak için kullandığı geçici bir depolama alanıdır. "Staging area" veya "index," projede yapılan değişiklikleri,
  bir sonraki commit'e dahil etmek istediğimiz dosyaları seçme ve düzenleme imkanı sağlar.
 
+7) "Untracked file" ne demektir?
+
+*** "git" tarafından takip edilmeyen dosyalardır.
+
