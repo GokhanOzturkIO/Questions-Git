@@ -96,3 +96,8 @@ kalıbını kullanabiliriz.
 
 İki ayrı branchteki değişiklikler aynı dosyanın aynı bölümünde yapılırsa ve Git bu değişiklikleri otomatik olarak birleştiremezse bu hata alınır.
 #####
+
+15- "git log" komutu ile hangi bilgileri görebiliriz?
+
+Commit geçmişi, sahipleri ve commit hashlerini görebiliriz.
+#####
