@@ -217,4 +217,11 @@ git reset --hard HEAD
 
 "git commit" komutu, yerel Git deposunda yapılan değişiklikleri bir commit olarak kaydeder ve bu değişiklikler sadece yerelde saklanır. "git push" komutu ise yerelde yapılan commit'leri uzak bir depoya gönderir ve diğer kullanıcılarla paylaşılmasını sağlar. Bu komutlar birlikte kullanılarak, yerelde yapılan değişikliklerin paylaşılması ve işbirliği yapılması sağlanır.
 
---
+---
+
+## 19) Atomic commit ne demektir?
+
+Git'te atomic bir commit, belirli bir zamandaki tüm değişiklikleri içeren tek bir committir. "Atomic" terimi bilgisayar bilimleri alanından gelir ve bölünemez ve kesintisiz bir işlemi ifade eder. Git'te, atomic commit'ler, deposunun tutarlı bir durumda kalmasını sağlamak için kullanılır, bu da değişiklikleri geri almayı ve deposu bilinen, stabil bir duruma geri getirmeyi kolaylaştırır. Genellikle, paylaşılan bir depoda çalışırken mümkün olduğunca atomic commit'leri kullanmak iyi bir uygulamadır.
+
+---
+
