@@ -73,4 +73,15 @@ Soru 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik
 
 Cevap: Her git init komutunda otomatik ReadMe.md dosyası oluşturmak istiyorsak global bir git şablonu oluşturabiliriz template ile.
 ---------------------------------------------------------------------------------------
+Soru 10: Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Cevap: Git'te "branch" (şube), projenin bağımsız geliştirme yoludur ve belirli bir noktadaki dosya ve dizinlerin bir kopyasını içerir. 
+       Proje üzerinde paralel olarak çalışmak, farklı özellikleri eklemek veya hataları düzeltmek için kullanılır. 
+       Branchler, projenin farklı sürümlerini ve geliştirmelerini izlemenizi sağlar.
+       Paralel olarak kopyalarda yapılan değişiklikler en son ana branchte birleştiriliyor.
+       Aktif olarak aynı branch üzerinde çalışırken conflict çıkışlarını engeller.
+       Bir conflict çıkarsa ana branch birleştirilirken çıkması ve o sırada halledilmesi daha yararlıdır.
+       Branchler bize bağımsız çalışma ortamları,paralel geliştirme,geliştirme izolasyonu,geçmişin izlenmesi,
+       risk azaltma ve sağlıklı iş birliği sağlar.
+--------------------------------------------------------------------------------------
 
