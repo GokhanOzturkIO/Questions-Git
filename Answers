@@ -84,3 +84,13 @@ Question 12: Var olan bir "branch"e nasıl geçebiliriz?
 Question 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
 -> git clone --branch branchName repoUrl: İlgili repoUrl'ine gidip o repoda eğer branchName adında bir branch var ise  sadece o branchi çeker
+
+
+Question 14: "Merge conflict" ne demektir?
+
+-> Git'te iki veya daha fazla değişikliğin birleştirilmek istendiğinde meydana gelen uyumsuzluktur diyebiliriz.
+
+    -> Eğer iki farklı branchte aynı dosyanın aynı satırında değişiklikler varsa Git bu değişikliklerden hangisini alacağını bilemeyeceği için çakışma durumu oluşur.
+    -> Bir branchte silinen bir dosya eğer başka bir branchte düzenlenmişse ortaya çıkar.
+    -> İki farklı branchte aynı dosyada farklı satırlarda yer alan değişken veya fonksiyon isimlerinin değiştirilmesi durumunda oluşabilir.
+    -> İki farklı branchte aynı dosyanın yerini değiştirildiğinde oluşabilir.
