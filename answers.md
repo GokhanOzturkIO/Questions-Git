@@ -13,6 +13,8 @@
     * git fetch komutunu çalıştırmamış olabiliriz.
 
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+    * origin uzak sunucuya karşılık gelir.
+    
 - "HEAD" kelimesi neyi temsil etmektedir?
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?
