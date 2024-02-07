@@ -50,3 +50,29 @@ Soru 16 "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri gö
 Soru 17 Git reset ile neyi geri alıyoruz?
 - git add komutuyla staging areaya aldığımız değişikliği geri alıyoruz. Fakat dikkat edilmesi gereken husus, dosyanın içerisindeki değişikliği geri almıyoruz.
 
+Soru 18 Atomic commit ne demektir?
+- Atomic commit belirli prensiplere bağlı kalarak yapılan bir commit çeşididir.
+
+-> Yazılım geliştirmede atomik commit, bir sürüm kontrol sisteminde (örneğin Git) yapılan bir commit işleminin tek bir değişikliği temsil etmesi anlamına gelir. Yani bir commit'te birden fazla, birbirinden bağımsız değişiklik yapılmamalıdır.
+
+Peki neden atomic commit kullanmalıyız ?
+
+* Geçmiş sürümlere geri dönmeyi kolaylaştırır: Bir hata olduğunda veya eski bir sürüme geri dönmek istediğinizde, hangi commit'in sorumlu olduğunu kolayca belirleyebilirsiniz.
+* Hata izlemeyi kolaylaştırır: Hataları hangi commit'in getirdiğini takip ederek sorunu daha hızlı çözebilirsiniz.
+* Kod incelemesini kolaylaştırır: Her commit tek bir değişiklik temsil ettiğinden, kod incelemesi daha kolay ve daha net hale gelir.
+
+Atomik Commit Nasıl Yapılır?
+
+Atomik commit yapmak için, her bir değişiklik için ayrı bir commit oluşturmanız gerekir. Örneğin, bir web sitesinin tasarımında bir hata buldunuz ve düzelttiniz. Bu düzeltmeyi tek bir commit olarak kaydetmek yerine, aynı commit'e başka düzenlemeler de eklememelisiniz.
+
+Bunu yapmanın birkaç yolu vardır:
+
+* Her değişiklik için ayrı bir branch oluşturabilirsiniz.
+* Her değişikliği ayrı bir commit olarak kaydedebilirsiniz.
+
+Atomik Commit'e Dikkat Edilmesi Gereken Noktalar:
+
+* Her commit'e anlamlı bir mesaj eklediğinizden emin olun.
+* Commit mesajlarında hangi değişikliklerin yapıldığını açıkça belirtin.
+* Büyük değişiklikleri birden fazla commit'e bölebilirsiniz.
+
