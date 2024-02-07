@@ -3,3 +3,5 @@
 2-Git fetch komutuyla sunucudaki değişiklikleri görebiliriz, ancak kendi projemize ekleyemeyiz. Git pull komutu ise sunucudan fetch komutuyla gördüğümüz değişiklikleri kendi bilgisayarımıza indirmemizi sağlar.
 
 3-Arkadaşımız kendi bilgisayarından commitlemiş olduğu değişiklikleri push etmediğinden değişikliller sadece onun bilgisayarında yer alır, bu yüzden probleblem oluşabilir
+
+4-Origin sunucudaki ana depoyu temsil eder
