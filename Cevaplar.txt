@@ -84,3 +84,25 @@ Bunun bize birçok avantajı vardır:
 - Geri Alma ve Kurtarma
 
 ####################################################################################
+
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+-İlk olarak, terminal veya komut istemcisini açın.
+-Git deposunun bulunduğu dizine gidin. Örneğin:
+
+cd /path/to/your/repository
+
+-Yeni bir branch oluşturmak için git branch komutunu kullanın. Aşağıdaki komut, yeni bir branch oluşturur:
+
+git branch yeni_branch_adı
+
+Bu şekilde bir branch oluşturmuş olacaksınız.
+
+####################################################################################
+
+
+
+
+
+
+
