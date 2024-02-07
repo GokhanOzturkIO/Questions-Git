@@ -122,3 +122,8 @@ Git commit ile yapılan değişiklikler yerel repoya kayıt olarak işlenir. Git
 
 Değişiklikleri parça parça, küçük küçük "kaydetmek" demektir. Böylece yapılan değişilkliklerin takibi ve organizasyonu çok daha kolay yapılır.
 #####
+
+20- Repository ne demektir?
+
+Projenin version kontrolü ile izleme altına alındığı depodur.
+#####
