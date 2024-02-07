@@ -29,3 +29,9 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 
 5- "HEAD", Git deposunda şu anda işaret edilen son commit'i (en son kaydedilen değişiklikleri) temsil eden özel bir işaretçidir. Yani, "HEAD" şu anda üzerinde çalıştığınız veya bulunduğunuz commit'i işaret eder.
+
+
+*******************************************************************************************************************************************************
+
+
+6- "Staging Area" veya "Index", Git'in çalışma alanındaki değişiklikleri yönetmek için kullandığı ara bir bölgedir. Bu bölge, çalışma dizininizde (working directory) yaptığınız değişikliklerin commit öncesinde geçici olarak saklandığı alandır.
