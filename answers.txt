@@ -1,0 +1,4 @@
+1.Soru: Git Nedir ?
+
+Cevap: Git,yazılım geliştirme projelerini izlemek,yönetmek ve sürüm kontrolünü sağlamak için kullanılan bir versiyon kontrol sistemidir. Diğer bir deyişle dağıtık bir versiyon kontrol sistemidir. Linus Torvalds tarafından Linux çekirdeği geliştirme sürecinde kullanılmak üzere 2005 yılında geliştirilmiştir.Şu anda dünya genelinde projeler ve geliştirmeler için çoğunlukla kullanılmaktadır.Açık kaynaklı bir yazılımdır ve GitHub,GitLab,Bitbucket gibi bir çok platformda kullanılmaktadır aynı zamanda herhangi bir işletim sistemi üzerinde de kullanılabilir.
+---------------------------------------------------------------------------------------
