@@ -6,3 +6,6 @@
 
 3- Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 # Arkadaşımız kodlarını commit etmiş ama push işlemi yapmamış olabilir. Bu durumda biz fetch işlemi yaptığımızda değişikleri göremeyeceğiz.
+
+4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+# Bağlı olunan ana repoyo temsil eder. git fetch origin ile uzaktaki repodaki değişiklikleri lokale alırız.
