@@ -79,3 +79,19 @@ Atomik Commit'e Dikkat Edilmesi Gereken Noktalar:
 Soru 19 Repository ne demektir?
 - Bir diğer adıyla repo depo anlamına gelmektedir ve bir projenin depolama yeridir.
 
+Soru 20 "git tag" nedir? "git branch"’ten farkı nedir?
+- git tag commitleri yönetmemize kolaylık sağlar. Belirli commite dönmemize kolaylık sağlarken sürümleri daha kolay yönetmemizi sağlar.
+
+Bazı kullanım şekilleri:
+
+Belirli bir commit'e tag oluşturmak:
+git tag <tag_ismi> <commit_hash>
+
+Örneğin, "v1.0.0" adında bir tag oluşturmak için aşağıdaki komutu kullanabilirsiniz:
+git tag v1.0.0 HEAD
+
+Git branchden farkı ise git branch ayrı bir kol oluştururken git tag var olan commiti etiketlemek için kullanılır.
+
+
+
+
