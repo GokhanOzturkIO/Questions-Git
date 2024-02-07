@@ -166,3 +166,7 @@ Commit Hash (SHA-1), Author (Yazar) ve Committer (Taşıyıcı), Tarih ve Saat B
 17 - Git reset ile neyi geri alıyoruz?
 git reset komutu, Git deposundaki commit geçmişi, çalışma dizini ve index (staging alanı) üzerinde geri alma işlemlerini gerçekleştiren bir komuttur. 
 *****************************************************************
+18 - "git commit" ile "git push" arasındaki fark nedir?
+git commit komutu, çalışma dizinindeki değişiklikleri bir commit haline getirir. git push komutu, yerel depodaki (local repository) commit'leri uzak depoya (remote repository) göndermek için kullanılır. Yerel depodaki commit'lerin uzak depoda paylaşılmasını sağlar.Sonuç olarak, git commit değişiklikleri yerel depoya kaydederken, git push de yerel depodaki commit'leri uzak depoya gönderir ve diğer geliştiricilerle veya depo paylaşımı yapılan bir platformla (GitHub, GitLab, vb.) senkronize olmanızı sağlar. Her iki komut da farklı aşamalarda kullanılır ve iş akışının düzenli ve işlevsel olmasını sağlar.
+*****************************************************************
+
