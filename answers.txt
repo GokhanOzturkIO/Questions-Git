@@ -61,5 +61,10 @@
 
 -Staging area'daki değişiklikleri geri alınır. Staging area'ya konulan dosyalar staging area'dan çıkarılır. Fakat bununla birlikte Dosyada yapılan değişiklikler geri alınmaz.
 
+17-) "git commit" ile "git push" arasındaki fark nedir?
+
+-Git commit komutu ile uzak sunucuya gönderilecek olan değişiklikler bir mesaj ile localde tutulur. Git push ise commitlenen ve localde tutulan bu değişiklikleri uzak sunucuya gönderir.
+
+
 
 
