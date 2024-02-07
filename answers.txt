@@ -172,4 +172,6 @@ git commit komutu, çalışma dizinindeki değişiklikleri bir commit haline get
 19 - Atomic commit ne demektir?
 "Atomic commit" bir versiyon kontrol sistemi (VCS) kullanılırken yapılan bir commit işleminin, bir değişiklik grubunun tamamını içermesi ve bu değişiklik grubunun bir bütün olarak işlenmesi anlamına gelir. Atomik commit'ler, bir değişiklik setinin parçalara bölünmeden tamamen uygulandığı ve kaydedildiği bir commit yaklaşımını temsil eder.
 *****************************************************************
+20 - Repository ne demektir?
+Bir yazılım projesinin, belgelerin, kaynak kodunun, dosyaların ve projeye ait diğer materyallerin depolandığı yerdir. 
 
