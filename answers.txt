@@ -2,3 +2,10 @@
 
 Git bir versiiyon kontrol sistemidir. Dosyaların zaman içinde uğradığı değişiklikleri işaretlemek, raporlamak, etiketlemek için kullanılır. Bu hem tek başına çalışırken hem de grupla çalışırken düzenli ve verimli bir çalışma ortamı oluşturmaya yardımcı olur.
 #####
+ 
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+
+Uzak bir repoyla çalışırken git fetch komutunu kullanırsak uzak repodaki son değişikliklerden "haberdar oluruz" ancak yerel repomuza çekmeyiz. Eğer git pull komutunu kullanırsak, bu kez uzak repodaki değişiklikleri kendi yerel repomuza çekebilir ve böylece karşıyla senkronizasyon sağlayabiliriz.
+#####
+
+
