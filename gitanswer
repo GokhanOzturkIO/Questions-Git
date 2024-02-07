@@ -47,3 +47,6 @@ Soru 15 "git log" komutu ile hangi bilgileri görebiliriz?
 Soru 16 "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 - git diff ile bir dosya içerisindeki değişiklikler, iki branch arasındaki farklar,staging areanın içerisinde bulunan değişikliklere (git diff --staged) erişebiliyoruz. 
 
+Soru 17 Git reset ile neyi geri alıyoruz?
+- git add komutuyla staging areaya aldığımız değişikliği geri alıyoruz. Fakat dikkat edilmesi gereken husus, dosyanın içerisindeki değişikliği geri almıyoruz.
+
