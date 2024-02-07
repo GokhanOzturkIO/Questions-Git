@@ -38,3 +38,4 @@
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 - main ya da master branch'inin diğer branchlerden farkı nedir?
+- ".gitignore" dosyası nedir ve ne amaçla kullanılır?
