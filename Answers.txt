@@ -29,7 +29,7 @@ Git deposunu silmiş olursunuz ve commitlere branchlere bir daha ulaşamazsını
 10)Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Git'te bağımsız çalışma kollarını temsil eder. Her bir dal, projenin farklı bir versiyonunu ifade eder. Bu yapı, aynı anda farklı özellikler üzerinde çalışmayı, risk izolasyonunu, paralel geliştirmeyi ve sürüm yönetimini kolaylaştırır. Geliştiricilere deneme yapma ve geri alma imkanı sunar
 ****************************************************
-11)Sıfırdan bir "branch" nasıl oluşturabiliriz?
+11-12)Sıfırdan bir "branch" nasıl oluşturabiliriz?
 Yeni bir branch oluşturmak için "git branch branchismi" komutu ile branch oluşturmuş olursunuz oluşturulan dala geçmek içinse git checkout komuutunu kullanmanız lazım
 ****************************************************
 
