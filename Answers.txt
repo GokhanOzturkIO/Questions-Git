@@ -23,3 +23,6 @@ Git'te bir sonraki commit için dosya değişikliklerini hazırladığınız ge�
 8)".git" klasörünü silersek ne olur?
 Git deposunu silmiş olursunuz ve commitlere branchlere bir daha ulaşamazsınız
 ****************************************************
+9)Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+İlk önce git init komutu ile yeni bir Git deposu oluşturmamız lazım "touch ReadMe" ilede ReadMe dosyası oluşturunur.
+****************************************************
