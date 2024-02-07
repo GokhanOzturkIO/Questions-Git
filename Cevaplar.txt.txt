@@ -33,3 +33,6 @@
 
 12- Var olan bir "branch"e nasıl geçebiliriz?
 # git checkout [branch-adı] ile var olan bir branch'e geçiş yapabiliriz.
+
+13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+# "git clone --branch [branch-adı] [repo-url]" bu şekilde çekilebilir.
