@@ -192,3 +192,24 @@ Tüm bu durumlarda, çıktı bize eklenen, değiştirilen veya silinen dosyalar 
 
 ---
 
+## 17) Git reset ile neyi geri alıyoruz?
+
+git reset komutu, Git deposundaki değişiklikleri geri almak için kullanılır. --soft, --mixed ve --hard gibi seçeneklerle kullanılarak değişikliklerin geri alınma şekli belirlenir.
+
+`git reset --soft:` Bu seçenek, son commit'i geri alır, ancak değişiklikleri çalışma dizininde ve dizin endeksinde (staging area) bırakır.
+```
+git reset --soft HEAD
+```
+
+`git reset --mixed:` Bu seçenek, son commit'i geri alır ve değişiklikleri çalışma dizininde tutar, ancak dizin endeksini (staging area) geri alır.
+```
+git reset --mixed HEAD
+```
+
+`git reset --hard:` Bu seçenek, son commit'i ve yapılan değişiklikleri tamamen geri alır.
+```
+git reset --hard HEAD
+```
+
+---
+
