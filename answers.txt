@@ -164,6 +164,17 @@ Cevap: Git diff komutu, farklı durumlar arasındaki değişiklikleri göstermek
        -Staging (Index) Alanı ile Son Commit Arasındaki Değişiklikler
        -İki Commit Arasındaki Değişiklikler
 --------------------------------------------------------------------------------------
+Soru 17: Git reset ile neyi geri alıyoruz?
 
+Cevap: Git reset komutu, bir Git deposunda yapılan değişiklikleri geri almak veya commit geçmişini düzenlemek için kullanılır. 
+Bu komut, belirli bir commit'e kadar olan değişiklikleri geri alabilir veya sadece çalışma dizisinin (working directory) durumunu 
+etkileyerek commit geçmişinde geri gitmeyi sağlar.
+
+Git reset komutu ile geri alınabilecek farklı durumlar şunlardır:
+
+-Commit Geçmişinde Geri Gitme
+-Commit ve Çalışma Dizisinde Geri Alma
+-Commit'i Geri Alma, Ancak Değişiklikleri Saklama
+--------------------------------------------------------------------------------------
 
 
