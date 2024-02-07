@@ -133,3 +133,16 @@ Yapılan değişikliklerde her iş parçacığının tek tek commitlenmesidir. B
 
 Kısaca repo olarak adlandırdığımız repository; bir projenin tüm dosyalarını, dosyalar üzerinde değişiklik yapabilen geliştiricileri, projenin geçmişi gibi bilgileri içeren bir depodur.
 #####
+
+
+21- "git tag" nedir? "git branch"’ten farkı nedir?
+
+* Branch'ler projenin farklı geliştirme alanlarını temsil eder. Yeni bir branch oluşturarak, mevcut çalışma alanından bağımsız bir geliştirme alanı oluşturabiliriz. Buradaki amacımız yaptığımmız değişiklikleri tamamlayana kadar başka alanları etkilememek ve etkilenmemek.
+
+* Git tag ise belirli commitleri işaretlemek için kullanırız. Çoğu zaman projenin sürümünü işaretlemek için kullanırız.
+
+Farklar:
+
+"git tag", belirli bir commit'e etiket eklemek için kullanılırken,
+"git branch", projenin farklı geliştirme hatlarını temsil eden dalları oluşturmak, değiştirmek veya görmek için kullanılır.
+#####
