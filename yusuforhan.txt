@@ -1,0 +1,1 @@
+1) Git nedir : Git bir version kontrol sistemidir ve yazılım geliştirme süreçlerinde önemli bir role sahiptir.
