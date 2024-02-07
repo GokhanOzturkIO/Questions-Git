@@ -151,6 +151,11 @@ Bu komut iki farklı durum arasındaki değişiklikleri göstermek için kullan�
 
 ####################################################################################
 
+17. Git reset ile neyi geri alıyoruz?
+
+Git deposundaki değişiklikleri geri almak veya geri sarmak için kullanılır. Bu komut, çalışma dizinindeki dosyaların durumunu, Staging Area'yı ve hatta son commit'i değiştirebilir.
+
+####################################################################################
 
 
 
