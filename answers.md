@@ -60,3 +60,8 @@ Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.
 
   git branch isim
 ==========================
+
+12. - Var olan bir "branch"e nasıl geçebiliriz?
+ 
+  git checkout isim
+==========================
