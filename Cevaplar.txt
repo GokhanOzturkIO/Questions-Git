@@ -1,0 +1,7 @@
+1. Git Nedir ?
+
+Git, en kısa tanımıyla bir versiyon kontrol sistemidir.Versiyon kontrolü, bir projenin üzerinde farklı bilgisayarlardan, birden fazla kişinin çalışmasına ve proje üzerinde yapılan değişikliklerin eş zamanlı olarak kaydedilmesine olanak verir.
+Bu kaydedilme işlemi ise versiyonların, yani her yeni değişimin, detaylı bir dökümüne ulaşmayı kolaylaştırır. Git nedir ne işe yarar sorusunu biraz daha açmak gerekirse bu sistem farklı yazılımcıların ortak bir temel üzerinde kendi düzenlemelerini yapabilmelerini ve diğerlerinin de düzenleme geçmişine erişebilmesini sağlar. 
+Bu sistem aslında bir çeşit versiyon tarihçesi ya da versiyon geçmişi listesidir. Özetle Git, ekip çalışmasına olanak veren ve karışıklık yaşanma ihtimalinin önüne geçen bir versiyon kontrol sistemidir.
+
+####################################################################################
