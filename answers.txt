@@ -216,4 +216,29 @@ Soru 20: Repository ne demektir?
 Cevap: "Repository" veya kısaca "repo", bir projenin, kodun, belgelerin ve diğer dosyaların depolandığı, yönetildiği ve izlendiği bir yerdir. 
 
 --------------------------------------------------------------------------------------
+Soru 21: "git tag" nedir? "git branch"’ten farkı nedir?
+
+Cevap: git tag ve git branch komutları, Git'te farklı amaçlara hizmet eden iki farklı kavramı ifade eder.
+
+git tag: bu komut, belirli bir commit'e etiket (tag) eklemek için kullanılır. Etiket, genellikle bir belirli bir
+sürümü veya önemli bir noktayı temsil eder. Bu, projenin belirli bir durumunu işaretlemek ve kolayca erişilebilir bir
+referans sağlamak için kullanılır.Örneğin, bir sürüm yayınladığınızda veya önemli bir dönemeç noktasına ulaştığınızda, bu noktadaki bir 
+commit'e etiket ekleyebilirsiniz: git tag v1.0.0 
+Bu, "v1.0.0" etiketini HEAD'in gösterdiği commit'e ekler.
+
+git branch:bu komut, farklı çalışma kolları (branches) oluşturmak ve yönetmek için kullanılır. Branch'ler, projenin farklı geliştirme
+hatlarını ve özellikleri izlemek için kullanılır. Birden çok geliştirici aynı anda farklı branch'lerde çalışabilir, ve bu branch'ler 
+daha sonra birleştirilebilir.Örneğin, yeni bir özellik eklemek istediğinizde, bu özellik üzerinde çalışmak için yeni bir branch oluşturabilirsiniz:
+git branch yeni-ozellik
+Bu, "yeni-ozellik" adlı bir branch oluşturur, ancak hala bu branch'e geçmek için git checkout yeni-ozellik veya modern Git sürümlerinde
+git switch yeni-ozellik komutunu kullanmanız gerekir.
+
+Özetle, git tag bir commit'e etiket eklemek için kullanılırken, git branch farklı geliştirme kolları oluşturmak ve yönetmek için kullanılır.
+Etiketler genellikle sürüm veya önemli noktalara atanırken, branch'ler geliştirme süreçlerini izlemek için kullanılır.
+---------------------------------------------------------------------------------------
+
+
+
+
+
 
