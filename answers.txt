@@ -2,3 +2,8 @@
 
 Cevap: Git,yazılım geliştirme projelerini izlemek,yönetmek ve sürüm kontrolünü sağlamak için kullanılan bir versiyon kontrol sistemidir. Diğer bir deyişle dağıtık bir versiyon kontrol sistemidir. Linus Torvalds tarafından Linux çekirdeği geliştirme sürecinde kullanılmak üzere 2005 yılında geliştirilmiştir.Şu anda dünya genelinde projeler ve geliştirmeler için çoğunlukla kullanılmaktadır.Açık kaynaklı bir yazılımdır ve GitHub,GitLab,Bitbucket gibi bir çok platformda kullanılmaktadır aynı zamanda herhangi bir işletim sistemi üzerinde de kullanılabilir.
 ---------------------------------------------------------------------------------------
+2.Soru: "git pull" ile "git fetch" komutlarının farkı nedir?
+
+Cevap: Git fetch komutu uzak sunucudaki değişiklikleri alır ancak sizin localinize entegre etmez, fetch sizi sadece değişiklikler hakkında bilgilendirir.
+Git pull ise uzak sunucudaki değişiklikleri alıp localinize entegrede eder.
+---------------------------------------------------------------------------------------
