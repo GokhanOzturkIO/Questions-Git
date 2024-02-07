@@ -7,3 +7,5 @@ git hangi değişiklikleri uygulayacağını bilmiyor olabilir. Bu yüzden önce
 bu çakışmaları çözüp sonra pull yapmalıyız.
 
 4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir? : "origin", Git'te bir uzak depoyu işaret etmek için kullanılan bir takma addır. Genellikle, projenin orijinal veya merkezi depo adresini temsil eder. Bu takma ad, projenin uzak depoları arasında iletişim kurmak için kullanılır ve projenin uzak depoları arasında birincil kaynağı temsil eder.
+
+5) "HEAD" kelimesi neyi temsil etmektedir? :"HEAD", Git'te mevcut çalışma durumunu veya konumunu temsil eden bir referansdır. Başka bir deyişle, "HEAD", şu anda aktif olan yerel dalın son durumunu gösterir. "HEAD", genellikle mevcut işlemin çalıştığı konumu işaret eder ve bu nedenle mevcut dalın en son taahhüt edilmiş sürümünü gösterir.
