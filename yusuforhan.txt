@@ -35,6 +35,11 @@ Son olarak, bu dosyayı çalıştırılabilir hale getirin:chmod +x ~/.git-templ
 
 12) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? : git clone --single-branch --branch <branch_adi> <repository_url> bu komutu kullanılarak  istediğimiz branchi klonlayabiliriz.
 
+13) Merge conflict ne demektir : "Merge conflict" (birleştirme çakışması), Git'in farklı dallardaki veya farklı taahhüt geçmişlerinde yapılan değişikliklerin otomatik olarak birleştirilmesi sırasında karşılaşılan bir durumdur. Bu durum, Git'in değişiklikleri otomatik olarak birleştirememesi veya nasıl birleştireceği konusunda kararsız kalması durumunda ortaya çıkar.
+
+Genellikle "merge" veya "rebase" işlemi sırasında oluşur. İki farklı dal birleştirilmek istendiğinde veya bir dalın diğerine rebase edilmeye çalışıldığında, aynı dosyanın aynı satırlarında yapılan farklı değişiklikler nedeniyle çakışmalar meydana gelebilir.
+
+Merge conflict'ler, Git'in birleştirme işlemini otomatik olarak tamamlayamadığı ve insan müdahalesi gerektiği anlamına gelir. Bu durumda, Git, çakışan dosyaları işaretler ve çakışmayı çözmeniz gerektiğini belirtir. Çözülmemiş birleştirme çakışması durumunda, işlem tamamlanamaz ve birleştirme başarısız olur.
 
 
 
