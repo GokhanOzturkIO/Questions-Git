@@ -143,6 +143,19 @@ Eğer belirli bir spesifik branch'i sadece çekmek istiyorsanız, git clone komu
 git clone <uzak_depo_adresi> ve ardından cd ile ilgili dizine gidilir
 git checkout <branch_adi> ile istenen bracnh'e geçiş yapılabilir.
 *****************************************************************
+14 - "Merge conflict" ne demektir?
+"Merge conflict" (birleştirme çakışması), Git'in otomatik birleştirme (merge) işlemi sırasında iki farklı kaynaktan gelen değişikliklerin çakışması durumunu ifade eder. Bu durum, aynı dosyanın aynı satırlarının farklı branch'lerde farklı şekillerde değiştirilmiş olması anlamına gelir.
+Merge conflict'ler, genellikle şu durumlarda ortaya çıkar:
+    Aynı Satırın İki Farklı Yerde Değiştirilmesi:
+        İki farklı branch'te aynı dosyanın aynı satırları üzerinde değişiklik yapılırsa, birleştirme sırasında Git çakışmayı tespit eder.
+    Dosyanın İki Farklı Yerde Taşınması veya Silinmesi:
+        İki branch'te aynı dosyanın farklı yerlerinde taşıma veya silme işlemi gerçekleşirse, Git çakışma bildirir.
+    Farklı İsimlendirilmiş Dosyaların Değiştirilmesi:
+        İki branch'te farklı isimlendirilmiş ama aynı içeriğe sahip dosyaların değiştirilmesi durumunda Git çakışma tespit eder.
+    Bir Dalın Diğerine Birleştirilmesi İşleminin İki Trafikten Birden Gerçekleştirilmesi:
+        İki geliştirici, aynı ana branştan farklı branch'leri üzerinde çalışır ve sonra bu değişiklikleri ana branch'e birleştirme işlemini yaparsa, çakışma yaşanabilir.
+Merge conflict durumunda, Git otomatik birleştirme yapamaz ve kullanıcıya çakışan değişiklikleri çözmesi için yardım ister. Kullanıcı, çakışan dosyaları düzenleyip, çözümleri belirleyerek manuel olarak birleştirme işlemini tamamlar. Çakışmayı çözdükten sonra kullanıcı, değişiklikleri tekrar işleme koyar ve birleştirme işlemi tamamlanır.
+*****************************************************************
 
 
 
