@@ -137,3 +137,8 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 20- Bir yazılım projesinin veya kaynak kodunun depolandığı ve yönetildiği bir yerdir. Bir "repository", bir yazılım projesinin tüm dosyalarını, geçmişini, sürüm geçmişini ve projeyle ilgili diğer verileri içerir.
 
 
+*******************************************************************************************************************************************************
+
+
+21- git tag komutu, belirli bir commit'e etiket eklemek veya etiketleri listelemek için kullanılırken, git branch komutu, projenin farklı dallarını oluşturmak, listelemek veya geçiş yapmak için kullanılır.
+
