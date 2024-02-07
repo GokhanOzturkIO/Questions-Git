@@ -115,4 +115,18 @@ Cevap: Git clone komutunu kullanırken belirli bir spesifik branchi çekmek içi
      Belirli bir branchi çekmek için komut: git clone -b <branch_name> <repository_url>
      örneğin main isimli bir branchi çekmek için: git clone -b main <https://github.com/kullanici_adi/proje.git
 ---------------------------------------------------------------------------------------
+Soru 14: "Merge conflict" ne demektir?
 
+Cevap: "Merge conflict" (birleştirme çakışması), Git'te birleştirme işlemi sırasında karşılaşılan ve 
+       manuel müdahale gerektiren bir durumu ifade eder.Bu durum, farklı branchlerde yapılan değişikliklerin çakıştığı 
+       ve otomatik birleştirme işleminin başarısız olduğu anlamına gelir.
+
+      Merge Conflict genellikle şu durumlarda ortaya çıkar:
+      -Aynı satıra yapılan değişiklikler
+      -Farklı dosyalarda aynı isimde dosyalar
+      -Silinen veya taşınan dosyalar
+     Birleştirme çatışması durumunda, Git çatışmanın olduğu dosyaları işaretler ve çözümleme sürecini başlatır. 
+     Bu süreçte, geliştiricinin çakışmayı çözmesi ve değişiklikleri manuel olarak birleştirmesi gerekebilir.
+     Çakışma çözüldükten sonra, geliştirici değişiklikleri birleştirme işlemini tamamlar ve birleştirme commit'ini yapar.
+---------------------------------------------------------------------------------------
+   
