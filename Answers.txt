@@ -111,3 +111,11 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 2. "Staging Area" ile Son Commit Arasındaki Farklar: git diff --staged veya git diff --cached komutları, "staging area" ile son commit arasındaki farkları gösterir. Bu, "staging area"daki değişikliklerin son commit ile karşılaştırılmasını sağlar.
 
 3. İki Farklı Commit Arasındaki Farklar: git diff commit1 commit2 komutu, iki farklı commit arasındaki değişiklikleri gösterir. Burada "commit1" ve "commit2", karşılaştırmak istediğiniz iki commit'in hash veya etiketleridir.
+
+
+*******************************************************************************************************************************************************
+
+
+17- git reset ile staging area ya eklediğimiz dosyaları geri alabiliriz. 
+
+
