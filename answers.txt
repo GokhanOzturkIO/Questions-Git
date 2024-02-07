@@ -70,3 +70,10 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
  Merge conflict meydana geldiğinde, Git bu çakışmaları otomatik olarak çözemez ve kullanıcıdan yardım ister. 
  Kullanıcı, çakışmayı elle çözmeli ve sonrasında commit etmelidir.
 
+15) "git log" komutu ile hangi bilgileri görebiliriz?
+
+*** Commit Hash: Her bir commit için benzersiz bir id
+ Yazar Bilgisi: Değişikliğin kim tarafından yapıldığı bilgisi
+ Tarih ve Saat: Commitin ne zaman yapıldığı
+ Commit Mesajı: Yapılan değişikliği açıklayan bir commit mesajı
+
