@@ -37,3 +37,6 @@ Soru 12 Var olan bir "branch"e nasıl geçebiliriz?
 
 Soru 13 "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "git clone -b branchadi" komutuyla sadece o branchi çekebiliriz.
+
+Soru 14 "Merge conflict" ne demektir?
+- Merge conflict ifadesi çakışan satırlar için kullanılır. Bir ekip arkadaşımızla proje yaptığımızı düşünelim ve ikimiz de aynı satırları farklı şekilde güncelledik. ikimiz de pushladığımız zaman conflict olur ve git bizden hangisini seçmemiz gerektiğini sorar.
