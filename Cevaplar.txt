@@ -217,3 +217,11 @@ Kullanıcı adım: oktyGnc
 
 ####################################################################################
 
+24. main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Bu branch'ler projenin ana sürümünü yani kullanıcıya aktif olarak gösterilen projedir. Alt branch'lerden gelen feature'ların onaylanıp kullanıcıya servis edildiğin son branch'dir.
+En önemli farklardan biri ise her kullanıcının bu branch'lere erişim yetkisinin olmamasıdır.
+
+####################################################################################
+
+
