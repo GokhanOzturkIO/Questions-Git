@@ -57,6 +57,9 @@
 
 -staging area'da olan ve staging area'da olmayan değişiklikleri görebiliriz.
 
+16 - ) Git reset ile neyi geri alıyoruz?
+
+-Staging area'daki değişiklikleri geri alınır. Staging area'ya konulan dosyalar staging area'dan çıkarılır. Fakat bununla birlikte Dosyada yapılan değişiklikler geri alınmaz.
 
 
 
