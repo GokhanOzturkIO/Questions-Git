@@ -37,3 +37,10 @@
 
 -Git branch branchname komutu ile oluşturulur.
 
+11-) Var olan bir "branch"e nasıl geçebiliriz?
+
+-git checkout branch name komutu ile geçebiliriz.
+
+
+
+
