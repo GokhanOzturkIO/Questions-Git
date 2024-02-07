@@ -78,3 +78,10 @@ Ayrıca aynı projenin farklı sürümlerini kolayca takip etmede yardımcı olu
 
  komutu ile yeni branch oluşturulabilir.
  #####
+
+12- Var olan bir "branch"e nasıl geçebiliriz?
+
+> git checkout gecilmek-istenen-branch-adi
+
+komutu ile halihazırda var olan bir branche geçilebilir.
+#####
