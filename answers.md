@@ -50,3 +50,8 @@ Ardından, herhangi bir dizinde git init komutunu kullanarak yeni bir Git deposu
 
 Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.md dosyası ekleyebilirsiniz. Ancak, bu dosyanın içeriği her projeye göre değişebilir, bu nedenle içeriği her defasında düzenlemek isteyebilirsiniz.
 ==========================
+
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+  Git'te "branch" (dal), projenin farklı çalışma alanlarını temsil eden bir yapıdır. Her branch, projenin farklı bir versiyonunu veya farklı bir iş özelliğini temsil eder. Branch'ler, projenin geliştirilmesi sırasında paralel çalışma yapmayı sağlar ve birçok avantaj sunar. Bu avantajları şu şekilde sıralayabiliriz; paralel geliştirme, risk izolasyonu, geneme ve inceleme, geri dönüşüm ve paralel yayınlama gibi avantajlar sağlar.
+==========================
