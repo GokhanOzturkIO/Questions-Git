@@ -251,7 +251,6 @@ Git'te, bir etiket (tag), depoda belirli bir commit'i tanımlamak için kullanı
 
 ## 23) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
-
 `Git:` Bir sürüm kontrol sistemi ve açık kaynaklı yazılım yönetim aracıdır. Yerel bilgisayarınızda çalışır ve komut satırı aracılığıyla kullanılır.
 
 `Github:` Git tabanlı bir kod barındırma platformudur. Web tabanlı bir hizmettir ve Git depolarını internet üzerinden yönetmenizi sağlar. Proje yönetimi için araçlar sağlar, işbirliği yapmayı kolaylaştırır ve kodunuzu diğer geliştiricilerle paylaşmanıza olanak tanır.
@@ -263,4 +262,6 @@ Benzer şekilde, GitHub'a benzer diğer siteler şunlardır: GitLab ve Bitbucket
 Github Kullanıcı Adım : [EnesCANNOT](https://github.com/EnesCANNOT)
 
 ---
+## 24) main ya da master branch'inin diğer branchlerden farkı nedir?
 
+"main" veya "master" branch, genellikle bir Git deposunun ana dalı olarak kullanılır. Diğer dallardan farkı, genellikle projenin ana geliştirme hattını temsil etmesidir ve yeni özelliklerin veya değişikliklerin bu dala birleştirilmesiyle yapılır.
