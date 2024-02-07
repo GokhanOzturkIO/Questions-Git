@@ -52,3 +52,110 @@ Bu dosyalar git tarafından izlenmezler. Dosya üzerindeki hehrangi bir değişi
 8) ".git" klasörünü silersek ne olur?
 
 Çalışma dizinindeki git deposu silinmiş olur ve git tarafından kaydedilen tüm bilgiler silinir. Commit bilgileri, branch bilgileri gibi tüm bilgiler silinir. Bu yüzden de git'in sağlamış olduğu tüm avantajları kaybederiz.
+
+---------------------------------------
+
+9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Bunun için git template yapısını kullanabiliriz. Windows için aşağıdaki adımları uygulayabilirsiniz.
+
+- %USERPROFILE%/.gitconfig dosyanızı açın. (Dosya yoksa oluşturun.)
+- "%USERPROFILE%" değişkeni kullanıcı profili klasörünün yoludur.
+- Dosyanın sonuna aşağıdaki metni ekleyin.
+
+[init]
+	templatedir = %USERPROFILE%\.git-templates
+
+- %USERPROFILE%/.git-templates klasörünü oluşturun ve içerisine otomatik oluşturulmasını istediğiniz README.md dosyasını ekleyin.
+
+Bundan sonra "git init" komutu çalıştırıldığında proje klasöründeki ".git" klasörünün içersinde README.md dosyanız otomatik olarak oluşturulacaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
