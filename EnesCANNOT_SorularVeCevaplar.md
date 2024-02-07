@@ -231,3 +231,9 @@ Repository, bir projenin dosyalarının ve sürüm geçmişinin depolandığı y
 
 ---
 
+## 21) "git tag" nedir? "git branch"’ten farkı nedir?
+
+Git'te, bir etiket (tag), depoda belirli bir commit'i tanımlamak için kullanılan ve oluşturulduktan sonra değişmeyen bir işaretçidir. Bir dal (branch) ise, bir commite işaret eden taşınabilir bir işaretçi olup farklı commitlere işaret etmek için güncellenebilir. Etiketlerle dallar arasındaki temel fark, etiketlerin sabit olması ve değişmemesi, dalların ise taşınabilir olması ve güncellenebilmesidir. Etiketler genellikle önemli commit'leri tanımlamak için kullanılırken, dallar yeni özellikler veya hata düzeltmeleri geliştirmek için kullanılır.
+
+---
+
