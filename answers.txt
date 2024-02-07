@@ -116,3 +116,9 @@ Varsayılan haliyle kullanılırsa, son commiti geri alıyoruz.
 18- "git commit" ile "git push" arasındaki fark nedir?
 
 Git commit ile yapılan değişiklikler yerel repoya kayıt olarak işlenir. Git push ile de bu commitler uzak repoya gönderilir.
+#####
+
+19- Atomic commit ne demektir?
+
+Değişiklikleri parça parça, küçük küçük "kaydetmek" demektir. Böylece yapılan değişilkliklerin takibi ve organizasyonu çok daha kolay yapılır.
+#####
