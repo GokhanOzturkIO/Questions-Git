@@ -99,5 +99,12 @@ Cevap: Sıfırdan bir branch yapmak için ; git branch komutunu kullanabiliriz.
       Checkout ile yeni bir branch açma komutu ise: git checkout -b branch ismi şeklindedir.
       örn: git checkout -b blabla2 
 ----------------------------------------------------------------------------------------
+Soru 12: Var olan bir "branch"e nasıl geçebiliriz?
+
+Cevap: Var olan bir branche git checkout branch ismi komutu ile geçebiliriz.
+      ör: git checkout bla bla
+      Bir başka bu işlemi yapan komut ise: git switch -c komutudur.
+      ör: git switch -c blabla
+----------------------------------------------------------------------------------------
 
       
