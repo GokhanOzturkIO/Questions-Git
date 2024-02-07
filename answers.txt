@@ -79,3 +79,32 @@ Untracked basitçe Git'in önceki anlık görüntüde sahip olmadığınız bir 
         .git klasörü, projeye özgü Git konfigürasyon ayarlarını içerir. Bu ayarlar silindiğinde, projeye özgü Git konfigürasyonu kaybolur.
 Bu nedenle, .git klasörünü silmek, projenin Git sürüm kontrolü altında olmaktan çıkmasına ve tüm geçmiş bilgilerinin kaybolmasına neden olur. Bu işlem geri dönüşü zor bir değişikliktir. Eğer projenin sürüm geçmişi ve Git ile ilgili bilgiler önemliyse, .git klasörünü silmekten kaçınılmalıdır.
 *****************************************************************
+9 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+    Bir metin düzenleyici ile yeni bir dosya oluşturun ve içine aşağıdaki Bash betiğini ekleyin. Örneğin, init-script.sh olarak adlandırabilirsiniz:
+
+bash
+
+#!/bin/bash
+
+# Git depo oluştur
+git init
+
+# ReadMe.md dosyasını oluştur
+echo "# Project Title" > ReadMe.md
+echo "This is the initial README file." >> ReadMe.md
+
+# İlk commit'i yap
+git add ReadMe.md
+git commit -m "Initial commit with ReadMe.md"
+
+    Betiği çalıştırabilir ve projenizi başlatabilirsiniz:
+
+bash
+
+bash init-script.sh
+
+Bu betik, git init komutunu kullanarak bir Git deposu oluşturur ve ardından ReadMe.md dosyasını başlangıç içeriğiyle birlikte oluşturup ilk commit'i yapar. Bu şekilde, her defasında bir Git deposu başlatırken otomatik olarak bir ReadMe.md dosyası oluşturabilirsiniz.
+
+Unutmayın ki, bu sadece bir örnek betiktir ve ihtiyaçlarınıza göre özelleştirebilirsiniz. Bu tür bir otomatikleştirme, projenizin başlangıcında belirli bir standart dosya veya yapı oluşturmak istediğiniz durumlarda kullanışlı olabilir.
+*****************************************************************
+10 - 
