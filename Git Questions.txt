@@ -51,3 +51,6 @@ Yazdığımız commiti veya staging areadaki değişiklik yapmak istediğimiz ye
 
 Soru 18 -> "git commit" ile "git push" arasındaki fark nedir?
 git commit yerel depoya değişiklikleri kaydeder, git push ise yereldeki değişiklikleri uzak depoya gönderir ve paylaşır.
+
+Soru 19 -> Atomic commit ne demektir?
+Atomic commit bizim commit mesajlarımızın kısa ve öz direk konuya hitap eden commit mesajıdır.
