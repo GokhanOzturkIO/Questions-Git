@@ -123,6 +123,14 @@ git clone -b branch_adı repo_url
 
 ####################################################################################
 
+14. "Merge conflict" ne demektir?
+
+Bu durum, genellikle iki farklı branch'in aynı dosyanın aynı bölümlerine yapılan değişikliklerin çakışmasıyla ortaya çıkar.
+"Merge conflict" (birleştirme çakışması), Git'in birleştirme işlemi sırasında karşılaştığı ve otomatik olarak çözülemeyen durumları ifade eder.
+
+####################################################################################
+
+
 
 
 
