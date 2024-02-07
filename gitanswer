@@ -1,2 +1,4 @@
 Soru 1 Git Nedir ?
 - Git bir versiyon kontrol sistemidir. Özellikle ekip çalışması gerektiren işlerde kullanılması önem arz etmektedir. Aynı zamanda git sayesinde geçmişe rahatlıkla erişebiliyoruz.
+Soru 2 "git pull" ile "git fetch" komutlarının farkı nedir?
+- Git Fetch ile değişikliklerin olduğu bilgisini alıyoruz fakat değişikliklere lokalimizde erişemiyoruz. Git pull işlemi ile lokalimizde erişebilir hâle geliyoruz.
