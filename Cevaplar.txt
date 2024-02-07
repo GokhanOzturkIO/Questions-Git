@@ -180,4 +180,14 @@ Başka bir deyişle, repository bir projenin veya bir yazılımın tüm kaynak k
 
 ####################################################################################
 
+21. "git tag" nedir? "git branch"’ten farkı nedir?
+
+git tag = Belirli bir commit'e bir etiket (tag) eklemek için kullanılır. Bu, genellikle bir sürüm numarası veya bir önemli kilomet taşı olarak kullanılır.
+
+git branch = Projede yeni bir branch oluşturmak, mevcut branch'leri listelemek, belirli bir branch'e geçmek veya bir branch'i silmek için kullanılır.
+
+####################################################################################
+
+
+
 
