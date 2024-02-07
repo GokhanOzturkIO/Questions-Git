@@ -95,5 +95,10 @@ Git branchden farkı ise git branch ayrı bir kol oluştururken git tag var olan
 Soru 21 Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 - Git kraken, Github Desktop,Git Fork,Sublime Merge 
 
+Soru 22 "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+-Git bir versiyon kontrol sistemiyken GitHub git depolarını barındıran bir platformdur.
+Gitlab, Bitbucket örnek olarak verilebilir.
+
+
 
 
