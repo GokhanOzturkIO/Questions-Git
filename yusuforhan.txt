@@ -63,3 +63,7 @@ Head Pointer'ı Geri Almak: "git reset" komutu, HEAD işaretçisini belirli bir 
 Taahhütleri Geri Almak: "git reset" komutu, belirli bir taahhüdü (commit) geri alabilir veya taahhüt geçmişini değiştirebilir. Bu, projenin geçmişini değiştirmek için kullanılabilir, ancak dikkatlice kullanılmalıdır, çünkü geri alınan taahhütlerin kaybına neden olabilir.
 
 "git reset" komutu, projenin geçmişini değiştirmek için güçlü bir araçtır ve dikkatli bir şekilde kullanılmalıdır. Yanlışlıkla geri alınan taahhütlerin geri getirilmesi zor olabilir, bu nedenle öncelikle değişikliklerin dikkatlice incelenmesi ve güvenli bir şekilde geri alınması önemlidir. 
+
+17 ) "git commit" ile "git push" arasındaki fark nedir? : 
+"git commit", yapılan değişiklikleri yerel depoya taahhüt eder (commit eder), ancak uzak depoya göndermez. "git push" ise yereldeki taahhütleri uzak depoya gönderir ve böylece uzak depoyu günceller.
+
