@@ -208,3 +208,12 @@ git reset --hard: This option completely reverts the last commit and changes mad
 ```
 git reset --hard HEAD
 ```
+
+---
+
+### 18) What is the difference between "git commit" and "git push"?
+
+The "git commit" command records changes in the local Git repository, creating a new commit with a message describing the changes. These changes are stored locally and are not shared with others. On the other hand, the "git push" command sends the commits made locally to a remote repository, allowing them to be shared with others. These commands are used together to share local changes and collaborate with others.
+
+---
+
