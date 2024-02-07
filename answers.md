@@ -110,4 +110,10 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
   "Repository" veya kısaca "repo", yazılım geliştirme ve versiyon kontrol sistemleri gibi teknik alanlarda sıkça kullanılan bir terimdir. Repository, genel olarak bir projenin veya bir yazılımın tüm dosya ve tarihçesini içeren depoyu ifade eder.
 ==========================
 
+21. "git tag" nedir? "git branch"’ten farkı nedir?
+
+  "Git tag" Commit‘leri etiketleme işlemidir. Git branch projeyi dallara ayırırken, tag sadece etiketleme işlemi yapar.
+==========================
+
+
 
