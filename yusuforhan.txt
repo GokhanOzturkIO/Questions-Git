@@ -27,7 +27,11 @@ git add ReadMe.md
 git commit -m "Initial commit with ReadMe.md"
 Son olarak, bu dosyayı çalıştırılabilir hale getirin:chmod +x ~/.git-templates/hooks/post-init.
 
+9) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar? : "branch" yapısı, Git'in güçlü bir özelliği olan paralel geliştirmeyi sağlar ve projenin farklı özelliklerini ve sürümlerini yönetmek için esnek bir yöntem sunar. Bu, yazılım geliştirme sürecini daha organize, verimli ve yönetilebilir hale getirir.
 
+10) Sıfırdan bir "branch" nasıl oluşturabiliriz? : git branch -Branch Adı- komutu kullanılarak yeni bir branch oluşturulabilir.
+
+ 
 
 
  
