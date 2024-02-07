@@ -99,6 +99,7 @@ Soru 22 "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler
 -Git bir versiyon kontrol sistemiyken GitHub git depolarını barındıran bir platformdur.
 Gitlab, Bitbucket örnek olarak verilebilir.
 
-
+Soru 23 main ya da master branch'inin diğer branchlerden farkı nedir?
+-Main ya da master branchi ana branchdir ve diğer branchların gerekirse en sonda birleştiği branchdır. Proje en sonunda master ya da main branche alınır.
 
 
