@@ -28,4 +28,31 @@ Cevap:"Head" kelimesi, bir Git deposundaki mevcut çalışma durumunu ifade eden
        HEAD, şu an üzerinde çalıştığınız şube (branch) veya bir commit'in doğrudan referansını gösterebilir.
        Genelde sizin en son yaptığınız commit işlemini işaret ederken,
        Bazı durumlarda bağlı olduğunuz branchi de işaret edebilir.
-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+6.Soru: "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Cevap: "Staging Area" veya "Index", Git'in çalışma prensiplerinden birini temsil eden bir bölgedir.
+       Bu bölge, dosyaların değişikliklerini hazırlamak ve bir sonraki commit'e eklenecek olan dosyaları belirlemek için kullanılır.
+
+       Yaptığımız değişiklikler bizim localimizde bulunsa bile staging areaya aktarmadığımız sürece git tarafından trac edilmiyor yani izlenmiyordur.
+       Gitin değişiklikleri izleyip kontrol edebilmesi için yaptığımız değişiklikleri kaydetmemiz gerekir bu da staging area ara bölgesine aktardığımızda olur.
+
+       (git add .) = (git add --all) = (git add -a) Directory de yer alan tüm içerikleri staging areaya alır.
+  
+      Bu bölge şu görevleri yerine getirir;
+
+      Değişiklikleri Seçme ve Hazırlama:
+      
+      Yaptığınız değişiklikleri belirli dosyalar üzerinden seçip, "Staging Area"ye ekleyebilirsiniz. 
+      Bu, değişiklikleri commit etmek üzere hazırlamanızı sağlar.
+
+     Commit İçin Dosyaları Belirleme:
+
+     Bir sonraki commit'in hangi dosyaları içereceğini belirlemek için "Staging Area" kullanılır. 
+     Yani, "Staging Area"de bulunan dosyalar, bir sonraki commit'te yer alacaktır.
+
+    Parça Parça Commit İmkanı:
+
+     "Staging Area" sayesinde, farklı değişiklikleri ayrı ayrı commit etme esnekliğine sahip olabilirsiniz.
+     Yani, bir dosyanın bir kısmını hazırlayabilir ve sadece o kısmını commit edebilirsiniz.
+-----------------------------------------------------------------------------------------------
