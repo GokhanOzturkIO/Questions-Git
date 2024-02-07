@@ -27,3 +27,6 @@ Soru 9 -> Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomat
 
 Soru 10 -> Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Branch bize projede farklı dallarında çalışma olanağı sağlayan bir özelliktir. Bu özellikle bir takım çalışması yaparsak projede ayrı ayrı geliştirme ve düzeltme yapabiliriz.
+
+Soru 11 -> Sıfırdan bir "branch" nasıl oluşturabiliriz?
+Bir branch oluşturmak için git branch (branch adı) yazarak oluşturabiliriz.
