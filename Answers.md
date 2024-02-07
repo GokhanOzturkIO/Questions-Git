@@ -9,3 +9,8 @@ Git bir versiyon kontrol sistemidir. Yaptığımız çalışmalara kontrol nokta
 ## Soru 3: Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 
 Kod gönderilmiş olabilir ama nereye? Kodumuzun yolculuğu ilk yazmaya başladığımız andan itibaren şu şekilde oluyor: İlk başta "git add" komutu ile kodumuzu staging area'ya alıyoruz. Ardından staging area'daki kodu local repository'e eklemek için "git commit" komutunu kullanıyoruz. En sonunda local repository'de bulunan kodlarımızı remote repository'e aktarmak için "git push" komutunu kullanıyoruz. Bu aşamaların hepsi incelenip hangi aşamada eksik olduğu bulunmalıdır.
+
+
+## Soru 4: "git fetch origin" komutundaki *origin* neye karşılık gelmektedir?
+
+Origin ifadesi projemizin remote repository'sini temsil eder.
