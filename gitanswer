@@ -9,3 +9,6 @@ Soru 3 Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin
 
 Soru 4 "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 - Origin ifadesi uzak depoyu ifade eder ve genelde github için kullanırız.
+
+Soru 5 "HEAD" kelimesi neyi temsil etmektedir?
+- Head kelimesi işaretçi anlamına gelir. Son commit ya da branchi gösterir.
