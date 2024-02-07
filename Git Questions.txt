@@ -70,3 +70,6 @@ Soru 22 -> Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araç
 -GitTower
 -Sublimemerge
 -Gitextensions
+
+Soru 23 -> "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git, versiyon kontrolü sağlayan bir sistemdir; GitHub ise Git tabanlı projelerin bulut üzerinde depolanmasını, işbirliği yapılmasını sağlayan bir web tabanlı platformdur. Gitlab, Gitkraken, Bitbucket
