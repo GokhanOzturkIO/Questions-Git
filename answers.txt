@@ -58,3 +58,6 @@ HEAD'in temsil ettiği konum, genellikle şu durumları içerebilir:
 
 HEAD'in bulunduğu konum, genellikle mevcut işlemlerin (commit, merge, vb.) etkileşimde bulunacağı yerdir. Bu nedenle, HEAD konumunu bilmek, projedeki çalışma durumu hakkında bilgi sağlar. git log, git status ve benzeri komutlar HEAD konumunu gösterir ve kullanıcılara projenin geçmişi ve mevcut durumu hakkında bilgi sağlar.
 *****************************************************************
+6 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Staging Area (Hazırlık Alanı): Bu, üzerinde değişiklik yaptığımız dosyaları Git’e göndermeye hazırladığımız alandır. Bu alan dosyaların veri tabanına yazılmadan önceki son aşamasıdır ve bu aşamada Git, dosyalarda herhangi bir çakışma (Dif) olup olmadığına bakar. Bu alan ayrıca hangi dosyaların sürüm yedeğine alınıp alınmayacağını da belirlediğimiz alandır. Buraya eklediğimiz dosyalar bir sonraki Tahüt (Commit) işleminde yedeklenecek dosyaları oluşturur.
+İndex (Dizin): Bu, projemizde sürümler hâlinde tutulan dosyalarımızın bulunduğu alandır. Bu alanda yer alan dosyalar dosya halinden ziyade, Snapshot (anlık görüntü) durumundadır ve bu sayede bizler istediğimiz sürüme kolaylıkla geri dönebiliriz.
