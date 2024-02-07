@@ -87,3 +87,5 @@ Diğer benzer siteler arasında bildiğim GitLab mevcuttur fakat github benim i�
 23) main ya da master branch'inin diğer branchlerden farkı nedir? :
 "main" veya "master" dalı, genellikle bir projenin ana dalını ve temel sürümünü temsil eder. Diğer dallar, genellikle "main" veya "master" dışında oluşturulur ve belirli özelliklerin veya geliştirmelerin yapılması için kullanılır. "main" veya "master" dalı, genellikle canlı ürünün sürümünü ve ana kod tabanını temsil ederken, diğer dallar daha fazla deneme, geliştirme veya özellik çalışmaları için kullanılır.
 
+24) ".gitignore" dosyası nedir ve ne amaçla kullanılır? : ".gitignore" dosyası, Git'in izlememesi veya takip etmemesi gereken dosyaların veya klasörlerin listesini içeren bir dosyadır. Bu dosya, projenin commit geçmişini temiz tutmak, gereksiz dosyaların veya hassas bilgilerin depolanmasını önlemek ve proje dizinini düzenli tutmak için kullanılır.
+
