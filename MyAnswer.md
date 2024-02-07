@@ -7,3 +7,11 @@
 - Git fetch, çalışma alanınıza herhangi bir etkide bulunmadan uzak sunucudaki değişiklikleri indirir ve sizin yerel çalışma alanınıza herhangi bir müdahalede bulunmaz.
 
 - Git pull, hem uzak sunucudaki değişiklikleri bilgisayarınıza indirir hem de yerel sunucunuzdaki verileri onlar ile günceller.
+
+### Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+- Arkadaşımızın kesin olarak bu kodları sunucuya doğru bir şekilde gönderebildiğini göz önüne alarak aşağıdaki işlemleri kontrol ederim.
+
+- Bizim öncesinde açmış olduğumuz branchin eskide kalması sonucu branchini göremiyor olabiliriz. Böyle bir durumda kişinin branchine geçiş yapmamız gerekecektir.
+
+- Conflict yemiş olabiliriz. Bu durum genelde localimize çekmeye çalıştığımız kodlar ile var olan kodlarımız arasında bir çakışma sonucu veyahut hali hazırda çalışıyor olduğumuz bir kod mevcutsa ve oradaki değişiklikleri stashlememiş veya geri almadan pull işlemi yapmaya çalıştıysak sorun çıkıyor olacaktır. Böyle bir durumu ise conflict aldığımız kodların problemlerini çözüp olması gerektiği hal ile güncelleyerek çözüme ulaşacağızdır.
