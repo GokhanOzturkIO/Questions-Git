@@ -146,3 +146,11 @@ Farklar:
 "git tag", belirli bir commit'e etiket eklemek için kullanılırken,
 "git branch", projenin farklı geliştirme hatlarını temsil eden dalları oluşturmak, değiştirmek veya görmek için kullanılır.
 #####
+
+
+22 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+* Sourcetree https://www.sourcetreeapp.com/ tamamen ücretsiz destek sunar.
+* Gitkraken https://www.gitkraken.com/ bazı kısımlardarında ücretli destek sunmaktadır.
+
+#####
