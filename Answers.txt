@@ -1,2 +1,5 @@
 1)Git Nedir?
 Git,bir sürüm kontol sistemidir ve projelerin daha düzenli bir şekilde yönetilmesinde yardımcı olur,ekip içinde işbirliğini kolaylaştırır.
+****************************************************
+2)"git pull" ile "git fetch" komutlarının farkı nedir?
+Fetch uzak depodan güncellemeleri çeker bilgisini verir git pull ise hem güncelleme alır hem de yerel kopyayı günceller.
