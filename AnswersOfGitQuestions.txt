@@ -126,5 +126,10 @@ Commit sahibini, commit geçmişini, commitin tarihini, commit mesajını ve com
 19- Atomic commit ne demektir?
 
 Yapılan değişikliklerde her iş parçacığının tek tek commitlenmesidir. Böylece görev takibini yada varsa bir hatanın nerede meydana geldiğini görmemizi kolaylaşır.
+#####
 
+
+20- Repository ne demektir?
+
+Kısaca repo olarak adlandırdığımız repository; bir projenin tüm dosyalarını, dosyalar üzerinde değişiklik yapabilen geliştiricileri, projenin geçmişi gibi bilgileri içeren bir depodur.
 #####
