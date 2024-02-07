@@ -27,3 +27,6 @@
 
 10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 # Ana projemizde adı üzerinde dallanma yapmamızı sağlar. Bu dallar ile aynı kaynak üzerinden farklı yollar veya birden fazla kişiyle çalışabilir daha sonra birleştirerek tek bir proje haline getirebiliriz.
+
+11- Sıfırdan bir "branch" nasıl oluşturabiliriz?
+# git branch [branch-adı] ile yeni bir branch oluşturulabilir. git checkout -b [branch-adı] bu şekilde de oluşturulur ve o branch'e geçiş yapılır.
