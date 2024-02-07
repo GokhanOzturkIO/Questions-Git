@@ -36,8 +36,9 @@
 - "Merge conflict" ne demektir?
 - "git log" komutu ile hangi bilgileri görebiliriz?
     * commit geçmişini gösterir. commit id - tarih - yazar - commit mesajı bilgilerini içerir.
-    
+
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+    * git diff, iki durum arasındaki farkları gösterir
 - Git reset ile neyi geri alıyoruz?
 - "git commit" ile "git push" arasındaki fark nedir?
     * git commit ile yaptığımız değişiklikleri local repositorye yazarız.
