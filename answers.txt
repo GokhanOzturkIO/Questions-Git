@@ -107,4 +107,12 @@ Cevap: Var olan bir branche git checkout branch ismi komutu ile geçebiliriz.
       ör: git switch -c blabla
 ----------------------------------------------------------------------------------------
 
+Soru 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+Cevap: Git clone komutunu kullanırken belirli bir spesifik branchi çekmek için --branch veya kısaltması olan -b seçeneğini kullanabiliriz. 
+      Ayrıca, --single-branch seçeneği ile sadece belirtilen branchi alabilir ve tüm geçmişi çekmeyebiliriz.
       
+     Belirli bir branchi çekmek için komut: git clone -b <branch_name> <repository_url>
+     örneğin main isimli bir branchi çekmek için: git clone -b main <https://github.com/kullanici_adi/proje.git
+---------------------------------------------------------------------------------------
+
