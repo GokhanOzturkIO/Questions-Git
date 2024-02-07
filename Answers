@@ -133,3 +133,9 @@ Question 19: Atomic commit ne demektir?
 
     ->Örn - feat(api) : "blabla" api bağlantısı eklendi
 
+
+Question 20: Repository ne demektir?
+
+-> Bir projenin dijital olarak depolandığı ve yönetildiği yerdir. Bir "repository", projenin tüm dosyalarını, geçmişini ve değişikliklerini içeren bir veritabanı gibi düşünülebilir.
+
+
