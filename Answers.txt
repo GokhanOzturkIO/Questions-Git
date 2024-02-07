@@ -41,3 +41,10 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 
 7- "Untracked file" (İzlenmeyen dosya), Git deposunun takip etmediği ve hakkında bilgi sahibi olmadığı dosyalardır. Yeni oluşturulmuş veya projeye eklenmemiş dosyalar bu kategoriye girer.
+
+
+*******************************************************************************************************************************************************
+
+
+8- Git yapısının geçmişini silmiş oluruz. Tüm commitler gider.
+
