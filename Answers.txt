@@ -9,3 +9,16 @@ Git açık kaynaklı bir versiyon kontrol sistemidir. Versiyon kontrol sistemler
 git fetch komutu uzak depodaki güncellemeleri localdaki depomuza getirir ancak dosyalarda herhangi bir değişiklik oluşturmaz.
 
 git pull komutu ise uzak depodaki değişiklikleri direkt olarak locakdeki depomuzla birleştirir. Bazen bu durumda conflict oluşma ihtimali vardır. Conflicti çözmek için gerekli aksiyonları almamız gerekir.
+
+-------------------------
+
+3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+- Arkadaşınız ile farklı dallarda çalışıyor olabilirsiniz. Eğer böyle bir durum varsa "git pull" işlemi yaparken spesifik olarak o dalı belitebiliriz.
+git pull origin BranchName
+
+- Arkadaşımız dalgınlıkla "git push" işlemi yapmayı unutmuş olabilir.
+
+- Yanlış dizinde git komutu çalıştırıyor olabiliriz.
+
+- Localdeki depomuzun son yapılan değişikliklerden haberi olmayabilir. Bunu aşmak için "git fetch" veya "git remote update" komutu kullanılabilir.
