@@ -17,3 +17,7 @@
 5-) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Üzerinde değişiklik yapılan dosyaların Git’e gönderilmeden önce tutulduğu alandır.
 
+6-) "Untracked file" ne demektir?
+
+-Takip edilmeyen dosya anlamına gelmektedir. Yeni oluşturulan dosyalar bu kapsamdadır. Git tarafından takip edilmeyen bu dosyalar git add komutu ile staging area'ya alınmazsa yapılan değişiklikler git tarafından takip edilmez.
+
