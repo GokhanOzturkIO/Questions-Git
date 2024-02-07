@@ -61,4 +61,13 @@ Soru 7: "Untracked file" ne demektir?
 Cevap: Bu dosyadaki değişiklikler henüz git tarafından kontrol edilemiyor demek.
        Eğer bu dosyada değişiklikler yaparsan yaptığın değişiklikleri gite soramazsın çünkü git kontrolü dahilinde değildir.
 --------------------------------------------------------------------------------------
+Soru 8: ".git" klasörünü silersek ne olur?
 
+Cevap: ".git klasörü" bir Git deposunun temelini oluşturan ve tüm depo ile ilgili bilgileri içeren önemli bir klasördür.
+      Bu klasörü silmek, o depoyu kullanılamaz hale getirir.
+     Depoda bulunan izlenen ve kontrol edilen tüm bilgiler kaybolur.
+     Herhangi bir yanlışlığa zemin hazırlamamak için ".git" klasörünü gömülü dosya olarak tutmak daha yararlı olacaktır.
+    Bunun için ayarlar->dosya gezgini->gizli dosyalar ve sistem dosyalarını göster-> seçeneğini kapatınız.
+---------------------------------------------------------------------------------------
+
+    
