@@ -26,3 +26,6 @@ Git deposunu silmiş olursunuz ve commitlere branchlere bir daha ulaşamazsını
 9)Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 İlk önce git init komutu ile yeni bir Git deposu oluşturmamız lazım "touch ReadMe" ilede ReadMe dosyası oluşturunur.
 ****************************************************
+10)Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Git'te bağımsız çalışma kollarını temsil eder. Her bir dal, projenin farklı bir versiyonunu ifade eder. Bu yapı, aynı anda farklı özellikler üzerinde çalışmayı, risk izolasyonunu, paralel geliştirmeyi ve sürüm yönetimini kolaylaştırır. Geliştiricilere deneme yapma ve geri alma imkanı sunar
+****************************************************
