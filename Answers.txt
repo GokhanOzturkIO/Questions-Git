@@ -20,3 +20,6 @@ Git'te bir sonraki commit için dosya değişikliklerini hazırladığınız ge�
 İzlenmeyen dosya yani Git'in depo içindeki dosyaları takip etmediği ve git tarafından izlenmediği içinde her hangi bir değişikliğide incelenemez
 
 ****************************************************
+8)".git" klasörünü silersek ne olur?
+Git deposunu silmiş olursunuz ve commitlere branchlere bir daha ulaşamazsınız
+****************************************************
