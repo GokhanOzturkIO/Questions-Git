@@ -225,3 +225,9 @@ Git'te atomic bir commit, belirli bir zamandaki tüm değişiklikleri içeren te
 
 ---
 
+## 20) Repository ne demektir?
+
+Repository, bir projenin dosyalarının ve sürüm geçmişinin depolandığı yerdir. Geliştiricilerin işbirliği yapması, değişiklikleri izlemesi ve projenin kod tabanını yönetmesi için merkezi bir merkez görevi görür. Her depo, dosyaları, commit geçmişini, brancleri ve etiketleri içerir ve dağıtık geliştirme için yerel olarak veya uzaktan var olabilir.
+
+---
+
