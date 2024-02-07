@@ -52,6 +52,12 @@ Adında anlaşılacağı üzere bu izlenemeyen dosyadır. Git bu dosyayı izleye
 
 ####################################################################################
 
+8. ".git" klasörünü silersek ne olur?
+
+Git'in tam merkezinde olan bir klasör .git , eğer bu klasör silinirse bütün depo yani branchler,commitler ve takip edilen dosyaların git ile bağlantısı tamamen kopar.
+
+####################################################################################
+
 
 
 
