@@ -157,6 +157,14 @@ Git deposundaki değişiklikleri geri almak veya geri sarmak için kullanılır.
 
 ####################################################################################
 
+18. "git commit" ile "git push" arasındaki fark nedir?
+
+git commit: Bu komut, çalışma dizinizdeki değişiklikleri yerel bir commit olarak kaydetmek için kullanılır. 
+
+git push: Bu komut, yerel Git deposundaki commit'leri uzak bir depoya (genellikle bir sunucu olarak düşünülen bir merkezi depo) göndermek için kullanılır. 
+Yani, yerelde yaptığınız commit'leri uzak depoya yükler ve paylaşır.
+
+####################################################################################
 
 
 
