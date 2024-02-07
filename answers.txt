@@ -77,3 +77,10 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
  Tarih ve Saat: Commitin ne zaman yapıldığı
  Commit Mesajı: Yapılan değişikliği açıklayan bir commit mesajı
 
+16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+*** local'deki degisiklikleri gorebiliriz.
+    staging area'daki degisiklikleri gorebiliriz. (git diff --staged komutu ile)
+    branch id lerini kullanarak branchler arası farkları görebiliriz
+
+
