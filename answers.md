@@ -55,3 +55,8 @@ Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.
 
   Git'te "branch" (dal), projenin farklı çalışma alanlarını temsil eden bir yapıdır. Her branch, projenin farklı bir versiyonunu veya farklı bir iş özelliğini temsil eder. Branch'ler, projenin geliştirilmesi sırasında paralel çalışma yapmayı sağlar ve birçok avantaj sunar. Bu avantajları şu şekilde sıralayabiliriz; paralel geliştirme, risk izolasyonu, geneme ve inceleme, geri dönüşüm ve paralel yayınlama gibi avantajlar sağlar.
 ==========================
+
+11. - Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+  git branch isim
+==========================
