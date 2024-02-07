@@ -84,3 +84,10 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 13- Belirli bir spesifik dalı sadece klonlamak için git clone komutuna --single-branch bayrağını ve klonlamak istediğiniz dalı belirten -b bayrağını kullanabilirsiniz. Örneğin git clone --single branch -b branch_name repo_url
 
 
+*******************************************************************************************************************************************************
+
+
+14- "Merge conflict" (birleştirme çakışması), Git'te iki veya daha fazla dalı birleştirme işlemi sırasında karşılaşılan bir durumdur. Birleştirme işlemi sırasında, Git farklı dallarda yapılan değişikliklerin aynı dosyanın aynı satırlarını etkilediğini belirler ve bu durumu bir çakışma olarak tanımlar.
+
+
+
