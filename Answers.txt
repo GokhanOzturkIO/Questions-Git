@@ -24,3 +24,8 @@ Senin local bilgisayarında ve benim local bilgisayarımda birbirimizin yaptığ
 
 Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini temsil eder. origin yerine farklı bir isim de kullanabilirsiniz, ancak çoğu durumda projeler origin adını kullanır.
 
+
+*******************************************************************************************************************************************************
+
+
+5- "HEAD", Git deposunda şu anda işaret edilen son commit'i (en son kaydedilen değişiklikleri) temsil eden özel bir işaretçidir. Yani, "HEAD" şu anda üzerinde çalıştığınız veya bulunduğunuz commit'i işaret eder.
