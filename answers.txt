@@ -53,6 +53,9 @@
 
 -Atılan tüm commitler görülür. Bunun yanında her commit'in hashcode'u, author , date ve hangi dosyada değişiklik yapıldığı bilgilerini görebiliriz.
 
+15-) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+-staging area'da olan ve staging area'da olmayan değişiklikleri görebiliriz.
 
 
 
