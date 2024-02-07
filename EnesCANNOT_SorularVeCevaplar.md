@@ -213,3 +213,8 @@ git reset --hard HEAD
 
 ---
 
+## 18) "git commit" ile "git push" arasındaki fark nedir?
+
+"git commit" komutu, yerel Git deposunda yapılan değişiklikleri bir commit olarak kaydeder ve bu değişiklikler sadece yerelde saklanır. "git push" komutu ise yerelde yapılan commit'leri uzak bir depoya gönderir ve diğer kullanıcılarla paylaşılmasını sağlar. Bu komutlar birlikte kullanılarak, yerelde yapılan değişikliklerin paylaşılması ve işbirliği yapılması sağlanır.
+
+--
