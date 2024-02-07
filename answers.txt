@@ -46,3 +46,8 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 11) Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 *** "git branch branchName" ile yeni bir branch oluşturabiliriz.
+
+12) Var olan bir "branch"e nasıl geçebiliriz?
+
+*** "git checkout branchName" ile oluşturduğumuz yeni branch'e geçiş yapabiliriz.
+
