@@ -45,5 +45,10 @@
 
 -Git clone  --branch branchname komutu spesifik olarak belirtilen branch çekilir.
 
+13-) "Merge conflict" ne demektir?
+
+-İki kişi tek bir dosyadaki aynı satırda değişiklik yapmış ise ortaya çıkan duruma Merge Conflict denir.
+
+
 
 
