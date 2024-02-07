@@ -32,3 +32,5 @@ Soru 10 Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Soru 11 Sıfırdan bir "branch" nasıl oluşturabiliriz?
 - sıfırdan branch oluşturmak istersek eğer git branch branchadi diyerek oluşturabiliriz.
 
+Soru 12 Var olan bir "branch"e nasıl geçebiliriz?
+- git checkout branchadi komutu ile geçebiliriz
