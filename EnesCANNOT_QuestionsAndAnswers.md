@@ -260,3 +260,7 @@ Similarly, other sites similar to GitHub include GitLab and Bitbucket. These pla
 My Github Username : [EnesCANNOT](https://github.com/EnesCANNOT)
 
 ---
+
+## 24) What is the difference between main or master branch from other branches?
+
+The "main" or "master" branch is typically used as the main branch of a Git repository. Its difference from other branches lies in usually representing the main development line of the project, and new features or changes are typically integrated into this branch.
