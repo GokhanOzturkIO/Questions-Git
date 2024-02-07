@@ -32,7 +32,9 @@ Git'te bağımsız çalışma kollarını temsil eder. Her bir dal, projenin far
 11-12)Sıfırdan bir "branch" nasıl oluşturabiliriz?
 Yeni bir branch oluşturmak için "git branch branchismi" komutu ile branch oluşturmuş olursunuz oluşturulan dala geçmek içinse git checkout komuutunu kullanmanız lazım
 ****************************************************
-
+13)"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+bunun için git clone -b branchadi url komutunu kullanabiliriz
+****************************************************
 
 
 
