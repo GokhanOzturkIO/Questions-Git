@@ -105,3 +105,12 @@ Question 15: "git log" komutu ile hangi bilgileri görebiliriz?
        -> Commit Mesajı: Commit'in amacını ve içeriğini açıklar.
 
 
+Question 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+-> Dosyalar üzerindeki değişiklikleri görmemizi sağlar.
+
+    -> Çalışma Dizini ve Staging Area Arasındaki Farklar: Henüz commit edilmemiş (git diff)
+    -> Staging Area ve Son Commit Arasındaki Farklar: (git diff --staged veya  git diff --cached)
+    -> İki Farklı Commit Arasındaki Farklar: (git diff <commit1> <commit2>)
+    -> İki Farklı Branch Arasındaki Farklar: (git diff <branch1> <branch2>)
+    -> Mevcut directoryde kaç dosyada ve kaç satırda değişiklik olduğunu verir -> (git diff --stat)
