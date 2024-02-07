@@ -1,4 +1,9 @@
 1- Git nedir?
 
 Projelerin geçmişini, yapılan değişiklikleri ve farklı versiyonlarını takip etme olanağı sunan bir Versiyon Kontrol Sistemidir(VCS). Git, bireysel  veya bir ekip içinde çalışırken kod yönetimini kolaylaştırır, takım üyeleri arasında işbirliği yapmayı ve projenin gelişimini izlemeyi sağlar.
+#####
 
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+
+git fetch komutunu kullanırsak uzak repodaki son değişikliklerden "sadece haberdar oluruz" yerel ropomuzda bir değişiklik olmaz. Eğer git pull komutunu kullanırsak, bu kez uzak repodaki değişiklikleri kendi yerel repomuza çekerek uzaktaki değişikliklere sahip olabiliriz.
+#####
