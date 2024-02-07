@@ -42,4 +42,5 @@ Soru 14 "Merge conflict" ne demektir?
 - Merge conflict ifadesi çakışan satırlar için kullanılır. Bir ekip arkadaşımızla proje yaptığımızı düşünelim ve ikimiz de aynı satırları farklı şekilde güncelledik. ikimiz de pushladığımız zaman conflict olur ve git bizden hangisini seçmemiz gerektiğini sorar.
 
 Soru 15 "git log" komutu ile hangi bilgileri görebiliriz?
-- commitlediğimiz mesajları ve onunla ilgili bilgileri görüyoruz.
+- commitlediğimiz mesajları ve onunla ilgili bilgileri görüyoruz. Commit id'si,tarih ve kişisel bilgilerimiz. Head ve branchimiz.
+
