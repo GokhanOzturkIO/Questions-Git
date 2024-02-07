@@ -176,5 +176,9 @@ Git reset komutu ile geri alınabilecek farklı durumlar şunlardır:
 -Commit ve Çalışma Dizisinde Geri Alma
 -Commit'i Geri Alma, Ancak Değişiklikleri Saklama
 --------------------------------------------------------------------------------------
+Soru 18: "git commit" ile "git push" arasındaki fark nedir?
 
+Cevap: git commit ile yapılan değişiklikleri lokal depoya kaydederken, git push ile bu değişiklikleri uzak bir depoya gönderir ve paylaşırız. 
+Yani, git commit lokaldeki değişiklikleri "yakalar", git push ise bu değişiklikleri uzak bir depoya "iter".
+--------------------------------------------------------------------------------------
 
