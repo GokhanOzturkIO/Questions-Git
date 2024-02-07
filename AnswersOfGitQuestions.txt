@@ -1,0 +1,4 @@
+1- Git nedir?
+
+Projelerin geçmişini, yapılan değişiklikleri ve farklı versiyonlarını takip etme olanağı sunan bir Versiyon Kontrol Sistemidir(VCS). Git, bireysel  veya bir ekip içinde çalışırken kod yönetimini kolaylaştırır, takım üyeleri arasında işbirliği yapmayı ve projenin gelişimini izlemeyi sağlar.
+
