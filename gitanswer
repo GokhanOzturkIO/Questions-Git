@@ -28,3 +28,7 @@ Soru 9 Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik 
 
 Soru 10 Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 - Branch dallanma olarak nitelendirebileceğimiz bir terimdir. Bize eş zamanda başka insanlarla çalışabilmemizi ve dallandırmayla beraber olası bir hatada o branch silinebilir.
+
+Soru 11 Sıfırdan bir "branch" nasıl oluşturabiliriz?
+- sıfırdan branch oluşturmak istersek eğer git branch branchadi diyerek oluşturabiliriz.
+
