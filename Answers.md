@@ -14,3 +14,7 @@ Kod gönderilmiş olabilir ama nereye? Kodumuzun yolculuğu ilk yazmaya başlad�
 ## Soru 4: "git fetch origin" komutundaki *origin* neye karşılık gelmektedir?
 
 Origin ifadesi projemizin remote repository'sini temsil eder.
+
+## Soru 5: "HEAD" kelimesi neyi temsil etmektedir?
+
+HEAD git içerisinde nerede olduğumuz gösterir. Genelde son commit'i gösterir.
