@@ -76,3 +76,6 @@ Atomik Commit'e Dikkat Edilmesi Gereken Noktalar:
 * Commit mesajlarında hangi değişikliklerin yapıldığını açıkça belirtin.
 * Büyük değişiklikleri birden fazla commit'e bölebilirsiniz.
 
+Soru 19 Repository ne demektir?
+- Bir diğer adıyla repo depo anlamına gelmektedir ve bir projenin depolama yeridir.
+
