@@ -33,4 +33,11 @@ Git'te, "origin" dışında çeşitli isimler kullanılabilir. Bu isimler genell
 
 ####################################################################################
 
+5. "HEAD" kelimesi neyi temsil etmektedir?
+
+Kısaca "HEAD" en son yapılan commit'i gösteren bir işaretçidir ve mevcut çalışma dizininde hangi commit'in üzerinde çalışıldığını belirtir.
+
+####################################################################################
+
+
 
