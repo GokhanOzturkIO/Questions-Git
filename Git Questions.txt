@@ -9,3 +9,6 @@ Arkadaşımız git push komutunu kullanmayı unutmuş olabilir.Eğer kullansayd�
 
 Soru 4 -> "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 "origin", Git'te bir uzak depoyu temsil eden bir isimdir. 
+
+Soru 5 -> "HEAD" kelimesi neyi temsil etmektedir?
+HEAd terimi aktif olarak çalıştığımız commit'i temsil etmektedir?
