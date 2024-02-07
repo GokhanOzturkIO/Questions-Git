@@ -1,3 +1,7 @@
 1-) Git Nedir?
 	
 -Dağıtık versiyon kontrol sistemidir.
+
+2-) "git pull" ile "git fetch" komutlarının farkı nedir?
+
+-Git fetch, uzak sunucudaki değişiklerin local bilgisayarın haberdar olmasını sağlar. Git pull ise bu değişiklikleri local bilgisayara almamızı sağlar.
