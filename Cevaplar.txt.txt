@@ -48,3 +48,6 @@
 
 17- Git reset ile neyi geri alıyoruz?
 # Staging bölümüne yollanan dosyaları geri alıyoruz.
+
+18- "git commit" ile "git push" arasındaki fark nedir?
+# git commit ile üzerinde çalışılan dosya yapılan değişiklikleri ile beraber mesaj eklenerek push durumuna hazır hale gelir ancak hala lokalde tutulur. git push ile uzaktaki repoya ulaştırılır. 
