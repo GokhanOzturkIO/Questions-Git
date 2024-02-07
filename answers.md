@@ -65,4 +65,7 @@
     * Fork,Github Desktop, Sourcetree 
 
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+    * git versiyon kontrol sistemi iken Github depo tutar, ortak projede çalışma imkanı sunar.
+    * GitLab, Bitbucket benzer uygulamalar. github : mertcankartal
+
 - main ya da master branch'inin diğer branchlerden farkı nedir?
