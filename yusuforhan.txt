@@ -79,4 +79,10 @@ Sourcetree
 GitKraken
 Android Studio (vcs özelliği)
 
+22) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız? : 
+"GitHub", bir kod barındırma ve işbirliği platformudur ve proje yönetimi, kod inceleme, sürüm kontrolü ve işbirliği için kullanılırken, "git", bir versiyon kontrol sistemidir ve kodun yerel olarak yönetilmesini sağlar.
+
+Diğer benzer siteler arasında bildiğim GitLab mevcuttur fakat github benim işimi gçrdüğü için sadece onu kullanmaktaım ve kullanıcı adım "Yusuf-Orhan"
+
+
 
