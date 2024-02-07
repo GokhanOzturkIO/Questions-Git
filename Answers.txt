@@ -1,0 +1,4 @@
+Q1)Git Nedir
+
+Git,dağıtık version kontrol sistemi ve kaynak kod yönetim aracıdır.Bizim yazılım geliştirme sürecimizde,projelerimizi izlemek,değişikliklikleri yönetmek,işbirliği yapmak ve geçmiş versiyonlara geri dönmek için kullanılır.En basit tanımıyla bir versiyon kontrol sistemi olarak düşünebiliriz.Versiyonlarına ayırmak istediğimiz herhangi birşey var ise git kullanımını rahatça yapabiliriz.Metinleri,görselleri,belgeleri etkili bir şekilde git ile yönetebiliriz.
+=================================================================================================================================================================
