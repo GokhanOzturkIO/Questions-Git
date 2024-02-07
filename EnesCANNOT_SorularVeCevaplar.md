@@ -248,3 +248,19 @@ Git'te, bir etiket (tag), depoda belirli bir commit'i tanımlamak için kullanı
 | ![Github](assets/git_fork.jpg) | ![Github](assets/git_kraken.png) | ![Github](assets/sublime_merge.png) | ![Github](assets/git_tower.png) | ![Github](assets/megit.png) |
 
 ---
+
+## 23) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+
+`Git:` Bir sürüm kontrol sistemi ve açık kaynaklı yazılım yönetim aracıdır. Yerel bilgisayarınızda çalışır ve komut satırı aracılığıyla kullanılır.
+
+`Github:` Git tabanlı bir kod barındırma platformudur. Web tabanlı bir hizmettir ve Git depolarını internet üzerinden yönetmenizi sağlar. Proje yönetimi için araçlar sağlar, işbirliği yapmayı kolaylaştırır ve kodunuzu diğer geliştiricilerle paylaşmanıza olanak tanır.
+
+Benzer şekilde, GitHub'a benzer diğer siteler şunlardır: GitLab ve Bitbucket. Bu platformlar, kod barındırma, sürüm kontrolü ve işbirliği için hizmetler sunarlar.
+
+--
+
+Github Kullanıcı Adım : [EnesCANNOT](https://github.com/EnesCANNOT)
+
+---
+
