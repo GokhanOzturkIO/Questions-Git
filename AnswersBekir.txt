@@ -5,3 +5,5 @@
 3-Arkadaşımız kendi bilgisayarından commitlemiş olduğu değişiklikleri push etmediğinden değişikliller sadece onun bilgisayarında yer alır, bu yüzden probleblem oluşabilir
 
 4-Origin sunucudaki ana depoyu temsil eder
+
+5-Çalıştığımız projede bulunduğumuz branchdeki son commiti ve branchi işaret eder
