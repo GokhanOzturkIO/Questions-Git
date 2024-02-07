@@ -15,3 +15,9 @@
 - Bizim öncesinde açmış olduğumuz branchin eskide kalması sonucu branchini göremiyor olabiliriz. Böyle bir durumda kişinin branchine geçiş yapmamız gerekecektir.
 
 - Conflict yemiş olabiliriz. Bu durum genelde localimize çekmeye çalıştığımız kodlar ile var olan kodlarımız arasında bir çakışma sonucu veyahut hali hazırda çalışıyor olduğumuz bir kod mevcutsa ve oradaki değişiklikleri stashlememiş veya geri almadan pull işlemi yapmaya çalıştıysak sorun çıkıyor olacaktır. Böyle bir durumu ise conflict aldığımız kodların problemlerini çözüp olması gerektiği hal ile güncelleyerek çözüme ulaşacağızdır.
+
+### "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+- Origin, Türkçe'ye köken, orjinal gibi anlamlarla çevrilmiştir. Buradan bile yola çıkarak aslında local sunucumuzun işaret ettiğin ana projeyi temsil etmektedir. Mesela bir projeyi klonladık. Yapacağımız fetch işlemi veya pull işlemi doğrudan tanımlı projeye gider ve oradaki değişiklikleri kendi local sunucumuza getirir.
+
+- Github, Gitlab... gibi ortamlara bir şeyleri pushladığımız zaman aslında git sistemine orayı referans almasını söylüyoruz. Hal böyleyken origin kullanıldığında sunucumuzun işaret ettiği yere göre yeni işlemler yapacaktır.
