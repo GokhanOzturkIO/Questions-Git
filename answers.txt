@@ -56,3 +56,17 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 
 *** "git clone --onurkaraduman url" komutu url adresinde bulunan reponun onurkaraduman branchini çeker
 
+14) "Merge conflict" ne demektir?
+
+***  Birleştirme çakışması olarak geçer,
+ birden fazla branch birleştirilirken ortaya çıkabilecek bir hatadır.
+ Bu durum, iki farklı daldaki değişikliklerin aynı dosyanın aynı satırlarında çakışması veya çelişmesi durumunda meydana gelir.
+
+ Merge conflict, genellikle şu durumlarda ortaya çıkar:
+ İki farklı dalda aynı dosyanın aynı satırlarında yapılan değişiklikler çakışır.
+ Bir dalda bir dosya silinirken, diğer dalda aynı dosya değiştirilmiş veya taşınmışsa.
+ İki farklı dalda aynı dosya adı kullanılıyorsa, ancak içerikleri farklıdır.
+   
+ Merge conflict meydana geldiğinde, Git bu çakışmaları otomatik olarak çözemez ve kullanıcıdan yardım ister. 
+ Kullanıcı, çakışmayı elle çözmeli ve sonrasında commit etmelidir.
+
