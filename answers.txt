@@ -1,0 +1,3 @@
+1-) Git Nedir?
+	
+-Dağıtık versiyon kontrol sistemidir.
