@@ -94,3 +94,8 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
 
   git reset komutu, Git deposundaki yapılan değişiklikleri geri almak veya geri sarmak için kullanılan bir komuttur. git reset, farklı seçeneklerle kullanılabilir ve farklı derecelerde geri alma işlemleri yapabilir. Commitleri geri alma, Staging area değişikliklerini geri alma ve İç çalışma dizini değişikliklerini geri alma gibi işlemler yapılabilir.
 ==========================
+
+18. "git commit" ile "git push" arasındaki fark nedir?
+
+  git commit : Bu komut ile yapılan değişiklikler local Repository'e kaydedilir. git diff <dosya adı> : Bu komut yardımı ile commit işleminden sonra kendi branchimizdeki yapılan değişiklikleri görebiliriz. git push : Localde yapılan değişiklikleri uzak sunucuya (Github vs.) gönderme işlemidir.
+==========================
