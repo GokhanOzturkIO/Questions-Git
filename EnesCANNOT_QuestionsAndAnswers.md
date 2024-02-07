@@ -190,3 +190,21 @@ In all of these cases, the output will show us the differences between the two s
 
 ---
 
+## 17) What do we get back with git reset?
+
+The git reset command is used to revert changes to the Git repository. The way changes are rolled back is determined by using options such as --soft, --mixed and --hard.
+
+git reset --soft: This option reverts the last commit but leaves the changes in the working directory and staging area.
+```
+git reset --soft HEAD
+```
+
+git reset --mixed: This option reverts the last commit and keeps the changes in the working directory, but reverts the staging area.
+```
+git reset --mixed HEAD
+```
+
+git reset --hard: This option completely reverts the last commit and changes made.
+```
+git reset --hard HEAD
+```
