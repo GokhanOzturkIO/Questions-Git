@@ -1,0 +1,6 @@
+1) Git Nedir?
+
+Git açık kaynaklı bir versiyon kontrol sistemidir. Versiyon kontrol sistemleri bir çalışma alanındaki değişiklikleri kayıt altına alır. Bu şekilde değişiklikler izlenip yönetilebilir. Aynı zamanda Git sayesinde aynı projede birden fazla kişinin çalışma yapması kolaylaşır.
+
+-------------------------
+
