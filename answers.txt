@@ -35,3 +35,7 @@ Uzak repoya denk gelir. "git pull" dediğimizde o "origin"den çekeriz
 
 Git sistemiyle takip edilmeyen, değişiklikleri izlenmeyen dosyadır.
 #####
+
+7- - ".git" klasörünü silersek ne olur?
+
+Git ile yaptığımız tüm geçmiş bilgisini ve tüm ayarları kaybederiz. Projemizin git deposu ortadan kalkar.
