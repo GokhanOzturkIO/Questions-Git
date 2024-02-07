@@ -186,4 +186,6 @@ GitHub Desktop, SourceTree, GitKraken, GitExtensions
 git: Versiyon kontrol sistemidir. github: web tabanlı bir git depolama hizmetidir. github benzeri git depolama platformları:
 Gitlab, Bitbucket, GitKraken Glo, SourceForge.
 *****************************************************************
-
+24 - main ya da master branch'inin diğer branchlerden farkı nedir?
+main ya da master branch'i projenin temel geliştirme yapılan dalıdır. Bu ana branch üzerinden yan branchler türetilerek projeye yeni özellik eklemek, hataların düzeltilmesi vb bütün işlemlerden sonra main branch'e eklenecekse 'merge' veya 'pull request' yapılarak eklenir.
+*****************************************************************
