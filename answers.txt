@@ -163,3 +163,6 @@ Commit Hash (SHA-1), Author (Yazar) ve Committer (Taşıyıcı), Tarih ve Saat B
 16 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 İki Commit Arasındaki Değişiklikleri Görebiliriz, Branch'ler Arasındaki Değişiklikleri Görebiliriz, Çalışma Dizini ile Son Commit Arasındaki Değişiklikleri Görebiliriz, Belirli Bir Dosyanın Değişikliklerini Görebiliriz.
 *****************************************************************
+17 - Git reset ile neyi geri alıyoruz?
+git reset komutu, Git deposundaki commit geçmişi, çalışma dizini ve index (staging alanı) üzerinde geri alma işlemlerini gerçekleştiren bir komuttur. 
+*****************************************************************
