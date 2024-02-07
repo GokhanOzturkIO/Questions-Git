@@ -173,5 +173,11 @@ Atomic commit prensibi, Git ve diğer versiyon kontrol sistemlerinde yaygın ola
 
 ####################################################################################
 
+20. Repository ne demektir?
+
+Repository (Depo), bir versiyon kontrol sistemine (VCS) ait olan dosyaların, değişikliklerin ve projenin kaydedildiği yerdir. 
+Başka bir deyişle, repository bir projenin veya bir yazılımın tüm kaynak kodlarını, belgelerini, dosyalarını ve geçmişini içeren bir depodur.
+
+####################################################################################
 
 
