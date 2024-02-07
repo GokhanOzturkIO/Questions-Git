@@ -79,7 +79,10 @@ Bir proje üzerinde bağımsız çalışma alanı sunar kısaca bir çok çalı�
 11- Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 > git branch new-branch
+#####
 
+13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
-
+> git clone --branch branch-name URL
+#####
 
