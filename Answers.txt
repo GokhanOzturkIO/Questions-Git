@@ -9,3 +9,9 @@ Pull ise uzak sunucudaki ilgili branchte ne varsa localine alır.
 
 Örnek vermek gerekirse ikimiz de Master branchinde değişiklikler yaptık. Senin yaptığın değişiklikler senin local bilgisayarında duruyor. Benimkiler benim lokalimde duruyor.
 Senin local bilgisayarında ve benim local bilgisayarımda birbirimizin yaptığı değişiklikler yok. Ben yaptığım değişiklikleri uzak sunucuya gönderdikten sonra sen fetch yaparsan benim yaptığım değişiklikleri görürsün. Pull yaparsan benim yaptığım değişiklikleri kendi localine alırsın.
+
+
+*******************************************************************************************************************************************************
+
+
+3- Takım arkadaşımız yaptığı değişiklikleri pushlamamış olabilir veya biz git fetch yapmadan git pull yapmış olabiliriz.
