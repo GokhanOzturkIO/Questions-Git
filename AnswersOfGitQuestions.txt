@@ -86,3 +86,9 @@ Bir proje üzerinde bağımsız çalışma alanı sunar kısaca bir çok çalı�
 > git clone --branch branch-name URL
 #####
 
+
+14- "Merge conflict" ne demektir?
+
+Aynı dosyanın aynı yerinde değişiklik yapılmışsa ve Git yapılan bu değişiklikleri otomatik olarak birleştiremezse conflict(çakışma) olur. ve git bize yapılan değişikliği birleştiremediğini bu hatayı göstererek bildirir.
+#####
+
