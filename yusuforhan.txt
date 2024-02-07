@@ -51,13 +51,15 @@ commitlerin ebeveynleri (parent commits)
 
 15) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz? : "git diff" komutu, iki farklı durum arasındaki değişiklikleri gösterir. Bu durumlar genellikle iki commit arasında olabilir. Bu durumda, "git diff" komutu, iki taahhüt arasındaki dosya ve kod değişikliklerini gösterir.
 
+16) "git reset" ile neyi geri alabiliriz : 
+"git reset" komutu, Git'te önceki taahhütlerin (commit'lerin) işaretlerini değiştirir veya geri alır. Bu komut, özellikle geçmişe dönük işlemler yapmak için kullanılır ve projenin geçmişini değiştirmek için kullanılır.
 
+"git reset" komutu kullanılarak geri alınabilen bazı şeyler şunlardır:
 
+Head Pointer'ı Geri Almak: "git reset" komutu, HEAD işaretçisini belirli bir taahhütün (commit'in) işaret ettiği konuma geri alabilir. Böylece, çalışma alanınızı veya dalınızı belirli bir geçmiş durumuna döndürebilirsiniz.
 
+İşleme Alma İşlemleri: "git reset" komutu, Staging Area'daki (index) değişiklikleri geri alabilir. Yani, "git add" komutuyla Staging Area'ya eklediğiniz dosyaları geri alabilirsiniz.
 
+Taahhütleri Geri Almak: "git reset" komutu, belirli bir taahhüdü (commit) geri alabilir veya taahhüt geçmişini değiştirebilir. Bu, projenin geçmişini değiştirmek için kullanılabilir, ancak dikkatlice kullanılmalıdır, çünkü geri alınan taahhütlerin kaybına neden olabilir.
 
-
-
-
-
- 
+"git reset" komutu, projenin geçmişini değiştirmek için güçlü bir araçtır ve dikkatli bir şekilde kullanılmalıdır. Yanlışlıkla geri alınan taahhütlerin geri getirilmesi zor olabilir, bu nedenle öncelikle değişikliklerin dikkatlice incelenmesi ve güvenli bir şekilde geri alınması önemlidir. 
