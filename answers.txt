@@ -6,3 +6,4 @@
 6. Staging area commit edilmeye hazır olan değişiklikleri içinde barındıran ara bi alandır. Working directorydeki değişiklikler staging area ya eklenerek sonraki commit e dahil edilebilir. Commit etmeden önce genel bir kontrol için kullanılabilir.
 7. Git tarafından kontrol edilemeyen dosyalardır. Takip edilmesi için git add ile staging areaya eklenip daha sonra git commit komutunu kullanmak gerekir.
 8. Git ile ilgili kaydedilmiş tüm bilgiler silinir.
+9. Template dosyası içerisinde "ReadMe.md" dosyası oluşturduğumuzda git init her çağrıldığı zaman bu dosya otomatik olarak oluşturulmuş olacaktır. Templateler git repository leri için git in başlangıç ve ayar dosyalarıdır.
