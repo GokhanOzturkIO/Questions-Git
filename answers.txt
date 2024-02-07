@@ -62,3 +62,12 @@ Yeni bi git reposu oluştuğumuzda belli dosya ve dizinleri kopyalayabilir, bunu
  > git config --global init.templateDir '~/git-templates/skeleton'
  komutunu kullanıp git yapılandırmamızı güncelliyormuşuz...
  #####
+
+10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branh aslıdda "dal" anlamına gelir(bkz: branş). Bu özellik sayesinde geliştiriciler aynı anda farklı özellikler ve düzeltmeler üstünde çalışabilir.
+
+Aynı zamanda, asıl ve stabil kodların tutulduğu main/master branchinden aynı bi branchte çalışılırsa bi kullanıcının asıl projeye zarar verme ihtimali azaltılır.
+
+Ayrıca aynı projenin farklı sürümlerini kolayca takip etmede yardımcı olur.
+#####
