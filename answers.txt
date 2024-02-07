@@ -107,4 +107,25 @@ Bu betik, git init komutunu kullanarak bir Git deposu oluşturur ve ardından Re
 
 Unutmayın ki, bu sadece bir örnek betiktir ve ihtiyaçlarınıza göre özelleştirebilirsiniz. Bu tür bir otomatikleştirme, projenizin başlangıcında belirli bir standart dosya veya yapı oluşturmak istediğiniz durumlarda kullanışlı olabilir.
 *****************************************************************
-10 - 
+10 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Git'te "branch" (dal) kavramı, projenin farklı paralel geliştirme hatlarını temsil eden, birbirinden bağımsız iş akışlarını sağlayan bir yapıdır. Bir projede birden fazla geliştirici veya geliştirme hattı olduğunda, bu dallar aynı kaynak kod tabanını paylaşabilir ancak bağımsız olarak ilerleyebilirler. Bu, her bir dalın kendi değişikliklerini ve geçmişini takip etmesine, test etmesine ve birleştirmesine olanak tanır.
+
+İşte Git branch yapısının sağladığı bazı avantajlar:
+
+    Paralel Geliştirme:
+        Birden fazla geliştirici aynı anda farklı özellikler üzerinde çalışabilir. Her bir geliştirici kendi dalında değişiklikler yapabilir ve bu değişiklikleri bağımsız olarak teste tabi tutabilir.
+
+    İzole Değişiklikler:
+        Branch'lar, değişiklikleri izole eder. Bu, bir dalda yapılan değişikliklerin diğer dalları etkilememesini ve test aşamasında çakışma olasılığını azaltır.
+
+    Geliştirme Süreçlerinin Organizasyonu:
+        Branch'lar, projenin farklı bölümleri veya özellikleri üzerinde çalışmayı organize etmeye yardımcı olur. Örneğin, bir branch yeni bir özellik eklemeye odaklanabilir, bir diğer branch hata düzeltmeleri üzerine çalışabilir.
+
+    Risk Yönetimi:
+        Her bir dal, belirli bir özellik veya düzeltme üzerinde çalıştığından, bir dalın başarısız olması veya sorun çıkması durumunda diğer dallar etkilenmez. Bu, riskin yayılmasını engeller.
+
+    Geri Alma ve Değişiklik Yönetimi:
+        Dal, bir özellik tamamlanmadan önce veya hatalar giderilmeden önce ana dalda (genellikle "main" veya "master") değişikliklerin birleştirilmesini engeller. Bu, kontrolsüz veya eksik özelliklerin ana dalı etkilemesini önler.
+
+Git'te yaygın olarak kullanılan komutlar arasında git branch (dalları listeleme), git checkout (dal değiştirme), git merge (dalları birleştirme) ve git push (dalı uzak depoya gönderme) gibi komutlar, branch yönetimini kolaylaştırmak için kullanılır. Branch'lar, geliştirme sürecini daha organize, izlenebilir ve etkili hale getirir.
+*****************************************************************
