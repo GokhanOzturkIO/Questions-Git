@@ -4,3 +4,8 @@ Git açık kaynaklı bir versiyon kontrol sistemidir. Versiyon kontrol sistemler
 
 -------------------------
 
+2) "git pull" ile "git fetch" komutlarının farkı nedir?
+
+git fetch komutu uzak depodaki güncellemeleri localdaki depomuza getirir ancak dosyalarda herhangi bir değişiklik oluşturmaz.
+
+git pull komutu ise uzak depodaki değişiklikleri direkt olarak locakdeki depomuzla birleştirir. Bazen bu durumda conflict oluşma ihtimali vardır. Conflicti çözmek için gerekli aksiyonları almamız gerekir.
