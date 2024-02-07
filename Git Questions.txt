@@ -30,3 +30,6 @@ Branch bize projede farklı dallarında çalışma olanağı sağlayan bir özel
 
 Soru 11 -> Sıfırdan bir "branch" nasıl oluşturabiliriz?
 Bir branch oluşturmak için git branch (branch adı) yazarak oluşturabiliriz.
+
+Soru 12 -> Var olan bir "branch"e nasıl geçebiliriz?
+Bunun için git checkout (branch adı) yazarak geçebiliriz.
