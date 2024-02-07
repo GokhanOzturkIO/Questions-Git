@@ -100,6 +100,23 @@ Bu şekilde bir branch oluşturmuş olacaksınız.
 
 ####################################################################################
 
+12. Var olan bir "branch"e nasıl geçebiliriz?
+
+-İlk olarak, terminal veya komut istemcisini açın.
+-Git deposunun bulunduğu dizine gidin. Örneğin:
+
+cd /path/to/your/repository
+
+- Geçemek istediğiniz branch ismini girin. Örneğin:
+
+git checkout istenen_branch_adı
+
+Bu şekilde istedğiniz branch girmiş olacaksınız.
+
+####################################################################################
+
+
+
 
 
 
