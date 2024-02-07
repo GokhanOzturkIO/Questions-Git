@@ -41,6 +41,15 @@ Genellikle "merge" veya "rebase" işlemi sırasında oluşur. İki farklı dal b
 
 Merge conflict'ler, Git'in birleştirme işlemini otomatik olarak tamamlayamadığı ve insan müdahalesi gerektiği anlamına gelir. Bu durumda, Git, çakışan dosyaları işaretler ve çakışmayı çözmeniz gerektiğini belirtir. Çözülmemiş birleştirme çakışması durumunda, işlem tamamlanamaz ve birleştirme başarısız olur.
 
+14) "gtit log" komutu ile hangi bilgileri görebiliriz : "git log" komutu, commit geçmişini görüntüler. Bu komutla şu bilgiler görülebilir:
+
+commit hash değerleri
+commit yazarları
+commit tarihleri ve saatleri
+commit mesajları (commit messages)
+commitlerin ebeveynleri (parent commits)
+
+
 
 
  
