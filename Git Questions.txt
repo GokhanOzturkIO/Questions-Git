@@ -42,3 +42,6 @@ Adından da anlaşıldığı gibi birleştirme çatışması demektir. Git'te 2 
 
 Soru 15 -> "git log" komutu ile hangi bilgileri görebiliriz?
 Bu komutla daha önce hangi commitlerin ne zaman kim tarafından atıldığını görebiliriz.
+
+Soru 16 -> "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+Bu komutla 2 commit arasındaki farkları veya branch arasındaki farkları görebiliriz.
