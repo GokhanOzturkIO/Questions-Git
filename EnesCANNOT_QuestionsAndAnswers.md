@@ -235,3 +235,15 @@ In Git, a tag is a marker that is used to identify a specific commit in the repo
 
 ---
 
+## 22) What third-party tools and applications can we use to use Git visually?
+
+| [Github Desktop](https://desktop.github.com/) | [SmartGit](https://www.syntevo.com/smartgit/) | [SourceTree](https://www.sourcetreeapp.com/) | [TortoiseGit](https://tortoisegit.org/) |
+| -------------- | --------- | ---------- | ----------- |
+| ![Github](assets/github_desktop.png) | ![Github](assets/smart_git.png) | ![Github](assets/source_tree.png) | ![Github](assets/tortoise_git.png) |
+
+| [Git Fork](https://git-fork.com/) | [GitKraken](https://www.gitkraken.com/) | [Sublime Merge](https://www.sublimemerge.com/) | [Git Tower](https://www.git-tower.com/) | [MeGit](https://github.com/eclipsesource/megit) |
+| -------- | ---------- | ------------- | --------- | ----- |
+| ![Github](assets/git_fork.jpg) | ![Github](assets/git_kraken.png) | ![Github](assets/sublime_merge.png) | ![Github](assets/git_tower.png) | ![Github](assets/megit.png) |
+
+---
+
