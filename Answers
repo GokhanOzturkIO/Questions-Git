@@ -119,3 +119,9 @@ Question 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikler
 Question 17: Git reset ile neyi geri alıyoruz?
 
 -> Stating areaya eklediğimiz dosyaları Staging areadan geri çıkartır. Fakat o dosyalarda yapılan değişiklikleri geri alma(iptal etme) işlemi değildir.
+
+
+Question 18: "git commit" ile "git push" arasındaki fark nedir?
+
+-> "git commit": yapılan değişiklikleri lokal depoya (yani bilgisayarınızdaki Git deposuna) kaydeder.
+-> "git push": lokal depodaki değişiklikleri uzak bir Git sunucusuna göndermek için kullanılır.
