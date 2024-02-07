@@ -1,1 +1,11 @@
 1- Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir. Git sayesinde yapacağınız projelerin adım adım versiyonlarının kopyalarını alarak daha sonra ihtiyaç duyduğunuzda aldığınız kopyalara yani versiyonlara kolayca dönebiliyorsunuz.  İlk sürümü Linux çekirdeği'nin geliştirilmesinde kullanılmak üzere 2005 yılında Linus Torvalds tarafından tasarlanıp geliştirilmiş, 2019 yılı itibarıyla %70 pazar payına ulaşmıştır. Açık kaynaklı özgür bir yazılım ürünü olan Git'i istediğiniz gibi kullanabilirsiniz.
+
+
+*******************************************************************************************************************************************************
+
+
+2- Fetch komutu değişikliklerin ne olduğunu liste şeklinde gösterir ama local branchine almaz.
+Pull ise uzak sunucudaki ilgili branchte ne varsa localine alır.
+
+Örnek vermek gerekirse ikimiz de Master branchinde değişiklikler yaptık. Senin yaptığın değişiklikler senin local bilgisayarında duruyor. Benimkiler benim lokalimde duruyor.
+Senin local bilgisayarında ve benim local bilgisayarımda birbirimizin yaptığı değişiklikler yok. Ben yaptığım değişiklikleri uzak sunucuya gönderdikten sonra sen fetch yaparsan benim yaptığım değişiklikleri görürsün. Pull yaparsan benim yaptığım değişiklikleri kendi localine alırsın.
