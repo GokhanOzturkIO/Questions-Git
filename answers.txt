@@ -84,4 +84,20 @@ Cevap: Git'te "branch" (şube), projenin bağımsız geliştirme yoludur ve beli
        Branchler bize bağımsız çalışma ortamları,paralel geliştirme,geliştirme izolasyonu,geçmişin izlenmesi,
        risk azaltma ve sağlıklı iş birliği sağlar.
 --------------------------------------------------------------------------------------
+Soru 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
+Cevap: Sıfırdan bir branch yapmak için ; git branch komutunu kullanabiliriz.
+       örn: git branch "bla bla"
+       Bu komut ile "bla bla" adında bir branch oluşturmuş oluruz.
+       Ancak branch oluşturduktan sonra o branche geçiş yapmaz yeni oluşturduğunuz branche 
+       yada farklı bir branche geçiş yapmak için checkout komutunu kullanıyoruz.
+       Bu komut git checkout "bla bla" komutudur. Böylelikle oluşturduğumuz "bla bla" branchine 
+       geçiş yapmış oluyoruz. 
+      Checkout komutunun bir diğer özelliği de git branch komutu gibi yeni bir branch açabiliyor oluşu.
+      Eğer checkout ile geçiş yapmak istediğimizde geçiş yapmak istediğimiz branch bulunmuyorsa git bize
+      bu branchin bulunmadığına dair bir uyarı veriyor.
+      Checkout ile yeni bir branch açma komutu ise: git checkout -b branch ismi şeklindedir.
+      örn: git checkout -b blabla2 
+----------------------------------------------------------------------------------------
+
+      
