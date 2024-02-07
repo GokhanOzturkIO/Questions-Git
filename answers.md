@@ -21,6 +21,8 @@
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?
 - ".git" klasörünü silersek ne olur?
+    * git ile kullandığımız projeyi kaybederiz
+
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
     * Branch, projenin farklı çalışma kopyalarını oluşturur ve bize bağımsız olarak geliştirme yapılmasını sağlar.
