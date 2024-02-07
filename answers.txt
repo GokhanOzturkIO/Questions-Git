@@ -101,3 +101,10 @@ kalıbını kullanabiliriz.
 
 Commit geçmişi, sahipleri ve commit hashlerini görebiliriz.
 #####
+
+
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+"Çalışma dizini ile staging area", "staging area ve son commit", "iki commit", "iki branch", "çalışma dizini ve bi commit", "belli bir dosya veya dizin yolu", "iki farklı branchteki dosya veya dizin" arasındaki değişiklikler olmak üzere toplam 7 imiş...
+#####
+
