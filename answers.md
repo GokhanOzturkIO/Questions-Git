@@ -65,3 +65,10 @@ Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.
  
   git checkout isim
 ==========================
+
+13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+  git clone -b <branch-adı> <repo-url>
+Örnek: git clone --single-branch -b main https://github.com/kullaniciadi/proje.git
+Sadece main çekilecekse git clone -b main https://github.com/kullaniciadi/proje.git
+==========================
