@@ -44,3 +44,6 @@ Soru 14 "Merge conflict" ne demektir?
 Soru 15 "git log" komutu ile hangi bilgileri görebiliriz?
 - commitlediğimiz mesajları ve onunla ilgili bilgileri görüyoruz. Commit id'si,tarih ve kişisel bilgilerimiz. Head ve branchimiz.
 
+Soru 16 "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+- git diff ile bir dosya içerisindeki değişiklikler, iki branch arasındaki farklar,staging areanın içerisinde bulunan değişikliklere (git diff --staged) erişebiliyoruz. 
+
