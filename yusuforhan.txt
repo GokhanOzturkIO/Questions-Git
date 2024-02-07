@@ -49,6 +49,14 @@ commit tarihleri ve saatleri
 commit mesajları (commit messages)
 commitlerin ebeveynleri (parent commits)
 
+15) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz? : "git diff" komutu, iki farklı durum arasındaki değişiklikleri gösterir. Bu durumlar genellikle iki commit arasında olabilir. Bu durumda, "git diff" komutu, iki taahhüt arasındaki dosya ve kod değişikliklerini gösterir.
+
+
+
+
+
+
+
 
 
 
