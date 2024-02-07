@@ -42,3 +42,7 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 
 *** Branch yapısı projenin kopyasını oluşturur. Avantajı ise ana yapının etkilenmemesini sağlamaktır. Bu sayede bir proje üzerinde
  ana yapıyı bozmadan birçok farklı kişi çalışabilir. Ayrıca branchler birleştirilebilir.
+
+11) Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+*** "git branch branchName" ile yeni bir branch oluşturabiliriz.
