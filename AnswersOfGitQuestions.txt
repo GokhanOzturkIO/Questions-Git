@@ -47,3 +47,25 @@ Git'in çalışma alanındaki değişikliklerin geçici olarak saklandığı ve 
 Git reposu ve tarihçesi kaybolur, ve bu dizindeki tüm dosyalar yalnızca basit bir dosya dizini olur. Yani, .git klasörünü silmek, o dizini artık bir Git deposu olarak tanımlamaktan çıkarır ve tarihçe, dal bilgileri, commit bilgileri gibi Git özellikleri kaybolur.
 #####
 
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+
+Bunu iki farklı şekilde yapabiliriz
+
+ilk yöntemde git template kullanmak
+
+1- Şablon dizinini oluştur
+mkdir -p ~/.git-templates/init
+
+2- ReadMe.md dosyasını oluştur
+echo "# My Project" > ~/.git-templates/init/ReadMe.md
+
+3- Git konfigürasyonunu güncelle
+git config --global init.templatedir '~/.git-templates'
+
+İkinci yöntem ise Alias kullanmak
+
+.bashrc veya .zshrc dosyalarına aşağıdaki satırı ekleyerek bir alias tanımlayabiliriz.
+alias gitinit='git init && echo "# My Project" > ReadMe.md && git add ReadMe.md && git commit -m "Initial commit with ReadMe.md"'
+
+
