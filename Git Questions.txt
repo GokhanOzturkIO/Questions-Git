@@ -33,3 +33,6 @@ Bir branch oluşturmak için git branch (branch adı) yazarak oluşturabiliriz.
 
 Soru 12 -> Var olan bir "branch"e nasıl geçebiliriz?
 Bunun için git checkout (branch adı) yazarak geçebiliriz.
+
+Soru 13 -> "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+Clone'lamak istediğimiz github adresinin url'sini alıp git bash here'a git cloner (url) yazmamız yeterli.
