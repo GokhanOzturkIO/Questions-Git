@@ -22,3 +22,10 @@ Cevap: "origin" kelimesi, git deposundaki varsayılan olarak adlandırılan uzak
        Bu isimlendirme, genellikle git deposunu oluştururken eklediğiniz uzak depo referansına atıfta bulunur.
       Yani origin, genellikle birinci uzak depoyu temsil eder ve projenin asıl kopyasının bulunduğu yerdir.
 ---------------------------------------------------------------------------------------
+5.Soru: "HEAD" kelimesi neyi temsil etmektedir?
+
+Cevap:"Head" kelimesi, bir Git deposundaki mevcut çalışma durumunu ifade eden bir referansı temsil eder. 
+       HEAD, şu an üzerinde çalıştığınız şube (branch) veya bir commit'in doğrudan referansını gösterebilir.
+       Genelde sizin en son yaptığınız commit işlemini işaret ederken,
+       Bazı durumlarda bağlı olduğunuz branchi de işaret edebilir.
+----------------------------------------------------------------------------------------
