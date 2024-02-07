@@ -36,3 +36,6 @@
 
 13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 # "git clone --branch [branch-adı] [repo-url]" bu şekilde çekilebilir.
+
+14- "Merge conflict" ne demektir?
+# Aynı dosya üzerinden birden fazla kişiyle çalışma durumunda sıklıkla yaşanılan bir durumdur. Farklı kişiler tarafından gerçekleştirilen merge işlemlerinden sonra yapılan değişiklerin aynı dosya veya aynı kod dizininde olduğu durumda 'Merge Conflict' durumu oluşur. Kod sorumlusu tarafında hangi değişikliğin kabul göreceği el ile seçildikten sonra sorun çözülür.
