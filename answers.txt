@@ -61,3 +61,8 @@ HEAD'in bulunduğu konum, genellikle mevcut işlemlerin (commit, merge, vb.) etk
 6 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Staging Area (Hazırlık Alanı): Bu, üzerinde değişiklik yaptığımız dosyaları Git’e göndermeye hazırladığımız alandır. Bu alan dosyaların veri tabanına yazılmadan önceki son aşamasıdır ve bu aşamada Git, dosyalarda herhangi bir çakışma (Dif) olup olmadığına bakar. Bu alan ayrıca hangi dosyaların sürüm yedeğine alınıp alınmayacağını da belirlediğimiz alandır. Buraya eklediğimiz dosyalar bir sonraki Tahüt (Commit) işleminde yedeklenecek dosyaları oluşturur.
 İndex (Dizin): Bu, projemizde sürümler hâlinde tutulan dosyalarımızın bulunduğu alandır. Bu alanda yer alan dosyalar dosya halinden ziyade, Snapshot (anlık görüntü) durumundadır ve bu sayede bizler istediğimiz sürüme kolaylıkla geri dönebiliriz.
+*****************************************************************
+7 - "Untracked file" ne demektir?
+Untracked basitçe Git'in önceki anlık görüntüde sahip olmadığınız bir dosyayı gördüğü anlamına gelir. Yani commit etmedikçe Git onu untracked file olarak görecektir. Bunu, oluşturulan binary dosyaları veya dahil etmek istemediğiniz diğer dosyaları yanlışlıkla dahil etmeye başlamamanız için yapar. yenidosya'yı dahil etmek için track etmeye başlamamız lazım. Yeni dosyayı tracking'e başlamak için git add komutunu kullanmalıyız. git add komutu, bir dosya veya dizin için bir yol adı alır; bu bir dizinse, komut o dizindeki tüm dosyaları tekrar tekrar ekler.
+"Untracked file" ifadesi, Git'in sürüm kontrolü altına almadığı, izlemediği ve takip etmediği dosyaları ifade eder.
+*****************************************************************
