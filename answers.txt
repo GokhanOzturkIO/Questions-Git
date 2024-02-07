@@ -55,4 +55,10 @@ Cevap: "Staging Area" veya "Index", Git'in çalışma prensiplerinden birini tem
 
      "Staging Area" sayesinde, farklı değişiklikleri ayrı ayrı commit etme esnekliğine sahip olabilirsiniz.
      Yani, bir dosyanın bir kısmını hazırlayabilir ve sadece o kısmını commit edebilirsiniz.
------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Soru 7: "Untracked file" ne demektir?
+
+Cevap: Bu dosyadaki değişiklikler henüz git tarafından kontrol edilemiyor demek.
+       Eğer bu dosyada değişiklikler yaparsan yaptığın değişiklikleri gite soramazsın çünkü git kontrolü dahilinde değildir.
+--------------------------------------------------------------------------------------
+
