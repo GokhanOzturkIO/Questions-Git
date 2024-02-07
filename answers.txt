@@ -148,3 +148,7 @@ Gitlab, bitbucket, sourceforge, azure devops gibi alternatifleri vardır.
 En kaliteli github kullanıcısı GokhanOzturkIO, halefi ise KatayR kişisidir.
 #####
 
+24- main ya da master branch'inin diğer branchlerden farkı nedir?
+
+En stabil kodun bulunduğu branch olarak kabul edilir. Production kodu burda olur. Bunlar varsayılan branchlardır. Ayrıca diğer branchlar için referans noktalarıdır.
+#####
