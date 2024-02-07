@@ -16,3 +16,7 @@ Git'te üzerinde çalıştığımız konumu gösteren bir işarettir.Ya en son c
 6)"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Git'te bir sonraki commit için dosya değişikliklerini hazırladığınız geçici bir alandır.Commit yapmadan önce değişiklikleri incelemenize, gerekirse düzenlemenize ve daha düzenli bir sürüm kontrolü sağlamanıza yardımcı olur.
 ****************************************************
+7)"Untracked file" ne demektir?
+İzlenmeyen dosya yani Git'in depo içindeki dosyaları takip etmediği ve git tarafından izlenmediği içinde her hangi bir değişikliğide incelenemez
+
+****************************************************
