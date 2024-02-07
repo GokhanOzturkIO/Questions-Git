@@ -156,6 +156,7 @@ Merge conflict'ler, genellikle şu durumlarda ortaya çıkar:
         İki geliştirici, aynı ana branştan farklı branch'leri üzerinde çalışır ve sonra bu değişiklikleri ana branch'e birleştirme işlemini yaparsa, çakışma yaşanabilir.
 Merge conflict durumunda, Git otomatik birleştirme yapamaz ve kullanıcıya çakışan değişiklikleri çözmesi için yardım ister. Kullanıcı, çakışan dosyaları düzenleyip, çözümleri belirleyerek manuel olarak birleştirme işlemini tamamlar. Çakışmayı çözdükten sonra kullanıcı, değişiklikleri tekrar işleme koyar ve birleştirme işlemi tamamlanır.
 *****************************************************************
-
-
+15 - "git log" komutu ile hangi bilgileri görebiliriz?
+git log komutu, bir Git deposundaki commit geçmişini görüntülemek için kullanılır. Bu komut, geçmişte yapılmış commit'leri, commit'lerin özet bilgilerini ve ilgili diğer detayları gösterir. git log komutu kullanıldığında görülebilecek başlıca bilgiler şunlardır:
+Commit Hash (SHA-1), Author (Yazar) ve Committer (Taşıyıcı), Tarih ve Saat Bilgisi, Commit Mesajı, Gövde (Body) ve Altbilgi (Footer) Bilgileri, Değişiklikleri Gösteren İstatistikler, Bağlantılı Branch ve Tag Bilgileri.
 
