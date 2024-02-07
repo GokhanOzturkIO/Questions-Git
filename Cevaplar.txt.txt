@@ -45,3 +45,6 @@
 
 16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 # Stagind Area'daki son commit'ler arasındaki farklılıklara git diff --staged veya git diff --cached komutlarıyla bakabiliriz. Kısaca commit'ler arası farklılıklar git diff ile öğrenilebilir.
+
+17- Git reset ile neyi geri alıyoruz?
+# Staging bölümüne yollanan dosyaları geri alıyoruz.
