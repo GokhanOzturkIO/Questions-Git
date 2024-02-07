@@ -1,0 +1,2 @@
+1)Git Nedir?
+Git,bir sürüm kontol sistemidir ve projelerin daha düzenli bir şekilde yönetilmesinde yardımcı olur,ekip içinde işbirliğini kolaylaştırır.
