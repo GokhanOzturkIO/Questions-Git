@@ -34,3 +34,6 @@ Soru 11 Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 Soru 12 Var olan bir "branch"e nasıl geçebiliriz?
 - git checkout branchadi komutu ile geçebiliriz
+
+Soru 13 "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+- "git clone -b branchadi" komutuyla sadece o branchi çekebiliriz.
