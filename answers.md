@@ -125,7 +125,9 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
   Git, sadece bir sürüm kontrolü sistemidir ve yerel bir bilgisayarda çalışırken GitHub, Git üzerine inşa edilmiş bir bulut barındırma hizmetidir. Benzer siteler; bitbucket ve sourceforge.
 ==========================
 
+24. Main ya da master branch'inin diğer branchlerden farkı nedir?
 
-
+  "main" veya "master" branch'inin diğer branch'lerden farkı, genellikle projenin ana veya temel geliştirme hattını temsil etmesidir. Ancak, bu terimlerin kullanımı ve anlamı proje yönetimi ve takım tercihlerine göre değişebilir.
+==========================
 
 
