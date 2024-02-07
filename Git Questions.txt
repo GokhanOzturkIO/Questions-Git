@@ -45,3 +45,6 @@ Bu komutla daha önce hangi commitlerin ne zaman kim tarafından atıldığını
 
 Soru 16 -> "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 Bu komutla 2 commit arasındaki farkları veya branch arasındaki farkları görebiliriz.
+
+Soru 17 -> Git reset ile neyi geri alıyoruz?
+Yazdığımız commiti veya staging areadaki değişiklik yapmak istediğimiz yeri geri alabiliyoruz.
