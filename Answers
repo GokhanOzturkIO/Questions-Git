@@ -152,3 +152,10 @@ Question 22: Git'i görsel olarak kullanabilmek için hangi üçüncü taraf ara
 -> SourceTree: Atlassian tarafından geliştirilen Git ve Mercurial istemcisidir. Windows ve macOS için kullanılabilir
 -> Git Extensions: Windows kullanıcıları için popülerdir.
 -> GitUp: GitUp, macOS kullanıcıları için popüler bir Git istemcisidir.
+
+
+Question 23: - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+-> Git : Yazılım geliştirme sırasında kaynak kodundaki değişiklikleri izlemek için kullanılan dağıtık bir sürüm kontrol sistemidir. Kullanıcıların kod sürümlerini yönetmelerine, dallar oluşturmalarına, değişiklikleri kaydetmelerine, kodları birleştirmelerine ve diğerleriyle işbirliği yapmalarına olanak tanıyan bir komut satırı aracıdır.
+
+-> Github : Git kullanarak sürüm kontrolü için bir web tabanlı barındırma hizmetidir. Geliştiricilere, projelerde işbirliği yapmaları, kod depolarını barındırmaları, sürüm kontrolünü yönetmeleri, sorunları izlemeleri ve kod incelemeleri yapmaları için bir platform sağlar.
