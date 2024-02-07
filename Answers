@@ -94,3 +94,14 @@ Question 14: "Merge conflict" ne demektir?
     -> Bir branchte silinen bir dosya eğer başka bir branchte düzenlenmişse ortaya çıkar.
     -> İki farklı branchte aynı dosyada farklı satırlarda yer alan değişken veya fonksiyon isimlerinin değiştirilmesi durumunda oluşabilir.
     -> İki farklı branchte aynı dosyanın yerini değiştirildiğinde oluşabilir.
+
+
+Question 15: "git log" komutu ile hangi bilgileri görebiliriz?
+
+-> Git'te yapılan commit geçmişini gösterir. Her commit için şu bilgileri görebiliriz;
+
+       -> Commit Id(sha)(hash id): Her commit e ait benzersiz kimlik
+       -> Yazar ve Tarih Bilgisi: Commit'i kimin yaptığını ve ne zaman yaptığını gösterir. Bu bilgiler, genellikle kullanıcı adı ve e-posta adresiyle birlikte tarih ve saat olarak gösterilir.
+       -> Commit Mesajı: Commit'in amacını ve içeriğini açıklar.
+
+
