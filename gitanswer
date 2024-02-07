@@ -22,3 +22,7 @@ Soru 7 "Untracked file" ne demektir?
 Soru 8 ".git" klasörünü silersek ne olur?
 - .git klasörünü silersek o dosya takip edilemez hâle gelir. .git sayesinde git takip ediyor.
 
+Soru 9 Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+- Bunun için "git init --template" komutunu kullanmamız gerekiyor. 
+- "git init şablonDosyası konumu" komutuyla yapabiliriz.
+
