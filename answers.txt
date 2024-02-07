@@ -10,3 +10,6 @@
 
 -Değişiklikleri commitleyip sunucuya pushlamamıştır. Ya da takım arkadaşımız pushlamış olsa bile pull işleminden önce fetch işlemini yapmamışsak yine kodları lokalimize alamayız.
 
+4-) "HEAD" kelimesi neyi temsil etmektedir?
+
+-Mevcut branch'teki en son commit'i temsil etmektedir.
