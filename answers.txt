@@ -66,3 +66,16 @@ Staging Area (Hazırlık Alanı): Bu, üzerinde değişiklik yaptığımız dosy
 Untracked basitçe Git'in önceki anlık görüntüde sahip olmadığınız bir dosyayı gördüğü anlamına gelir. Yani commit etmedikçe Git onu untracked file olarak görecektir. Bunu, oluşturulan binary dosyaları veya dahil etmek istemediğiniz diğer dosyaları yanlışlıkla dahil etmeye başlamamanız için yapar. yenidosya'yı dahil etmek için track etmeye başlamamız lazım. Yeni dosyayı tracking'e başlamak için git add komutunu kullanmalıyız. git add komutu, bir dosya veya dizin için bir yol adı alır; bu bir dizinse, komut o dizindeki tüm dosyaları tekrar tekrar ekler.
 "Untracked file" ifadesi, Git'in sürüm kontrolü altına almadığı, izlemediği ve takip etmediği dosyaları ifade eder.
 *****************************************************************
+8 - ".git" klasörünü silersek ne olur?
+.git klasörü, bir Git deposunun temelini oluşturan ve depo ile ilgili tüm bilgileri içeren kritik bir klasördür. Eğer .git klasörünü silerseniz, Git deposu ile ilgili tüm geçmiş, branch bilgileri, commitler, takip edilen dosyalar ve diğer sürüm kontrolü bilgileri kaybolur. Bu, projenin Git sürüm kontrolü altında olmaktan çıkmasına ve tüm geçmiş bilgilerinin kaybolmasına neden olur.
+İşte .git klasörünü silmenin olası sonuçları:
+    Tüm Geçmiş ve Commit Bilgileri Kaybolur:
+        .git klasörü, projenin tüm geçmişini, commit bilgilerini ve branch yapılarını içerir. Bu bilgiler silindiğinde, projenin geçmişi tamamen kaybolur ve geri getirilemez.
+    Branch Bilgileri Kaybolur:
+        Branch'ler, .git klasörü içinde saklanan bilgilerle ilişkilidir. Bu bilgileri silmek, projedeki branch'lerin ve branch'e ait commit bilgilerinin kaybolmasına neden olur.
+    Takip Edilen Dosyalar Kaybolur:
+        Git, takip edilen dosyaların durumunu ve değişikliklerini kontrol etmek için .git klasörünü kullanır. Klasörü sildiğinizde, Git bu dosyaları takip etmeyi bırakır.
+    Tüm Konfigürasyon Ayarları Kaybolur:
+        .git klasörü, projeye özgü Git konfigürasyon ayarlarını içerir. Bu ayarlar silindiğinde, projeye özgü Git konfigürasyonu kaybolur.
+Bu nedenle, .git klasörünü silmek, projenin Git sürüm kontrolü altında olmaktan çıkmasına ve tüm geçmiş bilgilerinin kaybolmasına neden olur. Bu işlem geri dönüşü zor bir değişikliktir. Eğer projenin sürüm geçmişi ve Git ile ilgili bilgiler önemliyse, .git klasörünü silmekten kaçınılmalıdır.
+*****************************************************************
