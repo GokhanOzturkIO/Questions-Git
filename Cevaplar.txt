@@ -188,6 +188,16 @@ git branch = Projede yeni bir branch oluşturmak, mevcut branch'leri listelemek,
 
 ####################################################################################
 
+22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
+Git görsel olarak kullanabileceğin birçok üçüncü taraf araçlar vardır.İşte birkaçı:
+
+-GitHub Desktop
+-GitKraken
+-SourceTree
+-GitAhead
+-Tower
+
+####################################################################################
 
 
