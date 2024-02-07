@@ -29,3 +29,8 @@ orjinal repodan "fetch" etme işlemini gerçekleştirir.
 
 *** "git" tarafından takip edilmeyen dosyalardır.
 
+8) ".git" klasörünü silersek ne olur?
+
+*** .git klasörü git init komutu çalıştırıldığında oluşturulur. Ve o çalışma dizininingit'e bağlandığını gösterir.
+ Bunu silersek git'le bağımız gider ve commit historyile bağımızı kaybederiz. Projede eski değişikliklere dönemeyiz.
+
