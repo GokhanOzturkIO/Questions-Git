@@ -29,3 +29,8 @@
 
 - ReadMe.md dosyasının olduğu bir template belirleyip bunu git init --template komutu ile çalıştırmalıyız.
 
+9-) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+-Branch, ana akışın yanında yan yollar sağlamaktadır. Yani projeyi paralel hale getirerek birçok kişinin conflict durumu ile karşılaşmadan çalışmasına imkan sağlamaktadır.
+
+
