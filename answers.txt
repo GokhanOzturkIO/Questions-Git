@@ -108,3 +108,8 @@ Commit geçmişi, sahipleri ve commit hashlerini görebiliriz.
 "Çalışma dizini ile staging area", "staging area ve son commit", "iki commit", "iki branch", "çalışma dizini ve bi commit", "belli bir dosya veya dizin yolu", "iki farklı branchteki dosya veya dizin" arasındaki değişiklikler olmak üzere toplam 7 imiş...
 #####
 
+17- Git reset ile neyi geri alıyoruz?
+
+Varsayılan haliyle kullanılırsa, son commiti geri alıyoruz.
+#####
+
