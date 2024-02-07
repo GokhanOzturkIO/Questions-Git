@@ -159,4 +159,7 @@ Merge conflict durumunda, Git otomatik birleştirme yapamaz ve kullanıcıya ça
 15 - "git log" komutu ile hangi bilgileri görebiliriz?
 git log komutu, bir Git deposundaki commit geçmişini görüntülemek için kullanılır. Bu komut, geçmişte yapılmış commit'leri, commit'lerin özet bilgilerini ve ilgili diğer detayları gösterir. git log komutu kullanıldığında görülebilecek başlıca bilgiler şunlardır:
 Commit Hash (SHA-1), Author (Yazar) ve Committer (Taşıyıcı), Tarih ve Saat Bilgisi, Commit Mesajı, Gövde (Body) ve Altbilgi (Footer) Bilgileri, Değişiklikleri Gösteren İstatistikler, Bağlantılı Branch ve Tag Bilgileri.
-
+*****************************************************************
+16 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+İki Commit Arasındaki Değişiklikleri Görebiliriz, Branch'ler Arasındaki Değişiklikleri Görebiliriz, Çalışma Dizini ile Son Commit Arasındaki Değişiklikleri Görebiliriz, Belirli Bir Dosyanın Değişikliklerini Görebiliriz.
+*****************************************************************
