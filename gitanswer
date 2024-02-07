@@ -26,3 +26,5 @@ Soru 9 Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik 
 - Bunun için "git init --template" komutunu kullanmamız gerekiyor. 
 - "git init şablonDosyası konumu" komutuyla yapabiliriz.
 
+Soru 10 Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+- Branch dallanma olarak nitelendirebileceğimiz bir terimdir. Bize eş zamanda başka insanlarla çalışabilmemizi ve dallandırmayla beraber olası bir hatada o branch silinebilir.
