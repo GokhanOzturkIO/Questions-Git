@@ -36,3 +36,6 @@ Bunun için git checkout (branch adı) yazarak geçebiliriz.
 
 Soru 13 -> "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 Clone'lamak istediğimiz github adresinin url'sini alıp git bash here'a git cloner (url) yazmamız yeterli.
+
+Soru 14 -> "Merge conflict" ne demektir?
+Adından da anlaşıldığı gibi birleştirme çatışması demektir. Git'te 2 farklı branchin birleştirilmeye çalışılıp Git'in otomatik birleştirme yapamamasıyla kaynaklanır. 
