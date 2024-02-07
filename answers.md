@@ -37,3 +37,16 @@
 
   .git klasörü, bir Git deposunun kalbidir ve sürüm kontrolü ile ilgili tüm bilgileri içerir. Bu klasörü silerseniz, Git deposunun tüm geçmişi, commit'leri, branch'leri ve diğer tüm bilgileri kaybolur. Bu durumda, Git deposu kullanılamaz hale gelir ve o projenin Git tarihçesi tamamen kaybolur.
 ==========================
+
+9. - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+  
+  Her git init komutu kullanıldığında otomatik olarak bir ReadMe.md dosyası oluşturulmasını istiyorsanız, bir çözüm olarak aşağıdaki adımları izleyebilirsiniz:
+
+Yeni bir ReadMe.md dosyası oluşturun ve içeriğini istediğiniz şekilde düzenleyin. Örneğin, # My Project gibi bir başlık ekleyebilir veya proje hakkında kısa bir açıklama yazabilirsiniz.
+
+Bu ReadMe.md dosyasını herhangi bir yeni Git deposunun kök dizinine (yani .git klasörünün olduğu yer) kopyalayın.
+
+Ardından, herhangi bir dizinde git init komutunu kullanarak yeni bir Git deposu oluşturduğunuzda, ReadMe.md dosyası otomatik olarak bu depoya dahil olacaktır.
+
+Bu yöntemle, her yeni Git deposu oluşturulduğunda otomatik olarak bir ReadMe.md dosyası ekleyebilirsiniz. Ancak, bu dosyanın içeriği her projeye göre değişebilir, bu nedenle içeriği her defasında düzenlemek isteyebilirsiniz.
+==========================
