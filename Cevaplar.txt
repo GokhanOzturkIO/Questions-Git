@@ -141,6 +141,15 @@ Git deposundaki commit geçmişini gösterir. Bu komutla birlikte görülebilece
 
 ####################################################################################
 
+16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+Bu komut iki farklı durum arasındaki değişiklikleri göstermek için kullanılır. Bu durumlar genellikle şunları ifade eder:
+
+-Commitler arası değişikler
+-Staging Area
+-Working Directory
+
+####################################################################################
 
 
 
