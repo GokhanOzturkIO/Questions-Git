@@ -30,3 +30,6 @@
 
 11- Sıfırdan bir "branch" nasıl oluşturabiliriz?
 # git branch [branch-adı] ile yeni bir branch oluşturulabilir. git checkout -b [branch-adı] bu şekilde de oluşturulur ve o branch'e geçiş yapılır.
+
+12- Var olan bir "branch"e nasıl geçebiliriz?
+# git checkout [branch-adı] ile var olan bir branch'e geçiş yapabiliriz.
