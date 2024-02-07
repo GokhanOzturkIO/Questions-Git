@@ -63,3 +63,6 @@
 
 22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 # Github Desktop, Source Tree, Git Kraken, Tower vb. gibi programlar kullanılabilir.
+
+23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+# git versiyon kontrol sisteminin adıdır. GitHub ise git tabanlı bir kod, proje vb. dosyaları barındıran bir platformdur. Github gibi GitLab, BitBucket, SourceForge vb. platformlar da bulunmaktadır.
