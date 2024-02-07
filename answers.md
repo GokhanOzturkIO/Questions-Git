@@ -115,5 +115,11 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
   "Git tag" Commit‘leri etiketleme işlemidir. Git branch projeyi dallara ayırırken, tag sadece etiketleme işlemi yapar.
 ==========================
 
+22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+  Github desktop, Gitkraken, SourceTree, GitAhead, Tower, Bitbucket, Aws CodeCommit ve Azure Repos.
+==========================
+
+
 
 
