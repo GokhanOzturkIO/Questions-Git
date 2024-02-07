@@ -42,3 +42,19 @@ Uzak depolar, projenin orijinal kaynaklarının (genellikle bir sunucu veya uzak
 
 Bu nedenle, git fetch origin komutu, "origin" adlı uzak depodan (genellikle varsayılan olarak tanımlanan uzak depo) projenin yerel kopyasına güncel bilgileri çeker.
 *****************************************************************
+5 - "HEAD" kelimesi neyi temsil etmektedir?
+HEAD kelimesi, Git'te mevcut çalışma konumunu (konumunu) temsil eden bir referanstır. HEAD, projenin hangi commit üzerinde çalıştığını gösterir. HEAD bir işaretçi olarak düşünülebilir ve genellikle bir branch adını veya doğrudan bir commit'in SHA-1 özeti gibi bir commit referansını gösterir.
+
+HEAD'in temsil ettiği konum, genellikle şu durumları içerebilir:
+
+    Branch Adı:
+        Eğer bir branch üzerinde çalışılıyorsa, HEAD o branch'in adını gösterir. Örneğin, HEAD'in "main" veya "feature-branch" gibi bir ismi olabilir.
+
+    Commit SHA-1 Özeti:
+        Eğer doğrudan bir commit üzerinde çalışılıyorsa, HEAD o commit'in SHA-1 özetini gösterir. Bu durumda, kullanıcı bir branch üzerinde değil, belirli bir commit üzerinde çalışıyor demektir.
+
+    Detached HEAD Durumu:
+        Eğer kullanıcı bir branch üzerinde değil de doğrudan bir commit üzerinde çalışıyorsa, bu duruma "detached HEAD" denir. HEAD o zaman bir branch adı değil, bir commit'in SHA-1 özetini gösterir.
+
+HEAD'in bulunduğu konum, genellikle mevcut işlemlerin (commit, merge, vb.) etkileşimde bulunacağı yerdir. Bu nedenle, HEAD konumunu bilmek, projedeki çalışma durumu hakkında bilgi sağlar. git log, git status ve benzeri komutlar HEAD konumunu gösterir ve kullanıcılara projenin geçmişi ve mevcut durumu hakkında bilgi sağlar.
+*****************************************************************
