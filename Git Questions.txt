@@ -19,3 +19,5 @@ Son attığımız committen bir diğer atacağımız commite kadar olan ara böl
 Soru 7 -> "Untracked file" ne demektir?
 Adından da anlıyacağımız üzere "İzlenemeyen Dosya" demektir. Biz dosyayı git'e eklemediysek untracked file yazar.
 
+Soru 8 -> ".git" klasörünü silersek ne olur?
+Kullandığımız klasörde git tanımlanmamış olur.
