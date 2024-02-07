@@ -15,3 +15,7 @@ HEAD terimi aktif olarak çalıştığımız commit'i temsil etmektedir?
 
 Soru 6 -> "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Son attığımız committen bir diğer atacağımız commite kadar olan ara bölgedir.
+
+Soru 7 -> "Untracked file" ne demektir?
+Adından da anlıyacağımız üzere "İzlenemeyen Dosya" demektir. Biz dosyayı git'e eklemediysek untracked file yazar.
+
