@@ -12,3 +12,8 @@ Soru 4 "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
 Soru 5 "HEAD" kelimesi neyi temsil etmektedir?
 - Head kelimesi işaretçi anlamına gelir. Son commit ya da branchi gösterir.
+
+Soru 6 "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+- Staging Area'ya araf olarak nitelendirebileceğimiz ara bir bölge. Lokalimiz ile uzak sunucu arasında bulunur. git add komutuyla staging area'ya alırız ve ardından commitleyip pushlayarak uzak sunucuya göndeririz.
+
+
