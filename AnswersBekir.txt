@@ -11,3 +11,5 @@
 6-Staging Area,projede yapılan değişiklerin geçici olarak gösterildiği commit atmadan önce gözden geçirmemizi sağlayan bölümdür.Git diff de staged area ile projemiz arasındaki farkları gösterir.
 
 7-Untracked file,git tarafından kaydedilmeyen dosyaların olduğu bir alandır.Git add <File_name> ile staging area'ya eklenir.
+
+8-Lokal makinemizdeki git deposu silinir ve takip edilen dosyalar kaybolur.
