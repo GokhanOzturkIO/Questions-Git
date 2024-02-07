@@ -71,3 +71,11 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 11- git branch branch_ismi  şeklinde yeni bir branch oluşturulur. 
 
+
+*******************************************************************************************************************************************************
+
+
+12- git checkout branch_ismi
+
+
+
