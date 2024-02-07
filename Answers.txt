@@ -13,3 +13,6 @@ Origin Git'te varsayılan olarak kullanılan ana uzak depoyu temsil eder.Bu komu
 5)"HEAD" kelimesi neyi temsil etmektedir?
 Git'te üzerinde çalıştığımız konumu gösteren bir işarettir.Ya en son commiti ya da üzerinde bulunduğumuz branch ifade eder.
 ****************************************************
+6)"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Git'te bir sonraki commit için dosya değişikliklerini hazırladığınız geçici bir alandır.Commit yapmadan önce değişiklikleri incelemenize, gerekirse düzenlemenize ve daha düzenli bir sürüm kontrolü sağlamanıza yardımcı olur.
+****************************************************
