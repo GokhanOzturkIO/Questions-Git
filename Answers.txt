@@ -1,0 +1,2 @@
+1)Git Nedir?
+Git,bir versiyon kontrol sistemidir.Linux çekirdeği geliştiricisi Linus Torvalds tarafından 2005 yılında başlamıştır.Yazdığımız programı,kodu veya herhangi bir dosya topluluğunu takip etmek,yönetmek için kullanılır.Genellikle yazılım alanında kullanılıyor olsada bir çok şeydede kulllanılabilir.
