@@ -74,4 +74,9 @@ Taahhütleri Geri Almak: "git reset" komutu, belirli bir taahhüdü (commit) ger
 
 20) "git tag" nedir? "git branch"’ten farkı nedir? : "git tag", belirli bir commit'i işaretlemek ve belirli bir sürümü etiketlemek için kullanılırken, "git branch" mevcut daldaki işlemleri yönetmek ve yeni dallar oluşturmak için kullanılır. Başka bir deyişle, "git tag" sürüm belirleme amacıyla kullanılırken, "git branch" ise geliştirme çalışmalarının organizasyonu ve yönetimi için kullanılır.
 
+21) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz? : GitHub Desktop
+Sourcetree
+GitKraken
+Android Studio (vcs özelliği)
+
 
