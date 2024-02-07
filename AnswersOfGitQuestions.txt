@@ -15,3 +15,9 @@ Eğer herhangi bir teknik sorun olmamışsa (internet erişimi vb), Öncelikle g
 
 Arkadaşımız değişiklikleri commitlediği halde henüz uzak repoya push etmemiş olabilir. Eğer push işlemi gerçekleşmişse ancak sorun devam ediyorsa, muhtemelen farklı bir branch üzerine push yapmış olabilir.
 #####
+
+
+4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Uzak repoyu temsil eder. Biz yukarıdaki komut ile uzak repomuzda varsa değişiklikleri görebiliriz
+#####
