@@ -120,6 +120,12 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
   Github desktop, Gitkraken, SourceTree, GitAhead, Tower, Bitbucket, Aws CodeCommit ve Azure Repos.
 ==========================
 
+23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+  Git, sadece bir sürüm kontrolü sistemidir ve yerel bir bilgisayarda çalışırken GitHub, Git üzerine inşa edilmiş bir bulut barındırma hizmetidir. Benzer siteler; bitbucket ve sourceforge.
+==========================
+
+
 
 
 
