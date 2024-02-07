@@ -229,3 +229,9 @@ Repository is where a project's files and version history are stored. It acts as
 
 ---
 
+## 21) What is "git tag"? How is it different from "git branch"?
+
+In Git, a tag is a marker that is used to identify a specific commit in the repository, and it does not change once it is created. A branch, on the other hand, is a movable pointer to a commit, and it can be updated to point to different commits. The main difference between tags and branches is that tags are fixed and do not change, while branches are movable and can be updated. Tags are typically used to identify important commits, while branches are used to develop new features or bug fixes.
+
+---
+
