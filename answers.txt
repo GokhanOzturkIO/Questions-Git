@@ -181,4 +181,34 @@ Soru 18: "git commit" ile "git push" arasındaki fark nedir?
 Cevap: git commit ile yapılan değişiklikleri lokal depoya kaydederken, git push ile bu değişiklikleri uzak bir depoya gönderir ve paylaşırız. 
 Yani, git commit lokaldeki değişiklikleri "yakalar", git push ise bu değişiklikleri uzak bir depoya "iter".
 --------------------------------------------------------------------------------------
+Soru 19: Atomic commit ne demektir?
+
+Cevap: "Atomic commit", bir commit işlemi sırasında bir dizi değişikliği içeren commit'in, tüm değişikliklerin bir arada
+uygulandığı ve bağımsız olarak işlevsel olduğu bir commit türünü ifade eder. Atomik commitler, birlikte çalışan birden fazla geliştiricinin
+veya ekip üyesinin çalışmalarını yönetmede ve projenin geçmişini sürdürülebilir bir şekilde organize etmede önemli bir prensiptir.
+
+Atomik commitlerin bazı temel özellikleri şunlardır:
+
+Bağımsızlık:
+
+Atomik commitler, birbirinden bağımsız ve tek başına anlamlı değişiklikleri içerir. Bu, her commit'in tek bir sorumluluğu olmasını 
+sağlar ve projenin geçmişini daha iyi anlaşılabilir ve sürdürülebilir kılar.
+
+Geri Alabilirlik (Revertibility):
+
+Atomik commitler, geri alınabilir (revertible) olmalıdır. Yani, bir commit geri alındığında, sadece o commit'e ait değişiklikler 
+geri alınmalı ve diğer commit'ler etkilenmemelidir.
+
+Kolay İnceleme ve Anlama:
+
+Atomik commitler, kod incelemeleri ve geçmişi anlama açısından daha elverişlidir. Her commit'in bir amacı olduğu için, geçmişte 
+yapılan değişiklikleri izlemek ve anlamak daha kolaydır.
+
+Kodun Durumunu Bozmama (Do not break the build):
+
+Atomik commitler, projenin sürekli entegrasyon (CI) süreçlerinde ve otomatik testlerde daha etkili bir şekilde kullanılabilir.
+Her commit, kodun durumunu bozmamalı ve testleri başarılı bir şekilde geçmelidir.
+Örneğin, bir özellik eklemek, bir hata düzeltmek veya bir iyileştirme yapmak amacıyla yapılan değişiklikleri içeren bir commit, 
+tek bir amacı ifade eden ve geri alındığında bu amacı tersine çevirebilen bir atomik commit örneğidir.
+-----------------------------------------------------------------------------------------
 
