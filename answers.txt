@@ -138,4 +138,11 @@ git checkout yeni-branch-adı
 veya
 git switch yeni-branch-adı
 *****************************************************************
+13 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+Eğer belirli bir spesifik branch'i sadece çekmek istiyorsanız, git clone komutunu kullandıktan sonra git checkout komutu ile ilgili branch'e geçebilirsiniz.
+git clone <uzak_depo_adresi> ve ardından cd ile ilgili dizine gidilir
+git checkout <branch_adi> ile istenen bracnh'e geçiş yapılabilir.
+*****************************************************************
+
+
 
