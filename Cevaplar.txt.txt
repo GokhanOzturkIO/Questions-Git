@@ -54,3 +54,6 @@
 
 19- Atomic commit ne demektir?
 # Yapılan değişiklikler birbirinden bağımsız ise Atomic commit ile sadece ilgili değişiklikler commit edilir. Her commit'in yapılan tek bir değişikliği ifade ettiği commit türüdür.
+
+20- Repository ne demektir?
+# Çalışılan projenin(yazılım projesi olmak zorunda değil) bir versiyon kontrol sistemiyle dijital ortamdaki haline denir. Uzaktan dosya yönetimi ve ilerlemesi takip edilebilir.
