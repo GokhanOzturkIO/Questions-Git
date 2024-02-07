@@ -1,0 +1,1 @@
+1-Git, basitçe yaptığımız değişiklikleri kaydedip aralarında geçiş sağladığımız, ekip çalışmalarında iletişimi kolaylaştıran, dağıtık bir versiyon kontrol sistemidir.
