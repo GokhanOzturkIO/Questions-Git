@@ -153,5 +153,17 @@ Cevap: Git log komutu, bir Git deposundaki commit geçmişini görüntülemek i�
 
     Geliştirici tarafından yazılan commit mesajı, yapılan değişiklikler hakkında açıklama içerir.
     git log komutu, bu bilgileri tarih sırasına göre listeleyerek gösterir.
-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Soru 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+Cevap: Git diff komutu, farklı durumlar arasındaki değişiklikleri göstermek için kullanılır.
+       Bu komut, özellikle çalışma dizisi (working directory) ile depo (repository) arasındaki veya iki commit arasındaki farkları görmek için kullanılır.
+
+       Git diff komutu ile aşağıdaki durumlar arasındaki değişiklikleri görebiliriz:
+       -Çalışma Dizisi ile Staging (Index) Alanı Arasındaki Değişiklikler
+       -Staging (Index) Alanı ile Son Commit Arasındaki Değişiklikler
+       -İki Commit Arasındaki Değişiklikler
+--------------------------------------------------------------------------------------
+
+
 
