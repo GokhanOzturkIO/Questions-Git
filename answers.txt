@@ -129,4 +129,29 @@ Cevap: "Merge conflict" (birleştirme çakışması), Git'te birleştirme işlem
      Bu süreçte, geliştiricinin çakışmayı çözmesi ve değişiklikleri manuel olarak birleştirmesi gerekebilir.
      Çakışma çözüldükten sonra, geliştirici değişiklikleri birleştirme işlemini tamamlar ve birleştirme commit'ini yapar.
 ---------------------------------------------------------------------------------------
-   
+   Soru 15: "git log" komutu ile hangi bilgileri görebiliriz?
+
+Cevap: Git log komutu, bir Git deposundaki commit geçmişini görüntülemek için kullanılır.
+       Bu komut, commit geçmişini sıralı bir şekilde gösterir ve her commit ile ilgili çeşitli bilgileri içerir. 
+      
+     Git log komutu ile görüntüleyebileceğimiz başlıca bilgiler:
+
+     Commit Hash (SHA-1):
+
+     Her commit, bir benzersiz SHA-1 hash değeri ile tanımlanır. Bu hash değeri, commit'in tam olarak belirlenmesini sağlar.
+
+     Author ve Committer Bilgileri:
+
+     Author (yazar) bilgisi, commit'i oluşturan kişinin adı ve e-posta adresini içerir.
+     Committer (taşıyan) bilgisi, commit'i depoya ekleyen kişinin adı ve e-posta adresini içerir.
+
+     Commit Tarihi ve Saati:
+
+     Commit'in yapıldığı tarih ve saat bilgisi görüntülenir.
+
+     Commit Mesajı:
+
+    Geliştirici tarafından yazılan commit mesajı, yapılan değişiklikler hakkında açıklama içerir.
+    git log komutu, bu bilgileri tarih sırasına göre listeleyerek gösterir.
+----------------------------------------------------------------------------------------
+
