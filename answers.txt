@@ -276,5 +276,26 @@ Github kullanıcı adım; SenaGezer
 
 ------------------------------------------------------------------------------------
 
+Soru 24: main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Cevap: "main" veya "master" branch, genellikle bir Git deposundaki ana (default) branch'tir. 
+Ancak, bu terimlerin kullanımı depo sahiplerinin tercihine ve proje yönetim stratejilerine bağlı olarak değişebilir.
+Özellikle GitHub gibi platformlarda "main" branch'in adı daha yaygın hale gelmiştir, ancak eski alışkanlıklar ve projelerde
+hala "master" branch adı kullanılabilmektedir.
+
+Aslında, "main" veya "master" adındaki branch, diğer branch'lerden teknik olarak bir farka sahip değildir.
+Branch'ler, projenin farklı özelliklerini veya geliştirmelerini izlemek için kullanılır ve bir projenin geliştirilmesi
+sırasında birçok farklı branch oluşturulabilir.
+
+Fakat, topluluklar ve endüstri genelinde "main" veya "master" branch, genellikle "production" veya "stable" (kararlı) olarak
+adlandırılan ve genel kullanıma uygun olan kodun bulunduğu ana branch olarak kabul edilir.
+Diğer branch'ler genellikle bu ana branch'ten türetilir ve belirli özelliklerin veya geliştirmelerin üzerinde
+çalışıldığı geçici çalışma kollarını temsil eder. Bu branch'ler daha sonra birleştirilerek "main" veya "master" branch'e entegre edilir.
+--------------------------------------------------------------------------------------
+
+
+
+
+
 
 
