@@ -3,6 +3,7 @@
 Projelerin geçmişini, yapılan değişiklikleri ve farklı versiyonlarını takip etme olanağı sunan bir Versiyon Kontrol Sistemidir(VCS). Git, bireysel  veya bir ekip içinde çalışırken kod yönetimini kolaylaştırır, takım üyeleri arasında işbirliği yapmayı ve projenin gelişimini izlemeyi sağlar.
 #####
 
+
 2- "git pull" ile "git fetch" komutlarının farkı nedir?
 
 git fetch komutunu kullanırsak uzak repodaki son değişikliklerden "sadece haberdar oluruz" yerel ropomuzda bir değişiklik olmaz. Eğer git pull komutunu kullanırsak, bu kez uzak repodaki değişiklikleri kendi yerel repomuza çekerek uzaktaki değişikliklere sahip olabiliriz.
@@ -19,5 +20,15 @@ Arkadaşımız değişiklikleri commitlediği halde henüz uzak repoya push etme
 
 4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
-Uzak repoyu temsil eder. Biz yukarıdaki komut ile uzak repomuzda varsa değişiklikleri görebiliriz
+Uzak repoyu temsil eder. Biz yukarıdaki komut ile uzak repomuzda varsa değişiklikleri görebiliriz.
 #####
+
+
+5- "HEAD" kelimesi neyi temsil etmektedir?
+
+Üzerinde çalıştığımız son commiti temsil eder. Farklı bi branche veya commite geçersek HEAD de güncellenir.
+#####
+
+
+
+
