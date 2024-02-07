@@ -34,3 +34,9 @@ origin genelde bir referans isim olarak kullanılır. Bu durumda origin kelimesi
 5) "HEAD" kelimesi neyi temsil etmektedir?
 
 "HEAD" üzerinde değişiklik yaptığımız commiti ve üzerinde çalıştığımız branchi gösteren bir referanstır.
+
+----------------------------------
+
+6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Çalışma dizininde yapılan değişikliklerden kaydedilmek istenenler "git add fileName" komutu ile "Staging Area" bölgesine taşınır. Bu bölge bir geçiş bölgesidir. En son aşamada değişiklikleri istersek kaldırabilirz istersek de "git commit" komutunu kullanarak değişiklikleri kaydedebiliriz. Tabii ki commit işlemi istenilirse gerekli komutlar kullanılarak geri alınabilir.
