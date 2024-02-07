@@ -17,3 +17,8 @@
 
   "Git fetch origin" komutundaki "origin", genellikle yerel depoya bağlı olan bir uzak depoyu ifade eder.
 ==========================
+
+5. "HEAD" kelimesi neyi temsil etmektedir?
+ 
+  "HEAD", Git deposunda şu anki çalışma konumunu (pozisyonunu) ifade eden bir gösterge veya referanstır. Git'in içerisinde bulunduğunuz branch veya commit'in adını veya kimliğini temsil eder. HEAD göstergesi, Git deposundaki anlık konumunuzu belirtir ve hangi commit'in veya branch'in üzerinde çalıştığınızı belirlemenize yardımcı olur. Bu, Git'in iş akışı ve durumu hakkında önemli bilgiler sağlar.
+==========================
