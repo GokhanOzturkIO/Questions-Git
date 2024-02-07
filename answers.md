@@ -1,7 +1,12 @@
 - Git Nedir?
     * Git, bir versiyon kontrol sistemidir. 
     * Git'in temel amacı, bir proje dosyalarının farklı versiyonlarını ve bu versiyonlar arasındaki değişiklikleri kaydetmek ve izlemektir.
+
 - "git pull" ile "git fetch" komutlarının farkı nedir?
+    * git fetch ile remote repositorydeki tüm değişiklikleri local repositorye indirir, ancak bu değişiklikleri doğrudan mevcut çalışma dalına uygulamaz.
+    * git pull ise uzak depodaki değişiklikleri alır ve doğrudan mevcut çalışma dalına entegre eder.
+    * Yani temel fark, git fetch'in uzak depodaki güncellemeleri sadece yerel depoya indirmesi ve bunları mevcut çalışma dalına entegre etmemesi, git pull'un ise güncellemeleri alıp doğrudan mevcut çalışma dalına entegre etmesidir.
+    
 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 - "HEAD" kelimesi neyi temsil etmektedir?
