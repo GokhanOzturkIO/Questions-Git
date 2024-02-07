@@ -67,3 +67,5 @@ Taahhütleri Geri Almak: "git reset" komutu, belirli bir taahhüdü (commit) ger
 17 ) "git commit" ile "git push" arasındaki fark nedir? : 
 "git commit", yapılan değişiklikleri yerel depoya taahhüt eder (commit eder), ancak uzak depoya göndermez. "git push" ise yereldeki taahhütleri uzak depoya gönderir ve böylece uzak depoyu günceller.
 
+
+18 ) Atomic commit nedir? : Atomic commit, bir değişiklik grubunu tek bir mantıksal birim olarak taahhüt etme işlemidir. Bu, bir değişiklik grubunun parçalarının birbirine bağımlı olduğu durumlarda, tüm değişikliklerin birlikte taahhüt edilmesini sağlar. Böylece, bir değişiklik grubunun tamamı ya taahhüt edilir ya da hiçbiri taahhüt edilmez, kısmi taahhütlerin oluşmasını engeller.
