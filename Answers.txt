@@ -31,3 +31,6 @@ origin genelde bir referans isim olarak kullanılır. Bu durumda origin kelimesi
 
 -----------------------------
 
+5) "HEAD" kelimesi neyi temsil etmektedir?
+
+"HEAD" üzerinde değişiklik yaptığımız commiti ve üzerinde çalıştığımız branchi gösteren bir referanstır.
