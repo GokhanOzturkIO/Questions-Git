@@ -140,3 +140,11 @@ branch fonksiyon olarak apayrı bir şeydir. Paralel geliştirme için kullanıl
 GitKraken, Fork, Sourcetree, Tower Github Desktop, Smartgit...
 #####
 
+23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+GGithub, git versiyon sistemi kullanarak yazılım projelerinin depolandığı ve yönetildiği bi web platformudur.
+Gitlab, bitbucket, sourceforge, azure devops gibi alternatifleri vardır.
+
+En kaliteli github kullanıcısı GokhanOzturkIO, halefi ise KatayR kişisidir.
+#####
+
