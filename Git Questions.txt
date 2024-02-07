@@ -54,3 +54,6 @@ git commit yerel depoya değişiklikleri kaydeder, git push ise yereldeki deği�
 
 Soru 19 -> Atomic commit ne demektir?
 Atomic commit bizim commit mesajlarımızın kısa ve öz direk konuya hitap eden commit mesajıdır.
+
+Soru 20 -> Repository ne demektir?
+Repository kısaca bizim kodlarımızın bulunduğu depodur.
