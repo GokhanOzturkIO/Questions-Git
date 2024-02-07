@@ -105,4 +105,9 @@ Bir merge conflict oluştuğunda, Git, farklı branch'lerden gelen değişiklikl
   Atomic commit" terimi, yazılım geliştirme sürecinde kullanılan bir terimdir ve bir commit'in tek bir mantıksal değişikliği temsil etmesi gerektiği anlamına gelir.
 ==========================
 
+20. Repository ne demektir?
+
+  "Repository" veya kısaca "repo", yazılım geliştirme ve versiyon kontrol sistemleri gibi teknik alanlarda sıkça kullanılan bir terimdir. Repository, genel olarak bir projenin veya bir yazılımın tüm dosya ve tarihçesini içeren depoyu ifade eder.
+==========================
+
 
