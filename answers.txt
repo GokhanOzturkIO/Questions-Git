@@ -41,6 +41,9 @@
 
 -git checkout branch name komutu ile geçebiliriz.
 
+12-) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+-Git clone  --branch branchname komutu spesifik olarak belirtilen branch çekilir.
 
 
 
