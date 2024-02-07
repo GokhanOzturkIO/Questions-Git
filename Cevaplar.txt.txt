@@ -24,3 +24,6 @@
 
 9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 # git ile çalışacağımız dosyada ReadMe.md dosyası için bir template belirliyoruz. İlk defa git'i aktif ederken git init komutu ile birlikte --template [Template konumu/ dosya yolu] kodunu da kullanıyoruz. "git init --template [template konumu]"
+
+10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+# Ana projemizde adı üzerinde dallanma yapmamızı sağlar. Bu dallar ile aynı kaynak üzerinden farklı yollar veya birden fazla kişiyle çalışabilir daha sonra birleştirerek tek bir proje haline getirebiliriz.
