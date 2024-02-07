@@ -73,3 +73,6 @@ Soru 22 -> Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araç
 
 Soru 23 -> "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 Git, versiyon kontrolü sağlayan bir sistemdir; GitHub ise Git tabanlı projelerin bulut üzerinde depolanmasını, işbirliği yapılmasını sağlayan bir web tabanlı platformdur. Gitlab, Gitkraken, Bitbucket
+
+Soru 24 -> main ya da master branch'inin diğer branchlerden farkı nedir?
+main veya master branch, genellikle bir Git deposunun ana branch'idir ve projenin genel gelişimini temsil eder. Bu branch, varsayılan olarak oluşturulan ilk branch'tir, projenin stabil durumunu temsil eder, uzun ömürlüdür ve genellikle diğer branch'lerden gelen değişiklikler dikkatlice entegre edilir. Ancak, bu isimlendirme ve kullanım projeden projeye değişebilir.
