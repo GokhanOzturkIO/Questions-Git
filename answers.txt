@@ -7,3 +7,29 @@ Git Fetch ve Git Pull arasındaki temel fark, git fetch’in kaynaktan en yeni m
 Git fetch, uzaktaki bir deponun dosyalarını, anlık görüntülerini ve referanslarını yerel deponuza indiren bir komuttur. Bu komut, yerel deponuzun mevcut çalışma durumunu güncellemeden uzaktaki verileri indirir, çalışmanızı olduğu gibi bırakır ve getirilen içerik gitcheckout komutu kullanılarak açıkça kontrol edilir.
 
 Öte yandan, git pulls komutu uzaktaki bir depodan verileri getirip indirirken yerel depoyu getirilen verilerle eşleşecek şekilde günceller. Git pulls komutu, git fetch ve git merge komutlarının bir kombinasyonudur, bu nedenle başlangıçta git fetch komutunun işlevini yerine getirir ve daha sonra commit’i birleştirir ve yeni bir merge commit oluşturur.
+*****************************************************************
+3 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+    Uzak Depo (Remote Repository) Hatası:
+        Takım arkadaşınızın kodlarını çekmeye çalıştığınız uzak depo (remote repository) bağlantısında bir hata olabilir. Öncelikle, uzak depoyu doğru bir şekilde eklediğinizden ve bağlantının doğru olduğundan emin olun.
+        git remote -v komutu ile uzak depo bağlantılarını kontrol edebilirsiniz.
+
+    İzin Sorunları:
+        Takım arkadaşınızın kodlarını çekmeye çalıştığınız depoya erişim izinleriniz olmayabilir. Kontrol etmek için depo sahibinden veya yöneticiden gerekli izinleri alın.
+
+    Ağ Sorunları:
+        İnternet bağlantınızda bir sorun olabilir. İnternet bağlantınızı kontrol edin ve gerekirse tekrar deneyin.
+
+    Çakışan Değişiklikler:
+        Takım arkadaşınızın gönderdiği kodlarla lokaldeki mevcut değişiklikler arasında çakışmalar olabilir. Bu durumda önce lokaldeki değişiklikleri commit etmeniz ve ardından tekrar git pull yapmanız gerekebilir.
+
+    Uzak Depoda Değişiklik Yoksa:
+        Takım arkadaşınızın kodlarını gönderdiği branch'te (dal) herhangi bir değişiklik olmayabilir. Belirtilen branch'te yeni bir commit yapıldığından emin olun.
+
+    Doğru Branch Üzerinde Çalıştığınızdan Emin Olun:
+        Takım arkadaşınız hangi branch üzerinde çalıştıysa, siz de aynı branch üzerinde olduğunuzdan emin olun. git branch ve git status komutları bu bilgiyi sağlayabilir.
+
+    Alternatif Olarak "git fetch" ve "git merge" Kullanımı:
+        git pull yerine önce git fetch ile uzak depodan güncel bilgileri çekip, ardından git merge ile yereldeki branch ile birleştirmeyi deneyebilirsiniz.
+
+Bu adımları kontrol ettikten sonra sorun hala devam ediyorsa, daha fazla ayrıntıya ihtiyaç duyabilirsiniz. Takım arkadaşınızın kullandığı Git versiyonu, sizin kullandığınız Git versiyonu, ve yaşanan hata mesajları gibi bilgilerle daha spesifik bir yardım alabilirsiniz.
+*****************************************************************
