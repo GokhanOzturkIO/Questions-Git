@@ -55,6 +55,8 @@
     * düzgün anlaşılır yapılan işle ilgili bilgileri özetleyebilen commit mesajı 
 
 - Repository ne demektir?
+    * Bir repository, bir projenin tüm dosyalarının, geçmiş versiyonlarının ve yapılandırma bilgilerinin depolandığı bir yerdir. 
+
 - "git tag" nedir? "git branch"’ten farkı nedir?
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
