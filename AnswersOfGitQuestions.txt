@@ -30,5 +30,8 @@ Uzak repoyu temsil eder. Biz yukarıdaki komut ile uzak repomuzda varsa değişi
 #####
 
 
+6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 
+Git'in çalışma alanındaki değişikliklerin geçici olarak saklandığı ve bir sonraki commit'e eklemek üzere hazırlandığı bir ara bölgedir. Bu bölge, değişiklikleri commit etmeden önce bir tür "geçiş alanı" olarak kullanılır. Yani, dosyalar üzerinde yapılan değişiklikler önce bu alana eklenir (staged), ardından bu staged dosyaları bir sonraki commit ile birlikte kaydedilebilir.
+#####
 
