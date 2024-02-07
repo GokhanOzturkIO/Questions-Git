@@ -1,2 +1,5 @@
 1- Git Nedir?
 # Yapılan işlemler için versiyonlama yapmak için kullanılır. Kod veya dosya işlemlerindeki değişiklerin takibini yapmak için kullanılan versiyon kontrol sistemidir.
+
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+# git fetch ile uzak sunucuda olan değişikleri indiririz ama lokaldeki dosyalarımız değişmez. git pull ile değişikler lokal dalımızda birleşir.
