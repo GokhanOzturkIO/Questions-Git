@@ -154,3 +154,41 @@ Date:   Tue Feb 6 21:13:34 2024 +0300
 
 ---
 
+## 16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+"git diff" komutu ile Git depomuzun iki farklı durumu arasındaki farkları görebiliriz. Bu komutu kullanmanın birkaç yolu var, ancak en yaygın kullanımı; çalışma dizinimizin mevcut durumunu en son commitle karşılaştırmaktır. Bu bize son committen bu yana yaptığımız değişiklikleri gösterecektir.
+
+İşte "git diff" komutunu nasıl kullanabileceğimize dair bir örnek:
+```
+git diff HEAD
+```
+Bu komut bize en son commit ile çalışma dizinimizin mevcut durumu arasındaki farkları gösterecektir.
+</br>
+Eğer iki spesifik commit’i karşılaştırmak istiyorsak aşağıdaki komutu kullanabiliriz:
+```
+git diff commit1 commit2
+```
+Bu bize belirtilen iki commit arasındaki farkları gösterecektir.
+</br>
+Belirli bir işlemi çalışma dizinimizin mevcut durumuyla karşılaştırmak istiyorsak aşağıdaki komutu kullanabiliriz:
+```
+git diff commit
+```
+Bu bize belirtilen commit ile çalışma dizinimizin mevcut durumu arasındaki farkları gösterecektir.
+</br>
+Belirli iki branchi karşılaştırmak istiyorsak aşağıdaki komutu kullanabiliriz:
+```
+git diff branch1 branch2
+```
+Bu bize belirtilen iki branch arasındaki farkları gösterecektir.
+</br>
+Belirli bir branchi çalışma dizinimizin mevcut durumuyla karşılaştırmak istiyorsak aşağıdaki komutu kullanabiliriz:
+```
+git diff branch
+```
+Bu bize belirtilen dal ile çalışma dizinimizin mevcut durumu arasındaki farkları gösterecektir.
+</br>
+Tüm bu durumlarda, çıktı bize eklenen, değiştirilen veya silinen dosyalar da dahil olmak üzere iki durum arasındaki farkları gösterecektir.
+
+---
+
