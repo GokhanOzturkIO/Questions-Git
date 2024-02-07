@@ -19,3 +19,6 @@ Soru 6 "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne dem
 Soru 7 "Untracked file" ne demektir?
 - Untracked File takip edilmeyen dosya demektir ve gitin takip etmediğini ifade eder
 
+Soru 8 ".git" klasörünü silersek ne olur?
+- .git klasörünü silersek o dosya takip edilemez hâle gelir. .git sayesinde git takip ediyor.
+
