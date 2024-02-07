@@ -222,3 +222,10 @@ The "git commit" command records changes in the local Git repository, creating a
 An atomic commit in Git is a single commit that contains all the changes made to the repository at a particular point in time. The term "atomic" comes from the field of computer science, and it refers to an operation that is indivisible and uninterruptible. In Git, atomic commits are used to ensure that the repository remains in a consistent state, which makes it easier to undo changes and restore the repository to a known, stable state. It is generally a good practice to use atomic commits whenever possible, especially when working on a shared repository.
 
 ---
+
+## 20) What does repository mean?
+
+Repository is where a project's files and version history are stored. It acts as a central hub for developers to collaborate, track changes, and manage the project's codebase. Each repository contains files, commit history, branches, and tags, and can exist locally or remotely for distributed development.
+
+---
+
