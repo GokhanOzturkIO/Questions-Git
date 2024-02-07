@@ -35,3 +35,8 @@ Uzak repoyu temsil eder. Biz yukarıdaki komut ile uzak repomuzda varsa değişi
 Git'in çalışma alanındaki değişikliklerin geçici olarak saklandığı ve bir sonraki commit'e eklemek üzere hazırlandığı bir ara bölgedir. Bu bölge, değişiklikleri commit etmeden önce bir tür "geçiş alanı" olarak kullanılır. Yani, dosyalar üzerinde yapılan değişiklikler önce bu alana eklenir (staged), ardından bu staged dosyaları bir sonraki commit ile birlikte kaydedilebilir.
 #####
 
+
+7- "Untracked file" ne demektir?
+
+"Untracked file" (İzlenmeyen dosya), Git'in takip etmediği, yani versiyon kontrolü altına almadığı dosyaları ifade eder. Bu dosyalar, genellikle proje klasöründe bulunabilir,
+#####
