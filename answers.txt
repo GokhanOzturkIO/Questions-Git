@@ -71,3 +71,10 @@ Aynı zamanda, asıl ve stabil kodların tutulduğu main/master branchinden ayn�
 
 Ayrıca aynı projenin farklı sürümlerini kolayca takip etmede yardımcı olur.
 #####
+
+11- - Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+> git branch yeni-branch-adi
+
+ komutu ile yeni branch oluşturulabilir.
+ #####
