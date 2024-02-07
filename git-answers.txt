@@ -1,26 +1,165 @@
-Author : gokayybaz
+Answers Author : gokayybaz
 
--* Git Nedir?
--* "git pull" ile "git fetch" komutlarının farkı nedir?
--* Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
--* "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
--* "HEAD" kelimesi neyi temsil etmektedir?
--* "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
--* "Untracked file" ne demektir?
--* ".git" klasörünü silersek ne olur?
--* Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
--* Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
--* Sıfırdan bir "branch" nasıl oluşturabiliriz?
--* Var olan bir "branch"e nasıl geçebiliriz?
--* "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
--* "Merge conflict" ne demektir?
--* "git log" komutu ile hangi bilgileri görebiliriz?
--* "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
--* Git reset ile neyi geri alıyoruz?
--* "git commit" ile "git push" arasındaki fark nedir?
--* Atomic commit ne demektir?
--* Repository ne demektir?
--* "git tag" nedir? "git branch"’ten farkı nedir?
--* Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
--* "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
--* main ya da master branch'inin diğer branchlerden farkı nedir?
+--* Git Nedir?
+-> Git dağıtık bir sürüm kontrol sistemi olarak bilinen bir yazılım aracıdır.
+-> Sürüm kontrol sistemlerini sadece yazılım projeleri özelinde kullanmayız, bir dosya üzerinde düzenli bir şekilde işlem yapıyorsak da sürüm kontrol
+sistemlerini kullanabiliriz. Böylece dosyayı yönetmemiz daha kolay olacaktır.
+
+
+--* "git pull" ile "git fetch" komutlarının farkı nedir?
+-> git fetch : remote repoda olan değişiklikleri bizim local repo'muza bildirir, haber eder.
+-> git pull : remote repoda bulunan değişiklerin haberini aldıktan sonra değişikleri local repo'muza çekmeye yarar.
+-> Not : Remote repodaki "Değişikleri" local repo'muza almak için : ilk önce "git fetch" yaparız daha sonra "git pull" yaparız.
+
+
+--* Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+-> 1. olası hata : Takım arkadaşımız kodları "git add" ile staging area'ya almış ama "commit" ve "push" veya sadece "push" işlemini gerçekleştirmemiştir.
+-> 2. olası hata : Biz "fetch" işlemini yapmadan direkt "pull" işlemini yapmaya çalışmış olabiliriz.
+
+
+--* "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+-> origin : Remote repository'in varsayılan adıdır, sonradan değiştirilebilir. Ve projenin orijinal kodlarını barındırır.
+
+
+--* "HEAD" kelimesi neyi temsil etmektedir?
+-> HEAD : mevcut çalışma dizinindeki son işlemin referansını gösterir, en son yapılan işlemin konumunu belirtir.
+
+
+--* "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+-> Öncelikle bir repo oluşturduğumuzda ve oluşturduğumuz repoyu remote bir sunucuya push ettiğimizde şu şekilde alanlar oluşur;
+
+   Local Repo - Staging Area - Remote Repo
+   Local Repo üzerinde değişiklikleri, yeni dosyaları vs. oluşturup,
+   "git add" ile oluşturduğumuz işlemleri Staging area'ya alırız.
+   Staging area'da son kontrol işlemlerini gerçekleştiririz,
+   Eğer istemediğimiz bir durum var ise o işlemleri staging area'dan çıkartıp düzenleriz,
+   Sonrasında dosyaları Remote repo'ya göndeririz.
+
+   Buradan da şunu çıkartırız: Staging Area bir örnek ile belirtmek gerekirse aslında bir alışveriş arabasıdır,
+   alışverişe başlarız ve aldığımız ürünleri bir arabaya katarız beğenmezsek arabadan çıkartırız sonra farklı ürünleri katarız,
+   Işte Staging area'da kodların alışveriş arabasıdır.
+
+   Bu sayede herhangi bir değişiklik işlemi için remote repoyu yani sunucuyu yormamış oluruz.
+
+
+--* "Untracked file" ne demektir?
+-> Untracked file : Git sistemi tarafından henüz kontrol edilmeyen dosyalardır, Git add ile ilgili dosyayı tracked hale getiririz, böylece git sistemi dosya üzerinde kontrol yapabilir.
+
+
+--* ".git" klasörünü silersek ne olur?
+-> .git klasörü : git init yapılınca oluşan bir klasördür, git sistemi bu klasör içerisinde dosya kontrollerini yapar. Silindiği zaman ilgili dosyaların git bağlantısı kopacaktır.
+
+
+--* Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+-> Bu işlemi adım adım yapalım;
+
+   ilk önce varsayılan bir template klasörü oluşturmamız gerekiyor, örnek : mkdir ~/.git_template
+   sonra bu klasör içerisine bir ReadMe.md dosyası oluşturmamız gerekiyor, örnek : touch ~/.git_template/ReadMe.md
+   daha sonra ReadMe.md dosyasını açıp her projede olacak varsayılan bilgileri yazalım,
+   son olarak git template klasörünü git config yaparak git sistemine gösterelim : git config --global init.templateDir ~/.git_template
+   
+   Bu sayede her git init işlemi yapıldığında bu template klasöründe belirtilen ReadMe.md dosyası ilgili projeye eklenecektir.
+   
+
+--* Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+-> branch yapısı;
+   branch yapısı bir proje üzerinde birden fazla kişi çalışacaksa ilgili projenin kopyalarını oluşturarak çalışacak kişilerin işlemlerini
+   ayrı ayrı yapmalarını sağlamaktadır. Daha sonrasında yapılan işlemler ana bir branch'de birleştirilir.
+
+   Bize de temel olarak şöyle bir avantaj sağlar;
+   Bir proje üzerinde değişiklikler yapmak istediğimiz zaman ana yapıya dokunmadan yeni bir branch oluşturup orada değişikliklerimizi yapabiliriz.
+   Böylece bir hata yaptığımızda ana branch'deki proje etkilenmemiş olur.
+   Eğer hatamız yok ise ilgili branch ana branch ile birleştirilir.   
+
+
+--* Sıfırdan bir "branch" nasıl oluşturabiliriz?
+-> "git branch branchName" ile yeni bir branch oluşturabiliriz.
+
+
+--* Var olan bir "branch"e nasıl geçebiliriz?
+-> "git checkout branchName" ile oluşturduğumuz yeni branch'e geçiş yapabiliriz.
+
+
+--* "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+-> "git clone --branch gokayybaz" : ile belirli bir branch'ı local'e çekebiliriz.
+-> "git clone -b gokayybaz" : ile de belirli bir branch'ı local'e çekebiliriz.
+
+
+--* "Merge conflict" ne demektir?
+-> Merge conflict, Birleştirme çakışması olarak geçer,
+   birden fazla branch birleştirilirken ortaya çıkabilecek bir hatadır.
+   Bu durum, iki farklı daldaki değişikliklerin aynı dosyanın aynı satırlarında çakışması veya çelişmesi durumunda meydana gelir.
+
+   Merge conflict, genellikle şu durumlarda ortaya çıkar:
+   İki farklı dalda aynı dosyanın aynı satırlarında yapılan değişiklikler çakışır.
+   Bir dalda bir dosya silinirken, diğer dalda aynı dosya değiştirilmiş veya taşınmışsa.
+   İki farklı dalda aynı dosya adı kullanılıyorsa, ancak içerikleri farklıdır.
+   
+   Merge conflict meydana geldiğinde, Git bu çakışmaları otomatik olarak çözemez ve kullanıcıdan yardım ister. Kullanıcı, çakışmayı elle çözmeli ve sonrasında commit etmelidir.
+
+
+--* "git log" komutu ile hangi bilgileri görebiliriz?
+-> git log yapılınca;
+   bizim en son yaptığımız commit'i Head etiketi ile,
+   ilgili repoya atılan commit id'sini,
+   commit'i yapan kullanıcı bilgilerini,
+   commit tarihini,
+   ve commit içerisinde yapılan işlemleri görmekteyiz.
+
+
+--* "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+-> git diff : durum1 durum2 ile iki farklı durum arasındaki değişiklikleri görebiliriz.
+   git diff : ile çalışma alanı ve staging area arasındaki değişiklikleri görebiliriz.
+   git diff HEAD : Çalışma alanı ile HEAD (en son commit) arasındaki değişiklikleri görebiliriz.
+   git diff HEAD^ HEAD : Bir önceki commit ile en son commit arasındaki değişiklikleri görebiliriz.
+   git diff commit_id HEAD : Belirli bir commitId'si ile en son atılan commit arasındaki değişikleri görebiliriz.
+
+
+--* Git reset ile neyi geri alıyoruz?
+-> Git reset : ile staging area ya alınanı geri alıyoruz, çıkartıyoruz.
+
+
+--* "git commit" ile "git push" arasındaki fark nedir?
+-> "git commit" : ile yaptığımız değişiklikleri bir commit altına topluyoruz, ve o commit'e bir açıklama ekliyoruz.
+-> "git push" : ile de oluşturduğumuz commit'i remote repo'ya gönderiyoruz.
+
+
+--* Atomic commit ne demektir?
+-> Atomic commit oluşturduğumuz commit'leri belirli bir standart'a bağlı kalarak oluşturmaktır.
+-> Commit mesajları, bir commit üzerinde maksimum yapılacak işlem sayısı gibi...
+
+
+--* Repository ne demektir?
+-> Git repository (dilimizde "depo" olarak da bilinir), Git tarafından yönetilen bir proje veya projenin çalışma kopyasının tamamını içeren bir veritabanıdır. 
+   Bir Git repository, proje dosyalarını, proje geçmişini ve değişiklik geçmişini (commit'ler) içerir.
+   Git Reposu ikiye ayrılır;
+   Yerel(Local) ve Uzak(Remote) Repository
+
+
+--* "git tag" nedir? "git branch"’ten farkı nedir?
+-> git tag : Git'te belirli bir commit'e isim vermek veya etiketlemek için kullanılan bir komuttur.
+   Genellikle, belirli bir sürümün(versiyon) veya yayımlamanın ismini belirlemek için kullanılır.
+   Bir etiket, bir commit'e karşılık gelen sabit bir referansı ifade eder ve bu şekilde belirli bir noktaya kolayca ulaşmanızı sağlar.
+   
+   git tag ile git branch arasındaki temel fark;
+   git tag belirli bir commit'e referans eklemek için kullanılır, git branch ise ilgili repoda farklı işlem kolları oluşturmak için kullanılır. 
+
+
+
+--* Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+-> https://visualizegit.com/
+-> https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1#merge
+-> https://github.com/git-school/visualizing-git
+-> https://onlywei.github.io/explain-git-with-d3/#branch
+
+
+--* "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+-> Temel olarak arasındaki fark : git bir versiyon kontrol sistemidir, GitHub ise git tabanlı bulut tabanlı bir platformdur.
+-> Github : gokayybaz
+
+
+--* main ya da master branch'inin diğer branchlerden farkı nedir?
+
+-> main veya master branch'i projenin en stabil sürümünü ve diğer dallara kopyalanacak sürümü içerir.
+-> diğer branch'lerde proje üzerine geliştirme yapılır.
+-> sonradan geliştirmeler stabil hale geldikten sonra main veya master branch'e eklenir.
