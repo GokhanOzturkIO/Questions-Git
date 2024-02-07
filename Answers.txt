@@ -18,3 +18,20 @@ Git, açık kaynaklı bir yazılımdır ve birçok platformda (Windows, macOS, L
 
 ===========================================================
 
+2. "git pull" ile "git fetch" komutlarının farkı nedir?
+
+git pull ve git fetch komutları, uzak bir Git deposundan değişiklikleri yerel depoya getirmek için kullanılır, ancak farklı şekillerde çalışırlar.
+
+git fetch:
+
+git fetch, uzak bir depodaki tüm değişiklikleri yerel depoya getirir, ancak bu değişiklikleri yerel çalışma kopyasına birleştirmez.
+Fetch komutu, yereldeki referansları (branch'leri, tag'leri vb.) uzak depodaki ile eşleştirir, böylece yerelde hangi değişikliklerin olduğunu görebilirsiniz.
+Yereldeki çalışma kopyanızda (origin/master gibi) uzak depodaki son değişiklikleri görebilirsiniz, ancak bu değişiklikleri birleştirmek için ayrıca bir git merge veya git rebase komutu kullanmanız gerekir.
+git pull:
+
+git pull, aslında iki adımlı bir işlemi tek bir adımda gerçekleştirir. İlk olarak, git fetch komutunu çağırır ve uzak depodaki değişiklikleri yerel depoya getirir. Ardından, otomatik olarak bu değişiklikleri yerel çalışma kopyasına birleştirir (merge işlemi gerçekleştirir).
+Yani, git pull, git fetch ve birleştirme işlemini (git merge veya git rebase) tek bir komutla gerçekleştirir.
+Genel olarak, git fetch komutu uzak değişiklikleri alır ve onları yerel depoya getirirken, git pull komutu uzak değişiklikleri alır, yerel depoya getirir ve otomatik olarak birleştirir. Hangisini kullanmanız gerektiği, alışkanlıklarınıza, projenizin gereksinimlerine ve iş akışınıza bağlı olabilir. Bazı geliştiriciler git fetch ve daha sonra birleştirme işlemi yapmayı tercih ederken, diğerleri git pull komutunu kullanarak işlemi tek bir adımda gerçekleştirir.
+
+===========================================================
+
