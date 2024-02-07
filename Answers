@@ -114,3 +114,8 @@ Question 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikler
     -> İki Farklı Commit Arasındaki Farklar: (git diff <commit1> <commit2>)
     -> İki Farklı Branch Arasındaki Farklar: (git diff <branch1> <branch2>)
     -> Mevcut directoryde kaç dosyada ve kaç satırda değişiklik olduğunu verir -> (git diff --stat)
+
+
+Question 17: Git reset ile neyi geri alıyoruz?
+
+-> Stating areaya eklediğimiz dosyaları Staging areadan geri çıkartır. Fakat o dosyalarda yapılan değişiklikleri geri alma(iptal etme) işlemi değildir.
