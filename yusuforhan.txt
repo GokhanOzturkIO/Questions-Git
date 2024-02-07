@@ -15,4 +15,6 @@ Staging Area veya Index, Git'in esnek ve güçlü commit sürecinin bir parças�
 
 7) "Untracked file" ne demektir? : "Untracked file" (İzlenmeyen dosya), Git'in proje dosyalarını izleme yeteneğiyle ilgili bir terimdir. Bir dosya "untracked" olarak işaretlendiğinde, Git bu dosyanın içeriğini izlemiyor ve bu dosyayı proje geçmişinde kaydetmiyor.
 
+8) ".git" klasörünü silersek ne olur? : ".git" klasörü, bir Git deposunun temelini oluşturan ve Git'in tüm versiyon kontrolünü yönettiği yerdir. Bu klasör, projenin taahhüt geçmişini, dal bilgilerini, taahhüt objelerini ve diğer Git ile ilgili bilgileri içerir. ".git" klasörü olmadan, Git, proje üzerindeki versiyon kontrolünü uygulayamaz ve projeyi yönetemez.
+
  
