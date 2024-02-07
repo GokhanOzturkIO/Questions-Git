@@ -38,8 +38,11 @@
     * commit geçmişini gösterir. commit id - tarih - yazar - commit mesajı bilgilerini içerir.
 
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
-    * git diff, iki durum arasındaki farkları gösterir
+    * git diff, iki durum arasındaki farkları gösterir.
+
 - Git reset ile neyi geri alıyoruz?
+    * gitmeyen commitleri geri alır.
+
 - "git commit" ile "git push" arasındaki fark nedir?
     * git commit ile yaptığımız değişiklikleri local repositorye yazarız.
     * git push ile localdeki değişiklikleri remote repositorye göndeririz.
