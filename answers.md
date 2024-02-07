@@ -31,6 +31,9 @@
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 - Git reset ile neyi geri alıyoruz?
 - "git commit" ile "git push" arasındaki fark nedir?
+    * git commit ile yaptığımız değişiklikleri local repositorye yazarız.
+    * git push ile localdeki değişiklikleri remote repositorye göndeririz.
+
 - Atomic commit ne demektir?
 - Repository ne demektir?
 - "git tag" nedir? "git branch"’ten farkı nedir?
