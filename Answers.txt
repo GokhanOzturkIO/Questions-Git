@@ -131,5 +131,9 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 19- "Atomic commit" (atomik commit), bir işlemi veya değişikliği tamamen birimli ve bölünemez bir şekilde kaydetmek anlamına gelir. Bir commit'in atomik olması, bir commit'te birbiriyle ilişkili bir grup değişikliğin bir arada kaydedilmesini ifade eder.
 
 
+*******************************************************************************************************************************************************
+
+
+20- Bir yazılım projesinin veya kaynak kodunun depolandığı ve yönetildiği bir yerdir. Bir "repository", bir yazılım projesinin tüm dosyalarını, geçmişini, sürüm geçmişini ve projeyle ilgili diğer verileri içerir.
 
 
