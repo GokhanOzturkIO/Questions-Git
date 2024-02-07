@@ -7,3 +7,4 @@
 7. Git tarafından kontrol edilemeyen dosyalardır. Takip edilmesi için git add ile staging areaya eklenip daha sonra git commit komutunu kullanmak gerekir.
 8. Git ile ilgili kaydedilmiş tüm bilgiler silinir.
 9. Template dosyası içerisinde "ReadMe.md" dosyası oluşturduğumuzda git init her çağrıldığı zaman bu dosya otomatik olarak oluşturulmuş olacaktır. Templateler git repository leri için git in başlangıç ve ayar dosyalarıdır.
+10. Branch kavram olarak ağaç gövdesinden ayrılan dalları simgeler. Kod yapısında birden fazla yazılımcının özgürce çalışabilmesini sağlar. Projenin ana branch i main olarak isimlendirilir. Eğer main üzerinde değişiklik yapılacaksa mainin kopyası olarak yeni bir branch açılır ve main branch i etkilemeden değişiklikler ve testler yapılır. Daha sonra tekrar main branch e commit edilir. Her ekip üyesi kendi branch i zerinde çalışabilir. Bu sayede çoklu çalışma ortamında oluşabilecek karmaşa önlenmiş olur.
