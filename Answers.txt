@@ -59,3 +59,8 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 
 3. Son olarak, Git'in şablonlarının bulunduğu dizini belirtmek için Git'in "template" konfigürasyonunu ayarlayın
 
+
+*******************************************************************************************************************************************************
+
+
+10- Git'te "branch" (dal), projenin farklı versiyonlarını, değişikliklerini ve geliştirmelerini izlemek için kullanılan bir yapıdır. Her dal, projenin ayrı bir hattını temsil eder ve bir dala yapılan değişiklikler, diğer dalları etkilemez. Bu, farklı özelliklerin veya değişikliklerin aynı anda geliştirilebilmesini sağlar ve bir daldaki çalışmaların diğer dallardaki çalışmalardan izole olmasını sağlar.
