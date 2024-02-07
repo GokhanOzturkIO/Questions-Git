@@ -49,6 +49,11 @@
 
 -İki kişi tek bir dosyadaki aynı satırda değişiklik yapmış ise ortaya çıkan duruma Merge Conflict denir.
 
+14-) "git log" komutu ile hangi bilgileri görebiliriz?
+
+-Atılan tüm commitler görülür. Bunun yanında her commit'in hashcode'u, author , date ve hangi dosyada değişiklik yapıldığı bilgilerini görebiliriz.
+
+
 
 
 
