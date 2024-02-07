@@ -92,6 +92,8 @@ git tag v1.0.0 HEAD
 
 Git branchden farkı ise git branch ayrı bir kol oluştururken git tag var olan commiti etiketlemek için kullanılır.
 
+Soru 21 Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+- Git kraken, Github Desktop,Git Fork,Sublime Merge 
 
 
 
