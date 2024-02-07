@@ -31,7 +31,8 @@ Son olarak, bu dosyayı çalıştırılabilir hale getirin:chmod +x ~/.git-templ
 
 10) Sıfırdan bir "branch" nasıl oluşturabiliriz? : git branch -Branch Adı- komutu kullanılarak yeni bir branch oluşturulabilir.
 
- 
+11) Var olan bir "branch"e nasıl geçebiliriz? : git checkout -Branch Adı- komutuyla branchler arası geçiş yapabiliriz.
+
 
 
  
