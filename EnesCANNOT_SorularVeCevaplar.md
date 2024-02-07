@@ -237,3 +237,14 @@ Git'te, bir etiket (tag), depoda belirli bir commit'i tanımlamak için kullanı
 
 ---
 
+## 22) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+| [Github Desktop](https://desktop.github.com/) | [SmartGit](https://www.syntevo.com/smartgit/) | [SourceTree](https://www.sourcetreeapp.com/) | [TortoiseGit](https://tortoisegit.org/) |
+| -------------- | --------- | ---------- | ----------- |
+| ![Github](assets/github_desktop.png) | ![Github](assets/smart_git.png) | ![Github](assets/source_tree.png) | ![Github](assets/tortoise_git.png) |
+
+| [Git Fork](https://git-fork.com/) | [GitKraken](https://www.gitkraken.com/) | [Sublime Merge](https://www.sublimemerge.com/) | [Git Tower](https://www.git-tower.com/) | [MeGit](https://github.com/eclipsesource/megit) |
+| -------- | ---------- | ------------- | --------- | ----- |
+| ![Github](assets/git_fork.jpg) | ![Github](assets/git_kraken.png) | ![Github](assets/sublime_merge.png) | ![Github](assets/git_tower.png) | ![Github](assets/megit.png) |
+
+---
