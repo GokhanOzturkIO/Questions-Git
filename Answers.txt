@@ -119,3 +119,7 @@ Bu nedenle, git fetch origin komutunda origin, projenizin uzak depo adresini tem
 17- git reset ile staging area ya eklediğimiz dosyaları geri alabiliriz. 
 
 
+*******************************************************************************************************************************************************
+
+
+18- Git commit lokalinizdeki değişiklikleri kaydetmek etmek için kullanılır. git push ise kaydedilen bu değişiklikleri uzak depoya göndermek için kullanılır.
