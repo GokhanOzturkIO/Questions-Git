@@ -60,12 +60,14 @@ Head Pointer'ı Geri Almak: "git reset" komutu, HEAD işaretçisini belirli bir 
 
 İşleme Alma İşlemleri: "git reset" komutu, Staging Area'daki (index) değişiklikleri geri alabilir. Yani, "git add" komutuyla Staging Area'ya eklediğiniz dosyaları geri alabilirsiniz.
 
-Taahhütleri Geri Almak: "git reset" komutu, belirli bir taahhüdü (commit) geri alabilir veya taahhüt geçmişini değiştirebilir. Bu, projenin geçmişini değiştirmek için kullanılabilir, ancak dikkatlice kullanılmalıdır, çünkü geri alınan taahhütlerin kaybına neden olabilir.
+Taahhütleri Geri Almak: "git reset" komutu, belirli bir taahhüdü (commit) geri alabilir veya commit geçmişini değiştirebilir. Bu, projenin geçmişini değiştirmek için kullanılabilir, ancak dikkatlice kullanılmalıdır, çünkü geri alınan commitlerin kaybına neden olabilir.
 
-"git reset" komutu, projenin geçmişini değiştirmek için güçlü bir araçtır ve dikkatli bir şekilde kullanılmalıdır. Yanlışlıkla geri alınan taahhütlerin geri getirilmesi zor olabilir, bu nedenle öncelikle değişikliklerin dikkatlice incelenmesi ve güvenli bir şekilde geri alınması önemlidir. 
+"git reset" komutu, projenin geçmişini değiştirmek için güçlü bir araçtır ve dikkatli bir şekilde kullanılmalıdır. Yanlışlıkla geri alınan commitlerin geri getirilmesi zor olabilir, bu nedenle öncelikle değişikliklerin dikkatlice incelenmesi ve güvenli bir şekilde geri alınması önemlidir. 
 
-17 ) "git commit" ile "git push" arasındaki fark nedir? : 
-"git commit", yapılan değişiklikleri yerel depoya taahhüt eder (commit eder), ancak uzak depoya göndermez. "git push" ise yereldeki taahhütleri uzak depoya gönderir ve böylece uzak depoyu günceller.
+17) "git commit" ile "git push" arasındaki fark nedir? : 
+"git commit", yapılan değişiklikleri yerel depoya commit eder, ancak uzak depoya göndermez. "git push" ise yereldeki commitleri uzak depoya gönderir ve böylece uzak depoyu günceller.
 
 
-18 ) Atomic commit nedir? : Atomic commit, bir değişiklik grubunu tek bir mantıksal birim olarak taahhüt etme işlemidir. Bu, bir değişiklik grubunun parçalarının birbirine bağımlı olduğu durumlarda, tüm değişikliklerin birlikte taahhüt edilmesini sağlar. Böylece, bir değişiklik grubunun tamamı ya taahhüt edilir ya da hiçbiri taahhüt edilmez, kısmi taahhütlerin oluşmasını engeller.
+18) Atomic commit nedir? : Atomic commit, bir değişiklik grubunu tek bir mantıksal birim olarak commit etme işlemidir. Bu, bir değişiklik grubunun parçalarının birbirine bağımlı olduğu durumlarda, tüm değişikliklerin birlikte taahhüt edilmesini sağlar. Böylece, bir değişiklik grubunun tamamı ya commit edilir ya da hiçbiri commit edilmez, kısmi commitlerin oluşmasını engeller.
+
+19) Repository ne demektir? : Repository (Depo), bir projenin veya yazılımın dosyalarının ve commit geçmişinin saklandığı bir yerdir. Git'te, bir depo genellikle birlikte çalışan geliştiricilerin proje dosyalarını ve değişikliklerini yönetmek için kullandığı merkezi bir depodur. Bu depoda, proje dosyalarının geçmişi ve farklı versiyonları izlenir ve yönetilir.
