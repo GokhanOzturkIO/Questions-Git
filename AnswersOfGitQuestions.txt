@@ -97,3 +97,17 @@ Aynı dosyanın aynı yerinde değişiklik yapılmışsa ve Git yapılan bu değ
 
 Commit sahibini, commit geçmişini, commitin tarihini, commit mesajını ve commit hashlerini((SHA)) görebiliriz.
 #####
+
+
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+* Çalışma dizini ile staging area arasındaki değişikliği,
+* staging area ve son commit arasındaki değişikliği,
+* iki farklı commit arasındaki değişikliği,
+* iki farklı branch arasındaki değişikliği,
+* çalışma dizini ve commit arasındaki değişikliği,
+* spesifik bir dosya veya dizin yolu arasındaki değişikliği,
+* iki farklı branchteki dosya veya dizin arasındaki değişikliği
+#####
+
+
