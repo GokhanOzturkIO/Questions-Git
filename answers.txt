@@ -40,3 +40,25 @@ Git sistemiyle takip edilmeyen, değişiklikleri izlenmeyen dosyadır.
 
 Git ile yaptığımız tüm geçmiş bilgisini ve tüm ayarları kaybederiz. Projemizin git deposu ortadan kalkar.
 #####
+
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Yanıtı bilmediğim için chatgpt'ye sordum. Script önerdi. Daha doğal bi yolu yok mu dedim. Yaklaşık olarak şöyle bi şey önerdi:
+
+Yeni bi git reposu oluştuğumuzda belli dosya ve dizinleri kopyalayabilir, bunun için şablon oluşturabilirmişiz.
+
+ bunun için önce
+ 
+>  mkdir -p ~/git-templates/skeleton 
+ komutu ile bir klasör oluşturuyor, sonra da
+ 
+ 
+ > echo "# Proje Başlığı" > ~/git-templates/skeleton/README.md
+ komutuyla bi readme dosyası oluşturuyormuşuz(tırnakların içine yazılan "proje başlığı", readme'nin başına ekleniyor).
+ 
+ 
+ En son olarak da
+ 
+ > git config --global init.templateDir '~/git-templates/skeleton'
+ komutunu kullanıp git yapılandırmamızı güncelliyormuşuz...
+ #####
