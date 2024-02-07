@@ -14,8 +14,10 @@
 
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
     * origin uzak sunucuya karşılık gelir.
-    
+
 - "HEAD" kelimesi neyi temsil etmektedir?
+    * mevcutta çalıştığımız branchin son commitini işaret eder.
+    
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?
 - ".git" klasörünü silersek ne olur?
