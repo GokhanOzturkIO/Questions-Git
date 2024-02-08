@@ -60,3 +60,6 @@ Atomic commit, commit atarken atılan commit'lerin bölünemez atomlar şeklinde
 
 20. Repository ne demektir?
 Versiyon kontrolü altındaki dosyaların tutulduğu yerdir. Yerel (Local) ya da Uzakta (Remote) olabilir.
+
+21. "git tag" nedir? "git branch"’ten farkı nedir?
+Projelerde zaman zaman zaman release'ler olur. Bu release'lere kolay dönebilmek, aradaki commit'lerde boğulmamak için tag'leme yapılır. Yani belli commit'ler etiketlenir. Branch değiştirilir gibi Tag değiştirilebilir. Branch ise içerisinde commit akışı olan ayrı bir kavramdır.
