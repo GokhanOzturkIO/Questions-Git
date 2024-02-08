@@ -73,3 +73,7 @@ Github: simayf
 24- main ya da master branch'inin diğer branchlerden farkı nedir?
 "main" veya "master" branch'i, bir Git deposunun varsayılan ana branch'ini ifade eder. Diğer bir deyişle, bir projenin başlangıç noktasını, temelini oluşturan branch'tir. "main" veya "master" branch'i, genellikle projenin stabil ve yayına hazır durumunu temsil eder.
 Diğer branch'ler ise genellikle yeni özelliklerin geliştirilmesi, hata düzeltmelerinin yapılması veya denemelerin gerçekleştirilmesi gibi farklı geliştirme faaliyetlerini izlemek için kullanılır. Bu branch'ler, "main" veya "master" branch'inden ayrılıp, farklı geliştirme yollarını veya versiyonları temsil eder.
+
+25- ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+.gitignore dosyası, bir Git deposunda izlenmesini istemediğiniz dosyaları ve dizinleri belirtmek için kullanılan bir dosyadır. Bu dosya, Git'e hangi dosyaların veya dizinlerin depoya eklenmemesi gerektiğini söyler.
+Birçok proje, derleme artıkları, geçici dosyalar, derlenmiş kod dosyaları gibi gereksiz veya hassas bilgiler içeren dosyaları içerir. Bu tür dosyaların depoya eklenmesi, depoyu gereksiz yere şişirebilir ve depoyu dağınık hale getirebilir. Ayrıca, hassas bilgilerin yanlışlıkla depolanması da güvenlik riskleri doğurabilir. .gitignore dosyası bu tür sorunları önlemek için kullanılır.
