@@ -107,4 +107,10 @@ Dolayısıyla developer'ların çakışan dosyaları elle düzeltmesi gerekir.
 
 Commitleri görmemizi sağlar. Her bir yapılan commit işlemi için hashcode verir. Yapılan iki ayrı commit ya da iki farklı branch arasındaki farkları da hashID denilen kodlarla görürüz.
 
+------------------------------------------
+
+16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+- İki farklı commit arasındaki değişiklikleri görme
+- Staging Area'daki dosyaları, mevcuttaki güncel Git'te bulunan hallerinden farklarını görme
 
