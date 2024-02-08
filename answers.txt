@@ -70,6 +70,10 @@
 -Her bir commit’in bir mantıksal işi temsil edecek şekilde atılmasıdır.
 
 
+19-) Repository ne demektir?
+
+-Proje dosyalarının bir arada tutularak depolandığı yerdir.
+
 
 
 
