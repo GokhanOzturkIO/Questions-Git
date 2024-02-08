@@ -10,3 +10,7 @@
 4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 -bahsedilen origin -> uzak sunucu/depo adresidir.
 
+5-"HEAD" kelimesi neyi temsil etmektedir?
+-HEAD kelimesi genellikle son atılan commmiti işaret eder, bazen de bağlı olunan branch'i de işaret eder.
+
+
