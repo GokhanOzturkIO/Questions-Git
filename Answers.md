@@ -115,3 +115,11 @@ Kodların veya dosyaların koyulduğu ve commitlerle kayıtların yapıldığı 
 2- [Git Kraken](https://www.gitkraken.com/git-client) (Ücretli)
 
 3- [Source Tree](https://www.sourcetreeapp.com/)
+
+## Soru 23: GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir?
+
+Git: Bir versiyon kontrol sistemidir ve local olarak projelerin sürümlenmesi ve depolanması için kullanılır.
+
+GitHub: Git repolarının online olarak paylaşılmasını sağlayan ve bu şekilde farklı cihazlardan bu repolara erişim sağlanarak aynı proje üzerinde çalışmasına olanak sağlayan bir platformdur.
+
+Github benzeri siteler: GitLab, Bitbucket, GitKraken Glo.
