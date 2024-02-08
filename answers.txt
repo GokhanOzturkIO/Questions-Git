@@ -52,3 +52,9 @@ Git deposu, bir projenin tam tarihçesini, farklı sürümlerini ve değişiklik
 
 21- git tag belirli bir yapılan değişikliği işaretlemek ve daha sonra kolay bir şekilde ulaşılabilmesini sağlar.
 git branch, projenin farklı parçalarını veya özelliklerini izlemek ve geliştirmek için kullanılan dalları yönetmek için kullanılır.
+
+22- GitHub Desktop
+    GitKraken
+	SourceTree
+	GitAhead
+	GitLens
