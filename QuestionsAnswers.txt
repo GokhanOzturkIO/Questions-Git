@@ -54,3 +54,5 @@ farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim
 19) Atomic commit ne demektir? -> Commit işlemi gerçekleştirirken olabildiğince her bir değişikliği adım adım commit etmek,
 commit mesajının sade ve yapılan işlemi net açıklar şekilde olmasın gerektiğini söyler Atomic Commit.
 *******************************************
+20) Repository ne demektir? -> Bir projenin tüm dosya ve belgelerinin saklandığı yerdir. Ve de üzerinde geliştirmeler yapılabilir.
+*******************************************
