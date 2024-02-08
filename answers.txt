@@ -57,3 +57,9 @@ Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi geri almaz.
 21) "git tag" nedir? "git branch"’ten farkı nedir?: "git tag" komutu, kilometretaşı tarzında bir yapıdır. Projenin anlık snapshot'ını alır.
 "git branch" komutu ise, farklı geliştirme yolları oluşturmak için kullanılır. Branch,değiştirilip silinebilirken tag, değiştirilemez ve silinemez.
 
+22) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz: Bu işlem için farklı farklı araçlar var fakat benim en beğendiklerim şu şekilde: 
+- https://visualizegit.com/
+- https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+- https://githistory.xyz/
+- https://gource.io/
+
