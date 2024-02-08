@@ -53,3 +53,7 @@ Bunu iki komut ile yapabiliriz:
 
 1- "git checkout [branck_ismi]"
 2- "git switch [branck_ismi]"
+
+## Soru 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+"git clone -b [branch_ismi] [url]" komutu ile belirtilen yere branch ismini ardından ise projenin url'ini yazarak sadece istediğimiz branch'i çekebiliriz.
