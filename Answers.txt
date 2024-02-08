@@ -18,3 +18,6 @@ Kendi lokal makinemiz ile Github, Gitlab gibi sitelerde bulunan repository aras�
 
 7-"Untracked file" ne demektir?
 Untracked file,izlenmeyen dosya şeklinde çevirebiliriz. Git tarafından takip edilmeyen, Git'in içindeki değişikliklerin bir parçası olmayan dosyalardır. Git status komutunda Untracked files altındaki dosyalardır.
+
+8-".git" klasörünü silersek ne olur?
+Her şey gitmiş olur :)
