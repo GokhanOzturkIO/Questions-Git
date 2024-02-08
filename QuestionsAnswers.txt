@@ -37,3 +37,6 @@ yapıyoruz. Aynı zamanda proje üzerinde farklı branch ler açarak bir çok ki
 *******************************************
 12) Var olan bir "branch"e nasıl geçebiliriz? -> git checkout "branch ismi" formatonda yazarak geçiş yapabiliriz.
 *******************************************
+13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? -> git clone --single-branch --branch branch_ismi <repo_url>
+formatında yazarak bu işlemi sağlayabiliriz.
+*******************************************
