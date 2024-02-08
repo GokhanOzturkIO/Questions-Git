@@ -21,3 +21,6 @@ Untracked file, bu dosyadaki değişiklikler henüz git tarafından kontrol edil
 
 8- ".git" klasörünü silersek ne olur?
 “.git” klasörü silinirse Git tarafından kaydedilen tüm bilgiler kaybolur ve Git’in tekrar initialize edilmesi gerekir.
+
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+"git init" komutunu kullanırken --template seçeneği, yeni bir Git deposu oluştururken varsayılan olarak kullanılacak bir şablon dizini belirtmenizi sağlar. Bu seçenek sayesinde, yeni bir depo oluşturduğunuzda belirli dosyalar (ReadMe.md dosyası gibi) veya yapılandırmalar otomatik olarak dahil edilir. 
