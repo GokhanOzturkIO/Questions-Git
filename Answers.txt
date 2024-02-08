@@ -51,3 +51,6 @@ Yaptığımız commit'lerin commit mesajı, hash code, kişi, mail, tarih bilgil
 
 17. Git reset ile neyi geri alıyoruz?
 git reset Staging Area'daki değişiklikleri Staging Area'dan çıkartır. Ancak bu komut dosyalarda yapılan değişikleri geri almaz.
+
+18. "git commit" ile "git push" arasındaki fark nedir?
+git commit komutu Staging Area'daki değişiklikleri yereldeki Local Repository'ye gönderir. git push komutu Local Repository'deki değişiklikleri uzaktaki Remote Repository'ye gönderir.
