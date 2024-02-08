@@ -12,3 +12,5 @@ ve geliştirmek için kullanılır.
 4- Bir projede birçok repo kullanılabilir. "origin" projenin ana reposunu temsil eder.
 
 5- "HEAD" komutlar arasında referans olarak kullanılır. Genellikle çalışma alanınızldaki en son commit'i veya branch'i işaret eder.
+
+6- Staging area veya index değişiklerin geçici olarak saklandığı ve commit işleminden önce kullanırız.
