@@ -9,3 +9,6 @@ Büyük ihtimalle orada bir çakışma (conflict) durumu vardır. Conflict durum
 
 4-git fetch origin" komutundaki "origin" neye karşılık gelmektedir? 
 Origin kelimesi uzak depodaki branchi işaret eder.
+
+5-"HEAD" kelimesi neyi temsil etmektedir?
+Üzerinde bulunduğumuz branchteki en son yapılan commit'i temsil etmektedir.
