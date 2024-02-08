@@ -21,3 +21,6 @@ Untracked file,izlenmeyen dosya şeklinde çevirebiliriz. Git tarafından takip 
 
 8-".git" klasörünü silersek ne olur?
 Her şey gitmiş olur :)
+
+9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+Önde ReadMe.md dosyası oluşturmamız lazım. Sonra bu dosyayı izlemeye almak için git add ile eklememiz lazım. Ardından bu dosyayı commit işlemiyle staging area almamız lazım.
