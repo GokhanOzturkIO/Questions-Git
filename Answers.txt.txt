@@ -81,8 +81,10 @@ CEVAP:2 FARKLI DURUM ARASINDAKİ FARKI GÖREBİLİRİZ
 2 commit arasındaki farkı görebiliriz
 2 txt arasındaki farkı görebiliriz
 
-
 - Git reset ile neyi geri alıyoruz?
+
+CEVAP: Staging Area'ya aldığımız işlemleri Staging Area'dan işlemleri geri alır NOT:Eklediğimiz Dosyaları çıkarmaz işlemleri geri alır
+
 
 - "git commit" ile "git push" arasındaki fark nedir?
 - Atomic commit ne demektir?
