@@ -101,4 +101,10 @@ Projede geliştirilecek olan versiyonların ana projeye zarar vermemesini sağla
 Git'te iki veya daha fazla farklı kaynaktan gelen değişikliklerin birleştirilirken karşılaşılan bir çakışma durumunu ifade eder. Böyle bir anda git hangi değişikliklerin kabul edileceğini otomatik olarak çözemez.
 Dolayısıyla developer'ların çakışan dosyaları elle düzeltmesi gerekir.
 
+------------------------------------------
+
+15. "git log" komutu ile hangi bilgileri görebiliriz?
+
+Commitleri görmemizi sağlar. Her bir yapılan commit işlemi için hashcode verir. Yapılan iki ayrı commit ya da iki farklı branch arasındaki farkları da hashID denilen kodlarla görürüz.
+
 
