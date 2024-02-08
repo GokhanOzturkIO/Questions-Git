@@ -9,3 +9,7 @@ Gönderen arkadaşımız yaptığı değişiklikleri pushlamamış olabilir veya
 
 4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 “origin” kopyalanan veya repoya push ve pull işlemleri gerçekleştirilen uzak repoyu temsil eden bir isimdir.
+
+5- "HEAD" kelimesi neyi temsil etmektedir?
+Mevcut branchte son commiti işaret eden pointerdır.
+
