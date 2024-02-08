@@ -72,3 +72,9 @@ Branchin türkçedeki anlamı dal demektir. Projeminizin dallanamasını sağlay
 
 ===========================================================================================================================================
 
+Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+git branch <yeni-branch-adı>
+git checkout -b <yeni-branch-adı> iki farklı yoldan yeni bir branch oluşturulabilir.
+
+===========================================================================================================================================
