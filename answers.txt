@@ -9,3 +9,6 @@ ve geliştirmek için kullanılır.
    Repo'ya push izni olmayabilir.
    Sizin yerel dosyanızda yaptıklarınızla, arkadaşınızın yaptığı değişikler çakışıyo olabilir.
    
+4- Bir projede birçok repo kullanılabilir. "origin" projenin ana reposunu temsil eder.
+
+5- "HEAD" komutlar arasında referans olarak kullanılır. Genellikle çalışma alanınızldaki en son commit'i veya branch'i işaret eder.
