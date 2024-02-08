@@ -88,7 +88,15 @@ git branch NewBranch
 
 git checkout BranchName
 
+---------------------------------------
 
+13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+git clone -b BranchName origin
+
+# origin -> remote repo url
+
+---------------------------------------
 
 
 
