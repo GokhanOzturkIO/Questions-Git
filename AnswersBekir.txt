@@ -15,3 +15,5 @@
 8-Lokal makinemizdeki git deposu silinir ve takip edilen dosyalar kaybolur.
 
 9-Git init yaparken --template seçeneği kullanarak bir şablon belirtirseniz ve bu şablonda ReadMe.md dosyası bulunursa, git init komutunu kullanırken otomatik olarak ReadMe.md dosyası da oluşturulur.
+
+10-Branch(dal) yapısı, projedeki bölümleri ayrı ayrı dallarda geliştirmemizi ve modüler bir çalışma yapısı sağlar.
