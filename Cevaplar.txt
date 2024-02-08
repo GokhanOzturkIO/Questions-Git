@@ -52,4 +52,7 @@ Var olan bir branch'e git checkout komutu ile geçeriz.
 18- "git commit" ile "git push" arasındaki fark nedir
 "git commit" ile yapılan işlemleri kendi lokalimize kaydederken "git push" ile yapılan projeyi kendi lokalimizden uzaktaki sunucuya gönderiyoruz.
 
+19- Atomic commit ne demektir?
+Atomic commit, bir versiyon kontrol sistemi kullanırken bir dizi dosya değişikliğini tek bir mantıksal işlem olarak atomik olarak gerçekleştirmeyi ifade eder. 
+
 
