@@ -33,6 +33,6 @@ sonradan aklımıza gelen bir geliştirme yapacağız. Fakat bu geliştirmeyi an
 ise geliştirme esnasında hata alabilme ya da bir sorun olma ihtimaline karşın ana projemizi etkilenmeyecek konumda tutmak. Bu sebeple branch ler açıp geliştirmeler
 yapıyoruz. Aynı zamanda proje üzerinde farklı branch ler açarak bir çok kişi aynı anda geliştirme yapabilme imkanına sahip oluyor ana projeyi etkilemeden.
 *******************************************
-11) Sıfırdan bir "branch" nasıl oluşturabiliriz? -> Projemizde ki ana branch olan master branch i üzerinden new branch diyerek yeni branch ler oluşturabiliriz.
+11) Sıfırdan bir "branch" nasıl oluşturabiliriz? -> git branch "branch ismi " formatında yazarak yeni bir branch oluşturabiliriz.
 *******************************************
 
