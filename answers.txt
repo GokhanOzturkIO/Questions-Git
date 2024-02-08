@@ -28,3 +28,10 @@
 
 ✔ Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
    Klasörün içerisine Readme.md dosyası oluşturup git init --template=klasör yolu dedim .gitin içerisine oluştu. 
+
+✔ Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+   -Projelerimizi yönetmek için kullanılan bir komuttur.
+   -Projenizdeki dallları görmeniz ve yeni bir dal oluşturmanızı sağlar.
+    Bize ne sağlar?
+   -Branchler bizlere farklı özellikler geliştirirken ve hataları düzeltirken işimizi organize etmemize yardımcı olur.
+   -Projede fazla kişi olduğunda her biri kendinde branchinde çalışır böylece çakışma(conflict) olasılığı azalır. 
