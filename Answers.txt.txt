@@ -127,5 +127,7 @@ terzionurr
 
 CEVAP: bir git deposundaki ana branchlerdir diğer branchlerden ayıran özellik ise projenin başlangıç noktasını ve ana geliştirme yolunu temsil ederler. diğer branchler ise düzeltme veya deneme için kullanılan yan dallardır
 
-
 - ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+CEVAP:CHATGPTYE SORDUM 
+.gitignore dosyası, bir Git deposunda izlenmeyecek dosyaları ve dizinleri belirtmek için kullanılan bir dosyadır. Bu dosya, Git'e belirli dosyaları veya klasörleri takip etmemesini söyleyerek, depo geçmişini ve iş akışını temiz tutmaya yardımcı olur.
