@@ -20,3 +20,10 @@ ve geliştirmek için kullanılır.
 
 8- Git .git klasöründe dosyaların tüm versiyon kontrol bilgilerini ve geçmişini sakladığı bir dizindir.
    Eğer kaza ile bu klasörü silersek bütün versiyon bilgilerini kaybetmiş oluruz.
+   
+9- Git her yeni repo oluşturduğumuzda şablon bir klasör oluşturmamıza olanak sağlar. 
+
+mkdir -p ~/.git_template komutuyla şablon dosyanızın tutulacağı bir  klasör oluşturabiliriz.
+daha sonra ~/.git_template/README.md. komutuyla klasörün içinde her git init yazdığınızda içinde olmasını istedğiniz dosyayı oluşturun.
+git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün template olarak kullanılmasını sağlayın.
+
