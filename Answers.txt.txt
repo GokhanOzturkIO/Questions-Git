@@ -87,7 +87,12 @@ CEVAP: Staging Area'ya aldığımız işlemleri Staging Area'dan işlemleri geri
 
 
 - "git commit" ile "git push" arasındaki fark nedir?
+
+CEVAP: commitlediğimiz şeyler hala bizim lokalimizde olur uzak sunucuya gitmez gitmesi için pushlamak gerek arasındaki fark biri lokalde tutar biri lokaldakini uzak sunucuya gönderir
+
 - Atomic commit ne demektir?
+
+
 - Repository ne demektir?
 - "git tag" nedir? "git branch"’ten farkı nedir?
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
