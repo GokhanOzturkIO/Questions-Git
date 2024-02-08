@@ -68,3 +68,6 @@ Git, bir versiyon kontrol sistemidir. GitHub ise, Git ile versiyonladığımız 
 - https://about.gitlab.com/
 - https://bitbucket.org/
 
+24) main ya da master branch'inin diğer branchlerden farkı nedir: Master branch'i, projenin ana branch'idir. 
+Geliştirmeler farklı branch'lerde yapılıp en son master branch'ine merge edilir. 
+Master branch'ini, bir uygulamanın hataları ayıklanmış,stable versiyonu olarak düşünebiliriz.
