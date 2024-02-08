@@ -10,3 +10,5 @@
 -üzerinde çalıştığımız branchteki en sondaki commit'i ifade eder
 6-Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 -git commitlerimizi push etmeden önce alınan ara bölgedir
+7-Untracked file" ne demektir?
+-Git'e tarafından takip edilmeyen bir dosyayı ifade eder
