@@ -75,3 +75,10 @@ Sonrasında dosyalar Staged durumuna geçer ve bir sonraki commit işlemiyle pro
 Branch'ler projeyi dallara ayırır. Her bir branch projenin farklı versiyonlarını temsil eder. Birden fazla kişi ile çalışan takımlar için oldukça önemlidir. Bu sayede takımlar birbirinin yaptğı değişikliklerden etkilenmez ve bağımsız çalışabilirler.
 Branch'ler birden fazla özelliğin aynı anda geliştirlmesini sağlar. 
 Projede geliştirilecek olan versiyonların ana projeye zarar vermemesini sağlar.
+
+------------------------------------------
+
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+"git branch yeni_branch_adı" komutu ile yeni bir branch oluşturulabilir.
+
