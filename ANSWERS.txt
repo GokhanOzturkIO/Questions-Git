@@ -27,3 +27,7 @@
 chmod +x initialize_git_repo.sh
 ./initialize_git_repo.sh
 işlemlerinden geçirerek yapılabilmekte.
+
+10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+-Branch yapısı ana proje yapısını bozmadan proje üzerinde çalışmalarımızı yapabilme imkanı sunar. Main branch'e paralel farklı bir branch'dir ve bir projeyi ağaca benzetirsek her branch bir dala benzer.
+
