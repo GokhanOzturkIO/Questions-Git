@@ -25,3 +25,6 @@ yeni bir dosya oluşturuyorsak projede bunu staging area almadığımız takdird
 *******************************************
 8) ".git" klasörünü silersek ne olur? -> Git ile kaydedilen bilgiler kaybolur ve de dizin Git repo görevini üstlenmeyecektir.
 *******************************************
+9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız? -> sh dosyası oluşturarak
+git init komutunu her çağırdığımızda bu işlemi sağlayabiliriz.
+*******************************************
