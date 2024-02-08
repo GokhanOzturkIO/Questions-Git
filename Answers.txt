@@ -131,7 +131,9 @@ geri alma (geri al) işlemlerinin daha kolay olmasını sağlar. Atomic commit y
 her bir adımın ayrı ayrı commit’ler şeklinde atılmasıdır. yapılan değişikliklerin izlenmesini ve yönetilmesini kolaylaştırır, hata ayıklama sürecini hızlandırır.
 
 
-
+Soru 20: Repository ne demektir?
+“Repository”, bir projenin tüm dosya, değişiklik geçmişinin ve sürüm kontrolünün saklandığı yer anlamına gelir. Bu, projenin tüm versiyonlarını ve revizyonlarını içerir. Git gibi versiyon kontrol sistemlerinde, her değişiklik bir commit olarak kaydedilir ve bu commit’ler repository’de saklanır. 
+Bu sayede, projenin herhangi bir noktasına geri dönülebilir ve değişiklikler izlenebilir. Kısacası, repository bir projenin evrimini izlememizi sağlar.
 
 
 
