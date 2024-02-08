@@ -59,3 +59,7 @@ Atomic commit'in amacı, kod tabanındaki tutarlılığı korumak ve bir değiş
 20- Repository ne demektir?
 Repository, bir proje veya belirli bir yazılım paketinin tüm sürüm geçmişini, dosyalarını ve yapılandırmasını içeren bir depodur. Genellikle kod tabanını, belgelendirmeyi, yapılandırma dosyalarını ve diğer ilgili kaynakları içerir.
 
+21- "git tag" nedir? "git branch"’ten farkı nedir?
+“git tag”, belirli bir commit işaretçisine (commit ID veya branch adı) insanlar tarafından anlaşılabilir bir isim vermek için kullanılır. Bu işaretlenmiş noktalara "tag" denir. Tipik olarak, bir sürüm numarası veya bir yayın adı gibi anlamlı bir isimle birlikte belirli bir durumu veya tarihi işaretlemek için kullanılır.
+“git tag”, belirli bir noktayı işaretlemek ve etiketlemek için kullanılırken, “git branch” farklı geliştirme yollarını oluşturmak ve yönetmek için kullanılır.
+
