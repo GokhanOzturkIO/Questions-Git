@@ -19,3 +19,8 @@ Uzak depoya erişim izinleriniz olmayabilir veya yetkilendirme bilgileriniz yanl
 
 4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 "origin" ismi, Git tarafından varsayılan olarak uzak depoya verilen isimdir.
+
+----------------------------------------------
+
+5-"HEAD" kelimesi neyi temsil etmektedir?
+"HEAD" kelimesi şu anki çalışma branch'imizin son commit'ine işaret eder.
