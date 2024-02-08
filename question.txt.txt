@@ -49,3 +49,7 @@ Cevap 13:  “git clone” komutunu kullanırken, “-b <dal_ismi>” parametres
 Cevap 14: genellikle birden fazla kaynaktan (örneğin, farklı bir dallardan) gelen değişikliklerin aynı dosyanın aynı satırlarını etkilemesi sonucu ortaya çıkan bir durumdur. Bu durum, sistem tarafından otomatik olarak çözülemez ve manuel müdahale gerektirir.
 
 Cevap 15:  Bu komut, her commit’in kim tarafından, ne zaman ve hangi mesajla yapıldığını gösterir. Ayrıca, commit’in SHA-1 kodunu da gösterir. Bu kod, commit’i tanımlayan benzersiz bir değerdir. Bu komutu, “-p” parametresi ile kullanarak, commit’ler arasındaki değişiklikleri de görebilirsiniz.
+
+Cevap 16:  iki dosya, iki commit veya iki dal arasındaki değişiklikleri görebilirsiniz. Bu komut, değişiklikleri satır satır gösterir. Eğer parametre vermezseniz, bu komut, çalışma dizininizdeki (working directory) değişiklikleri gösterir.
+Eğer “git diff --staged” komutunu kullanırsanız, sahneleme alanındaki (staging area) değişiklikleri gösterir. Eğer “git diff <commit_1> <commit_2>” komutunu kullanırsanız, iki commit arasındaki değişiklikleri gösterir.
+Eğer “git diff <dal_1> <dal_2>” komutunu kullanırsanız, iki dal arasındaki değişiklikleri gösterir.
