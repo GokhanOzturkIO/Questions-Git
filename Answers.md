@@ -100,3 +100,10 @@ Her bir commit'in sadece belirli bir işe ayrılmasıdır. Örnek vermek gerekir
 ## Soru 20: Repository ne demektir?
 
 Kodların veya dosyaların koyulduğu ve commitlerle kayıtların yapıldığı bir saklama alanıdır.
+
+
+## Soru 21: "git tag" nedir? "git branch"’ten farkı nedir?
+
+"git tag" etiketleme işlemi yapar ve genellikle projenin sürüm numarasını ya da önemli bir noktayı işaretler.
+
+"git branch" proje için farklı dallar oluşturur. Bu dallarda proje için farklı özellikler geliştirilebilir.
