@@ -1,0 +1,7 @@
+1- Git Nedir ? :
+
+Git, dağıtık bir versiyon kontrol sistemidir. Yazılım geliştirme süreçlerinde, bir ekip veya bireylerin kodlarını takip etmelerine, yönetmelerine ve işbirliği yapmalarına olanak tanır. Git, projenin herhangi bir noktasındaki dosyaların ve kod değişikliklerinin takibini sağlar.Açık kaynaklıdır.
+
+2- "git pull" ile "git fetch" komutlarının farkı nedir? :
+
+-git fetch: Bu komut, uzak depodan güncel değişiklikleri indirir, ancak bu değişiklikleri yerel dalınıza birleştirmez. Yani, indirilen değişiklikler yereldeki işlemlerinizi etkilemez. git fetch komutu, uzak depodaki değişiklikleri yereldeki depo ile senkronize etmek için kullanılır. Yani, uzak depodaki son durumu yereldeki depoya getirir, ancak mevcut çalışma dizinindeki dosyaları değiştirmez.
