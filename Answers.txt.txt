@@ -47,11 +47,15 @@ CEVAP:Harici çalışabileceğimiz yan yollar sunar ayrı ayrı çalışmamızı
 
 
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
-2 yolu vardır 
+CEVAP:2 yolu vardır 
 1-git branch feature/isim
 2-git checkout -b feature/isim
 
 - Var olan bir "branch"e nasıl geçebiliriz?
+
+CEVAP: git checkout feature/geçmek istediğimiz branchin ismi
+
+
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "Merge conflict" ne demektir?
 - "git log" komutu ile hangi bilgileri görebiliriz?
