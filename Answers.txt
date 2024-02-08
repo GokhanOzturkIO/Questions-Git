@@ -1,0 +1,2 @@
+1- Git Nedir?
+Git, Linux geliştiricisi Linus Torvalds tarafından geliştirilen versiyon kontrol sistemidir.
