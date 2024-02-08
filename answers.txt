@@ -41,5 +41,8 @@ git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün
 15- git log komutu ile yapılan bütün commitleri, commitlerin id'lerini, zamanın ve kimin yaptığını görebiliriz.
 16- git diff <commit1> <commit2> ile iki farklı durumun arasındaki farkı görebiliriz.
 17- Bu komut, çalışma dizinindeki dosyaları, Staging Alanı'ndaki dosyaları veya HEAD işaretçisini (son commit'i) belirli bir duruma geri döndürmenizi sağlar.
+18- git commit yapılan değişikleri yerel bir Git deposuna kaydetmek için kullanılır.
+    git push yapılan değişikleri uzak sunucudaki Git deposuna aktarmak için kullanılır.
+
 
 
