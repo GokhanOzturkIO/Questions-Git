@@ -12,3 +12,6 @@ Origin uzak sunucudaki repoyu belirtir.
 
 5- "HEAD" kelimesi neyi temsil etmektedir?
 HEAD kelimesi anlık olarak bulunduğumuz konumu gösterir. Örneğin commit üzerindeysek o commiti, bir branch üzerindeysek o branchi gösterir.
+
+6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+"Staging Area" ya da "Index" değişiklikleri commit etmeden önce kullandığımız geçici bir depolama alanıdır.
