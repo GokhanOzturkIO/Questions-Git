@@ -3,3 +3,6 @@ Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon konrol sistem
 Aynı zamanda Git kod üzerinde yapılan değişikliklerin izlenmesini ve geri alınmasını sağlar. 
 
 ---------------------------------------------
+
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+"git fetch" uzak değişiklikleri alır ancak yerel dosyaları güncelleştirmezken, "git pull" hem uzak değişiklikleri alır hem de yerel dosyaları günceller. 
