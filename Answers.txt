@@ -54,3 +54,6 @@ git reset Staging Area'daki değişiklikleri Staging Area'dan çıkartır. Ancak
 
 18. "git commit" ile "git push" arasındaki fark nedir?
 git commit komutu Staging Area'daki değişiklikleri yereldeki Local Repository'ye gönderir. git push komutu Local Repository'deki değişiklikleri uzaktaki Remote Repository'ye gönderir.
+
+19. Atomic commit ne demektir?
+Atomic commit, commit atarken atılan commit'lerin bölünemez atomlar şeklinde yani az ve öz değişiklikler içerecek şekilde olması, commit yorumlarının anlaşılır ve belli kurallara uyuyor olması gibi commit'leri kolay şekilde değiştirilebilir, geri alınabilir hale getiren davranışları bünyesinde toplayan bir terimdir.
