@@ -50,3 +50,5 @@ Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi geri almaz.
 18) "git commit" ile "git push" arasındaki fark nedir: "git commit" komutu, değişikliklerimizi ve versiyonlarımızı lokale kaydeder. 
 "git push" ise, değişikliklerimizi ve versiyonlarımızı uzak sunucuya kaydeder, orada saklar.
 
+19) Atomic commit ne demektir: Atomic commit, tek bir iş yapan, geri alınması kolay ve zahmetsiz olan, yapılan işi tam anlamıyla açıklayan, kısa ve öz commit mesajıdır.
+
