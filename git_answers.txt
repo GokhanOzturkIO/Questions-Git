@@ -5,3 +5,8 @@ Git, ekip çalışmasına olanak veren ve karışıklık yaşanma ihtimalinin ö
 2."git pull" ile "git fetch" komutlarının farkı nedir?
 
 git pull`da olan degisikligi localine alip kendi branchlerine gelmis ekstra commitleri cekebilirken git fetch bize olan degisikligi haber verir, localler etkilenmez.Diger arkadaslar kendi locallerindekilerle uzak sunucuya esitleniyorlar.
+
+3. Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+
+Master/ main branch`i lockladilarsa(Bundan dolayi arkadasim degisiklikleri sadece kendi lokalinde yapmis our), takim arkadasim origin yerine baska bir uzak depodan gondermis olabilir veya takim arkdasimla benim lokalimizde yapmis oldugumuz kodlamalar cakismis olabilir.
