@@ -39,3 +39,6 @@ Var olan branche geçmek için git checkout komutunu kullanmalıyız. Geçmek is
 13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 Spesifik bir branchi çekmek istiyorsak şu komutu yazmalıyız
 git clone --single-branch <branch.name> <url>
+
+14-"Merge conflict" ne demektir?
+Git'te iki farklı değişikliğin aynı satırları veya dosyaları içeren bölümlerin arasındaki farkın uyumsuz olduğunda ortaya çıkan durumdur.
