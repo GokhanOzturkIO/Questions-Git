@@ -4,3 +4,13 @@ aşamalarını kaydedebilir, geri alabilir, karşılaştırabilir ve birleştire
 Cevap 2: “git pull” komutu, uzak depodaki (remote repository) değişiklikleri yerel depoya (local repository) indirir ve mevcut dalımızla (branch) birleştirir (merge). 
 “git fetch” komutu ise sadece uzak depodaki değişiklikleri indirir, ancak yerel depoyu değiştirmez. Bu sayede, uzak depodaki değişiklikleri inceleyip, yerel depoyu güncellemeye karar verebiliriz.
 
+Cevap 3: Eğer takım arkadaşınız “kodlarımı gönderdim, benim geliştirmemin üzerine devam et” derse ve gönderdiği kodları “git pull” ile lokalize alamıyorsanız,
+muhtemelen şu hatalardan birini yapmış olabilirsiniz:
+
+-Uzak depoyu tanımlamamış olabilirsiniz. Bunu yapmak için “git remote add origin <uzak_depo_url>” komutunu kullanabilirsiniz.
+-Uzak depoyu yanlış tanımlamış olabilirsiniz. Bunu kontrol etmek için “git remote -v” komutunu kullanabilirsiniz. 
+ Eğer yanlışsa, “git remote set-url origin <yeni_uzak_depo_url>” komutu ile düzeltebilirsiniz.
+-Uzak depoyu güncellememiş olabilirsiniz. Bunu yapmak için “git fetch origin” komutunu kullanabilirsiniz.
+-Uzak depodaki dal ile yerel depodaki dal arasında uyumsuzluk olabilir. Bunu kontrol etmek için “git branch -a” komutunu kullanabilirsiniz.
+ Eğer uyumsuzluk varsa, “git checkout <uzak_depo_dalı>” komutu ile yerel depodaki dalı değiştirebilirsiniz.
+
