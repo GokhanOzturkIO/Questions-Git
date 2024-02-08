@@ -172,7 +172,11 @@ GitLab, Bitbucket
 
 github: @madenyasin
 
+---------------------------------------
 
+24) main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Projenin asıl yapısı bu branchlerde saklanır. Örnek olarak bir proje canlıya master repodan çıkış yapıyor olabilir. Diğer branchler de canlıda herhangi bir olumsuz etki oluşturmamak için main branchinden kopyalanmış bir yan proje olarak devam eder. İstenildiğinde yeni özellikler main branche entegre edilir.
 
 
 
