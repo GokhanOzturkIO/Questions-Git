@@ -27,3 +27,5 @@
 14-Merge conflict ,iki farklı branch üzerinde çalışan iki kişinin yaptığı değişikliklerin ana branch'de birleştirilirken, ana branch'te aynı konumda iki farklı değişiklik olduğunda ortaya çıkar.
 
 15-Git log komutu ile daha önce yapmış olduğumuz commitleri kimin ne zaman ne yaptığını ve en son bulunduğumuz branch'i görürüz.
+
+16-Git diff ile son commit ve staged area arasındaki farklar,working directory ve son commit arasındaki farklar, working directory ve staged area arasındaki farkları gösterebilir.
