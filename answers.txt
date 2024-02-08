@@ -29,3 +29,7 @@ git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün
 
 10- projemizin farklı versiyonlarını geliştirmemizi ve proje içerisindeki kişilerin ayrı ayrı kısımları yapmasına olanak sağlar.
 
+11- git branch <branch adı>
+
+12- git checkout <branch adı>
+
