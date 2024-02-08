@@ -18,6 +18,11 @@ CEVAP:
 CEVAP:bir projeyi klonladığımızda klonladığımız projeyi ana sunucusundaki projeyi yani projenin orijinal kaynağını ifade eder
 
 - "HEAD" kelimesi neyi temsil etmektedir?
+
+CEVAP:Atılan son commiti ve ya bağlı oldğumuz başka işlemler içinde o anki açıkta olan branchi işaret eder.Yani bir commit üzerinde çalışıyorsak head direkt o commiti gösterir
+
+
+
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?
 - ".git" klasörünü silersek ne olur?
