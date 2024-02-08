@@ -23,3 +23,6 @@ Cevap 5: “HEAD” kelimesi, yerel depodaki mevcut dalı veya son commit’i te
 Cevap 6 : “Staging Area” ya da “Index” diye isimlendirilen bölge, commit etmek istediğiniz dosyaları tutan bir ara bölgedir. 
  Bu bölgeye dosya eklemek için “git add <dosya_ismi>” komutunu kullanabilirsiniz. Bu bölgedeki dosyaları commit etmek için “git commit -m <mesaj>” komutunu kullanabilirsiniz.
 
+Cevap 7: “Untracked file”, git tarafından takip edilmeyen, yani versiyon kontrolü altında olmayan bir dosyadır.
+ Bu dosyalar, yeni oluşturulmuş veya kopyalanmış olabilir. Bu dosyaları git’e tanıtmak için “git add <dosya_ismi>” komutunu kullanabilirsiniz.
+
