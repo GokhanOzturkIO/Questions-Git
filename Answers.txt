@@ -128,9 +128,17 @@ Staging areadaki dosyaları çalışma dizinine döndürür ve son committen son
 ---------------------------------------
 
 18) "git commit" ile "git push" arasındaki fark nedir?
+
 commit işlemi yapılan değişiklikler için bir kontrol noktası oluşturur. İstenildiği zaman bu değişikliklere geri dönülebilir. Push işlemi ile de bu commitler ve diğer bilgiler uzak repoya gönderilir. Uzak repo son yapılan işlemlerle birlikte güncellenmiş olur.
 
+---------------------------------------
 
+19) Atomic commit ne demektir?
+
+Atommic commit bazı git kullanıcıları tarafından tavsiye edilen bir git kullanımı türüdür.
+Burada amaç görevimizi bölünemeyecek küçük parçalara ayırıp her bir görevi ayrı commitlerde bitirmektir.
+Her commit atıldığında belirli bir işlev bitmiş ve çalışır durumda olmalıdır.
+Aynı zamanda commit mesajlarını olabildiğince basit ve anlaşılır atılması istenir. (Gerektiğinde önceden belirlenmiş formatlarda mesajlar atılır.)
 
 
 
