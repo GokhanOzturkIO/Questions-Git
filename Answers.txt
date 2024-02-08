@@ -125,7 +125,10 @@ HEAD'in konumuna göre hangi branchde veya commit içerisinde olduğumuzu göreb
 
 Staging areadaki dosyaları çalışma dizinine döndürür ve son committen sonra yapılan değişiklikleri geri alır.
 
+---------------------------------------
 
+18) "git commit" ile "git push" arasındaki fark nedir?
+commit işlemi yapılan değişiklikler için bir kontrol noktası oluşturur. İstenildiği zaman bu değişikliklere geri dönülebilir. Push işlemi ile de bu commitler ve diğer bilgiler uzak repoya gönderilir. Uzak repo son yapılan işlemlerle birlikte güncellenmiş olur.
 
 
 
