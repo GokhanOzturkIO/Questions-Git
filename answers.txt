@@ -305,8 +305,24 @@ projenin çalışmasını veya güvenliğini etkilemeyen dosyalardır.
 .gitignore dosyası, projenin temiz ve düzenli kalmasına yardımcı olurken, gereksiz dosyaların ve dizinlerin depoya eklenmesini önler.
 Bu, depo boyutunu küçültür ve gereksiz değişikliklerin veya istenmeyen dosyaların takip edilmesini önler.
 -----------------------------------------------------------------------------------------
+Soru 26: "git push origin --delete branch_name” nedir ve ne için kullanılır?
 
+Cevap: git push origin --delete branch_name komutu, uzak bir depodan (genellikle GitHub gibi) belirtilen bir branch'ı silmek için kullanılır.
 
+ İşlevi şu şekildedir:
+
+git push: Yereldeki commitleri uzak depoya göndermek için kullanılan git komutu.
+
+origin: Uzak depo adıdır. Genellikle, yerel depoyu klonladığınızda otomatik olarak "origin" adı altında uzak depo bağlantısı oluşturulur.
+
+--delete: Silme işlemini belirtir. Yani, bu komutun ardından silme işlemi gerçekleştirileceğini belirtir.
+
+branch_name: Silinmek istenen branch'ın adıdır.
+
+Yani, git push origin --delete branch_name komutu, belirtilen branch'ın uzak depodan silinmesini sağlar.
+Özellikle gereksiz veya artık kullanılmayan branch'ları temizlemek için sıklıkla kullanılır.
+
+------------------------------------------------------------------------------------------
 
 
 
