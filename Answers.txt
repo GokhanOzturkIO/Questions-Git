@@ -178,12 +178,15 @@ github: @madenyasin
 
 Projenin asıl yapısı bu branchlerde saklanır. Örnek olarak bir proje canlıya master repodan çıkış yapıyor olabilir. Diğer branchler de canlıda herhangi bir olumsuz etki oluşturmamak için main branchinden kopyalanmış bir yan proje olarak devam eder. İstenildiğinde yeni özellikler main branche entegre edilir.
 
+---------------------------------------
 
+25) ".gitignore" dosyası nedir ve ne amaçla kullanılır?
 
+".gitignore" dosyasında git'in takip etmesini istemediğimiz dosyaları veya dosya türlerini belirtiriz. Bu şekilde projeyle alakası olmayan dosyaların versiyonlamasını engellemiş oluruz.
 
+API KEY gibi özel bilgilerin saklandığı dosyalar ya da klasörler ".gitignore" dosyasında belirtilirse bir uzak repoya proje pushlandığında herhangi bir güvenlik zaafiyeti oluşmamış olur. Çünkü bu bilgiler git tarafından izlenmediğinden uzak repoya gönderilmez.
 
-
-
+---------------------------------------
 
 
 
