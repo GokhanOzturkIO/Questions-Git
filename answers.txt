@@ -20,3 +20,6 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 8) ".git" klasörünü silersek ne olur: .git klasörünü silersek, Git tarafından kaydedilen bilgiler silinir ve o klasör artık Git Repository'si olmaktan çıkar. 
 Öncesinde commit'leri uzak bir sunucuya push'lamadıysak tüm versiyon kontrollerimizi kaybederiz.
 
+9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+Bir template klasörü oluşturup, içerisinde ReadMe.md dosyası oluşturup, "git init --template <directory>" komutunu çalıştırarak Git'i başlatabiliriz.
+
