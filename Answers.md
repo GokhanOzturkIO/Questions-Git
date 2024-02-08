@@ -107,3 +107,11 @@ Kodların veya dosyaların koyulduğu ve commitlerle kayıtların yapıldığı 
 "git tag" etiketleme işlemi yapar ve genellikle projenin sürüm numarasını ya da önemli bir noktayı işaretler.
 
 "git branch" proje için farklı dallar oluşturur. Bu dallarda proje için farklı özellikler geliştirilebilir.
+
+## Soru 22: Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+1- [Github Desktop](https://desktop.github.com/)
+
+2- [Git Kraken](https://www.gitkraken.com/git-client) (Ücretli)
+
+3- [Source Tree](https://www.sourcetreeapp.com/)
