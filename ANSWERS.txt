@@ -43,3 +43,7 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 
 14-"Merge conflict" ne demektir?
 -genellikle Git'te iki farklı kaynaktan gelen değişikliklerin aynı dosyanın aynı bölümlerini etkilediğinde ortaya çıkar. Birleştirme (merge) işlemi sırasında, Git bu durumu tespit eder ve çakışma çözülmeden birleştirme işlemini tamamlamaz.
+
+15-"git log" komutu ile hangi bilgileri görebiliriz?
+-atılan commiti, tarihini, yazarını görebiliriz.
+
