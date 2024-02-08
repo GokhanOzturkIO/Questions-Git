@@ -23,3 +23,5 @@ yeni bir dosya oluşturuyorsak projede bunu staging area almadığımız takdird
 *******************************************
 7) "Untracked file" ne demektir? -> Dosya üzerinden yapılan değişikliklerden Git in haberi yok demektir. Git takip etmemiş oluyor o dosyayı.
 *******************************************
+8) ".git" klasörünü silersek ne olur? -> Git ile kaydedilen bilgiler kaybolur ve de dizin Git repo görevini üstlenmeyecektir.
+*******************************************
