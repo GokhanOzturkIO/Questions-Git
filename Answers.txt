@@ -181,3 +181,9 @@ Master branch, diğer branch'lerden daha günceldir. Diğer branch'lerde yapıla
 -Geçici Dosyaları ignore Etmek
 -Proje içerisindeki hassas bilgileri ignore Etmek
 -Yedek Dosyaları İgnore Etmek
+
+------------------------------------------
+
+26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+Bu işlem, uzak depodaki branch'ın tamamen silinmesine neden olur. Bu komut genellikle artık kullanılmayan veya gereksiz hale gelen bir branch'ı temizlemek veya gereksiz branch'ları depodan kaldırmak için kullanılır.
