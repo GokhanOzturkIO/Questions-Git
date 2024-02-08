@@ -56,3 +56,6 @@ Eğer “git diff <dal_1> <dal_2>” komutunu kullanırsanız, iki dal arasında
 
 Cevap 17: son commit’i geri alabilirsiniz. Bu komut, HEAD’i belirlediğiniz bir commit’e taşır. Bu sayede, son commit’ten sonra yaptığınız değişiklikleri iptal edebilirsiniz. Bu komutu, “–soft”, “–mixed” veya “–hard” parametreleri ile kullanabilirsiniz.
  “–soft” parametresi, sahneleme alanını değiştirmez, sadece HEAD’i taşır. “–mixed” parametresi, sahneleme alanını da değiştirir, ancak çalışma dizininizi değiştirmez. “–hard” parametresi, hem sahneleme alanını hem de çalışma dizinini değiştirir. 
+
+Cevap 18:  sahneleme alanındaki dosyaları yerel depoya kaydedersiniz. Bu komut, commit mesajı girmenizi ister. Bu mesaj, commit’inizi açıklayan kısa ve anlamlı bir metin olmalıdır. “git push” komutu ile, yerel depodaki değişiklikleri uzak depoya gönderersiniz.
+ Bu komut, uzak depoyu ve dalı belirtmenizi ister. Eğer bunları belirtmezseniz, varsayılan olarak “origin” ve “master” kullanılır.
