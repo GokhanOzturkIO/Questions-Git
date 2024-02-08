@@ -1,0 +1,6 @@
+1) Git Nedir ?  → Bir versiyon kontrol sistemidir. Git sayesinde yapacağımız projelerin her bir adımını kaydedip 
+daha sonrasında olası herhangi bir dosya veya kod parçasını silme gibi durumda yapılan değişiklikleri geri alabiliriz. 
+Aynı zamanda proje üzerinde çalışan bir çok kişinin projede yaptığı her bir değişikliğin kaydedilmesi ve 
+diğer kişiler tarafından görülmesini de sağlar. Bu şekilde takım çalışmalarında projenin yönetimini kolaylaştırır ve eş zamanlı 
+çalışmayı destekler.
+*******************************************
