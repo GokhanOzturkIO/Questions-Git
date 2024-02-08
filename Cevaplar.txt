@@ -49,4 +49,7 @@ Var olan bir branch'e git checkout komutu ile geçeriz.
 17- Git reset ile neyi geri alıyoruz?
 "git reset" ile Staging Area'daki değişiklikleri geri alıyoruz. 
 
+18- "git commit" ile "git push" arasındaki fark nedir
+"git commit" ile yapılan işlemleri kendi lokalimize kaydederken "git push" ile yapılan projeyi kendi lokalimizden uzaktaki sunucuya gönderiyoruz.
+
 
