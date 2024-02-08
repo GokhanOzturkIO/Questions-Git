@@ -38,3 +38,7 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 12-Var olan bir "branch"e nasıl geçebiliriz?
 -örneğin 'git checkout feature/<branch adı>' komutuyla geçilebilir.
 
+13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+-git clone --branch <branch adı> <repo linki>
+
+
