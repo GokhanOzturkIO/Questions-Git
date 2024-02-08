@@ -133,3 +133,9 @@ git push komutu ise, localdeki commitleri uzak sunucuya göndermek için kullan�
 
 Atomic commit, bir özellik eklemek için yapılan değişikliklerle birlikte bu özelliği desteklemek için gerekli olan diğer dosyalardaki değişiklikler de aynı commit işlemine dahil edilir. 
 Bu şekilde, projenin farklı parçaları arasında tutarlılık sağlanır ve geri alma işlemleri daha kolay hale gelir.
+
+------------------------------------------
+
+20. Repository ne demektir?
+
+Repository, bir projenin veya yazılımın kaynak kodlarının, dosyalarının ve tarihçesinin saklandığı, versiyon kontrol sistemi tarafından yönetilen bir depodur.
