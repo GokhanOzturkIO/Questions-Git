@@ -2,3 +2,8 @@ Git Nedir?
 Bir dosya veya proje üzerinde birden fazla kişi değişiklik yapacaksa bu değişikliklerin takibini 
 yaptığımız versiyon kontrol sistemine verilen addır.
 -----------------------------------------------------------------------------------------------------------------------------
+"git pull" ile "git fetch" komutlarının farkı nedir?
+Git fetch ile uzak sunucudaki değişiklikleri kendi local repomuzun haberdar olmasını sağlarken 
+güncellemeleri değiştirmez.
+Git pull ise uzak sunucudaki değişiklikleri kendi local repomuza alarak değişiklikleri günceller.
+-----------------------------------------------------------------------------------------------------------------------------
