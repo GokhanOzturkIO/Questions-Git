@@ -33,3 +33,10 @@
 17-Staging areadaki değişiklikleri geri almak ve yaptığımız commitlere geri dönme işlemleri yapılabilir.
 
 18-Git commit ile yaptığımız değişiklikleri lokal olarak kaydederiz fakat bunu sunucuya pushlamazsak diğer kullanan kişiler bizim yaptığımız değişiklikler üzerinden çalışamaz.
+
+19-Atomic commit, birden çok değişikliği tek bir adımda ve mantıklı bir şekilde kaydetme işlemidir.
+
+
+
+
+
