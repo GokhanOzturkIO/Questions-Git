@@ -9,3 +9,6 @@ Takım arkadaşım git commit ile kaydedip git push ile uzak sunucuya kodları g
 
 4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 Origin uzak sunucudaki repoyu belirtir.
+
+5- "HEAD" kelimesi neyi temsil etmektedir?
+HEAD kelimesi anlık olarak bulunduğumuz konumu gösterir. Örneğin commit üzerindeysek o commiti, bir branch üzerindeysek o branchi gösterir.
