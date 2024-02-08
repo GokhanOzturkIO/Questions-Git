@@ -172,3 +172,12 @@ Git, sistemin adıdır. Github gibi sayfalar ise, git projelerini barındıran w
 Git'te proje oluşturulduğunda varsayılan olarak main/master branch'i oluşturulur. Eğer farklı bir branch oluşturulmazsa bütün işlemleri master branch'in üzerinde yapılmış olur. 
 Master branch, diğer branch'lerden daha günceldir. Diğer branch'lerde yapılan değişiklikler master branch ile birleştirildikten sonra kullanılabilir.
 
+------------------------------------------
+
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+.gitignore dosyası, bir Git deposunda izlenmeyen dosyaları ve klasörleri belirtmek için kullanılan bir dosyadır. 
+
+-Geçici Dosyaları ignore Etmek
+-Proje içerisindeki hassas bilgileri ignore Etmek
+-Yedek Dosyaları İgnore Etmek
