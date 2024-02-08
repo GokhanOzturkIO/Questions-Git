@@ -54,3 +54,6 @@ Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi geri almaz.
 
 20) Repository ne demektir: Repository, versiyonladığımız şeylerin tutulduğu, lokalde veya uzak sunucuda bulunabilen bir depodur.
 
+21) "git tag" nedir? "git branch"’ten farkı nedir?: "git tag" komutu, kilometretaşı tarzında bir yapıdır. Projenin anlık snapshot'ını alır.
+"git branch" komutu ise, farklı geliştirme yolları oluşturmak için kullanılır. Branch,değiştirilip silinebilirken tag, değiştirilemez ve silinemez.
+
