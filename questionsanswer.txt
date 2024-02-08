@@ -2,3 +2,5 @@
 -Git, dağıtık bir sürüm kontrol sistemidir ve dosyalar üzerinde versiyonlama yapmak için kullanılır. Ayrıca, beraber çalışma süreçlerindeki zorlukları ortadan kaldırarak işbirliğini kolaylaştırır.
 2-git pull ile git fetch komutlarının farkı nedir  
 -Her iki komutta uzak depodan güncellemeleri alır git pull yerel çalışmasını güncellerken git fetch yerel çalışma kopyasını güncellemez
+3-Eğer takım arkadaşımız kodlarımı gönderdim, benim geliştirmemin üzerine devam et derse ve gönderdiği kodları git pull ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir
+-Takım arkadaşımız geliştirmelerini git push komutu ile uzak sunucuya göndermemiş olabilir veya farklı bir branch'e push olabilir
