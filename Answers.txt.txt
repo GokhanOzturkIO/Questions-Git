@@ -103,6 +103,11 @@ CEVAP: bir yazılım projesinin veya bir projenin tüm dosyalarının, geçmişi
 
 - "git tag" nedir? "git branch"’ten farkı nedir?
 
+CEVAP:Harici çalışabileceğimiz yan yollar sunar ayrı ayrı çalışmamızı sağlar birbirinden bağımsız aynı projede çalışmayı sağlar bunun yararı sürekli conflict olmamak içindir ÖRNEĞİN İKİ KİŞİYE BİRER KOPYA VERİR EN SONRA BİRLEŞTİRİRKEN CONFLİCT OLURSA O ZAMAN KARŞILAŞTIRIR./branch
+tag ise versiyon kontrolü gibi bir şeydir yaptığımız güncelleme iyileştirme vs gibi şeylere tag koyarak daha anlaşılır olmasını sağlarız ve ileride yaptığımız değişikliği beğenmezsek geri dönme imkanı sağlar 
+ÖRNEĞİN: git tag v.1.0/git tag v1.1 vb gibi gider
+tag belirli bir commiti işaretlemek için kullanılırken branch komutu farklı geliştirme dalları oluşturmak için kullanılır
+
 
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
