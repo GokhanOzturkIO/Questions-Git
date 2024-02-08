@@ -148,7 +148,12 @@ Proje dosyaları ve sürüm geçmişinin saklandığı dizindir. (Bir nevi proje
 Local repositoryde kullanıcının bilgisayarında bulunan depolardır.
 Uzak repolar ise sunucular üzerinde bulunan depolardır.
 
+---------------------------------------
 
+21) "git tag" nedir? "git branch"’ten farkı nedir?
+
+Tag'ler belirli bir committe atanan bir referanstır. Projenin önemli noktalarını belirtmek için kullanılır.
+Branch yapısı ise ana projeye paralel bir kopya üzerinden geliştirme yapmamızı sağlar.
 
 
 
