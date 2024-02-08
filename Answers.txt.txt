@@ -32,11 +32,18 @@ CEVAP:Sıfırdan bir dosya oluşturduğumuzda untracked files olarak işaretler 
 
 - ".git" klasörünü silersek ne olur?
 
-tüm dosyaları bağımsız olarak bırakır ve dosyaların git ile hiçbir bağlantısı kalmaz yönetilemez açılan branchler yazılan kodlar kısaca tüm commitler ve her şey kaybolur
+CEVAP:tüm dosyaları bağımsız olarak bırakır ve dosyaların git ile hiçbir bağlantısı kalmaz yönetilemez açılan branchler yazılan kodlar kısaca tüm commitler ve her şey kaybolur
 
 
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+CEVAP:Bilmediğim için chatgptye sordum 
+kısaca bir .git dosyasının içinde -templates klasörü oluşturup oluşturduğumuz bu klasöre README.md dosyasını kopyalamalıyız.
+
+
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
 - Var olan bir "branch"e nasıl geçebiliriz?
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
