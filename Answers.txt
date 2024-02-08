@@ -7,3 +7,12 @@ Git fetch ile uzak sunucudaki değişiklikleri kendi local repomuzun haberdar ol
 güncellemeleri değiştirmez.
 Git pull ise uzak sunucudaki değişiklikleri kendi local repomuza alarak değişiklikleri günceller.
 -----------------------------------------------------------------------------------------------------------------------------
+Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine 
+devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak 
+nerelerde hata yapılmış olabilir? 
+-Arkadaşımız yazdığı kodları remote sunucuda bulunan repoya göndermemiştir. Yani git push 
+komutunu kullanmamıştır.
+-Arkadaşımız kodlarını commitlememiş olabilir.(commitledemen de pushlayamayacağı için push 
+atamamıştır)
+-Biz kodda değişiklik yapıp commitlemediğimiz için pull edemiyor olabilir.
+-----------------------------------------------------------------------------------------------------------------------------
