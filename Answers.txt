@@ -28,3 +28,6 @@ Untracked file, bu dosyadaki değişiklikler henüz git tarafından kontrol edil
 10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Branch, farklı özellikler veya işlevler üzerinde aynı anda çalışmayı, yeni bir özellik veya değişiklik denemek istenildiğinde, bunu ana dalı etkilemeden bir dalda yapabilmeyi, belirli bir özelliğin veya hata düzeltmesinin geçmişini inceleyebilmeyi, gerektiğinde geriye dönebilmeyi veya değişiklikleri birleştirebilmeyi ve Ana dal’ın (genellikle "master" dalı) stabil ve kullanıma hazır olan sürümün korunmasını sağlar.
 
+11- Sıfırdan bir "branch" nasıl oluşturabiliriz?
+“git branch branchadi” komutuyla sıfırdan bir “branch” oluşturulabilir.
+
