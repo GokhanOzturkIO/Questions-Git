@@ -28,3 +28,9 @@ yeni bir dosya oluşturuyorsak projede bunu staging area almadığımız takdird
 9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız? -> sh dosyası oluşturarak
 git init komutunu her çağırdığımızda bu işlemi sağlayabiliriz.
 *******************************************
+10) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar? -> Branch işlemi ile aslında projemizi dallara ayırıyoruz. Örneğin: proje üzerinde
+sonradan aklımıza gelen bir geliştirme yapacağız. Fakat bu geliştirmeyi ana proje yapısına direkt eklemeden ayrı olarak geliştirmek istiyoruz. Bunu isteme sebebimiz
+ise geliştirme esnasında hata alabilme ya da bir sorun olma ihtimaline karşın ana projemizi etkilenmeyecek konumda tutmak. Bu sebeple branch ler açıp geliştirmeler
+yapıyoruz. Aynı zamanda proje üzerinde farklı branch ler açarak bir çok kişi aynı anda geliştirme yapabilme imkanına sahip oluyor ana projeyi etkilemeden.
+*******************************************
+
