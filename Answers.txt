@@ -140,7 +140,13 @@ Burada amaç görevimizi bölünemeyecek küçük parçalara ayırıp her bir g�
 Her commit atıldığında belirli bir işlev bitmiş ve çalışır durumda olmalıdır.
 Aynı zamanda commit mesajlarını olabildiğince basit ve anlaşılır atılması istenir. (Gerektiğinde önceden belirlenmiş formatlarda mesajlar atılır.)
 
+---------------------------------------
 
+20) Repository ne demektir?
+
+Proje dosyaları ve sürüm geçmişinin saklandığı dizindir. (Bir nevi projenin içinde bulunduğu depodur.) Uzak ve local repository olarak 2 farklı repository türü vardır.
+Local repositoryde kullanıcının bilgisayarında bulunan depolardır.
+Uzak repolar ise sunucular üzerinde bulunan depolardır.
 
 
 
