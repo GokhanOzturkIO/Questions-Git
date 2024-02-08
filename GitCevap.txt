@@ -45,3 +45,5 @@ Cevap 12:  Var olan bir "branch"e geçmek için “git checkout <dal_ismi>” ko
 
 Cevap 13:  “git clone” komutunu kullanırken, “-b <dal_ismi>” parametresini ekleyerek, belirli bir spesifik branch’i sadece çekebilirsiniz.
 Örneğin, “git clone -b develop <uzak_depo_url>” komutu, uzak depodaki “develop” dalını yerel depoya klonlar.
+
+Cevap 14: genellikle birden fazla kaynaktan (örneğin, farklı bir dallardan) gelen değişikliklerin aynı dosyanın aynı satırlarını etkilemesi sonucu ortaya çıkan bir durumdur. Bu durum, sistem tarafından otomatik olarak çözülemez ve manuel müdahale gerektirir.
