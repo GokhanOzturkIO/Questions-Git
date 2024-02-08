@@ -28,3 +28,5 @@ Bir template oluşturduktan sonra git'i başlatırken git init --template <templ
 10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Farklı kişilerin çalışmalarının karışmasını önler. Herkes projenin bir parçasıyla ilgili çalışır ve kendi branch'inde değişiklikler yapar. Sonra bu değişikliklerden uygun olanları ana branch'e alınır yani projenin ana kodlarına uygulanır. Eğer herkes aynı branch'te çalışsaydı ve bir parçada birden fazla kişi değişiklik yapıyor olsaydı çakışmalar yani conflict'ler meydana gelirdi.
 
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
+git branch <branch-adı> komutu ile sıfırdan branch oluşturulabilir.
