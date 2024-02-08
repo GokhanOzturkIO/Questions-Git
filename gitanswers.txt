@@ -4,4 +4,4 @@ Git, dağıtık bir versiyon kontrol sistemidir. Yazılım geliştirme süreçle
 
 2- "git pull" ile "git fetch" komutlarının farkı nedir? :
 
--git fetch: Bu komut, uzak depodan güncel değişiklikleri indirir, ancak bu değişiklikleri yerel dalınıza birleştirmez. Yani, indirilen değişiklikler yereldeki işlemlerinizi etkilemez. git fetch komutu, uzak depodaki değişiklikleri yereldeki depo ile senkronize etmek için kullanılır. Yani, uzak depodaki son durumu yereldeki depoya getirir, ancak mevcut çalışma dizinindeki dosyaları değiştirmez.
+git fetch komutu, uzak depodaki değişiklikleri alır ve yerel depoyu güncellemeden önce onları yerelde saklar. git pull ise, aynı işlemi yapar, ancak ayrıca yerel depoyu güncellemek için de bir birleştirme işlemi gerçekleştirir.
