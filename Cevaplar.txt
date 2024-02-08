@@ -61,5 +61,8 @@ Repository depo demektir. Bir projenin bilgilerinin depo edildiği yerdir.
 21- "git tag" nedir? "git branch"’ten farkı nedir?
 "git tag" komutu belirli bir commit'i etiketlemek için kullanılır. Bu genelde geliştirdiğimiz uygulamanın herhangi bir sürümü olabilir. Bu şekilde önceki commit'ler arasından hızlı bir şekilde o commit'i bulmamızı sağlar. "git tag" ile commit'leri etiketlerken "git branch" ile ana akışın dışında yan yollar açarız.
 
+22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Git'i görsel olarak kullanabilmek için; Sublime Merge, Github, Git Tower, Source Tree App, Git Fork, Git Kraken gibi üçüncü taraf araçları ve uygulamaları kullanabiliriz.
+
 
 
