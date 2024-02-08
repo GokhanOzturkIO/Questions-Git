@@ -65,3 +65,16 @@ Farklı branch'ler üzerinde çalıştıktan sonra bu branchler amaçlarına ula
 ## Soru 15: "git log" komutu ile hangi bilgileri görebiliriz?
 
 Bu komut ile git projesinde o anda bulunduğumuz branch'in commit geçmişini görüntüleriz.
+
+
+## Soru 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+1- "git diff" Bu komut ile working directory ile staging area arasındaki farkları görebiliriz.
+
+2- "git diff --cached" Bu komut ile staging area ile local repository arasındaki farkları görebiliriz.
+
+3- "git diff HEAD" Bu komut ile local repository ile working directory arasındaki farkları görebiliriz.
+
+4- "git diff [commit_id] [other_commit_id]" Bu komut ile iki commit arasındaki farkları görebiliriz.
+
+5- "git diff [branch_ismi] [diger_branch_ismi]" Bu komut ile iki branch arasındaki farkları görebiliriz.
