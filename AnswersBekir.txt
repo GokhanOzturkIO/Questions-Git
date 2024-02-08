@@ -21,3 +21,5 @@
 11-Sıfırdan branch oluştururken terminalden git branch <Branch_adı> şeklinde yapabiliriz.
 
 12-Branchler arasında geçiş yaparken git checkout <Branch_adı> komutu kullanılır.
+
+13-Uzak sunucudan git clone ile spesifik bir branch i klonlamak için git clone --single-branch -b <branch_adı> <depo_URL> komutlarını terminale gireriz.
