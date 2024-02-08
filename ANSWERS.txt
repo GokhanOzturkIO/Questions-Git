@@ -18,3 +18,7 @@
 
 7-"Untracked file" ne demektir?
 -git'in çalışma dizinindeki dosyaları takip etmediği anlamına gelir.
+
+8-".git" klasörünü silersek ne olur?
+-.git klasörünü silmek bütün değişiklikleri siler ve proje kontrolünü imkansız hale getirir.
+
