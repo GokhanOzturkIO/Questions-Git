@@ -43,4 +43,6 @@ Branch, farklı özellikler veya işlevler üzerinde aynı anda çalışmayı, y
 15- "git log" komutu ile hangi bilgileri görebiliriz?
 Bu komut ile Commit’in hash code’unu , Commit’i yazan kişinin adını ve e-posta adresini, Commit’in yazılma tarihini ve Commit mesajını görebiliriz. 
 
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+Bu komut ile 2 branch ve 2 commit arasındaki değişiklikleri gösterebiliriz.
 
