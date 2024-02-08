@@ -8,3 +8,5 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir:
 "git fetch" komutunu çalıştırmamış olabiliriz. Farklı branch'lerde olabiliriz. Takım arkadaşımız sadece commit atıp push'lamayı unutmuş olabilir.
 
+4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir: "origin", uzak deponun URL'i yerine kullanılır. Uzak depomuzu işaret eder.
+
