@@ -43,6 +43,13 @@ Branch yapısı aynı proje üzerinde çalışırken farklı özellikler gelişt
 
 Bunu iki şekilde yapabiliriz:
 
-1-  "git branch [branch_ismi]" komutunu kullanarak yeni bir branch oluşturabiliriz fakat bu şekilde oluşturduğumuzda çalıştığımız branch yeni oluşturduğumuz branch olmaz. Bu branch'e geçmek için sonrasında "git checkout [branc_ismi]" komutunu kullanmamız gerekir.
+1-  "git branch [branch_ismi]" komutu ile yeni bir branch oluşturabiliriz fakat bu şekilde oluşturduğumuzda çalıştığımız branch yeni oluşturduğumuz branch olmaz. Bu branch'e geçmek için sonrasında "git checkout [branc_ismi]" komutunu kullanmamız gerekir.
 
 2- "git checkout -b [branch_ismi]" komutu ile yeni bir branch oluşturup direkt o branch'e geçiş yaparız.
+
+## Soru 12: Var olan bir "branch"e nasıl geçebiliriz?
+
+Bunu iki komut ile yapabiliriz:
+
+1- "git checkout [branck_ismi]"
+2- "git switch [branck_ismi]"
