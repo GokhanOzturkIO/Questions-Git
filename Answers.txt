@@ -40,4 +40,7 @@ Branch, farklı özellikler veya işlevler üzerinde aynı anda çalışmayı, y
 14- "Merge conflict" ne demektir?
 İki developer’ın ayrı branch’lerde aynı dosyayı ve aynı satırı değiştirdiyse bu değişiklikleri ortak branch ile birleştirirken çakışma yaşanır bu duruma “merge conflict” denir.
 
+15- "git log" komutu ile hangi bilgileri görebiliriz?
+Bu komut ile Commit’in hash code’unu , Commit’i yazan kişinin adını ve e-posta adresini, Commit’in yazılma tarihini ve Commit mesajını görebiliriz. 
+
 
