@@ -7,6 +7,12 @@ CEVAP:git fetch uzak sunucudaki gönderilen değişiklerden lokaldaki bilgisayar
 
 
 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+CEVAP:
+1-değişiklikleri push etmemiş olabilir
+2-branchler farklı olabilir
+3-git fench komutu ile depoyu güncellememiş olabilir
+
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 - "HEAD" kelimesi neyi temsil etmektedir?
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
