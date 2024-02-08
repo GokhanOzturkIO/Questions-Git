@@ -27,3 +27,5 @@ mkdir -p ~/.git_template komutuyla şablon dosyanızın tutulacağı bir  klasö
 daha sonra ~/.git_template/README.md. komutuyla klasörün içinde her git init yazdığınızda içinde olmasını istedğiniz dosyayı oluşturun.
 git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün template olarak kullanılmasını sağlayın.
 
+10- projemizin farklı versiyonlarını geliştirmemizi ve proje içerisindeki kişilerin ayrı ayrı kısımları yapmasına olanak sağlar.
+
