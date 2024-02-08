@@ -86,6 +86,9 @@ Git Commands Visualized -- https://dev.to/lydiahallie/cs-visualized-useful-git-c
 Visualizing Git -- https://onlywei.github.io/explain-git-with-d3/#branch
 
 
+22-) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+-Git bir versiyon kontrol sistemidir. GitHub ise projelerin tutulduğu yerdir. GitLab, BitBucket, OneDev, CodeBerg, Gitea, AWS CodeCommit gibi siteler ise Github’ın alternatifi olarak karşımıza çıkmaktadır.
 
 
 
