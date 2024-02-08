@@ -179,5 +179,7 @@ Bu dosya, projenizin kök dizinine oluşturulan düz bir metin dosyasıdır. Loc
 bu dosyaları .gitignore dosyasına koy ki GIT de senin bu dosyalarını artık takip etmesin.
 
 
+Soru 26: "git push origin --delete branch_name” nedir ve ne için kullanılır?
 
-
+"git push origin --delete branch_name” komutu, uzak bir Git deposundan belirli bir branch'in silinmesi için kullanılır. Bu komut, belirtilen branch'i (--delete flag'ıyla) uzak sunucudan (genellikle "origin" olarak adlandırılır) siler.
+Kısacası, "git push origin --delete branch_name” komutu, belirtilen branch'in uzak depodan silinmesini sağlar. Bu, artık kullanılmayan veya gereksiz hale gelen branch'leri temizlemek için sıkça kullanılır.
