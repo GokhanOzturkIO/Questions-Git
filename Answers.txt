@@ -1,2 +1,5 @@
 1- Git Nedir?
 Git, dosyalar üzerinde versiyonlama yapmak, daha önceki yapılan değişiklikleri takip etmek ve bir dosya üzerinde değişiklik yapacak kişi sayısı birden fazla ise her bir kişinin yaptığı değişiklikleri tarihleriyle vs. takip etmek istediğimizde kullandığımız bir versiyon kontrol sistemidir.
+
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+Git fetch komutu ile uzak sunucudaki değişikliklerden local bilgisayarın haberdar olması sağlanır. Yapılan değişikler local repoya kaydedilir fakat birleştirilmez. Git pull komutu ile hangi branchte çalışıyorsak diğer developerlar tarafından oraya gönderilmiş olan commitler localdeki bilgisayara alınır.
