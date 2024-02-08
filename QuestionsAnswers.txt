@@ -13,3 +13,5 @@ git pull komutunun değişiklikleri çalışma alanına alması yani entegre etm
 gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir? -> Takım arkadaşımız kodlarını sadece commit etmiş
 olabilir. Yani push komutunu kullanmamıştır. Veya push yaptığı branch i doğru söylememiş olabilir.
 *******************************************
+4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir? -> Projenin kopyalandığı ana uzak depoya karşılık gelir.
+*******************************************
