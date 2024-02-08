@@ -6,3 +6,11 @@ Git'in en popüler kullanım alanlarından biri, yazılım geliştirme süreçle
 
 ===========================================================================================================================================
 
+"git pull" ile "git fetch" komutlarının farkı nedir?
+
+git fetch lokal ile remote arasındaki farkların tespit edilmesini sağlar. Remotedaki değişiklikleri lokal repoya indirir fakat lokaldeki dosya yapısını değiştirmez. 
+
+git pull uzak depodaki değişiklikleri yerel depoya indirir ve ardından yerel çalışma kopyasını günceller. Yani, "git fetch" ile aynı işlemi yapar, ancak ardından otomatik olarak yerel çalışma kopyasını da günceller.
+
+===========================================================================================================================================
+
