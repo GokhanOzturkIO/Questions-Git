@@ -14,3 +14,6 @@ muhtemelen şu hatalardan birini yapmış olabilirsiniz:
 -Uzak depodaki dal ile yerel depodaki dal arasında uyumsuzluk olabilir. Bunu kontrol etmek için “git branch -a” komutunu kullanabilirsiniz.
  Eğer uyumsuzluk varsa, “git checkout <uzak_depo_dalı>” komutu ile yerel depodaki dalı değiştirebilirsiniz.
 
+Cevap 4: “git fetch origin” komutundaki “origin” uzak depoyu temsil etmektedir. Bu, uzak depoya verdiğiniz varsayılan isimdir.
+Farklı bir isim vermek isterseniz, “git remote add <isim> <uzak_depo_url>” komutunu kullanabilirsiniz.
+
