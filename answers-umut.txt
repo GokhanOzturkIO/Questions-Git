@@ -91,3 +91,9 @@ git clone --single-branch --branch <branch-adı> <repository-url> komutu ile çe
 
 ===========================================================================================================================================
 
+"Merge conflict" ne demektir?
+
+Bir "merge conflict" (birleştirme çakışması), Git'te iki veya daha fazla branch'in birleştirilirken karşılaşılan ve manuel müdahale gerektiren bir durumdur. Bu durum, farklı branch'lerde aynı dosyanın aynı satırında yapılan değişikliklerin çakışması sonucu ortaya çıkar.
+
+===========================================================================================================================================
+
