@@ -8,3 +8,11 @@ Projelerin geçmişini, yapılan değişiklikleri ve farklı versiyonlarını ta
 
 git fetch komutunu kullanırsak uzak repodaki son değişikliklerden "sadece haberdar oluruz" yerel ropomuzda bir değişiklik olmaz. Eğer git pull komutunu kullanırsak, bu kez uzak repodaki değişiklikleri kendi yerel repomuza çekerek uzaktaki değişikliklere sahip olabiliriz.
 #####
+
+
+3- Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Eğer herhangi bir teknik sorun olmamışsa (internet erişimi vb), Öncelikle git fetch ile değişiklik var mı kontrol ettiğimizden emin olduktan sonra hala değişiklikleri göremiyorsak iki farklı sebebi olabilir.
+
+Arkadaşımız değişiklikleri commitlediği halde henüz uzak repoya push etmemiş olabilir. Eğer push işlemi gerçekleşmişse ancak sorun devam ediyorsa, muhtemelen farklı bir branch üzerine push yapmış olabilir.
+#####
