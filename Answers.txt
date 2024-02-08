@@ -9,6 +9,10 @@
 * 
 * Hopefully with the application of atomic commit message format. 
 *
+* Note: Correct answers are from ChatGPT 3.5 with this prompt:
+*
+* "Can you explain '<Question here>' as a mid or senior developer with a sentence or two?"
+*
 */
 
 
