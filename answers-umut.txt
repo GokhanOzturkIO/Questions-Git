@@ -34,3 +34,9 @@ Farklı bracnlerde çalışıyor olunabilir.
 
 ===========================================================================================================================================
 
+"HEAD" kelimesi neyi temsil eder?
+
+Git sisteminde "HEAD", genellikle çalışılan branch'in en son commit'ini işaret eden bir referanstır. "HEAD", mevcut konumunuzu işaret eder ve genellikle en son yaptığınız değişikliklerin bulunduğu noktayı gösterir.
+
+===========================================================================================================================================
+
