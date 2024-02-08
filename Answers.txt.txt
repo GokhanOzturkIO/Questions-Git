@@ -122,6 +122,10 @@ CEVAP:git bir kontrol sistemidir github ise bu kontrol sistemini depolayabilece�
 git projelerdeki dosya değişikliklerini takip etmek, yönetmek ve işbirliği yapmak için kullanılır.
 GitHub, Git projelerinin barındırılması, paylaşılması, işbirliği yapılması ve izlenmesi için kullanılır.
 
-
+terzionurr
 - main ya da master branch'inin diğer branchlerden farkı nedir?
+
+CEVAP: bir git deposundaki ana branchlerdir diğer branchlerden ayıran özellik ise projenin başlangıç noktasını ve ana geliştirme yolunu temsil ederler. diğer branchler ise düzeltme veya deneme için kullanılan yan dallardır
+
+
 - ".gitignore" dosyası nedir ve ne amaçla kullanılır?
