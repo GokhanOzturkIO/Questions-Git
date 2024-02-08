@@ -3,3 +3,7 @@
 
 2-"git pull" ile "git fetch" komutlarının farkı nedir?
 -uzak sunucuda proje üzerinde yapılan değişiklikleri birleştirmek ve farkını görebilmek için fetch işlemi yapılır. Ve pull işlemine hazır hale gelinir. Pull işlemi ise ilgili branche gönderilen commitleri çekmek için kullanılır.
+
+3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+-Böyle bir durumla karşılaşılıyorsa, git fetch işlemi esnasında bir conflict oluşmuş demek olabilir. Aynı dosya üzerinde aynı yerlerde yapılan düzenlemeler conflicte neden olmuş olabilir. Düzeltmek için farklı branch'ler açıp oradan devam etmek mantıklıdır.
+
