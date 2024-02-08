@@ -48,3 +48,6 @@ Yaptığımız commit'lerin commit mesajı, hash code, kişi, mail, tarih bilgil
 1. git diff Working Directory'de Tracked dosyalarda olan değişiklikleri gösterir, Staging Area'daki değişiklikleri göstermez. Sonradan eklenmiş ve Staging Area'ya alınmamış, bu yüzden Untracked kalmış dosyalar gösterilmez.
 2. git diff --staged Staging Area'daki değişiklikleri gösterir.
 3. git diff --stat Working Directory'deki değişiklik istatistiklerini gösterir. Örneğin geliştirici ekibin "10'dan fazla dosya değişmesin, 50'den fazla satır değişmesin" tarzında kuralları varsa, bu komut ile kurallara uyulup uyulmadığı takip edilebilir.
+
+17. Git reset ile neyi geri alıyoruz?
+git reset Staging Area'daki değişiklikleri Staging Area'dan çıkartır. Ancak bu komut dosyalarda yapılan değişikleri geri almaz.
