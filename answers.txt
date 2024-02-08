@@ -65,6 +65,11 @@
 
 -Git commit komutu ile uzak sunucuya gönderilecek olan değişiklikler bir mesaj ile localde tutulur. Git push ise commitlenen ve localde tutulan bu değişiklikleri uzak sunucuya gönderir.
 
+18 -) Atomic commit ne demektir?
+
+-Her bir commit’in bir mantıksal işi temsil edecek şekilde atılmasıdır.
+
+
 
 
 
