@@ -6,3 +6,13 @@ Projenin versiyonlarında yapılan değişiklik "commit" olarak adlandırılır.
 Commit sayesinde proje üzerinde yaptığımız her bir değişikliği geri dönüp kontrol edebilme ve yapılan değişiklikleri konrol edebilmeyi sağlar.
 Birden fazla kişi ile çalışma imkanı sağladığı için her proje ile ilgilenen kişi kendi branch'ini oluşturarak değişiklikler yapabilir. Bu değişiklikleri de master branch yaparak asıl projeye ekleyebilir.
 Her commit, bir kullanıcı tarafından yapılan değişiklikleri belgelendirir ve takip etmeyi kolaylaştırır.
+
+------------------------------------------
+
+2. "git pull" ile "git fetch" komutlarının farkı nedir?
+
+Git pull, proje içerisimde master branch'den projenin güncel versiyonunu almak için kullanılır. 
+Git pull projede yakın zamanda yapılan değişiklikleri almaktadır.
+Git pull komutu, git fetch komutunu da içerir ve güncellemeleri locale otomatik olarak entegre eder. 
+Git fetch ise, başka bir sunucunun projesinde bulunan bütün içeriği locale indirmek için kullanılır. Bu komut, localdeki bilgileri güncellemek için kullanılır, ancak localde herhangi bir değişiklik yapmaz.
+Git fetch genellikle locali uzak sunucu ile  güncellemek için git reset komutuyla kullanılır.
