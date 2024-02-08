@@ -24,3 +24,6 @@ Her şey gitmiş olur :)
 
 9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 Önde ReadMe.md dosyası oluşturmamız lazım. Sonra bu dosyayı izlemeye almak için git add ile eklememiz lazım. Ardından bu dosyayı commit işlemiyle staging area almamız lazım.
+
+10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Branch yapısı çok önemli işlevlere sahiptir. Main veya Master branchi dışında bir branch açarak ana repodan bağımsız, testler, featurelar yapabiliriz. Bu durum projenin ileriki durumlarda neler olabileceğini görmemiz açısından önemlidir. Ayrı bir branchtaki işlemler istediğimiz gibiyse ana branch ile merge edebilir değilse branchi silebiliriz.
