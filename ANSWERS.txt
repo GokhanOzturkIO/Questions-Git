@@ -35,3 +35,6 @@ işlemlerinden geçirerek yapılabilmekte.
 -git branch feature/<branch adı>
 veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 
+12-Var olan bir "branch"e nasıl geçebiliriz?
+-örneğin 'git checkout feature/<branch adı>' komutuyla geçilebilir.
+
