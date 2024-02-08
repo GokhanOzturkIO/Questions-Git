@@ -73,3 +73,11 @@ Cevap 22: Git’i görsel olarak kullanabilmek için, birçok üçüncü taraf a
 -GitKraken: Windows, Mac ve Linux için ücretsiz ve profesyonel sürümleri olan bir git aracıdır. GitKraken, git iş akışlarını, dalları, commit’leri ve diğer özellikleri görsel olarak gösterir. Ayrıca, GitHub, GitLab, Bitbucket gibi uzak depo servisleri ile de entegre çalışır.
 -Sourcetree: Windows ve Mac için ücretsiz bir git aracıdır. Sourcetree, git’in temel ve gelişmiş özelliklerini kullanıcı dostu bir arayüz ile sunar. Sourcetree, GitHub, GitLab, Bitbucket, Azure DevOps gibi uzak depo servisleri ile de uyumludur.
 -GitHub Desktop: Windows ve Mac için ücretsiz bir git uygulamasıdır. GitHub Desktop, GitHub ile kolayca senkronize olur ve git’in temel özelliklerini sağlar. GitHub Desktop, git’in başlangıç seviyesi kullanıcıları için idealdir.
+
+Cevap 23: GitHub” ile “git” arasındaki fark, "GitHub"ın bir uzak depo servisi, "git"in ise bir versiyon kontrol sistemi olmasıdır. Yani, “GitHub” projelerinizi internet üzerinde barındırmanıza ve paylaşmanıza olanak sağlar. “git” ise projelerinizi yerel olarak yönetmenize ve takip etmenize yardımcı olur. “GitHub” benzeri diğer siteler, “GitLab”, “Bitbucket”, “Azure DevOps” gibi sitelerdir.
+Kullanıcı adlarım:
+Github: baris-gungorr
+Medium: baris-gungorr
+LinkedIn:baris-gungorr
+
+
