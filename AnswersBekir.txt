@@ -29,3 +29,5 @@
 15-Git log komutu ile daha önce yapmış olduğumuz commitleri kimin ne zaman ne yaptığını ve en son bulunduğumuz branch'i görürüz.
 
 16-Git diff ile son commit ve staged area arasındaki farklar,working directory ve son commit arasındaki farklar, working directory ve staged area arasındaki farkları gösterebilir.
+
+17-Staging areadaki değişiklikleri geri almak ve yaptığımız commitlere geri dönme işlemleri yapılabilir.
