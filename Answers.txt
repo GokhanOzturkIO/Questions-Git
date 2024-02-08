@@ -162,10 +162,15 @@ Branch yapısı ise ana projeye paralel bir kopya üzerinden geliştirme yapmam�
 GitHub Desktop
 GitKraken
 
+---------------------------------------
 
+23) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
+GitHub bir sosyal medya sitesidir. Kullanıcılar kendi dosyalarını paylaşabilir diğer insanların projelerine katkıda bulunabilir ve başka projeleri inceleyebilirler. Git ise bir araçtır. Asıl amacı bir çalışma dizinini versiyonlanabilir ve geri dönülebilir hale getirmektir.
 
+GitLab, Bitbucket
 
+github: @madenyasin
 
 
 
