@@ -63,3 +63,8 @@ Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi geri almaz.
 - https://githistory.xyz/
 - https://gource.io/
 
+23) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git, bir versiyon kontrol sistemidir. GitHub ise, Git ile versiyonladığımız dosyaları ve klasörleri tutabildiğimiz bir depolama hizmetidir. GitHub benzeri siteler şu şekildedir:
+- https://about.gitlab.com/
+- https://bitbucket.org/
+
