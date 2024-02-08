@@ -139,3 +139,10 @@ Bu şekilde, projenin farklı parçaları arasında tutarlılık sağlanır ve g
 20. Repository ne demektir?
 
 Repository, bir projenin veya yazılımın kaynak kodlarının, dosyalarının ve tarihçesinin saklandığı, versiyon kontrol sistemi tarafından yönetilen bir depodur.
+
+------------------------------------------
+
+21. "git tag" nedir? "git branch"’ten farkı nedir?
+
+git tag komutu, commitleri etiketleme işlemidir.
+git branch komutu ise, farklı geliştirme hatları oluşturmak, takip etmek ve arasında geçiş yapmak için kullanılır.
