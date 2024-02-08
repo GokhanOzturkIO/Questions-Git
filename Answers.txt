@@ -14,3 +14,10 @@ ancak pull komutu ile değişiklikleri alınır ve local çalışma alanınıyla
 
 ******************************************************************************************************************************************************
 
+3- Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Bu sorunun birden fazla nedeni olabilir bu nedenle farklı senaryoları inceleyelim. İlk olarak arkadaşınız kodları yalnızca commitleyerek staging area'ya almış olabilir.
+bir diğer sebep yanlış repository üzerinde çalışıyor olabilirsiniz(aynı durum takım arkadaşınız için de geçerli) veya çalıştığınız repository üzerinde yetkiniz olmayabilir ya da repository adresi değişmiş olabilir. Bu gibi sebepler nedeniyle hata alıyor olabilirsiniz bu durumda git fetch komutunu deneyip tekrar sonuç alamazsanız yukarıkdaki
+seçenekleri deniyebilirsiniz.
+
+******************************************************************************************************************************************************
