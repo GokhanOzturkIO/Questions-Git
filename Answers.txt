@@ -21,7 +21,11 @@ Bizim remote repoya erişim iznimiz olmayabilir.
 
 =================================================================================================================================================================
 
+Q4)"HEAD" kelimesi neyi temsil etmektedir?
 
+HEAD genel olarak çalıştığımız branch üzerinde atılan en son commiti işaret eder.Bu nedenle HEAD, kullanıcının çalışma dizininideki en son değişiklikleri temsil eder.Git komutlarını kullanırken HEAD,genellikle mevcut konumumuzu ifade etmek için kullanılır.
+
+=================================================================================================================================================================
 
 
 
