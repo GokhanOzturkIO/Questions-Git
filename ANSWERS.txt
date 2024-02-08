@@ -31,3 +31,7 @@ işlemlerinden geçirerek yapılabilmekte.
 10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 -Branch yapısı ana proje yapısını bozmadan proje üzerinde çalışmalarımızı yapabilme imkanı sunar. Main branch'e paralel farklı bir branch'dir ve bir projeyi ağaca benzetirsek her branch bir dala benzer.
 
+11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+-git branch feature/<branch adı>
+veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
+
