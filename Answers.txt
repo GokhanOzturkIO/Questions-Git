@@ -79,3 +79,9 @@ https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
 https://gitup.co/
 https://gitextensions.github.io/
 https://tortoisegit.org/
+
+23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git bir versiyon kontrol sistemi iken GitHub bulut tabanlı bir uzak depolama hizmetidir.
+GitHub benzeri bazı siteler: GitLab, Bitbucket, Launchpad, SourceForge, Beanstalk, Apache Allura, Git Kraken, Gitea, Git Bucket.
+GitHub kullanıcılarına örnek olarak şu an katkıda bulunduğum repo'nun sahibi GokhanOzturkIO ve kendi kullanıcı adım olan erdincbayraktar'ı örnek verebilirim.
+
