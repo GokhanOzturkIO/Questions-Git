@@ -26,3 +26,5 @@ Bir template klasörü oluşturup, içerisinde ReadMe.md dosyası oluşturup, "g
 10) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar: Branch'ler, bir takımla çalışırken, aynı anda farklı özellikler üzerine çalıştığımız bir durumda,
 birbirimizden etkilenmemek için kullandığımız bir yapıdır.
 
+11) Sıfırdan bir "branch" nasıl oluşturabiliriz: "git branch <branch name>" komutuyla bir branch oluşturabiliriz.
+
