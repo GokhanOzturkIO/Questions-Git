@@ -117,8 +117,11 @@ Soru 17: Git reset ile neyi geri alıyoruz?
 Kısacası, "git reset" komutu, yapılan değişiklikleri geri almak veya belirli bir commit'e dönmek için kullanılır.
 
 
+Soru 18: "git commit" ile "git push" arasındaki fark nedir?
 
-
+- git commit: Yapılan değişiklikleri yerel depoya kaydeder. Bu komut ile Staging Area’daki değişiklikler bir commit olarak kaydedilir ve commit geçmişine eklenir. Ancak bu değişiklikler henüz uzak depoya (örneğin GitHub’daki depo) gönderilmez.
+- git push: Yerel depodaki değişiklikleri uzak depoya gönderir. Bu komut ile commit’ler uzak depoya gönderilir ve diğer kullanıcılar tarafından görülebilir hale gelir.
+Özetle, git commit ile değişiklikler yerelde kaydedilirken, git push ile bu değişiklikler uzak depoya gönderilir. Bu iki komut genellikle birlikte kullanılır: önce git commit ile değişiklikler kaydedilir, sonra git push ile bu değişiklikler uzak depoya gönderilir.
 
 
 
