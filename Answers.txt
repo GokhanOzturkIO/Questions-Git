@@ -12,3 +12,6 @@ Origin kelimesi uzak depodaki branchi işaret eder.
 
 5-"HEAD" kelimesi neyi temsil etmektedir?
 Üzerinde bulunduğumuz branchteki en son yapılan commit'i temsil etmektedir.
+
+6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Kendi lokal makinemiz ile Github, Gitlab gibi sitelerde bulunan repository arasında bulunan geçici bir depolama alanıdır.
