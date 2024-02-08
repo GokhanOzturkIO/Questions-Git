@@ -10,3 +10,5 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 
 4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir: "origin", uzak deponun URL'i yerine kullanılır. Uzak depomuzu işaret eder.
 
+5) "HEAD" kelimesi neyi temsil etmektedir: güncel branch'in son commit'ini temsil eder.
+
