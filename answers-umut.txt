@@ -14,3 +14,17 @@ git pull uzak depodaki değişiklikleri yerel depoya indirir ve ardından yerel 
 
 ===========================================================================================================================================
 
+Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+Takım arkadaşımız commitlemiş ama pushlamamış olabilir. 
+
+Yeni bir dosya eklediyse untrack dosyayı staging area’ya addlememiş ve böyle pushlamış olabilir.
+
+Yanlış repoyu pullamaya çalışıyor olabiliriz.
+
+Bulunduğum klasör .gitin olduğu klasöy olmayabilir.
+
+Farklı bracnlerde çalışıyor olunabilir.
+
+===========================================================================================================================================
+
