@@ -67,3 +67,9 @@ Cevap 20: Repository, git’in versiyon kontrolü yaptığı bir proje klasörü
 Cevap 21: “git tag” komutu ile, commit’lere etiket ekleyebilirsiniz. Bu etiketler, commit’leri kolayca tanımlamanıza ve erişmenize yardımcı olur.
  Örneğin, projenizin bir sürümünü etiketleyebilirsiniz. “git tag” komutu, etiketleri listeler. “git tag <etiket_ismi>” komutu, mevcut commit’e bir etiket
  ekler. “git tag -a <etiket_ismi> -m <mesaj>” komutu, mevcut commit’e açıklamalı bir etiket ekler. “git tag -d <etiket_ismi>” komutu, bir etiketi siler. “git tag” komutunun “git branch” komutundan farkı, etiketlerin sabit olması, ancak dalların değişebilmesidir. Yani, etiketlediğiniz bir commit, etiketini kaybetmeden başka bir dala taşınamaz.
+
+Cevap 22: Git’i görsel olarak kullanabilmek için, birçok üçüncü taraf aracı ve uygulamayı kullanabilirsiniz. Bu araçlar, git komutlarını grafiksel bir arayüz ile sunar ve git’in kullanımını kolaylaştırır. Bazı popüler git araçları ve uygulamaları şunlardır:
+
+-GitKraken: Windows, Mac ve Linux için ücretsiz ve profesyonel sürümleri olan bir git aracıdır. GitKraken, git iş akışlarını, dalları, commit’leri ve diğer özellikleri görsel olarak gösterir. Ayrıca, GitHub, GitLab, Bitbucket gibi uzak depo servisleri ile de entegre çalışır.
+-Sourcetree: Windows ve Mac için ücretsiz bir git aracıdır. Sourcetree, git’in temel ve gelişmiş özelliklerini kullanıcı dostu bir arayüz ile sunar. Sourcetree, GitHub, GitLab, Bitbucket, Azure DevOps gibi uzak depo servisleri ile de uyumludur.
+-GitHub Desktop: Windows ve Mac için ücretsiz bir git uygulamasıdır. GitHub Desktop, GitHub ile kolayca senkronize olur ve git’in temel özelliklerini sağlar. GitHub Desktop, git’in başlangıç seviyesi kullanıcıları için idealdir.
