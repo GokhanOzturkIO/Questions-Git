@@ -15,3 +15,6 @@ Origin kelimesi uzak depodaki branchi işaret eder.
 
 6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Kendi lokal makinemiz ile Github, Gitlab gibi sitelerde bulunan repository arasında bulunan geçici bir depolama alanıdır.
+
+7-"Untracked file" ne demektir?
+Untracked file,izlenmeyen dosya şeklinde çevirebiliriz. Git tarafından takip edilmeyen, Git'in içindeki değişikliklerin bir parçası olmayan dosyalardır. Git status komutunda Untracked files altındaki dosyalardır.
