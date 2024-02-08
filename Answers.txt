@@ -57,3 +57,6 @@ git commit komutu Staging Area'daki değişiklikleri yereldeki Local Repository'
 
 19. Atomic commit ne demektir?
 Atomic commit, commit atarken atılan commit'lerin bölünemez atomlar şeklinde yani az ve öz değişiklikler içerecek şekilde olması, commit yorumlarının anlaşılır ve belli kurallara uyuyor olması gibi commit'leri kolay şekilde değiştirilebilir, geri alınabilir hale getiren davranışları bünyesinde toplayan bir terimdir.
+
+20. Repository ne demektir?
+Versiyon kontrolü altındaki dosyaların tutulduğu yerdir. Yerel (Local) ya da Uzakta (Remote) olabilir.
