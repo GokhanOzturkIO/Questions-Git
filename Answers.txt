@@ -54,3 +54,8 @@ Bu nedenle proje üzerinde yapılmak istenen değişiklikleri belirleme imkanı 
 Takip edilmeyen dosya demektir. Local'de bulunan ancak commitlenmeyen dosya için kullanılır. Commitlenmediği için git tarafından takip edilmemektedir.
 Bu dosyaları git tarafından takip edilebilmesi için, git add komutu il Staging Area'ya eklenmesi gerek. 
 Sonrasında dosyalar Staged durumuna geçer ve bir sonraki commit işlemiyle projeye dahil edilir.
+------------------------------------------
+
+8. ".git" klasörünü silersek ne olur?
+
+.git klasörü silindiğinde projeye dair yapılan tüm değişikikleri kaydeden bilgiler gitmiş olur. Projenin tüm geçmişini silmiş oluruz. 
