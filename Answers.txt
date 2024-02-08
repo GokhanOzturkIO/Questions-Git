@@ -119,9 +119,11 @@ HEAD'in konumuna göre hangi branchde veya commit içerisinde olduğumuzu göreb
 "git diff" komutu herhangi bir parametre olmadan çalıştırılırsa çalışma dizinindeki dosyalarla HEAD committeki dosyaların farkını gösterir.
 "git diff <file_name>" komutu ile belirli bir dosyanın çalışma dizinindeki hali ile HEAD committeki hali karşılaştırılır.
 
+---------------------------------------
 
+17) Git reset ile neyi geri alıyoruz?
 
-
+Staging areadaki dosyaları çalışma dizinine döndürür ve son committen sonra yapılan değişiklikleri geri alır.
 
 
 
