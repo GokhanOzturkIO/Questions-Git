@@ -70,3 +70,5 @@ Oluşturulan branch ler bu branch lerin(main ve master) üzerine oluşturulan ya
 *******************************************
 25) ".gitignore" dosyası nedir ve ne amaçla kullanılır? -> Dikkate alınmayan ( izlenmeyecek ) , git reposuna eklenmeyecek dosya veya klasörlerin nulunduğu dosyadır.
 *******************************************
+26) "git push origin --delete branch_name” nedir ve ne için kullanılır? -> branch_name i origin den silinir bu komut ile. Spesifik olarak
+belirttiğimiz branch git repo sundan silinir.
