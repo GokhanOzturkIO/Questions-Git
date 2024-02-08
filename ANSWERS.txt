@@ -71,3 +71,9 @@ git branch'de projenin bir kopyası üzerinde çalışabileceğimiz başka bir a
 GitKraken
 SourceTree
 GitExtensions
+
+23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+-GitHub, bir projelerinizi depolayıp public olarak paylaşabileceğiniz bir mecradır. Git ise bir verssiyon kontrol sistemi olduğu için gitHub'a göre daha bütünsel bir alandır. benim gitHub kullanıcı adım : @cansilaci1
+github benzeri siteler ise gitlab, azure devops, bitbucket vb..
+
+
