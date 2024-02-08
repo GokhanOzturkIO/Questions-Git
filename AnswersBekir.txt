@@ -43,3 +43,5 @@
 22-Visualize Git,visualizing-git reposu ve bunun gibi bir çok siteden görsel bir şekilde git ile ilgili uygulamaları görebilirsiniz.
 
 23-GitHub ile Git arasındaki fark: Git, dağıtık bir versiyon kontrol sistemidir ve yerel bir bilgisayarda çalışırken projelerin yönetimini sağlar. GitHub ise Git tabanlı bir bulut tabanlı hizmettir ve Git depolarını barındırır, işbirliği yapmayı ve projeleri paylaşmayı kolaylaştırır. Diğer benzer hizmetler arasında GitLab ve Bitbucket bulunmaktadır.
+
+24-Main ya da master branch'inin diğer branchlerden farkı: Ana (main veya master) branch, bir projenin asıl veya ana geliştirme hattını temsil eder. Diğer branch'ler ise genellikle bu ana branch'ten türetilir ve farklı özellikleri veya değişiklikleri geliştirmek için kullanılır.
