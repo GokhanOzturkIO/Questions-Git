@@ -1,7 +1,16 @@
-1-Git Nedir?
+1- Git Nedir?
+
 Git bir VCS (Version Control System) yani versiyon kontrol sistemi olarak tanımlanır. Peki versiyon kontrol sistemi nedir?
 Versiyon kontrol sistemi bizim için adeta bir kayıt defteri ya da buluta alınmış bir yedek olarak özetlenebilir. VCS'ler sayesinde
 projemizde yaptığımız değişikler hem takımımız tarafından görülebilir hem de bizler projeyi geliştirirken hata yaparsak bir önceki
 ya da herhangi istediğimiz bir zamandaki kayda dönebiliriz.
 
 ******************************************************************************************************************************************************
+
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+
+Temelde her ikisi de repodan güncellemeleri almak için kullanılır. Aralarındaki fark ise fetch komutu güncellemeleri alır ancak local çalışma alanını güncellemez,
+ancak pull komutu ile değişiklikleri alınır ve local çalışma alanınıyla senkronize eder.
+
+******************************************************************************************************************************************************
+
