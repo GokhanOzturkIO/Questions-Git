@@ -37,3 +37,5 @@ Cevap 9 :  Bunu yapmak için, git’in kullandığı şablon klasörünü (templ
 Cevap 10: “Branch” yapısı, git’in en önemli özelliklerinden biridir. Bu yapı, projenizin farklı versiyonlarını veya dallarını oluşturmanıza ve
 yönetmenize olanak sağlar. Bu sayede, projenizin ana dalını (main veya master) bozmadan, yeni özellikler, hata düzeltmeleri, denemeler veya diğer
 değişiklikler yapabilirsiniz. Ayrıca, farklı dalları birleştirerek (merge) veya karşılaştırarak (diff) projenizin gelişimini takip edebilirsiniz.
+
+Cevap 11: Sıfırdan bir “branch” oluşturmak için “git branch <dal_ismi>” komutunu kullanabilirsiniz. Bu komut, mevcut dalınızın aynı bir kopyasını oluşturur. Eğer yeni oluşturduğunuz dalı kullanmak isterseniz, “git checkout <dal_ismi>” komutunu kullanabilirsiniz.
