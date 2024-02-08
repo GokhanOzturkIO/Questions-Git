@@ -18,3 +18,6 @@ HEAD son atılan commit'i ya da o anki branch'i işaret eder. Genelde en son gö
 
 7. "Untracked file" ne demektir?
 Working Directory'de değişiklik yapıldığında git status ile mevcut durum kontrol edilirse, üzerinde değişiklik yapılan dosyaların "Untracked" olduğu görülür. Bu ifade ilgili dosyaların Git tarafından takip edilmediği anlamına gelir. git add komutu ile değişiklikler Staging Area'ya alınırsa dosyalar artık "Tracked" yani takip edilir olmuş demektir.
+
+8. ".git" klasörünü silersek ne olur?
+Çalışma alanındaki git ile ilgili tüm bilgileri kaybederiz. Git'i kullanacaksak tekrar initialize etmemiz gerekir.
