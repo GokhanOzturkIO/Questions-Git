@@ -65,3 +65,6 @@ aynı anda bir çok geliştirme yapılabilir.
 23) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?->
 Git, bir versiyon kontrol sistemidir. Github ise git projelerini barındırabileceğimiz bir platformdur. Sourcetree,Git Fork, GitKraken kullanabiliriz.
 *******************************************
+24) main ya da master branch'inin diğer branchlerden farkı nedir? -> Bu branch ler diğer oluşturulabilecek branch lerin kökenidir.
+Oluşturulan branch ler bu branch lerin(main ve master) üzerine oluşturulan yan branch lerdir.
+*******************************************
