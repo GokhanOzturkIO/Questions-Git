@@ -27,4 +27,4 @@
    Git'in tüm versiyon kontrol bilgileri, uzak bağlantı bilgileri , branch ve commit bilgilerimiz kaybolur. Yeniden git'i initialize etmemiz gerekecek.
 
 ✔ Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
-     -- Araştırıyorum.
+   Klasörün içerisine Readme.md dosyası oluşturup git init --template=klasör yolu dedim .gitin içerisine oluştu. 
