@@ -25,3 +25,5 @@
 13-Uzak sunucudan git clone ile spesifik bir branch i klonlamak için git clone --single-branch -b <branch_adı> <depo_URL> komutlarını terminale gireriz.
 
 14-Merge conflict ,iki farklı branch üzerinde çalışan iki kişinin yaptığı değişikliklerin ana branch'de birleştirilirken, ana branch'te aynı konumda iki farklı değişiklik olduğunda ortaya çıkar.
+
+15-Git log komutu ile daha önce yapmış olduğumuz commitleri kimin ne zaman ne yaptığını ve en son bulunduğumuz branch'i görürüz.
