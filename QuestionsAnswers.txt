@@ -45,3 +45,5 @@ farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim
 *******************************************
 15) "git log" komutu ile hangi bilgileri görebiliriz? -> Geçmişte attığımız commit lere ulaşabiliriz ya da branch işlemleri vs de gerçekleştirdiysek bunları da görmemiz mümkün.
 *******************************************
+16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz? -> iki dosya veya commit arasındaki değişiklikleri görebiliriz.
+*******************************************
