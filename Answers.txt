@@ -16,3 +16,12 @@ Git pull projede yakın zamanda yapılan değişiklikleri almaktadır.
 Git pull komutu, git fetch komutunu da içerir ve güncellemeleri locale otomatik olarak entegre eder. 
 Git fetch ise, başka bir sunucunun projesinde bulunan bütün içeriği locale indirmek için kullanılır. Bu komut, localdeki bilgileri güncellemek için kullanılır, ancak localde herhangi bir değişiklik yapmaz.
 Git fetch genellikle locali uzak sunucu ile  güncellemek için git reset komutuyla kullanılır.
+
+------------------------------------------
+
+3. Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+- Bağlantıda bir hata olabilir.
+- Değişiklikleri pull edebilmek için erişim izni olmayabilir.
+- Değişikliklerin yapıldığı branch farklı olabilir. Dolayısıyla takım arkadaşınız farklı bir branch'e gönderdiyse bunu öğrenip o branch'e pull yapmanız gerekir.
+- Merge conflict olabilir. Yani sizin yaptığınız değişiklikler ile takım arkadaşınızın yaptığı değişiklikler çakışıyor olabilir. Öncelikle çakışan dosyaları düzenlemek gerekir.
