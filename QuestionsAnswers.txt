@@ -49,3 +49,5 @@ farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim
 *******************************************
 17) Git reset ile neyi geri alıyoruz? -> Yapılacak tanımlamalara göre: dosya ve commit geri alabiliriz. Aynı zamanda staging area alanındaki değişiklikleri geri almak için de kullanabiliriz.
 *******************************************
+18) "git commit" ile "git push" arasındaki fark nedir? -> git commit : değişiklikleri local e kaydederken, git push ise bu değişiklikleri remote kaynağa gönderir.
+*******************************************
