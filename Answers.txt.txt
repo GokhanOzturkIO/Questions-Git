@@ -57,6 +57,12 @@ CEVAP: git checkout feature/geçmek istediğimiz branchin ismi
 
 
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+CEVAP:özel bir branch dowland etmek istersek branch name kullanarak indirebiliriz 
+
+örneğin: git clone --branch adı (branch adresi)
+
+
 - "Merge conflict" ne demektir?
 - "git log" komutu ile hangi bilgileri görebiliriz?
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
