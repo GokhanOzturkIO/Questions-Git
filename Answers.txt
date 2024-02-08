@@ -171,7 +171,12 @@ Diğer Branchler: Bunlar, ana dal üzerinde değişiklik yapmadan aynı proje ü
 Bu nedenle, master (veya main) branch ve diğer branchler arasındaki temel fark, master branch’in projenin canlı veya ana versiyonunu temsil etmesi, diğer branchlerin ise geliştirme ve denemeler için kullanılmasıdır.
 
 
+Soru 25: ".gitignore" dosyası nedir ve ne amaçla kullanılır?
 
+".gitignore" dosyası, Git sürüm kontrol sisteminde kullanılan özel bir dosyadır. Bu dosya, Git deposunda kontrol/versiyon izlemesi yaparken göz ardı edilerek dikkate alınmayacak, Git deposuna eklenmeyecek dosya, klasör ve alt klasörleri tanımlamak amaçlı kullanılır.
+Örneğin, işletim sisteminin oluşturduğu .DS_Store ve Thums.db dosyaları, yüklü media dokümanları, modül dokümanları, eklentiler, log dosyaları, geçici dosya ve klasörler, konfigürasyon dosyaları ya da sizin belirleyeceğiniz herhangi bir dosya da git reponuza gitignore tanımınız sayesinde atılmayabilir.
+Bu dosya, projenizin kök dizinine oluşturulan düz bir metin dosyasıdır. Local çalışma alanındaki takip edilmesini istemediğin, takım arkadaşların için gerekmeyen dosyaların varsa veya bu dosyaların boyutu reponuza atmanıza gerek olmayacak kadar büyük ölçekli ise,
+bu dosyaları .gitignore dosyasına koy ki GIT de senin bu dosyalarını artık takip etmesin.
 
 
 
