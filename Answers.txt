@@ -1,0 +1,8 @@
+1. Git Nedir?
+
+Git, bir versiyon kontrol sistemidir. Bir projenin üzerinde versiyonlama yapabilme ve hem aynı dosya üzerinde birden fazla kişi ile çalışabilme hem de yaptıkları değişiklikleri görebilmek için kullanılan bir araçtır. 
+İlk sürümü Linux çekirdeği'nin geliştirilmesinde kullanılmak üzere Linus Torvalds tarafından oluşturulmuştur.
+Projenin versiyonlarında yapılan değişiklik "commit" olarak adlandırılır. 
+Commit sayesinde proje üzerinde yaptığımız her bir değişikliği geri dönüp kontrol edebilme ve yapılan değişiklikleri konrol edebilmeyi sağlar.
+Birden fazla kişi ile çalışma imkanı sağladığı için her proje ile ilgilenen kişi kendi branch'ini oluşturarak değişiklikler yapabilir. Bu değişiklikleri de master branch yaparak asıl projeye ekleyebilir.
+Her commit, bir kullanıcı tarafından yapılan değişiklikleri belgelendirir ve takip etmeyi kolaylaştırır.
