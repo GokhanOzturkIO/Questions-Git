@@ -51,3 +51,5 @@ Git diff iki farklı durumun arasındaki değişiklikleri gösterir.
 1. Working Directory ile Staging Area
 2.Staging Area ile son commit 
 
+17-Git reset ile neyi geri alıyoruz?
+Git reset ile staging areadaki dosyaları geri almak için kullanılır.
