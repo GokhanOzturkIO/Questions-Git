@@ -188,54 +188,7 @@ API KEY gibi özel bilgilerin saklandığı dosyalar ya da klasörler ".gitignor
 
 ---------------------------------------
 
+26) "git push origin --delete branch_name” nedir ve ne için kullanılır?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Uzak repodaki belirli bir branchi silmek için kullanılır.
 
