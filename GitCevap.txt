@@ -59,3 +59,5 @@ Cevap 17: son commit’i geri alabilirsiniz. Bu komut, HEAD’i belirlediğiniz 
 
 Cevap 18:  sahneleme alanındaki dosyaları yerel depoya kaydedersiniz. Bu komut, commit mesajı girmenizi ister. Bu mesaj, commit’inizi açıklayan kısa ve anlamlı bir metin olmalıdır. “git push” komutu ile, yerel depodaki değişiklikleri uzak depoya gönderersiniz.
  Bu komut, uzak depoyu ve dalı belirtmenizi ister. Eğer bunları belirtmezseniz, varsayılan olarak “origin” ve “master” kullanılır.
+
+Cevap 19: Atomic commit, tek bir amaç için yapılan küçük ve bağımsız bir commit’tir. Bu tür commit’ler, projenizin okunabilirliğini, anlaşılabilirliğını ve geri alınabilirliğini artırır. Atomic commit yapmak için, aynı anda birden fazla dosyayı değiştirmemeli, commit mesajınızı net ve özgün tutmalı, ve commit’inizi sık sık yapmalısınız.
