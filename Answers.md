@@ -88,3 +88,7 @@ Sadece "git reset" komutunu kullanırsak staging area'ya alınmış olan değiş
 "git reset --soft [commit_id]" burada görmüş olduğunuz gibi soft parametresini ekledik. Bu parametre geçmiş olduğumuz commit'ten sonra yapmış olduğumuz değişiklikleri kaybetmek istemediğimiz zaman bize yardımcı oluyor.
 
 "git reset --hard [commit_id]" burada iste hard parametresini kullandık. Bu parametre ise belirtmiş olduğumuz commit'ten sonraki değişikliklerin tamamını siler.
+
+## Soru 18: "git commit" ile "git push" arasındaki fark nedir?  
+
+"git commit" komutu working directory'den staging area'ya aldığımız değişiklikleri local repository'e kaydederken "git push" komutu local repository'de olan değişiklikleri remote repository'e kaydeder.
