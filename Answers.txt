@@ -15,3 +15,6 @@ HEAD son atılan commit'i ya da o anki branch'i işaret eder. Genelde en son gö
 
 6. "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 "Index/Staging Area" yapılan değişikliklerin Local Repository'ye gönderilmeden yani commit atılmadan önce koyulduğu ara bölgedir. Bu bölge sayesinde değişiklikleri commit'lemeden önce değişikliklere ekleme-çıkarma yapabiliriz, atacağımız commit'e son şeklini verebiliriz. Gerçek hayattan örnek verecek olursak; alışverişte kullandığımız sepet Staging Area, alışveriş bittiğinde sepettekileri topluca kasadan geçirme işlemi commit işlemidir.
+
+7. "Untracked file" ne demektir?
+Working Directory'de değişiklik yapıldığında git status ile mevcut durum kontrol edilirse, üzerinde değişiklik yapılan dosyaların "Untracked" olduğu görülür. Bu ifade ilgili dosyaların Git tarafından takip edilmediği anlamına gelir. git add komutu ile değişiklikler Staging Area'ya alınırsa dosyalar artık "Tracked" yani takip edilir olmuş demektir.
