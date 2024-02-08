@@ -127,3 +127,7 @@ Github benzeri siteler: GitLab, Bitbucket, GitKraken Glo.
 ## Soru 24: main ya da master branch'inin diğer branchlerden farkı nedir?
 
 main ya da master branch'i projenin geliştirildiği ana daldır. Git repository'si ilk oluşturulduğunda bu branch oluşturulur. Bu branch'te proje sorunsuz çalışır ve projenin stabil versiyonları burada oluşturulur.
+
+## Soru 25: ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+Git alanı içerisinde takip edilmemesi gereken dosyaları içeren bir dosyadır. Bu uzantıdaki dosya içerisindeki dosya yollarını git otomatik olarak takip etmez fazladan bir işlem yapmamıza gerek yoktur.
