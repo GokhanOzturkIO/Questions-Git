@@ -67,3 +67,11 @@ Sonrasında dosyalar Staged durumuna geçer ve bir sonraki commit işlemiyle pro
 
 -"ReadMe.md" dosyasını kullanarak
 -Git'in template özelliğini kullanarak
+
+------------------------------------------
+
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branch'ler projeyi dallara ayırır. Her bir branch projenin farklı versiyonlarını temsil eder. Birden fazla kişi ile çalışan takımlar için oldukça önemlidir. Bu sayede takımlar birbirinin yaptğı değişikliklerden etkilenmez ve bağımsız çalışabilirler.
+Branch'ler birden fazla özelliğin aynı anda geliştirlmesini sağlar. 
+Projede geliştirilecek olan versiyonların ana projeye zarar vermemesini sağlar.
