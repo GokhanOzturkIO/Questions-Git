@@ -91,6 +91,9 @@ Visualizing Git -- https://onlywei.github.io/explain-git-with-d3/#branch
 -Git bir versiyon kontrol sistemidir. GitHub ise projelerin tutulduğu yerdir. GitLab, BitBucket, OneDev, CodeBerg, Gitea, AWS CodeCommit gibi siteler ise Github’ın alternatifi olarak karşımıza çıkmaktadır.
 
 
+23 -) main ya da master branch'inin diğer branchlerden farkı nedir?
+
+-Main ya da master branchleri default olarak var olan branch’lerdir.
 
 
 
