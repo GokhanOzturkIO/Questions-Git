@@ -42,3 +42,6 @@ git clone --single-branch <branch.name> <url>
 
 14-"Merge conflict" ne demektir?
 Git'te iki farklı değişikliğin aynı satırları veya dosyaları içeren bölümlerin arasındaki farkın uyumsuz olduğunda ortaya çıkan durumdur.
+
+15-"git log" komutu ile hangi bilgileri görebiliriz?
+Git log komutu ile bir yaptığımız commitlerin geçmişini görüntüleyebiliriz.
