@@ -1,0 +1,2 @@
+1- Git Nedir?
+Git, dosyalar üzerinde versiyonlama yapmak, daha önceki yapılan değişiklikleri takip etmek ve bir dosya üzerinde değişiklik yapacak kişi sayısı birden fazla ise her bir kişinin yaptığı değişiklikleri tarihleriyle vs. takip etmek istediğimizde kullandığımız bir versiyon kontrol sistemidir.
