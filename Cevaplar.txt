@@ -40,5 +40,7 @@ Var olan bir branch'e git checkout komutu ile geçeriz.
 14- "Merge conflict" ne demektir?
 "Merge conflict" birleştirme çakışması demek yani pull ederken projenin aynı satırlarında değişiklikler varsa yaşanır.
 
+15- "git log" komutu ile hangi bilgileri görebiliriz?
+"git log" komutu ile commit işlemleri ile ilgili özet bilgileri görürüz: Commit Hash, Author, Date, Commit Message.
 
 
