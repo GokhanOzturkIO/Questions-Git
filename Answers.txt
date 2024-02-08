@@ -39,3 +39,11 @@ Origin de uzak sunucuyu ifade etmek için kullanılan bir isimdir.
 
 Commit işlemini işaret eden yapıya HEAD denir. Bazen bağlı olduğu branch'e işaret etse de genellikle en son atılan commiti işaret eden yapıdır.
 
+------------------------------------------
+
+6. "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Staging Area ya da Index, Git'in local ile sunucu arasında bir ara bölgedir.
+Dosya üzerinde yapılan değişiklikler doğrudan commit yaparak projeye entegre edilmez. Değişiklikler committen önce Staging Area'ya eklenir.
+Bu nedenle proje üzerinde yapılmak istenen değişiklikleri belirleme imkanı tanır. Commit işlemi yapmadan önce developer'a kontrol etme şansı tanır.
+
