@@ -53,3 +53,5 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 17-Git reset ile neyi geri alıyoruz?
 -staging area'ya gönderdiğimiz dosyaları geri alıyoruz.
 
+18-"git commit" ile "git push" arasındaki fark nedir?
+-git commit yapılan değişiklikleri kaydeden ve bunun mesajını göstermeye yarayan komuttur. Push ise yapılan tüm değişiklikleri uzak sunucudaki adrese gönderilmesini sağlar.
