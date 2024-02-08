@@ -98,6 +98,14 @@ git clone -b BranchName origin
 
 ---------------------------------------
 
+14) "Merge conflict" ne demektir?
+
+Localde geliştirdiğimiz projeye uzak sunucudaki son değişiklikleri eklemek istediğimizde "git pull" komutunu kullanırız. Bu komutun sonucunda uzak repodaki dosyalar localdeki dosyalarımızla birleştirilir. Eğer aynı dosyada aynı satırlarda farklı değerler varsa burada "merge conflict" oluşur. Bu durumu ekip arkadaşlarımızla iletişim kurarak ve dosyanın hangi satırları kullanacağını seçerek çözebiliriz.
+
+---------------------------------------
+
+
+
 
 
 
