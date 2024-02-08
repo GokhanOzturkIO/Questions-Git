@@ -15,3 +15,5 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir: Staging Area, yaptığımız değişiklikleri veya yeni oluşturduğumuz dosyaları, commit'lemeden
 önce tuttuğumuz ara bir bölgedir. Yaptığımız her değişikliği commit'lemek istemeyebiliriz. Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya alırız.
 
+7) "Untracked file" ne demektir: Untracked file, Git tarafından takip edilmeyen dosyaları temsil eder. Bu dosyalar, commit ve push işlemlerinden etkilenmezler.
+
