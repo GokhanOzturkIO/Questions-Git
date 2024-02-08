@@ -12,3 +12,8 @@
 */
 
 
+Q1 - What is Git? 
+
+## Git is a Version Control System that helps developers to collaborate with other people and work with an ease of knowing that they can undo or revert things.
+
+>> Git is a distributed version control system that empowers developers to track changes, collaborate seamlessly, and manage code effectively, serving as a cornerstone of modern software development workflows.
