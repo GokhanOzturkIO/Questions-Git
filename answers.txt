@@ -17,3 +17,6 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 
 7) "Untracked file" ne demektir: Untracked file, Git tarafından takip edilmeyen dosyaları temsil eder. Bu dosyalar, commit ve push işlemlerinden etkilenmezler.
 
+8) ".git" klasörünü silersek ne olur: .git klasörünü silersek, Git tarafından kaydedilen bilgiler silinir ve o klasör artık Git Repository'si olmaktan çıkar. 
+Öncesinde commit'leri uzak bir sunucuya push'lamadıysak tüm versiyon kontrollerimizi kaybederiz.
+
