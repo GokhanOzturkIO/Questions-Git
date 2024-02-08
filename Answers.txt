@@ -164,4 +164,15 @@ GitHub, Git tabanlı bir web tabanlı platformdur. Git’in sunduğu versiyon ko
 GitHub Benzeri Diğer Siteler: Bitbucket, GitLab, SourceForge
 
 
+Soru 24: main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Master (veya Main) Branch: Bu, bir projenin ana dalıdır. Yeni bir Git deposu oluşturduğunuzda, varsayılan olarak bir master (veya main) branch oluşturulur. Bu dal genellikle projenin canlı versiyonunu temsil eder.
+Diğer Branchler: Bunlar, ana dal üzerinde değişiklik yapmadan aynı proje üzerinde çalışmayı sağlar. Yeni bir özellik eklemek, bir hata düzeltmek veya denemeler yapmak için genellikle yeni bir dal oluşturulur. Bu dallar, geliştirme tamamlandığında ve testlerden geçtikten sonra ana dal ile birleştirilebilir.
+Bu nedenle, master (veya main) branch ve diğer branchler arasındaki temel fark, master branch’in projenin canlı veya ana versiyonunu temsil etmesi, diğer branchlerin ise geliştirme ve denemeler için kullanılmasıdır.
+
+
+
+
+
+
 
