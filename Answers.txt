@@ -24,3 +24,7 @@ Working Directory'de değişiklik yapıldığında git status ile mevcut durum k
 
 9. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 Bir template oluşturduktan sonra git'i başlatırken git init --template <template-konumu> komutu ile yapabiliriz.
+
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Farklı kişilerin çalışmalarının karışmasını önler. Herkes projenin bir parçasıyla ilgili çalışır ve kendi branch'inde değişiklikler yapar. Sonra bu değişikliklerden uygun olanları ana branch'e alınır yani projenin ana kodlarına uygulanır. Eğer herkes aynı branch'te çalışsaydı ve bir parçada birden fazla kişi değişiklik yapıyor olsaydı çakışmalar yani conflict'ler meydana gelirdi.
+
