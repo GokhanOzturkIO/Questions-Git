@@ -175,3 +175,8 @@ Git bir versiyon kontrol sistemidir. Github ise git'in komutlarını kullanarak 
 Projemizde takip edilmemesi gereken dosyaların ve dizinlerin listesini içeren bir konfigürasyon dosyasıdır.
 #####
 
+
+26- "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+remotte’a oluşturmuş olduğumuz branch’i siler local’de de oluşturmuş olduğun branch etkilenmez.
+#####
