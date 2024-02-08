@@ -66,3 +66,7 @@ Repository, bir proje veya belirli bir yazılım paketinin tüm sürüm geçmiş
 22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 Visualizegit, learngitbranching, ohmygit, githistory.xyz, gource.io gibi siteleri kullanabiliriz.
 
+23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git, dağıtık bir sürüm kontrol sistemi olarak kullanılan bir yazılımdır. Geliştiriciler, kodlarını yönetmek, izlemek, değişiklikleri takip etmek ve iş birliği yapmak için kullanırlar. Git, yerel makinelerde çalışır ve projenin tüm geçmişini ve değişikliklerini saklar. “GitHub”, Git depolarını barındıran ve çevrimiçi olarak paylaşılmasını, işbirliği yapılmasını ve yönetilmesini sağlayan bir platformdur. Bazı GitHub benzeri diğer platformlar şunlardır, GitLab, Bitbucket, SourceForge.
+Github: simayf
+
