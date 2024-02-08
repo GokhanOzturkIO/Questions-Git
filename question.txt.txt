@@ -20,4 +20,7 @@ Farklı bir isim vermek isterseniz, “git remote add <isim> <uzak_depo_url>” 
 Cevap 5: “HEAD” kelimesi, yerel depodaki mevcut dalı veya son commit’i temsil etmektedir.
 Örneğin, “git checkout HEAD” komutu, yerel depodaki son commit’e geri döner. “HEAD” kelimesini, “git log” veya “git diff” gibi komutlarda da kullanabilirsiniz.
 
+Cevap 6 : “Staging Area” ya da “Index” diye isimlendirilen bölge, commit etmek istediğiniz dosyaları tutan bir ara bölgedir. 
+ Bu bölgeye dosya eklemek için “git add <dosya_ismi>” komutunu kullanabilirsiniz. Bu bölgedeki dosyaları commit etmek için “git commit -m <mesaj>” komutunu kullanabilirsiniz.
+
 
