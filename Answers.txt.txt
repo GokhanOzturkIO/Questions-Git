@@ -92,6 +92,8 @@ CEVAP: commitlediğimiz şeyler hala bizim lokalimizde olur uzak sunucuya gitmez
 
 - Atomic commit ne demektir?
 
+CEVAP:tek bir işi veya değişikliği temsil eder geri alması kolaydır Her commit, projenin bir adımını temsil eder ve bu şekilde projenin geçmişi kolayca anlaşılabilir hale gelir.
+temiz ve anlaşılır olmasını sağlar 
 
 - Repository ne demektir?
 - "git tag" nedir? "git branch"’ten farkı nedir?
