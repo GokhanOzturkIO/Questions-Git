@@ -28,3 +28,9 @@ Farklı bracnlerde çalışıyor olunabilir.
 
 ===========================================================================================================================================
 
+"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+"origin" projenin remote bir kanalda (Github, GitLab, BitBucket vb.) bulunan repo adresini temsil eder. "origin", çoğu durumda, projenin orijinal veya merkezi bir kopyasını barındıran uzak bir repoyu belirtmek için kullanılan bir kısaltmadır.
+
+===========================================================================================================================================
+
