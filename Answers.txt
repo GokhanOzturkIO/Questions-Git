@@ -143,8 +143,18 @@ Soru 21: "git tag" nedir? "git branch"’ten farkı nedir?
 Özetle, “git tag” ve “git branch” arasındaki temel fark, "tag"lerin belirli bir commit’i veya projenin belirli bir durumunu işaretlemek için kullanılması, "branch"lerin ise projenin farklı versiyonlarını paralel olarak geliştirmek için kullanılmasıdır.
 
 
+Soru 22: Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
+Git’i görsel olarak kullanmak için birçok üçüncü taraf araç ve uygulama bulunmaktadır. İşte bazı popüler seçenekler:
 
+- GitHub Desktop: GitHub tarafından sağlanan bir masaüstü uygulamasıdır. Git işlemlerini görsel bir arayüz üzerinden gerçekleştirmenizi sağlar.
+- SourceTree: Atlassian tarafından sağlanan başka bir popüler Git masaüstü istemcisidir.
+- GitKraken: Hem başlangıç seviyesindeki kullanıcılar hem de deneyimli geliştiriciler için kullanıcı dostu bir arayüz sunar.
+- TortoiseGit: Windows kullanıcıları için popüler bir seçenektir.
+- SmartGit: Çok platformlu (Windows, Mac, Linux) bir Git istemcisidir.
+- Tower: Mac ve Windows için başka bir popüler Git istemcisidir.
+- Creately: Gerçek zamanlı işbirliği, sonsuz tablo ve güçlü diyagram oluşturma özelliklerini kullanarak projelerinizi tasarlamak için kullanabilirsiniz1.
+Bu araçlar, Git işlemlerini görsel olarak gerçekleştirmenizi ve Git’in daha karmaşık özelliklerini daha kolay bir şekilde yönetmenizi sağlar.
 
 
 
