@@ -44,3 +44,6 @@
 
 ✔"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? 
 git clone --branch branch_adi <repo_url>
+
+✔"Merge conflict" ne demektir?
+   Branclerin çakışması
