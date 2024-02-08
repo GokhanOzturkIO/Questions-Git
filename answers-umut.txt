@@ -1,0 +1,8 @@
+Git Nedir?
+
+Git, dağıtık bir sürüm kontrol sistemidir (distributed version control system). Yazılım geliştirme süreçlerinde kullanılan bir araçtır. Bir projenin tüm tarihçesini ve değişikliklerini takip etmek, farklı geliştiriciler arasında işbirliği yapmak ve kod tabanındaki değişiklikleri yönetmek için kullanılır.
+
+Git'in en popüler kullanım alanlarından biri, yazılım geliştirme süreçlerinde kaynak kodu yönetmektir. Ancak, belge yönetimi, veri analizi projeleri ve hatta yazarlar arasında metin belgeleri üzerinde işbirliği yapmak gibi birçok farklı alan için de kullanılabilir.
+
+===========================================================================================================================================
+
