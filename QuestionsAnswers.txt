@@ -68,3 +68,5 @@ Git, bir versiyon kontrol sistemidir. Github ise git projelerini barındırabile
 24) main ya da master branch'inin diğer branchlerden farkı nedir? -> Bu branch ler diğer oluşturulabilecek branch lerin kökenidir.
 Oluşturulan branch ler bu branch lerin(main ve master) üzerine oluşturulan yan branch lerdir.
 *******************************************
+25) ".gitignore" dosyası nedir ve ne amaçla kullanılır? -> Dikkate alınmayan ( izlenmeyecek ) , git reposuna eklenmeyecek dosya veya klasörlerin nulunduğu dosyadır.
+*******************************************
