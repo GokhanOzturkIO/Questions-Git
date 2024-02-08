@@ -126,3 +126,10 @@ Dosyayı Staging Area'dan çıkarmadır. Bu işlem dosyalar üzerindeki yapılan
 
 git commit komutu ile Git, bir commit mesajı girmenizi ister ve değişikliklerinizi bir commit olarak kaydeder. Ancak uzak sunucuya gönderilmez.
 git push komutu ise, localdeki commitleri uzak sunucuya göndermek için kullanılır.
+
+------------------------------------------
+
+19. Atomic commit ne demektir?
+
+Atomic commit, bir özellik eklemek için yapılan değişikliklerle birlikte bu özelliği desteklemek için gerekli olan diğer dosyalardaki değişiklikler de aynı commit işlemine dahil edilir. 
+Bu şekilde, projenin farklı parçaları arasında tutarlılık sağlanır ve geri alma işlemleri daha kolay hale gelir.
