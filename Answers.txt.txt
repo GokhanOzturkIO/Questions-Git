@@ -75,7 +75,15 @@ CEVAP: bir projenin en başından sonuna kadar yapılan tüm commitleri gösteri
 
 
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+CEVAP:2 FARKLI DURUM ARASINDAKİ FARKI GÖREBİLİRİZ
+ÖRNEĞİN;
+2 commit arasındaki farkı görebiliriz
+2 txt arasındaki farkı görebiliriz
+
+
 - Git reset ile neyi geri alıyoruz?
+
 - "git commit" ile "git push" arasındaki fark nedir?
 - Atomic commit ne demektir?
 - Repository ne demektir?
