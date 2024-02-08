@@ -78,3 +78,6 @@ github benzeri siteler ise gitlab, azure devops, bitbucket vb..
 
 24-main ya da master branch'inin diğer branchlerden farkı nedir?
 -bu branchler bir git deposunun ana dalını oluşturan dallardır.
+
+25-.gitignore dosyası nedir ve ne amaçla kullanılır?
+-.gitignore dosyası, Git'in izlememesi veya sürüm kontrolüne eklememesi gereken dosyaları ve klasörleri belirtmek için kullanılır. Bu dosya, Git deposunun kök dizininde bulunur ve dosya ve klasörlerin adlarını veya desenlerini içerir.
