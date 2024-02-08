@@ -85,3 +85,6 @@ Git bir versiyon kontrol sistemi iken GitHub bulut tabanlı bir uzak depolama hi
 GitHub benzeri bazı siteler: GitLab, Bitbucket, Launchpad, SourceForge, Beanstalk, Apache Allura, Git Kraken, Gitea, Git Bucket.
 GitHub kullanıcılarına örnek olarak şu an katkıda bulunduğum repo'nun sahibi GokhanOzturkIO ve kendi kullanıcı adım olan erdincbayraktar'ı örnek verebilirim.
 
+24. main ya da master branch'inin diğer branchlerden farkı nedir?
+main, master ya da başka bir isim verdiğimiz ana branch çoğunlukla projenin en sonki stabil halini içerir. Diğer branch'lerde hangi commit'lerin projeye ekleneceği kararlaştırılmadan ana branch'te değiştirme yapılmaz.
+
