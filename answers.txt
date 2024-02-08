@@ -53,4 +53,6 @@ git clone --branch branch_adi <repo_url>
 
 ✔"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
    -Git diff ile "staging area" veya son commit arasındaki farkları görebiliriz
-   
+
+✔ Git reset ile neyi geri alıyoruz?
+    Add yapmadan önceki haline dönüyor staging areada aldıklarımızı tekrardan staging areadan çıkartıyor.
