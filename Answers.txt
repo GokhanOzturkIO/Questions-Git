@@ -113,7 +113,11 @@ HEAD'in konumuna göre hangi branchde veya commit içerisinde olduğumuzu göreb
 
 ---------------------------------------
 
+16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 
+"git diff <hash1> <hash2>" komutu ile iki commit arasındaki farkları görebiliriz.
+"git diff" komutu herhangi bir parametre olmadan çalıştırılırsa çalışma dizinindeki dosyalarla HEAD committeki dosyaların farkını gösterir.
+"git diff <file_name>" komutu ile belirli bir dosyanın çalışma dizinindeki hali ile HEAD committeki hali karşılaştırılır.
 
 
 
