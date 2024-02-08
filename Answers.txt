@@ -63,3 +63,19 @@ Versiyon kontrolü altındaki dosyaların tutulduğu yerdir. Yerel (Local) ya da
 
 21. "git tag" nedir? "git branch"’ten farkı nedir?
 Projelerde zaman zaman zaman release'ler olur. Bu release'lere kolay dönebilmek, aradaki commit'lerde boğulmamak için tag'leme yapılır. Yani belli commit'ler etiketlenir. Branch değiştirilir gibi Tag değiştirilebilir. Branch ise içerisinde commit akışı olan ayrı bir kavramdır.
+
+22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Konuyla ilgili linkler:
+https://www.sourcetreeapp.com/
+https://git-fork.com/
+https://www.gitkraken.com/git-client
+https://www.sublimemerge.com/
+https://www.git-tower.com/windows
+https://www.syntevo.com/smartgit/
+https://desktop.github.com/
+https://magit.vc/
+https://github.com/eclipsesource/megit
+https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+https://gitup.co/
+https://gitextensions.github.io/
+https://tortoisegit.org/
