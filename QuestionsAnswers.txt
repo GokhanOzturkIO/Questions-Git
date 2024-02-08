@@ -60,3 +60,5 @@ commit mesajının sade ve yapılan işlemi net açıklar şekilde olmasın gere
 yayın adı gibi bir etiket atamak için kullanılırken, git branch: farklı geliştirmeler yapmak için dallar oluşturmamızı sağlar. Böylece
 aynı anda bir çok geliştirme yapılabilir.
 *******************************************
+22) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz? -> GitHub Desktop, SourceTree
+*******************************************
