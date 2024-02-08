@@ -32,3 +32,10 @@ Git fetch genellikle locali uzak sunucu ile  güncellemek için git reset komutu
 
 Origin, localin bağlı olduğu uzak Git deposunun adıdır. Bu komut, uzak sunucudan güncellemeleri almayı sağlar. 
 Origin de uzak sunucuyu ifade etmek için kullanılan bir isimdir.
+
+------------------------------------------
+
+5. "HEAD" kelimesi neyi temsil etmektedir?
+
+Commit işlemini işaret eden yapıya HEAD denir. Bazen bağlı olduğu branch'e işaret etse de genellikle en son atılan commiti işaret eden yapıdır.
+
