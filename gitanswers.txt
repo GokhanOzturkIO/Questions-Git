@@ -10,3 +10,6 @@ git fetch komutu, uzak depodaki değişiklikleri alır ve yerel depoyu güncelle
 
 Takım arkadaşımız commitleyip push etmemiş olabilir ya da farklı branche push edilmiş olabilir.
 
+4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir? :
+
+"origin", Git'te genellikle varsayılan olarak tanımlanan bir uzak depo adıdır. Bir Git deposunu klonladığınızda, genellikle bu depoya "origin" adı verilir. Bu, orijinal (origin) depoyu temsil eder ve genellikle projenin ana depo adresini ifade eder.
