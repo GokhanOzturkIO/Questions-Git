@@ -67,3 +67,6 @@ Repository uzak bir sunucuda dosyalarımızı, kodlarımızı tuttuğumuz bir de
 21-"git tag" nedir? "git branch"’ten farkı nedir?
 Git tag, belirli bir commit noktasına etiket atmak için kullanılır. Bu sayede o noktayı daha kolay bulmayı sağlar.
 Git branch ise projedeki farklı geliştirme dallarını listelemek, yeni branchler oluşturmak, silmek veya birleştirmek için kullanılır.
+
+22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Git Desktop, git kraken, source tree
