@@ -23,3 +23,6 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 Bir template klasörü oluşturup, içerisinde ReadMe.md dosyası oluşturup, "git init --template <directory>" komutunu çalıştırarak Git'i başlatabiliriz.
 
+10) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar: Branch'ler, bir takımla çalışırken, aynı anda farklı özellikler üzerine çalıştığımız bir durumda,
+birbirimizden etkilenmemek için kullandığımız bir yapıdır.
+
