@@ -57,3 +57,11 @@ Git sisteminde "HEAD", genellikle çalışılan branch'in en son commit'ini işa
 ".git", bir Git deposunun temel yapı taşıdır ve depoya ait tüm versiyon kontrolü bilgilerini içeren bir dizindir. Bu dizin, Git'in deposu yönetmek için kullandığı dosya ve klasörleri içerir. ".git" dizini, bir projenin tüm geçmişini, dallarını, commit'lerini, değişikliklerini ve diğer versiyon kontrolü bilgilerini barındırır.
 
 ".git" klasörünü silmek, Git deposunun tamamını kaybetmenize neden olur. Bu klasör, Git'in depo yönetimi ve versiyon kontrolü işlemleri için gereken tüm verileri içerir. ".git" klasörü olmadan, Git deposu tamamen etkisiz hale gelir ve tüm geçmiş, dallar, commit'ler, değişiklikler ve diğer versiyon kontrolü bilgileri kaybolur.
+
+===========================================================================================================================================
+
+Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+git init –template [klasör adresi] ile daha önceden hazırlanmış bir klasörün içerisine ReadMe.md dosyasını oluşturur ve bundan sonra oluşturulacak olan git repolarında git init –template [klasör adresi] ile oluşturarak bunu sağlamış oluruz. 
+
+===========================================================================================================================================
