@@ -1,2 +1,4 @@
 1-Git Nedir
 -Git, dağıtık bir sürüm kontrol sistemidir ve dosyalar üzerinde versiyonlama yapmak için kullanılır. Ayrıca, beraber çalışma süreçlerindeki zorlukları ortadan kaldırarak işbirliğini kolaylaştırır.
+2-git pull ile git fetch komutlarının farkı nedir  
+-Her iki komutta uzak depodan güncellemeleri alır git pull yerel çalışmasını güncellerken git fetch yerel çalışma kopyasını güncellemez
