@@ -56,3 +56,6 @@ git clone --branch branch_adi <repo_url>
 
 ✔ Git reset ile neyi geri alıyoruz?
     Add yapmadan önceki haline dönüyor staging areada aldıklarımızı tekrardan staging areadan çıkartıyor.
+
+✔"git commit" ile "git push" arasındaki fark nedir?
+   git commit değişiklikleri local bilgisayarıma kaydeder git push ise localde yapılan değişiklikleri uzak sunucuya gönderir.
