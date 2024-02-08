@@ -18,3 +18,6 @@ Mevcut branchte son commiti işaret eden pointerdır.
 
 7- "Untracked file" ne demektir?
 Untracked file, bu dosyadaki değişiklikler henüz git tarafından kontrol edilmiyor demek.
+
+8- ".git" klasörünü silersek ne olur?
+“.git” klasörü silinirse Git tarafından kaydedilen tüm bilgiler kaybolur ve Git’in tekrar initialize edilmesi gerekir.
