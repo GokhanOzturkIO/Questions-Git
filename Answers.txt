@@ -40,3 +40,6 @@ Ayrıca git clone --single-branch <branch-adı> <uzak_repo_linki> komutu ile bra
 
 14. "Merge conflict" ne demektir?
 Bir projede değişiklik yaptığımız parça, git pull yapacağımız branch'te de değiştirilmiş olabilir. Bu durumda merge conflict ortaya çıkar. Hangi branch'teki değişikliklerin önemli olduğu belirlenir ve o merge edilir.
+
+15. "git log" komutu ile hangi bilgileri görebiliriz?
+Yaptığımız commit'lerin commit mesajı, hash code, kişi, mail, tarih bilgilerini görebiliriz.
