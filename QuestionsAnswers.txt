@@ -51,3 +51,6 @@ farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim
 *******************************************
 18) "git commit" ile "git push" arasındaki fark nedir? -> git commit : değişiklikleri local e kaydederken, git push ise bu değişiklikleri remote kaynağa gönderir.
 *******************************************
+19) Atomic commit ne demektir? -> Commit işlemi gerçekleştirirken olabildiğince her bir değişikliği adım adım commit etmek,
+commit mesajının sade ve yapılan işlemi net açıklar şekilde olmasın gerektiğini söyler Atomic Commit.
+*******************************************
