@@ -1,3 +1,4 @@
+
 1.Soru: Git Nedir ?
 
 Cevap: Git,yazılım geliştirme projelerini izlemek,yönetmek ve sürüm kontrolünü sağlamak için kullanılan bir versiyon kontrol sistemidir. Diğer bir deyişle dağıtık bir versiyon kontrol sistemidir. Linus Torvalds tarafından Linux çekirdeği geliştirme sürecinde kullanılmak üzere 2005 yılında geliştirilmiştir.Şu anda dünya genelinde projeler ve geliştirmeler için çoğunlukla kullanılmaktadır.Açık kaynaklı bir yazılımdır ve GitHub,GitLab,Bitbucket gibi bir çok platformda kullanılmaktadır aynı zamanda herhangi bir işletim sistemi üzerinde de kullanılabilir.
@@ -293,6 +294,17 @@ Diğer branch'ler genellikle bu ana branch'ten türetilir ve belirli özellikler
 çalışıldığı geçici çalışma kollarını temsil eder. Bu branch'ler daha sonra birleştirilerek "main" veya "master" branch'e entegre edilir.
 --------------------------------------------------------------------------------------
 
+Soru 25: ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+Cevap: ".gitignore" dosyası, Git tarafından izlenmemesi gereken dosyaların ve dizinlerin listelendiği bir yapıdır.
+Bu dosya, bir projenin kök dizininde bulunur ve Git'e hangi dosyaların veya dizinlerin izlenmemesi gerektiğini belirtir.
+
+Bu dosyalar ve dizinler genellikle geçici dosyalar, derleme çıktıları, yerel yapılandırma dosyaları veya hassas veriler gibi,
+projenin çalışmasını veya güvenliğini etkilemeyen dosyalardır.
+
+.gitignore dosyası, projenin temiz ve düzenli kalmasına yardımcı olurken, gereksiz dosyaların ve dizinlerin depoya eklenmesini önler.
+Bu, depo boyutunu küçültür ve gereksiz değişikliklerin veya istenmeyen dosyaların takip edilmesini önler.
+-----------------------------------------------------------------------------------------
 
 
 
