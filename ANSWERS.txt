@@ -13,4 +13,7 @@
 5-"HEAD" kelimesi neyi temsil etmektedir?
 -HEAD kelimesi genellikle son atılan commmiti işaret eder, bazen de bağlı olunan branch'i de işaret eder.
 
+6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+-staging area -> untracked olan dosyaların tracked hale dönüştüğü bir ara lokasyon. pushlamadan önce değişiklikleri inceleyip düzenleme imkanı sunan yer.
+
 
