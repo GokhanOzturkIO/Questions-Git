@@ -61,3 +61,7 @@ her bir değişikliği tek tek ekleyip her birine ayrı bir commit mesajı ekley
 
 20-Repository ne demektir?
 -"Repository" (Depo), bir yazılım projesinin, dosyalarının, geçmişinin ve sürüm kontrolü bilgilerinin saklandığı yerdir. Bir repository, yazılım geliştirme sürecinde kullanılan dosyaların ve verilerin depolandığı, yönetildiği ve paylaşıldığı merkezi bir depo olarak düşünülebilir.
+
+21-"git tag" nedir? "git branch"’ten farkı nedir?
+-git tag bir commit üzerine etiket oluşturmak için kullanlır.Genellikle sürüm num gibi tanımlayıcılar bulunur.
+git branch'de projenin bir kopyası üzerinde çalışabileceğimiz başka bir alandır.
