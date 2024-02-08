@@ -25,3 +25,10 @@ Git fetch genellikle locali uzak sunucu ile  güncellemek için git reset komutu
 - Değişiklikleri pull edebilmek için erişim izni olmayabilir.
 - Değişikliklerin yapıldığı branch farklı olabilir. Dolayısıyla takım arkadaşınız farklı bir branch'e gönderdiyse bunu öğrenip o branch'e pull yapmanız gerekir.
 - Merge conflict olabilir. Yani sizin yaptığınız değişiklikler ile takım arkadaşınızın yaptığı değişiklikler çakışıyor olabilir. Öncelikle çakışan dosyaları düzenlemek gerekir.
+
+------------------------------------------
+
+4. "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Origin, localin bağlı olduğu uzak Git deposunun adıdır. Bu komut, uzak sunucudan güncellemeleri almayı sağlar. 
+Origin de uzak sunucuyu ifade etmek için kullanılan bir isimdir.
