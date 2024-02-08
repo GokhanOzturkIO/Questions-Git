@@ -63,7 +63,8 @@ Soru 12: Var olan bir "branch"e nasıl geçebiliriz?
 Mevcut branch'i görmek için git branch komutunu kullanırız ve geçmek istediğimiz branch'i seçmek için git "checkout branch-adı" komutunu kullanırız. Seçtiğimiz branch'e başarıyla geçtiğimizi doğrulamak için git branch komutunu tekrar kullanabiliriz. 
 Seçili branch, yıldız (*) ile işaretlenmiş olmalıdır.
 
-
+Soru 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+git clone -b <branch_adı> <repo_url> Bu komut, belirttiğiniz <branch_adı> isimli branch’i ve <repo_url> adresindeki depoyu çeker. Bu komutu kullanarak sadece belirli bir branch’i çekebiliriz. Bu komut, depoyu yerel makinenize klonlar ve belirttiğimiz branch’e otomatik olarak geçiş yapar.
 
 
 
