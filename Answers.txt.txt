@@ -31,6 +31,10 @@ CEVAP:Sıfırdan bir dosya oluşturduğumuzda untracked files olarak işaretler 
 
 
 - ".git" klasörünü silersek ne olur?
+
+tüm dosyaları bağımsız olarak bırakır ve dosyaların git ile hiçbir bağlantısı kalmaz yönetilemez açılan branchler yazılan kodlar kısaca tüm commitler ve her şey kaybolur
+
+
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
@@ -47,4 +51,4 @@ CEVAP:Sıfırdan bir dosya oluşturduğumuzda untracked files olarak işaretler 
 - Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 - main ya da master branch'inin diğer branchlerden farkı nedir?
-- ".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
+- ".gitignore" dosyası nedir ve ne amaçla kullanılır?
