@@ -94,4 +94,11 @@ Projede geliştirilecek olan versiyonların ana projeye zarar vermemesini sağla
 
 "git clone --single-branch" komutu ile sadece o branch'in geçmişi alınırç Projedeki diğer branch'ler indirilmez.
 
+------------------------------------------
+
+14. "Merge conflict" ne demektir?
+
+Git'te iki veya daha fazla farklı kaynaktan gelen değişikliklerin birleştirilirken karşılaşılan bir çakışma durumunu ifade eder. Böyle bir anda git hangi değişikliklerin kabul edileceğini otomatik olarak çözemez.
+Dolayısıyla developer'ların çakışan dosyaları elle düzeltmesi gerekir.
+
 
