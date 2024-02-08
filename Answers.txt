@@ -88,3 +88,5 @@ GitHub kullanıcılarına örnek olarak şu an katkıda bulunduğum repo'nun sah
 24. main ya da master branch'inin diğer branchlerden farkı nedir?
 main, master ya da başka bir isim verdiğimiz ana branch çoğunlukla projenin en sonki stabil halini içerir. Diğer branch'lerde hangi commit'lerin projeye ekleneceği kararlaştırılmadan ana branch'te değiştirme yapılmaz.
 
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+Git'in takip etmesini istemediğimiz dosyaları .gitignore'da belirtiriz.
