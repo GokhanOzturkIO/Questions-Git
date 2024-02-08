@@ -1,0 +1,3 @@
+1- Git bir versiyon takip sistemi ve kaynak kod yönetim aracıdır.
+Projelerin sürüm geçmişini takip etmek, farklı geliştiriciler arasındaki işbirliğini kolaylaştırmak
+ve geliştirmek için kullanılır.
