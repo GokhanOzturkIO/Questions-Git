@@ -27,3 +27,9 @@ Q2 - What is the difference between the 'git pull' and 'git fetch' commands?
 ## The difference lies in merging the changes into the current branch. Git fetch only retrieves the changes, while git pull also performs the merge. 
 
 >> git pull updates your local branch with changes from the remote repository and automatically merges them, while git fetch retrieves the changes from the remote but leaves them in your local repository for you to merge or review manually.
+
+Q3 - If our teammate says, 'I've pushed my code, continue with my development,' and we can't fetch their code using 'git pull,' where might we have gone wrong?
+
+## I would verify whether my teammate had pushed the code by reviewing the git log.
+
+>> If our teammate claims they've pushed their code but we can't fetch it with 'git pull,' it suggests a potential oversight on their part, such as forgetting to push to the correct branch or failing to synchronize their local changes with the remote repository before pushing.
