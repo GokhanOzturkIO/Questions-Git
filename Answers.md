@@ -78,3 +78,13 @@ Bu komut ile git projesinde o anda bulunduğumuz branch'in commit geçmişini g�
 4- "git diff [commit_id] [other_commit_id]" Bu komut ile iki commit arasındaki farkları görebiliriz.
 
 5- "git diff [branch_ismi] [diger_branch_ismi]" Bu komut ile iki branch arasındaki farkları görebiliriz.
+
+## Soru 17: Git reset ile neyi geri alıyoruz?
+
+Sadece "git reset" komutunu kullanırsak staging area'ya alınmış olan değişiklikleri geriye alırız.
+
+"git reset [commit_id]" ile commitlerimize geri dönebilir ve sonrasındaki commitleri ortadan kaldırabiliriz fakat bu tek başına kullanılmaz çünkü bu kodlarda olan çatışmalara nasıl karşılık vereceğimizi belirtmemiz gerekir bu yüzden de bazı parametler kullanırız. Hemen onlara göz atalım:
+
+"git reset --soft [commit_id]" burada görmüş olduğunuz gibi soft parametresini ekledik. Bu parametre geçmiş olduğumuz commit'ten sonra yapmış olduğumuz değişiklikleri kaybetmek istemediğimiz zaman bize yardımcı oluyor.
+
+"git reset --hard [commit_id]" burada iste hard parametresini kullandık. Bu parametre ise belirtmiş olduğumuz commit'ten sonraki değişikliklerin tamamını siler.
