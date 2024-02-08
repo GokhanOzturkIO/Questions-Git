@@ -15,3 +15,6 @@ olabilir. Yani push komutunu kullanmamıştır. Veya push yaptığı branch i do
 *******************************************
 4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir? -> Projenin kopyalandığı ana uzak depoya karşılık gelir.
 *******************************************
+5) "HEAD" kelimesi neyi temsil etmektedir? -> HEAD i mevcut branch olarak düşünebiliriz. Örneğin git checkout yaptığımızda
+HEAD yeni branch i işaret eder.
+*******************************************
