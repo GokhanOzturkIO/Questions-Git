@@ -41,3 +41,6 @@
 
 ✔ Var olan bir "branch"e nasıl geçebiliriz?
    git checkout branch_adı veya git switch brach_adı
+
+✔"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? 
+git clone --branch branch_adi <repo_url>
