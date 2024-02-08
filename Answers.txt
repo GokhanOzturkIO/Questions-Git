@@ -63,3 +63,6 @@ Repository, bir proje veya belirli bir yazılım paketinin tüm sürüm geçmiş
 “git tag”, belirli bir commit işaretçisine (commit ID veya branch adı) insanlar tarafından anlaşılabilir bir isim vermek için kullanılır. Bu işaretlenmiş noktalara "tag" denir. Tipik olarak, bir sürüm numarası veya bir yayın adı gibi anlamlı bir isimle birlikte belirli bir durumu veya tarihi işaretlemek için kullanılır.
 “git tag”, belirli bir noktayı işaretlemek ve etiketlemek için kullanılırken, “git branch” farklı geliştirme yollarını oluşturmak ve yönetmek için kullanılır.
 
+22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Visualizegit, learngitbranching, ohmygit, githistory.xyz, gource.io gibi siteleri kullanabiliriz.
+
