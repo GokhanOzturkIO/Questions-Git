@@ -27,3 +27,9 @@ Her şey gitmiş olur :)
 
 10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Branch yapısı çok önemli işlevlere sahiptir. Main veya Master branchi dışında bir branch açarak ana repodan bağımsız, testler, featurelar yapabiliriz. Bu durum projenin ileriki durumlarda neler olabileceğini görmemiz açısından önemlidir. Ayrı bir branchtaki işlemler istediğimiz gibiyse ana branch ile merge edebilir değilse branchi silebiliriz.
+
+11-Sıfırdan bir "branch" nasıl oluşturabiliriz? 
+Sıfırdan bir branch oluşturmanın iki yolu vardır.
+1. git branch <branch.name>
+2. git checkout -b <branch.name>
+
