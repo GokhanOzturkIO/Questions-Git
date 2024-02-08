@@ -34,5 +34,9 @@ Sıfırdan branch oluşturmanın iki yolu var: 1. git branch komutu 2. git check
 12- Var olan bir "branch"e nasıl geçebiliriz?
 Var olan bir branch'e git checkout komutu ile geçeriz.
 
+13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak git clone --branch [branch adı] [branch url'si] komutunu kullanırız.
+
+
 
 
