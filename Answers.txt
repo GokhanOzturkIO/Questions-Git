@@ -6,3 +6,6 @@ Git fetch komutu ile uzak sunucudaki değişikliklerden local bilgisayarın habe
 
 3- Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 Gönderen arkadaşımız yaptığı değişiklikleri pushlamamış olabilir veya biz git pull’dan önce git fetch’i kullanmamış olabiliriz.
+
+4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+“origin” kopyalanan veya repoya push ve pull işlemleri gerçekleştirilen uzak repoyu temsil eden bir isimdir.
