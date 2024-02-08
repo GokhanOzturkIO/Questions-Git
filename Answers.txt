@@ -17,3 +17,9 @@ Q1 - What is Git?
 ## Git is a Version Control System that helps developers to collaborate with other people and work with an ease of knowing that they can undo or revert things.
 
 >> Git is a distributed version control system that empowers developers to track changes, collaborate seamlessly, and manage code effectively, serving as a cornerstone of modern software development workflows.
+
+Q2 - What is the difference between the 'git pull' and 'git fetch' commands?
+
+## The difference lies in merging the changes into the current branch. Git fetch only retrieves the changes, while git pull also performs the merge. 
+
+>> git pull updates your local branch with changes from the remote repository and automatically merges them, while git fetch retrieves the changes from the remote but leaves them in your local repository for you to merge or review manually.
