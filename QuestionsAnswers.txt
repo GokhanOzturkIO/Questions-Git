@@ -9,3 +9,7 @@ bir diğer kişinin uzak sunucudan git fetch ile local de ki bilgisayarında de�
 git pull denildiğinde öncesinde haberdar olunan değişiklikler bulunulan çalışma alanına alınabilir. Aralarındaki fark ise 
 git pull komutunun değişiklikleri çalışma alanına alması yani entegre etmesidir.
 *******************************************
+3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve 
+gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir? -> Takım arkadaşımız kodlarını sadece commit etmiş
+olabilir. Yani push komutunu kullanmamıştır. Veya push yaptığı branch i doğru söylememiş olabilir.
+*******************************************
