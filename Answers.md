@@ -123,3 +123,7 @@ Git: Bir versiyon kontrol sistemidir ve local olarak projelerin sürümlenmesi v
 GitHub: Git repolarının online olarak paylaşılmasını sağlayan ve bu şekilde farklı cihazlardan bu repolara erişim sağlanarak aynı proje üzerinde çalışmasına olanak sağlayan bir platformdur.
 
 Github benzeri siteler: GitLab, Bitbucket, GitKraken Glo.
+
+## Soru 24: main ya da master branch'inin diğer branchlerden farkı nedir?
+
+main ya da master branch'i projenin geliştirildiği ana daldır. Git repository'si ilk oluşturulduğunda bu branch oluşturulur. Bu branch'te proje sorunsuz çalışır ve projenin stabil versiyonları burada oluşturulur.
