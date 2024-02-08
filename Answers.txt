@@ -57,3 +57,6 @@ Git reset ile staging areadaki dosyaları geri almak için kullanılır.
 18-"git commit" ile "git push" arasındaki fark nedir?
 Git commit, git add ile staging area aldığımız değişiklikleri kaydetmemizi sağlar.
 Git push ise git commit ile commitlediğimiz değişiklikleri uzak sunucuya göndermeyi sağlar.
+
+19-Atomic commit ne demektir?
+Atomic commit, bir değişiklik grubunun bir bütün olarak uygulanması ve kaydedilmesi anlamına gelir.
