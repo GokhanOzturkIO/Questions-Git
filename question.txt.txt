@@ -29,3 +29,8 @@ Cevap 7: “Untracked file”, git tarafından takip edilmeyen, yani versiyon ko
 Cevap 8: git” klasörü, git’in versiyon kontrolü için kullandığı tüm bilgileri içeren bir gizli klasördür. Bu klasörü silerseniz, git’in tüm geçmişini, dallarını, etiketlerini, ayarlarını ve diğer bilgilerini kaybedersiniz.
  Bu nedenle, bu klasörü silmek çok tehlikeli bir işlemdir
 
+Cevap 9 :  Bunu yapmak için, git’in kullandığı şablon klasörünü (template directory) değiştirmeniz gerekmektedir.
+ Bu klasör, git’in yeni bir depo oluştururken kopyaladığı dosyaları içermektedir. Bu klasörün konumunu öğrenmek için
+“git config --get init.templateDir” komutunu kullanabilirsiniz. Eğer bu klasör yoksa, oluşturabilirsiniz.
+ Bu klasörün içine, istediğiniz dosyaları koyabilirsiniz. Örneğin, “ReadMe.md” dosyasını bu klasörün içine koyarsanız, her “git init” komutunda bu dosya da oluşturulacaktır.
+
