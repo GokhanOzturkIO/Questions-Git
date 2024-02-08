@@ -120,3 +120,9 @@ Commitleri görmemizi sağlar. Her bir yapılan commit işlemi için hashcode ve
 
 Dosyayı Staging Area'dan çıkarmadır. Bu işlem dosyalar üzerindeki yapılan işlemi geri almaz. Sadece Staging Area'dan çıkarma yaparç Dosya içeriğine dokunmaz.
 
+------------------------------------------
+
+18. "git commit" ile "git push" arasındaki fark nedir?
+
+git commit komutu ile Git, bir commit mesajı girmenizi ister ve değişikliklerinizi bir commit olarak kaydeder. Ancak uzak sunucuya gönderilmez.
+git push komutu ise, localdeki commitleri uzak sunucuya göndermek için kullanılır.
