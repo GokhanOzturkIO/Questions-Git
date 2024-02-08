@@ -7,3 +7,6 @@
 3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 -Böyle bir durumla karşılaşılıyorsa, git fetch işlemi esnasında bir conflict oluşmuş demek olabilir. Aynı dosya üzerinde aynı yerlerde yapılan düzenlemeler conflicte neden olmuş olabilir. Düzeltmek için farklı branch'ler açıp oradan devam etmek mantıklıdır.
 
+4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+-bahsedilen origin -> uzak sunucu/depo adresidir.
+
