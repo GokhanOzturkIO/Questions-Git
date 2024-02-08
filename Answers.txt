@@ -34,4 +34,7 @@ Branch, farklı özellikler veya işlevler üzerinde aynı anda çalışmayı, y
 12- Var olan bir "branch"e nasıl geçebiliriz?
 “git checkout branchadi” komutu ile var olan bir “branch”e geçilebilir.
 
+13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+“git clone --branch branchadi” komutu ile belirli bir spesifik branch çekilebilir.
+
 
