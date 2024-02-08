@@ -81,3 +81,6 @@ github benzeri siteler ise gitlab, azure devops, bitbucket vb..
 
 25-.gitignore dosyası nedir ve ne amaçla kullanılır?
 -.gitignore dosyası, Git'in izlememesi veya sürüm kontrolüne eklememesi gereken dosyaları ve klasörleri belirtmek için kullanılır. Bu dosya, Git deposunun kök dizininde bulunur ve dosya ve klasörlerin adlarını veya desenlerini içerir.
+
+26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
+-git push origin --delete branch_name komutu, belirtilen bir branch'ı uzak depodan (genellikle "origin" olarak adlandırılan ana uzak depo) silmek için kullanılır. --delete bayrağı, belirtilen branch'ın uzak depodan silinmesi gerektiğini belirtir.
