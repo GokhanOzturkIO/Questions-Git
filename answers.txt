@@ -44,3 +44,6 @@ ne zaman attığını, commit mesajını ve eğer güncel branch'e merge edildiy
 16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz: "git diff" komutu ile, takip edilen dosyalardaki değişiklikleri görüntüleyebiliriz. 
 Silinen yazıları, eklenen yazıları ve silinen dosyaları görüntüleyebiliriz.
 
+17) Git reset ile neyi geri alıyoruz: "git reset" komutu ile, Staging Area'ya aldığımız dosyaları veya değişiklikleri Staging Area'dan çıkartarak eski haline döndürebiliriz. 
+Bu işlem eklediğimiz dosyaları silmez, değişikliklerimizi geri almaz.
+
