@@ -65,3 +65,10 @@ Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak 
 git init –template [klasör adresi] ile daha önceden hazırlanmış bir klasörün içerisine ReadMe.md dosyasını oluşturur ve bundan sonra oluşturulacak olan git repolarında git init –template [klasör adresi] ile oluşturarak bunu sağlamış oluruz. 
 
 ===========================================================================================================================================
+
+Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branchin türkçedeki anlamı dal demektir. Projeminizin dallanamasını sağlayan bir yapıdır. Birden çok developerın aynı projede paralel olarak çalışmasına olanak sağlar. Projenin farklı geliştirme hatlarını veya çalışma dallarını temsil eden bir yapıdır. Her bir branch, projenin farklı bir versiyonunu veya farklı bir özellik geliştirme çalışmasını içerebilir.
+
+===========================================================================================================================================
+
