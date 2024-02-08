@@ -41,3 +41,5 @@
 21-Git tag belirli bir commit'e bir etiket eklerken, "git branch" farklı geliştirme dallarını yönetmek için kullanılır.
 
 22-Visualize Git,visualizing-git reposu ve bunun gibi bir çok siteden görsel bir şekilde git ile ilgili uygulamaları görebilirsiniz.
+
+23-GitHub ile Git arasındaki fark: Git, dağıtık bir versiyon kontrol sistemidir ve yerel bir bilgisayarda çalışırken projelerin yönetimini sağlar. GitHub ise Git tabanlı bir bulut tabanlı hizmettir ve Git depolarını barındırır, işbirliği yapmayı ve projeleri paylaşmayı kolaylaştırır. Diğer benzer hizmetler arasında GitLab ve Bitbucket bulunmaktadır.
