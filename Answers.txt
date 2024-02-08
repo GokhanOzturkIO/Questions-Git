@@ -70,3 +70,7 @@ Git branch ise projedeki farklı geliştirme dallarını listelemek, yeni branch
 
 22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 Git Desktop, git kraken, source tree
+
+23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Github, kodların, dosyaların tutulduğu bir uzak sunucudur. 
+Git ise Github üzerinde işlem yapmak için kullanılan bir versiyon kontrol sistemidir. Github benzeri sitelere ise Gitlab örnek verilebilir. 
