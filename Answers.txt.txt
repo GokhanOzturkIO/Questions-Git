@@ -43,6 +43,8 @@ kısaca bir .git dosyasının içinde -templates klasörü oluşturup oluşturdu
 
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 
+CEVAP:Harici çalışabileceğimiz yan yollar sunar ayrı ayrı çalışmamızı sağlar birbirinden bağımsız aynı projede çalışmayı sağlar bunun yararı sürekli conflict olmamak içindir ÖRNEĞİN İKİ KİŞİYE BİRER KOPYA VERİR EN SONRA BİRLEŞTİRİRKEN CONFLİCT OLURSA O ZAMAN KARŞILAŞTIRIR.
+
 
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
 - Var olan bir "branch"e nasıl geçebiliriz?
