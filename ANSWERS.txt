@@ -65,3 +65,9 @@ her bir değişikliği tek tek ekleyip her birine ayrı bir commit mesajı ekley
 21-"git tag" nedir? "git branch"’ten farkı nedir?
 -git tag bir commit üzerine etiket oluşturmak için kullanlır.Genellikle sürüm num gibi tanımlayıcılar bulunur.
 git branch'de projenin bir kopyası üzerinde çalışabileceğimiz başka bir alandır.
+
+22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+-GitHub/Desktop uygulaması
+GitKraken
+SourceTree
+GitExtensions
