@@ -70,3 +70,6 @@ Visualizegit, learngitbranching, ohmygit, githistory.xyz, gource.io gibi siteler
 Git, dağıtık bir sürüm kontrol sistemi olarak kullanılan bir yazılımdır. Geliştiriciler, kodlarını yönetmek, izlemek, değişiklikleri takip etmek ve iş birliği yapmak için kullanırlar. Git, yerel makinelerde çalışır ve projenin tüm geçmişini ve değişikliklerini saklar. “GitHub”, Git depolarını barındıran ve çevrimiçi olarak paylaşılmasını, işbirliği yapılmasını ve yönetilmesini sağlayan bir platformdur. Bazı GitHub benzeri diğer platformlar şunlardır, GitLab, Bitbucket, SourceForge.
 Github: simayf
 
+24- main ya da master branch'inin diğer branchlerden farkı nedir?
+"main" veya "master" branch'i, bir Git deposunun varsayılan ana branch'ini ifade eder. Diğer bir deyişle, bir projenin başlangıç noktasını, temelini oluşturan branch'tir. "main" veya "master" branch'i, genellikle projenin stabil ve yayına hazır durumunu temsil eder.
+Diğer branch'ler ise genellikle yeni özelliklerin geliştirilmesi, hata düzeltmelerinin yapılması veya denemelerin gerçekleştirilmesi gibi farklı geliştirme faaliyetlerini izlemek için kullanılır. Bu branch'ler, "main" veya "master" branch'inden ayrılıp, farklı geliştirme yollarını veya versiyonları temsil eder.
