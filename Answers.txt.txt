@@ -2,6 +2,10 @@
 CEVAP:Yazılım geliştirme süreçlerinde kullanılan bir araçtır depolamak için de kullanılır yaptığımız her bir değişikliği adım adım takip eder ve kaydeder takım halinde bir proje geliştiriliyorsa buna kolaylık sağlar.
 
 - "git pull" ile "git fetch" komutlarının farkı nedir?
+
+CEVAP:git fetch uzak sunucudaki gönderilen değişiklerden lokaldaki bilgisayarımızın haberdar olmasını sağlar fakat çalıştırmaz ve birleştirmez git pull ise ana dosyadaki yapılan değişiklikleri bilgisayarımızdaki sunucuya çekmeyi sağlar 
+
+
 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 - "HEAD" kelimesi neyi temsil etmektedir?
