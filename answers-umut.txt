@@ -40,3 +40,10 @@ Git sisteminde "HEAD", genellikle çalışılan branch'in en son commit'ini işa
 
 ===========================================================================================================================================
 
+"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+"Staging Area" Git'in güçlü ve esnek bir özelliğidir. Değişiklikleri kontrollü bir şekilde commit etmek ve commit öncesi inceleme yapmak için kullanılır.  Git'in çalışma alanı ile commit arasında bir ara depolama bölgesidir. Bu bölge, yapmak istediğiniz değişiklikleri seçici bir şekilde eklemek ve bir sonraki commit'e hazırlamak için kullanılır.
+
+===========================================================================================================================================
+
+
