@@ -61,3 +61,5 @@ Cevap 18:  sahneleme alanındaki dosyaları yerel depoya kaydedersiniz. Bu komut
  Bu komut, uzak depoyu ve dalı belirtmenizi ister. Eğer bunları belirtmezseniz, varsayılan olarak “origin” ve “master” kullanılır.
 
 Cevap 19: Atomic commit, tek bir amaç için yapılan küçük ve bağımsız bir commit’tir. Bu tür commit’ler, projenizin okunabilirliğini, anlaşılabilirliğını ve geri alınabilirliğini artırır. Atomic commit yapmak için, aynı anda birden fazla dosyayı değiştirmemeli, commit mesajınızı net ve özgün tutmalı, ve commit’inizi sık sık yapmalısınız.
+
+Cevap 20: Repository, git’in versiyon kontrolü yaptığı bir proje klasörüdür. Bu klasör, “.git” klasörünü ve projenizin dosyalarını içerir. Repository, yerel veya uzak olabilir. Yerel repository, bilgisayarınızda bulunan repository’dir. Uzak repository, internet üzerinde bulunan repository’dir. Uzak repository, projenizi başkalarıyla paylaşmanıza ve işbirliği yapmanıza olanak sağlar.
