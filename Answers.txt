@@ -77,3 +77,6 @@ Git ise Github üzerinde işlem yapmak için kullanılan bir versiyon kontrol si
 
 24-main ya da master branch'inin diğer branchlerden farkı nedir?
 Main ya da master branchi bir projenin oluşturulduğunda otomatik olarak oluşturulan ana branchtir.
+
+25-".gitignore" dosyası nedir ve ne amaçla kullanılır? 
+.gitignore bir git deposunda takipe edilmesini istemediğimiz dosyaları ve dizinleri belirtmek için kullanılır.
