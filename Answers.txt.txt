@@ -70,6 +70,10 @@ CEVAP: birleşme çakışması denir. farklı branchlerden gelen değişiklikler
 
 
 - "git log" komutu ile hangi bilgileri görebiliriz?
+
+CEVAP: bir projenin en başından sonuna kadar yapılan tüm commitleri gösterir
+
+
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 - Git reset ile neyi geri alıyoruz?
 - "git commit" ile "git push" arasındaki fark nedir?
