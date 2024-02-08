@@ -146,3 +146,10 @@ Repository, bir projenin veya yazılımın kaynak kodlarının, dosyalarının v
 
 git tag komutu, commitleri etiketleme işlemidir.
 git branch komutu ise, farklı geliştirme hatları oluşturmak, takip etmek ve arasında geçiş yapmak için kullanılır.
+
+------------------------------------------
+
+22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+-SourceTree
+-GitKraken
