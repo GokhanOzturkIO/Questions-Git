@@ -1,2 +1,5 @@
 1. Git Nedir?
 Git bir versiyon kontrol sistemidir. Kurulu olduğu yerde değişiklikleri versiyonlamak, takip etmek gibi işlemleri yürütmek için kullanılır.
+
+2. "git pull" ile "git fetch" komutlarının farkı nedir?
+git fetch; Remote Repository'deki değişikliklerden Local Repository'yi haberdar eder, Local'deki kodlarımızda değişiklik olmaz. git pull ise önce git fetch gibi Remote'dan Local'e çeker, sonra git merge/git rebase gibi Local'den Working Directory'ye aktarır. Her zaman önce git fetch ile bir kontrol sağlayıp sonrasında git pull yapmak sağlıklıdır.
