@@ -15,3 +15,6 @@ HEAD kelimesi anlık olarak bulunduğumuz konumu gösterir. Örneğin commit üz
 
 6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 "Staging Area" ya da "Index" değişiklikleri commit etmeden önce kullandığımız geçici bir depolama alanıdır.
+
+7- "Untracked file" ne demektir?
+"Untracked file" dosyanın git tarafından takip edilmediğini yani git add komutuyla staging area'ya eklenmediğini ve commit edilmediğini ifade eder.
