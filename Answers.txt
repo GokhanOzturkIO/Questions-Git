@@ -1,0 +1,5 @@
+1- "Git Nedir?"
+Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon konrol sistemidir. Kod tabanının izlenmesini, yönetilmesini ve paylaşılmasını sağlar.
+Aynı zamanda Git kod üzerinde yapılan değişikliklerin izlenmesini ve geri alınmasını sağlar. 
+
+---------------------------------------------
