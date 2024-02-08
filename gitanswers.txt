@@ -25,3 +25,7 @@ Takım arkadaşımız commitleyip push etmemiş olabilir ya da farklı branche p
 7- "Untracked file" ne demektir?
 
 Untracked file" terimi, Git'in çalışma dizininde bulunan ve henüz Git'in takibine alınmamış dosyaları ifade eder. Yani, bu dosyalar, Git'in dikkate almadığı ve değişikliklerini izlemediği dosyalardır.
+
+8-".git" klasörünü silersek ne olur? :
+
+Eğer .git klasörünü silerseniz, Git deposunun kontrolü kaybolur ve projenin Git tarafından yönetilen tüm özellikleri kullanılamaz hale gelir.
