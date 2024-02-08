@@ -91,5 +91,15 @@ Bir “merge conflict” durumunda, Git çakışan dosyaları belirtir ve dosyal
 Kullanıcı, bu işaretleri ve çakışan değişiklikleri kullanarak hangi değişikliklerin korunacağını seçer ve çakışmayı çözer. Bu işlem tamamlandığında, merge işlemi devam eder. Branch’lerin çakışması diye kafanızda kodlayabilirsiniz.
 
 
+Soru 15: "git log" komutu ile hangi bilgileri görebiliriz?
+
+git log komutu, Git deposundaki commit geçmişini gösterir. Bu komut ile aşağıdaki bilgileri görebiliriz:
+
+- Commitlerin benzersiz kimlikleri (commit hash)
+- Her commitin yazarı ve e-posta adresi
+- Her commitin tarihi ve saati
+- Her commitin başlık veya mesajı
+
+
 
 
