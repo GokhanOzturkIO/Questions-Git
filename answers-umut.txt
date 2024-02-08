@@ -97,3 +97,16 @@ Bir "merge conflict" (birleştirme çakışması), Git'te iki veya daha fazla br
 
 ===========================================================================================================================================
 
+"git log" komutu ile hangi bilgileri görebiliriz?
+
+"git log" komutu, Git reposunda yapılan commit'lerin tarihçesini gösteren bir komuttur. Bu komut kullanıldığında, her bir commit'in aşağıdaki bilgilerini görebilirsiniz:
+
+Commit ID: Her commit'in benzersiz bir kimliği vardır. Bu kimlik, commit'in tüm Git deposunda tekil olarak tanımlanmasını sağlar.
+
+Yazar: Commit'i yapan kişinin adı ve e-posta adresi.
+
+Tarih: Commit'in yapıldığı tarih ve saat bilgisi.
+
+Commit Mesajı: Commit ile ilişkilendirilmiş olan açıklama veya mesaj. Bu mesaj, commit'in yapıldığı değişikliği veya eklenen özelliği açıklar.
+
+===========================================================================================================================================
