@@ -28,3 +28,11 @@ origin burada varsayılan branch ismi olarak kullanılmıştır. Burada eğer fa
 komutu git fetch branch_adı şeklinde de kullanabiliriz.
 
 ******************************************************************************************************************************************************
+
+5- "HEAD" kelimesi neyi temsil etmektedir?
+
+Hangi commit'te olduğumuzu gösteren ifadeye denir. Varsayılan olarak en son atılan commit HEAD olur ancak checkout ile başka bir commit'e gidilirse bu yeni geçilen
+commit HEAD olur. git log komutunu kullandığımızda güncel olarak hangi commit'te bulunuyorsak o commit'in yanında parantez içerisinde HEAD -> branch_adı
+şeklinde bir gösterim bulunur.
+
+******************************************************************************************************************************************************
