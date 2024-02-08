@@ -35,3 +35,7 @@ Sıfırdan bir branch oluşturmanın iki yolu vardır.
 
 12-Var olan bir "branch"e nasıl geçebiliriz?
 Var olan branche geçmek için git checkout komutunu kullanmalıyız. Geçmek istediğimiz branche geçmek için git checkout <branch.name> kullanmalıyız.
+
+13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+Spesifik bir branchi çekmek istiyorsak şu komutu yazmalıyız
+git clone --single-branch <branch.name> <url>
