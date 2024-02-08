@@ -27,6 +27,14 @@ HEAD genel olarak çalıştığımız branch üzerinde atılan en son commiti i�
 
 =================================================================================================================================================================
 
+Q5)"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Bu bölge aslında bizim yaptığımız değişikliklerin commitlenmeden önceki bulunduğu ara bir alandır.Bu,kullanıcının commit yapmadan önce değişiklikleri görmesine ve istenmeyen değişikliklerin yanlışıkla dahil edilmesini önlemesine olanak tanır.git add komutu ile dosyaları staging area'ya ekleyebiliriz.
+
+=================================================================================================================================================================
+
+
+
 
 
 
