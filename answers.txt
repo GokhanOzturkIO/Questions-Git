@@ -33,3 +33,9 @@ git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün
 
 12- git checkout <branch adı>
 
+13- git clone -b <branch_name> <repository_url>
+
+14- Git'in birleştime sırasında ve otomatik olarak halledemediği durumları ifade eder.
+    Farklı geliştiricilerin farlı dallarına yazdıkları değikliklerin aynı dosyada aynı satırda birleştiği durumda ortaya çıkar.
+
+
