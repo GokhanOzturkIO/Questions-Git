@@ -33,3 +33,7 @@ Cevap 9 :  Bunu yapmak için, git’in kullandığı şablon klasörünü (templ
  Bu klasör, git’in yeni bir depo oluştururken kopyaladığı dosyaları içermektedir. Bu klasörün konumunu öğrenmek için
 “git config --get init.templateDir” komutunu kullanabilirsiniz. Eğer bu klasör yoksa, oluşturabilirsiniz.
  Bu klasörün içine, istediğiniz dosyaları koyabilirsiniz. Örneğin, “ReadMe.md” dosyasını bu klasörün içine koyarsanız, her “git init” komutunda bu dosya da oluşturulacaktır.
+
+Cevap 10: “Branch” yapısı, git’in en önemli özelliklerinden biridir. Bu yapı, projenizin farklı versiyonlarını veya dallarını oluşturmanıza ve
+yönetmenize olanak sağlar. Bu sayede, projenizin ana dalını (main veya master) bozmadan, yeni özellikler, hata düzeltmeleri, denemeler veya diğer
+değişiklikler yapabilirsiniz. Ayrıca, farklı dalları birleştirerek (merge) veya karşılaştırarak (diff) projenizin gelişimini takip edebilirsiniz.
