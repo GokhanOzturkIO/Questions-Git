@@ -12,3 +12,5 @@
 -git commitlerimizi push etmeden önce alınan ara bölgedir
 7-Untracked file" ne demektir?
 -Git'e tarafından takip edilmeyen bir dosyayı ifade eder
+8-".git" klasörünü silersek ne olur?
+-Git deposundaki , commitler,branchler kısaca tüm geçmiş kaybolur
