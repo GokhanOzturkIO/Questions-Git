@@ -21,9 +21,10 @@ CEVAP:bir projeyi klonladığımızda klonladığımız projeyi ana sunucusundak
 
 CEVAP:Atılan son commiti ve ya bağlı oldğumuz başka işlemler içinde o anki açıkta olan branchi işaret eder.Yani bir commit üzerinde çalışıyorsak head direkt o commiti gösterir
 
-
-
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+CEVAP:Git'te bir dosya değiştirdiğimizde bu değişiklikleri Staging Area'ya eklememiz gerekir.Bu değişiklikleri git add komutu ile ekleriz  farklı değişikliklerin birleşip commit edilmesini de sağlar.
+
 - "Untracked file" ne demektir?
 - ".git" klasörünü silersek ne olur?
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
