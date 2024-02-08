@@ -24,3 +24,9 @@ Uzak depoya erişim izinleriniz olmayabilir veya yetkilendirme bilgileriniz yanl
 
 5-"HEAD" kelimesi neyi temsil etmektedir?
 "HEAD" kelimesi şu anki çalışma branch'imizin son commit'ine işaret eder.
+
+----------------------------------------------
+6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+"Staging Area" veya "Index", Git'in çalışma alanındaki dosyalar üzerinde yapılacak değişikliklerin geçici olarak saklandığı bir bölgedir. 
+Bu bölge, bir sonraki commit'in içereceği değişikliklerin seçildiği yerdir.
