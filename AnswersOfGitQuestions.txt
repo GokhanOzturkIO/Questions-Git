@@ -16,3 +16,4 @@ Eğer herhangi bir teknik sorun olmamışsa (internet erişimi vb), Öncelikle g
 
 Arkadaşımız değişiklikleri commitlediği halde henüz uzak repoya push etmemiş olabilir. Eğer push işlemi gerçekleşmişse ancak sorun devam ediyorsa, muhtemelen farklı bir branch üzerine push yapmış olabilir.
 #####
+
