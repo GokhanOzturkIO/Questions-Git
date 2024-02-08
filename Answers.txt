@@ -63,3 +63,7 @@ Atomic commit, bir değişiklik grubunun bir bütün olarak uygulanması ve kayd
 
 20-Repository ne demektir?
 Repository uzak bir sunucuda dosyalarımızı, kodlarımızı tuttuğumuz bir depodur.
+
+21-"git tag" nedir? "git branch"’ten farkı nedir?
+Git tag, belirli bir commit noktasına etiket atmak için kullanılır. Bu sayede o noktayı daha kolay bulmayı sağlar.
+Git branch ise projedeki farklı geliştirme dallarını listelemek, yeni branchler oluşturmak, silmek veya birleştirmek için kullanılır.
