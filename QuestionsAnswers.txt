@@ -43,3 +43,5 @@ formatında yazarak bu işlemi sağlayabiliriz.
 14) "Merge conflict" ne demektir? -> Örneğin aynı projede çalışan iki kişinin yaptığı değişikliklerin birleştirilmesi sırasında ortaya çıkabilir. Projede aynı bölümde 
 farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim yapmamız gerekir hangi değişikliklerin kalacağı ile ilgili.
 *******************************************
+15) "git log" komutu ile hangi bilgileri görebiliriz? -> Geçmişte attığımız commit lere ulaşabiliriz ya da branch işlemleri vs de gerçekleştirdiysek bunları da görmemiz mümkün.
+*******************************************
