@@ -39,3 +39,5 @@
 20-Repository,bir versiyon kotrol sistemi tarafından yönetilen dosyaların bulunduğu merkezi bir depodur.Bu depoda geçmiş değişikikler ve üzerinde yapılan çalışmaları takip edebiliriz.
 
 21-Git tag belirli bir commit'e bir etiket eklerken, "git branch" farklı geliştirme dallarını yönetmek için kullanılır.
+
+22-Visualize Git,visualizing-git reposu ve bunun gibi bir çok siteden görsel bir şekilde git ile ilgili uygulamaları görebilirsiniz.
