@@ -14,6 +14,9 @@ CEVAP:
 3-git fench komutu ile depoyu güncellememiş olabilir
 
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+CEVAP:bir projeyi klonladığımızda klonladığımız projeyi ana sunucusundaki projeyi yani projenin orijinal kaynağını ifade eder
+
 - "HEAD" kelimesi neyi temsil etmektedir?
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?
