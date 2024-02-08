@@ -88,3 +88,10 @@ Projede geliştirilecek olan versiyonların ana projeye zarar vermemesini sağla
 
 "git checkout var_olan_branch_adı" komutu ile var olan branch'e geçilebilir.
 
+------------------------------------------
+
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+"git clone --single-branch" komutu ile sadece o branch'in geçmişi alınırç Projedeki diğer branch'ler indirilmez.
+
+
