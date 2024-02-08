@@ -21,3 +21,10 @@ bir diğer sebep yanlış repository üzerinde çalışıyor olabilirsiniz(aynı
 seçenekleri deniyebilirsiniz.
 
 ******************************************************************************************************************************************************
+
+4- "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+origin burada varsayılan branch ismi olarak kullanılmıştır. Burada eğer farklı branch üzerinde çalışıyorsak ve bu branch'teki değişiklikleri almak istiyorsak
+komutu git fetch branch_adı şeklinde de kullanabiliriz.
+
+******************************************************************************************************************************************************
