@@ -61,3 +61,7 @@ Bunu iki komut ile yapabiliriz:
 ## Soru 14: "Merge conflict" ne demektir?
 
 Farklı branch'ler üzerinde çalıştıktan sonra bu branchler amaçlarına ulaştıktan sonra birleştirilir. Birleştirme aşamasında çatışma olması durumuna "Merge conflict" denir. Aynı dosya içerisinde aynı satırlarda değişiklik yapılmışsa ya da bir tarafta dosya silinmişken diğer tarafta o dosya üzerinde değişiklik olmuşsa vb. durumlarda bu yaşanabilir. Bu durumalarda meydana gelen çatışmayı çözmek için yapılan değişikliklerin dikkatlice incelenmesi gerekir.
+
+## Soru 15: "git log" komutu ile hangi bilgileri görebiliriz?
+
+Bu komut ile git projesinde o anda bulunduğumuz branch'in commit geçmişini görüntüleriz.
