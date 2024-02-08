@@ -46,3 +46,6 @@ git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün
 
 19- her bir commitin sadece yapılan bir değişikliği temsil etmesidir.
 
+20- it tarafından yönetilen bir proje veya kod deposudur. Bir Git deposu, bir veya daha fazla dosya ve bu dosyalarda yapılan değişikliklerin tarihini ve sürümünü takip eden bir dizi commit içerir.
+
+Git deposu, bir projenin tam tarihçesini, farklı sürümlerini ve değişiklik
