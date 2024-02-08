@@ -82,3 +82,9 @@ Projede geliştirilecek olan versiyonların ana projeye zarar vermemesini sağla
 
 "git branch yeni_branch_adı" komutu ile yeni bir branch oluşturulabilir.
 
+------------------------------------------
+
+12. Var olan bir "branch"e nasıl geçebiliriz?
+
+"git checkout var_olan_branch_adı" komutu ile var olan branch'e geçilebilir.
+
