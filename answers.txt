@@ -49,3 +49,6 @@ git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün
 20- it tarafından yönetilen bir proje veya kod deposudur. Bir Git deposu, bir veya daha fazla dosya ve bu dosyalarda yapılan değişikliklerin tarihini ve sürümünü takip eden bir dizi commit içerir.
 
 Git deposu, bir projenin tam tarihçesini, farklı sürümlerini ve değişiklik
+
+21- git tag belirli bir yapılan değişikliği işaretlemek ve daha sonra kolay bir şekilde ulaşılabilmesini sağlar.
+git branch, projenin farklı parçalarını veya özelliklerini izlemek ve geliştirmek için kullanılan dalları yönetmek için kullanılır.
