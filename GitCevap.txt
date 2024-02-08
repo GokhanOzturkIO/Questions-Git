@@ -53,3 +53,6 @@ Cevap 15:  Bu komut, her commit’in kim tarafından, ne zaman ve hangi mesajla 
 Cevap 16:  iki dosya, iki commit veya iki dal arasındaki değişiklikleri görebilirsiniz. Bu komut, değişiklikleri satır satır gösterir. Eğer parametre vermezseniz, bu komut, çalışma dizininizdeki (working directory) değişiklikleri gösterir.
 Eğer “git diff --staged” komutunu kullanırsanız, sahneleme alanındaki (staging area) değişiklikleri gösterir. Eğer “git diff <commit_1> <commit_2>” komutunu kullanırsanız, iki commit arasındaki değişiklikleri gösterir.
 Eğer “git diff <dal_1> <dal_2>” komutunu kullanırsanız, iki dal arasındaki değişiklikleri gösterir.
+
+Cevap 17: son commit’i geri alabilirsiniz. Bu komut, HEAD’i belirlediğiniz bir commit’e taşır. Bu sayede, son commit’ten sonra yaptığınız değişiklikleri iptal edebilirsiniz. Bu komutu, “–soft”, “–mixed” veya “–hard” parametreleri ile kullanabilirsiniz.
+ “–soft” parametresi, sahneleme alanını değiştirmez, sadece HEAD’i taşır. “–mixed” parametresi, sahneleme alanını da değiştirir, ancak çalışma dizininizi değiştirmez. “–hard” parametresi, hem sahneleme alanını hem de çalışma dizinini değiştirir. 
