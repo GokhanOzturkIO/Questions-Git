@@ -90,3 +90,6 @@ main, master ya da başka bir isim verdiğimiz ana branch çoğunlukla projenin 
 
 25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
 Git'in takip etmesini istemediğimiz dosyaları .gitignore'da belirtiriz.
+
+26."git push origin --delete branch_name” nedir ve ne için kullanılır?
+Remote Repository'deki (origin) ilgili branch'i silmek için kullanılır.
