@@ -58,3 +58,6 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 
 19-Atomic commit ne demektir?
 her bir değişikliği tek tek ekleyip her birine ayrı bir commit mesajı ekleyip commitlemektir. İşlerin daha düzenli ilerlemesini ve gözükmesini sağlar.
+
+20-Repository ne demektir?
+-"Repository" (Depo), bir yazılım projesinin, dosyalarının, geçmişinin ve sürüm kontrolü bilgilerinin saklandığı yerdir. Bir repository, yazılım geliştirme sürecinde kullanılan dosyaların ve verilerin depolandığı, yönetildiği ve paylaşıldığı merkezi bir depo olarak düşünülebilir.
