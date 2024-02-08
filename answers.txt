@@ -5,3 +5,6 @@ Değişiklikleri çekmez. "git pull" komutu ise, "git fetch" komutu ile haberdar
 "git pull" komutu, sadece güncel (çalışılan) branch'deki değişiklikleri çeker. Öncesinde mutlaka "git fetch" komutunun çalıştırılması gerekir.
 Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler oluşabilir.
 
+3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir:
+"git fetch" komutunu çalıştırmamış olabiliriz. Farklı branch'lerde olabiliriz. Takım arkadaşımız sadece commit atıp push'lamayı unutmuş olabilir.
+
