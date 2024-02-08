@@ -110,3 +110,11 @@ Tarih: Commit'in yapıldığı tarih ve saat bilgisi.
 Commit Mesajı: Commit ile ilişkilendirilmiş olan açıklama veya mesaj. Bu mesaj, commit'in yapıldığı değişikliği veya eklenen özelliği açıklar.
 
 ===========================================================================================================================================
+
+"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+"git diff" komutu, Git deposundaki değişiklikleri görmek için kullanılır. İki farklı durum arasındaki değişiklikleri görmek için, "git diff" komutunu kullanırken karşılaştırılacak iki referans noktası belirlemeniz gerekir. Bu referans noktaları, genellikle commit ID'leri, branch adları veya HEAD gibi belirli bir konumu işaret eden başka bir Git referansı olabilir.
+Ayrıca git diff –staged ile de stating areadaki değişiklikleri görebiliriz.
+
+===========================================================================================================================================
+
