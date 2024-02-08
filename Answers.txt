@@ -3,6 +3,7 @@ Soru 1: Git Nedir?
 Git bir versiyon(sürüm) kontrol sistemidir. Git, kodların sürüm kontrolünü sağlayan bir sistemdir. Değişiklikleri takip eder, geri alabilir ve farklı kod versiyonlarını birleştirebilir.
 Ayrıca, birden çok kişinin aynı projede eş zamanlı olarak çalışmasını kolaylaştırır. Kim hangi değişikliği yapmış bilgisine kadar bütün bunları takip edebilmemizi sağlayan yapıdır.
 
+
 Soru 2: "git pull" ile "git fetch" komutlarının farkı nedir?
 
 “git pull” komutu, uzak depodaki değişiklikleri çeker ve bunları yerel depoya birleştirir. Yani, “git fetch” ve “git merge” işlemlerini bir arada yapar.
@@ -11,33 +12,41 @@ Soru 2: "git pull" ile "git fetch" komutlarının farkı nedir?
 
 temel fark, git pull'un uzak bir depodan değişiklikleri doğrudan çalışma dizininize kopyalarken, git fetch'in bunu yapmamasıdır. Git fetch komutu sadece değişiklikleri yerel Git depomuza kopyalar. Git pull komutu ise her ikisini de yapar.
 
+
 Soru 3: Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 
 Yanlış Git URL,Ağ Sorunları,Yetki Sorunları gibi sorunlar olabilir bu sorunlar yoksa  Git’in çalışma prensibine göre, bir kişi yaptığı değişiklikleri uzak sunucuya göndermek için öncelikle git commit komutunu kullanarak değişikliklerini yerel depoda kaydetmeli
 ve ardından git push komutunu kullanarak bu değişiklikleri uzak sunucuya göndermelidir. Eğer git push komutu kullanılmazsa, yaptığı değişiklikler sadece yerel depoda kalır ve diğer geliştiriciler bu değişiklikleri git pull komutu ile çekemezler.
 git pull ile lokalimize alamadığımız durumlarda arkadaşımız bu hatalardan birini yapmış olabilir.
 
+
 Soru 4: "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
 “origin” Git’te genellikle uzak depoyu (remote repository) ifade eder.Bu depo, genellikle projenizin merkezi bir kopyasıdır ve diğer geliştiricilerin değişikliklerini içerir. Yani, bu komut, uzak depodaki güncellemeleri yerel kopyanıza çekmek için kullanılır.
 "origin" adının kullanılması, genellikle bir projenin "ana" uzak depo adresini belirtmek için yaygın olarak benimsenmiş bir standarttır. Ancak, bu ad tamamen değiştirilebilir veya farklı bir isim kullanılabilir
+
 
 Soru 5: "HEAD" kelimesi neyi temsil etmektedir?
 
 "HEAD", Git deposundaki mevcut çalışma durumunu ve en son commit'in referansını temsil eder. Başka bir deyişle, "HEAD" mevcut branch'inizin son durumunu gösterir.
 Yani, "HEAD" mevcut çalışma alanınızın konumunu belirler ve üzerinde çalıştığınız commit'i veya branch'i işaret eder. Bu nedenle, Git'te sık sık "HEAD" kelimesine rastlarsınız; çünkü mevcut çalışma durumunu göstermek için önemlidir.
 
+
 Soru 6: "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 
 “Staging Area” ya da “Index”, Git’te değişikliklerinizi organize etmek için kullanılan bir alandır. Bu alanda, bir sonraki commit’e dahil edilecek dosyalar ve değişiklikler belirlenir. 
 Yani, bir dosyada yaptığınız değişiklikleri “git add” komutu ile Staging Area’ya eklersiniz ve “git commit” komutu ile bu değişiklikleri commit’lersiniz. Bu, değişikliklerinizi daha düzenli ve anlaşılır bir şekilde kaydetmenizi sağlar.
 
+
 Soru 7: "Untracked file" ne demektir?
+
 “Untracked file”, Git’in henüz takip etmediği bir dosyayı ifade eder. Yani, bu dosya Git tarafından daha önce görülmemiş ve herhangi bir commit’e dahil edilmemiştir. “git add” komutu ile bu tür dosyaları Git’in takip etmesi için Staging Area’ya ekleyebiliriz.
+
 
 Soru 8: ".git" klasörünü silersek ne olur?
 
 “.git” klasörü, bir Git deposunun tüm tarihini ve yapılandırma ayarlarını içerir. Eğer bu klasörü silersek, commit geçmişi, branch’ler, konfigürasyonlar ve diğer tüm Git ile ilgili bilgiler kaybolur. Yani, dosyamızın bir Git deposu olarak kullanma yeteneğini kaybederiz.
+
 
 Soru 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
@@ -46,9 +55,11 @@ Hazırladığımız ReadMe.md şablon dosyasını bir Git şablon dizinine eklem
 Artık her yeni bir repo oluşturmak istediğimizde, "git init" komutunu kullanırken "--template" flag'ini ekleyerek kullanacağımız şablon dosyasını belirtmemiz gerekmektedir. Bu sayede Git, yeni repo oluşturulduğunda ReadMe.md dosyasını içeren şablonu kullanacaktır.
 Özetle, ReadMe.md içeren bir şablon dosyası hazırlayarak ve bu şablonu git init -- template [şablondosyası konumu] kullanarak belirtiriz. Böylece her yeni repo oluşturulduğunda otomatik olarak ReadMe.md dosyası eklenmiş olur.
 
+
 Soru 10: Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 
 Projelerin farklı dallara ayrılarak geliştirilebilmesini sağlayan bir özelliktir. Bu sayede projenin farklı özellikleri ayrı ayrı geliştirilebilir ve sonrasında birleştirebiliriz.
+
 
 Soru 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
@@ -58,13 +69,27 @@ Soru 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
 4. Oluşturduğunuz yeni branch’e geçmek için git checkout yeniBranchAdi komutunu kullanın.
 Bu adımlar, yeniBranchAdi adında yeni bir branch oluşturur ve bu branch’e geçiş yapar. Artık bu branch üzerinde çalışabilir ve değişiklikler yapabiliriz.
 
+
 Soru 12: Var olan bir "branch"e nasıl geçebiliriz?
 
 Mevcut branch'i görmek için git branch komutunu kullanırız ve geçmek istediğimiz branch'i seçmek için git "checkout branch-adı" komutunu kullanırız. Seçtiğimiz branch'e başarıyla geçtiğimizi doğrulamak için git branch komutunu tekrar kullanabiliriz. 
 Seçili branch, yıldız (*) ile işaretlenmiş olmalıdır.
 
+
 Soru 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
 git clone -b <branch_adı> <repo_url> Bu komut, belirttiğiniz <branch_adı> isimli branch’i ve <repo_url> adresindeki depoyu çeker. Bu komutu kullanarak sadece belirli bir branch’i çekebiliriz. Bu komut, depoyu yerel makinenize klonlar ve belirttiğimiz branch’e otomatik olarak geçiş yapar.
+
+
+Soru 14: "Merge conflict" ne demektir?
+
+Merge conflict”, Git’te iki veya daha fazla değişikliğin çakıştığı durumu ifade eder. Bu genellikle aynı dosyanın farklı branch’lerde farklı şekillerde değiştirildiği ve bu branch’lerin birleştirilmeye çalışıldığı zaman ortaya çıkar.
+
+Git, çakışan değişiklikleri otomatik olarak birleştiremez ve bu durumda kullanıcıdan hangi değişikliklerin korunacağını manuel olarak belirlemesini ister. Bu duruma “merge conflict” denir.
+
+Bir “merge conflict” durumunda, Git çakışan dosyaları belirtir ve dosyaları özel işaretlerle düzenler. Bu işaretler, çakışan değişikliklerin nerede başladığını ve bittiğini gösterir. 
+Kullanıcı, bu işaretleri ve çakışan değişiklikleri kullanarak hangi değişikliklerin korunacağını seçer ve çakışmayı çözer. Bu işlem tamamlandığında, merge işlemi devam eder. Branch’lerin çakışması diye kafanızda kodlayabilirsiniz.
+
 
 
 
