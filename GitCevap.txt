@@ -26,3 +26,5 @@ Cevap 6 : “Staging Area” ya da “Index” diye isimlendirilen bölge, commi
 Cevap 7: “Untracked file”, git tarafından takip edilmeyen, yani versiyon kontrolü altında olmayan bir dosyadır.
  Bu dosyalar, yeni oluşturulmuş veya kopyalanmış olabilir. Bu dosyaları git’e tanıtmak için “git add <dosya_ismi>” komutunu kullanabilirsiniz.
 
+Cevap 8: git” klasörü, git’in versiyon kontrolü için kullandığı tüm bilgileri içeren bir gizli klasördür. Bu klasörü silerseniz, git’in tüm geçmişini, dallarını, etiketlerini, ayarlarını ve diğer bilgilerini kaybedersiniz.
+ Bu nedenle, bu klasörü silmek çok tehlikeli bir işlemdir
