@@ -153,11 +153,15 @@ Git’i görsel olarak kullanmak için birçok üçüncü taraf araç ve uygulam
 - TortoiseGit: Windows kullanıcıları için popüler bir seçenektir.
 - SmartGit: Çok platformlu (Windows, Mac, Linux) bir Git istemcisidir.
 - Tower: Mac ve Windows için başka bir popüler Git istemcisidir.
-- Creately: Gerçek zamanlı işbirliği, sonsuz tablo ve güçlü diyagram oluşturma özelliklerini kullanarak projelerinizi tasarlamak için kullanabilirsiniz1.
+- Creately: Gerçek zamanlı işbirliği, sonsuz tablo ve güçlü diyagram oluşturma özelliklerini kullanarak projelerinizi tasarlamak için kullanabilirsiniz.
 Bu araçlar, Git işlemlerini görsel olarak gerçekleştirmenizi ve Git’in daha karmaşık özelliklerini daha kolay bir şekilde yönetmenizi sağlar.
 
 
+Soru 23: "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
+Git, dağıtık bir versiyon kontrol sistemidir. Yazılım geliştirme projelerinde kullanılan Git, projedeki dosyaların ve kodun değişikliklerinin takibini yapar.
+GitHub, Git tabanlı bir web tabanlı platformdur. Git’in sunduğu versiyon kontrol özelliklerini kullanıcı dostu bir arayüzle sunar. Kullanıcılar, GitHub üzerinde projelerini barındırabilir, paylaşabilir, işbirliği yapabilir ve açık kaynak projelerine katkıda bulunabilirler.
+GitHub Benzeri Diğer Siteler: Bitbucket, GitLab, SourceForge
 
 
 
