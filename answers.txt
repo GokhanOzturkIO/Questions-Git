@@ -50,3 +50,7 @@ git clone --branch branch_adi <repo_url>
 
 ✔"git log" komutu ile hangi bilgileri görebiliriz? 
    Geçmiş commitleri listeler tarih,yazar,commit mesajlarını görebiliriz. Kısa commit bilgileri diyebilirim.
+
+✔"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+   -Git diff ile "staging area" veya son commit arasındaki farkları görebiliriz
+   
