@@ -12,3 +12,6 @@ Aksi takidirde değişikliklerden haberdar olamayacağımız için conflict'ler 
 
 5) "HEAD" kelimesi neyi temsil etmektedir: güncel branch'in son commit'ini temsil eder.
 
+6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir: Staging Area, yaptığımız değişiklikleri veya yeni oluşturduğumuz dosyaları, commit'lemeden
+önce tuttuğumuz ara bir bölgedir. Yaptığımız her değişikliği commit'lemek istemeyebiliriz. Commit'lemek istediğimiz değişiklikleri hazırda tutmak için Staging Area'ya alırız.
+
