@@ -64,6 +64,11 @@ CEVAP:özel bir branch dowland etmek istersek branch name kullanarak indirebilir
 
 
 - "Merge conflict" ne demektir?
+
+CEVAP: birleşme çakışması denir. farklı branchlerden gelen değişiklikleri birleştirmeye çalışırken karşılaşılan duruma denir 
+ÖRNEĞİN:biri bir satırdan kod sildiyse ama diğeri o satıra kod eklediyse git buna karar veremez ve branchleri birleştirirken sorar hanginisi kabul edeyim ya da ikisinide mi kabul edeyim bize bırakır
+
+
 - "git log" komutu ile hangi bilgileri görebiliriz?
 - "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 - Git reset ile neyi geri alıyoruz?
