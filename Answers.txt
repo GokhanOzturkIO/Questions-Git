@@ -2,3 +2,16 @@ Q1)Git Nedir
 
 Git,dağıtık version kontrol sistemi ve kaynak kod yönetim aracıdır.Bizim yazılım geliştirme sürecimizde,projelerimizi izlemek,değişikliklikleri yönetmek,işbirliği yapmak ve geçmiş versiyonlara geri dönmek için kullanılır.En basit tanımıyla bir versiyon kontrol sistemi olarak düşünebiliriz.Versiyonlarına ayırmak istediğimiz herhangi birşey var ise git kullanımını rahatça yapabiliriz.Metinleri,görselleri,belgeleri etkili bir şekilde git ile yönetebiliriz.
 =================================================================================================================================================================
+
+Q2)"git pull" ile "git fetch" komutlarının farkı nedir?
+
+Öncelikle tanımlayalım,bu iki komut da remote repodaki değişiklikleri almak için kullanılan iki farklı git komutudur.Bu kodların ikisi de uzak repodaki güncellemeleri indirmemize olanak verir fakat aralarında önemli farklar vardır.
+
+Git Fetch komutu uzak repodaki değişiklikleri indirir ve localda güncel bir kopyasını oluşturur fakat bu,local çalışma dizinimizi değiştirmez,mevcut çalışmamızı etkilemez.Bizim local kopyamız'ı güncellemez,sadece "bak remote repoda değişiklikler oldu haberin olsun" şeklinde çalışır.
+
+Git Pull ise aslında git fetch + git merge gibi düşünebiliriz.Git pull remote repodaki değişiklikleri indirir,ve bu değişiklikleri local branchimiz ile birleştirir.Bu aynı zamanda local repomuzu da günceller.Yani, temel fark, git fetch ile sadece uzak depodaki güncellemelerin alınması ve yereldeki dosyaların güncellenmemesi, git pull ile ise uzak depodaki güncellemelerin alınması ve yerel dosyaların otomatik olarak güncellenmesidir.
+
+=================================================================================================================================================================
+
+
+
