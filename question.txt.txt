@@ -42,3 +42,6 @@ Cevap 11: Sıfırdan bir “branch” oluşturmak için “git branch <dal_ismi>
 
 Cevap 12:  Var olan bir "branch"e geçmek için “git checkout <dal_ismi>” komutunu kullanabilirsiniz. Bu komut, yerel depodaki dosyaları, seçtiğiniz dalın son commit’ine göre değiştirir.
  Eğer seçtiğiniz dal, uzak depoda varsa, ancak yerel depoda yoksa, “git checkout -b <dal_ismi> origin/<dal_ismi>” komutunu kullanabilirsiniz. Bu komut, uzak depodaki dalı yerel depoya kopyalar ve geçiş yapar.
+
+Cevap 13:  “git clone” komutunu kullanırken, “-b <dal_ismi>” parametresini ekleyerek, belirli bir spesifik branch’i sadece çekebilirsiniz.
+Örneğin, “git clone -b develop <uzak_depo_url>” komutu, uzak depodaki “develop” dalını yerel depoya klonlar.
