@@ -33,3 +33,7 @@ git branch <branch-adı> komutu ile sıfırdan branch oluşturulabilir.
 
 12. Var olan bir "branch"e nasıl geçebiliriz?
 git checkout <branch-adı> komutu ile var olan branch'e geçilebilir.
+
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+git clone --branch <branch-adı> <uzak_repo_linki> komutu ile spesifik bir branch çekilebilir.
+Ayrıca git clone --single-branch <branch-adı> <uzak_repo_linki> komutu ile branch'in sadece history'si (loglar) çekilebilir.
