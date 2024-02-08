@@ -104,8 +104,14 @@ Localde geliştirdiğimiz projeye uzak sunucudaki son değişiklikleri eklemek i
 
 ---------------------------------------
 
+15) "git log" komutu ile hangi bilgileri görebiliriz?
 
+projenin geçmişini görebiliriz.
+commit bilgilerini (id, date, author, message) görebiliriz.
+HEAD'in konumunu görebiliriz.
+HEAD'in konumuna göre hangi branchde veya commit içerisinde olduğumuzu görebiliriz.
 
+---------------------------------------
 
 
 
