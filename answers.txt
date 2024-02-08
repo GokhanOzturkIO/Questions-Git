@@ -44,5 +44,5 @@ git config --global init.templatedir '~/.git_template'  komutu ile bu klasörün
 18- git commit yapılan değişikleri yerel bir Git deposuna kaydetmek için kullanılır.
     git push yapılan değişikleri uzak sunucudaki Git deposuna aktarmak için kullanılır.
 
-
+19- her bir commitin sadece yapılan bir değişikliği temsil etmesidir.
 
