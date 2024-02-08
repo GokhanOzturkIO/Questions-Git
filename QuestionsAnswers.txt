@@ -47,3 +47,5 @@ farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim
 *******************************************
 16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz? -> iki dosya veya commit arasındaki değişiklikleri görebiliriz.
 *******************************************
+17) Git reset ile neyi geri alıyoruz? -> Yapılacak tanımlamalara göre: dosya ve commit geri alabiliriz. Aynı zamanda staging area alanındaki değişiklikleri geri almak için de kullanabiliriz.
+*******************************************
