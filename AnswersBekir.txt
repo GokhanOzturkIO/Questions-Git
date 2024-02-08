@@ -4,7 +4,7 @@
 
 3-Arkadaşımız kendi bilgisayarından commitlemiş olduğu değişiklikleri push etmediğinden değişikliller sadece onun bilgisayarında yer alır, bu yüzden probleblem oluşabilir
 
-4-Origin sunucudaki ana depoyu temsil eder.
+4-Origin sunucudaki ana repoyu temsil eder.
 
 5-Çalıştığımız projede bulunduğumuz branchdeki son commiti ve branchi işaret eder.
 
@@ -13,3 +13,5 @@
 7-Untracked file,git tarafından kaydedilmeyen dosyaların olduğu bir alandır.Git add <File_name> ile staging area'ya eklenir.
 
 8-Lokal makinemizdeki git deposu silinir ve takip edilen dosyalar kaybolur.
+
+9-Git init yaparken --template seçeneği kullanarak bir şablon belirtirseniz ve bu şablonda ReadMe.md dosyası bulunursa, git init komutunu kullanırken otomatik olarak ReadMe.md dosyası da oluşturulur.
