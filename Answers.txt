@@ -56,3 +56,6 @@ Git commit, lokaldeki değişiklerin git tarafından kaydedilmesi iken git push 
 Atomic commit, yazılım geliştirme sürecinde bir değişiklik grubunun birlikte işlendiği ve kaydedildiği bir commit türüdür. "Atomic", bir şeyin bölünemez, parçalanamaz veya ayrıştırılamaz olduğu anlamına gelir. Bu durumda, atomic commit, bir değişiklik grubunun tamamının veya hiçbirinin kaydedilmediği anlamına gelir. Başka bir deyişle, bir değişiklik grubu atomik bir şekilde kaydedilir, yani değişikliklerin birbirine bağımlılığı vardır ve tüm değişiklikler birlikte kaydedilmeden önce hiçbiri kaydedilmemiştir.
 Atomic commit'in amacı, kod tabanındaki tutarlılığı korumak ve bir değişiklik grubunun bütünsel bir şekilde uygulanmasını sağlamaktır. Bu, diğer geliştiricilerle veya sistemlerle paylaşırken veya geri alma (rollback) işlemleri gerçekleştirirken, bir değişiklik grubunun bir parçasının eksik veya hatalı olmasını önler.
 
+20- Repository ne demektir?
+Repository, bir proje veya belirli bir yazılım paketinin tüm sürüm geçmişini, dosyalarını ve yapılandırmasını içeren bir depodur. Genellikle kod tabanını, belgelendirmeyi, yapılandırma dosyalarını ve diğer ilgili kaynakları içerir.
+
