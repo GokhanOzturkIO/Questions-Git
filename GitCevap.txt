@@ -69,3 +69,9 @@ Cevap 21: “git tag” komutu ile, commit’lere etiket ekleyebilirsiniz. Bu et
  ekler. “git tag -a <etiket_ismi> -m <mesaj>” komutu, mevcut commit’e açıklamalı bir etiket ekler. “git tag -d <etiket_ismi>” komutu, bir etiketi siler. “git tag” komutunun “git branch” komutundan farkı, etiketlerin sabit olması, ancak dalların değişebilmesidir. Yani, etiketlediğiniz bir commit, etiketini kaybetmeden başka bir dala taşınamaz.
 
 Cevap 22: Git’i görsel olarak kullanabilmek için, birçok üçüncü taraf aracı ve uygulamayı kullanabilirsiniz. Bu araçlar, git komutlarını grafiksel bir arayüz ile sunar ve git’in kullanımını kolaylaştırır. Bazı popüler git araçları ve uygulamaları şunlardır:
+
+Cevap 23: GitHub” ile “git” arasındaki fark, "GitHub"ın bir uzak depo servisi, "git"in ise bir versiyon kontrol sistemi olmasıdır. Yani, “GitHub” projelerinizi internet üzerinde barındırmanıza ve paylaşmanıza olanak sağlar. “git” ise projelerinizi yerel olarak yönetmenize ve takip etmenize yardımcı olur. “GitHub” benzeri diğer siteler, “GitLab”, “Bitbucket”, “Azure DevOps” gibi sitelerdir.
+Kullanıcı adlarım:
+Github: selinbtw
+Medium: selinbtw
+LinkedIn: selinbtw
