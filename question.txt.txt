@@ -17,3 +17,7 @@ muhtemelen şu hatalardan birini yapmış olabilirsiniz:
 Cevap 4: “git fetch origin” komutundaki “origin” uzak depoyu temsil etmektedir. Bu, uzak depoya verdiğiniz varsayılan isimdir.
 Farklı bir isim vermek isterseniz, “git remote add <isim> <uzak_depo_url>” komutunu kullanabilirsiniz.
 
+Cevap 5: “HEAD” kelimesi, yerel depodaki mevcut dalı veya son commit’i temsil etmektedir.
+Örneğin, “git checkout HEAD” komutu, yerel depodaki son commit’e geri döner. “HEAD” kelimesini, “git log” veya “git diff” gibi komutlarda da kullanabilirsiniz.
+
+
