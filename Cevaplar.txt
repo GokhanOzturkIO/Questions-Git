@@ -67,6 +67,9 @@ Git'i görsel olarak kullanabilmek için; Sublime Merge, Github, Git Tower, Sour
 23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 "Git" bir sürüm kontrol sistemiyken "github" bu sürüm kontrolünü yani git depolarını çevrimiçi sağlayan bir platformdur.  GitHub benzeri GitLab, Bitbucket, SourceForge, GitKraken, AWS CodeCommit, Google Cloud Source gibi sitelerdir.
 
+24- main ya da master branch'inin diğer branchlerden farkı nedir?
+main ya da master branch'i ana branch'tir. Projeler bu branch üzerinde geliştirilir ve birleştirilir. 
+
 
 
 
