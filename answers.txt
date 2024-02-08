@@ -35,3 +35,6 @@
     Bize ne sağlar?
    -Branchler bizlere farklı özellikler geliştirirken ve hataları düzeltirken işimizi organize etmemize yardımcı olur.
    -Projede fazla kişi olduğunda her biri kendinde branchinde çalışır böylece çakışma(conflict) olasılığı azalır. 
+
+✔ Sıfırdan bir "branch" nasıl oluşturabiliriz?
+   git branch branch_adı
