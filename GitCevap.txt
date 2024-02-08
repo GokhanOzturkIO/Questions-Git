@@ -47,3 +47,5 @@ Cevap 13:  “git clone” komutunu kullanırken, “-b <dal_ismi>” parametres
 Örneğin, “git clone -b develop <uzak_depo_url>” komutu, uzak depodaki “develop” dalını yerel depoya klonlar.
 
 Cevap 14: genellikle birden fazla kaynaktan (örneğin, farklı bir dallardan) gelen değişikliklerin aynı dosyanın aynı satırlarını etkilemesi sonucu ortaya çıkan bir durumdur. Bu durum, sistem tarafından otomatik olarak çözülemez ve manuel müdahale gerektirir.
+
+Cevap 15:  Bu komut, her commit’in kim tarafından, ne zaman ve hangi mesajla yapıldığını gösterir. Ayrıca, commit’in SHA-1 kodunu da gösterir. Bu kod, commit’i tanımlayan benzersiz bir değerdir. Bu komutu, “-p” parametresi ile kullanarak, commit’ler arasındaki değişiklikleri de görebilirsiniz.
