@@ -131,3 +131,11 @@ main ya da master branch'i projenin geliştirildiği ana daldır. Git repository
 ## Soru 25: ".gitignore" dosyası nedir ve ne amaçla kullanılır?
 
 Git alanı içerisinde takip edilmemesi gereken dosyaları içeren bir dosyadır. Bu uzantıdaki dosya içerisindeki dosya yollarını git otomatik olarak takip etmez fazladan bir işlem yapmamıza gerek yoktur.
+
+## Soru 26: "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+Buradaki komutu parça parça ele alabiliriz. 
+"git push" yerel repo'daki değişiklikleri remote repo'ya göndermemiz için kullanılır.
+"origin" ifadesi remote repository'nin ismidir.
+"--delete [branch_name]" ise bir branch'in silinme isteğidir.
+Yani verilen komut remote repository'deki bir branch'in silinmesi komutudur.
