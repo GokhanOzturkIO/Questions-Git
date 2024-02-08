@@ -53,3 +53,7 @@ Git diff iki farklı durumun arasındaki değişiklikleri gösterir.
 
 17-Git reset ile neyi geri alıyoruz?
 Git reset ile staging areadaki dosyaları geri almak için kullanılır.
+
+18-"git commit" ile "git push" arasındaki fark nedir?
+Git commit, git add ile staging area aldığımız değişiklikleri kaydetmemizi sağlar.
+Git push ise git commit ile commitlediğimiz değişiklikleri uzak sunucuya göndermeyi sağlar.
