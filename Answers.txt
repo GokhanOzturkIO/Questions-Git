@@ -82,7 +82,11 @@ Branch yapısı projenin ana dosyalarını bozmadan projede istediğimiz her tü
 
 git branch NewBranch
 
+---------------------------------------
 
+12) Var olan bir "branch"e nasıl geçebiliriz?
+
+git checkout BranchName
 
 
 
