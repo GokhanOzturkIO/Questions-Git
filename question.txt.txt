@@ -80,4 +80,5 @@ Github: baris-gungorr
 Medium: baris-gungorr
 LinkedIn:baris-gungorr
 
+Cevap 24: main ya da master branch’inin diğer branchlerden farkı, main ya da master branch’inin projenizin ana ve resmi dalı olmasıdır. Bu dal, projenizin en güncel ve stabil versiyonunu içerir. Diğer branchler ise, main ya da master branch’inden türetilen ve projeye yeni özellikler, hata düzeltmeleri veya denemeler ekleyen dallardır. Bu dallar, main ya da master branch’ine birleştirilmeden önce test edilir ve değerlendirilir.
 
