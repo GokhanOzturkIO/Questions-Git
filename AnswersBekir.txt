@@ -18,4 +18,6 @@
 
 10-Branch(dal) yapısı, projedeki bölümleri ayrı ayrı dallarda geliştirmemizi ve modüler bir çalışma yapısı sağlar.
 
-11-Sıfırdan branch oluştururken terminalden git branch <Branch_adı> şeklinde yapabiliriz
+11-Sıfırdan branch oluştururken terminalden git branch <Branch_adı> şeklinde yapabiliriz.
+
+12-Branchler arasında geçiş yaparken git checkout <Branch_adı> komutu kullanılır.
