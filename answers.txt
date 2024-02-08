@@ -38,3 +38,6 @@
 
 ✔ Sıfırdan bir "branch" nasıl oluşturabiliriz?
    git branch branch_adı
+
+✔ Var olan bir "branch"e nasıl geçebiliriz?
+   git checkout branch_adı veya git switch brach_adı
