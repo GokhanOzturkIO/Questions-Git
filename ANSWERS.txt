@@ -41,4 +41,5 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 -git clone --branch <branch adı> <repo linki>
 
-
+14-"Merge conflict" ne demektir?
+-genellikle Git'te iki farklı kaynaktan gelen değişikliklerin aynı dosyanın aynı bölümlerini etkilediğinde ortaya çıkar. Birleştirme (merge) işlemi sırasında, Git bu durumu tespit eder ve çakışma çözülmeden birleştirme işlemini tamamlamaz.
