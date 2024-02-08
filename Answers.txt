@@ -49,3 +49,6 @@ Bu komut ile 2 branch ve 2 commit arasındaki değişiklikleri gösterebiliriz.
 17- Git reset ile neyi geri alıyoruz?
 git add ile Staging Srea’ya alınan değişiklikleri Staging Area’dan çıkartır.
 
+18- "git commit" ile "git push" arasındaki fark nedir?
+Git commit, lokaldeki değişiklerin git tarafından kaydedilmesi iken git push lokaldeki değişikliklerin uzaktaki repository’e gönderilmesidir. 
+
