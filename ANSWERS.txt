@@ -55,3 +55,6 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 
 18-"git commit" ile "git push" arasındaki fark nedir?
 -git commit yapılan değişiklikleri kaydeden ve bunun mesajını göstermeye yarayan komuttur. Push ise yapılan tüm değişiklikleri uzak sunucudaki adrese gönderilmesini sağlar.
+
+19-Atomic commit ne demektir?
+her bir değişikliği tek tek ekleyip her birine ayrı bir commit mesajı ekleyip commitlemektir. İşlerin daha düzenli ilerlemesini ve gözükmesini sağlar.
