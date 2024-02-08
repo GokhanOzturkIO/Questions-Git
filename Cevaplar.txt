@@ -1,0 +1,2 @@
+1- Git Nedir?
+Git bir versiyon kontrol sistemidir.
