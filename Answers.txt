@@ -80,3 +80,6 @@ Main ya da master branchi bir projenin oluşturulduğunda otomatik olarak oluşt
 
 25-".gitignore" dosyası nedir ve ne amaçla kullanılır? 
 .gitignore bir git deposunda takipe edilmesini istemediğimiz dosyaları ve dizinleri belirtmek için kullanılır.
+
+26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
+Bu komut belirli bir uzak daldaki bir branchi silmek için kullanılır.
