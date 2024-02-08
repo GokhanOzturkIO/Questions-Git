@@ -117,5 +117,11 @@ github/gitkraken/SourceTree/Git Extensions/Git GUI
 
 
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+CEVAP:git bir kontrol sistemidir github ise bu kontrol sistemini depolayabileceğimiz araçlardan bir tanesidir 
+git projelerdeki dosya değişikliklerini takip etmek, yönetmek ve işbirliği yapmak için kullanılır.
+GitHub, Git projelerinin barındırılması, paylaşılması, işbirliği yapılması ve izlenmesi için kullanılır.
+
+
 - main ya da master branch'inin diğer branchlerden farkı nedir?
 - ".gitignore" dosyası nedir ve ne amaçla kullanılır?
