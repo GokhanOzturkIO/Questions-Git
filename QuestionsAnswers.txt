@@ -21,3 +21,5 @@ HEAD yeni branch i işaret eder.
 6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir? -> Git in oluşturulan dosyalardan haberdar olduğu bölge diyebiliriz. Eğer
 yeni bir dosya oluşturuyorsak projede bunu staging area almadığımız takdirde Git bu dosyayı ve üzerinde yapılan değişiklikleri görmeyecektir.
 *******************************************
+7) "Untracked file" ne demektir? -> Dosya üzerinden yapılan değişikliklerden Git in haberi yok demektir. Git takip etmemiş oluyor o dosyayı.
+*******************************************
