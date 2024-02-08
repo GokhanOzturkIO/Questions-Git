@@ -114,3 +114,9 @@ Commitleri görmemizi sağlar. Her bir yapılan commit işlemi için hashcode ve
 - İki farklı commit arasındaki değişiklikleri görme
 - Staging Area'daki dosyaları, mevcuttaki güncel Git'te bulunan hallerinden farklarını görme
 
+------------------------------------------
+
+17. Git reset ile neyi geri alıyoruz?
+
+Dosyayı Staging Area'dan çıkarmadır. Bu işlem dosyalar üzerindeki yapılan işlemi geri almaz. Sadece Staging Area'dan çıkarma yaparç Dosya içeriğine dokunmaz.
+
