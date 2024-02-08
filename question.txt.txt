@@ -1,2 +1,6 @@
 Cevap 1: Git, kaynak kodlarınızı yönetmenize, takip etmenize ve paylaşmanıza yardımcı olan bir versiyon kontrol sistemi (VCS) dir. Git ile projenizin farklı
 aşamalarını kaydedebilir, geri alabilir, karşılaştırabilir ve birleştirebilirsiniz.
+
+Cevap 2: “git pull” komutu, uzak depodaki (remote repository) değişiklikleri yerel depoya (local repository) indirir ve mevcut dalımızla (branch) birleştirir (merge). 
+“git fetch” komutu ise sadece uzak depodaki değişiklikleri indirir, ancak yerel depoyu değiştirmez. Bu sayede, uzak depodaki değişiklikleri inceleyip, yerel depoyu güncellemeye karar verebiliriz.
+
