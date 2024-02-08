@@ -62,3 +62,6 @@ aynı anda bir çok geliştirme yapılabilir.
 *******************************************
 22) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz? -> GitHub Desktop, SourceTree
 *******************************************
+23) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?->
+Git, bir versiyon kontrol sistemidir. Github ise git projelerini barındırabileceğimiz bir platformdur. Sourcetree,Git Fork, GitKraken kullanabiliriz.
+*******************************************
