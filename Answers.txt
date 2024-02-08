@@ -1,2 +1,5 @@
 1- Git Nedir?
 Git, Linux geliştiricisi Linus Torvalds tarafından geliştirilen versiyon kontrol sistemidir.
+
+2- Git pull ile git fetch komutlarının farkı nedir?
+Git fetch, lokal branch ile main branch arasındaki değişikliklerden haberdar olur. Git pull, lokal branch ile main branchi birbirine eşitler
