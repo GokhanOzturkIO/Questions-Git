@@ -17,3 +17,6 @@ ve geliştirmek için kullanılır.
 
 7- Untracked file Git tarafından versiyon kontrolüne dahil olmayan dosyalardır.
  Eğer bir dosyanın versiyon kontrolü içerisinde bulunmasını istemiyorsanız gitignore dosyası oluşturup içerisinde belirtebiliz.
+
+8- Git .git klasöründe dosyaların tüm versiyon kontrol bilgilerini ve geçmişini sakladığı bir dizindir.
+   Eğer kaza ile bu klasörü silersek bütün versiyon bilgilerini kaybetmiş oluruz.
