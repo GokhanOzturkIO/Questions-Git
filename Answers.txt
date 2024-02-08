@@ -13,3 +13,6 @@ Gönderen arkadaşımız yaptığı değişiklikleri pushlamamış olabilir veya
 5- "HEAD" kelimesi neyi temsil etmektedir?
 Mevcut branchte son commiti işaret eden pointerdır.
 
+6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Üzerinde değişiklik yaptığımız dosyaları Git’e göndermeye hazırladığımız alandır. Yaptığımız değişiklikleri buraya ekleyerek, bu değişikliklerin sonraki bir "commit" işlemiyle Git deposuna kalıcı olarak kaydedilmesini sağlarız. Yani, bu bölge, bir sonraki commit'e dahil etmek istediğiniz dosyaların bir listesini tutar.
+
