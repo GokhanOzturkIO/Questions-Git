@@ -136,4 +136,18 @@ Soru 20: Repository ne demektir?
 Bu sayede, projenin herhangi bir noktasına geri dönülebilir ve değişiklikler izlenebilir. Kısacası, repository bir projenin evrimini izlememizi sağlar.
 
 
+Soru 21: "git tag" nedir? "git branch"’ten farkı nedir?
+
+- “git tag”, Git’te belirli bir commit’i işaretlemek için kullanılır. Genellikle, bir projenin belirli bir sürümünü işaretlemek için kullanılır. Her tag, bir commit hash’ine karşılık gelir ve genellikle semantik sürümleme prensiplerine (örneğin v1.0.0) göre adlandırılır.
+- “git branch” ise, projenin farklı versiyonlarını paralel olarak geliştirmek için kullanılır. Her branch, projenin bağımsız bir kopyasıdır ve diğer branch’lerden izole bir şekilde değişiklik yapmanızı sağlar.
+Özetle, “git tag” ve “git branch” arasındaki temel fark, "tag"lerin belirli bir commit’i veya projenin belirli bir durumunu işaretlemek için kullanılması, "branch"lerin ise projenin farklı versiyonlarını paralel olarak geliştirmek için kullanılmasıdır.
+
+
+
+
+
+
+
+
+
 
