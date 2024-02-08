@@ -39,3 +39,4 @@
 - "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 - main ya da master branch'inin diğer branchlerden farkı nedir?
 - ".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
+- "git push origin --delete branch_name” nedir ve ne için kullanılır?
