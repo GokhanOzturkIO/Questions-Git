@@ -76,7 +76,11 @@ Bundan sonra "git init" komutu çalıştırıldığında proje klasöründeki ".
 
 Branch yapısı projenin ana dosyalarını bozmadan projede istediğimiz her türlü değişikliği yapmamıza olanak tanır. Herhangi bir hata durumunda main/master branchine dokunmadığımız sürece main/master branchindeki ana proje yapısı korunur. Bu da güvenli bir biçimde projeye deneysel özellikler eklenmesine olanak tanır.
 
+---------------------------------------
 
+11) Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+git branch NewBranch
 
 
 
