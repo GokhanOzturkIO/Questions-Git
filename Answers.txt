@@ -58,6 +58,12 @@ Soru 11: Sıfırdan bir "branch" nasıl oluşturabiliriz?
 4. Oluşturduğunuz yeni branch’e geçmek için git checkout yeniBranchAdi komutunu kullanın.
 Bu adımlar, yeniBranchAdi adında yeni bir branch oluşturur ve bu branch’e geçiş yapar. Artık bu branch üzerinde çalışabilir ve değişiklikler yapabiliriz.
 
+Soru 12: Var olan bir "branch"e nasıl geçebiliriz?
+
+Mevcut branch'i görmek için git branch komutunu kullanırız ve geçmek istediğimiz branch'i seçmek için git "checkout branch-adı" komutunu kullanırız. Seçtiğimiz branch'e başarıyla geçtiğimizi doğrulamak için git branch komutunu tekrar kullanabiliriz. 
+Seçili branch, yıldız (*) ile işaretlenmiş olmalıdır.
+
+
 
 
 
