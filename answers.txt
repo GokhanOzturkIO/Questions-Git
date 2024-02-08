@@ -5,3 +5,7 @@ ve geliştirmek için kullanılır.
 2- git fetch komutu uzak sunucudaki değişikleri bildirir ama bu değişikleri yerel dosyalarla birleştimez.
    git pull komutu uzak sunucudaki değişikleri cekip yerel dalınızdaki dosyalar ile birleştirir.
    
+3- Arkadaş yaptığı değişikleri sadece commitlemiş olup push yapmamış olabilir.
+   Repo'ya push izni olmayabilir.
+   Sizin yerel dosyanızda yaptıklarınızla, arkadaşınızın yaptığı değişikler çakışıyo olabilir.
+   
