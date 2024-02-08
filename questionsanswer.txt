@@ -6,3 +6,5 @@
 -Takım arkadaşımız geliştirmelerini git push komutu ile uzak sunucuya göndermemiş olabilir veya farklı bir branch'e push olabilir
 4-git fetch origin komutundaki origin neye karşılık gelmektedir
 -uzak sunucu
+5-"HEAD" kelimesi neyi temsil etmektedir?
+-üzerinde çalıştığımız branchteki en sondaki commit'i ifade eder
