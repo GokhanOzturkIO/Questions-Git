@@ -6,3 +6,11 @@ Aynı zamanda Git kod üzerinde yapılan değişikliklerin izlenmesini ve geri a
 
 2- "git pull" ile "git fetch" komutlarının farkı nedir?
 "git fetch" uzak değişiklikleri alır ancak yerel dosyaları güncelleştirmezken, "git pull" hem uzak değişiklikleri alır hem de yerel dosyaları günceller. 
+
+---------------------------------------------
+
+3- Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+Takım arkadaşımız kodları göndermiş olsa da, uzak depoya (remote repository) henüz push etmemiş olabilir. 
+Takım arkadaşınız kodları farklı bir brancha push etmiş olabilir. 
+Doğru uzak depo üzerinden çalışılmıyor olabilir.
+Uzak depoya erişim izinleriniz olmayabilir veya yetkilendirme bilgileriniz yanlış olabilir.
