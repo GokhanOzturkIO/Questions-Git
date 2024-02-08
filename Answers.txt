@@ -100,6 +100,7 @@ git log komutu, Git deposundaki commit geçmişini gösterir. Bu komut ile aşa�
 - Her commitin tarihi ve saati
 - Her commitin başlık veya mesajı
 
+
 Soru 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 
 "git diff" ile iki farklı durum arasındaki değişiklikleri görebilirsiniz. Bu durumlar genellikle şunları içerir:
@@ -107,5 +108,19 @@ Soru 16: "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri g�
 - git diff HEAD: Değiştirilmiş veya eklenen dosyaları son commit ile karşılaştırır. "HEAD" son commit'i ifade eder. Bu komutu kullanarak, son commit'ten önceki tüm değişiklikleri görebilirsiniz.
 - git diff <commit1> <commit2> : Commitler arasındaki farkı görmek için.
 - git diff <branch> <branch2>: Branchler arasındaki farkı göster.
+
+
+Soru 17: Git reset ile neyi geri alıyoruz?
+
+
+"git reset" komutu, belirli bir commit'e geri dönme veya işlenmemiş değişiklikleri geri alma işlemi yapmak için kullanılır.
+Kısacası, "git reset" komutu, yapılan değişiklikleri geri almak veya belirli bir commit'e dönmek için kullanılır.
+
+
+
+
+
+
+
 
 
