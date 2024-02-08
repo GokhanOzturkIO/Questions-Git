@@ -34,3 +34,8 @@ git ile daha önceden kaydetmiş olduğumuz tüm işlemler (versiyonlar, oluştu
 ## Soru 9: Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
 Önce içerisinde "ReadMe.md" olan bir template dosyası oluşturup ardından "git init --template=[oluşturduğumuz_dosyanın_konumu]" şeklinde bir kod yazdığımız zaman bundan sonra yazdığımız tüm "git init" komutları otomatik olarak "ReadMe.md" dosyasını otomatik oluşturur.
+
+## Soru 10: Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branch yapısı aynı proje üzerinde çalışırken farklı özellikler geliştirmemizi sağlar.
+
