@@ -46,4 +46,9 @@ Git sisteminde "HEAD", genellikle çalışılan branch'in en son commit'ini işa
 
 ===========================================================================================================================================
 
+"Untracked file" ne demektir?
+
+ Git deposuna henüz eklenmemiş veya izlenmemiş olan bir dosyayı ifade eder. Yeni bir dosya oluşturduğunuzda veya mevcut bir dosyayı değiştirdiğinizde, Git bu dosyayı otomatik olarak izlemez. Bu durumda, dosya "untracked" olarak kabul edilir.
+
+===========================================================================================================================================
 
