@@ -44,6 +44,9 @@ Var olan bir branch'e git checkout komutu ile geçeriz.
 "git log" komutu ile commit işlemleri ile ilgili özet bilgileri görürüz: Commit Hash, Author, Date, Commit Message.
 
 16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
-"git diff" ile çalışma dizinindeki dosyalar ile staging area veya staging area ile son commit arasındaki farkları göstermek için kullanılır. 
+"git diff" ile çalışma dizinindeki dosyalar ile staging area veya staging area ile son commit arasındaki farkları göstermek için kullanılır.
+
+17- Git reset ile neyi geri alıyoruz?
+"git reset" ile Staging Area'daki değişiklikleri geri alıyoruz. 
 
 
