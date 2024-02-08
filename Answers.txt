@@ -14,3 +14,8 @@ Takım arkadaşımız kodları göndermiş olsa da, uzak depoya (remote reposito
 Takım arkadaşınız kodları farklı bir brancha push etmiş olabilir. 
 Doğru uzak depo üzerinden çalışılmıyor olabilir.
 Uzak depoya erişim izinleriniz olmayabilir veya yetkilendirme bilgileriniz yanlış olabilir.
+
+----------------------------------------------
+
+4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+"origin" ismi, Git tarafından varsayılan olarak uzak depoya verilen isimdir.
