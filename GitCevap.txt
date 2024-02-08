@@ -1,0 +1,2 @@
+Cevap 1: Git, kaynak kodlarınızı yönetmenize, takip etmenize ve paylaşmanıza yardımcı olan bir versiyon kontrol sistemi (VCS) dir. Git ile projenizin farklı
+aşamalarını kaydedebilir, geri alabilir, karşılaştırabilir ve birleştirebilirsiniz.
