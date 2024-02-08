@@ -78,3 +78,9 @@ git branch <yeni-branch-adı>
 git checkout -b <yeni-branch-adı> iki farklı yoldan yeni bir branch oluşturulabilir.
 
 ===========================================================================================================================================
+
+Var olan bir "branch"e nasıl geçebiliriz?
+
+git checkout <branch-name> ile var olan bir branche geçilebilir.
+
+===========================================================================================================================================
