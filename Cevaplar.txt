@@ -22,3 +22,7 @@ HEAD kelimesi anlık olarak bulunduğumuz konumu gösterir. Örneğin commit üz
 8- ".git" klasörünü silersek ne olur?
 .git klasörünü silersek Git ile ilgili çalıştığımız tüm bilgileri kaybederiz. Bu bilgilerin içinde branch'ler, commit'ler vs. bulunur.
 
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak git init --template komutunu kullanırız.
+
+
