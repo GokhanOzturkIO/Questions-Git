@@ -21,3 +21,7 @@ Takım arkadaşımız commitleyip push etmemiş olabilir ya da farklı branche p
 6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir? : 
 
 "Staging Area" veya "Index", Git'in temel kavramlarından biridir ve değişikliklerin kaydedilmeden önce geçici olarak saklandığı bir ara bölgedir. Bu bölge, dosyaların son durumunu bir sonraki commit için hazırlamamıza olanak tanır.
+
+7- "Untracked file" ne demektir?
+
+Untracked file" terimi, Git'in çalışma dizininde bulunan ve henüz Git'in takibine alınmamış dosyaları ifade eder. Yani, bu dosyalar, Git'in dikkate almadığı ve değişikliklerini izlemediği dosyalardır.
