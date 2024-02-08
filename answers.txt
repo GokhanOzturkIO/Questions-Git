@@ -31,3 +31,5 @@ birbirimizden etkilenmemek için kullandığımız bir yapıdır.
 12) Var olan bir "branch"e nasıl geçebiliriz: "git switch <branch name>" komutuyla veya "git checkout <branch name>" komutuyla, var olan bir branch'e geçebiliriz. 
 Bir branch'i hem oluşturup hem de geçiş yapmak istiyorsak, "git checkout -b <branch name>" komutunu kullanabiliriz.
 
+13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz: "git clone --branch <branch name> <url>" komutuyla belirli bir spesifik branch'i çekebiliriz.
+
