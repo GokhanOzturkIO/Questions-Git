@@ -1,0 +1,4 @@
+Git Nedir?
+Bir dosya veya proje üzerinde birden fazla kişi değişiklik yapacaksa bu değişikliklerin takibini 
+yaptığımız versiyon kontrol sistemine verilen addır.
+-----------------------------------------------------------------------------------------------------------------------------
