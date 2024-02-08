@@ -4,3 +4,8 @@ Aynı zamanda proje üzerinde çalışan bir çok kişinin projede yaptığı he
 diğer kişiler tarafından görülmesini de sağlar. Bu şekilde takım çalışmalarında projenin yönetimini kolaylaştırır ve eş zamanlı 
 çalışmayı destekler.
 *******************************************
+2) "git pull" ile "git fetch" komutlarının farkı nedir? -> git fetch; örneğin proje üzerinde çalışan iki kişiden birinin yaptığı değişiklikleri 
+bir diğer kişinin uzak sunucudan git fetch ile local de ki bilgisayarında değişikliğe gitmeden haberdar olmasıdır. Daha sonrasında 
+git pull denildiğinde öncesinde haberdar olunan değişiklikler bulunulan çalışma alanına alınabilir. Aralarındaki fark ise 
+git pull komutunun değişiklikleri çalışma alanına alması yani entegre etmesidir.
+*******************************************
