@@ -40,3 +40,6 @@ yapıyoruz. Aynı zamanda proje üzerinde farklı branch ler açarak bir çok ki
 13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? -> git clone --single-branch --branch branch_ismi <repo_url>
 formatında yazarak bu işlemi sağlayabiliriz.
 *******************************************
+14) "Merge conflict" ne demektir? -> Örneğin aynı projede çalışan iki kişinin yaptığı değişikliklerin birleştirilmesi sırasında ortaya çıkabilir. Projede aynı bölümde 
+farklı değişikliklerin çakışması conflict sebep olur. Bizim burada seçim yapmamız gerekir hangi değişikliklerin kalacağı ile ilgili.
+*******************************************
