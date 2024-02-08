@@ -37,4 +37,7 @@ Branch, farklı özellikler veya işlevler üzerinde aynı anda çalışmayı, y
 13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 “git clone --branch branchadi” komutu ile belirli bir spesifik branch çekilebilir.
 
+14- "Merge conflict" ne demektir?
+İki developer’ın ayrı branch’lerde aynı dosyayı ve aynı satırı değiştirdiyse bu değişiklikleri ortak branch ile birleştirirken çakışma yaşanır bu duruma “merge conflict” denir.
+
 
