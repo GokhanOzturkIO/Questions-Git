@@ -74,6 +74,10 @@
 
 -Proje dosyalarının bir arada tutularak depolandığı yerdir.
 
+20-) "git tag" nedir? "git branch"’ten farkı nedir?
+
+-Her bir release sonrasında oluşturularak daha sonra o versiyona dönülmek istendiğinde kolaylık sağlar. 
+
 
 
 
