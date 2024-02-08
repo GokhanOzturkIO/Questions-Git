@@ -37,3 +37,6 @@ git checkout <branch-adı> komutu ile var olan branch'e geçilebilir.
 13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 git clone --branch <branch-adı> <uzak_repo_linki> komutu ile spesifik bir branch çekilebilir.
 Ayrıca git clone --single-branch <branch-adı> <uzak_repo_linki> komutu ile branch'in sadece history'si (loglar) çekilebilir.
+
+14. "Merge conflict" ne demektir?
+Bir projede değişiklik yaptığımız parça, git pull yapacağımız branch'te de değiştirilmiş olabilir. Bu durumda merge conflict ortaya çıkar. Hangi branch'teki değişikliklerin önemli olduğu belirlenir ve o merge edilir.
