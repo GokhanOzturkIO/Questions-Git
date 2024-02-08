@@ -45,3 +45,9 @@ Git'te iki farklı değişikliğin aynı satırları veya dosyaları içeren bö
 
 15-"git log" komutu ile hangi bilgileri görebiliriz?
 Git log komutu ile bir yaptığımız commitlerin geçmişini görüntüleyebiliriz.
+
+16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+Git diff iki farklı durumun arasındaki değişiklikleri gösterir.
+1. Working Directory ile Staging Area
+2.Staging Area ile son commit 
+
