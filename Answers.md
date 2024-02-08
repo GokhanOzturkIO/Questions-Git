@@ -57,3 +57,7 @@ Bunu iki komut ile yapabiliriz:
 ## Soru 13: "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
 "git clone -b [branch_ismi] [url]" komutu ile belirtilen yere branch ismini ardından ise projenin url'ini yazarak sadece istediğimiz branch'i çekebiliriz.
+
+## Soru 14: "Merge conflict" ne demektir?
+
+Farklı branch'ler üzerinde çalıştıktan sonra bu branchler amaçlarına ulaştıktan sonra birleştirilir. Birleştirme aşamasında çatışma olması durumuna "Merge conflict" denir. Aynı dosya içerisinde aynı satırlarda değişiklik yapılmışsa ya da bir tarafta dosya silinmişken diğer tarafta o dosya üzerinde değişiklik olmuşsa vb. durumlarda bu yaşanabilir. Bu durumalarda meydana gelen çatışmayı çözmek için yapılan değişikliklerin dikkatlice incelenmesi gerekir.
