@@ -155,6 +155,12 @@ Uzak repolar ise sunucular üzerinde bulunan depolardır.
 Tag'ler belirli bir committe atanan bir referanstır. Projenin önemli noktalarını belirtmek için kullanılır.
 Branch yapısı ise ana projeye paralel bir kopya üzerinden geliştirme yapmamızı sağlar.
 
+---------------------------------------
+
+22) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+GitHub Desktop
+GitKraken
 
 
 
