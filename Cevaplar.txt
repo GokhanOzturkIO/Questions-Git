@@ -18,3 +18,7 @@ HEAD kelimesi anlık olarak bulunduğumuz konumu gösterir. Örneğin commit üz
 
 7- "Untracked file" ne demektir?
 "Untracked file" dosyanın git tarafından takip edilmediğini yani git add komutuyla staging area'ya eklenmediğini ve commit edilmediğini ifade eder.
+
+8- ".git" klasörünü silersek ne olur?
+.git klasörünü silersek Git ile ilgili çalıştığımız tüm bilgileri kaybederiz. Bu bilgilerin içinde branch'ler, commit'ler vs. bulunur.
+
