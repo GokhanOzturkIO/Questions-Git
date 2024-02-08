@@ -164,3 +164,11 @@ Git, sistemin adıdır. Github gibi sayfalar ise, git projelerini barındıran w
 -GitLab
 -Bitbucket
 -GitKraken
+
+------------------------------------------
+
+24. main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Git'te proje oluşturulduğunda varsayılan olarak main/master branch'i oluşturulur. Eğer farklı bir branch oluşturulmazsa bütün işlemleri master branch'in üzerinde yapılmış olur. 
+Master branch, diğer branch'lerden daha günceldir. Diğer branch'lerde yapılan değişiklikler master branch ile birleştirildikten sonra kullanılabilir.
+
