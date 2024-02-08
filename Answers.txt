@@ -70,7 +70,11 @@ Bunun için git template yapısını kullanabiliriz. Windows için aşağıdaki 
 
 Bundan sonra "git init" komutu çalıştırıldığında proje klasöründeki ".git" klasörünün içersinde README.md dosyanız otomatik olarak oluşturulacaktır.
 
+---------------------------------------
 
+10) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Branch yapısı projenin ana dosyalarını bozmadan projede istediğimiz her türlü değişikliği yapmamıza olanak tanır. Herhangi bir hata durumunda main/master branchine dokunmadığımız sürece main/master branchindeki ana proje yapısı korunur. Bu da güvenli bir biçimde projeye deneysel özellikler eklenmesine olanak tanır.
 
 
 
