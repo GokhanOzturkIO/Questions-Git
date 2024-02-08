@@ -33,3 +33,8 @@ Bir branch'i hem oluşturup hem de geçiş yapmak istiyorsak, "git checkout -b <
 
 13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz: "git clone --branch <branch name> <url>" komutuyla belirli bir spesifik branch'i çekebiliriz.
 
+14) "Merge conflict" ne demektir: Merge conflict, iki veya daha fazla kişinin çalıştığı bir projede, aynı dosyanın aynı satırını,
+iki veya daha fazla kişi değiştirip, bu değişiklikleri commit'leyip, kendi branch'lerine push'ladıktan
+sonra değişiklikleri master branch'ine merge etmeye çalışırken yaşanan çakışmadır. 
+Çakışma olduğunda takım arkadaşlarımızla görüşüp, hangi kodun geçerli olacağına karar vermemiz gerekir.
+
