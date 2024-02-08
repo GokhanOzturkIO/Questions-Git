@@ -92,3 +92,7 @@ Sadece "git reset" komutunu kullanırsak staging area'ya alınmış olan değiş
 ## Soru 18: "git commit" ile "git push" arasındaki fark nedir?  
 
 "git commit" komutu working directory'den staging area'ya aldığımız değişiklikleri local repository'e kaydederken "git push" komutu local repository'de olan değişiklikleri remote repository'e kaydeder.
+
+## Soru 19:Atomic commit ne demektir?
+
+Her bir commit'in sadece belirli bir işe ayrılmasıdır. Örnek vermek gerekirse kod üzerinde bir kısmın değiştirilmesi, yeni bir kısım eklenmesi ve bir kısmında çıkarılması gerekiyorsa. Bu her bir parça ayrı ayrı yapılıp ayrı commit edilmesi ve bu commit'lerin mesajlarında anlamlı bir şekilde yapılan işi anlatması gerekmektedir.
