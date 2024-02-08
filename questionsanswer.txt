@@ -8,3 +8,5 @@
 -uzak sunucu
 5-"HEAD" kelimesi neyi temsil etmektedir?
 -üzerinde çalıştığımız branchteki en sondaki commit'i ifade eder
+6-Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+-git commitlerimizi push etmeden önce alınan ara bölgedir
