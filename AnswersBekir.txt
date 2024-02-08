@@ -36,6 +36,8 @@
 
 19-Atomic commit, birden çok değişikliği tek bir adımda ve mantıklı bir şekilde kaydetme işlemidir.
 
+20-Repository,bir versiyon kotrol sistemi tarafından yönetilen dosyaların bulunduğu merkezi bir depodur.Bu depoda geçmiş değişikikler ve üzerinde yapılan çalışmaları takip edebiliriz.
+
 
 
 
