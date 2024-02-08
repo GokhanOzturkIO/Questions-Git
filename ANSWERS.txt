@@ -49,3 +49,7 @@ veyahut git checkout -b feature/<branch adı> şeklinde yapılabilir.
 
 16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 -staging area'dan önceki ve staging areada bulunan farkları gösterir. yani 2 durum arasındaki değişiklikleri gösterir
+
+17-Git reset ile neyi geri alıyoruz?
+-staging area'ya gönderdiğimiz dosyaları geri alıyoruz.
+
