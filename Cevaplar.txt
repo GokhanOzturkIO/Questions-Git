@@ -55,4 +55,7 @@ Var olan bir branch'e git checkout komutu ile geçeriz.
 19- Atomic commit ne demektir?
 Atomic commit, bir versiyon kontrol sistemi kullanırken bir dizi dosya değişikliğini tek bir mantıksal işlem olarak atomik olarak gerçekleştirmeyi ifade eder. 
 
+20- Repository ne demektir?
+Repository depo demektir. Bir projenin bilgilerinin depo edildiği yerdir.
+
 
