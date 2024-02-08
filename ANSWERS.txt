@@ -16,4 +16,5 @@
 6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 -staging area -> untracked olan dosyaların tracked hale dönüştüğü bir ara lokasyon. pushlamadan önce değişiklikleri inceleyip düzenleme imkanı sunan yer.
 
-
+7-"Untracked file" ne demektir?
+-git'in çalışma dizinindeki dosyaları takip etmediği anlamına gelir.
