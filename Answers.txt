@@ -109,6 +109,20 @@ git reset ile staging area bölgesine eklediğimiz dosyaları,geri working direc
 =================================================================================================================================================================
 
 
+Q17)"git commit" ile "git push" arasındaki fark nedir?
+
+
+git commit,bizim git add ile staging area'ya aldığımız değişiklikleri bir adım öteye götürerek local repomuza dahil eder.Commit oluşturduğumuzda ise,değişiklikler local olarak depolanır ve projenin geçmişinde bir nokta olarak işaretlenir.git push ise local repomuzda bulunan commitleri,remote(uzak) bir git reposuna göndermemizi sağlar.Yani bizim localde yaptığımız değişiklikleri paylaşmak ve diğer geliştiricilerle işbirliği yapmak için kullanılır.
+
+=================================================================================================================================================================
+
+
+
+
+
+
+
+
 
 
 
