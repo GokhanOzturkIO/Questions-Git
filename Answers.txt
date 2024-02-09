@@ -40,3 +40,12 @@ Q3 - If our teammate says, 'I've pushed my code, continue with my development,' 
 >> If our teammate claims they've pushed their code but we can't fetch it with 'git pull,' it suggests a potential oversight on their part, such as forgetting to push to the correct branch or failing to synchronize their local changes with the remote repository before pushing.
 
 *******************************************************
+
+Q4 - What does the word "HEAD" represents?
+
+## Checked-out branch's latest commit.
+
+>> In Git, 'HEAD' is a reference to the current commit in the repository, serving as a pointer to the tip of the currently checked out branch or the specific commit being worked on.
+
+*******************************************************
+
