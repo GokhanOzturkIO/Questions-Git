@@ -72,3 +72,13 @@ git clone --branch branch_adi <repo_url>
 
 ✔Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
   -GitHub Desktop,SourceTree, GitKraken,TortoiseGit,Git Extensions, GitUp,Git GUI, SmartGit, Git-cola,Tower,Fork,GitWeb ..
+
+✔"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+  -Git versiyon kontrol sistemidir.Projeleri takip etmek, değişiklikleri kaydetmek ve işbirliği için kullanılır. Github ise git tabanlı bir web platformudur aynı zamanda sosyal medya platformudur.
+  - Github benzere siteler nelerdir?
+   GitLab, Bitbucket, SourceForge örnek verebilirim.
+  - GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+   GitHub:@Gamzecoskkun
+  
+  
+
