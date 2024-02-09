@@ -61,3 +61,11 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 14. "Merge conflict" ne demektir?
 
 - "Merge conflict" (birleştirme çakışması), Git'te iki farklı dalı birleştirmeye çalıştığınızda, Git'in otomatik olarak birleştiremediği ve kullanıcının müdahale etmesi gereken bir durumu ifade eder. Bu durum, Git'in farklı dallardaki aynı dosyanın aynı satırlarında çakışan değişiklikleri çözme konusunda kararsız kaldığı bir durumdur.
+
+15. "git log" komutu ile hangi bilgileri görebiliriz?
+
+-git log komutu, Git deposundaki commit geçmişini gösteren bir komuttur. Ayrıca commit ile birlikte:
+Commit Hash (SHA-1)
+Commit sahibini
+Tarih ve Saat Bilgisi
+Commit Mesajı
