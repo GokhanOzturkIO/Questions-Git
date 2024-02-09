@@ -188,7 +188,24 @@ Merge Conflict'i Çözme Adımları:
 git log komutu, bir Git deposundaki commit'lerin geçmişini gösterir.
 
 ===============================================================================================
- 
+
+16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+ git diff komutu ile iki durum arasındaki değişiklikleri görebilirsiniz. Bu iki durum, yukarıda listelenen kombinasyonlardan herhangi biri olabilir. Yani, git diff ile aşağıdakileri karşılaştırabilirsiniz:
+
+    İki commit: git diff <commit_hash1> <commit_hash2>
+    Bir commit ve çalışma dizini: git diff
+    İki branch: git diff <branch_adı1> <branch_adı2>
+    Bir dosyanın iki farklı versiyonu: git diff <dosya_adı> HEAD~1 HEAD
+
+"git diff" Komutunun Seçenekleri:
+
+    -n: Gösterilecek değişiklik sayısını belirler.
+    -a: Tüm dosyalardaki değişiklikleri gösterir, sadece değiştirilmiş olanları değil.
+    -c: Renkli diff çıktısı verir.
+    --stat: Değişikliklerin istatistiklerini gösterir.
+
+===============================================================================================
 
 
 
