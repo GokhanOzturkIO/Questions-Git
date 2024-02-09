@@ -89,3 +89,6 @@ git push yerel depodaki commit'leri uzak depoya göndermek için kullanılır.
 19-Atomic commit ne demektir?
 Atomic commit, bir değişiklik setini tamamlayan ve tek bir amaç için odaklanan bir commit türüdür. Bu commit'ler, bağımsız olarak uygulanabilir, geri alması kolay ve anlamlı commit mesajları içerir, böylece projenin geçmişi daha düzenli ve anlaşılır hale gelir.
 ----------------------
+20-Repository ne demektir?
+Bir projenin veya yazılımın kaynak kodlarını, dosyalarını, tarihini ve sürüm geçmişini içeren bir depolama alanını ifade eder.
+----------------------
