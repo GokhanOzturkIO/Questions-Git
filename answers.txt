@@ -24,3 +24,6 @@ Bir sonraki commit'e eklenecek değişikliklerin hazırlandığı bölgedir.
 Git tarafından takip edilmeyen, yani versiyon kontrolüne dahil edilmemiş dosyaları ifade eder. Bu nedenle Git'in değişiklikleri takip etmesi veya bu dosyaları commit etmesi söz konusu değildir.
 Bir dosyanın "untracked" durumda olduğunu görmek için git status komutunu kullanabilirsiniz. Bu komutun çıktısında "Untracked files" bölümünde izlenmeyen dosyalar listelenir. Eğer bu dosyaların takip edilmesini istiyorsanız, git add komutu ile bu dosyaları Staging Area'ya ekleyebilir ve bir sonraki commit'e dahil edebilirsiniz.
 ----------------------
+8-".git" klasörünü silersek ne olur?
+Git ile ilgili tüm bilgileri ve geçmişi kaybedersiniz. Bu, depo geçmişi, branch bilgileri, commitler, tag'lar ve diğer Git ile ilgili verileri içerir.
+----------------------
