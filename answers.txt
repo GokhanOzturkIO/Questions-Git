@@ -1,3 +1,7 @@
 1-Git Nedir?
 Git, yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir sürüm kontrol ve kaynak kod yönetim sistemidir.
 ----------------------
+2-"git pull" ile "git fetch" komutlarının farkı nedir?
+git fetch, uzak depodan yeni bilgileri çeker, ancak yerel çalışma dizinini değiştirmez veya güncellemez.
+git pull, benzer şekilde uzak depodan yeni bilgileri çeker, ancak aynı zamanda bu bilgileri yerel çalışma dizinine de uygular.
+----------------------
