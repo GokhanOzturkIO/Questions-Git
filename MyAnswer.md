@@ -21,3 +21,7 @@
 - Origin, Türkçe'ye köken, orjinal gibi anlamlarla çevrilmiştir. Buradan bile yola çıkarak aslında local sunucumuzun işaret ettiğin ana projeyi temsil etmektedir. Mesela bir projeyi klonladık. Yapacağımız fetch işlemi veya pull işlemi doğrudan tanımlı projeye gider ve oradaki değişiklikleri kendi local sunucumuza getirir.
 
 - Github, Gitlab... gibi ortamlara bir şeyleri pushladığımız zaman aslında git sistemine orayı referans almasını söylüyoruz. Hal böyleyken origin kullanıldığında sunucumuzun işaret ettiği yere göre yeni işlemler yapacaktır.
+
+### "HEAD" kelimesi neyi temsil etmektedir?
+
+- Head, kullanmış olduğumuz branchteki son commiti temsil eder.
