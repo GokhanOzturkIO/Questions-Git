@@ -69,3 +69,18 @@ Commit Hash (SHA-1)
 Commit sahibini
 Tarih ve Saat Bilgisi
 Commit Mesajı
+
+16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+-Çalışma Kopyası ile En Son Commit Arasındaki Değişiklikleri görebiliriz.
+git diff
+-Belirli Bir Commit ile Çalışma Kopyası Arasındaki Değişiklikleri  görebiliriz. 
+git diff COMMIT_HASH
+-İki Belirli Commit Arasındaki Değişiklikler:
+git diff COMMIT_HASH1 COMMIT_HASH2
+-İki Farklı Branch Arasındaki Değişiklikler:
+git diff BRANCH1 BRANCH2
+
+
+
+
