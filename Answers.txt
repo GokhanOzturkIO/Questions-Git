@@ -73,3 +73,11 @@ Q7 - What happens if we delete the ".git" folder?
 
 *******************************************************
 
+Q8 - If we want a 'ReadMe.md' file to be automatically created every time we use the 'git init' command in our local repository, what should we do?
+
+## I think we can use a template, but I have never used it so...
+
+>> To ensure that a 'ReadMe.md' file is automatically created whenever we initialize a new Git repository using the 'git init' command, we can utilize Git templates by customizing the default template directory or by creating a custom Git template.
+
+*******************************************************
+
