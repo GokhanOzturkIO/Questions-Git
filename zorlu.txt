@@ -47,4 +47,8 @@ Git reset ile belirtilen commit HEAD olarak belirtmeye yarar.Yani commitleri ger
      git tag, belirli bir commit'i işaret etmek için kullanılır ve genellikle sürüm numaraları gibi sabit durumları temsil etmek için kullanılır.
 22->Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
     Kullanılan ide içinde gelen git arayüzleri, Github Desktop, SourceTree, GitKraken, SmartGit, Magit, RepoZ, GitViewer, Glint
+23->"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir?
+Git, version controlü sağlayan bir araçtır.
+Github, versionlarını tuttuğumuz repoları saklayabileceğimiz bir uzak sunucu hizmetidir.
+GitLab, Bitbucket, SourceForge gibi servisler Github benzeri servislerdir.
 
