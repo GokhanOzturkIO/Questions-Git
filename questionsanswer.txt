@@ -42,3 +42,7 @@
 -git tag belirli bir commiti işaretlemek için kullanılır , git branch ise farklı geliştirme dalları oluşturmak için kullanılır
 22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 -GitHub Desktop , SourceTree , GitKraken , SmartGit , GitExtensions
+23-GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+-git bir versiyon kontrol sistemi olup github ise bir repository'dir git sayesinde github'a projemizi yönlendirebilir proje üzerinde birden fazla kişi ile çalışabilirz ,
+GitHub benzeri siteler ise Bigbucket,GitLab, Azure gibi siteler github benzeri repolardır
+GitHub:savasafsar
