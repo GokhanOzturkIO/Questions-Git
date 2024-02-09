@@ -75,6 +75,9 @@ Git reset ile neyi geri alıyoruz?
 Atomic commit ne demektir?
 Atomic commit, tek bir iş yapan, geri alınması kolay ve zahmetsiz olan, yapılan işi tam anlamıyla açıklayan, kısa ve öz commit mesajıdır.
 -----------------------------------------------------------------------------------------------------------------------------
+Repository ne demektir?
+Repository, versiyonladığımız şeylerin tutulduğu, lokalde veya uzak sunucuda bulunabilen bir depodur.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
