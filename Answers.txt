@@ -215,4 +215,17 @@ Commit'leri, Dosya Değişikliklerini
 
 ===============================================================================================
 
+18. "git commit" ile "git push" arasındaki fark nedir?
+
+-git commit: Değişiklikleri yerel deponuzda kaydeder.
+-git push: Yerel deponuzdaki değişiklikleri uzak depoya gönderir.
+
+-git commit: Yalnızca sizin bilgisayarınızdaki deponuzu etkiler.
+-git push: Uzak depodaki branch'i de etkiler.
+
+-git commit: git reset komutu ile geri alınabilir.
+-git push: Uzak depodaki değişiklikler geri alınamaz, ancak git reset ve git pull ile yerel deponuzdaki değişiklikler geri alınabilir.
+
+===============================================================================================
+
 
