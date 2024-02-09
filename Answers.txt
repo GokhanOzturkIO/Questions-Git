@@ -160,8 +160,12 @@ Github Kullanıcı Adım :ArdaIstn
 =================================================================================================================================================================
 
 
+Q23)main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Main ya da master branchi bizim projemizde temel geliştirme hattını temsil eder.Yani bizim projemizin asıl gidişatını belirleyen branchdir.Biz yeni bir branch oluşturduğumuzda amacımız,belirli bir özelliği,bir düzeltmeyi veya başka bir deneyi geliştirme sürecinde izlemek için kullanılırken, main ya da master branchi projenin üzerindeki ana ve kararlı geliştirme yönünü temsil eder.Main ya da master branchi proje üzerindeki ana kaynak kodunu içerir.Diğer oluşturduğumuz branchler ise main ya da master branchinin dışında belirli bir işlevselliğin veya bir özelliğin geliştirilmesi için kullanılır.Bu nedenle main ya da master branchinde yapılan değişiklikler proje üstünde daha geniş bir etkiye sahip olabilirken diğer branchler genellikle daha dar kapsamlıdır.Diğer oluşturduğumuz branchler geçici olarak kullanılır ve merge işleminden sonra genellikle kapatılır veya silinir.
 
 
+=================================================================================================================================================================
 
 
 
