@@ -150,3 +150,10 @@ c. Commit'i geri almak (commit bilgilerini ve değişiklikleri geri alarak) -> "
 d. Commit ve değişiklikleri geri almak (bu komut değişiklikleri tamamen geri alır) -> "git reset --hard HEAD~1"
 
 ******************************************************************************************************************************************************
+
+18- "git commit" ile "git push" arasındaki fark nedir?
+
+Git commit komutu çalışma dizinindeki değişiklikleri değişiklikleri yerel depoya kaydeder. Git push ise yerel depodaki değişiklikleri uzak depoya
+göndermek için kullanılır. Yani commit ile yerel depoya kayıt push ile uzak sunucuya kayıt işlemini yaparız.
+
+******************************************************************************************************************************************************
