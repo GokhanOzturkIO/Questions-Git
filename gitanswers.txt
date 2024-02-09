@@ -53,3 +53,8 @@ git branch "branch_isminiz" komutuyla yeni branch oluşturulabilir
 12-Var olan bir "branch"e nasıl geçebiliriz?
 
 Eğer önceden oluşturulan bir branch'e geçmek istiyorsak git switch "branch_isminiz" komutunu kullanabiliriz.
+
+13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+Sadece belirli bir branch'i çekmek istiyorsak 
+ git clone --single-branch --branch branch_name repository_url komutunu kullanabiliriz.
