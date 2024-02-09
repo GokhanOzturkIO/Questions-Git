@@ -105,3 +105,13 @@ Q11 - How can we create a 'branch' from scratch?
 
 *******************************************************
 
+Q12 - How can we switch to an existing 'branch'?
+
+## git checkout <branch-name>
+
+>> To switch to an existing branch in Git, you can use the command "git checkout <branch-name>", where "<branch-name>" is the name of the branch you want to switch to, enabling you to continue your work on that specific branch or review its content.
+
+*******************************************************
+
+
+
