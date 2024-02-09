@@ -157,3 +157,11 @@ Git commit komutu çalışma dizinindeki değişiklikleri değişiklikleri yerel
 göndermek için kullanılır. Yani commit ile yerel depoya kayıt push ile uzak sunucuya kayıt işlemini yaparız.
 
 ******************************************************************************************************************************************************
+
+19- Atomic commit ne demektir?
+
+Git için Atomic Commit, tüm değişikliklerin tek bir işlem olarak kaydedilmesi anlamına gelir. Yani, ya tüm değişiklikler birlikte commit edilir
+ya da hiçbiri edilmez. Bu, verilerin tutarlılığını ve geri alınabilirliğini korumak için önemlidir. Özetlersek birden fazla değişiklik yapıyoruz,
+bu değişiklikleri tek bir commit mesajı ile kaydediyoruz. Ya tüm değişiklikleri birlikte kaydediyoruz ya da hiçbirini kaydetmiyoruz.
+
+******************************************************************************************************************************************************
