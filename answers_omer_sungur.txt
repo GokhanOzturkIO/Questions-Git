@@ -9,3 +9,5 @@
 5 -> HEAD, üzerinde bulunduğumuz commit'i ifade eder. Genellikle HEAD, en son commit üzerindedir.
 
 6 -> Staging area, commit atmadan önce yapılan değişiklikleri takip ettiğimiz yerdir.
+
+7 -> Git tarafından takip edilmeyen dosyalara "untracked" file denir. Bunları takip etmek için staging area'ya alırız.
