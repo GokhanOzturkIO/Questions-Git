@@ -20,4 +20,13 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 7. .git klasörünü silersek ne olur
 -> 1.Geri döndürülemez bir işlemdir.
    2.Projenizin versiyon geçmişini, değişiklik takibini ve uzak depo bağlantısını kaybolur. 		
-<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+8. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+-> git init komutundan sonra otamatık olarak oluşur yada belirli sablonlar kullanarak isteğimiz dosyaların otamatik olarak eklenmesini isteyebiliriz.
+       ## Kod Örneği.
+	mkdir -p ~/.git-templates/initial
+	cp README.md ~/.git-templates/initial/
+	git init example
+
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+			
