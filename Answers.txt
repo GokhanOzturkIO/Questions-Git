@@ -42,7 +42,18 @@ Eğer bu dosyaların izlenmesi gerekiyorsa, öncelikle git add komutuyla izlenme
 
 -----------------------------------------------
 9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
--
+-Git'in temel konfigürasyon dosyası olan ".gitconfig" dosyasını düzenleyin. 
+Bu dosya genellikle kullanıcının ana dizininde (~/ veya C:\Users\KullanıcıAdı) bulunur. 
+Eğer bu dosya yoksa, oluşturabilirsiniz.
+'.gitconfig' dosyasını bir metin düzenleyici ile açın ve aşağıdaki satırı ekleyin veya düzenleyin:
+
+"[init]
+    templatedir = /path/to/your/template/directory"
+
+Burada, /path/to/your/template/directory kısmını kendi sistem yolunuza uygun şekilde değiştirmelisiniz. 
+Bu, "git init" komutu kullanıldığında, Git'in bir şablon klasörünü belirleyecektir.
+Şimdi, belirttiğiniz şablon klasörüne gidin ve içine "ReadMe.md" dosyasını oluşturun. Bu dosyaya proje için gerekli başlangıç bilgilerini ekleyebilirsiniz.
+Artık "git init" komutu kullanıldığında, Git bu şablon klasörünü temel alarak bir depo oluşturacaktır ve içine "ReadMe.md" dosyasını ekleyecektir.
 
 ------------------------------------------------
 10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
