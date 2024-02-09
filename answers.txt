@@ -65,3 +65,7 @@ git clone --branch branch_adi <repo_url>
 
 ✔Repository ne demektir?
  -Projede ki tüm dosyaların, geçmiş versiyonlarını ve değişiklik geçmişini içerir. Repository üzerinden projeyi yönetir, değişiklikleri kaydeder işbirliği yaapabiliriz.Kısaca repomuzda bir projemizi belgemizi notumuzu herşeyi depolayabiliriz.
+
+✔"git tag" nedir? "git branch"’ten farkı nedir?
+  -Git tag komutu belirli bir commit üzerinden etiket eklemek ve belirli bir commite isim vermek için kullanılır. En önemli kullanım sebebi projenin güncel versiyonu dışında geçmişe dönebilmektedir neden commit değilde tag derseniz bir porjede çok fazla commit oluyor ve versiyonu bulmak zor olur bu yüzden git tag ile projenin versiyonlarını etiketleyerek daha çabuk bulabiliriz.
+  -Git tag versiyon işlemlerinde işimize yarar git branchler ise genellikle bir projenin parçası olarak oluşturulur ve birleşitirilir. Git tagler sabit bir yapıya sahip git branchler ise dinamik bir yapıya sahipler sürekli değiştirilebilir geliştirilebilir.
