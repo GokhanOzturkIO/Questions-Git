@@ -43,7 +43,7 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 -> git clone --single-branch ynemreuslu https://github.com/GokhanOzturkIO/Questions-Git komutuyla, "Questions" deposundaki "ynemreuslu" adlı branch'i klonlamış olduk.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 13."Merge conflict" ne demektir?
-->"Merge conflict", Git'te iki farklı kaynaktan (genellikle farklı branch'lerden veya commit'lerden) gelen değişikliklerin otomatik olarak birleştirilememesi durumudur. Bu durumda, 
+-> "Merge conflict", Git'te iki farklı kaynaktan (genellikle farklı branch'lerden veya commit'lerden) gelen değişikliklerin otomatik olarak birleştirilememesi durumudur. Bu durumda, 
 kullanıcı tarafından manuel olarak çözülmesi gereken bir durumdur.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 14."git log" komutu ile hangi bilgileri görebiliriz?
