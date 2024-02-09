@@ -52,5 +52,10 @@ ilk olarak git add komutu ile bu dosyaları izleme altına alabilir akabinde dah
 
 ******************************************************************************************************************************************************
 
+8- ".git" klasörünü silersek ne olur?
 
+Bu klasör git deposunun tüm bilgilerini içeren önemli bir klasördür. Bu klasörü silerseniz, Git deposu ile ilgili tüm verileri kaybedersiniz.
+.git klasörünü silmek depoyu tamamen yok etmek anlamına gelir ve geri dönülemez kayıplara neden olur.
+
+******************************************************************************************************************************************************
 
