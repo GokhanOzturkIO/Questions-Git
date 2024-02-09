@@ -40,3 +40,5 @@
 -Projenin kaynak dosyalarının ve kodlarının bulunduğu depodur
 21-"git tag" nedir? "git branch"’ten farkı nedir?
 -git tag belirli bir commiti işaretlemek için kullanılır , git branch ise farklı geliştirme dalları oluşturmak için kullanılır
+22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+-GitHub Desktop , SourceTree , GitKraken , SmartGit , GitExtensions
