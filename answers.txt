@@ -27,3 +27,10 @@ Bir dosyanın "untracked" durumda olduğunu görmek için git status komutunu ku
 8-".git" klasörünü silersek ne olur?
 Git ile ilgili tüm bilgileri ve geçmişi kaybedersiniz. Bu, depo geçmişi, branch bilgileri, commitler, tag'lar ve diğer Git ile ilgili verileri içerir.
 ----------------------
+9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+mkdir -p ~/.git-templates
+cd ~/.git-templates
+touch README.md
+git config --global init.templateDir ~/.git-templates
+komutları ile her git init komutu ile README.md dosyası otomatik olarak oluşturulur.
+----------------------
