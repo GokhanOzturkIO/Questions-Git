@@ -56,4 +56,17 @@ Kodların gönderilmemiş olması: Takım arkadaşınız kodları göndermiş ol
 Bu tür durumlarda, hata mesajlarını kontrol etmek ve hangi adımların hatalı olduğunu belirlemek önemlidir. Ardından, sorunun kaynağını belirlemek ve uygun çözümü uygulamak için adımları yeniden gözden geçirebilirsiniz.
 
 ******************************************************************************************************************************
+4."git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+"git fetch origin" komutundaki "origin", genellikle Git projenizin uzak depolarından birine verilen bir isimdir. Bu isim, projenin orijinal (yani kaynak) uzak depolarına atıfta bulunmak için kullanılır. "origin" terimi, projenin ana uzak deposunu temsil eder.
+
+Bir Git projesi genellikle birden fazla uzak depoya sahip olabilir. "origin", genellikle proje sunucusunun (örneğin GitHub, GitLab veya Bitbucket gibi) ana uzak deposunu temsil eder. Ancak, bu terim isteğe bağlıdır ve projenin yapılandırmasına bağlı olarak farklı bir isimde de olabilir.
+
+Örneğin, bir proje için birden fazla uzak depo eklemek isterseniz, her bir uzak depoya farklı bir isim verebilirsiniz. "origin" sadece bir konvansiyon olup, projenin orijinal uzak deposuna atıfta bulunmak için yaygın olarak kullanılan bir isimdir. Bu ismi değiştirmek, projenin yapılandırmasına bağlıdır ve "git fetch" komutunda kullanılan isim, projenin hangi uzak depolarına atıfta bulunmak istediğinize bağlı olacaktır.
+
+******************************************************************************************************************************
+
+
+
+
 
