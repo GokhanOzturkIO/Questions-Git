@@ -34,3 +34,5 @@
 -staging areaya alından tüm değişiklikleri geri alır
 18-"git commit" ile "git push" arasındaki fark nedir?
 -git commit değişiklikleri local repository'e kaydetmek için kullanılır git push ise bu değişiklikleri commitlerimizi remote repository'e gönderir
+19-Atomic commit ne demektir?
+-Atomic commit, bir versiyon kontrol sisteminde tüm değişikliklerin birlikte yapıldığı ve birbirinden bağımsız olarak uygulandığı bir commit işlemidir.
