@@ -271,5 +271,27 @@ SourceTree, GitKraken, GitUp
 
 ===============================================================================================
 
+23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git:
+
+    Versiyon kontrol sistemi
+    Yerel olarak veya uzak bir sunucuda kullanılabilir
+    Dosyalardaki değişiklikleri takip etmenizi ve yönetmenizi sağlar
+    Branch'ler ve merge'ler gibi gelişmiş işlevler sunar
+
+GitHub:
+
+    Git tabanlı bir web hosting hizmeti
+    Uzak bir sunucuda depolarınızı barındırmanızı sağlar
+    Web arayüzü veya komut satırı aracılığıyla kullanılabilir
+    Collaboration ve workflow yönetimi araçları sunar
+
+Özetle:
+
+    Git: Versiyon kontrol sistemidir.
+    GitHub: Git tabanlı bir web hosting hizmetidir.
+
+===============================================================================================
 
 
