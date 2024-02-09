@@ -113,5 +113,11 @@ Q12 - How can we switch to an existing 'branch'?
 
 *******************************************************
 
+Q13 - How can we specifically fetch only a certain branch when using the 'git clone' command?
 
+## ¯\_(ツ)_/¯
+
+>> When using the 'git clone' command, you can fetch only a specific branch by appending the '--single-branch' flag followed by the branch name, ensuring that only the history related to that branch is cloned, which can significantly reduce download time and repository size.
+
+*******************************************************
 
