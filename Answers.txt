@@ -2,4 +2,23 @@
 
 Git, yazılım geliştirmede kullanılan, hızlı ve dağıtık bir versiyon kontrol sistemidir. Her değişikliği takip eder, geri dönmenize ve birlikte çalışmanıza olanak tanır.
 
-=================================================================================
+===============================================================================================
+
+2."git pull" ile "git fetch" komutlarının farkı nedir?
+
+Git pull ve git fetch, uzak depolardaki değişiklikleri yerel deponuza almanıza yardımcı olan Git komutlarıdır. Fakat bazı önemli farkları vardır:
+
+-İşleyiş:
+	Git fetch: Uzak depodaki değişiklikleri sadece yerel deponuza indirir, yerel dosyalarınızı değiştirmez.
+	Git pull: Uzak depodaki değişiklikleri indirir ve yerel branch'inizle birleştirir.
+-Sonuç:
+    Git fetch: Birden fazla branch'teki değişiklikleri takip etmenize ve incelemenize olanak tanır.
+    Git pull: Uzak depodaki değişiklikleri yerel branch'inize entegre eder.
+
+Sonuç olarak uzak depodaki değişiklikleri sadece incelemek istiyorsanız "git fetch"
+yerel branch'inize entegre etmek istiyorsanız "git pull" kullanmalısınız.
+Git pull kullanmadan önce git fetch ile incelemeniz önerilir.
+
+===============================================================================================
+
+
