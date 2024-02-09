@@ -59,3 +59,6 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 
 - git checkout -b branch_adı
 
+### Var olan bir "branch"e nasıl geçebiliriz?
+
+- git checkout branch_adı
