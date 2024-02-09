@@ -28,4 +28,27 @@ Staging Area, ara bölge anlamına gelir. git add komutunu çalıştırdıktan s
 "Untracked file" ne demektir?
 Untracked file, git tarafından takip edilmeyen dosya anlamına gelir. Yeni bir dosya oluşturduğumuzda ortaya çıkar.
 -----------------------------------------------------------------------------------------------------------------------------
+".git" klasörünü silersek ne olur?
+.git klasörünü silersek o dosyadaki git özelliklerini kaybetmiş oluruz.
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
