@@ -66,3 +66,11 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
 - git clone -b mybranch <repository_url>
+
+### "Merge conflict" ne demektir?
+
+- "Merge conflict", Git'in birleştirme işlemi sırasında karşılaştığı ve otomatik olarak çözemediği çatışmaları ifade eder. Bu durum, farklı kaynaklardan gelen değişikliklerin aynı dosya veya satırları içermesi ve Git'in hangi değişikliği kullanacağını belirleyememesi durumunda ortaya çıkar.
+
+- İki farklı dalda aynı dosyanın aynı satırlarında yapılan değişiklikler.
+
+- Bir dalda bir dosyanın belirli satırlarının silinmesi ve diğer dalda aynı dosyanın aynı satırlarının değiştirilmesi.
