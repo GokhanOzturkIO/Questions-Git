@@ -106,3 +106,7 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### Atomic commit ne demektir?
 
 - Atomic commit, yapılacak 1 task var fakat içerisinde 10 farklı görev mevcut olarak varsayalım. Bunları teker teker commitleyerek oluşabilecek olumsuz bir durumda yönetilebilirliği arttırmak amaçlı kullanan bir standarttır.
+
+### Repository ne demektir?
+
+- Bir yazılım projesinin tüm dosyalarının ve geçmişinin saklandığı bir yer olarak tanımlanabilir.
