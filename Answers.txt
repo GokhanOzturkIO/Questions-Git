@@ -72,7 +72,9 @@ Git reset ile neyi geri alıyoruz?
 "git commit" ile "git push" arasındaki fark nedir?
 "git commit" komutu yapılan değişiklikleri local repoya kaydederken "git push" komutu commitlenen değişiklikleri uzak sunucuya göndermek için kullanılır.
 -----------------------------------------------------------------------------------------------------------------------------
-
+Atomic commit ne demektir?
+Atomic commit, tek bir iş yapan, geri alınması kolay ve zahmetsiz olan, yapılan işi tam anlamıyla açıklayan, kısa ve öz commit mesajıdır.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
