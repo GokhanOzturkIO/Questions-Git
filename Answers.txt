@@ -145,4 +145,27 @@ Artık yeni oluşturduğunuz "branch" üzerinde çalışabilirsiniz. Değişikli
 İşte bu kadar! Artık başarılı bir şekilde yeni bir "branch" oluşturdunuz ve üzerinde çalışmaya başlayabilirsiniz. Yaptığınız değişiklikleri bu "branch"e kaydedebilir ve proje üzerinde güvenli bir şekilde çalışmaya devam edebilirsiniz.
 
 *****************************************************************************************************
+12.Var olan bir "branch"e nasıl geçebiliriz?
+
+Mevcut bir "branch"e geçmek için Git'te git checkout komutunu kullanabilirsiniz. İşte mevcut bir "branch"e geçmek için adımlar:
+
+Terminal veya komut istemcisini açın.
+
+Geçmek istediğiniz "branch"i belirleyin. Bunun için projenizin kök dizinine gitmek ve git branch komutunu kullanarak mevcut "branch"leri görebilirsiniz. Örneğin:
+
+Copy code
+git branch
+Geçmek istediğiniz "branch"i belirledikten sonra, git checkout <branch_adı> komutunu kullanarak o "branch"e geçebilirsiniz. Örneğin:
+
+Copy code
+git checkout feature-branch
+Bu komutu çalıştırdıktan sonra, belirttiğiniz "branch"e geçiş yapmış olacaksınız. Artık bu "branch" üzerinde çalışabilir ve değişiklikler yapabilirsiniz. Önceki "branch"ten yeni "branch"e geçiş yaptığınızda, çalışma kopyanızda o "branch"e ait dosyaları ve değişiklikleri göreceksiniz.
+
+Başka bir "branch"e geçtiğinizde, üzerinde çalıştığınız dosyalar ve dosyaların durumu yeni "branch" ile eşleşecektir. Bu nedenle, değişikliklerinizi dikkatlice kontrol etmeniz ve gerektiğinde değişikliklerinizi kaydetmeniz önemlidir.
+
+*****************************************************************************************************
+
+
+
+
 
