@@ -119,3 +119,20 @@ Branch Yapısı ile İlgili Komutlar:
     git merge: Bir branch'i ana koda veya başka bir branch'e birleştirir.
 
 ===============================================================================================
+
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+1. git branch Komutunu Kullanma:
+
+git branch <branch_adı>
+
+Bu komut, <branch_adı> ile belirttiğiniz isimde yeni bir branch oluşturur.
+
+Örnek:
+
+git branch yeni_ozellik
+
+Bu komut, "yeni_ozellik" adında yeni bir branch oluşturacaktır.
+
+===============================================================================================
+
