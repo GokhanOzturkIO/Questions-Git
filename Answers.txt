@@ -106,5 +106,23 @@ Bir versiyon kontrol sistemi altında bulunan ve proje ile ilgili tüm dosyalar�
 GitKraken,SourceTree uygulamaları kullanılabilir.
 
 ------------------------------------------------------
+23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git: dağıtık bir versiyon kontrol sistemi olarak bilinir.
+Yazılım geliştirme sürecinde dosyaların değişikliklerini takip etmek, sürümleri yönetmek ve işbirliği yapmak için kullanılır.
+Git, yerel bilgisayarınızda çalışır ve depoları (repositories) yönetir.
+Commit'ler, branch'ler, merge'ler ve diğer versiyon kontrolü işlemlerini gerçekleştirmek için kullanılır.
+
+GitHub: Git tabanlı projelerin barındırıldığı ve işbirliği yapıldığı bir platformdur.
+Proje depolarını çevrimiçi olarak barındırır, kullanıcılara kod paylaşma, işbirliği yapma, problem takibi, kod inceleme ve daha fazlası için bir arayüz sağlar.
+GitHub, Git'in özelliklerini genişletir ve daha sosyal bir yazılım geliştirme deneyimi sunar.
+Ayrıca, birçok açık kaynaklı proje, kütüphane ve framework GitHub üzerinde barındırılır.
+
+Git benzeri:
+GitLab: Git tabanlı proje yönetimi platformu. GitHub'a benzer bir hizmet sunar ve kendi sunucumuzda da çalıştırılabilir.
+Bitbucket: Atlassian tarafından sunulan Git ve Mercurial tabanlı proje barındırma ve işbirliği platformu. Özellikle Jira ve diğer Atlassian ürünleriyle entegrasyon sağlar.
+SourceForge: Açık kaynaklı yazılım geliştirme platformu. Hem Git hem de Subversion gibi versiyon kontrol sistemlerini destekler.
+
+Github/osmancandincer
+-------------------------------------------------------
 
 
