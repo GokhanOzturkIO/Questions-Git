@@ -85,6 +85,14 @@ git diff BRANCH1 BRANCH2
 
 - git reset ile staging area da olan değişiklikleri geri alıyoruz.
 
+18. "git commit" ile "git push" arasındaki fark nedir?
+
+-git commit komutu, yapılan değişiklikleri lokal depoya (yani bilgisayarınızdaki kopyaya) kaydetmek için kullanılır.
+
+-git push komutu, lokalde yapılan commit'leri uzak bir depoya göndermek için kullanılır. Uzak depo, genellikle bir Git sunucusudur (GitHub, GitLab, Bitbucket gibi).
+
+-Bu iki komutun birbiriyle ilişkisi şu şekildedir: Önce git commit ile yapılan değişiklikleri lokal depoya kaydedersiniz, ardından git push ile bu değişiklikleri uzak depoya gönderirsiniz.
+
 
 
 
