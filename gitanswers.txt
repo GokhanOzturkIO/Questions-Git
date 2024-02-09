@@ -96,3 +96,7 @@ Bir projenin kaynak dosyalarının ve kodlarının bulunduğu depodur.
 
 git tag; Belirli bir commiti işaretlemek için kullanılır.
 git branch; Paralel çalışma dallarını yönetmek ve izlemek için kullanılır.
+
+22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+SourceTree ,Gitkraken,Github Desktop gibi araçları kullanabiliriz.
