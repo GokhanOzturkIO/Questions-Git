@@ -82,6 +82,9 @@ Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntül
 Çalışma Dizini ve İndeks Arasındaki Değişiklikler: Eğer hiçbir commit belirtilmemişse, "git diff" komutu çalışma dizini (working directory) ile staging area (index) arasındaki değişiklikleri gösterir. Yani, üzerinde çalıştığımız dosyalarda yaptığımız değişiklikleri ve staging area'ya eklenmemiş olanları gösterir.
 
 -----------------------------------------------------
+17- Git reset ile neyi geri alıyoruz?
+"git reset" komutu, Git deposunda yapılan değişiklikleri geri almak veya geri sarmak için kullanılır.
 
+-----------------------------------------------------
 
 
