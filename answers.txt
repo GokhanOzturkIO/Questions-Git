@@ -33,6 +33,11 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 -> Projemizi dallara ayırmamızı sağlar.Proje içinde birçok kişinin kendi caseni geliştirmesine olanak sağlar.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 10. Sıfırdan bir "branch" nasıl oluşturabiliriz?
--> git branch ynemreuslu komudu ile yeni bir branch oluşturmuş olduk.
+-> git branch ynemreuslu komutu ile yeni bir branch oluşturmuş olduk.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+11. Var olan bir "branch"e nasıl geçebiliriz?
+-> git checkout ynemreuslu komutu ile branche geçeriz.
+-> git checkout -b ynemreuslu komutu ile hem yeni branch acariz ve o branche geçeriz.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+ 
 			
