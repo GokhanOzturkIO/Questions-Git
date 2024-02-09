@@ -32,3 +32,5 @@
 - 2 commit arasındaki değişiklikleri, staging area'ya son atılan commit arasındaki değişiklikleri , iki farklı branch arasındaki değişiklikleri görebiliriz
 17-Git reset ile neyi geri alıyoruz?
 -staging areaya alından tüm değişiklikleri geri alır
+18-"git commit" ile "git push" arasındaki fark nedir?
+-git commit değişiklikleri local repository'e kaydetmek için kullanılır git push ise bu değişiklikleri commitlerimizi remote repository'e gönderir
