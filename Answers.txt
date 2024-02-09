@@ -81,4 +81,17 @@ Bu işlem projenizin geçmişini, takip edilen dosyaları ve branch'leri kaybede
 
 ===============================================================================================
 
+9.  Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+".gitconfig" dosyasını açın. Bu dosya genellikle ana dizininizde bulunur.
+Aşağıdaki satırları ekleyelim:
+
+[init]
+templatedir = ~/.git-templates
+
+    "~/.git-templates" klasörünü oluşturun.
+    Bu klasöre "README.md" dosyanızı kopyalayın.
+
+===============================================================================================
+
 
