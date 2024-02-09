@@ -55,4 +55,7 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 
 - Amacımız genelde main branchtekileri değiştirmeden aynı branchi kopyalayarak tüm değişiklikleri orada yapmamızı sağlarız. Ardından her şey yolundaysa bu branchleri birbiri ile birleştiririz.
 
+### Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+- git checkout -b branch_adı
 
