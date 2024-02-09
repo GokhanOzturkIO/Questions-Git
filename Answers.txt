@@ -123,6 +123,10 @@ Bitbucket: Atlassian tarafından sunulan Git ve Mercurial tabanlı proje barınd
 SourceForge: Açık kaynaklı yazılım geliştirme platformu. Hem Git hem de Subversion gibi versiyon kontrol sistemlerini destekler.
 
 Github/osmancandincer
--------------------------------------------------------
 
+-------------------------------------------------------
+24-main ya da master branch'inin diğer branchlerden farkı nedir?
+"main" veya "master" branch, projenin ana geliştirme hattını temsil ederken, diğer branch'ler ise belirli özelliklerin veya geliştirmelerin geliştirildiği veya test edildiği geçici çalışma alanlarıdır.
+
+-------------------------------------------------------
 
