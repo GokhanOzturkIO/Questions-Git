@@ -78,3 +78,8 @@ o repodaki atılan bütün commitleri ve o kişiye ait bilgileri görebiliriz.Ta
 17-Git reset ile neyi geri alıyoruz?
 
 Staging area'ya gönderilen tüm değişiklikleri geri alıyoruz.
+
+
+18-"git commit" ile "git push" arasındaki fark nedir?
+
+git commit ile localimizdeki değişiklikleri kaydedip izleyebiliriz fakat sunucuya göndermiş olmayız.git push ile bu commitleri sunucuya göndeririz.Biri localde bulunur biri sunucuda.
