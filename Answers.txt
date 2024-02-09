@@ -123,6 +123,15 @@ Atomic commit, bir yazılım projesinde yapılan bir değişiklik setinin, tek b
 =================================================================================================================================================================
 
 
+Q19)Repository ne demektir?
+
+Git özelinde,git repository bir projenin tüm kaynak kodlarını,dosyalarını,geçmişini ve diğer ilgili bilgileri içeren bir yapıdır.Bilgisayarımızda birden fazla git reposu oluşturabiliriz.Her git'i kullanmak istediğimizde git'e yeni bir repo oluşturmasını söylememiz gerekir.Fakat bu kısımda,her git reposununu kendi geçmişi vardır ve  birbirlerinden bağımsızdır.
+
+=================================================================================================================================================================
+
+
+
+
 
 
 
