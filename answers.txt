@@ -57,3 +57,7 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
 -git clone -b <branch name> <remote path> şeklinde bir branch'i klonlayabiliriz.
+
+14. "Merge conflict" ne demektir?
+
+- "Merge conflict" (birleştirme çakışması), Git'te iki farklı dalı birleştirmeye çalıştığınızda, Git'in otomatik olarak birleştiremediği ve kullanıcının müdahale etmesi gereken bir durumu ifade eder. Bu durum, Git'in farklı dallardaki aynı dosyanın aynı satırlarında çakışan değişiklikleri çözme konusunda kararsız kaldığı bir durumdur.
