@@ -43,6 +43,9 @@ git branch <branch_name> ---- git checkout -b <branch_name> komutlarıyla sıfı
 Var olan bir "branch"e nasıl geçebiliriz?
 git checkout <branch_name> komutuyla farklı bir branche geçiş yapılabilir.
 -----------------------------------------------------------------------------------------------------------------------------
+"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+git clone --branch <branch_name>
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
