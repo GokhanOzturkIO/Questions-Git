@@ -2,7 +2,7 @@
 
 2 -> git fetch ile uzak sunucudaki değişiklikleri görüntüleyebiliyoruz fakat o değişiklikleri getirmiyoruz. git pull ile o değişkliği getiriyoruz, yani localimize merge ediyoruz. Aslında git pull ile hem fetch işlemini hem de merge işlemini yapmış oluyoruz. Direkt olarak pull yapmak sıkıntılara yol açabilir. Pull durumunda bir conflict oluşmaması için fetch ile güncel haline bakıp karar vermek daha iyi olabilir. Zaten conflict varsa pull işlemi için conflict çözmek gerekiyor ama yine de fetch etmek iyidir.
 
-3 -> Bir conflict durumu oluşmuştur. Aynı satırlarda farklı ifadeler olabilir. Bunları inceleyerek conflicti çözmeliyiz.
+3 -> Bir conflict durumu oluşmuştur. Aynı satırlarda farklı ifadeler olabilir. Bunları inceleyerek conflicti çözmeliyiz. Bunun dışında projeyi uzak sunucuya pushlamamış olabiliriz, eğer bunu yapmazsak proje sadece localimizde kalır. Diğer kişi bu değişikliği uzak sunucuda göremez.
 
 4 -> ve her zaman major ifadesini kullanıyormuşuz gibi burada da origin uzak sunucunun adresini veriyor. 
 
