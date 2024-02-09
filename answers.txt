@@ -133,6 +133,10 @@ Farklar:
 
 Kısacası, Git bir versiyon kontrol sistemidir, GitHub ise Git tabanlı projeleri depolamak, işbirliği yapmak ve yönetmek için bir platformdur.
 
+24. main ya da master branch'inin diğer branchlerden farkı nedir?
+
+-"main" veya "master" branch, genellikle bir projenin ana geliştirme dalını temsil eder ve diğer branch'ler bu ana daldan türetilir. Bu konsept, projelerin düzenli bir şekilde yönetilmesini, değişikliklerin izlenmesini ve geliştiricilerin işbirliği yapmasını sağlar.
+
 
 
 
