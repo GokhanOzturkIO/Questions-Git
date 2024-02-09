@@ -56,3 +56,14 @@ Q5 - What does the region called 'Staging Area' or 'Index' exactly mean?
 >> The 'Staging Area' or 'Index' in Git refers to a transitional area where changes are prepared before committing to the repository, allowing developers to selectively stage modifications for inclusion in the next commit.
 
 *******************************************************
+
+Q6 - What does 'Untracked file' mean?
+
+## The files which we did not add to git.
+
+>> "Untracked file" refers to a file in a Git repository that is not currently being tracked by Git. This means that Git is unaware of any changes made to the file, and it will not be included in commits or pushed to the remote repository unless explicitly added to the staging area using the "git add" command.
+
+*******************************************************
+
+
+
