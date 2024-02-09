@@ -86,3 +86,6 @@ git reset --hard commit_sha
 git commit yapılan değişiklikleri yerel depoya kaydetmek için kullanılır.
 git push yerel depodaki commit'leri uzak depoya göndermek için kullanılır.
 ----------------------
+19-Atomic commit ne demektir?
+Atomic commit, bir değişiklik setini tamamlayan ve tek bir amaç için odaklanan bir commit türüdür. Bu commit'ler, bağımsız olarak uygulanabilir, geri alması kolay ve anlamlı commit mesajları içerir, böylece projenin geçmişi daha düzenli ve anlaşılır hale gelir.
+----------------------
