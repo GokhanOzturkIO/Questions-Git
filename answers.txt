@@ -96,3 +96,10 @@ Bir projenin veya yazılımın kaynak kodlarını, dosyalarını, tarihini ve s�
 Tag, genellikle sürüm numaralarını, yayınları veya projelerin belirli durumlarını işaretlemek için kullanılır.
 Branch, projenin farklı geliştirme hattını temsil eder ve genellikle farklı özelliklerin veya geliştirmelerin üzerinde çalışmak için kullanılır.
 ----------------------
+22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+-GitHub Desktop
+-GitKraken
+-Sourcetree
+-GitExtensions
+-IDE(vscode,intellij,android studio)
+----------------------
