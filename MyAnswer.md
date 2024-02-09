@@ -38,3 +38,11 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### ".git" klasörünü silersek ne olur?
 
 - Git'e dair yapmış olduğumuz tüm değişiklikler ve kayıt altına aldığınız her şey geri dönülmez bir şekilde silinmiş olur.
+
+### Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+- Ardından, Git'in şablon dizinini belirleyin ve bu dosyaları içine kopyalayın. Örneğin, ~/.git_template gibi bir dizin oluşturabilirsiniz.
+
+- Son olarak, Git'in bu dizini kullanmasını sağlamak için git config komutunu kullanarak bu dizini belirtin
+
+- git config --global init.templateDir ~/.git_template
