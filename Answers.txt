@@ -18,7 +18,26 @@ Açık Kaynaklı ve Ücretsiz: Git, açık kaynaklı bir projedir ve ücretsiz o
 Git, yazılım geliştirme endüstrisinde en popüler versiyon kontrol sistemlerinden biridir ve birçok büyük projede yaygın olarak kullanılmaktadır.
 
 ******************************************************************************************************************************
+2."git pull" ile "git fetch" komutlarının farkı nedir?
+"git pull" ve "git fetch" komutları, Git'te uzak depodan değişiklikleri almak için kullanılan iki farklı komuttur. İkisi de uzak depodaki değişiklikleri yerel depoya getirir, ancak farklı şekillerde çalışırlar ve farklı sonuçlar üretebilirler.
 
+İşte "git pull" ve "git fetch" komutlarının farkları:
+
+git fetch:
+
+Bu komut, uzak depodan tüm değişiklikleri alır ve yerel depoda geçerli bir duruma getirir, ancak otomatik birleştirme işlemi gerçekleştirmez.
+Alınan değişiklikler yerel depoda "origin/master" gibi referans adlarında saklanır.
+Bu komut, yerel çalışma kopyasında otomatik olarak birleştirme işlemi yapmaz, bu nedenle çakışma olasılığına karşı önlem almak için kullanıcı müdahalesi gerekebilir.
+İşlem tamamlandığında, kullanıcı yerel kopyayı güncellemek için manuel olarak birleştirme işlemi yapmalıdır.
+git pull:
+
+Bu komut, uzak depodan değişiklikleri alır ve yerel depoyu otomatik olarak günceller.
+Öncelikle "git fetch" komutunu çağırır ve uzak depodaki değişiklikleri getirir.
+Ardından, yerel depodaki mevcut dalı (veya bir dalı belirtilen bir uzak daldan) uzak daldan çeker ve yerel depo ile birleştirir.
+"git pull", "git fetch" ve ardından "git merge" (veya "git rebase" kullanarak) komutlarını tek bir adımda gerçekleştirir, bu nedenle kullanıcı tarafından manuel birleştirme işlemi genellikle gerekli değildir.
+Genel olarak, "git fetch" komutu değişiklikleri alır ve yerel depoda saklar, ancak birleştirme işlemi yapmazken, "git pull" komutu aynı işlemi yapar ve ayrıca yerel depoyu otomatik olarak günceller ve birleştirir.
+
+******************************************************************************************************************************
 
 
 
