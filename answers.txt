@@ -8,3 +8,6 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 3.git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 -> Ana proje dosyasındaki son güncellemeri almak için kullanılan komuttur.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+4."HEAD" kelimesi neyi temsil etmektedir?
+-> Git içinde hangi konumda olduğumuzu gösterir.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
