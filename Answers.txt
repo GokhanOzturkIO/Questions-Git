@@ -39,5 +39,14 @@ Farklı isimler de kullanabilirsiniz.
 
 ===============================================================================================
 
+5."HEAD" kelimesi neyi temsil etmektedir?
+
+"HEAD", Git'te çalışma durumunuzu temsil eden bir işaretçidir.
+Aktif branch'i, son commit'i ve değişiklikleri takip eder.
+Ayrılmış HEAD ve sembolik HEAD olmak üzere iki türü vardır.
+git checkout, git reset ve git merge gibi komutlarla yönetilebilir.
+
+===============================================================================================
+
 
 
