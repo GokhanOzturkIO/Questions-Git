@@ -116,4 +116,25 @@ gibi sorunlar sebebiyle ortaya çıkabilir.
 
 ******************************************************************************************************************************************************
 
+15- "git log" komutu ile hangi bilgileri görebiliriz?
 
+Git log komutu, bir Git reposundaki commit geçmişini görmemizi sağlar. Git log komutu ile şunları görüntüleyebiliriz.
+
+a. Commit ID
+b. Commit'i Yazan kişi
+c. Tarih ve saat
+d. Commit mesajı
+e. Değişiklikler
+
+******************************************************************************************************************************************************
+
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+Bu komut ile iki farklı durum arasındaki değişiklikleri inceleyebiliriz.
+Genel kullanımda en çok incelenen değişiklikler şunlardır;
+
+a. Çalışma dizini ile Staging alanı arasındaki farklar -> "git diff"
+b. Staging area ile son commit arasındaki farklar -> "git diff --staged"
+c. İki farklı commit arasındaki farklar -> git diff <commit_id1> <commit_id2>
+
+******************************************************************************************************************************************************
