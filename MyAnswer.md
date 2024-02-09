@@ -25,3 +25,8 @@
 ### "HEAD" kelimesi neyi temsil etmektedir?
 
 - Head, kullanmış olduğumuz branchteki son commiti temsil eder.
+
+### "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+- Staging Area, bir tür geçici depolama alanıdır. Takibe aldığımız
+değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil etmeden önce inceleyip düzenleyebileceğiniz işlemleri yaparsınız.
