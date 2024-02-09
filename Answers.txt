@@ -141,6 +141,15 @@ git tag kullanırsak belirli commit üzerine işaretleme yaparız ve bu işaret 
 
 git tag genellikle belirli sürümleri veya yayınları işaretlemek için kullanılırken,git branch farklı özelliklerin veya geliştirilme süreçlerinin izlenmesi için kullanılır.
 
+=================================================================================================================================================================
+
+Q21)Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+Burda git'i görsel olarak kullanmak için gitkraken,Github Desktop,Source Tree, GitAhead,Tower gibi uygulamaları kullanabiliriz.Bunlar gitin temel işlevlerini görsel bir arayüzle bize sunar ve projelerimizi daha kolay yönetmemizi sağlayabilir.
+
+=================================================================================================================================================================
+
+
 
 
 
