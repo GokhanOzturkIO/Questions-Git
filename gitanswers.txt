@@ -91,3 +91,8 @@ Tek bir değişikliği adım adım commitleme işlemidir.Bu şekilde çalışman
 20- Repository ne demektir?
 
 Bir projenin kaynak dosyalarının ve kodlarının bulunduğu depodur.
+
+21-"git tag" nedir? "git branch"’ten farkı nedir?
+
+git tag; Belirli bir commiti işaretlemek için kullanılır.
+git branch; Paralel çalışma dallarını yönetmek ve izlemek için kullanılır.
