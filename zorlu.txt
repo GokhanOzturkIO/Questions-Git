@@ -24,3 +24,5 @@ Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i ku
     Aynı anda birden fazla kişinin projede çalışmasını kolaylaştırır.
  11->Sıfırdan bir "branch" nasıl oluşturabiliriz?
  "git branch branchAdı" ile yeni branch oluşturabiliriz.
+ 12->Var olan bir "branch"e nasıl geçebiliriz?
+  "git checkout branchAdı" ile branchAdı adlı branche geçiş yapabiliriz.
