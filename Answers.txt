@@ -165,3 +165,10 @@ ya da hiçbiri edilmez. Bu, verilerin tutarlılığını ve geri alınabilirliğ
 bu değişiklikleri tek bir commit mesajı ile kaydediyoruz. Ya tüm değişiklikleri birlikte kaydediyoruz ya da hiçbirini kaydetmiyoruz.
 
 ******************************************************************************************************************************************************
+
+20- Repository ne demektir?
+
+Git Repository, bir projenin tüm dosyalarını ve değişlik geçmişini içeren bir depo anlamına gelir. Bu depo yerelde tutulabildiği gibi Github gibi
+platformlar aracılığı ile uzak sunucuda da tutulabilir.
+
+******************************************************************************************************************************************************
