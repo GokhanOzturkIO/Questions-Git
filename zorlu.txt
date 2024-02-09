@@ -1,2 +1,5 @@
 1- Git Nedir?
 İnsanların ortak olarak bir proje üzerinde çalışma yapmalarını sağlayan versiyon kontrol sistemi
+2- "git pull" ile "git fetch" komutlarının farkı nedir?
+Genel olarak, "git fetch" komutu, uzak depodaki değişiklikleri almak için kullanılırken, "git pull" komutu, bu değişiklikleri almak ve yerel çalışma kopyasını güncellemek için kullanılır.
+
