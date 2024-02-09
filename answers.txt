@@ -66,3 +66,19 @@ Commit Mesajı: Kullanıcının commit'e eklediği açıklama gösterilir.
 -Staging Area (Index) ile Son Commit Arasındaki Değişiklikler
 -İki Farklı Commit veya Branch Arasındaki Değişiklikler
 ----------------------
+17-Git reset ile neyi geri alıyoruz?
+Soft Reset:
+Sadece çalışma dizisi ve staging area geri alınır.
+Dosyaların içeriği değişmez, değişiklikler korunur.
+git reset --soft commit_sha
+
+Mixed Reset (Varsayılan):
+Çalışma dizisi geri alınır, dosyaların içeriği değişmez.
+Değişiklikler staging area'dan kaldırılır.
+git reset commit_sha
+
+Hard Reset:
+Çalışma dizisi ve staging area tamamen geri alınır.
+Dosyaların içeriği belirtilen commit'e göre güncellenir.
+git reset --hard commit_sha
+----------------------
