@@ -64,7 +64,10 @@ git reset komutu, --mixed, --soft veya --hard gibi farklı bayraklarla kullanıl
 17."git commit" ile "git push" arasındaki fark nedir?
 -> git commit ile yapılan değişiklikler yerelde saklanırken, git push ile bu değişiklikler uzak sunucuya gönderilir ve paylaşılır.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+18.Atomic commit ne demektir?
+-> Atomic commit, bir commit'in bir değişiklik setini tam olarak ve bütünlüklü bir şekilde temsil etmesidir. Her commit, tek bir işlevselliği veya değişikliği içermelidir ve diğer commit'lerden bağımsız olmalıdır. 
+Bu prensip, kod yönetimini kolaylaştırır ve izlenilebilirliği artırır.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
 			
