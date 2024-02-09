@@ -124,6 +124,9 @@ Kendi lokalimizde her "git init" komutunu kullandığımızda otomatik olarak "R
 
 *****************************************************************************************************
 
+10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Git'te "branch" (dal), projenin bağımsız bir hattını temsil eder ve projenin farklı parçalarını veya özelliklerini geliştirmek için kullanılır. Bir "branch", mevcut kod tabanının bir kopyasıdır ve üzerinde yapılan değişikliklerin izolasyonunu sağlar. Bu değişiklikler, ana kod tabanını etkilemez ve aynı anda birden fazla farklı özellik veya düzeltme üzerinde çalışmayı mümkün kılar.
 
 
 
