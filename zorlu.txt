@@ -1,0 +1,2 @@
+1- Git Nedir?
+İnsanların ortak olarak bir proje üzerinde çalışma yapmalarını sağlayan versiyon kontrol sistemi
