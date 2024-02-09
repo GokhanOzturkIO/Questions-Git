@@ -62,5 +62,15 @@ Staging Area'nın Görevleri:
 
 ===============================================================================================
 
+7. "Untracked file" ne demektir?
+
+Untracked file, Git tarafından takip edilmeyen bir dosyadır.
+Yeni dosyalar, değiştirilmiş dosyalar ve silinmiş dosyalar untracked file olabilir.
+git status komutu ile untracked file'ları görebilirsiniz.
+git add ve git rm komutları ile untracked file'ları yönetebilirsiniz.
+.gitignore dosyası ile untracked file'ları görmezden gelebilirsiniz.
+
+===============================================================================================
+
 
 
