@@ -46,3 +46,5 @@
 -git bir versiyon kontrol sistemi olup github ise bir repository'dir git sayesinde github'a projemizi yönlendirebilir proje üzerinde birden fazla kişi ile çalışabilirz ,
 GitHub benzeri siteler ise Bigbucket,GitLab, Azure gibi siteler github benzeri repolardır
 GitHub:savasafsar
+24-main ya da master branch'inin diğer branchlerden farkı nedir?
+-Bu branchler ana branchtir ve projenin aslını oluşturur.Diğer branclar ise projenin farklı kişiler tarafında ayrı olarak geliştirilmesini sağlar.
