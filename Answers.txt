@@ -136,3 +136,12 @@ Bu komut, "yeni_ozellik" adında yeni bir branch oluşturacaktır.
 
 ===============================================================================================
 
+12. Var olan bir "branch"e nasıl geçebiliriz?
+
+git checkout <branch_adı>
+
+Bu komut, <branch_adı> ile belirttiğiniz branch'e geçer.
+
+===============================================================================================
+
+
