@@ -1,0 +1,1 @@
+1 -> Git, bir versiyon kontrol sistemidir. Her yapılan adımı versiyonlamamıza olan sağlar. Versiyonlarken birçok özelliği kullanabiliriz.
