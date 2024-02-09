@@ -168,3 +168,12 @@ Q19 - What does 'atomic commit' mean?
 >> An atomic commit refers to the practice of making a single, self-contained commit that represents a single logical change or unit of work, ensuring that each commit is independent, complete, and focused, which improves code review, collaboration, and version control management.
 
 *******************************************************
+
+Q20 - What does 'repository' mean?
+
+## Version Controlled Project.
+
+>> A repository, in the context of software development, refers to a central location where version-controlled files and their history are stored, enabling collaboration, tracking changes, and managing project codebase across multiple contributors and development stages.
+
+*******************************************************
+
