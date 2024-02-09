@@ -72,5 +72,8 @@ Bu prensip, kod yönetimini kolaylaştırır ve izlenilebilirliği artırır.
 ->  bir projenin tüm dosyalarını, kaynak kodunu ve diğer ilgili materyallerini içeren depodur. Bu depo, projenin versiyon kontrolü yönetimi için kullanılır. Geliştiriciler, dosyaları bu depoya ekler, değişiklikleri izler, farklı versiyonları oluşturur ve işbirliği yapar. 
 Özetle, bir Git repo, bir projenin kodunun saklandığı, izlendiği ve paylaşıldığı yerdir
 <---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+20."git tag" nedir? "git branch"’ten farkı nedir?
+-> "git tag" komutu belirli bir noktayı işaretlemek veya sürümleri etiketlemek için kullanılırken, "git branch" komutu farklı özellikler üzerinde çalışmak veya farklı 
+sürümleri geliştirmek için farklı dallar oluşturmak için kullanılır.
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 			
