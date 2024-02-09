@@ -30,3 +30,7 @@
 
 - Staging Area, bir tür geçici depolama alanıdır. Takibe aldığımız
 değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil etmeden önce inceleyip düzenleyebileceğiniz işlemleri yaparsınız.
+
+### "Untracked file" ne demektir?
+
+- Git tarafından takibe alınmayan dosyalardır. Gerektiği durumda git add komutunu kullanarak stage area tarafına aktararak takibe alınmasını sağlayabiliriz.
