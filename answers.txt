@@ -20,3 +20,7 @@ Eğer bir commit üzerinde değilseniz ve bir branch üzerinde çalışıyorsan�
 6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Bir sonraki commit'e eklenecek değişikliklerin hazırlandığı bölgedir.
 ----------------------
+7-"Untracked file" ne demektir?
+Git tarafından takip edilmeyen, yani versiyon kontrolüne dahil edilmemiş dosyaları ifade eder. Bu nedenle Git'in değişiklikleri takip etmesi veya bu dosyaları commit etmesi söz konusu değildir.
+Bir dosyanın "untracked" durumda olduğunu görmek için git status komutunu kullanabilirsiniz. Bu komutun çıktısında "Untracked files" bölümünde izlenmeyen dosyalar listelenir. Eğer bu dosyaların takip edilmesini istiyorsanız, git add komutu ile bu dosyaları Staging Area'ya ekleyebilir ve bir sonraki commit'e dahil edebilirsiniz.
+----------------------
