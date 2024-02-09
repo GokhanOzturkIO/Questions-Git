@@ -51,4 +51,5 @@ Git reset ile belirtilen commit HEAD olarak belirtmeye yarar.Yani commitleri ger
 Git, version controlü sağlayan bir araçtır.
 Github, versionlarını tuttuğumuz repoları saklayabileceğimiz bir uzak sunucu hizmetidir.
 GitLab, Bitbucket, SourceForge gibi servisler Github benzeri servislerdir.
-
+24->main ya da master branch'inin diğer branchlerden farkı nedir?
+İkiside aynı anlama gelen repodaki ana branchi temsil eder.
