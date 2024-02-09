@@ -53,5 +53,9 @@ Eğer bu dosyaların izlenmesi gerekiyorsa, öncelikle git add komutuyla izlenme
 "git branch <branch-adı>" komutu ile oluşturabiliriz.
 
 -------------------------------------------------
+12- Var olan bir "branch"e nasıl geçebiliriz?
+"git checkout <branch-adı>" komutu ile geçebiliriz.
+
+-------------------------------------------------
 
 
