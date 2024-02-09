@@ -181,9 +181,9 @@ Bu komut bizim "origin" denen uzak repoda bulunan bir branchi silmemizi sağlaya
 
 =================================================================================================================================================================
 
+Eğer git ile ilgili yazdığım medium yazısını okumak isterseniz aşağıdaki linkten bakabilirsiniz.
 
-
-
+https://medium.com/@ardaaisitan/git-basics-1-8c0d93d7f754
 
 
 
