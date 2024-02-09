@@ -19,3 +19,6 @@ atamamıştır)
 “git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 Origin uzak sunucuya tanımlanan bir isimdir.
 -----------------------------------------------------------------------------------------------------------------------------
+"HEAD" kelimesi neyi temsil etmektedir?
+HEAD kelimesi en son commiti temsil eder.
+-----------------------------------------------------------------------------------------------------------------------------
