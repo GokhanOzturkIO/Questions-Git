@@ -59,3 +59,25 @@ Bu klasör git deposunun tüm bilgilerini içeren önemli bir klasördür. Bu kl
 
 ******************************************************************************************************************************************************
 
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Bunun için git'in bize sunduğu template özelliğini kullanmamız gerekli. Bu özellik sayesinde yeni bir git dosyası oluşturulduğunda yapılacak işlemleri
+tanımlayabiliriz. Template özelliğini kullanmak için şu adımları izleyebiliriz.
+
+a. İlk olarak Git'in yüklü olduğu dizini açmamız gerekli (Windows için C:\Program Files\Git\) daha sonra \share\git-core\templates dizinine gitmemiz gerekli
+b. Bu dizine girdikten sonra hooks adlı klasörü bulmamız gerekli eğer mevcut değilse kendimiz oluşturabiliriz.
+c. hooks klasörünün içine girerek init.sh isimli bir dosya oluşturmalıyız.
+d. init.sh dosyasını herhangi bir metin düzenleme uygulaması ile açalım ve 
+	#!/bin/sh
+	touch README.md
+   kodunu ekleyelim.
+   bu kod sayesinde her yeni repo oluşturduğumuzda readme dosyası otomatik olarak oluşturulacaktır.
+e. Son olarak bu dosyaya yetki vermemiz gerekli bulunduğumuz dizinde terminal açalım ve "chmod +x init" komutu ile yetkilendirme işlemini yapalım.
+
+******************************************************************************************************************************************************
+
+
+
+
+
+
