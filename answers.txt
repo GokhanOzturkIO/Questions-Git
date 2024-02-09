@@ -1,0 +1,3 @@
+1-Git Nedir?
+Git, yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık çalışan bir sürüm kontrol ve kaynak kod yönetim sistemidir.
+----------------------
