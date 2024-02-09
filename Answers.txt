@@ -102,6 +102,11 @@ git diff ile working directory yani bizim çalışma alanımızdaki değişiklik
 
 =================================================================================================================================================================
 
+Q16)Git reset ile neyi geri alıyoruz?
+
+git reset ile staging area bölgesine eklediğimiz dosyaları,geri working directory(çalışma dizini)'e alıyoruz.Fakat bu komutta dosyaların içeriği değişmez,sadece git add ile staging area'ya eklediğimiz değişiklikleri o alandan çıkartma işlemidir.
+
+=================================================================================================================================================================
 
 
 
