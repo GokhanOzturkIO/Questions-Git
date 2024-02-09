@@ -57,6 +57,9 @@ Yazar Bilgisi: Değişikliğin kim tarafından yapıldığı bilgisi
 Tarih ve Saat: Commitin ne zaman yapıldığı
 Commit Mesajı: Yapılan değişikliği açıklayan bir commit mesajı
 -----------------------------------------------------------------------------------------------------------------------------
+"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+İki durum arasındaki farkları görmek için komutu kullanılır.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
