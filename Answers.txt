@@ -70,6 +70,11 @@ Dosya Adı Değişiklikleri
 Dosya Silme ve Değiştirme
 
 ---------------------------------------------------
+15- "git log" komutu ile hangi bilgileri görebiliriz?
+"git log" komutu, Git deposunda yapılan commit'leri görüntülemek için kullanılır. 
+Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntüler.
+
+----------------------------------------------------
 
 
 
