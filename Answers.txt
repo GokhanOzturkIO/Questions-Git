@@ -75,6 +75,13 @@ Dosya Silme ve Değiştirme
 Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntüler.
 
 ----------------------------------------------------
+16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+"git diff" komutu, Git deposundaki dosyalar arasındaki farkları görmek için kullanılır.
+İki Farklı Commit Arasındaki Değişiklikler: "git diff <commit1> <commit2>"
+İki Farklı Dal Arasındaki Değişiklikler: "git diff <branch1> <branch2>"
+Çalışma Dizini ve İndeks Arasındaki Değişiklikler: Eğer hiçbir commit belirtilmemişse, "git diff" komutu çalışma dizini (working directory) ile staging area (index) arasındaki değişiklikleri gösterir. Yani, üzerinde çalıştığımız dosyalarda yaptığımız değişiklikleri ve staging area'ya eklenmemiş olanları gösterir.
+
+-----------------------------------------------------
 
 
 
