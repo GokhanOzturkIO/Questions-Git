@@ -144,4 +144,22 @@ Bu komut, <branch_adı> ile belirttiğiniz branch'e geçer.
 
 ===============================================================================================
 
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+-b Seçeneğini Kullanma:
+
+git clone -b <branch_adı> <repo_url>
+
+Bu komut, <repo_url> ile belirttiğiniz uzak deponun <branch_adı> branch'ini klonlar.
+
+Örnek:
+
+git clone -b hata_duzeltimi https://github.com/ornek/proje.git
+
+Bu komut, "https://github.com/ornek/proje.git" adresindeki deponun "hata_duzeltimi" branch'ini klonlayacaktır.
+
+===============================================================================================
+
+
+
 
