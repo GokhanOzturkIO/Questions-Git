@@ -53,3 +53,7 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 12. Var olan bir "branch"e nasıl geçebiliriz?
 
 - git checkout (branch ismi) veya git switch (branch ismi) komutunu kullanabiliriz.
+
+13. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+-git clone -b <branch name> <remote path> şeklinde bir branch'i klonlayabiliriz.
