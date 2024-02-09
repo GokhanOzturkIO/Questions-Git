@@ -182,9 +182,155 @@ Bu komut, belirtilen repository'nin "main" adındaki "branch"ini çeker. Başka 
 Bu komutu kullandığınızda, yalnızca belirttiğiniz "branch" ve onun geçmişi kopyalanır. Diğer tüm "branch"ler ve geçmişleri yalnızca referans olarak alınır, ancak yerelde oluşturulmazlar.
 
 *****************************************************************************************************
+14."Merge conflict" ne demektir?
 
+"Merge conflict" (birleştirme çakışması), Git'te iki veya daha fazla "branch" veya commit'in aynı dosyaları farklı şekillerde değiştirmesi durumunda ortaya çıkar. Birleştirme (merge) işlemi sırasında, Git bu farklı değişiklikleri otomatik olarak birleştirmeye çalışırken çakışma yaşanması durumunu ifade eder.
 
+Birleştirme çakışması, Git'in otomatik birleştirme algoritmasının çözemediği durumları belirtir. Örneğin, aynı satırlarda farklı değişiklikler yapılmışsa veya bir "branch"deki değişiklikler diğerinde tamamen silinmişse, birleştirme çakışması oluşabilir.
 
+Birleştirme çakışması, birleştirme işlemini tamamlamak için insan müdahalesi gerektiren bir durumdur. Bu durumda, kullanıcılar "merge conflict" durumunu çözmek için manuel olarak dosyalarda değişiklik yapmalı ve ardından çakışmayı çözmek için tekrar birleştirme işlemi yapmalıdır.
 
+Birleştirme çakışmaları, paralel geliştirme süreçlerinde sıkça karşılaşılabilen bir durumdur ve doğru bir şekilde yönetilmelidir. Çakışmaların çözülmesi ve birleştirme işleminin tamamlanması, projenin tutarlılığını sağlamak ve tüm geliştiricilerin çalışmalarını uyumlu bir şekilde birleştirmek için önemlidir.
 
+*****************************************************************************************************
+15."git log" komutu ile hangi bilgileri görebiliriz?
 
+"git log" komutu, Git deposunda yapılan commit'leri görmek için kullanılır. Bu komut, commit geçmişini gösterir ve her commit için belirli bilgileri sağlar. İşte "git log" komutu ile görebileceğiniz bazı bilgiler:
+
+Commit İkilisi (Commit Hash): Her commit'in benzersiz bir kimliği vardır. Bu kimlik, commit'in belirleyicisidir ve commit'i tanımlamak için kullanılır.
+
+Yazar Bilgisi: Her commit'in yazarı, yani kimin commit'i yaptığı bilgisi gösterilir. Bu bilgi genellikle kullanıcı adı ve e-posta adresini içerir.
+
+Tarih ve Saat: Commit'in yapıldığı tarih ve saat bilgisi gösterilir.
+
+Commit Mesajı: Her commit, bir commit mesajı ile birlikte gelir. Bu mesaj, commit'in neyi temsil ettiğini veya ne tür değişiklikler içerdiğini açıklar.
+
+Bu bilgiler, "git log" komutuyla görebileceğiniz temel bilgilerdir. Ayrıca, bu komuta çeşitli seçenekler ve filtreler ekleyerek, gösterilen commit'lerin detayını daha fazla özelleştirebilirsiniz. Örneğin, belirli bir dosya üzerinde yapılan değişiklikleri görmek için git log <dosya_adı> komutunu kullanabilirsiniz.
+
+*****************************************************************************************************
+16."git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+"git diff" komutu, Git deposunda farklı iki durum (commit, branch, etiket vb.) arasındaki farkları görmek için kullanılır. Bu komut, belirli iki durum arasındaki dosya içeriğindeki değişiklikleri gösterir.
+
+"git diff" komutunu kullanarak aşağıdaki farklı iki durum arasındaki değişiklikleri görebilirsiniz:
+
+Çalışma Kopyası ile İndeks Arasındaki Değişiklikler: Bu, çalışma kopyasındaki dosyalar ile "Staging Area" (Index) arasındaki değişiklikleri gösterir. Yani, dosyalar üzerinde yapılan ancak henüz "Staging Area"ya eklenmemiş değişiklikleri gösterir. Bu durumu görmek için herhangi bir durum belirtmeye gerek yoktur, yani sadece git diff komutunu kullanabilirsiniz.
+
+İndeks ile Son Commit Arasındaki Değişiklikler: Bu, "Staging Area"da bulunan dosyalar ile son commit arasındaki değişiklikleri gösterir. Bu durumu görmek için son commit ile karşılaştırmak istediğiniz durumu belirtmeniz gerekir. Örneğin, git diff HEAD komutunu kullanarak son commit ile "Staging Area" arasındaki değişiklikleri görebilirsiniz. Burada "HEAD", son commit'i temsil eder.
+
+İki Farklı Commit Arasındaki Değişiklikler: Belirli iki commit arasındaki değişiklikleri görmek için bu iki commit'in kimliklerini belirtmeniz gerekir. Örneğin, git diff <commit1> <commit2> komutunu kullanarak commit1 ile commit2 arasındaki değişiklikleri görebilirsiniz.
+
+Bu şekilde, "git diff" komutunu kullanarak farklı durumlar arasındaki dosya içeriğindeki değişiklikleri kolayca görebilirsiniz.
+
+*****************************************************************************************************
+17.Git reset ile neyi geri alıyoruz?
+"git reset" komutu, Git deposunda yapılan değişiklikleri geri almak veya değiştirmek için kullanılır. Bu komut, mevcut çalışma kopyasını veya "Staging Area"yı belirli bir duruma (commit'e) sıfırlar veya ayarlar.
+
+"git reset" komutu, farklı seçeneklerle kullanılabilir ve farklı şekillerde davranır. İşte "git reset" komutunun yaygın kullanımlarından bazıları:
+
+--soft: Bu seçenek, "reset" işlemini gerçekleştirirken çalışma kopyasını ve "Staging Area"yı değiştirmez. Yani, son commit'e geri döner, ancak değişiklikler çalışma kopyasında ve "Staging Area"da korunur. Bu seçenek, son commit'i değiştirmek veya yeni bir commit yapmak için kullanılabilir.
+
+--mixed (Varsayılan): Bu seçenek, "reset" işlemini gerçekleştirirken "Staging Area"yı değiştirir, ancak çalışma kopyasını değiştirmez. Yani, son commit'e geri döner ve "Staging Area"daki değişiklikler iptal edilir, ancak çalışma kopyasındaki değişiklikler korunur. Bu seçenek, yanlışlıkla "Staging Area"ya eklenmiş dosyaları geri almak veya yeni bir commit yapmak için kullanılabilir.
+
+--hard: Bu seçenek, "reset" işlemini gerçekleştirirken çalışma kopyasını ve "Staging Area"yı da değiştirir. Yani, son commit'e geri döner ve çalışma kopyasındaki ve "Staging Area"daki tüm değişiklikler iptal edilir. Bu seçenek, tüm değişiklikleri tamamen geri almak için kullanılabilir, ancak dikkatli kullanılmalıdır çünkü geri alınamaz.
+
+Özetle, "git reset" komutu, belirli bir duruma geri dönmek veya yapılan değişiklikleri geri almak için kullanılır. Kullanılan seçeneklere bağlı olarak, komutun davranışı farklılık gösterebilir ve çalışma kopyası ile "Staging Area"daki değişikliklerin ne şekilde etkileneceğini belirler.
+
+*****************************************************************************************************
+18."git commit" ile "git push" arasındaki fark nedir?
+
+"git commit" ve "git push", Git'in farklı işlevlerini yerine getiren iki farklı komuttur.
+
+git commit: Bu komut, çalışma kopyasındaki değişiklikleri yerel bir "branch"e kaydeder. Yani, "commit" işlemi, yapılan değişikliklerin kalıcı bir şekilde kaydedilmesini sağlar, ancak henüz uzak bir sunucuya gönderilmez. Yerel depoya yaptığınız değişiklikleri belirli bir iletiyle birleştirir ve bu değişiklikleri projenizin geçmişine ekler. Özetle, "git commit" komutu, yapılan değişiklikleri yerel depoya kaydetmek için kullanılır.
+
+git push: Bu komut, yerel depodaki commit'leri uzak bir depoya (genellikle bir sunucuya) göndermek için kullanılır. Yani, "push" işlemi, yerelde yapılan değişikliklerin uzak bir sunucuya yüklenmesini sağlar. Bu şekilde, yerelde yaptığınız değişiklikleri diğer işbirliği yapmak isteyen ekip üyeleriyle veya projenin diğer kopyalarıyla paylaşabilirsiniz. Özetle, "git push" komutu, yerelde yapılan değişikliklerin uzak bir depoya gönderilmesi için kullanılır.
+
+Yani, temel fark, "git commit" ile yapılan değişikliklerin yerel depoya kaydedilmesi ve "git push" ile yapılan değişikliklerin yerel depodan uzak bir depoya gönderilmesidir. İkisi de Git'in çalışma kopyası üzerindeki değişikliklerin yönetilmesinde ve paylaşılmasında önemli rol oynar.
+
+*****************************************************************************************************
+19.Atomic commit ne demektir?
+Atomic commit, bir işlem veya değişiklik grubunun bütünlüğünü sağlamak için kullanılan bir terimdir. Atomic commit, "atomik" olarak adlandırılan bir ilkeye dayanır ve bir işlem veya değişiklik grubunun ya tamamen başarılı bir şekilde gerçekleştirilmesini ya da hiç gerçekleştirilmemesini garanti eder.
+
+Atomic commit'in ana fikri, bir dizi ilişkili değişikliğin birlikte işlenmesi ve bir değişiklik grubunun başarısız olması durumunda hiçbir değişikliğin uygulanmamasıdır. Bu, bir işlemi tutarlı ve belirli bir durumda bırakmanın önemli olduğu durumlarda özellikle yararlıdır.
+
+Örneğin, bir veritabanı işlemi sırasında, bir grup sorgunun birlikte gerçekleştirilmesi veya hiçbirinin gerçekleştirilmemesi önemlidir. Bu durumda, atomic commit ilkesi, tüm sorguların başarıyla tamamlanmasını garanti eder veya hiçbir sorgunun uygulanmamasını sağlar.
+
+Atomic commit aynı şekilde yazılım geliştirme sürecinde de önemlidir. Bir dizi kod değişikliğinin birlikte işlenmesi ve başarısız olması durumunda hiçbir değişikliğin uygulanmaması, kod tabanının tutarlılığını ve stabilitesini korumak için gereklidir.
+
+Bu nedenle, atomic commit, bir işlem veya değişiklik grubunun tutarlılığını sağlamak ve hataların etkilerini en aza indirmek için önemli bir prensiptir.
+
+*****************************************************************************************************
+20.Repository ne demektir?
+"Repository" (depot veya repo), bir versiyon kontrol sistemi altında proje dosyalarının, değişikliklerin ve proje geçmişinin depolandığı bir yerdir. Bir repository, bir projenin tüm kaynak kodlarını, belgelerini, resimlerini ve diğer dosyalarını içerebilir. Bu, bir projenin tüm kaynaklarının tek bir yerde toplandığı ve yönetildiği merkezi bir depodur.
+
+Versiyon kontrol sistemleri, yazılım geliştirme süreçlerinde çok önemli bir rol oynar ve bu sistemlerde "repository" kritik bir kavramdır. Özellikle Git gibi dağıtık versiyon kontrol sistemlerinde, her kullanıcı veya geliştirici kendi kopyasını alabilir ve bu kopyaları kendi yerel repository'lerinde saklayabilir. Daha sonra bu değişiklikleri merkezi bir depoya veya diğer geliştiricilerin repository'lerine "push" edebilirler.
+
+Herhangi bir proje için bir repository oluşturulabilir ve bu repository'de proje dosyaları ve geçmişi saklanabilir. Bu, proje üzerinde çalışan birden fazla geliştiricinin eşzamanlı olarak çalışmasını, değişiklikleri izlemesini ve yönetmesini sağlar. Ayrıca, geçmişteki durumlara geri dönme, değişiklikleri takip etme ve işbirliği yapma gibi özellikleri destekler.
+
+Kısacası, repository, bir projenin tüm kaynaklarının ve geçmişinin merkezi bir depolama alanıdır ve versiyon kontrol sistemleri altında proje yönetiminde kritik bir rol oynar.
+
+*****************************************************************************************************
+21."git tag" nedir? "git branch"’ten farkı nedir?
+"git tag" ve "git branch", Git'te farklı amaçlar için kullanılan iki farklı komuttur.
+
+git tag:
+
+"git tag" komutu, belirli bir commit'i işaretlemek veya etiketlemek için kullanılır.
+Bir "tag" oluşturulduğunda, belirli bir commit'e sabit bir isim verilir. Bu, projenin o noktadaki önemli bir sürümünü, sürüm adını veya başka bir tanımlayıcıyı belirtmek için kullanılabilir.
+"Tag"ler, genellikle belirli bir sürümün çıkarıldığı veya önemli bir dönüm noktasının işaretlendiği durumlarda kullanılır. Örneğin, "v1.0", "release-2.1" gibi.
+"Tag"ler varsayılan olarak yerelde oluşturulur. Ancak, "git push --tags" komutu kullanılarak bu "tag"ler uzak bir depoya da gönderilebilir.
+git branch:
+
+"git branch" komutu, yeni bir "branch" oluşturmak, mevcut "branch"leri listelemek, silmek veya üzerine geçmek için kullanılır.
+"Branch"ler, projenin farklı parçaları veya özellikleri üzerinde çalışmak için kullanılır. Her "branch", projenin ayrı bir kopyasını temsil eder.
+"Branch"ler genellikle belirli bir özellik veya geliştirme üzerinde çalışırken kullanılır ve farklı "branch"ler arasında geçiş yaparak çalışma kopyasında değişiklik yapmayı sağlar.
+"Branch"ler, genellikle yerelde oluşturulur ve üzerinde yapılan değişikliklerin yerelde tutulmasına ve denemelere izin verir. Sonrasında bu değişiklikler, uygun olduğunda ana "branch"e (genellikle "master" veya "main") birleştirilir.
+Kısacası, "git tag" komutu, belirli bir commit'i etiketlemek için kullanılırken, "git branch" komutu, yeni "branch"ler oluşturmak, mevcut "branch"leri yönetmek ve üzerine geçmek için kullanılır.
+
+*****************************************************************************************************
+22.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Git'i görsel olarak kullanabilmek için birçok üçüncü taraf araç ve uygulama bulunmaktadır. İşte popüler olan üçüncü taraf Git görsel araçlarından bazıları:
+
+GitHub Desktop: GitHub tarafından geliştirilen ve Git'i görsel bir kullanıcı arayüzüyle yönetmeyi sağlayan bir masaüstü uygulamasıdır. GitHub hesabınızı kullanarak projelerinizi yönetebilir, değişiklikleri görsel olarak inceleyebilir, commit'ler yapabilir ve branch'ler oluşturabilirsiniz. Hem Windows hem de macOS için kullanılabilir.
+
+GitKraken: GitKraken, Git'i görsel olarak yönetmek için popüler bir masaüstü uygulamasıdır. Kullanıcı dostu bir arayüze sahiptir ve birçok Git işlemini kolayca gerçekleştirmenizi sağlar. Farklı platformlarda (Windows, macOS, Linux) kullanılabilir.
+
+SourceTree: Atlassian tarafından geliştirilen SourceTree, Git ve Mercurial için ücretsiz bir masaüstü uygulamasıdır. Proje yönetimi, commit'ler, branch'ler ve çakışma çözümlemesi gibi birçok Git işlevini destekler. Hem Windows hem de macOS için kullanılabilir.
+
+GitAhead: GitAhead, Git'in bir masaüstü istemcisidir ve basit ve kullanıcı dostu bir arayüze sahiptir. Proje tarihçesini görsel olarak inceleme, değişiklikleri karşılaştırma ve farklı branch'ler arasında geçiş yapma gibi özellikler sunar. Windows, macOS ve Linux için kullanılabilir.
+
+Tower: Tower, Git'in görsel bir masaüstü istemcisidir ve kullanıcı dostu bir arayüze sahiptir. Proje yönetimi, commit'ler, branch'ler ve çakışma çözümlemesi gibi birçok Git işlevini destekler. Hem Windows hem de macOS için kullanılabilir.
+
+Bu araçlar, Git'i görsel olarak daha kolay ve etkili bir şekilde yönetmenizi sağlar. Hangi aracın sizin için en uygun olduğunu belirlemek için farklı araçları deneyebilir ve ihtiyaçlarınıza en uygun olanı seçebilirsiniz.
+
+*****************************************************************************************************
+23."GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git, sadece bir sürüm kontrolü sistemidir ve yerel bir bilgisayarda çalışırken GitHub, Git üzerine inşa edilmiş bir bulut barındırma hizmetidir.
+ohmygit, gitkraken, git-school.github.io, git-fork
+*****************************************************************************************************
+
+24.main ya da master branch'inin diğer branchlerden farkı nedir?
+Ana (main) ve master branch'leri, Git versiyon kontrol sisteminde sıkça kullanılan terimlerdir. Bunlar, projenin temel dallarını temsil eder. Farkları şu şekildedir:
+
+İsimlendirme: Eskiden "master" terimi kullanılırdı ve bu isimlendirme hala birçok projede kullanılmaya devam ediyor. Ancak, topluluklar ve platformlar artık bu terimin yerine "main" terimini kullanmayı tercih ediyorlar. Bu değişim, terimlerin dil ve kültürdeki olumsuz çağrışımlarını dikkate alarak ve daha kapsayıcı bir dil kullanmak amacıyla gerçekleşmiştir.
+
+Varsayılan isimlendirme: Bazı Git sunucuları (GitHub gibi) ve Git sürümleri artık "main" olarak adlandırılan ana dala varsayılan olarak geçiş yapmıştır. Yeni bir Git deposu oluşturduğunuzda, genellikle bu ana dal "main" olarak adlandırılır.
+
+Kültürel etki: "Master" terimi, kölelik tarihiyle ilişkilendirilebilecek olumsuz çağrışımlara sahip olabilir. Bu nedenle, bu terimin yerine "main" teriminin kullanılması, daha kapsayıcı ve kültürel olarak duyarlı bir dilin tercih edilmesini sağlar.
+
+Teknik olarak fark yok: "main" ve "master" dalları arasında herhangi bir teknik fark yoktur. Sadece isimlendirme farklılıkları vardır. Bu nedenle, proje yöneticileri ve geliştiriciler genellikle tercih ettikleri ismi kullanabilirler ve bu tercih genellikle topluluğun ve platformun kültürel ve isimlendirme standartlarına göre belirlenir.
+
+*****************************************************************************************************
+25.".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+.gitignore dosyası, Git tarafından izlenmesini istemediğiniz dosyaların veya dizinlerin listesini içeren bir yapılandırma dosyasıdır. Bu dosya, Git deposunun kök dizininde bulunur ve Git'in belirli dosyaları veya dizinleri izlemesini engeller.
+
+*****************************************************************************************************
+26."git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+git push origin --delete branch_name komutu, belirtilen uzak sunucudan (genellikle "origin" olarak adlandırılır) bir dalı silmek için kullanılır. Bu komutun kullanımı ve amacı şu şekildedir:
+
+git push: Değişiklikleri uzak sunucuya göndermek için kullanılan Git komutu.
+origin: Uzak sunucunun adı. Genellikle bir Git deposunun klonlanmasıyla otomatik olarak varsayılan olarak atanır ve genellikle "origin" olarak adlandırılır.
+--delete: Bir dalı silmek için bu bayrak kullanılır. Bu, uzak sunucudaki bir dalı silmek için Git komutuna bildirir.
+branch_name: Silinmek istenen dalın adı.
+Yani, git push origin --delete branch_name komutu, "origin" adlı uzak sunucudan branch_name adlı dalı silmek için kullanılır. Bu işlemi gerçekleştirmeden önce, dikkatlice silmek istediğinizden emin olmalısınız, çünkü bir kez silindiğinde geri almak zor olabilir. Bu komut genellikle artık geliştirilmeyen veya gereksiz hale gelen bir dalın temizlenmesi için kullanılır.
