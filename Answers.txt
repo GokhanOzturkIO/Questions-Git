@@ -117,6 +117,12 @@ git commit,bizim git add ile staging area'ya aldığımız değişiklikleri bir 
 =================================================================================================================================================================
 
 
+Q18)Atomic commit ne demektir?
+Atomic commit, bir yazılım projesinde yapılan bir değişiklik setinin, tek bir mantıklı iş birimi temsil etmesi anlamına gelir. Bu, bir commit içindeki değişikliklerin birbirleriyle bağlantılı ve bağımlı olmalarını ifade eder. Atomic commit prensibi, her bir commit’in bağımsız ve bütünlüğe sahip olmasını sağlar.Kısacası projelerimizde commit atarken,her bir adımı tek bir commit içinde değil, ayrı ayrı commitler şeklinde atmalıyız.
+
+=================================================================================================================================================================
+
+
 
 
 
