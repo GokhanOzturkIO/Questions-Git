@@ -38,4 +38,7 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 
 -.git klasörü, bir Git deposunun tüm versiyon kontrolü ve konfigürasyon bilgilerini içeren önemli bir kısımdır. Bu klasörü silmek, Git deposunun işlevselliğini tamamen ortadan kaldırır ve projenizin Git ile yönetilemez hale gelmesine neden olur.
 
+9. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+- Bunun için git init --template <dosya yolu> komutunu kullanmalıyız. Bu sayede istediğimiz templatelere göre git reposu oluşturulur.
 
