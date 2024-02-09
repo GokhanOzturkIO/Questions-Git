@@ -81,6 +81,19 @@ Merge conflict dediğimiz olay,farklı branchlerdeki değişiklikleri birleştir
 
 =================================================================================================================================================================
 
+Q14)"git log" komutu ile hangi bilgileri görebiliriz?
+
+Öncelikle git log komutunun ne işe yaradığıyla başlayalım.Bu komut,bizim repoda yaptığımız commitleri listelemek için kullanılır.Commit geçmişini ve her bir commit için bazı detayları bize gösterir.
+
+		commit 94f5a1e7f65cb8ec189b8c8295d43ec0feb505e5 (HEAD -> feature/ardaisitan)
+		Author: Arda Işıtan <arda_isitan55@hotmail.com>
+		Date:   Fri Feb 9 13:24:56 2024 +0300
+
+    	Question13 Answered
+
+    Örneğin yukarıdaki committe,ilk kısımda commit hash  dediğimiz commit'in benzersiz kimliğini gösterir.Her bir commit benzersiz bir  kimliğe sahiptir.Author kısmında ise commit atan kişinin kullanıcı adı ve email bilgilerini gösterir.Date kısmında ise commitin atıldığı tarihi ve saati gösterir.Son olarak en aşağıda ise commit atan kişinin commit mesajını bize gösterir.
+
+=================================================================================================================================================================
 
 
 
