@@ -119,3 +119,11 @@ Yapılandırma ayarları kaybolur: ".git" klasörü, projenin Git yapılandırma
 
 Sonuç olarak, ".git" klasörünü silmek, projenin Git kontrolü altındaki tüm geçmişini ve ayarlarını kaybetmenize neden olur. Bu nedenle, ".git" klasörünü silmeden önce bu işlemin geri dönüşü olmadığını ve proje geçmişinin kaybolacağını unutmamak önemlidir.
 *****************************************************************************************************
+9.Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+Kendi lokalimizde her "git init" komutunu kullandığımızda otomatik olarak "README.md" dosyasının oluşturulmasını sağlamak için, Git'in "template" klasöründeki varsayılan "git init" şablonunu değiştirmemiz gerekmektedir. Bu şablon dosyasını düzenleyerek, yeni bir proje başlatıldığında otomatik olarak oluşturulacak dosyaları belirleyebiliriz.
+
+*****************************************************************************************************
+
+
+
+
