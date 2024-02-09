@@ -53,6 +53,15 @@ kullanıcı tarafından manuel olarak çözülmesi gereken bir durumdur.
 -> git diff komutu ile belirli iki durum arasındaki farkları görebilirsiniz. Bu durumlar genellikle iki farklı commit, bir commit ve çalışma dizini arasındaki farklar veya iki farklı branch arasındaki farklar olabilir. 
 Bu komut, dosya içeriğinde yapılan eklemeler, silmeler veya değişiklikler gibi farklılıkları gösterir.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+16.Git reset ile neyi geri alıyoruz?
+-> git reset komutu, Git deposundaki belirli bir commit'e geri dönmek veya commit geçmişini değiştirmek için kullanılır.
+-> Bu komut, bir commiti geri almanın yanı sıra, değişiklikleri staged veya çalışma dizininden kaldırabilir veya silebilir.
+git reset komutu, --mixed, --soft veya --hard gibi farklı bayraklarla kullanılabilir.
+-> --mixed bayrağı, geri alınan commit'in değişikliklerini çalışma dizininde bırakır, ancak staged alandan kaldırır.
+-> --soft bayrağı, geri alınan commit'in değişikliklerini hem staged alanda hem de çalışma dizininde bırakır.
+-> --hard bayrağı, geri alınan commit'in değişikliklerini tamamen siler, hem staged alandan hem de çalışma dizininden kaldırır.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 
 
 
