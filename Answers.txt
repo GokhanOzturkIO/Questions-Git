@@ -62,6 +62,14 @@ Eğer bu dosyaların izlenmesi gerekiyorsa, öncelikle git add komutuyla izlenme
 Burada <branch-adı> belirli bir branch'in adını ve <repo-url> ise klonlamak istediğimiz repository'nin URL'sini temsil eder.
 
 --------------------------------------------------
+14-"Merge conflict" ne demektir?
+Git'in farklı branch'lerden veya kaynaklardan gelen değişiklikleri birleştirmeye çalıştığında karşılaşılan bir durumdur.
+Aynı Satırda Değişiklikler
+Farklı Satırlarda Değişiklikler
+Dosya Adı Değişiklikleri
+Dosya Silme ve Değiştirme
+
+---------------------------------------------------
 
 
 
