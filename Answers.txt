@@ -137,3 +137,10 @@ Q15 - What information can we see with the 'git log' command?
 
 *******************************************************
 
+Q16 - How many different changes can we see between two states using 'git diff'?
+
+## Valla me confusion (・_・ヾ. We can compare between the latest changes with the last commit, same folder with  other branches?
+ 
+>> With 'git diff', developers can view the differences between two states, such as between the working directory and the staging area, or between the staging area and the last commit, allowing them to review changes before committing and track modifications made to the codebase.
+
+*******************************************************
