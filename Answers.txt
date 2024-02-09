@@ -47,3 +47,11 @@ Eğer bu dosyaların izlenmesi gerekiyorsa, öncelikle git add komutuyla izlenme
 ------------------------------------------------
 10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 "branch" yapısı, paralel geliştirme, değişiklik yönetimi ve iş akışı yönetimi gibi önemli avantajlar sağlayarak, yazılım geliştirme süreçlerini daha verimli ve düzenli hale getirir.
+
+-------------------------------------------------
+11- Sıfırdan bir "branch" nasıl oluşturabiliriz?
+"git branch <branch-adı>" komutu ile oluşturabiliriz.
+
+-------------------------------------------------
+
+
