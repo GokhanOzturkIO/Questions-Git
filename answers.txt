@@ -17,3 +17,7 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 6."Untracked file" ne demektir?
 -> Git'de takip edilemeyen dosyalara denir.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+7. .git klasörünü silersek ne olur
+-> 1.Geri döndürülemez bir işlemdir.
+   2.Projenizin versiyon geçmişini, değişiklik takibini ve uzak depo bağlantısını kaybolur. 		
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->	
