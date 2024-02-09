@@ -138,3 +138,15 @@ b. Staging area ile son commit arasındaki farklar -> "git diff --staged"
 c. İki farklı commit arasındaki farklar -> git diff <commit_id1> <commit_id2>
 
 ******************************************************************************************************************************************************
+
+17- Git reset ile neyi geri alıyoruz?
+
+Git reset komutu ile git reposundaki değişiklikleri geri almak veya geçmişteki bir duruma dönmek için kullanılır.
+En sık kullanılan git reset komutları şu şekildedir;
+
+a. Dosyaları staging area'dan geri almak -> "git reset dosya_adı"
+b. Commit'i geri almak (commit bilgilerini koruyarak) -> "git reset --soft HEAD"
+c. Commit'i geri almak (commit bilgilerini ve değişiklikleri geri alarak) -> "git reset --mixed HEAD~1"
+d. Commit ve değişiklikleri geri almak (bu komut değişiklikleri tamamen geri alır) -> "git reset --hard HEAD~1"
+
+******************************************************************************************************************************************************
