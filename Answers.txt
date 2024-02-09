@@ -40,7 +40,9 @@ Branch yapısı, farklı geliştirme ortamlarını yönetmek için kullanılır.
 Sıfırdan bir "branch" nasıl oluşturabiliriz?
 git branch <branch_name> ---- git checkout -b <branch_name> komutlarıyla sıfırdan bir branch oluşturulabilir.
 -----------------------------------------------------------------------------------------------------------------------------
-
+Var olan bir "branch"e nasıl geçebiliriz?
+git checkout <branch_name> komutuyla farklı bir branche geçiş yapılabilir.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
