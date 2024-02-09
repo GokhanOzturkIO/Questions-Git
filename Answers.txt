@@ -44,6 +44,14 @@ Bu klasör bizim bütün git bilgilerimizin bulunduğu bir klasördür ve çok �
 
 =================================================================================================================================================================
 
+Q8)Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Öncelikle bilgisayarımızda bir metin düzenleyicisi açmamız gerekiyor.İçeriği istediğimiz şekilde düzenleyebiliriz.Örneğin,şablon "Readme.md" dosyası oluşturup içeriğine birşeyler yazabiliriz.Sonrasında dosyayı "Readme.md" olarak kaydederiz.Sonrasında git'in varsayılan şablon dizinini bulmamız gerekiyor.Buna git'in yüklü olduğu yerden ulaşabiliriz.Git->mingw64->share->git-core->templates kısmına ulaştığımızda oluşturduğumuz "Readme.md" dosyasını buraya kopyalayabiliriz.Artık herhangi bir git init komutu çalıştırdığımızda,git otomatik olarak bu "Readme.md" dosyasını yeni oluşturulan repo içindeki .git klasörünün içerisine ekleyecektir.
+
+=================================================================================================================================================================
+
+
+
 
 
 
