@@ -2,3 +2,6 @@
 -> Git, yazılım geliştirme projelerinde kullanılan dağıtılmış bir versiyon kontrol sistemidir. Değişiklikleri izler, farklı versiyonlar arasında geçiş yapmayı sağlar ve ekip üyelerinin işbirliğini kolaylaştırır. 
 Hızlı, güvenilir ve esnek yapısıyla popülerdir.
 <----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+2.git pull" ile "git fetch" komutlarının farkı nedir?
+git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etkilemezken, git pull hem güncellemeleri alır hem de yerel kopyayı günceller.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
