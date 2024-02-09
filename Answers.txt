@@ -199,3 +199,10 @@ Q23 - What is the difference between 'GitHub' and 'git'? What are other similar 
 
 *******************************************************
 
+Q24 - What is the difference between the 'main' or 'master' branch and other branches?
+
+## It's usually the production branch.
+
+>> The 'main' or 'master' branch in Git typically represents the primary line of development and is considered the default branch where the latest stable version of the project resides, while other branches are used for feature development, bug fixes, or experimentation before changes are merged into the main branch.
+
+*******************************************************
