@@ -27,3 +27,5 @@
 14 -> Eğer ki merge işlemi yaparken iki dosyada çakışma oluyorsa merge conflict oluşur. Yani 2 farklı branch düşünelim ve içlerinde txt dosyasını değiştirelim. Birinci branch'te 5. satıra "aa" yazalım diğer branch'te de aynı satıra, yani 5. satıra "bb" yazalım. Bu durumda bu iki branch merge edilirse conflict oluşur. Çünkü 5.satırda "aa" mı "bb" mi ifadesinin olacağını git kendi bilemez.
 
 15 -> Git log ile atılan commitleri görebiliriz fakat terminal üzerinden sınırlı sayıda gösterebiliyor. Şu an 14 commit attım ve git log yazdığımda sadece 4 commit görebiliyorum. Bütün commitleri görmek istiyorsak git reflog komutunu kullanabiliriz.
+
+16 -> git diff ile hem iki commit arasındaki değişiklikleri görebiliriz hem de iki branch arasındaki değişiklikleri görebiliriz. Örneğin iki commit arasındaki fark için: git diff commit1_id commit2_id yazıp bulabiliriz. git diff main omersungur kullanımında ise main branchi ve omersungur branchi arasındaki farka bakarız.
