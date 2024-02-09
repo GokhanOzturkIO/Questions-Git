@@ -62,3 +62,7 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### Var olan bir "branch"e nasıl geçebiliriz?
 
 - git checkout branch_adı
+
+### "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+- git clone -b mybranch <repository_url>
