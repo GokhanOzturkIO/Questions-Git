@@ -62,3 +62,6 @@ git clone --branch branch_adi <repo_url>
 
 ✔Atomic commit ne demektir?
  -Atomic commit kısaca bir dizi işlemi tek bir bağlamsal bir bütün olarak gerçekleştiren bir iş anlamına gelir. Bir projede birden çok dosyada yapılan işlemi atomic commit uygulayarak yaparsak daha bütünlüğü korur ve başka geliştiriciler incelediğinde nerde ne olduğunu ne gibi değişikler olduğunu görür.
+
+✔Repository ne demektir?
+ -Projede ki tüm dosyaların, geçmiş versiyonlarını ve değişiklik geçmişini içerir. Repository üzerinden projeyi yönetir, değişiklikleri kaydeder işbirliği yaapabiliriz.Kısaca repomuzda bir projemizi belgemizi notumuzu herşeyi depolayabiliriz.
