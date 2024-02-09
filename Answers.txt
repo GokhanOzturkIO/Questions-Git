@@ -165,6 +165,25 @@ Başka bir "branch"e geçtiğinizde, üzerinde çalıştığınız dosyalar ve d
 
 *****************************************************************************************************
 
+13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+git clone komutuyla belirli bir spesifik "branch"i çekmek için --branch veya -b seçeneğini kullanabilirsiniz. İşte bu seçeneği kullanarak belirli bir "branch"i çekmek için adımlar:
+
+php
+Copy code
+git clone -b <branch_adı> <repository_url>
+Örneğin, "main" adındaki bir "branch"i çekmek için:
+
+bash
+Copy code
+git clone -b main https://github.com/kullaniciadi/proje.git
+Bu komut, belirtilen repository'nin "main" adındaki "branch"ini çeker. Başka bir "branch"i çekmek için, -b seçeneğini istediğiniz "branch" adıyla değiştirebilirsiniz.
+
+Bu komutu kullandığınızda, yalnızca belirttiğiniz "branch" ve onun geçmişi kopyalanır. Diğer tüm "branch"ler ve geçmişleri yalnızca referans olarak alınır, ancak yerelde oluşturulmazlar.
+
+*****************************************************************************************************
+
+
 
 
 
