@@ -72,5 +72,13 @@ git add ve git rm komutları ile untracked file'ları yönetebilirsiniz.
 
 ===============================================================================================
 
+8. ".git" klasörünü silersek ne olur?
+
+".git" klasörünü silmek, Git deponuzla ilgili tüm verileri siler.
+Bu işlem projenizin geçmişini, takip edilen dosyaları ve branch'leri kaybedersiniz.
+".git" klasörünü silmeden önce projenizin yedeğini alın ve alternatif bir depolama yöntemi kullanın.
+".git" klasörünü silmek, projenizi tamamen silmek veya Git'i kullanmayı bırakmak istediğiniz durumlarda faydalı olabilir.
+
+===============================================================================================
 
 
