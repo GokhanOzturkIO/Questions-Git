@@ -61,4 +61,9 @@ Sadece belirli bir branch'i çekmek istiyorsak
 
  
 14-"Merge conflict" ne demektir?
+
 Aynı projenin aynı yerinde değişiklik yapılmışsa git bunu algılar ve kullanıcıya "Merge conflict" hatası verir.
+
+15-"git log" komutu ile hangi bilgileri görebiliriz?
+
+o repodaki atılan bütün commitleri ve o kişiye ait bilgileri görebiliriz.Tarih mesaj kısmınıda inceleyebiliriz.
