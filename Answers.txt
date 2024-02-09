@@ -199,3 +199,11 @@ c. Gitea
 d. SourceForge
 
 ******************************************************************************************************************************************************
+
+24- main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Projelerde Main branch'i projenin aktif geliştirme dalı olarak görev alır. Yeni özellikler ve hata düzeltmeleri buraya eklenir.
+Master branch'inde ise projenin kararlı (Stable) sürümü bulunur. Yayınlanan sürümler bu dala etiketlenir (tag) ve genellikle değiştirilmez.
+Diğer branchlerde de özellik geliştirme, hata düzeltme veya deneysel çalışmalar yapılır.
+
+******************************************************************************************************************************************************
