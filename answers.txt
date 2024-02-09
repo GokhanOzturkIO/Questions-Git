@@ -34,3 +34,9 @@ touch README.md
 git config --global init.templateDir ~/.git-templates
 komutları ile her git init komutu ile README.md dosyası otomatik olarak oluşturulur.
 ----------------------
+10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Projenin farklı versiyonlarını aynı anda yönetmeyi sağlayan ve bağımsız bir geliştirme hattını temsil eden bir kavramdır. Bir "branch" oluşturduğunuzda, projenizin mevcut durumunu temsil eden bir kopya oluşturulur ve bu kopya üzerinde bağımsız olarak çalışabilirsiniz.
+-Farklı geliştiriciler kendi kopyalarında çalışabilir ve sonra bu değişiklikleri ana projeye birleştirebilir.
+-Ana branch'ten türetilen branch'lerde hata düzeltmeleri ve bakım yapma olanağı sağlar.
+-Yeni özellikleri veya değişiklikleri test etmek için izole bir ortam sağlar.
+----------------------
