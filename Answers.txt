@@ -76,8 +76,13 @@ e. Son olarak bu dosyaya yetki vermemiz gerekli bulunduğumuz dizinde terminal a
 
 ******************************************************************************************************************************************************
 
+10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 
+Branch kelime anlamı olarak "Dal" demektir, projelerimizi dallara ayırmamızı sağlar. Projemize eklemek istediğimiz bir feature'ın ana repository
+etkilemesini istemiyorsak yeni bir branch açıp geliştirme işlemlerimizi bu branch üzerinde yaparız bu şekilde ana projeyi olası hatalara karşı korur
+ve geliştirme sürecinde çalışmaya devam etmesini sağlayabiliriz. Ayrıca paralel geliştirme imkanını da bizlere sağlar.
 
+******************************************************************************************************************************************************
 
 
 
