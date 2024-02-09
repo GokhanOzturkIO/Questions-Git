@@ -84,3 +84,6 @@ sürümleri geliştirmek için farklı dallar oluşturmak için kullanılır.
 Git depolarının barındırılmasının yanı sıra, kod incelemesi, takım işbirliği, hata takibi gibi birçok özellik sunar.	
 -> Örnek sitelere ise GitLab, Bitbucket,Launchpad örnek verebiliriz.Sadece githup kullanıyorum kullanıcı ismim: ynemreuslu.
 <---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+23.main ya da master branch'inin diğer branchlerden farkı nedir?
+-> İki branchinde teknik olarak birbirinden farkı yoktur.Genellikle projenin ana hattını temsil ederler.
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
