@@ -8,3 +8,7 @@ git pull, benzer şekilde uzak depodan yeni bilgileri çeker, ancak aynı zamand
 3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 Takım arkadaşımızın kodlarını gönderdiği branchte olduğumuzdan emin olmalıyız.
 Takım arkadaşımız add, commit ve push işlemlerinin tamamını gerçekleştirilmemiş olabilir.
+----------------------
+4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+"origin" adı, bir projenin uzak depolarını takip etmek için sıkça kullanılan varsayılan bir isimdir. Genellikle, projeyi klonlarken otomatik olarak eklenen orijinal uzak depoyu temsil eder. Ancak, aynı projede birden fazla uzak depo eklenmişse, bu uzak depolar farklı isimlerle etiketlenebilir.
+----------------------
