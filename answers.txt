@@ -39,5 +39,8 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 -> git checkout ynemreuslu komutu ile branche geçeriz.
 -> git checkout -b ynemreuslu komutu ile hem yeni branch acariz ve o branche geçeriz.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
- 
+12. "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+-> git clone --single-branch ynemreuslu https://github.com/GokhanOzturkIO/Questions-Git komutuyla, "Questions" deposundaki "ynemreuslu" adlı branch'i klonlamış olduk.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 			
