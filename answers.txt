@@ -87,3 +87,6 @@ Git depolarının barındırılmasının yanı sıra, kod incelemesi, takım iş
 23.main ya da master branch'inin diğer branchlerden farkı nedir?
 -> İki branchinde teknik olarak birbirinden farkı yoktur.Genellikle projenin ana hattını temsil ederler.
 <---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+24..gitignore" dosyası nedir ve ne amaçla kullanılır?
+-> .gitignore" dosyası git tarafından izlenmemesi gereken dosyaları ve dizinleri belirtmek için kullanılır.
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
