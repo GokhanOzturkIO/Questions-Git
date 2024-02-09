@@ -34,7 +34,9 @@ Untracked file, git tarafından takip edilmeyen dosya anlamına gelir. Yeni bir 
 Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 Bir template oluşturup bu templatein içine Readme.md dosyası ekleriz. Ve bu template'i git init --template=... şeklinde farklı git klasörlerimize ekleyerek otomatik olarak Readme.md dosyasını oluşturmuş oluruz.
 -----------------------------------------------------------------------------------------------------------------------------
-
+Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+Branch yapısı, farklı geliştirme ortamlarını yönetmek için kullanılır. master ya da main adıyla kullanılan branch e ana dal ismini verebiliriz. Kendimiz farklı yapılarda çalışma yapacaksak kendi branchimizi oluşturup bu dal üzerinde çalışmalarımızı yürütebiliriz.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
