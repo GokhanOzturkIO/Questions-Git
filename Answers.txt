@@ -66,8 +66,9 @@ değişiklikleri gösterir.
 git diff commit_id other_commit_id -> belirli iki commit arasındaki değişiklikleri gösterir.
 git diff branch_name other_branch_name -> belirli iki branch arasındaki değişiklikleri gösterir.
 -----------------------------------------------------------------------------------------------------------------------------
-
-
+Git reset ile neyi geri alıyoruz?
+"git reset" komutu, "git add" ile Staging Area'ya eklenmiş ancak henüz commitlenmemiş değişiklikleri Staging Area'dan çıkarmak için kullanılır.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
