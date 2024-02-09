@@ -6,3 +6,10 @@
 
 - Git fetch, uzak depodan güncellemeleri çeker, ancak bu güncellemeleri doğrudan yerel çalışma kopyasına birleştirmez. Uzak depodaki değişiklikleri yereldeki takip ettiğiniz uzak dallarda görmek için kullanılır.
 - Git pull, git fetch ile aynı işlevi görür (uzak depodan güncellemeleri alır), ancak ayrıca bu güncellemeleri yerel çalışma kopyasına da birleştirir.
+
+3. Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+- Uzak sunucudaki dallar güncellenmemiş olabilir. Bu, git fetch origin gibi bir komutla uzak depodan güncel bilgileri alabilirsiniz.
+- Local çalışma alanında commit atılmamış değişiklikler olabilir. 
+- Takım arkadaşımız ile conflict yaşamış olabiliriz. Bunları çözmeliyiz.
+- Kodları çekme yetkimiz olmayabilir.
