@@ -78,7 +78,10 @@ Atomic commit, tek bir iş yapan, geri alınması kolay ve zahmetsiz olan, yapı
 Repository ne demektir?
 Repository, versiyonladığımız şeylerin tutulduğu, lokalde veya uzak sunucuda bulunabilen bir depodur.
 -----------------------------------------------------------------------------------------------------------------------------
-
+"git tag" nedir? "git branch"’ten farkı nedir?
+"git tag" etiketleme işlemi yapar ve genellikle projenin sürüm numarasını veya önemli bir noktayı işaretler.
+"git branch" ise proje içinde farklı geliştirme dalları oluşturur ve paralel olarak çalışan farklı özelliklerin veya değişikliklerin ayrı dallarda geliştirilmesini sağlar
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
