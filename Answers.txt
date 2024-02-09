@@ -172,3 +172,12 @@ Git Repository, bir projenin tüm dosyalarını ve değişlik geçmişini içere
 platformlar aracılığı ile uzak sunucuda da tutulabilir.
 
 ******************************************************************************************************************************************************
+
+21- "git tag" nedir? "git branch"’ten farkı nedir?
+
+Git tag, belirli bir zamanda bir commit'i işaretler. Bu etiket, önemli bir olayı veya bir özellik/hata düzeltmesini işaretleyebilir.
+Git branch ise, Yeni bir geliştirme hattı oluşturarak ana projeye zarar vermemizi engeller ya da paralel geliştirmeye imkan tanır.
+Özetliycek olursak Tag: Projenin belirli bir anlık görüntüsünü işaretler, geri dönebilmeyi ve referans noktası oluşturmayı sağlar.
+Branch: Yeni bir geliştirme hattı oluşturur, kod üzerinde paralel çalışmalar yürütebilmeyi sağlar.
+
+******************************************************************************************************************************************************
