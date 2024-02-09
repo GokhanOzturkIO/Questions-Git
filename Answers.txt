@@ -48,5 +48,19 @@ git checkout, git reset ve git merge gibi komutlarla yönetilebilir.
 
 ===============================================================================================
 
+6."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Git'te Staging Area (Index) Nedir?
+
+Staging Area (Hazırlık Alanı) veya Index, Git'te commit'lemeden önce dosyalardaki değişiklikleri geçici olarak sakladığınız bir alandır. Bir nevi "değişiklik sepeti" olarak düşünebilirsiniz.
+
+Staging Area'nın Görevleri:
+
+    Commit'lemeden önce değişiklikleri organize etmenizi sağlar: Hangi dosyaların hangi commit'e dahil edileceğini seçebilirsiniz.
+    Farklı sürümleri karşılaştırmanızı sağlar: Staging Area'daki değişiklikleri yerel dosyalarınızla veya geçmiş commit'lerle karşılaştırabilirsiniz.
+    Hataları ve conflict'leri önlemenize yardımcı olur: Staging Area'daki değişiklikleri commit'lemeden önce kontrol ederek hataları ve conflict'leri önceden tespit edebilirsiniz.
+
+===============================================================================================
+
 
 
