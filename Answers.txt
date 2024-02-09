@@ -93,5 +93,13 @@ Durum Kontrolü: "Staging Area"da hangi dosyaların değiştirildiğini, eklendi
 
 "Staging Area" veya "Index", Git'in esnekliğini ve gücünü arttıran bir araçtır. Değişikliklerin dikkatlice seçilmesini ve organize edilmesini sağlayarak, daha düzenli ve yönetilebilir bir proje geçmişi oluşturmanıza olanak tanır.
 *****************************************************************************************************
+7."Untracked file" ne demektir?
+"Untracked file" terimi, Git deposunun izlemediği ve takip etmediği dosyaları ifade eder. Yeni oluşturulan veya projeye henüz eklenmemiş dosyalar bu kategoriye girer.
 
+Bir dosya "untracked" durumunda ise, Git bu dosyanın değişikliklerini izlemez ve bu dosyaların durumu deponun içinde kaydedilmez. Bu, dosyanın geçici veya test amaçlı olduğu veya depo ile ilgili olmadığı durumlar için geçerlidir.
+
+"Untracked file" durumu, dosyanın projenin geçmişini veya sürüm kontrolü tarihçesini oluşturan dosyalar arasında yer almadığı anlamına gelir. Bu dosyalar, çalışma kopyasında yer alır ancak Git tarafından izlenmezler veya yönetilmezler.
+
+"Untracked file" durumundaki dosyalar, projeye eklenmeden önce "git add" komutu ile "Staging Area"ya eklenmelidir. Bu işlem, dosyanın Git tarafından izlenmeye başlanmasını sağlar ve sonraki commit işlemlerine dahil edilmesine olanak tanır.
+*****************************************************************************************************
 
