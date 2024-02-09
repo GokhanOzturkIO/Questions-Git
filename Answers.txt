@@ -86,5 +86,9 @@ Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntül
 "git reset" komutu, Git deposunda yapılan değişiklikleri geri almak veya geri sarmak için kullanılır.
 
 -----------------------------------------------------
+18- "git commit" ile "git push" arasındaki fark nedir?
+"git commit" komutu yapılan değişiklikleri yerel Git deposuna kaydederken, "git push" komutu yereldeki bu değişiklikleri uzak bir sunucuya yükler ve diğer geliştiricilerle paylaşmamızı sağlar.
+
+-----------------------------------------------------
 
 
