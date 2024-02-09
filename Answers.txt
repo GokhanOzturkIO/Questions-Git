@@ -102,4 +102,20 @@ Bir dosya "untracked" durumunda ise, Git bu dosyanın değişikliklerini izlemez
 
 "Untracked file" durumundaki dosyalar, projeye eklenmeden önce "git add" komutu ile "Staging Area"ya eklenmelidir. Bu işlem, dosyanın Git tarafından izlenmeye başlanmasını sağlar ve sonraki commit işlemlerine dahil edilmesine olanak tanır.
 *****************************************************************************************************
+8.".git" klasörünü silersek ne olur?
+".git" klasörü, Git deposunun kalbidir ve projeyle ilgili tüm versiyon kontrolü bilgilerini içerir. Bu klasörü silmek, Git deposunun tüm versiyon kontrolü geçmişini ve ayarlarını kaybetmenize neden olur. Yani, ".git" klasörünü silmek, projenin Git yönetimi altındaki tüm geçmişini ve yapılandırmasını ortadan kaldırır.
 
+İşte ".git" klasörünü silmenin bazı sonuçları:
+
+Versiyon kontrol geçmişi kaybolur: ".git" klasörünü sildiğinizde, projenin tüm geçmişi kaybolur. Tüm commit'ler, dallar, etiketler ve diğer versiyon kontrolü bilgileri silinir.
+
+İzlenen dosyalar kaybolur: ".git" klasörü, izlenen dosyaların ve değişikliklerin durumunu saklar. Bu klasörü sildiğinizde, izlenen dosyaların durumu kaybolur ve projeyle ilgili tüm değişiklikler gitmez.
+
+Dal bilgileri kaybolur: ".git" klasörü, projede oluşturulan dalların ve dallar arasındaki ilişkilerin bilgisini içerir. Bu bilgiler silinir ve tüm dallar tek bir dal haline gelir.
+
+Etiketler kaybolur: Proje içinde oluşturulan etiketler, ".git" klasöründe saklanır. Bu etiketler kaybolur ve projenin tüm geçmişindeki önemli noktaları işaretleyen referanslar kaybolur.
+
+Yapılandırma ayarları kaybolur: ".git" klasörü, projenin Git yapılandırma ayarlarını içerir. Bu ayarlar silinir ve projenin özelleştirilmiş Git yapılandırması kaybolur.
+
+Sonuç olarak, ".git" klasörünü silmek, projenin Git kontrolü altındaki tüm geçmişini ve ayarlarını kaybetmenize neden olur. Bu nedenle, ".git" klasörünü silmeden önce bu işlemin geri dönüşü olmadığını ve proje geçmişinin kaybolacağını unutmamak önemlidir.
+*****************************************************************************************************
