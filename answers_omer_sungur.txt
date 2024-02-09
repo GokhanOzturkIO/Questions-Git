@@ -31,3 +31,5 @@
 16 -> git diff ile hem iki commit arasındaki değişiklikleri görebiliriz hem de iki branch arasındaki değişiklikleri görebiliriz. Örneğin iki commit arasındaki fark için: git diff commit1_id commit2_id yazıp bulabiliriz. git diff main omersungur kullanımında ise main branchi ve omersungur branchi arasındaki farka bakarız.
 
 17 -> git reset ile staging area'da olan değişiklikleri çıkartırız. Bununla değişiklik artık takip edilmez (untracked file).
+
+18 -> Git commit ile localimizde versiyonlama yapıyoruz. Yani atılan commitleri sadece localimizde görebiliyoruz. Bunları uzak sunucuya aktarmak için git push komutunu kullanıyoruz.
