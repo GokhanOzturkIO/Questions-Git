@@ -1,0 +1,519 @@
+[33mcommit 023f0c0a085ecc86db152c892668263632e4183b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mynemreuslu[m[33m, [m[1;31morigin/ynemreuslu[m[33m)[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 01:01:39 2024 +0300
+
+    12.Sorunun Cevabı.
+
+[33mcommit c0346fc36e35f9454119b674fed0e161ef0f1c5a[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:56:26 2024 +0300
+
+    11.Sorunun Cevabı.
+
+[33mcommit beba31e8cc7a1cbb96e4d8718a065e6cf8f97f31[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:53:11 2024 +0300
+
+    10.Sorunun Cevabı.
+
+[33mcommit 9258a717371fcb06ec62e3359fedb9a54409877a[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:50:27 2024 +0300
+
+    9.Sorunun Cevabı.
+
+[33mcommit dc37808df9cd1f4fafba114129efb59a16fd1955[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:46:10 2024 +0300
+
+    8.Sorunun Cevabı.
+
+[33mcommit 75b3d67985989b663e4a828593b39292bf3f3d6a[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:33:32 2024 +0300
+
+    7.Sorunun Cevabı .
+
+[33mcommit eb7cc9fd6f6a72b3d13770cf66a9db808e879f32[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:24:23 2024 +0300
+
+    6.Sorunun Cevabı.
+
+[33mcommit 2d2d59498d6af1df886bf2e3b48990a40db1e645[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:18:31 2024 +0300
+
+    5.Sorunun Cevabı
+
+[33mcommit d6b0b716912433b26dc1fd4f898f6b3a05124828[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:12:06 2024 +0300
+
+    4.Sorunun Cevabı
+
+[33mcommit df44b9ae2aec2f9adf4b45abb837a3ce983ec1d8[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Sat Feb 10 00:06:13 2024 +0300
+
+    3.Sorunun Cevabı
+
+[33mcommit 8513d41d08a165ecefb7391b94f7cb7d1f633357[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Fri Feb 9 23:59:45 2024 +0300
+
+    2.Soru Cevabı.
+
+[33mcommit 87d8199e6e3c83f6062e0c54ee7d487d7ee8aa82[m
+Author: Yunus Emre Uslu <yuslu258@gmail.com>
+Date:   Fri Feb 9 23:49:28 2024 +0300
+
+    1.Sorunun Cevabı
+
+[33mcommit b4b341f7822c2b330c292e8162e7ebc64a3c1284[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Yasin Maden <maden.yasin@hotmail.com>
+Date:   Thu Feb 8 20:10:18 2024 +0300
+
+    Deleted AnswersOfGitQuestions.txt
+
+[33mcommit 578d0a3bb64a27126f56a8975bc6f944f384fc19[m
+Merge: 2c4aa5c 3564fc5
+Author: EnesCANNOT <43138327+EnesCANNOT@users.noreply.github.com>
+Date:   Thu Feb 8 05:50:52 2024 +0300
+
+    Merge pull request #13 from GokhanOzturkIO/revert-12-EnesCANNOT
+    
+    Revert "First PR by EnesCANNOT"
+
+[33mcommit 3564fc5edcbe610edeecfe67d7305e9307baa374[m[33m ([m[1;31morigin/revert-12-EnesCANNOT[m[33m)[m
+Author: EnesCANNOT <43138327+EnesCANNOT@users.noreply.github.com>
+Date:   Thu Feb 8 05:50:19 2024 +0300
+
+    Revert "First PR by EnesCANNOT"
+
+[33mcommit 2c4aa5c7ab4c4586a5bef6ed5b7f6f97cb4c4b55[m
+Merge: 2ccc4a2 66ecb24
+Author: EnesCANNOT <43138327+EnesCANNOT@users.noreply.github.com>
+Date:   Thu Feb 8 04:58:49 2024 +0300
+
+    Merge pull request #12 from GokhanOzturkIO/EnesCANNOT
+    
+    First PR by EnesCANNOT
+
+[33mcommit 2ccc4a20ce56d009834f5f4fbd9a34feda0f5ef0[m
+Merge: 8ee3667 7cf570c
+Author: Emine Sa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:57:39 2024 +0300
+
+    Merge pull request #11 from GokhanOzturkIO/eminesa
+    
+    Created the txt file
+
+[33mcommit 7cf570c9ded3a25058a6e9a46812c103146b0db8[m[33m ([m[1;31morigin/eminesa[m[33m)[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:51:05 2024 +0300
+
+    what is the "git push origin --delete branch_name” It is used for what purpose
+
+[33mcommit abb083a8e9496c0a07aeabdb0e745c9c4f363d53[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:47:36 2024 +0300
+
+    added a question to README.md file
+
+[33mcommit 01475618afe1684e45eea4ae92f8fd9cf7548041[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:44:14 2024 +0300
+
+    result of AnswersOfGitQuestions.txt file
+
+[33mcommit bb395bd30b5d4bbe600ba8484c7050cb21853e97[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:22:31 2024 +0300
+
+    The description of "origin"
+
+[33mcommit 45c35c551c0bd70186d7d8025e69ef748b8c349a[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:21:29 2024 +0300
+
+    The issue is the inability to fetch the changes made by our teammate.
+
+[33mcommit f90823e07391cff8587a1c6a14bf78b2708d55fc[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:18:46 2024 +0300
+
+    The issue is the inability to fetch the changes made by our teammate.
+
+[33mcommit 7e8109b1a75f2ff0c2852c7f16d4302a14503216[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:17:08 2024 +0300
+
+     what is difference between "git fetch" and "git pull"
+
+[33mcommit 37a698ef0d43bb1a15b7c998acfa2cea34240e7c[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 03:15:54 2024 +0300
+
+    what is Git
+
+[33mcommit 6afb992715282520dd81016d8b6bbff4594f004f[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:52:46 2024 +0300
+
+    The answer to What is the ".gitignore" and
+    It is used for what purpose
+
+[33mcommit f0e42622fc96c2b7138c0cffa3bc61308af82638[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:47:18 2024 +0300
+
+    deleted some files
+
+[33mcommit 6943c78253b6d930e99ddf4b35d79198f26ca4b7[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:42:50 2024 +0300
+
+    The answer to What is the difference between main or master branch from other branches?
+
+[33mcommit 1d9610d36884e2b87ab44616725f928ff7550295[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:32:03 2024 +0300
+
+    The answer to What is the difference between Github and Git
+
+[33mcommit 71f57310b623f12a41c62751264fcf61a4c3cb61[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:25:13 2024 +0300
+
+    The answer to What third-party tools and applications can we use to visually interact with Git
+
+[33mcommit d62a212d3b6c30d503cfbd69eacc552dc4d89230[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:12:34 2024 +0300
+
+    The answer to What is "git tag" What is the difference from "git branch"
+
+[33mcommit 67c2d549c8ccb322fbf8558679ded72eca4db78b[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 02:04:16 2024 +0300
+
+    The answer to What is the Repository
+
+[33mcommit 27d9f7c29a1910c55dc0895a838ad4c6a8415c57[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:58:59 2024 +0300
+
+    The answer to What is the Atomic commit
+
+[33mcommit 1bf40771b9f1ae515ebda9a8a43a357891d8e610[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:55:07 2024 +0300
+
+    The answer to What is the difference between "git commit" and "git push"
+
+[33mcommit c3199a0fb6bd9e4467e0db28b05e22dafd4a1b3c[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:51:28 2024 +0300
+
+    The answer to What are we undoing with "git reset"
+
+[33mcommit 466885da41f2ff7b4ebfa7c7b89f184432937551[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:48:35 2024 +0300
+
+    The answer to How many different pairs of states can we observe changes between using "git diff" command
+
+[33mcommit b22dd4bd5a27f44e21fb686f121e94e219b378bd[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:32:27 2024 +0300
+
+    The answer to Which information do we have with ".git log" command
+
+[33mcommit ea0c45da59240e76c811a849456920734b05a179[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:25:41 2024 +0300
+
+    The answer to What is the "Merge conflict"
+
+[33mcommit 5d386058fa4e0aae74e4bd2b46d7f15890edf058[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:22:00 2024 +0300
+
+    The answer to How to clone a specific branch
+
+[33mcommit e32d9471c138fdb10e6a76814bcf6beb7bfbe5f7[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:19:23 2024 +0300
+
+    The answer to How to create a new branch
+
+[33mcommit e30e1d9048b02c0bb87ea53e28c4c038b3b150d7[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:16:59 2024 +0300
+
+    The answer to What is the benefit of "branch"
+
+[33mcommit aba2d003d66c11394f29b6908f8436b1465e37f3[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 01:12:28 2024 +0300
+
+    The answer to How to create a template
+
+[33mcommit 2876be883e84b055cf3aec9c415f46dd170554c5[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 00:46:39 2024 +0300
+
+    The answer to What is the "Untracked file"
+
+[33mcommit 8ee3667d4cee7ce00d8ad8b4adcc9505572bed11[m
+Author: Nebican Planalı <nebicanplanali@gmail.com>
+Date:   Thu Feb 8 00:42:13 2024 +0300
+
+    delete question text
+
+[33mcommit ca1f5fe13abf76ce8eb6a010051823446da8243a[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 00:40:59 2024 +0300
+
+    The answer to What is the "Untracked file"
+
+[33mcommit 8ac98f4ee0e687f6d04618f53cabf3df47cafc9b[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 00:39:14 2024 +0300
+
+    The answer to What Exactly Is a "Staging Area" or "Index"
+
+[33mcommit ec2b28aba88b0152e48a6689b0ec4c8153e6b3ab[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 00:31:20 2024 +0300
+
+    The Answer of What does the word "HEAD" represent?
+
+[33mcommit a02c863858e4dde4ec5bbb94310891303755c2bc[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 00:26:31 2024 +0300
+
+    The Answer of "The description of "origin"
+
+[33mcommit eef43b8d091a4fde1d2863d3a69911dabcebdb07[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Thu Feb 8 00:17:10 2024 +0300
+
+    The Answer of "The issue is the inability to fetch the changes made by the teammate."
+
+[33mcommit be69f1a0a09877e5097490c4a4c7badd645a31b6[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Wed Feb 7 23:59:44 2024 +0300
+
+    The answer to what is difference between git fetch and git pull
+
+[33mcommit 59b32fbfb14004f69b6cad64971794078cb8f799[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Wed Feb 7 23:54:04 2024 +0300
+
+    The answer to what is Git
+
+[33mcommit 896465c65a1e721e4e9d599bdba0aabfe2b563f6[m
+Author: eminesa <eminesa34@gmail.com>
+Date:   Wed Feb 7 23:52:16 2024 +0300
+
+    created AnswersOfGitQuestions.txt file
+
+[33mcommit c17393e88291279b86dfd94c4cb946deb882df29[m
+Merge: 3072b3e dcec7ad
+Author: Nebican Planalı <nebicanplanali@gmail.com>
+Date:   Wed Feb 7 23:38:35 2024 +0300
+
+    Merge branch 'main' of https://github.com/GokhanOzturkIO/Questions-Git
+
+[33mcommit dcec7ad7a69cd224f420ce012288b5772ef61cd4[m
+Merge: 9264fe4 66bbf55
+Author: Raşit Arslan <106617809+KatayR@users.noreply.github.com>
+Date:   Wed Feb 7 23:07:48 2024 +0300
+
+    Merge pull request #10 from GokhanOzturkIO/RasitArslan
+    
+    Rasit Arslan'ın yanıtları
+
+[33mcommit 66bbf55f0116dc3011a5898bfe4d3b627c377929[m[33m ([m[1;31morigin/RasitArslan[m[33m)[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 23:02:29 2024 +0300
+
+    'main-master farkı' sorusu yanıtlandı
+
+[33mcommit 1d297b1252d01d8227ba92a02d35ed3a59dcb936[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 23:00:02 2024 +0300
+
+    'github-git farkı' sorusu yanıtlandı
+
+[33mcommit e196e6b7204bbf71e1d23d4c29ecd3422689c168[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:55:42 2024 +0300
+
+    <fix> 'git GUI' yanıtı düzeltildi...
+
+[33mcommit c558762d2094a94a43baf1a2f787380450eb5ac7[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:53:37 2024 +0300
+
+    'git görselleştirme' sorusu yanıtlandı
+
+[33mcommit 4d7bc783ae97860bdcefcba92c4a8fa38b7f8204[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:51:19 2024 +0300
+
+    'branch - tag farkı' sorusu yanıtlandı
+
+[33mcommit 9adab284cedb91ddce2acb67e03cb4d42dc7713f[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:47:16 2024 +0300
+
+    'repo nedir' sorusu yanıtlandı
+
+[33mcommit 75b439eb00063c47b23b5a127e93b6159ce3b0d7[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:46:13 2024 +0300
+
+    'atomic commit' sorusu yanıtlandı
+
+[33mcommit 0125f9a0f0af752ced3a82304c6e80efff756312[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:44:57 2024 +0300
+
+    'git commit-push farkı' sorusu yanıtlandı
+
+[33mcommit 5f36acb6abd7d07b36ffe84762cfe74b4419c285[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:43:50 2024 +0300
+
+    'git reset' sorusu yanıtlandı
+
+[33mcommit c5227d77f3ae0006b73b21bc548526189d59be0e[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:41:49 2024 +0300
+
+    'git diff' sorusu yanıtlandı
+
+[33mcommit 1e4d4be67c206c294dba9373d4368c90c488f7e2[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:38:23 2024 +0300
+
+    'git log' sorusu yanıtlandı
+
+[33mcommit c808e5b2ef9795296633d8ef2fe4acda8e86991e[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:37:36 2024 +0300
+
+    'merge conflict' sorusu yanıtlandı
+
+[33mcommit 6b49dac668c4703e9497c4c114609b55a949f3db[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:35:51 2024 +0300
+
+    'spesifik branchi klonlama' sorusu yanıtlandı
+
+[33mcommit 710ce9d7ced56364171ae825ae51cdbd06ace084[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:33:34 2024 +0300
+
+    'git checkout' sorusu yanıtlandı
+
+[33mcommit 88bd4b0054aba2f19e62fce14cdbafc876f9345d[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:32:18 2024 +0300
+
+    'yeni branch' sorusu yanıtlandı
+
+[33mcommit 3ea51e7b38657fb3bf719c836887c3ace4d474bf[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:30:39 2024 +0300
+
+    'branch nedir' sorusu yanıtlandı
+
+[33mcommit e2b72bbc33d3e592af1833be710da9c68bd9ff56[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:27:09 2024 +0300
+
+    'git init - readme' sorusu yanıtlanmaya çalışıldı...
+
+[33mcommit 0b218842318341f5b26113385c920363017dc2d8[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:15:33 2024 +0300
+
+    <fix> Soruların numaralandırması düzeltildi
+
+[33mcommit 177fd87990254f64db4c0ff373cca3b5ef9a20e7[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:14:17 2024 +0300
+
+    '.git klasörünü silme' sorusu yanıtlandı
+
+[33mcommit 197becc916bd723edef09b7afe81d0b426fe7ad1[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:12:35 2024 +0300
+
+    'Untracked file' sorusu yanıtlandı
+
+[33mcommit 407c00d3f99d0707139a49a84708c40a3e07cbc9[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:11:47 2024 +0300
+
+    'Staging area' sorusu yanıtlandı
+
+[33mcommit 9264fe43e61a82a7ad300f792dac236dcf9f94c6[m
+Merge: 8d4191c 4d75638
+Author: Mertcan Kartal <69811127+mertcankartal@users.noreply.github.com>
+Date:   Wed Feb 7 22:09:27 2024 +0300
+
+    Merge pull request #8 from GokhanOzturkIO/revert-7-feature/mertcankartal
+    
+    Revert "Feature/mertcankartal"
+
+[33mcommit e9b7f8346643df74a4733d5ebccf23661e40d97a[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:09:00 2024 +0300
+
+    git HEAD sorusu yanıtlandı
+
+[33mcommit d8c9b97e93b22e5b4d01a33b0c49052a587228ca[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:06:47 2024 +0300
+
+    git'teki 'origin' nedir sorusu yanıtlandı
+
+[33mcommit 4d75638755ed3505e15624971e40f0a8106b6b8a[m[33m ([m[1;31morigin/revert-7-feature/mertcankartal[m[33m)[m
+Author: Mertcan Kartal <69811127+mertcankartal@users.noreply.github.com>
+Date:   Wed Feb 7 22:06:32 2024 +0300
+
+    Revert "Feature/mertcankartal"
+
+[33mcommit 8d4191c151b4989a39cb8586dca5e0c15dbe27c0[m
+Merge: 88d7053 7610744
+Author: Mertcan Kartal <69811127+mertcankartal@users.noreply.github.com>
+Date:   Wed Feb 7 22:04:51 2024 +0300
+
+    Merge pull request #7 from GokhanOzturkIO/feature/mertcankartal
+    
+    Feature/mertcankartal
+
+[33mcommit 7610744f6d87206e2bf267df4022ea55eec758bf[m[33m ([m[1;31morigin/feature/mertcankartal[m[33m)[m
+Author: Mertcan Kartal <kartal.mertcan99@gmail.com>
+Date:   Wed Feb 7 22:01:01 2024 +0300
+
+    [DEV][Mertcan Kartal][create readme]
+
+[33mcommit 22be51aa9fca3bc42131ba06475dbfe72b42ccc7[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 22:00:57 2024 +0300
+
+    3. soru(görünmeyen push) yanıtlandı
+
+[33mcommit 4abcb05cfdba677ac86967bd633d5e506e8d41ad[m
+Author: KatayR <rasitarslan@outlook.com>
+Date:   Wed Feb 7 21:58:51 2024 +0300
+
+    'git pull' ve 'git fetch' sorusu yanıtlandı
+
+[33mcommit d6
