@@ -129,6 +129,17 @@ Git özelinde,git repository bir projenin tüm kaynak kodlarını,dosyalarını,
 
 =================================================================================================================================================================
 
+Q20)git tag" nedir? "git branch"’ten farkı nedir?
+
+"git tag" komutu belirli commit üzerine etiket eklemek veya belirli bir commite isim vermek için kullanılır.Bu, genellikle sürüm numaraları veya yayın adları gibi belirli bir işaretleme ihtiyacı olduğunda kullanılır. Etiketler, projenin belirli bir noktasını işaretlemek ve bu noktaya kolayca dönebilmek için kullanışlıdır.
+
+Örnek olarak git tag v1.0 dediğimizde "v1.0" etiketi oluşturulur.
+
+Farklarına gelirsek,git tag belirli bir commit üzerine etiket eklemek için kullanılırken,git branch farklı geliştirme hatları oluşturmak ve yönetmek için kullanılır.
+
+git tag kullanırsak belirli commit üzerine işaretleme yaparız ve bu işaret o commiti belirtir,herhangi bir değişim olmaz.git branch'de ise oluşturduğumuz branchler projenin farklı geliştirilme yollarını temsil eder ve her biri bağımsız bir geliştirme ortamı sağlar.
+
+git tag genellikle belirli sürümleri veya yayınları işaretlemek için kullanılırken,git branch farklı özelliklerin veya geliştirilme süreçlerinin izlenmesi için kullanılır.
 
 
 
