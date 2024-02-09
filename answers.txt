@@ -79,6 +79,6 @@ git clone --branch branch_adi <repo_url>
    GitLab, Bitbucket, SourceForge örnek verebilirim.
   - GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
    GitHub:@Gamzecoskkun
-  
-  
 
+✔main ya da master branch'inin diğer branchlerden farkı nedir?
+  default branch olarak main branch oluşturulur  ana branch diye ifade edilir. Projenin temel geliştirme branchdir diğer branchler ise daha spesifik görevler ve özellikler geliştirmek için kullanır daha sonra main branchlar birleştirilebilir. 
