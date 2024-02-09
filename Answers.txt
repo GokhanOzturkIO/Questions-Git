@@ -28,3 +28,16 @@ Git pull kullanmadan önce git fetch ile incelemeniz önerilir.
 
 -Doğru Branch'te misiniz?
     Hangi branch'e push yaptığını öğrenin ve o branch'te olduğunuzdan emin olun.
+
+===============================================================================================
+
+4."git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+"git fetch origin" komutundaki "origin", uzak deponun adı veya takma adıdır.
+Varsayılan olarak ilk defa klonladığınız uzak deponun adıdır.
+Farklı isimler de kullanabilirsiniz.
+
+===============================================================================================
+
+
+
