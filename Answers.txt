@@ -183,6 +183,12 @@ Merge Conflict'i Çözme Adımları:
 
 ===============================================================================================
 
+15. "git log" komutu ile hangi bilgileri görebiliriz?
+
+git log komutu, bir Git deposundaki commit'lerin geçmişini gösterir.
+
+===============================================================================================
+ 
 
 
 
