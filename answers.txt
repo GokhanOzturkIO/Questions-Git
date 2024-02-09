@@ -46,4 +46,6 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 
 - Git'te "branch" (dal), projenin farklı özelliklerini veya geliştirmelerini izole etmek ve yönetmek için kullanılan bir kavramdır. Git, her bir dalı, projenin bir belirli noktasındaki commit zinciri olarak düşünür. Yani, her dal, projenin farklı bir durumunu temsil eder. Bir projede birden çok dal kullanmak, farklı geliştirmeleri aynı anda izlememizi, test etmemizi ve uygulamamızı sağlar. 
 
+11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
+- git branch (branch ismi) şeklinde oluşturabiliriz.
