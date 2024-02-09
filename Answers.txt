@@ -90,5 +90,9 @@ Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntül
 "git commit" komutu yapılan değişiklikleri yerel Git deposuna kaydederken, "git push" komutu yereldeki bu değişiklikleri uzak bir sunucuya yükler ve diğer geliştiricilerle paylaşmamızı sağlar.
 
 -----------------------------------------------------
+19- Atomic commit ne demektir?
+Daha temiz, daha düzenli ve daha yönetilebilir bir kod tabanı oluşturmak için kullanılan önemli bir geliştirme pratiklerinden biridir.
+
+-----------------------------------------------------
 
 
