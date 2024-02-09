@@ -65,8 +65,19 @@ Bir Git projesi genellikle birden fazla uzak depoya sahip olabilir. "origin", ge
 Örneğin, bir proje için birden fazla uzak depo eklemek isterseniz, her bir uzak depoya farklı bir isim verebilirsiniz. "origin" sadece bir konvansiyon olup, projenin orijinal uzak deposuna atıfta bulunmak için yaygın olarak kullanılan bir isimdir. Bu ismi değiştirmek, projenin yapılandırmasına bağlıdır ve "git fetch" komutunda kullanılan isim, projenin hangi uzak depolarına atıfta bulunmak istediğinize bağlı olacaktır.
 
 ******************************************************************************************************************************
+5."HEAD" kelimesi neyi temsil etmektedir?
+"HEAD", bir Git deposundaki mevcut çalışma kopyasının gösterildiği belirteçtir. "HEAD", genellikle mevcut dala (branch) işaret eder ve mevcut dalın son commit'ini temsil eder. Yani, "HEAD", projenin şu anda çalıştığı veya üzerinde çalışılan konumu işaret eder.
 
+"HEAD" kelimesi ayrıca, Git'in içsel referanslarını temsil eden bir dosya adıdır. "HEAD" dosyası, depoda bulunan mevcut commit'in kimliğini (hash değerini) içerir. Bu dosya, genellikle .git klasörü altında bulunur.
 
+"HEAD" belirteci, şu durumları temsil edebilir:
+
+Bir dalın (branch) son commit'ini işaret eder.
+Bir etiket (tag) üzerinde işaret eder.
+Doğrudan bir commit'in kimliğini (hash değerini) işaret eder.
+Yani, "HEAD", Git deposunun şu anda hangi noktada olduğunu belirtir ve çalışma kopyasının hangi commit'e dayandığını gösterir. Bu, Git'in kullanıcıya mevcut durumu göstermek ve değişiklikler yapmak için hangi commit üzerinde çalıştığını belirtmek için kullandığı önemli bir belirteçtir.
+
+*****************************************************************************************************
 
 
 
