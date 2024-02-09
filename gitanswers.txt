@@ -67,3 +67,10 @@ Aynı projenin aynı yerinde değişiklik yapılmışsa git bunu algılar ve kul
 15-"git log" komutu ile hangi bilgileri görebiliriz?
 
 o repodaki atılan bütün commitleri ve o kişiye ait bilgileri görebiliriz.Tarih mesaj kısmınıda inceleyebiliriz.
+
+16- "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+-2 commit arasındaki değişikler
+-Şu an ki durum ile son commit arasındaki değişiklikler
+-Staging area ile son atılan commit arasındaki değişiklikler
+-iki farklı branch arasındaki değişiklikler
