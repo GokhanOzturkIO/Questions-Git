@@ -81,3 +81,11 @@ Q8 - If we want a 'ReadMe.md' file to be automatically created every time we use
 
 *******************************************************
 
+Q9 - What is the 'branch' structure mentioned in Git? What does it provide us?
+
+## Branch is way to clone the code and work freely without changing the actual production code. 
+
+>> In Git, a branch is a parallel line of development that allows developers to work on separate features or fixes without impacting the main codebase, providing a structured way to manage and collaborate on code changes.
+
+*******************************************************
+
