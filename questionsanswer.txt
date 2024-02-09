@@ -50,3 +50,5 @@ GitHub:savasafsar
 -Bu branchler ana branchtir ve projenin aslını oluşturur.Diğer branclar ise projenin farklı kişiler tarafında ayrı olarak geliştirilmesini sağlar.
 25-".gitignore" dosyası nedir ve ne amaçla kullanılır?
 -Git deposunda izlenmesini istemediğimiz dosyaları ve klasörleri belirlemek için kullanılır.
+26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
+-belirtilen branch_name adındaki bir dalı uzak depodan silmek için kullanılır.
