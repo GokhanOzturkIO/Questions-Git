@@ -101,6 +101,14 @@ git diff BRANCH1 BRANCH2
 
 - Repository kavramı, yazılım geliştirme süreçlerini düzenlemek, takip etmek ve paylaşmak için kullanılır. Bir yazılım projesinin repository'si, geliştiricilerin projede yaptıkları değişiklikleri, geçmiş durumları ve işbirliği içinde çalışma yeteneklerini yönetmelerini sağlar. Repository, proje dosyalarının, kaynak kodlarının ve diğer ilgili bileşenlerin bulunduğu bir merkezdir. 
 
+21."git tag" nedir? "git branch"’ten farkı nedir?
+
+-git tag komutu, belirli bir commit'e bir etiket (tag) eklemek için kullanılır. Etiket, genellikle bir belirli bir sürümü veya önemli bir dönemeç noktasını temsil eder.
+Bir etiket, genellikle bir noktayı işaretlemek ve bu noktaya daha sonra kolayca ulaşmak için kullanılır. Sürüm numaraları, sürüm isimleri veya proje içinde önemli bir anı temsil eden herhangi bir isim kullanılabilir. 
+-git tag, bir belirli commit'e etiket eklemek için kullanılırken, git branch bir dal oluşturmak veya mevcut dallarla çalışmak için kullanılır.
+git tag genellikle sürüm numaralarını veya önemli dönemeç noktalarını temsil eden isimlendirmelerle kullanılırken, git branch genellikle özelliklerin veya geliştirmelerin izole edilmesi ve yönetilmesi için kullanılır.
+git tag ile eklenen etiketler, commit'ler üzerine eklenir ve genellikle değiştirilemez. git branch ise projede farklı çalışma alanları sağlar ve üzerine geçilebilir veya birleştirilebilir.
+
 
 
 
