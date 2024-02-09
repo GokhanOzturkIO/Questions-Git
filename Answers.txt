@@ -216,3 +216,9 @@ ve proje ile ilgisi olmayan dosyaları ayıklamak için de kullanılır.
 
 ******************************************************************************************************************************************************
 
+26- "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+Bu komut, uzak sunucudaki (origin) bir branch'i silmek için kullanılır. örnekte verilen komut belirtilen branch_name adındaki 
+dalı origin adı verilen uzak depodan siler.
+
+******************************************************************************************************************************************************
