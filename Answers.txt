@@ -25,3 +25,7 @@ HEAD kelimesi en son commiti temsil eder.
 "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 Staging Area, ara bölge anlamına gelir. git add komutunu çalıştırdıktan sonraki dosya değişiklikleri buraya gönderilir.
 -----------------------------------------------------------------------------------------------------------------------------
+"Untracked file" ne demektir?
+Untracked file, git tarafından takip edilmeyen dosya anlamına gelir. Yeni bir dosya oluşturduğumuzda ortaya çıkar.
+-----------------------------------------------------------------------------------------------------------------------------
+
