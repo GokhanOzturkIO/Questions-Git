@@ -103,3 +103,8 @@ Branch, projenin farklı geliştirme hattını temsil eder ve genellikle farklı
 -GitExtensions
 -IDE(vscode,intellij,android studio)
 ----------------------
+23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+Git, yerelde versiyon kontrolü sağlayan bir sistemken, GitHub, bulut tabanlı Git hizmetidir ve uzak depolama, işbirliği ve takım çalışması imkanı sunar.
+GitHub benzeri siteler;GitLab,Bitbucket,SourceForge.
+Github:augurcan
+----------------------
