@@ -294,4 +294,30 @@ GitHub:
 
 ===============================================================================================
 
+24. main ya da master branch'inin diğer branchlerden farkı nedir?
 
+Main ve master branch'leri:
+
+    Bir Git deposundaki varsayılan branch'lerdir.
+    Genellikle, projenin en son ve en kararlı sürümünü içerir.
+
+Diğer branch'lerden farkları:
+
+    Main ve master branch'leri, genellikle "production" ortamına dağıtılan branch'lerdir.
+    Diğer branch'ler, geliştirme veya test amaçlı kullanılabilir.
+    Main ve master branch'leri, genellikle daha uzun ömürlüdür.
+    Diğer branch'ler, birleştirildikten sonra silinebilir.
+
+Main ve Master Arasındaki Fark:
+
+    Main branch'i, Git'in daha yeni versiyonlarında kullanılan terimdir.
+    Master branch'i, Git'in daha eski versiyonlarında kullanılan terimdir.
+    Her iki branch de aynı işlevi görür.
+
+Özetle:
+
+    Main ve master branch'leri, bir Git deposundaki varsayılan branch'lerdir.
+    Genellikle, projenin en son ve en kararlı sürümünü içerir.
+    Diğer branch'lerden daha uzun ömürlüdür ve production ortamına dağıtılan branch'lerdir.
+
+===============================================================================================
