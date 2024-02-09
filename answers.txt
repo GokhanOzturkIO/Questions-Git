@@ -68,6 +68,9 @@ git reset komutu, --mixed, --soft veya --hard gibi farklı bayraklarla kullanıl
 -> Atomic commit, bir commit'in bir değişiklik setini tam olarak ve bütünlüklü bir şekilde temsil etmesidir. Her commit, tek bir işlevselliği veya değişikliği içermelidir ve diğer commit'lerden bağımsız olmalıdır. 
 Bu prensip, kod yönetimini kolaylaştırır ve izlenilebilirliği artırır.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+19.Repository ne demektir?
+->  bir projenin tüm dosyalarını, kaynak kodunu ve diğer ilgili materyallerini içeren depodur. Bu depo, projenin versiyon kontrolü yönetimi için kullanılır. Geliştiriciler, dosyaları bu depoya ekler, değişiklikleri izler, farklı versiyonları oluşturur ve işbirliği yapar. 
+Özetle, bir Git repo, bir projenin kodunun saklandığı, izlendiği ve paylaşıldığı yerdir
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 			
