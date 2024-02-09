@@ -38,8 +38,22 @@ Ardından, yerel depodaki mevcut dalı (veya bir dalı belirtilen bir uzak dalda
 Genel olarak, "git fetch" komutu değişiklikleri alır ve yerel depoda saklar, ancak birleştirme işlemi yapmazken, "git pull" komutu aynı işlemi yapar ve ayrıca yerel depoyu otomatik olarak günceller ve birleştirir.
 
 ******************************************************************************************************************************
+3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 
 
+Eğer takım arkadaşınızın gönderdiği kodları "git pull" ile lokal olarak alamıyorsanız, bu durumda birkaç olası hata noktası bulunabilir:
 
+Uzak depoya erişim sorunları: Takım arkadaşınızın kodlarını almak için kullanılan uzak depoya erişim sorunları olabilir. Bu, ağ bağlantısı sorunları, yetki sorunları veya uzak depo sunucusunun erişilemez olması gibi çeşitli nedenlerle ortaya çıkabilir.
 
+Doğru depodan çekim yapılmaması: Takım arkadaşınızın kodlarını gönderdiği ancak sizin lokal olarak çekim yapmaya çalıştığınız depo arasında farklılık olabilir. Yanlış bir depodan çekim yapmaya çalışmak, kodların alınmamasına neden olabilir.
+
+Dal isimlendirme farklılıkları: Takım arkadaşınızın gönderdiği kodlar farklı bir dalda olabilir ve siz yanlış dala çekim yapmış olabilirsiniz. Bu durumda, kodların bulunduğu doğru dala geçiş yaparak "git pull" komutunu tekrar denemelisiniz.
+
+Çakışan değişiklikler: Takım arkadaşınızın gönderdiği kodlar, sizin üzerinde çalıştığınız değişikliklerle çakışıyor olabilir. Bu durumda "git pull" komutu birleştirme çakışmaları nedeniyle başarısız olabilir. Çakışmaları çözmek için birleştirme işlemi gerekebilir.
+
+Kodların gönderilmemiş olması: Takım arkadaşınız kodları göndermiş olabilir ancak sizin tarafınızdan alınmamış olabilir. Bu durumda, takım arkadaşınızın kodları gönderip göndermediğini kontrol etmek önemlidir.
+
+Bu tür durumlarda, hata mesajlarını kontrol etmek ve hangi adımların hatalı olduğunu belirlemek önemlidir. Ardından, sorunun kaynağını belirlemek ve uygun çözümü uygulamak için adımları yeniden gözden geçirebilirsiniz.
+
+******************************************************************************************************************************
 
