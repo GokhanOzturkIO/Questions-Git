@@ -49,3 +49,9 @@ git checkout branch-adi
 13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 git clone -b branch-adi repo-url
 ----------------------
+14-"Merge conflict" ne demektir?
+Branchler birleştirilirken git'in otomatik olarak çözümleyemediği çakışmaların olduğu durumu ifade eder.
+Bu durumlar genellikle şu durumlarda ortaya çıkar:
+-İki farklı branch aynı dosyanın aynı satırında değişiklik yapmışsa.
+-Bir branch bir dosyayı tamamen silerken, diğer branch aynı dosyayı düzenlemeye çalışıyorsa.
+----------------------
