@@ -49,3 +49,7 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 11. Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 - git branch (branch ismi) şeklinde oluşturabiliriz.
+
+12. Var olan bir "branch"e nasıl geçebiliriz?
+
+- git checkout (branch ismi) veya git switch (branch ismi) komutunu kullanabiliriz.
