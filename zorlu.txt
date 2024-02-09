@@ -41,3 +41,5 @@ Git reset ile belirtilen commit HEAD olarak belirtmeye yarar.Yani commitleri ger
     Git push, commitlerini uzak sunucuya gönderir.
 19->Atomic commit ne demektir?
     Daha anlaşılır küçük bloklar halinde birbiri ile ilişkili şeyleri bir arada paket olarak commitlemektir.Geri dönük takibi kolaylaştırır.
+ 20->Repository ne demektir?
+  Repository, git tarafından takip edilen, kodlar,eski versiyonlar,brachlerin tümüne verilen isimdir.
