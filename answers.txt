@@ -34,4 +34,8 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 -gitignore Dosyası Kullanıldığında
 -Silinen Dosya İçin
 
+8.".git" klasörünü silersek ne olur?
+
+-.git klasörü, bir Git deposunun tüm versiyon kontrolü ve konfigürasyon bilgilerini içeren önemli bir kısımdır. Bu klasörü silmek, Git deposunun işlevselliğini tamamen ortadan kaldırır ve projenizin Git ile yönetilemez hale gelmesine neden olur.
+
 
