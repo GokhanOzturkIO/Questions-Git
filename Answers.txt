@@ -75,6 +75,13 @@ Burda git clone komutunu kullanarak belirli spesifik bir branch'i çekmek istiyo
 
 =================================================================================================================================================================
 
+Q13)"Merge conflict" ne demektir?
+
+Merge conflict dediğimiz olay,farklı branchlerdeki değişiklikleri birleştirirken(merge) karşılaştığımız durumdur.Türkçe anlamına baktığımızda ise çakışma olduğunu görürürüz.Merge conflict'in birden fazla sebebi olabilir.İlk olarak 2 farklı branchte aynı dosyada aynı satırda değişiklik yaparsak conflict gerçekleşebilir.İkinci olarak bir branchdeki silinmiş bir dosyanın diğer branchde değiştirilmiş olması durumunda,üçüncü olarak ise bir branchte bir dosyanın tamamen silinip,diğer branchde ise o dosyanın değiştirilmiş olması durumda conflict yaşanabilir.Merge conflict gerçekleştiği durumda müdahale etmemiz gerekir.Git,çakışan dosyaları işaretler ve geliştiriciye hangi dosyalarda ve hangi satırlarda çakışma olduğunu gösterir.Bizler,bu çakışmayı çözmek için dosyaları düzeltebilir ve daha sonra birleştirme(merge) işlemini tamamlayabiliriz.
+
+=================================================================================================================================================================
+
+
 
 
 
