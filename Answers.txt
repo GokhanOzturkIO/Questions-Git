@@ -246,5 +246,23 @@ Atomic Commit'in Kullanım Alanları:
 
 ===============================================================================================
 
+20. Repository ne demektir?
+
+Kod, dokümantasyon ve diğer dosyaları içeren bir depolama alanıdır.
+Projeniz üzerinde iş birliği yapmak ve değişiklikleri takip etmek için kullanılır.
+
+===============================================================================================
+
+21. "git tag" nedir? "git branch"’ten farkı nedir?
+
+    Git tag'ler: Belirli bir commit'i işaretlemek için kullanılır.
+    Git branch'ler: Farklı bir geliştirme hattı oluşturmak için kullanılır.
+
+Hangi seçeneği kullanacağınız, ihtiyacınıza bağlıdır:
+
+    Sürümleri veya kilometre taşlarını işaretlemek istiyorsanız, git tag kullanın.
+    Farklı bir geliştirme hattı oluşturmak istiyorsanız, git branch kullanın.
+
+===============================================================================================
 
 
