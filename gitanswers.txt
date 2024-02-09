@@ -83,3 +83,7 @@ Staging area'ya gönderilen tüm değişiklikleri geri alıyoruz.
 18-"git commit" ile "git push" arasındaki fark nedir?
 
 git commit ile localimizdeki değişiklikleri kaydedip izleyebiliriz fakat sunucuya göndermiş olmayız.git push ile bu commitleri sunucuya göndeririz.Biri localde bulunur biri sunucuda.
+
+19-Atomic commit ne demektir?
+
+Tek bir değişikliği adım adım commitleme işlemidir.Bu şekilde çalışmanın daha anlaşılır olması sağlanır.
