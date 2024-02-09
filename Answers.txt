@@ -36,7 +36,18 @@ Bu bölge aslında bizim yaptığımız değişikliklerin commitlenmeden önceki
 Q6)"Untracked file" ne demektir?
 
 Untracked file,git repomuzda izlenmeyen dosyaları ifade eder.Yani kısa tabirle biz git status yazdığımızda Untracked file yazısı görüyorsak o dosyayı git takip etmiyordur.Yeni oluşturulan dosyalar genellikle izlenmeye başlanmazlar.Bu dosyaları biz git add komutu ile staging area'ya ekleyerek tracked edilmesini sağlarız.Ayrıca projenin gereksinimine bağlı olarak da,belirli dosyaların izlenmesini veya izlenmemesini sağlamak isteyebiliriz.
-	
+
+=================================================================================================================================================================
+
+Q7)".git" klasörünü silersek ne olur?
+Bu klasör bizim bütün git bilgilerimizin bulunduğu bir klasördür ve çok önemlidir.Git reposunun temel yapıtaşıdır ve git tarafından yönetilen bir projenin tüm bilgilerini içeren bir dizidir.Eğer .git klasörünü silersek bütün git geçmişimizi sileriz.Bu sebeple bu dosyayı silerken dikkatli olmalıyız.
+
+=================================================================================================================================================================
+
+
+
+
+
 
 
 
