@@ -1,2 +1,9 @@
 1-Git Nedir?
 Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
+
+2-Git fetch ve Git pull arasındaki farklar nedir?
+
+Git pull, uzaktaki veya merkezi depodaki tüm verileri alır ve yerel deponuzla ilgili dalınızda kullanılabilir hale getirirsiniz.Git fetch, uzak depodaki tüm verileri alır
+ve yerel deponuzda farklı bir dalda saklar.
+Git fetch komutunda veriler sadece indirilirken git pull komutunda indirilir ve yerel dalınıza yükleme yapılır.
+Git fetch komutu veriyi getirirken git pull komutu veriyi birleştirme ve getirme işlevini yapar.
