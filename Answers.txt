@@ -228,4 +228,23 @@ Commit'leri, Dosya Değişikliklerini
 
 ===============================================================================================
 
+19. Atomic commit ne demektir?
+
+Github'da atomic commit, birden fazla commit'in tek bir commit olarak gönderilmesini sağlayan bir özelliktir. Bu özellik, birden fazla değişikliği tek bir işlem olarak ele alarak, commit geçmişinin daha temiz ve anlaşılır olmasını sağlar.
+
+Atomic Commit'in Avantajları:
+
+    Commit geçmişinin daha temiz ve anlaşılır olmasını sağlar.
+    Birden fazla değişikliği tek bir adımda göndermenize imkan verir.
+    Hataları geri almayı kolaylaştırır.
+
+Atomic Commit'in Kullanım Alanları:
+
+    Birden fazla dosyayı tek bir commit'te göndermek
+    Bir feature'ın tamamını tek bir commit'te göndermek
+    Bir bug fix'i tek bir commit'te göndermek
+
+===============================================================================================
+
+
 
