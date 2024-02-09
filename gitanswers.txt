@@ -58,3 +58,7 @@ Eğer önceden oluşturulan bir branch'e geçmek istiyorsak git switch "branch_i
 
 Sadece belirli bir branch'i çekmek istiyorsak 
  git clone --single-branch --branch branch_name repository_url komutunu kullanabiliriz.
+
+ 
+14-"Merge conflict" ne demektir?
+Aynı projenin aynı yerinde değişiklik yapılmışsa git bunu algılar ve kullanıcıya "Merge conflict" hatası verir.
