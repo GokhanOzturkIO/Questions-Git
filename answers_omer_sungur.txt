@@ -6,4 +6,6 @@
 
 4 -> ve her zaman major ifadesini kullanıyormuşuz gibi burada da origin uzak sunucunun adresini veriyor. 
 
+5 -> HEAD, üzerinde bulunduğumuz commit'i ifade eder. Genellikle HEAD, en son commit üzerindedir.
+
  
