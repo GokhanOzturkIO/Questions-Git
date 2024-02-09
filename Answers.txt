@@ -207,6 +207,12 @@ git log komutu, bir Git deposundaki commit'lerin geçmişini gösterir.
 
 ===============================================================================================
 
+17. Git reset ile neyi geri alıyoruz?
 
+git reset komutu, Git deposundaki değişiklikleri geri almanıza yardımcı olur. Bu komut ile aşağıdakileri geri alabilirsiniz:
+
+Commit'leri, Dosya Değişikliklerini
+
+===============================================================================================
 
 
