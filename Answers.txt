@@ -51,6 +51,12 @@ Farklı branchler üzerinde işlemler gerçekleştirildikten sonra branchlerin "
 -aynı dosya üzerinde aynı satırlarda değişiklik oluştuysa
 -birisi dosyayı silmişken başka kullanıcı bu dosya üzerinde değişiklik yaptıysa merge conflict meydana gelir.
 -----------------------------------------------------------------------------------------------------------------------------
+"git log" komutu ile hangi bilgileri görebiliriz?
+Commit Hash: Her bir commit için benzersiz bir id
+Yazar Bilgisi: Değişikliğin kim tarafından yapıldığı bilgisi
+Tarih ve Saat: Commitin ne zaman yapıldığı
+Commit Mesajı: Yapılan değişikliği açıklayan bir commit mesajı
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
