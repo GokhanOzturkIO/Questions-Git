@@ -38,3 +38,5 @@
 -Atomic commit, bir versiyon kontrol sisteminde tüm değişikliklerin birlikte yapıldığı ve birbirinden bağımsız olarak uygulandığı bir commit işlemidir.
 20-Repository ne demektir?
 -Projenin kaynak dosyalarının ve kodlarının bulunduğu depodur
+21-"git tag" nedir? "git branch"’ten farkı nedir?
+-git tag belirli bir commiti işaretlemek için kullanılır , git branch ise farklı geliştirme dalları oluşturmak için kullanılır
