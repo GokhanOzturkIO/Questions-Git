@@ -45,3 +45,12 @@ ve düzeltme imkanına sahip oluyoruz.
 
 ******************************************************************************************************************************************************
 
+7- "Untracked file" ne demektir?
+
+Untracked file, Git tarafından izleme altına almadığı dosyaları tanımlar. Bu dosyalar üzerinde yapılan değişiklikler git sistemine henüz eklenmemiştir.
+ilk olarak git add komutu ile bu dosyaları izleme altına alabilir akabinde daha sonra git commit -m "commit mesajı" ile staging area'ya dahil edebiliriz.
+
+******************************************************************************************************************************************************
+
+
+
