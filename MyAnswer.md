@@ -110,3 +110,27 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### Repository ne demektir?
 
 - Bir yazılım projesinin tüm dosyalarının ve geçmişinin saklandığı bir yer olarak tanımlanabilir.
+
+### "git tag" nedir? "git branch"’ten farkı nedir?
+
+- git tag komutu, etiketlerin listelenmesi, oluşturulması, silinmesi veya kontrol edilmesi için kullanılabilir.
+
+- git branch, farklı geliştirme hatlarını (branches) temsil eden ve belirli bir commit'in bir parçası olan bir işaretçidir.
+
+### Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+- Github Desktop bildiklerim arasındadır.
+
+### "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+- Git bir versiyon yönetim aracıyken Github, Gitlab, Bitbucket gibi siteler bir nevi bunları depoladığımız alanlardır.
+
+### main ya da master branch'inin diğer branchlerden farkı nedir?
+
+- Projenin ana orjinal halini temsil eden branchtir.
+
+### ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+- Github gibi depolama yapacağımız yerlere ulaşmasını istemediğimiz dosyaları içerisinde ignorelayarak diğer insanların görmemesini sağladığımız dosyaları içeren özel git dosyasıdır.
+
+- Mesela api key, db password gibi özel bilgileri depolamazlar.
