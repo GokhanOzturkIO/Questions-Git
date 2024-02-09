@@ -30,3 +30,5 @@ Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i ku
  "git clone -b branchAdı uzakRepoAdresi" ile repodan istenen branchi çekebiliriz.
  14->"Merge conflict" ne demektir?
      Merge conflict, branch birleşiminde, git pull, git push gibi komutlarda meydana gelecek zıtlaşma durumudur.
+15->"git log" komutu ile hangi bilgileri görebiliriz?
+    commit geçmişini, commit yazarını, commit yazarının email adresini ve commitin atıldığı zaman bilgisini görebiliriz.
