@@ -15,3 +15,5 @@ origin uzak sunuculardan(birden fazla ise) temel olan repoyu,zaten bir tane uzak
  commite kadar tutulduğu yerdir.
 7->"Untracked file" ne demektir?
  Git tarafından takip edilmeyen dosya demektir.
+8->".git" klasörünü silersek ne olur?
+Daha önce indexlenmiş olan versiyonları kaybederiz, dosyaların en son hali elimizde kalır, fakat eski versiyonlarına erişemeyiz.
