@@ -24,3 +24,5 @@
 -git checkout [branch_adi] veya git switch [branch_adi] şeklinde geçiş yapabiliriz
 13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 -git clone --branch development link şeklinde belli bir branch'in clone'unu alabiliriz
+14-"Merge conflict" ne demektir?
+-Birleşme hatasıdır aynı projenin aynı yerinde değişiklik yapılınca git bunu "Merge conflict" olarak algılar
