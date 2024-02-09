@@ -69,3 +69,6 @@ git clone --branch branch_adi <repo_url>
 ✔"git tag" nedir? "git branch"’ten farkı nedir?
   -Git tag komutu belirli bir commit üzerinden etiket eklemek ve belirli bir commite isim vermek için kullanılır. En önemli kullanım sebebi projenin güncel versiyonu dışında geçmişe dönebilmektedir neden commit değilde tag derseniz bir porjede çok fazla commit oluyor ve versiyonu bulmak zor olur bu yüzden git tag ile projenin versiyonlarını etiketleyerek daha çabuk bulabiliriz.
   -Git tag versiyon işlemlerinde işimize yarar git branchler ise genellikle bir projenin parçası olarak oluşturulur ve birleşitirilir. Git tagler sabit bir yapıya sahip git branchler ise dinamik bir yapıya sahipler sürekli değiştirilebilir geliştirilebilir.
+
+✔Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+  -GitHub Desktop,SourceTree, GitKraken,TortoiseGit,Git Extensions, GitUp,Git GUI, SmartGit, Git-cola,Tower,Fork,GitWeb ..
