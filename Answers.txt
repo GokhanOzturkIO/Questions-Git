@@ -95,6 +95,13 @@ Q14)"git log" komutu ile hangi bilgileri görebiliriz?
 
 =================================================================================================================================================================
 
+Q15)"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+git diff ile working directory yani bizim çalışma alanımızdaki değişiklikleri görebiliriz,ikinci olarak staging areaya alınan dosyalar ile son yapılan commit arasındaki değişiklikleri görebiliriz,üçüncü olarak iki farklı commit arasındaki değişiklikleri görebiliriz,dördüncü olarak iki farklı branch arasındaki değişiklikleri görebiliriz,son olarak ise sadece belirli bir dosya üzerindeki değişiklikleri görebiliriz.
+
+
+=================================================================================================================================================================
+
 
 
 
