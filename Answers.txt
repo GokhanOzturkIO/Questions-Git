@@ -16,3 +16,6 @@ komutunu kullanmamıştır.
 atamamıştır)
 -Biz kodda değişiklik yapıp commitlemediğimiz için pull edemiyor olabilir.
 -----------------------------------------------------------------------------------------------------------------------------
+“git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+Origin uzak sunucuya tanımlanan bir isimdir.
+-----------------------------------------------------------------------------------------------------------------------------
