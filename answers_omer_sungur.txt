@@ -33,3 +33,5 @@
 17 -> git reset ile staging area'da olan değişiklikleri çıkartırız. Bununla değişiklik artık takip edilmez (untracked file).
 
 18 -> Git commit ile localimizde versiyonlama yapıyoruz. Yani atılan commitleri sadece localimizde görebiliyoruz. Bunları uzak sunucuya aktarmak için git push komutunu kullanıyoruz.
+
+19 -> Atomic commit her bir commitin single responsibility kavramına uymasını sağlamak için söylenen bir terimdir. Örneğin bir proje var ve birçok değişiklik yapıyoruz. Her değişiklik tek bir ifade bildirmeli. Yani bir özellik eklediniz bunun commiti atılmalı, bu özellikte bir bug oldu ve çözdüysek bunun ayrı bir commiti atılmalı. Özelliği ekledikten sonra üstüne bir de bug fix yapınca ikisi tek bir commit yapılmamalı. Bu branch'te 3. ve 4. soruların yerini karıştırmıştım ve hem 3. soru eklendi hem de 3'le 4'ün yeri değişti diye commit atmıştım. Bu yanlıştır. Bu ikisi ayrı ayrı commitlenmeli.
