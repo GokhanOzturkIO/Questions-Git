@@ -117,6 +117,22 @@ git tag ile eklenen etiketler, commit'ler üzerine eklenir ve genellikle değiş
 -GitExtensions
 -SmartGit
 
+23. GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+-Git, dağıtık bir versiyon kontrol sistemidir. Yazılım geliştirme süreçlerinde, bir projenin geçmiş durumlarını takip etmek, değişiklikleri yönetmek ve geliştiriciler arasında işbirliği yapmayı kolaylaştırmak için kullanılır.
+
+-GitHub, bir bulut tabanlı Git depolama ve işbirliği platformudur. Projelerinizi Git ile yönetmenize ve depolamanıza olanak tanır. Ayrıca, projelerinizi başkalarıyla paylaşabilir, işbirliği yapabilir ve proje üzerindeki değişiklikleri izleyebilirsiniz.
+
+Farklar:
+
+-Git, versiyon kontrol sistemidir ve genellikle lokal bir bilgisayar üzerinde çalışır.
+-GitHub, bir bulut tabanlı platformdur ve projelerinizi depolamanıza, paylaşmanıza, işbirliği yapmanıza ve takip etmenize olanak tanır.
+-Git, sadece komut satırı arayüzü (CLI) veya grafik arayüzü kullanılarak kullanılabilir.
+-GitHub, web tabanlı bir platform olup, aynı zamanda Git işlemlerini gerçekleştirmek için kullanıcı dostu bir web arayüzü sunar. Ayrıca, GitHub Desktop gibi masaüstü uygulamaları da kullanılabilir.
+-Git, bir versiyon kontrol sistemi olarak temel görevlerini yerine getirirken, GitHub, proje yönetimi, işbirliği ve sosyal kod paylaşımı gibi ek özelliklere sahiptir.
+
+Kısacası, Git bir versiyon kontrol sistemidir, GitHub ise Git tabanlı projeleri depolamak, işbirliği yapmak ve yönetmek için bir platformdur.
+
 
 
 
