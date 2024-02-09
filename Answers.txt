@@ -41,3 +41,9 @@ Eğer bu dosyaların izlenmesi gerekiyorsa, öncelikle git add komutuyla izlenme
 ".git" klasörünü silmek, projenin tüm geçmişini, izlenen dosyaların durumunu ve dal bilgilerini kaybetmemize neden olur.
 
 -----------------------------------------------
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+-
+
+------------------------------------------------
+10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+"branch" yapısı, paralel geliştirme, değişiklik yönetimi ve iş akışı yönetimi gibi önemli avantajlar sağlayarak, yazılım geliştirme süreçlerini daha verimli ve düzenli hale getirir.
