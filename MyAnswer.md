@@ -74,3 +74,7 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 - İki farklı dalda aynı dosyanın aynı satırlarında yapılan değişiklikler.
 
 - Bir dalda bir dosyanın belirli satırlarının silinmesi ve diğer dalda aynı dosyanın aynı satırlarının değiştirilmesi.
+
+### "git log" komutu ile hangi bilgileri görebiliriz?
+
+- Daha önce atmış olduğumuz commitlerin listesini görebiliriz ve bu listede bulunan id gibi bilgiler ile geriye dönebiliriz veya commitleri resetleyebiliriz.
