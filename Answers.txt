@@ -49,3 +49,10 @@ Q4 - What does the word "HEAD" represents?
 
 *******************************************************
 
+Q5 - What does the region called 'Staging Area' or 'Index' exactly mean?
+
+## It's the area where you decide which changes from your local files will be pushed to the server.
+
+>> The 'Staging Area' or 'Index' in Git refers to a transitional area where changes are prepared before committing to the repository, allowing developers to selectively stage modifications for inclusion in the next commit.
+
+*******************************************************
