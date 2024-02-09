@@ -50,6 +50,15 @@ Q8)Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olar
 
 =================================================================================================================================================================
 
+Q9)Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Git branch yapısı,bize projenin farklı çalışma yollarını,geliştirme süreçlerini veya özellikleri izlememizi sağlar.Türkçe çevirisi "dal" demektir.Her bir branch,projenin bir versiyonunu temsil eder ve ana branch(genellikle main veya master olarak adlandirilir) üzerinden ayrılan bir geliştirme hattıdır.Bu,bir projenin farklı sürümlerini ve değişikliklerini izlemeyi kolaylaştırır.Branch yapısın bizlere çeşitli avantajlar sağlar.Bu avantajlardan ilki farklı ekipler ve geliştiricler ile aynı anda farklı özellikler veya düzeltmeler üzerinde çalışabiliriz.Her biri kendi branchinde değişiklikleri yapar daha sonra bu değişiklikleri main branch ile birleştirirler.İkinci olarak yeni bir feature deniyorsak,bu feature'yi ayrı bir branchde projenin gidişatını bozmadan test edebiliriz,eğer uygun bir durum olursa da main branchle birleştirebiliriz.Üçüncü olarak ise herhangi bir branch üzerinde yaptığımız değişikliklerin main branchi etkilemediğinden dolayı geri alınması veya değiştirilmesi daha kolaydır.Bu şekilde riskler azaltılır ve çeşitli denemeler yapılabilir.Son olarak akıllarda canlanması için branch yapısını otoyola eklenen yan yollar olarak düşünebiliriz.Bu durumda bir adet ana otoyol vardır ve çeşitli yan yollar vardır.Bu yan yollar en sonunda otoyol'a bağlanır.Burada, yan yolları branchler,ana otoyolu ise main branch olarak düşünebiliriz.
+
+=================================================================================================================================================================
+
+
+
+
 
 
 
