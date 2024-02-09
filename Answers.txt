@@ -149,6 +149,15 @@ Burda git'i görsel olarak kullanmak için gitkraken,Github Desktop,Source Tree,
 
 =================================================================================================================================================================
 
+Q22)"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git bizim proje geliştirirken kullandığımız dağıtık bir sürüm kontrol sistemidir.Proje dosyalarımızın sürüm geçmişini izlemek,değişiklikleri yönetmek ve işbirliği yapmak için kullanılır.Yerel(Local) bilgisayarımızda çalışır ve repolarımızı yönetir.Github ise git tabanlı yazılım geliştirme platformudur.Bizim git repolarımızı barındırır,projelerimizi sergileyip diğer geliştiricilerle işbirliği yapmamızı sağlar.Github web tabanlı bir hizmettir.
+
+Github benzeri diğer sayfalara örnek olarak Gitlab,Bitbucket verilebilir.
+
+Github Kullanıcı Adım :ArdaIstn
+
+=================================================================================================================================================================
 
 
 
