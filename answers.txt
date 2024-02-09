@@ -1,0 +1,3 @@
+1. Git Nedir?
+
+- Git, bir versiyon kontrol sistemi (VCS) olarak bilinen ücretsiz ve açık kaynaklı bir yazılımdır. Geliştiricilerin kaynak kodlarını takip etmelerine, değişiklikleri yönetmelerine ve işbirliği yapmalarına olanak tanır. 
