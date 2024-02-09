@@ -36,3 +36,12 @@ commit HEAD olur. git log komutunu kullandığımızda güncel olarak hangi comm
 şeklinde bir gösterim bulunur.
 
 ******************************************************************************************************************************************************
+
+6- "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Staging Area, değişikliklerimizi commit etmeden önce hazırladığımız geçici bir alandır. Değişik yaptığımız dosyaları git add komutu ile staging area'ya ekleyerek,
+bu dosyaları bir sonraki commit'te dahil etmek istediğimizi belirtmiş oluyoruz. Bu alan sayesinde projemizde commit öncesi yaptığımız değişiklikleri kontrol etme
+ve düzeltme imkanına sahip oluyoruz.
+
+******************************************************************************************************************************************************
+
