@@ -98,5 +98,9 @@ Daha temiz, daha düzenli ve daha yönetilebilir bir kod tabanı oluşturmak iç
 Bir versiyon kontrol sistemi altında bulunan ve proje ile ilgili tüm dosyaların, geçmiş değişikliklerin ve sürümlerin saklandığı yerdir.
 
 -----------------------------------------------------
+21- git tag" nedir? "git branch"’ten farkı nedir?
+"git tag" komutu, belirli bir commit'e etiket eklemek ve yayınlanmış sürümleri veya versiyonları temsil etmek için kullanılırken, "git branch" komutu branch'leri oluşturmak, yönetmek ve geçiş yapmak için kullanılır.
+
+-----------------------------------------------------
 
 
