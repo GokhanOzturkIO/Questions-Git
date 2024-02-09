@@ -8,3 +8,5 @@ Genel olarak, "git fetch" komutu, uzak depodaki değişiklikleri almak için kul
     -Biz kodda değişiklik yapıp commitlemediğimiz için pull edemiyor olabilir.
 4->"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 origin uzak sunuculardan(birden fazla ise) temel olan repoyu,zaten bir tane uzak sunucu reposu var is o repoyu temsil eder.
+5->"HEAD" kelimesi neyi temsil etmektedir?
+    Bulunan brachdeki son commit'i ifade eder.
