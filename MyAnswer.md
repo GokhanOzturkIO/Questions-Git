@@ -46,3 +46,13 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 - Son olarak, Git'in bu dizini kullanmasını sağlamak için git config komutunu kullanarak bu dizini belirtin
 
 - git config --global init.templateDir ~/.git_template
+
+### Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+- Branchler bizler için main branchi kopyalayan ayrı bir dal oluşturur.
+
+- Bir nevi yol gibi düşünün bu da o yola ek sapa başka bir yol oluşturur fakat her ikiside birbirinin kopyasıdır. 
+
+- Amacımız genelde main branchtekileri değiştirmeden aynı branchi kopyalayarak tüm değişiklikleri orada yapmamızı sağlarız. Ardından her şey yolundaysa bu branchleri birbiri ile birleştiririz.
+
+
