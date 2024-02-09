@@ -78,4 +78,9 @@ sürümleri geliştirmek için farklı dallar oluşturmak için kullanılır.
 <---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 21.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 -> GitLab, Bitbucket,Launchpad örnek verebiliriz.
-<----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------			
+<----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22."GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+-> Dağıtık bir versiyon kontrol sistemidir. Proje dosyalarının değişikliklerini izler, farklı versiyonları oluşturur ve işbirliği yapmayı sağlar. Yerel makinede çalışır.Githup ise Git tabanlı bir kod barındırma ve işbirliği platformudur. 
+Git depolarının barındırılmasının yanı sıra, kod incelemesi, takım işbirliği, hata takibi gibi birçok özellik sunar.	
+-> Örnek sitelere ise GitLab, Bitbucket,Launchpad örnek verebiliriz.Sadece githup kullanıyorum kullanıcı ismim: ynemreuslu.
+<---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
