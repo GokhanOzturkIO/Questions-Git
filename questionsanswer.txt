@@ -30,3 +30,5 @@
 - o repoya ait olan bütün commitleri, o kişiye ait kullanıcı adı mail adresini görebiliriz
 16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 - 2 commit arasındaki değişiklikleri, staging area'ya son atılan commit arasındaki değişiklikleri , iki farklı branch arasındaki değişiklikleri görebiliriz
+17-Git reset ile neyi geri alıyoruz?
+-staging areaya alından tüm değişiklikleri geri alır
