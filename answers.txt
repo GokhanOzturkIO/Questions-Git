@@ -1,3 +1,8 @@
 1. Git Nedir?
 
 - Git, bir versiyon kontrol sistemi (VCS) olarak bilinen ücretsiz ve açık kaynaklı bir yazılımdır. Geliştiricilerin kaynak kodlarını takip etmelerine, değişiklikleri yönetmelerine ve işbirliği yapmalarına olanak tanır. 
+
+2. "git pull" ile "git fetch" komutlarının farkı nedir?
+
+- Git fetch, uzak depodan güncellemeleri çeker, ancak bu güncellemeleri doğrudan yerel çalışma kopyasına birleştirmez. Uzak depodaki değişiklikleri yereldeki takip ettiğiniz uzak dallarda görmek için kullanılır.
+- Git pull, git fetch ile aynı işlevi görür (uzak depodan güncellemeleri alır), ancak ayrıca bu güncellemeleri yerel çalışma kopyasına da birleştirir.
