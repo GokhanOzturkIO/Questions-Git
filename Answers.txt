@@ -69,6 +69,9 @@ git diff branch_name other_branch_name -> belirli iki branch arasındaki değiş
 Git reset ile neyi geri alıyoruz?
 "git reset" komutu, "git add" ile Staging Area'ya eklenmiş ancak henüz commitlenmemiş değişiklikleri Staging Area'dan çıkarmak için kullanılır.
 -----------------------------------------------------------------------------------------------------------------------------
+"git commit" ile "git push" arasındaki fark nedir?
+"git commit" komutu yapılan değişiklikleri local repoya kaydederken "git push" komutu commitlenen değişiklikleri uzak sunucuya göndermek için kullanılır.
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
