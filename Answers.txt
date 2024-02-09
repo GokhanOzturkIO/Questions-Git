@@ -69,7 +69,11 @@ Bu kısımda da örnek vermem gerekirse "git checkout feature" komutunu kullanar
 
 =================================================================================================================================================================
 
+Q12)"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
+Burda git clone komutunu kullanarak belirli spesifik bir branch'i çekmek istiyorsak, "-b" veya "--branch" flag'ini kullanabiliriz.Taslak olarak komut'u şöyle gösterebiliriz: "git clone -b <branch_adi> <repository_url>".Hemen bir örnek verelim.Örneğin remote repoda yer alan development adında bir branchi çekmek istiyoruz.Bu durumda yazmamız gereken komut "git clone -b development <repository_url>".İşte bu şekilde sadece belirli bir branchi localimize çekerek,projenin tüm tarihini ve diğer branchlerini çekmekten kaçınabiliriz.Büyük çaplı projelerde ve sadece spesifik bir branche'e ihtiyaç duyduğumuz durumlarda faydalı olabilir.
+
+=================================================================================================================================================================
 
 
 
