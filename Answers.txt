@@ -121,3 +121,11 @@ Q13 - How can we specifically fetch only a certain branch when using the 'git cl
 
 *******************************************************
 
+Q14 - What does 'merge conflict' mean?
+
+## It refers to the conflicts while you are merging your code either other branches. 
+ 
+>> A merge conflict occurs in Git when there are conflicting changes between the branches being merged, requiring manual intervention to resolve the discrepancies before the merge can be completed successfully.
+
+*******************************************************
+
