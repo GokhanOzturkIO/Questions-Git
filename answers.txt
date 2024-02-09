@@ -12,3 +12,8 @@ Takım arkadaşımız add, commit ve push işlemlerinin tamamını gerçekleşti
 4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 "origin" adı, bir projenin uzak depolarını takip etmek için sıkça kullanılan varsayılan bir isimdir. Genellikle, projeyi klonlarken otomatik olarak eklenen orijinal uzak depoyu temsil eder. Ancak, aynı projede birden fazla uzak depo eklenmişse, bu uzak depolar farklı isimlerle etiketlenebilir.
 ----------------------
+5-"HEAD" kelimesi neyi temsil etmektedir?
+HEAD, genellikle şu an üzerinde çalıştığınız branch'i temsil eder. Yani, hangi branch üzerinde çalışıyorsanız, HEAD o branch'i gösterir.
+HEAD, aynı zamanda mevcut branch'in en son commit'ini temsil eder. Yani, hangi commit üzerinde çalıştığınızı gösterir.
+Eğer bir commit üzerinde değilseniz ve bir branch üzerinde çalışıyorsanız, HEAD en son commit'i gösterir.
+----------------------
