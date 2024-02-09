@@ -61,7 +61,9 @@ git reset komutu, --mixed, --soft veya --hard gibi farklı bayraklarla kullanıl
 -> --soft bayrağı, geri alınan commit'in değişikliklerini hem staged alanda hem de çalışma dizininde bırakır.
 -> --hard bayrağı, geri alınan commit'in değişikliklerini tamamen siler, hem staged alandan hem de çalışma dizininden kaldırır.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-
+17."git commit" ile "git push" arasındaki fark nedir?
+-> git commit ile yapılan değişiklikler yerelde saklanırken, git push ile bu değişiklikler uzak sunucuya gönderilir ve paylaşılır.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
 
