@@ -337,3 +337,19 @@ Main ve Master Arasındaki Fark:
     Kişisel bilgiler içeren dosyalar
 
 ===============================================================================================
+
+26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+    Uzak bir Git deposundan bir branch'i silmek için kullanılır.
+    origin varsayılan uzak depoyu temsil eder.
+    branch_name silmek istediğiniz branch'in adıdır.
+
+Bu komutu kullanmak için:
+
+    Yerel deponuzda branch'in silinmiş olması gerekir.
+    Yeterli izinlere sahip olmanız gerekir.
+
+Komut nasıl çalışır:
+
+    Komut, uzak depodaki branch'in silinmesi için bir istek gönderir.
+    İstek kabul edilirse, branch uzak depodaki listeden silinir.
