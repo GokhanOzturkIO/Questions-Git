@@ -21,3 +21,8 @@
 5. HEAD" kelimesi neyi temsil etmektedir?
 
 - "HEAD" terimi, Git'te şu anki çalışma kopyasının (working directory) ve üzerinde çalıştığınız daldaki en son commit'in referansını temsil eder. Yani, mevcut işlemekte olduğunuz noktayı işaret eden bir gösterge olarak düşünülebilir.
+
+6. "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+-"Staging Area" veya "Index", Git'in çalışma prensiplerinden biri olan üç aşamalı iş akışının (three-stage workflow) bir parçasıdır. Staging area, çalışma kopyasındaki değişiklikleri gelecekteki bir commit için hazırlanan geçici bir bölge veya ara aşama olarak düşünülebilir. Buraya eklenen dosyalar, bir sonraki commit'e dahil edilmeye aday hale gelir.
+
