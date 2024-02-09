@@ -86,3 +86,15 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 - Staging Area ile son commit arasındaki farklar: git diff --staged veya git diff --cached
 
 - İki belirli commit arasındaki farklar: git diff commit1SHA commit2SHA
+
+### Git reset ile neyi geri alıyoruz?
+
+- git reset komutu, bir Git deposundaki son commit işlemini geri almak  için kullanılır. Bu komut, son commit'in yapıldığı commit'i işaret eden HEAD işaretçisini taşıyarak çalışır.
+
+- git reset --soft: Son commit'i geri alır, ancak değişiklikleri çalışma alanınızda ve staging area'da (index) korur. Bu, son commit'inizi değiştirmek istediğinizde veya yanlış bir commit yaptığınızda yararlı olabilir.
+
+- git reset --mixed veya sadece git reset: Bu varsayılan davranıştır. Son commit'i geri alır ve değişiklikleri staging area'da iptal eder. Yani, çalışma dizinizdeki değişiklikler korunur ancak staging area'ya geri alınır. Bu seçenek, bir commit'in içeriğini değiştirmek istediğinizde veya commit'e eklenmemesi gereken dosyaları staging area'dan çıkarmak istediğinizde yararlı olabilir.
+
+- git reset --hard: Son commit'i geri alır ve değişiklikleri tamamen iptal eder. Yani, hem staging area'daki hem de çalışma dizinizdeki değişiklikler silinir. Bu seçenek, son commit'i tamamen geri almak ve tüm değişiklikleri silmek istediğinizde yararlı olabilir.
+
+- 
