@@ -5,3 +5,6 @@ Git, yazılım geliştirme süreçlerinde kullanılan, hız odaklı, dağıtık 
 git fetch, uzak depodan yeni bilgileri çeker, ancak yerel çalışma dizinini değiştirmez veya güncellemez.
 git pull, benzer şekilde uzak depodan yeni bilgileri çeker, ancak aynı zamanda bu bilgileri yerel çalışma dizinine de uygular.
 ----------------------
+3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+Takım arkadaşımızın kodlarını gönderdiği branchte olduğumuzdan emin olmalıyız.
+Takım arkadaşımız add, commit ve push işlemlerinin tamamını gerçekleştirilmemiş olabilir.
