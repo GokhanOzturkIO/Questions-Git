@@ -96,4 +96,9 @@ Var olan bir branch'e geçiş yapmak içim "git checkout branch_adı" komutu kul
 
 ******************************************************************************************************************************************************
 
+13- "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+Belirli bir branch'i çekmek için "git clone -b branch_adı <repository_urlsi>" veya "git clone --branch branch_adı <repository_urlsi>"
+
+******************************************************************************************************************************************************
 
