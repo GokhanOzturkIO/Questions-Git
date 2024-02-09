@@ -87,3 +87,7 @@ git commit ile localimizdeki değişiklikleri kaydedip izleyebiliriz fakat sunuc
 19-Atomic commit ne demektir?
 
 Tek bir değişikliği adım adım commitleme işlemidir.Bu şekilde çalışmanın daha anlaşılır olması sağlanır.
+
+20- Repository ne demektir?
+
+Bir projenin kaynak dosyalarının ve kodlarının bulunduğu depodur.
