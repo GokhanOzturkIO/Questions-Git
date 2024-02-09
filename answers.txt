@@ -42,3 +42,8 @@ Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
 
 - Bunun için git init --template <dosya yolu> komutunu kullanmalıyız. Bu sayede istediğimiz templatelere göre git reposu oluşturulur.
 
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+- Git'te "branch" (dal), projenin farklı özelliklerini veya geliştirmelerini izole etmek ve yönetmek için kullanılan bir kavramdır. Git, her bir dalı, projenin bir belirli noktasındaki commit zinciri olarak düşünür. Yani, her dal, projenin farklı bir durumunu temsil eder. Bir projede birden çok dal kullanmak, farklı geliştirmeleri aynı anda izlememizi, test etmemizi ve uygulamamızı sağlar. 
+
+
