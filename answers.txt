@@ -109,6 +109,14 @@ Bir etiket, genellikle bir noktayı işaretlemek ve bu noktaya daha sonra kolayc
 git tag genellikle sürüm numaralarını veya önemli dönemeç noktalarını temsil eden isimlendirmelerle kullanılırken, git branch genellikle özelliklerin veya geliştirmelerin izole edilmesi ve yönetilmesi için kullanılır.
 git tag ile eklenen etiketler, commit'ler üzerine eklenir ve genellikle değiştirilemez. git branch ise projede farklı çalışma alanları sağlar ve üzerine geçilebilir veya birleştirilebilir.
 
+22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+-GitHub Desktop
+-SourceTree
+-GitKraken
+-GitExtensions
+-SmartGit
+
 
 
 
