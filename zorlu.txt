@@ -36,3 +36,6 @@ Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i ku
     2 farklı durumun (son commit ile son committen sonra yapılan değişiklikleri görebiliriz)
 17->Git reset ile neyi geri alıyoruz?
 Git reset ile belirtilen commit HEAD olarak belirtmeye yarar.Yani commitleri geri alıyoruz.
+18->"git commit" ile "git push" arasındaki fark nedir?
+    Git commit, bir önceki commitden commit anınına kadar olan değişiklikler için versiyon yaratır.
+    Git push, commitlerini uzak sunucuya gönderir.
