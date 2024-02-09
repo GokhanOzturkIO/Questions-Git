@@ -40,3 +40,7 @@ echo "# My Project" > ~/.git-templates/init/ReadMe.md
 
  Git konfigürasyonunu güncelleriz.
 git config --global init.templatedir '~/.git-templates'
+
+10- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+branch yapısı dallanmayı yani projede ayrı bir alanda çalışmamızı sağlar.Bu şekilde aynı projede birden çok kişi ayrı şekilde çalışabilir.
