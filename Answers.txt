@@ -160,6 +160,30 @@ Bu komut, "https://github.com/ornek/proje.git" adresindeki deponun "hata_duzelti
 
 ===============================================================================================
 
+14. "Merge conflict" ne demektir?
+
+Merge conflict, Git'te iki branch'i birleştirmeye çalışırken ortaya çıkan bir durumdur. Bu durum, aynı dosyanın iki farklı branch'te farklı şekilde değiştirilmesi sonucu oluşur.
+
+Merge Conflict'in Nedenleri:
+
+    Aynı dosyanın farklı branch'lerde farklı satırları değiştirilmiş olabilir.
+    Aynı dosyanın farklı branch'lerde aynı satırları değiştirilmiş olabilir.
+    Bir branch'te silinen bir dosya, diğer branch'te değiştirilmiş olabilir.
+
+Merge Conflict'i Çözmek:
+
+Merge conflict'i çözmek için, conflict'in olduğu dosyaları açıp, hangi değişikliklerin korunacağını ve hangilerinin atılacağını manuel olarak belirlemeniz gerekir.
+
+Merge Conflict'i Çözme Adımları:
+
+    Git, conflict'in olduğu dosyaları size bildirir.
+    Conflict'in olduğu dosyaları açın.
+    Her satırda, hangi değişikliğin korunacağını ve hangilerinin atılacağını belirleyin.
+    Değişiklikleri kaydedin ve commit'leyin.
+
+===============================================================================================
+
+
 
 
 
