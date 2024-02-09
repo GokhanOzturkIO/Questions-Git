@@ -82,3 +82,7 @@ Hard Reset:
 Dosyaların içeriği belirtilen commit'e göre güncellenir.
 git reset --hard commit_sha
 ----------------------
+18-"git commit" ile "git push" arasındaki fark nedir?
+git commit yapılan değişiklikleri yerel depoya kaydetmek için kullanılır.
+git push yerel depodaki commit'leri uzak depoya göndermek için kullanılır.
+----------------------
