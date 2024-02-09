@@ -207,3 +207,12 @@ Master branch'inde ise projenin kararlı (Stable) sürümü bulunur. Yayınlanan
 Diğer branchlerde de özellik geliştirme, hata düzeltme veya deneysel çalışmalar yapılır.
 
 ******************************************************************************************************************************************************
+
+25- ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+Bu dosya, Git sisteminde izlenmemesi gereken dosya ve klasörleri tanımlamak için kullanılır bir düz metin dosyasıdır. Bu dosya içerisindeki dosyalar,
+Git tarafından yoksayılır ve depoya eklenmez. Genel itibariyle paylaşılması istenmeyen dosyalar burada tutulur. Ayrıca geliştirme sırasında oluşan geçici dosyalar
+ve proje ile ilgisi olmayan dosyaları ayıklamak için de kullanılır.
+
+******************************************************************************************************************************************************
+
