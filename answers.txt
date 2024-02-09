@@ -111,3 +111,6 @@ Github:augurcan
 24-main ya da master branch'inin diğer branchlerden farkı nedir?
 Master branch, genellikle projenin ana ve stabil geliştirme hattını temsil ederken, diğer branch'ler genellikle özel geliştirme hatlarıdır ve yeni özelliklerin, hataların düzeltilmesinin veya denemelerin yapıldığı alanlardır.
 ----------------------
+25-".gitignore" dosyası nedir ve ne amaçla kullanılır?
+Bir Git deposundaki belirli dosyaların veya klasörlerin izlenmesini veya commit geçmişine eklenmesini önlemek için kullanılan bir dosyadır.
+----------------------
