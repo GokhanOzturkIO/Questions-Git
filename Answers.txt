@@ -41,7 +41,15 @@ Q3 - If our teammate says, 'I've pushed my code, continue with my development,' 
 
 *******************************************************
 
-Q4 - What does the word "HEAD" represents?
+Q4 - What does "origin" represent in the "git fetch origin" command?
+
+## Remote repository.
+
+>> In the context of the "git fetch origin" command, "origin" typically refers to the default remote repository from which the local repository was cloned or with which it is associated, allowing developers to retrieve any changes made to the remote repository since the last fetch or pull operation.
+
+*******************************************************
+
+Q5 - What does the word "HEAD" represents?
 
 ## Checked-out branch's latest commit.
 
@@ -49,7 +57,7 @@ Q4 - What does the word "HEAD" represents?
 
 *******************************************************
 
-Q5 - What does the region called 'Staging Area' or 'Index' exactly mean?
+Q6 - What does the region called 'Staging Area' or 'Index' exactly mean?
 
 ## It's the area where you decide which changes from your local files will be pushed to the server.
 
@@ -57,7 +65,7 @@ Q5 - What does the region called 'Staging Area' or 'Index' exactly mean?
 
 *******************************************************
 
-Q6 - What does 'Untracked file' mean?
+Q7 - What does 'Untracked file' mean?
 
 ## The files which we did not add to git.
 
@@ -65,7 +73,7 @@ Q6 - What does 'Untracked file' mean?
 
 *******************************************************
 
-Q7 - What happens if we delete the ".git" folder?
+Q8 - What happens if we delete the ".git" folder?
 
 ## That means we lose the files which tracked by git.
 
@@ -73,7 +81,7 @@ Q7 - What happens if we delete the ".git" folder?
 
 *******************************************************
 
-Q8 - If we want a 'ReadMe.md' file to be automatically created every time we use the 'git init' command in our local repository, what should we do?
+Q9 - If we want a 'ReadMe.md' file to be automatically created every time we use the 'git init' command in our local repository, what should we do?
 
 ## I think we can use a template, but I have never used it so...
 
@@ -81,7 +89,7 @@ Q8 - If we want a 'ReadMe.md' file to be automatically created every time we use
 
 *******************************************************
 
-Q9 - What is the 'branch' structure mentioned in Git? What does it provide us?
+Q10 - What is the 'branch' structure mentioned in Git? What does it provide us?
 
 ## Branch is way to clone the code and work freely without changing the actual production code. 
 
