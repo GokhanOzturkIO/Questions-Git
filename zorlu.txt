@@ -13,3 +13,5 @@ origin uzak sunuculardan(birden fazla ise) temel olan repoyu,zaten bir tane uzak
  6->"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
  Son commit den sonra git'in takip ettiği dosyalar arasından değişiklik yapılan dosyaları bir ,sonraki
  commite kadar tutulduğu yerdir.
+7->"Untracked file" ne demektir?
+ Git tarafından takip edilmeyen dosya demektir.
