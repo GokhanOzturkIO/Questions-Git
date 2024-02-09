@@ -37,6 +37,10 @@ Bir template oluşturup bu templatein içine Readme.md dosyası ekleriz. Ve bu t
 Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 Branch yapısı, farklı geliştirme ortamlarını yönetmek için kullanılır. master ya da main adıyla kullanılan branch e ana dal ismini verebiliriz. Kendimiz farklı yapılarda çalışma yapacaksak kendi branchimizi oluşturup bu dal üzerinde çalışmalarımızı yürütebiliriz.
 -----------------------------------------------------------------------------------------------------------------------------
+Sıfırdan bir "branch" nasıl oluşturabiliriz?
+git branch <branch_name> ---- git checkout -b <branch_name> komutlarıyla sıfırdan bir branch oluşturulabilir.
+-----------------------------------------------------------------------------------------------------------------------------
+
 
 
 
