@@ -97,5 +97,11 @@ Q10 - What is the 'branch' structure mentioned in Git? What does it provide us?
 
 *******************************************************
 
+Q11 - How can we create a 'branch' from scratch?
 
+## git branch <branchname>
+
+>> To create a branch from scratch in Git, you can use the "git checkout -b <branch-name>" command, where "<branch-name>" is the name you want to give to your new branch, allowing you to start working on a new feature or bug fix independently of the main codebase.
+
+*******************************************************
 
