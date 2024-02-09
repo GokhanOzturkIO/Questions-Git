@@ -26,3 +26,12 @@
 
 -"Staging Area" veya "Index", Git'in çalışma prensiplerinden biri olan üç aşamalı iş akışının (three-stage workflow) bir parçasıdır. Staging area, çalışma kopyasındaki değişiklikleri gelecekteki bir commit için hazırlanan geçici bir bölge veya ara aşama olarak düşünülebilir. Buraya eklenen dosyalar, bir sonraki commit'e dahil edilmeye aday hale gelir.
 
+7. "Untracked file" ne demektir?
+
+- "Untracked file" (izlenmeyen dosya), bir Git deposunda henüz Git tarafından takip edilmeyen veya izlenmeyen bir dosyayı ifade eder. Yani, bu dosya, Git'in gözetimi altında değil ve Git, dosyanın değişikliklerini takip etmez. 
+Bir dosyanın "untracked" duruma gelmesi genellikle şu durumlarda olur:
+-Yeni Dosya Eklediğinizde
+-gitignore Dosyası Kullanıldığında
+-Silinen Dosya İçin
+
+
