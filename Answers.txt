@@ -81,7 +81,7 @@ Bu işlem projenizin geçmişini, takip edilen dosyaları ve branch'leri kaybede
 
 ===============================================================================================
 
-9.  Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+9. Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
 ".gitconfig" dosyasını açın. Bu dosya genellikle ana dizininizde bulunur.
 Aşağıdaki satırları ekleyelim:
@@ -94,4 +94,28 @@ templatedir = ~/.git-templates
 
 ===============================================================================================
 
+10. Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 
+Git'te branch, projenizin farklı sürümlerini veya dallarını temsil eden bir yapıdır. Ana koddan (master branch) ayrılarak farklı geliştirmeler yapmayı ve bu geliştirmeleri ana kodla birleştirmeyi sağlar.
+
+Branch Yapısının Faydaları:
+
+    Farklı sürümleri yönetmenizi sağlar: Aynı anda birden fazla özellik üzerinde çalışabilir ve her bir özellik için ayrı bir branch oluşturabilirsiniz.
+    Hataları ve conflict'leri önlemenize yardımcı olur: Her bir branch'i ayrı ayrı test ederek hataları ve conflict'leri daha kolay tespit edebilirsiniz.
+    Daha güvenli bir geliştirme ortamı sağlar: Branch'ler sayesinde ana kodu riske atmadan yeni özellikler üzerinde çalışabilirsiniz.
+    Daha iyi iş birliği imkanı sunar: Farklı geliştiriciler, farklı branch'ler üzerinde çalışarak daha kolay iş birliği yapabilir.
+
+Branch Yapısı Nasıl Kullanılır:
+
+    git branch komutu ile yeni bir branch oluşturabilirsiniz.
+    git checkout komutu ile bir branch'e geçebilirsiniz.
+    git merge komutu ile bir branch'i ana koda veya başka bir branch'e birleştirebilirsiniz.
+
+Branch Yapısı ile İlgili Komutlar:
+
+    git branch: Mevcut branch'leri listeler.
+    git branch -d: Bir branch'i siler.
+    git checkout: Bir branch'e geçer.
+    git merge: Bir branch'i ana koda veya başka bir branch'e birleştirir.
+
+===============================================================================================
