@@ -129,3 +129,11 @@ Q14 - What does 'merge conflict' mean?
 
 *******************************************************
 
+Q15 - What information can we see with the 'git log' command?
+
+## Last commits
+
+>> With the 'git log' command, developers can view the commit history of a Git repository, including details such as commit hashes, authors, timestamps, commit messages, and the changes introduced in each commit, providing valuable insights into the project's development timeline and the contributions made by various team members.
+
+*******************************************************
+
