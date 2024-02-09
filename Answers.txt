@@ -102,3 +102,18 @@ Belirli bir branch'i çekmek için "git clone -b branch_adı <repository_urlsi>"
 
 ******************************************************************************************************************************************************
 
+14- "Merge conflict" ne demektir?
+
+Git üzerinde farklı dallardaki değişikliklerin birleştirilmeye çalışıldığında ortaya çıkan duruma denir. İki veya daha fazla dalda yapılan değişikler,
+çakışması veya uyumsuz olması durumunda, Git otomatik olarak bu değişiklikleri birleştirmeye çalışırken bir çakışma meydana gelir.
+Merge conflict genelde şu durumlarda ortaya çıkar;
+
+a. İki farklı dalda aynı satırda yapılan değişiklikler.
+b. Bir dalda yapılan değişiklikler, diğer dalda tamamen silinmiş olan dosyaları veya satırları içeriyor.
+c. İki dalda da aynı ada sahip fakat içeriği farklı dosyaların değiştirilmesi
+
+gibi sorunlar sebebiyle ortaya çıkabilir.
+
+******************************************************************************************************************************************************
+
+
