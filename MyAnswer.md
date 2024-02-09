@@ -78,3 +78,11 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### "git log" komutu ile hangi bilgileri görebiliriz?
 
 - Daha önce atmış olduğumuz commitlerin listesini görebiliriz ve bu listede bulunan id gibi bilgiler ile geriye dönebiliriz veya commitleri resetleyebiliriz.
+
+### "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+- Çalışma dizini (working directory) ile Staging Area arasındaki farklar: git diff
+
+- Staging Area ile son commit arasındaki farklar: git diff --staged veya git diff --cached
+
+- İki belirli commit arasındaki farklar: git diff commit1SHA commit2SHA
