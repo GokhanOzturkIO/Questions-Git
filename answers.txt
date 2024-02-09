@@ -5,3 +5,6 @@ Hızlı, güvenilir ve esnek yapısıyla popülerdir.
 2.git pull" ile "git fetch" komutlarının farkı nedir?
 git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etkilemezken, git pull hem güncellemeleri alır hem de yerel kopyayı günceller.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+3.git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+-> Ana proje dosyasındaki son güncellemeri almak için kullanılan komuttur.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
