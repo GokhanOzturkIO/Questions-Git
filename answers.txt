@@ -14,3 +14,6 @@ git fetch yalnızca uzak depodaki güncellemeleri getirir ve yerel kopyayı etki
 5."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 -> Staging area, Git'in çalışma ağacınızdaki (working tree) değişiklikleri takip etmesine ve yönetmesine yardımcı olan bir ara bellek gibidir.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+6."Untracked file" ne demektir?
+-> Git'de takip edilemeyen dosyalara denir.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
