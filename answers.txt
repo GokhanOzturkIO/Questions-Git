@@ -93,6 +93,10 @@ git diff BRANCH1 BRANCH2
 
 -Bu iki komutun birbiriyle ilişkisi şu şekildedir: Önce git commit ile yapılan değişiklikleri lokal depoya kaydedersiniz, ardından git push ile bu değişiklikleri uzak depoya gönderirsiniz.
 
+19. Atomic commit ne demektir?
+
+- "Atomic commit" (atomik commit), bir commit'in, bir projedeki bir dizi değişikliği tam olarak ve bütünsel bir şekilde temsil ettiği bir commit yönetim konseptidir. Atomic commit, bir değişiklik grubunu, projenin tutarlı bir durumunu temsil eden tek bir commit içinde birleştirmeyi amaçlar.
+
 
 
 
