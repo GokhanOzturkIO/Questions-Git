@@ -137,6 +137,10 @@ Kısacası, Git bir versiyon kontrol sistemidir, GitHub ise Git tabanlı projele
 
 -"main" veya "master" branch, genellikle bir projenin ana geliştirme dalını temsil eder ve diğer branch'ler bu ana daldan türetilir. Bu konsept, projelerin düzenli bir şekilde yönetilmesini, değişikliklerin izlenmesini ve geliştiricilerin işbirliği yapmasını sağlar.
 
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+-.gitignore dosyası, bir Git deposundaki belirli dosyaların veya klasörlerin izlenmesini ve takip edilmesini engellemek için kullanılan bir dosyadır. Bu dosya, Git'e hangi dosyaların veya klasörlerin depolama alanında yer almayacağını belirtir. Bu, özellikle geçici dosyalar, derleme çıktıları, kullanıcı tarafından oluşturulan konfigürasyon dosyaları gibi projenin geçmişini takip etmeyeceğimiz dosyalar için kullanışlıdır.
+
 
 
 
