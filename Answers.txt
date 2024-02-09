@@ -70,7 +70,7 @@ Dosya Adı Değişiklikleri
 Dosya Silme ve Değiştirme
 
 ---------------------------------------------------
-15- "git log" komutu ile hangi bilgileri görebiliriz?
+15-"git log" komutu ile hangi bilgileri görebiliriz?
 "git log" komutu, Git deposunda yapılan commit'leri görüntülemek için kullanılır. 
 Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntüler.
 
@@ -82,25 +82,29 @@ Bu komut;Commit Kimliği (SHA),Yazar,Tarih-Saat ve Commit Mesajını görüntül
 Çalışma Dizini ve İndeks Arasındaki Değişiklikler: Eğer hiçbir commit belirtilmemişse, "git diff" komutu çalışma dizini (working directory) ile staging area (index) arasındaki değişiklikleri gösterir. Yani, üzerinde çalıştığımız dosyalarda yaptığımız değişiklikleri ve staging area'ya eklenmemiş olanları gösterir.
 
 -----------------------------------------------------
-17- Git reset ile neyi geri alıyoruz?
+17-Git reset ile neyi geri alıyoruz?
 "git reset" komutu, Git deposunda yapılan değişiklikleri geri almak veya geri sarmak için kullanılır.
 
 -----------------------------------------------------
-18- "git commit" ile "git push" arasındaki fark nedir?
+18-"git commit" ile "git push" arasındaki fark nedir?
 "git commit" komutu yapılan değişiklikleri yerel Git deposuna kaydederken, "git push" komutu yereldeki bu değişiklikleri uzak bir sunucuya yükler ve diğer geliştiricilerle paylaşmamızı sağlar.
 
 -----------------------------------------------------
-19- Atomic commit ne demektir?
+19-Atomic commit ne demektir?
 Daha temiz, daha düzenli ve daha yönetilebilir bir kod tabanı oluşturmak için kullanılan önemli bir geliştirme pratiklerinden biridir.
 
 -----------------------------------------------------
-20- Repository ne demektir?
+20-Repository ne demektir?
 Bir versiyon kontrol sistemi altında bulunan ve proje ile ilgili tüm dosyaların, geçmiş değişikliklerin ve sürümlerin saklandığı yerdir.
 
 -----------------------------------------------------
-21- git tag" nedir? "git branch"’ten farkı nedir?
+21-git tag" nedir? "git branch"’ten farkı nedir?
 "git tag" komutu, belirli bir commit'e etiket eklemek ve yayınlanmış sürümleri veya versiyonları temsil etmek için kullanılırken, "git branch" komutu branch'leri oluşturmak, yönetmek ve geçiş yapmak için kullanılır.
 
 -----------------------------------------------------
+22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+GitKraken,SourceTree uygulamaları kullanılabilir.
+
+------------------------------------------------------
 
 
