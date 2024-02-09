@@ -102,3 +102,7 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 - git commit komutunu kullandığınızda, değişiklikler sadece yerel depoda saklanır ve henüz uzak depoya gönderilmez.
 
 - git push, yerel çalışma dizetindeki commitleri uzak bir depoya göndermek için kullanılır.
+
+### Atomic commit ne demektir?
+
+- Atomic commit, yapılacak 1 task var fakat içerisinde 10 farklı görev mevcut olarak varsayalım. Bunları teker teker commitleyerek oluşabilecek olumsuz bir durumda yönetilebilirliği arttırmak amaçlı kullanan bir standarttır.
