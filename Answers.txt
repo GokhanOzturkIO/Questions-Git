@@ -321,3 +321,19 @@ Main ve Master Arasındaki Fark:
     Diğer branch'lerden daha uzun ömürlüdür ve production ortamına dağıtılan branch'lerdir.
 
 ===============================================================================================
+
+25. ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+    Bir Git deposunda bulunan özel bir metin dosyasıdır.
+    Git'e hangi dosyaları ve klasörleri izlemesini ve sürümlendirmesini istemediğinizi belirlemenizi sağlar.
+    Bu sayede, gereksiz dosyaların deponuza eklenmesini ve depolama alanınızı kaplamasını önleyebilirsiniz.
+
+.gitignore Dosyasında Neler Belirtilebilir?
+
+    Belirli dosya uzantıları (örneğin: *.txt, *.log)
+    Belirli klasörler
+    Geçici dosyalar
+    IDE ayar dosyaları
+    Kişisel bilgiler içeren dosyalar
+
+===============================================================================================
