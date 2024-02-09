@@ -39,3 +39,5 @@ Git reset ile belirtilen commit HEAD olarak belirtmeye yarar.Yani commitleri ger
 18->"git commit" ile "git push" arasındaki fark nedir?
     Git commit, bir önceki commitden commit anınına kadar olan değişiklikler için versiyon yaratır.
     Git push, commitlerini uzak sunucuya gönderir.
+19->Atomic commit ne demektir?
+    Daha anlaşılır küçük bloklar halinde birbiri ile ilişkili şeyleri bir arada paket olarak commitlemektir.Geri dönük takibi kolaylaştırır.
