@@ -112,3 +112,7 @@ Bu branchler ana branchtir ve projenin aslını oluşturur.Diğer branclar ise p
 25-".gitignore" dosyası nedir ve ne amaçla kullanılır?
 
 Git deposunda izlenmesini istemediğimiz dosyaları ve klasörleri belirlemek için kullanılır.
+
+26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+Bu komut uzak depodaki belirli branch'i silmek için kullanılır.
