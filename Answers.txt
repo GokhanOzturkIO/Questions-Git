@@ -129,4 +129,8 @@ Github/osmancandincer
 "main" veya "master" branch, projenin ana geliştirme hattını temsil ederken, diğer branch'ler ise belirli özelliklerin veya geliştirmelerin geliştirildiği veya test edildiği geçici çalışma alanlarıdır.
 
 -------------------------------------------------------
+25-".gitignore" dosyası nedir ve ne amaçla kullanılır? 
+".gitignore" dosyası, Git'e hangi dosyaların ve dizinlerin takip edilmesi veya görmezden gelinmesi gerektiğini belirtmek için kullanılır. 
+Bu, projenin temizliğini ve yönetimini sağlar ve gereksiz dosyaların depolanmasını önler.
 
+-------------------------------------------------------
