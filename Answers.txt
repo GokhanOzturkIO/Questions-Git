@@ -57,6 +57,11 @@ Git branch yapısı,bize projenin farklı çalışma yollarını,geliştirme sü
 =================================================================================================================================================================
 
 
+Q10)Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+Örnek vermem gerekirse "git branch feature" komutunu kullanarak yeni bir branch oluşturabiliriz.
+
+=================================================================================================================================================================
 
 
 
