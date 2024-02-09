@@ -177,3 +177,10 @@ Q20 - What does 'repository' mean?
 
 *******************************************************
 
+Q21 - What is 'git tag'? What is the difference between 'git tag' and 'git branch'?
+
+## Branch is way to clone the code and work freely without changing the actual production code. I had never used git tag before but as far as it seems people are using it for pointing the release versions. 
+
+>> 'git tag' is a command used to mark specific points in a Git history, typically to signify releases or important milestones. It attaches a label to a specific commit for easy reference. The main difference between 'git tag' and 'git branch' is that while branches represent parallel lines of development for ongoing work, tags are used to mark specific points in history, such as releases, and are typically not moved or changed once created.
+
+*******************************************************
