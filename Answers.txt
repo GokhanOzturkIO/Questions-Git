@@ -128,5 +128,21 @@ Kendi lokalimizde her "git init" komutunu kullandığımızda otomatik olarak "R
 
 Git'te "branch" (dal), projenin bağımsız bir hattını temsil eder ve projenin farklı parçalarını veya özelliklerini geliştirmek için kullanılır. Bir "branch", mevcut kod tabanının bir kopyasıdır ve üzerinde yapılan değişikliklerin izolasyonunu sağlar. Bu değişiklikler, ana kod tabanını etkilemez ve aynı anda birden fazla farklı özellik veya düzeltme üzerinde çalışmayı mümkün kılar.
 
+*****************************************************************************************************
+11.Sıfırdan bir "branch" nasıl oluşturabiliriz?
+Git'te bir "branch" oluşturmak oldukça basittir. Bir "branch" oluşturmak için aşağıdaki adımları izleyebilirsiniz:
 
+İlk olarak, projenizin kök dizinine gitmek için terminal veya komut istemcisini açın.
+
+Ardından, yeni bir "branch" oluşturmak istediğinizde mevcut konumu görmek için git status komutunu kullanın. Bu, hangi dalda olduğunuzu ve üzerinde çalışılan dosyaların durumunu gösterir.
+
+Yeni bir "branch" oluşturmak için git branch <branch_adı> komutunu kullanın. 
+
+Oluşturduğunuz "branch"e geçmek için git checkout <branch_adı> komutunu kullanın. 
+
+Artık yeni oluşturduğunuz "branch" üzerinde çalışabilirsiniz. Değişiklikler yapabilir, commit'ler oluşturabilir ve bu "branch"i ana dala birleştirebilirsiniz.
+
+İşte bu kadar! Artık başarılı bir şekilde yeni bir "branch" oluşturdunuz ve üzerinde çalışmaya başlayabilirsiniz. Yaptığınız değişiklikleri bu "branch"e kaydedebilir ve proje üzerinde güvenli bir şekilde çalışmaya devam edebilirsiniz.
+
+*****************************************************************************************************
 
