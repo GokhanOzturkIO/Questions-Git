@@ -13,3 +13,7 @@
 - Local çalışma alanında commit atılmamış değişiklikler olabilir. 
 - Takım arkadaşımız ile conflict yaşamış olabiliriz. Bunları çözmeliyiz.
 - Kodları çekme yetkimiz olmayabilir.
+
+4. "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+- "git fetch origin" komutundaki "origin", genellikle bir Git depo adresine verilen bir isimdir ve bu depoyu temsil eder. Bu isimlendirme genellikle varsayılan olarak gelen bir isimdir, ancak Git kullanıcıları genellikle bu ismi değiştirebilirler.
