@@ -48,7 +48,11 @@ kullanıcı tarafından manuel olarak çözülmesi gereken bir durumdur.
 <------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 14."git log" komutu ile hangi bilgileri görebiliriz?
 -> git log komutu, Git deposundaki commit geçmişini görüntüler.
-
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+15."git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+-> git diff komutu ile belirli iki durum arasındaki farkları görebilirsiniz. Bu durumlar genellikle iki farklı commit, bir commit ve çalışma dizini arasındaki farklar veya iki farklı branch arasındaki farklar olabilir. 
+Bu komut, dosya içeriğinde yapılan eklemeler, silmeler veya değişiklikler gibi farklılıkları gösterir.
+<------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
 
