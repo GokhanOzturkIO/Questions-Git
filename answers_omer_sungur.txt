@@ -1,1 +1,3 @@
 1 -> Git, bir versiyon kontrol sistemidir. Her yapılan adımı versiyonlamamıza olan sağlar. Versiyonlarken birçok özelliği kullanabiliriz.
+
+2 -> git fetch ile uzak sunucudaki değişiklikleri görüntüleyebiliyoruz fakat o değişiklikleri getirmiyoruz. git pull ile o değişkliği getiriyoruz, yani localimize merge ediyoruz. Aslında git pull ile hem fetch işlemini hem de merge işlemini yapmış oluyoruz. Direkt olarak pull yapmak sıkıntılara yol açabilir. Pull durumunda bir conflict oluşmaması için fetch ile güncel haline bakıp karar vermek daha iyi olabilir.
