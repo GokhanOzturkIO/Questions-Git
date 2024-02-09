@@ -181,3 +181,10 @@ Git branch ise, Yeni bir geliştirme hattı oluşturarak ana projeye zarar verme
 Branch: Yeni bir geliştirme hattı oluşturur, kod üzerinde paralel çalışmalar yürütebilmeyi sağlar.
 
 ******************************************************************************************************************************************************
+
+22- Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+İlk olarak kullandığımız ide üzerinden git'i görsel biçimde kullanabiliriz ancak daha çeşitli ve farklı bir görselleştirme talep ediyorsak
+Source Tree, Git Fork, Git Kraken, Sublime Merge, Megit, Git Tower, Smart Git, Github Desktop, Magit gibi seçenekleri kullanabiliriz.
+
+******************************************************************************************************************************************************
