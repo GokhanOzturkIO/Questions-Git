@@ -81,6 +81,10 @@ git diff COMMIT_HASH1 COMMIT_HASH2
 -İki Farklı Branch Arasındaki Değişiklikler:
 git diff BRANCH1 BRANCH2
 
+17. Git reset ile neyi geri alıyoruz?
+
+- git reset ile staging area da olan değişiklikleri geri alıyoruz.
+
 
 
 
