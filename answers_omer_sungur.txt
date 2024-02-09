@@ -8,4 +8,4 @@
 
 5 -> HEAD, üzerinde bulunduğumuz commit'i ifade eder. Genellikle HEAD, en son commit üzerindedir.
 
- 
+6 -> Staging area, commit atmadan önce yapılan değişiklikleri takip ettiğimiz yerdir.
