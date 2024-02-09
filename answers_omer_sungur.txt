@@ -17,3 +17,5 @@
 9 -> Bunun için git init --template <dosya yolu> komutunu kullanmalıyız. Bu sayede istediğimiz templatelere göre git reposu oluşturulur.
 
 10 -> Versiyon kontrol sisteminde tek bir düzlem isteminde gitmek istemeyebiliriz. Bu yüzden dolayı farklı branchler açarak kendimize özgü bir yolu oluşturabiliriz. Bu sayede diğer branchteki değişiklikler kafamızı karıştırmaz.
+
+11 -> git branch <branch name> komutuyla branch oluşturabiliriz.
