@@ -90,7 +90,8 @@ Git, version kontrolü sağlayan bir araçtır.
 Github, versionlarını tuttuğumuz repoları saklayabileceğimiz bir uzak sunucu hizmetidir.
 GitLab, Bitbucket, SourceForge gibi servisler Github benzeri servislerdir.
 -----------------------------------------------------------------------------------------------------------------------------
-
+main ya da master branch'inin diğer branchlerden farkı nedir?
+İkisi de repodaki ana branchi temsil eder.
 
 
 
