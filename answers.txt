@@ -17,3 +17,6 @@ HEAD, genellikle şu an üzerinde çalıştığınız branch'i temsil eder. Yani
 HEAD, aynı zamanda mevcut branch'in en son commit'ini temsil eder. Yani, hangi commit üzerinde çalıştığınızı gösterir.
 Eğer bir commit üzerinde değilseniz ve bir branch üzerinde çalışıyorsanız, HEAD en son commit'i gösterir.
 ----------------------
+6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Bir sonraki commit'e eklenecek değişikliklerin hazırlandığı bölgedir.
+----------------------
