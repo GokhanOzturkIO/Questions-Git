@@ -63,6 +63,14 @@ Q10)Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 =================================================================================================================================================================
 
+Q11)Var olan bir "branch"e nasıl geçebiliriz?
+
+Bu kısımda da örnek vermem gerekirse "git checkout feature" komutunu kullanarak,varolan bir branche geçiş yapabiliriz.Fakat bu noktada yukarıdakı soruyla bu soruyu da birleştiren bir komut bulunmaktadır.Yani örneğin biz master branchinde bulunalım ve tek bir komutla hem yeni bir branch oluşturup hem de o branche geçiş yapmak isteyelim.Bu işlemi gerçekleştirmek için "git checkout -b feature" komutunu kullanabiliriz.Bu komut hem feature adında bir branch oluşturur,hem de oluşturduğumuz feature branchine geçiş yapar.
+
+=================================================================================================================================================================
+
+
+
 
 
 
