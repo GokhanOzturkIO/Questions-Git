@@ -29,3 +29,14 @@ Untracked file" terimi, Git'in çalışma dizininde bulunan ve henüz Git'in tak
 8-".git" klasörünü silersek ne olur? :
 
 Eğer .git klasörünü silerseniz, Git deposunun kontrolü kaybolur ve projenin Git tarafından yönetilen tüm özellikleri kullanılamaz hale gelir.
+
+9- Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız? :
+
+İlk başta şablon dizini oluşturulur.
+mkdir -p ~/.git-templates/init
+
+sonrasında ReadMe.md dosyası oluşturulup.
+echo "# My Project" > ~/.git-templates/init/ReadMe.md
+
+ Git konfigürasyonunu güncelleriz.
+git config --global init.templatedir '~/.git-templates'
