@@ -97,4 +97,8 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 
 - git reset --hard: Son commit'i geri alır ve değişiklikleri tamamen iptal eder. Yani, hem staging area'daki hem de çalışma dizinizdeki değişiklikler silinir. Bu seçenek, son commit'i tamamen geri almak ve tüm değişiklikleri silmek istediğinizde yararlı olabilir.
 
-- 
+### "git commit" ile "git push" arasındaki fark nedir?
+
+- git commit komutunu kullandığınızda, değişiklikler sadece yerel depoda saklanır ve henüz uzak depoya gönderilmez.
+
+- git push, yerel çalışma dizetindeki commitleri uzak bir depoya göndermek için kullanılır.
