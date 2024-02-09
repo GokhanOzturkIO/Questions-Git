@@ -188,3 +188,14 @@ Branch: Yeni bir geliştirme hattı oluşturur, kod üzerinde paralel çalışma
 Source Tree, Git Fork, Git Kraken, Sublime Merge, Megit, Git Tower, Smart Git, Github Desktop, Magit gibi seçenekleri kullanabiliriz.
 
 ******************************************************************************************************************************************************
+
+23- "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git bir versiyon kontrol sistemi iken GitHub git'i temel alan bir web platformudur. GitHub bizlere verilerimizi uzak sunucuda tutma imkanı verir.
+GitHub benzeri site örnekleri şunlardır;
+a. GitLab
+b. BitBucket
+c. Gitea
+d. SourceForge
+
+******************************************************************************************************************************************************
