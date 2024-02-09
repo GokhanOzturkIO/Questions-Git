@@ -55,3 +55,9 @@ Bu durumlar genellikle şu durumlarda ortaya çıkar:
 -İki farklı branch aynı dosyanın aynı satırında değişiklik yapmışsa.
 -Bir branch bir dosyayı tamamen silerken, diğer branch aynı dosyayı düzenlemeye çalışıyorsa.
 ----------------------
+15-"git log" komutu ile hangi bilgileri görebiliriz?
+commit SHA: Her commitin SHA değeri görülebilir.
+Author: Kimin commit ettiği bilgisini içerir.
+Date: Commit'in yapıldığı tarih ve saat bilgisi yer alır.
+Commit Mesajı: Kullanıcının commit'e eklediği açıklama gösterilir.
+----------------------
