@@ -1,0 +1,2 @@
+1-Git Nedir?
+Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
