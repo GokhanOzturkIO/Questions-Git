@@ -104,3 +104,7 @@ SourceTree ,Gitkraken,Github Desktop gibi araçları kullanabiliriz.
 23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
 Git kontrol sistemidir,github ise bu kontrol sistemiyle çalışan depo aracıdır.
+
+24-main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Bu branchler ana branchtir ve projenin aslını oluşturur.Diğer branclar ise projenin farklı kişiler tarafında ayrı olarak geliştirilmesini sağlar.
