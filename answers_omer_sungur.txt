@@ -19,3 +19,5 @@
 10 -> Versiyon kontrol sisteminde tek bir düzlem isteminde gitmek istemeyebiliriz. Bu yüzden dolayı farklı branchler açarak kendimize özgü bir yolu oluşturabiliriz. Bu sayede diğer branchteki değişiklikler kafamızı karıştırmaz.
 
 11 -> git branch <branch name> komutuyla branch oluşturabiliriz.
+
+12 -> Bunun için switch veya checkout komutlarını kullanabiliriz. git switch <branch name> veya git checkout <branch name>
