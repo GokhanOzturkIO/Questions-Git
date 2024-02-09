@@ -48,3 +48,5 @@ GitHub benzeri siteler ise Bigbucket,GitLab, Azure gibi siteler github benzeri r
 GitHub:savasafsar
 24-main ya da master branch'inin diğer branchlerden farkı nedir?
 -Bu branchler ana branchtir ve projenin aslını oluşturur.Diğer branclar ise projenin farklı kişiler tarafında ayrı olarak geliştirilmesini sağlar.
+25-".gitignore" dosyası nedir ve ne amaçla kullanılır?
+-Git deposunda izlenmesini istemediğimiz dosyaları ve klasörleri belirlemek için kullanılır.
