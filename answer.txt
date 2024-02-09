@@ -7,3 +7,8 @@ Git pull, uzaktaki veya merkezi depodaki tüm verileri alır ve yerel deponuzla 
 ve yerel deponuzda farklı bir dalda saklar.
 Git fetch komutunda veriler sadece indirilirken git pull komutunda indirilir ve yerel dalınıza yükleme yapılır.
 Git fetch komutu veriyi getirirken git pull komutu veriyi birleştirme ve getirme işlevini yapar.
+
+3-Git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Origin, uzaktaki bir depoyu temsil eder.Genellikle bir depoyu kullanırken varsayılan olarak atanır.
+
