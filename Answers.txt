@@ -57,5 +57,11 @@ Eğer bu dosyaların izlenmesi gerekiyorsa, öncelikle git add komutuyla izlenme
 "git checkout <branch-adı>" komutu ile geçebiliriz.
 
 -------------------------------------------------
+13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+"git clone --single-branch --branch <branch-adı> <repo-url>" 
+Burada <branch-adı> belirli bir branch'in adını ve <repo-url> ise klonlamak istediğimiz repository'nin URL'sini temsil eder.
+
+--------------------------------------------------
+
 
 
