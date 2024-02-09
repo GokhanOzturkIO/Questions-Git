@@ -34,3 +34,7 @@ değişikliklerimizi tuttuğumuz alandır. Burada değişiklikleri commite dahil
 ### "Untracked file" ne demektir?
 
 - Git tarafından takibe alınmayan dosyalardır. Gerektiği durumda git add komutunu kullanarak stage area tarafına aktararak takibe alınmasını sağlayabiliriz.
+
+### ".git" klasörünü silersek ne olur?
+
+- Git'e dair yapmış olduğumuz tüm değişiklikler ve kayıt altına aldığınız her şey geri dönülmez bir şekilde silinmiş olur.
