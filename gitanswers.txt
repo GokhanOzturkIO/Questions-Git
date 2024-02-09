@@ -100,3 +100,7 @@ git branch; Paralel çalışma dallarını yönetmek ve izlemek için kullanıl�
 22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
 SourceTree ,Gitkraken,Github Desktop gibi araçları kullanabiliriz.
+
+23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git kontrol sistemidir,github ise bu kontrol sistemiyle çalışan depo aracıdır.
