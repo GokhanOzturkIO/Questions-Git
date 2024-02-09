@@ -17,3 +17,7 @@
 4. "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
 - "git fetch origin" komutundaki "origin", genellikle bir Git depo adresine verilen bir isimdir ve bu depoyu temsil eder. Bu isimlendirme genellikle varsayılan olarak gelen bir isimdir, ancak Git kullanıcıları genellikle bu ismi değiştirebilirler.
+
+5. HEAD" kelimesi neyi temsil etmektedir?
+
+- "HEAD" terimi, Git'te şu anki çalışma kopyasının (working directory) ve üzerinde çalıştığınız daldaki en son commit'in referansını temsil eder. Yani, mevcut işlemekte olduğunuz noktayı işaret eden bir gösterge olarak düşünülebilir.
