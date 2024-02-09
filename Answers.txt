@@ -82,7 +82,9 @@ Repository, versiyonladığımız şeylerin tutulduğu, lokalde veya uzak sunucu
 "git tag" etiketleme işlemi yapar ve genellikle projenin sürüm numarasını veya önemli bir noktayı işaretler.
 "git branch" ise proje içinde farklı geliştirme dalları oluşturur ve paralel olarak çalışan farklı özelliklerin veya değişikliklerin ayrı dallarda geliştirilmesini sağlar
 -----------------------------------------------------------------------------------------------------------------------------
-
+Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+Github Desktop, SourceTree, GitKraken, SmartGit
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 
