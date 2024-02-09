@@ -59,3 +59,6 @@ git clone --branch branch_adi <repo_url>
 
 ✔"git commit" ile "git push" arasındaki fark nedir?
    git commit değişiklikleri local bilgisayarıma kaydeder git push ise localde yapılan değişiklikleri uzak sunucuya gönderir.
+
+✔Atomic commit ne demektir?
+ -Atomic commit kısaca bir dizi işlemi tek bir bağlamsal bir bütün olarak gerçekleştiren bir iş anlamına gelir. Bir projede birden çok dosyada yapılan işlemi atomic commit uygulayarak yaparsak daha bütünlüğü korur ve başka geliştiriciler incelediğinde nerde ne olduğunu ne gibi değişikler olduğunu görür.
