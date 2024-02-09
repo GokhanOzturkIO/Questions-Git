@@ -175,6 +175,13 @@ Q24)".gitignore" dosyası nedir ve ne amaçla kullanılır?
 
 =================================================================================================================================================================
 
+Q25)"git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+Bu komut bizim "origin" denen uzak repoda bulunan bir branchi silmemizi sağlayan komuttur. Bu komut genellikle artık kullanılmayan veya gereksiz hale gelen bir dalın temizlenmesi veya birleştirme işlemleri sonrasında gereksiz dalların kaldırılması için kullanılır.Ancak,dikkatli kullanılmalıdır çünkü silinen bir dal geri getirilemez.
+
+=================================================================================================================================================================
+
+
 
 
 
