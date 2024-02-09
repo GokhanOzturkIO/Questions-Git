@@ -1,0 +1,26 @@
+1.Git Nedir?
+
+
+Git, yazılım geliştirme projelerinde kullanılan dağıtık bir versiyon kontrol sistemi (VCS)dir. Linus Torvalds tarafından Linux kernelinin geliştirilmesi için başlatılmıştır. Git, projenin tüm geçmişini saklar ve her bir değişikliği takip eder. Geliştiricilerin eşzamanlı olarak bir projede çalışmasına, değişikliklerin takip edilmesine, geri alınmasına ve karşılaştırılmasına olanak tanır.
+
+Git'in bazı temel özellikleri şunlardır:
+
+Dağıtık Yapı: Her kullanıcı, projenin tam bir kopyasını alır ve kendi bilgisayarında çalışır. Bu sayede çevrimdışı olarak da çalışılabilir ve bağımsız olarak değişiklikler yapılabilir.
+
+Hızlı İşlem: Git, verileri sıkıştırır ve depolar, bu nedenle hızlıdır. Büyük projeleri yönetmek için uygundur.
+
+Güvenilirlik: Git, veri bütünlüğünü sağlamak için kriptografik olarak güvenli bir şekilde depolama yapar. Her değişiklik için benzersiz bir kimlik oluşturur.
+
+Esnek Dal ve Birleştirme (Branching and Merging): Git, farklı işlevleri veya özellikleri denemek için kolaylıkla dal oluşturmayı ve ardından bu dalları ana projeye birleştirmeyi sağlar. Bu, paralel geliştirme yapmayı ve değişikliklerin etkileşimi olmadan test edilmesini sağlar.
+
+Açık Kaynaklı ve Ücretsiz: Git, açık kaynaklı bir projedir ve ücretsiz olarak kullanılabilir. Bu, birçok geliştiricinin katkıda bulunmasını ve sistemde geliştirmeler yapılmasını sağlar.
+
+Git, yazılım geliştirme endüstrisinde en popüler versiyon kontrol sistemlerinden biridir ve birçok büyük projede yaygın olarak kullanılmaktadır.
+
+******************************************************************************************************************************
+
+
+
+
+
+
