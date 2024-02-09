@@ -61,3 +61,8 @@ Author: Kimin commit ettiği bilgisini içerir.
 Date: Commit'in yapıldığı tarih ve saat bilgisi yer alır.
 Commit Mesajı: Kullanıcının commit'e eklediği açıklama gösterilir.
 ----------------------
+16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+-Working Directory ile Staging Area (Index) Arasındaki Değişiklikler
+-Staging Area (Index) ile Son Commit Arasındaki Değişiklikler
+-İki Farklı Commit veya Branch Arasındaki Değişiklikler
+----------------------
