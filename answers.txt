@@ -40,3 +40,6 @@ Projenin farklı versiyonlarını aynı anda yönetmeyi sağlayan ve bağımsız
 -Ana branch'ten türetilen branch'lerde hata düzeltmeleri ve bakım yapma olanağı sağlar.
 -Yeni özellikleri veya değişiklikleri test etmek için izole bir ortam sağlar.
 ----------------------
+11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+git branch branch-adi
+----------------------
