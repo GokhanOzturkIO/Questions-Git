@@ -168,6 +168,15 @@ Main ya da master branchi bizim projemizde temel geliştirme hattını temsil ed
 =================================================================================================================================================================
 
 
+Q24)".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+".gitignore" dosyası,git tarafından izlenmesini istemediğimiz  dosyaları ve klasörleri belirtmek için kullanılan dosyadır.Projenin kök dizininde bulunur ve 	git'e hangi dosyaların veya klasörlerin izlenmemesi gerektiğini söyler.Bu dosyanın kullanım amacı ise,bazı dosyaların veya dizinlerin projenin geçmişini kirletmesi ve gereksiz yere yer kaplamasını önlemektir.Ayrıca hassas dosyaların paylaşılmasını önlemek için de kullanılır.
+
+
+=================================================================================================================================================================
+
+
+
 
 
 
