@@ -18,3 +18,5 @@
 - Her 'git init' komutu kullanıldığında otomatik olarak 'ReadMe.md' dosyasının oluşturulması için, önce ~/.git-templates adında bir klasör oluşturulur, sonra bu klasöre "ReadMe.md" dosyası eklenir 'git init --template ~/.git-templates' komutu kullanılır
 10-- Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 -Projede ayrı bir alanda çalışmamızı sağlar.Bir Projede birden çok kişinin ayrı şekilde çalışmasını sağlar
+11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+- git branch [yeni_branch_adi] şekilde oluşturabiliriz
