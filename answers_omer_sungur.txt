@@ -23,3 +23,5 @@
 12 -> Bunun için switch veya checkout komutlarını kullanabiliriz. git switch <branch name> veya git checkout <branch name>
 
 13 -> git clone -b <branch name> <remote path> şeklinde bir branch'i klonlayabiliriz. Örneğin git clone -b omersungur https://github.com/GokhanOzturkIO/Questions-Git.git
+
+14 -> Eğer ki merge işlemi yaparken iki dosyada çakışma oluyorsa merge conflict oluşur. Yani 2 farklı branch düşünelim ve içlerinde txt dosyasını değiştirelim. Birinci branch'te 5. satıra "aa" yazalım diğer branch'te de aynı satıra, yani 5. satıra "bb" yazalım. Bu durumda bu iki branch merge edilirse conflict oluşur. Çünkü 5.satırda "aa" mı "bb" mi ifadesinin olacağını git kendi bilemez.
