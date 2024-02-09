@@ -11,3 +11,5 @@
 6 -> Staging area, commit atmadan önce yapılan değişiklikleri takip ettiğimiz yerdir.
 
 7 -> Git tarafından takip edilmeyen dosyalara "untracked" file denir. Bunları takip etmek için staging area'ya alırız.
+
+8 -> .git dosyasının içine git ile ilgili bilgiler bulunur. Yani attığımız commitler, staging area'da olan değişiklikler gibi. Bunu silersek bu değişiklikleri ve kontrol mekanizmasını kaybederiz. Kısaca Git'i silmiş oluruz.
