@@ -65,5 +65,11 @@ Q6 - What does 'Untracked file' mean?
 
 *******************************************************
 
+Q7 - What happens if we delete the ".git" folder?
 
+## That means we lose the files which tracked by git.
+
+>> If we delete the ".git" folder in a Git repository, we effectively remove all version control information and history associated with that repository, rendering it no longer recognized as a Git repository.
+
+*******************************************************
 
