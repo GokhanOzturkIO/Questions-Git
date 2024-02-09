@@ -76,4 +76,6 @@ Bu prensip, kod yönetimini kolaylaştırır ve izlenilebilirliği artırır.
 -> "git tag" komutu belirli bir noktayı işaretlemek veya sürümleri etiketlemek için kullanılırken, "git branch" komutu farklı özellikler üzerinde çalışmak veya farklı 
 sürümleri geliştirmek için farklı dallar oluşturmak için kullanılır.
 <---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-			
+21.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+-> GitLab, Bitbucket,Launchpad örnek verebiliriz.
+<----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------			
