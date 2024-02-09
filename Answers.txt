@@ -190,3 +190,12 @@ Q22 - What third-party tools and applications can we use to interact with Git vi
 >> GitKraken, Sourcetree, GitHub Desktop etc.
 
 *******************************************************
+
+Q23 - What is the difference between 'GitHub' and 'git'? What are other similar sites to GitHub? Could you provide usernames on GitHub or other sites?
+
+## Github is the 'Hub', git is the system. You can use Azure or Gitlab or Bitbucket etc.
+
+>> Git is a distributed version control system used for tracking changes in source code during software development, while GitHub is a web-based hosting service that provides Git repository hosting, collaboration tools, and social networking features. Other similar sites to GitHub include GitLab, Bitbucket, and SourceForge. Some usernames on GitHub include octocat, torvalds, and defunkt.
+
+*******************************************************
+
