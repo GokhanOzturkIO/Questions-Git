@@ -59,5 +59,10 @@ answer17 -> git reset komutu ile Git'te yapılan değişikliklerin farklı seviy
 question18 -> "git commit" ile "git push" arasındaki fark nedir?
 answer18 -> git commit, değişiklikleri yerel depoda kaydeder; git push, bu değişiklikleri uzak depoya gönderir. Commit, yerel işlem iken, push uzak sunucuyu günceller.
 
+question19 -> Atomic commit ne demektir?
+answer19 -> Atomic commit, bir değişikliğin tamamen uygulanması veya hiçbir şekilde uygulanmaması anlamına gelir. Bu, değişikliklerin kısmi veya yarım kalmış olmasını önler, böylece projenin bütünlüğünü korur.
+
+
+
 
 
