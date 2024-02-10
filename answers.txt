@@ -67,3 +67,10 @@ Bir Git projesinde ana kod tabanından ayrılan bir kopyasıdır.Bu ayrı kopyal
 
 ———————————————————————————————————————————————
 
+12.Var olan bir "branch"e nasıl geçebiliriz?
+
+“ git checkout <branch adı> “ komutu ile var olan bir branch’e geçiş yapabiliriz.
+Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git checkout -b <branch adı>” komutunu kullanırız.
+
+———————————————————————————————————————————————
+
