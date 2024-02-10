@@ -62,6 +62,9 @@ answer18 -> git commit, değişiklikleri yerel depoda kaydeder; git push, bu de�
 question19 -> Atomic commit ne demektir?
 answer19 -> Atomic commit, bir değişikliğin tamamen uygulanması veya hiçbir şekilde uygulanmaması anlamına gelir. Bu, değişikliklerin kısmi veya yarım kalmış olmasını önler, böylece projenin bütünlüğünü korur.
 
+question20 -> Repository ne demektir?
+answer20 -> Repository (Depo), bir yazılım projesinin veya belgelerin, dosyaların, kaynak kodlarının ve tarihsel değişikliklerin saklandığı merkezi bir depodur. Bu depo, projenin tüm sürümlerini ve değişikliklerini içerir ve genellikle bir versiyon kontrol sistemi (VCS) tarafından yönetilir.
+
 
 
 
