@@ -56,7 +56,8 @@ answer17 -> git reset komutu ile Git'te yapılan değişikliklerin farklı seviy
 	    2-Mixed Reset (Varsayılan, --mixed): Belirtilen commit'e geri döner, staging area'yı sıfırlar ancak çalışma dizinindeki dosyaları korur. Bu, değişikliklerin commit'lenmemiş ama çalışma dizininde değişiklik olarak kaldığı anlamına gelir.
 	    3-Hard Reset (--hard): Bu, en radikal reset seçeneğidir. Belirtilen commit'e geri dönülür ve bu sırada staging area ve çalışma dizinindeki tüm değişiklikler silinir. Bu mod, yapılan tüm değişikliklerin tamamen geri alınmasını sağlar.
 
-
+question18 -> "git commit" ile "git push" arasındaki fark nedir?
+answer18 -> git commit, değişiklikleri yerel depoda kaydeder; git push, bu değişiklikleri uzak depoya gönderir. Commit, yerel işlem iken, push uzak sunucuyu günceller.
 
 
 
