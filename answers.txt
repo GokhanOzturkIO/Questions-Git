@@ -10,9 +10,14 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 3-) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
-"origin", genellikle projenin uzak depo (remote repository) olarak tanımlandığı yerel adlandırmadır.
+-- "origin", genellikle projenin uzak depo (remote repository) olarak tanımlandığı yerel adlandırmadır.
 
 4-) "HEAD" kelimesi neyi temsil etmektedir?
 
-"HEAD", şu anda çalışılan branch'in en son commit'ini gösteren bir referanstır.
+-- "HEAD", şu anda çalışılan branch'in en son commit'ini gösteren bir referanstır.
+
+5-) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+-- "Staging Area" veya "Index", commit yapmadan önce değişikliklerinizi hazırladığınız ve commit etmek istediğiniz değişiklikleri belirlediğiniz alandır.
+
 
