@@ -20,4 +20,9 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- "Staging Area" veya "Index", commit yapmadan önce değişikliklerinizi hazırladığınız ve commit etmek istediğiniz değişiklikleri belirlediğiniz alandır.
 
+6-) "Untracked file" ne demektir?
+
+"Untracked file", Git'in takip etmediği ve depolamadığı bir dosyadır. Yani, dosya Git veritabanında henüz eklenmemiştir.
+
+
 
