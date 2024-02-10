@@ -72,6 +72,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- "Atomic commit", bir commit'in tek bir amacı veya değişikliği temsil ettiği bir commit stili veya yöntemidir.
 
+19-) Repository ne demektir?
+
+-- "Repository", projenin tüm dosyalarının ve geçmişinin depolandığı bir yerdir. Lokal olarak çalışanlar için "local repository" ve uzak olarak erişilebilenler için "remote repository" olarak iki türü vardır.
+
 
 
 
