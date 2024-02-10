@@ -36,6 +36,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- "Branch", projenin farklı geliştirme yollarını temsil eder. Paralel geliştirme, deneme veya özelliklerin izole edilmesi gibi durumları sağlar.
 
+10-) Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+-- git branch branch_name komutu ile bir branch oluşturabiliriz.
+
 
 
 
