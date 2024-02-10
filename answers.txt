@@ -88,6 +88,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- Git, bir versiyon kontrol sistemidir; GitHub ise Git tabanlı projelerin barındırıldığı bir platformdur. Diğer benzer platformlar arasında GitLab, Bitbucket, SourceForge vb. bulunur. Kullanıcı adları platformlara göre değişir.
 
+23-) main ya da master branch'inin diğer branchlerden farkı nedir?
+
+-- main veya master branch, genellikle projenin ana geliştirme hattını temsil eder ve diğer branch'lerden farkı, projenin en güncel ve stabil versiyonunun burada olmasıdır.
+
 
 
 
