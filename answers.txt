@@ -152,3 +152,9 @@ Main veya master branch , ana kodun bulunduğu branch’lerdir. Diğer branch’
 
 ———————————————————————————————————————————————
 
+25.".gitignore" dosyası nedir ve ne amaçla kullanılır? 
+
+".gitignore" dosyası , bir Git deposunda izlenmeyen dosyaları belirlemek için kullanılan depodur.Belirli dosya adları,uzantıları veya klasörleri tanımlayarak Git’in bunları izlememesini sağlar.
+
+———————————————————————————————————————————————
+
