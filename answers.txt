@@ -146,3 +146,9 @@ GitHub: ayselatak
 
 ———————————————————————————————————————————————
 
+24.main ya da master branch'inin diğer branchlerden farkı nedir?
+
+Main veya master branch , ana kodun bulunduğu branch’lerdir. Diğer branch’lerde ise geliştirme ve düzeltme işlemi yapılır.Yapılan değişiklikler en son master branch’e merge edilir.
+
+———————————————————————————————————————————————
+
