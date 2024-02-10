@@ -19,3 +19,6 @@ answer6 -> "Staging Area" ya da "Index", Git'te değişikliklerin commit edilmed
 
 question7 -> "Untracked file" ne demektir?
 answer7 -> "Untracked file", Git tarafından henüz takip edilmeyen, yani herhangi bir commit'e dahil edilmemiş dosyayı ifade eder. Bu dosyalar, Git deposuna yeni eklenmiş olabilir ve git add komutu kullanılarak takip edilmesi gereken dosyalardır.
+
+question8 -> ".git" klasörünü silersek ne olur?
+answer8 -> ".git" klasörünü silmek, Git versiyon kontrol bilgilerini ve tüm geçmişi siler; projeniz artık bir Git deposu olarak takip edilmez ancak projenizin dosyaları korunur.
