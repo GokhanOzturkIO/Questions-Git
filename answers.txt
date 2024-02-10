@@ -123,3 +123,9 @@ Bir yazılım projesinin,belgelerin,kaynak kodunun ve diğer materyallerin bulun
 
 ———————————————————————————————————————————————
 
+21."git tag" nedir? "git branch"’ten farkı nedir?
+
+"git tag" komutu, Git deposunda etiketleme yapmak için kullanılır.Etiketler belirli bir commit’i veya sürümü işaretlemek için kullanılır. git tag sabit bir yapıya sahipken git branch ise değiştirilebilir bir yapıdadır.
+
+———————————————————————————————————————————————
+
