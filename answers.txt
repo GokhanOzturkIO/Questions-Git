@@ -3,3 +3,11 @@
 Git , dağınık versiyon kontrol sistemlerinden biridir.Proje geliştirme süreçlerinde dosyaların değişikliklerini takip etmeye, bu değişikliklerin izlenmesine, işbirliği yapmaya ve değişiklikleri yönetmeyi sağlayan bir araçtır.
 
 ———————————————————————————————————————————————
+
+2."git pull" ile "git fetch" komutlarının farkı nedir?
+
+git fetch : Uzak sunucudaki gönderilen değişikliklerden localdeki bilgisayarın haberdar olmasını sağlar.
+git full : Uzak sunucudaki değişiklikleri indirir ve bu değişiklikleri yerel çalışma kopyasına entegre eder.
+Uzak sunucudaki değişiklikleri localimize almak için ilk önce “git fetch” daha sonra “git pull” komutlarını uygularız.
+
+———————————————————————————————————————————————
