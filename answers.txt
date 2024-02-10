@@ -129,3 +129,12 @@ Bir yazılım projesinin,belgelerin,kaynak kodunun ve diğer materyallerin bulun
 
 ———————————————————————————————————————————————
 
+22.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+https://visualizegit.com/ 
+https://github.com/pcottle/learnGitBranching#learnGitbranching 
+https://ohmygit.org/
+https://githistory.xyz/
+
+———————————————————————————————————————————————
+
