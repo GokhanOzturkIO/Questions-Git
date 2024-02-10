@@ -81,7 +81,8 @@ answer24 -> main veya master branch, genellikle projenin ana dalını temsil ede
 question25 -> ".gitignore" dosyası nedir ve ne amaçla kullanılır? 
 answer25 -> .gitignore dosyası, Git tarafından izlenmemesi gereken dosyaları ve dizinleri belirtmek için kullanılır. Bu dosya, proje dosyası boyutunu küçültmek, gereksiz dosya değişikliklerini önlemek ve projenin düzenini temiz tutmak için önemlidir.
 
-
+question26 -> "git push origin --delete branch_name” nedir ve ne için kullanılır?
+answer26 -> git push origin --delete branch_name komutu, uzak bir depodan bir branch'ı silmek için kullanılır. Bu komut, belirtilen branch_name adlı branch'ı origin adlı uzak depodan siler.
 
 
 
