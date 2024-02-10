@@ -117,3 +117,9 @@ Atomic commit ; tek bir iş yapan,geri alınması kolay ve zahmetsiz olan,yapıl
 
 ———————————————————————————————————————————————
 
+20.Repository ne demektir?
+
+Bir yazılım projesinin,belgelerin,kaynak kodunun ve diğer materyallerin bulunduğu depodur.
+
+———————————————————————————————————————————————
+
