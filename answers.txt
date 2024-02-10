@@ -11,3 +11,10 @@ git full : Uzak sunucudaki değişiklikleri indirir ve bu değişiklikleri yerel
 Uzak sunucudaki değişiklikleri localimize almak için ilk önce “git fetch” daha sonra “git pull” komutlarını uygularız.
 
 ———————————————————————————————————————————————
+
+3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+1) Biz “fetih” işlemi yapmadan direkt “pull” işlemi yapmaya çalışmış olabiliriz.
+2) Takım arkadaşımız commitleri staging area’ya almış ama ‘commit’ ve ‘push’ işlemlerini veya sadece ‘push’ işlemini uygulamamış olabilir.
+
+———————————————————————————————————————————————
