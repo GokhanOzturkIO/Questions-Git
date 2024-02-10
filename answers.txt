@@ -92,6 +92,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- main veya master branch, genellikle projenin ana geliştirme hattını temsil eder ve diğer branch'lerden farkı, projenin en güncel ve stabil versiyonunun burada olmasıdır.
 
+24-) ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+
+-- .gitignore dosyası, Git'in izlemesini istemediğiniz dosya ve klasörleri belirttiğiniz bir dosyadır.
+
 
 
 
