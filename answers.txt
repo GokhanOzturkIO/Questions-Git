@@ -49,4 +49,9 @@ Untracked file git tarafından takip edilmeyen dosyalara verilen addır. Bu dosy
 
 ———————————————————————————————————————————————
 
+9.Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+Bir template klasörü oluşturarak içerisinde ReadMe.md dosyası oluşturup “git inin - -template <directorys>” komutunu çalıştırıp Git’i başlatırız.
+
+———————————————————————————————————————————————
 
