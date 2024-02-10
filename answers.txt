@@ -76,6 +76,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- "Repository", projenin tüm dosyalarının ve geçmişinin depolandığı bir yerdir. Lokal olarak çalışanlar için "local repository" ve uzak olarak erişilebilenler için "remote repository" olarak iki türü vardır.
 
+20-) "git tag" nedir? "git branch"’ten farkı nedir?
+
+-- git tag, belirli bir commit'e bir etiket eklemek için kullanılır. git branch ise farklı geliştirme yollarını temsil eden isimlendirilmiş işaretçilerdir.
+
 
 
 
