@@ -44,11 +44,19 @@ question15 -> "git log" komutu ile hangi bilgileri görebiliriz?
 answer15 -> Commit ID,Yazarın adı ve e-posta adresi,Commit tarihi,Commit mesajı Bu komut, commit geçmişini daha detaylı incelemek için çeşitli seçeneklerle özelleştirilebilir, örneğin kısa özetler, yazarlara göre filtreleme veya belirli tarih aralıklarını görüntüleme.
 
 question16 -> "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
-answer16 -> Çalışma Dizini ve Staging Area Arasındaki Farklar: git diff komutu, dosyalarınızın mevcut çalışma dizini ile staging area arasındaki değişiklikleri gösterir.
-	    Staging Area ve Son Commit Arasındaki Farklar: git diff --staged veya git diff --cached komutları, staging area'daki dosyalar ile son commit arasındaki farkları gösterir.
-	    İki Commit Arasındaki Farklar: git diff commit1 commit2 komutu, iki commit arasındaki farkları gösterir, burada commit1 ve commit2 iki commit'in kimlikleridir.
-	    Farklı Branch'ler Arasındaki Farklar: git diff branch1 branch2 komutu, iki farklı branch arasındaki değişiklikleri gösterir.
-	    Dosya ve Dizinler Arasındaki Farklar: Belirli bir dosya veya dizin için de git diff kullanabilirsiniz, örneğin git diff myfile veya git diff mydirectory/.
+answer16 -> 1-Çalışma Dizini ve Staging Area Arasındaki Farklar: git diff komutu, dosyalarınızın mevcut çalışma dizini ile staging area arasındaki değişiklikleri gösterir.
+	    2-Staging Area ve Son Commit Arasındaki Farklar: git diff --staged veya git diff --cached komutları, staging area'daki dosyalar ile son commit arasındaki farkları gösterir.
+	    3-İki Commit Arasındaki Farklar: git diff commit1 commit2 komutu, iki commit arasındaki farkları gösterir, burada commit1 ve commit2 iki commit'in kimlikleridir.
+	    4-Farklı Branch'ler Arasındaki Farklar: git diff branch1 branch2 komutu, iki farklı branch arasındaki değişiklikleri gösterir.
+	    5-Dosya ve Dizinler Arasındaki Farklar: Belirli bir dosya veya dizin için de git diff kullanabilirsiniz, örneğin git diff myfile veya git diff mydirectory/.
+
+question17 -> Git reset ile neyi geri alıyoruz?
+answer17 -> git reset komutu ile Git'te yapılan değişikliklerin farklı seviyelerde geri alınması sağlanır. Bu komut, üç ana modda kullanılabilir: --soft, --mixed ve --hard, ve bu modlar commit geçmişi, staging area (sahne), ve çalışma dizini üzerinde farklı etkilere sahiptir:
+	    1-Soft Reset (--soft): Bu mod, belirtilen commit'e geri döner ancak çalışma dizinindeki dosyaları ve staging area'yı etkilemez. Yani, mevcut head geri alınır, fakat değişiklikler staging area'da bekletilmeye devam eder.
+	    2-Mixed Reset (Varsayılan, --mixed): Belirtilen commit'e geri döner, staging area'yı sıfırlar ancak çalışma dizinindeki dosyaları korur. Bu, değişikliklerin commit'lenmemiş ama çalışma dizininde değişiklik olarak kaldığı anlamına gelir.
+	    3-Hard Reset (--hard): Bu, en radikal reset seçeneğidir. Belirtilen commit'e geri dönülür ve bu sırada staging area ve çalışma dizinindeki tüm değişiklikler silinir. Bu mod, yapılan tüm değişikliklerin tamamen geri alınmasını sağlar.
+
+
 
 
 
