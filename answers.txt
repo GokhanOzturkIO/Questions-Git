@@ -1,0 +1,5 @@
+1. Git Nedir?
+
+Git , dağınık versiyon kontrol sistemlerinden biridir.Proje geliştirme süreçlerinde dosyaların değişikliklerini takip etmeye, bu değişikliklerin izlenmesine, işbirliği yapmaya ve değişiklikleri yönetmeyi sağlayan bir araçtır.
+
+———————————————————————————————————————————————
