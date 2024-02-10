@@ -68,6 +68,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git commit, yapılan değişiklikleri yerel deposuna kaydeder. git push ise yerel depodaki değişiklikleri uzak bir depoya gönderir.
 
+18-) Atomic commit ne demektir?
+
+-- "Atomic commit", bir commit'in tek bir amacı veya değişikliği temsil ettiği bir commit stili veya yöntemidir.
+
 
 
 
