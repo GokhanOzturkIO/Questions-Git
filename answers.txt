@@ -92,3 +92,9 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+16."git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+“git diff” komutu ile takip edilen dosyalardaki değişiklikleri görüntüleyebiliriz.Bu komut, değiştirilmiş veya eklenmiş dosyalar arasundaki farkları, çalışma diziniyle en son commit edilmiş olan sürüm arasında karşılaştırı.Eklenmiş veya silinmiş dosyaları da gösterebilir.
+
+———————————————————————————————————————————————
+
