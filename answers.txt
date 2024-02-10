@@ -12,3 +12,7 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 "origin", genellikle projenin uzak depo (remote repository) olarak tanımlandığı yerel adlandırmadır.
 
+4-) "HEAD" kelimesi neyi temsil etmektedir?
+
+"HEAD", şu anda çalışılan branch'in en son commit'ini gösteren bir referanstır.
+
