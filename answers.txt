@@ -28,3 +28,5 @@ answer9 -> Git'in "templates" özelliğini kullanarak her git init işlemiyle RE
 question10 -> Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 answer10 -> Git'te "branch" yapısı, projenin farklı sürümleri veya özellikleri üzerinde aynı anda ama bağımsız şekilde çalışmayı sağlayan bir mekanizmadır. Her dal (branch), projenin bir kopyası gibi davranır ve üzerinde yapılan değişiklikler ana dal (master veya main) veya diğer dallardan bağımsızdır. Bu yapı, birden fazla geliştiricinin aynı projede farklı özellikler üzerinde çalışmasına, hataları düzeltmesine veya yeni özellikler eklemesine olanak tanırken, ana projenin bütünlüğünü ve istikrarını korur. Dallar arasında değişiklikleri birleştirme (merge) işlemi ile, işlenen tüm değişiklikler ana projeye entegre edilebilir. Bu, ekip çalışmasını ve projelerin yönetimini kolaylaştırır, aynı zamanda riskleri azaltır.
 
+question11 -> Sıfırdan bir "branch" nasıl oluşturabiliriz?
+answer11 -> git branch yeni_branch_adı komutu ile branch açabilir ve git checkout yeni_branch_adı ile oluşturdugumuz branch'a geçebiliriz.
