@@ -24,3 +24,9 @@ Uzak sunucudaki değişiklikleri localimize almak için ilk önce “git fetch�
 Genellikle Git deposunun bir uzak depo olarak adlandırıldığı yerdir.Projenin yerel kopyasının aldığı veya gönderdiği uzak depoyu temsil eder.
 
 ———————————————————————————————————————————————
+
+5."HEAD" kelimesi neyi temsil etmektedir?
+
+Git’te şu an çalışmakta olduğumuz konumu gösteren terimdir.En son yapmış olduğumuz commit’e işaret eder.
+
+———————————————————————————————————————————————
