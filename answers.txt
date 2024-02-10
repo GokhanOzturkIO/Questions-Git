@@ -30,3 +30,6 @@ answer10 -> Git'te "branch" yapısı, projenin farklı sürümleri veya özellik
 
 question11 -> Sıfırdan bir "branch" nasıl oluşturabiliriz?
 answer11 -> git branch yeni_branch_adı komutu ile branch açabilir ve git checkout yeni_branch_adı ile oluşturdugumuz branch'a geçebiliriz.
+
+question12 -> Var olan bir "branch"e nasıl geçebiliriz?
+answer12 -> git checkout branch_adı ile branch değiştirebiliriz. Git 2.23.0 veya daha yeni sürümlerde, git switch komutu da kullanılabilir ve bu, branch değiştirme işlemi için daha modern ve önerilen bir yoldur git switch branch_adı ilede branch değiştirilebilir.
