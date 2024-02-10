@@ -111,3 +111,9 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+19.Atomic commit ne demektir?
+
+Atomic commit ; tek bir iş yapan,geri alınması kolay ve zahmetsiz olan,yapılanişi tam anlamıyla açıklayan,kısa ve öz commit mesajıdır.
+
+———————————————————————————————————————————————
+
