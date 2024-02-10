@@ -74,3 +74,9 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+“git clone  - - branch <branch adı> <url>” komutunu kullanarak belirli bir spesifik branch’i çekebiliriz.
+
+———————————————————————————————————————————————
+
