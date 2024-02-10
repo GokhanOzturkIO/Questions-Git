@@ -61,3 +61,9 @@ Bir Git projesinde ana kod tabanından ayrılan bir kopyasıdır.Bu ayrı kopyal
 
 ———————————————————————————————————————————————
 
+11.Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+“ git branch <branch adı> “ komutu ile yeni bir branch oluşturabiliriz.
+
+———————————————————————————————————————————————
+
