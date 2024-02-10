@@ -104,3 +104,10 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+18."git commit" ile "git push" arasındaki fark nedir?
+
+“git commit" ; çalışma dizinindeki değişiklikleri local repository’e kaydetmek için kullanılır.
+"git push" ; localde yapılan değişiklikleri uzak bir depoya yüklemek için kullanılır.Sunucuya dosya yükleme işlemidir.
+
+———————————————————————————————————————————————
+
