@@ -80,3 +80,9 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+14."Merge conflict" ne demektir?
+
+İki veya daha fazla kişinin çalıştığı bir projede , aynı dosyanın aynı satırını, iki veya daha fazla kişi değiştirip bu değişiklikleri commit’leyip, kendi branch’lerine push’ladıktan sonra değişiklikleri master branch’ine merge etmesiyle çalışırken yaşanan çakışmaya denir.Çakışma olduğunda takım arkadaşları ile konuşup hangi kodun geçerli olduğuna birlikte karar verilmelidir.
+
+———————————————————————————————————————————————
+
