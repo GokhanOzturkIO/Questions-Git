@@ -55,3 +55,9 @@ Bir template klasörü oluşturarak içerisinde ReadMe.md dosyası oluşturup �
 
 ———————————————————————————————————————————————
 
+10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+Bir Git projesinde ana kod tabanından ayrılan bir kopyasıdır.Bu ayrı kopyalar üzerinde değişiklikler yapabiliriz.Daha sonra bu değişiklikler ana kodda birleştirilebilir.Bu sayede birden fazla kişi aynı anda çalışma yapabilir.Kodun belli bir sürümünde istikrarı korumayı sağlar.
+
+———————————————————————————————————————————————
+
