@@ -28,5 +28,9 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- ".git" klasörü, Git deposunun tüm yapılandırma ve tarih bilgilerini içerir. Eğer bu klasörü silerseniz, Git deposunu ve geçmişini kaybedersiniz.
 
+8-) Kendi lokalimizde her "git init" komutunu kullanırken otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+"git init" komutu ile birlikte otomatik olarak "ReadMe.md" dosyası oluşturmak istiyorsanız, bir kabuk betiği veya otomatik bir iş akışı oluşturabilirsiniz.
+
 
 
