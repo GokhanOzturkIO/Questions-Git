@@ -52,6 +52,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- "Merge conflict", birleştirme (merge) işlemi sırasında Git'in otomatik olarak çözemediği iki farklı değişiklik arasındaki çakışmayı ifade eder.
 
+14-) "git log" komutu ile hangi bilgileri görebiliriz?
+
+-- git log, projedeki commit geçmişini gösterir. Her bir commit'in kimliği (hash), yazarı, tarihi ve commit mesajı gibi bilgileri görebilirsiniz.
+
 
 
 
