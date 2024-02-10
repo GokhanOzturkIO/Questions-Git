@@ -37,4 +37,7 @@ answer12 -> git checkout branch_adı ile branch değiştirebiliriz. Git 2.23.0 v
 question13 -> "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 answer13 -> git clone --branch branch_adı repo_adresi komutu ile istenilen branch clonelanabilir. branch_adı: Çekmek istediğiniz branch'in adıdır ve repo_adresi: Klonlamak istediğiniz Git deposunun adresidir.
 
+question14 -> "Merge conflict" ne demektir?
+answer14 -> "Merge conflict" (birleştirme çakışması), iki veya daha fazla geliştiricinin aynı dosyanın aynı bölümlerinde farklı değişiklikler yapması ve bu değişikliklerin birleştirilmeye çalışıldığında Git tarafından otomatik olarak çözülememesi durumudur. Çakışma, aynı satırlar üzerinde yapılan değişiklikler veya bir dalda silinen fakat diğerinde değiştirilen bir dosya gibi senaryolarda meydana gelebilir. Git, bu tür çakışmaları algıladığında, kullanıcıya bilgi verir ve çakışan değişikliklerin manuel olarak çözülmesini ister. Çakışmalar çözüldükten sonra, değişiklikler birleştirilebilir ve merge işlemi tamamlanabilir.
+
 
