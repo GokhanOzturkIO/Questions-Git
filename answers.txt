@@ -56,6 +56,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git log, projedeki commit geçmişini gösterir. Her bir commit'in kimliği (hash), yazarı, tarihi ve commit mesajı gibi bilgileri görebilirsiniz.
 
+15-) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+-- git diff, iki farklı durum arasındaki değişiklikleri gösterir. Genellikle çalışma dizini ve staging alanı arasındaki farkları göstermek için kullanılır.
+
 
 
 
