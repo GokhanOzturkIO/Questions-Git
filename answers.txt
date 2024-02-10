@@ -30,3 +30,9 @@ Genellikle Git deposunun bir uzak depo olarak adlandırıldığı yerdir.Projeni
 Git’te şu an çalışmakta olduğumuz konumu gösteren terimdir.En son yapmış olduğumuz commit’e işaret eder.
 
 ———————————————————————————————————————————————
+
+6."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+Kontrol ve tutma bölgesi diyebiliriz.Commit’leri push’lamadan önce gönderdiğimiz ara alandır.Burada yapılan değişiklikler geri alınabilir,kontrol edilebili.Bu bölge sayesinde hataları daha erken tespit edebiliriz.
+
+———————————————————————————————————————————————
