@@ -43,3 +43,10 @@ Untracked file git tarafından takip edilmeyen dosyalara verilen addır. Bu dosy
 
 ———————————————————————————————————————————————
 
+8.".git" klasörünü silersek ne olur?
+
+“.git” dosyası ‘git init’ komutu ile oluşturulur.Git,bu klasör içerisinde dosya kontrolleri yapar.Bu dosya silindiğinde Git ile bir bağlantı kalmaz. Yani yapmış olduğumuz tüm işlemleri sileriz.
+
+———————————————————————————————————————————————
+
+
