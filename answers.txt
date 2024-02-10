@@ -98,3 +98,9 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+17.Git reset ile neyi geri alıyoruz?
+
+“git ceset” komutu ile staging area’ya aldığımız dosyaları veya değişiklikleri staging area’dan çıkartarak “git add” yaptığımız halden önceki durumuna getirebiliriz.Dosyalar üzerinde yapılan işi geri alma işlemi değildir.
+
+———————————————————————————————————————————————
+
