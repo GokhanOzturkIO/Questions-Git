@@ -80,6 +80,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git tag, belirli bir commit'e bir etiket eklemek için kullanılır. git branch ise farklı geliştirme yollarını temsil eden isimlendirilmiş işaretçilerdir.
 
+21-) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+-- GitKraken, Sourcetree, GitHub Desktop gibi araçlar görsel olarak Git'i kullanmanıza olanak tanır.
+
 
 
 
