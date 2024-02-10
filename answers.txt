@@ -8,95 +8,99 @@
 
 git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge etmez. Yalnızca güncellemeleri indirir ve yereldeki branch'inizdeki uzak branch'in son durumunu günceller.
 
-3-) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+3-)Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+-- Takım arkadaşınızın gönderdiği branch'i izlemediğinizden veya uzak branch ile yerel branch arasında uyumsuzluk olduğundan dolayı olabilir.
+
+4-) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 
 -- "origin", genellikle projenin uzak depo (remote repository) olarak tanımlandığı yerel adlandırmadır.
 
-4-) "HEAD" kelimesi neyi temsil etmektedir?
+5-) "HEAD" kelimesi neyi temsil etmektedir?
 
 -- "HEAD", şu anda çalışılan branch'in en son commit'ini gösteren bir referanstır.
 
-5-) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+6-) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 
 -- "Staging Area" veya "Index", commit yapmadan önce değişikliklerinizi hazırladığınız ve commit etmek istediğiniz değişiklikleri belirlediğiniz alandır.
 
-6-) "Untracked file" ne demektir?
+7-) "Untracked file" ne demektir?
 
 -- "Untracked file", Git'in takip etmediği ve depolamadığı bir dosyadır. Yani, dosya Git veritabanında henüz eklenmemiştir.
 
-7-) ".git" klasörünü silersek ne olur?
+8-) ".git" klasörünü silersek ne olur?
 
 -- ".git" klasörü, Git deposunun tüm yapılandırma ve tarih bilgilerini içerir. Eğer bu klasörü silerseniz, Git deposunu ve geçmişini kaybedersiniz.
 
-8-) Kendi lokalimizde her "git init" komutunu kullanırken otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+9-) Kendi lokalimizde her "git init" komutunu kullanırken otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 
 -- "git init" komutu ile birlikte otomatik olarak "ReadMe.md" dosyası oluşturmak istiyorsanız, bir kabuk betiği veya otomatik bir iş akışı oluşturabilirsiniz.
 
-9-) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+10-) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 
 -- "Branch", projenin farklı geliştirme yollarını temsil eder. Paralel geliştirme, deneme veya özelliklerin izole edilmesi gibi durumları sağlar.
 
-10-) Sıfırdan bir "branch" nasıl oluşturabiliriz?
+11-) Sıfırdan bir "branch" nasıl oluşturabiliriz?
 
 -- git branch branch_name komutu ile bir branch oluşturabiliriz.
 
-11-) Var olan bir "branch"e nasıl geçebiliriz?
+12-) Var olan bir "branch"e nasıl geçebiliriz?
 
 -- git checkout branch_name komutu ile var olan bir branch'e geçiş yapabiliriz. 
 
-12-) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+13-) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
 -- git clone -b branch_name <repository_url> komutunu kullanarak belirli bir branch'i çekebiliriz.
 
-13-) "Merge conflict" ne demektir?
+14-) "Merge conflict" ne demektir?
 
 -- "Merge conflict", birleştirme (merge) işlemi sırasında Git'in otomatik olarak çözemediği iki farklı değişiklik arasındaki çakışmayı ifade eder.
 
-14-) "git log" komutu ile hangi bilgileri görebiliriz?
+15-) "git log" komutu ile hangi bilgileri görebiliriz?
 
 -- git log, projedeki commit geçmişini gösterir. Her bir commit'in kimliği (hash), yazarı, tarihi ve commit mesajı gibi bilgileri görebilirsiniz.
 
-15-) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+16-) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 
 -- git diff, iki farklı durum arasındaki değişiklikleri gösterir. Genellikle çalışma dizini ve staging alanı arasındaki farkları göstermek için kullanılır.
 
-16-) Git reset ile neyi geri alıyoruz?
+17-) Git reset ile neyi geri alıyoruz?
 
 -- git reset, commit geçmişinde geriye doğru hareket ederek yapılan değişiklikleri geri alır.
 
-17-) "git commit" ile "git push" arasındaki fark nedir?
+18-) "git commit" ile "git push" arasındaki fark nedir?
 
 -- git commit, yapılan değişiklikleri yerel deposuna kaydeder. git push ise yerel depodaki değişiklikleri uzak bir depoya gönderir.
 
-18-) Atomic commit ne demektir?
+19-) Atomic commit ne demektir?
 
 -- "Atomic commit", bir commit'in tek bir amacı veya değişikliği temsil ettiği bir commit stili veya yöntemidir.
 
-19-) Repository ne demektir?
+20-) Repository ne demektir?
 
 -- "Repository", projenin tüm dosyalarının ve geçmişinin depolandığı bir yerdir. Lokal olarak çalışanlar için "local repository" ve uzak olarak erişilebilenler için "remote repository" olarak iki türü vardır.
 
-20-) "git tag" nedir? "git branch"’ten farkı nedir?
+21-) "git tag" nedir? "git branch"’ten farkı nedir?
 
 -- git tag, belirli bir commit'e bir etiket eklemek için kullanılır. git branch ise farklı geliştirme yollarını temsil eden isimlendirilmiş işaretçilerdir.
 
-21-) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+22-) Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
 -- GitKraken, Sourcetree, GitHub Desktop gibi araçlar görsel olarak Git'i kullanmanıza olanak tanır.
 
-22-) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+23-) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
 -- Git, bir versiyon kontrol sistemidir; GitHub ise Git tabanlı projelerin barındırıldığı bir platformdur. Diğer benzer platformlar arasında GitLab, Bitbucket, SourceForge vb. bulunur. Kullanıcı adları platformlara göre değişir.
 
-23-) main ya da master branch'inin diğer branchlerden farkı nedir?
+24-) main ya da master branch'inin diğer branchlerden farkı nedir?
 
 -- main veya master branch, genellikle projenin ana geliştirme hattını temsil eder ve diğer branch'lerden farkı, projenin en güncel ve stabil versiyonunun burada olmasıdır.
 
-24-) ".gitignore" dosyası nedir ve ne amaçla kullanılır?
+25-) ".gitignore" dosyası nedir ve ne amaçla kullanılır?
 
 -- .gitignore dosyası, Git'in izlemesini istemediğiniz dosya ve klasörleri belirttiğiniz bir dosyadır.
 
-25-) "git push origin --delete branch_name” nedir ve ne için kullanılır?
+26-) "git push origin --delete branch_name” nedir ve ne için kullanılır?
 
 -- git push origin --delete branch_name, belirtilen uzak depodaki bir branch'i silmek için kullanılır.
 
