@@ -64,6 +64,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git reset, commit geçmişinde geriye doğru hareket ederek yapılan değişiklikleri geri alır.
 
+17-) "git commit" ile "git push" arasındaki fark nedir?
+
+-- git commit, yapılan değişiklikleri yerel deposuna kaydeder. git push ise yerel depodaki değişiklikleri uzak bir depoya gönderir.
+
 
 
 
