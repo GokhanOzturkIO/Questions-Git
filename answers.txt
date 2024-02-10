@@ -14,6 +14,8 @@ answer4 -> "origin", genellikle yerel depodaki uzak depoya verilen varsayılan i
 question5 -> "HEAD" kelimesi neyi temsil etmektedir?
 answer5 -> Git'te, şu anda çalışmakta olduğunuz son commit'i, yani mevcut dalın en son noktasını temsil eder. Bu, Git'in, projeniz üzerinde hangi noktada olduğunuzu takip etmesini sağlar. Genellikle, HEAD aktif dalın en son commit'ine bir referanstır ve değişiklikleri commit ettiğinizde, HEAD otomatik olarak en yeni commit'e güncellenir. 
 
-
 question6 -> "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 answer6 -> "Staging Area" ya da "Index", Git'te değişikliklerin commit edilmeden önce bekletildiği bir ara katmandır. Bu alan, hangi dosyaların bir sonraki commit'e dahil edileceğini seçmenize olanak tanır.
+
+question7 -> "Untracked file" ne demektir?
+answer7 -> "Untracked file", Git tarafından henüz takip edilmeyen, yani herhangi bir commit'e dahil edilmemiş dosyayı ifade eder. Bu dosyalar, Git deposuna yeni eklenmiş olabilir ve git add komutu kullanılarak takip edilmesi gereken dosyalardır.
