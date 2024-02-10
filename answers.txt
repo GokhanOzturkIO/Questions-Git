@@ -43,3 +43,12 @@ answer14 -> "Merge conflict" (birleştirme çakışması), iki veya daha fazla g
 question15 -> "git log" komutu ile hangi bilgileri görebiliriz?
 answer15 -> Commit ID,Yazarın adı ve e-posta adresi,Commit tarihi,Commit mesajı Bu komut, commit geçmişini daha detaylı incelemek için çeşitli seçeneklerle özelleştirilebilir, örneğin kısa özetler, yazarlara göre filtreleme veya belirli tarih aralıklarını görüntüleme.
 
+question16 -> "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+answer16 -> Çalışma Dizini ve Staging Area Arasındaki Farklar: git diff komutu, dosyalarınızın mevcut çalışma dizini ile staging area arasındaki değişiklikleri gösterir.
+	    Staging Area ve Son Commit Arasındaki Farklar: git diff --staged veya git diff --cached komutları, staging area'daki dosyalar ile son commit arasındaki farkları gösterir.
+	    İki Commit Arasındaki Farklar: git diff commit1 commit2 komutu, iki commit arasındaki farkları gösterir, burada commit1 ve commit2 iki commit'in kimlikleridir.
+	    Farklı Branch'ler Arasındaki Farklar: git diff branch1 branch2 komutu, iki farklı branch arasındaki değişiklikleri gösterir.
+	    Dosya ve Dizinler Arasındaki Farklar: Belirli bir dosya veya dizin için de git diff kullanabilirsiniz, örneğin git diff myfile veya git diff mydirectory/.
+
+
+
