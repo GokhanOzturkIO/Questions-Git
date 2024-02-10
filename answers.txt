@@ -75,6 +75,11 @@ question23 -> "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer s
 answer23 -> GitHub, Git tabanlı projelerin barındırıldığı bir platformken, Git ise dağıtık bir versiyon kontrol sistemi olarak kullanılır. GitHub benzeri diğer platformlar arasında GitLab, Bitbucket ve SourceForge bulunmaktadır. 
 	    Github -> furkanakak
 
+question24 -> main ya da master branch'inin diğer branchlerden farkı nedir?
+answer24 -> main veya master branch, genellikle projenin ana dalını temsil eder ve stabil sürümü barındırır. Diğer branch'ler ise genellikle yeni özelliklerin veya düzeltmelerin geliştirilmesi için kullanılır. Ana branch, yayınlanabilir sürümü temsil ederken, diğer branch'ler genellikle geliştirme veya test aşamasındaki değişiklikleri içerir.
+
+
+
 
 
 
