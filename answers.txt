@@ -44,6 +44,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git checkout branch_name komutu ile var olan bir branch'e geçiş yapabiliriz. 
 
+12-) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+-- git clone -b branch_name <repository_url> komutunu kullanarak belirli bir branch'i çekebiliriz.
+
 
 
 
