@@ -84,6 +84,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- GitKraken, Sourcetree, GitHub Desktop gibi araçlar görsel olarak Git'i kullanmanıza olanak tanır.
 
+22-) "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+-- Git, bir versiyon kontrol sistemidir; GitHub ise Git tabanlı projelerin barındırıldığı bir platformdur. Diğer benzer platformlar arasında GitLab, Bitbucket, SourceForge vb. bulunur. Kullanıcı adları platformlara göre değişir.
+
 
 
 
