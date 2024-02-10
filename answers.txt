@@ -1,0 +1,3 @@
+question1 -> Git Nedir?
+answer1 -> 
+Git, versiyon kontrol sistemi olarak bilinen, kod değişikliklerini takip etmeyi ve birden fazla kişinin aynı projede çalışırken değişiklikleri koordine etmeyi sağlayan bir yazılımdır. Açık kaynaklıdır ve projelerdeki değişiklikleri yönetmek, eski sürümlere geri dönmek ve farklı geliştirme dallarında çalışmayı kolaylaştırır. Bu, özellikle yazılım geliştirme süreçlerinde ekip çalışması için vazgeçilmez bir araçtır.
