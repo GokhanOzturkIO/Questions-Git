@@ -138,3 +138,11 @@ https://githistory.xyz/
 
 ———————————————————————————————————————————————
 
+23."GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+Git,bir versiyon kontrol sistemidir.GitHub ise Git’i barındıran bir platformdur.
+GitLab,GitKraken,SourceForge
+GitHub: ayselatak
+
+———————————————————————————————————————————————
+
