@@ -8,3 +8,7 @@
 
 git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge etmez. Yalnızca güncellemeleri indirir ve yereldeki branch'inizdeki uzak branch'in son durumunu günceller.
 
+3-) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+"origin", genellikle projenin uzak depo (remote repository) olarak tanımlandığı yerel adlandırmadır.
+
