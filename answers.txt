@@ -40,6 +40,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git branch branch_name komutu ile bir branch oluşturabiliriz.
 
+11-) Var olan bir "branch"e nasıl geçebiliriz?
+
+-- git checkout branch_name komutu ile var olan bir branch'e geçiş yapabiliriz. 
+
 
 
 
