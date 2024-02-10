@@ -86,3 +86,9 @@ Yeni bir branch oluşturup direkt olarak o branch’e geçmek için “git check
 
 ———————————————————————————————————————————————
 
+15."git log" komutu ile hangi bilgileri görebiliriz?
+
+"git log" komutu ile depodaki yapılan tüm commitler listelenir.Her bir commit’in kim tarafından yapıldığını zaman yapıldığı,hangi değişiklikleri içerdiği gibi bilgileri gösterir.En yeni commit’ten başlayarak en eskiye doğru tüm commit’leri listeler.Çıktıda her commit için özet bilgiler bulunur.
+
+———————————————————————————————————————————————
+
