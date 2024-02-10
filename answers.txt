@@ -10,3 +10,6 @@ answer3 -> Ya takım arkadaşınız kodları push etmemiştir, Ya ben yada o yan
 
 question4 -> "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 answer4 -> "origin", genellikle yerel depodaki uzak depoya verilen varsayılan isimdir. Bu, Git'in uzak depolarla çalışırken kullandığı bir referanstır. 
+
+question5 -> "HEAD" kelimesi neyi temsil etmektedir?
+answer5 -> Git'te, şu anda çalışmakta olduğunuz son commit'i, yani mevcut dalın en son noktasını temsil eder. Bu, Git'in, projeniz üzerinde hangi noktada olduğunuzu takip etmesini sağlar. Genellikle, HEAD aktif dalın en son commit'ine bir referanstır ve değişiklikleri commit ettiğinizde, HEAD otomatik olarak en yeni commit'e güncellenir. 
