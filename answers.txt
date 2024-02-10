@@ -1,0 +1,4 @@
+1-) Git nedir?
+
+ 
+-- Git bir versiyon kontrol sistemi ve yazılım geliştirme projelerinde kullanılan bir araçtır. Kod değişikliklerini izler, yönetir, işbirliği yapmayı sağlar ve farklı versiyonlarını saklar.
