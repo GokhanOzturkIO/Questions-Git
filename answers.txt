@@ -33,3 +33,8 @@ answer11 -> git branch yeni_branch_adı komutu ile branch açabilir ve git check
 
 question12 -> Var olan bir "branch"e nasıl geçebiliriz?
 answer12 -> git checkout branch_adı ile branch değiştirebiliriz. Git 2.23.0 veya daha yeni sürümlerde, git switch komutu da kullanılabilir ve bu, branch değiştirme işlemi için daha modern ve önerilen bir yoldur git switch branch_adı ilede branch değiştirilebilir.
+
+question13 -> "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+answer13 -> git clone --branch branch_adı repo_adresi komutu ile istenilen branch clonelanabilir. branch_adı: Çekmek istediğiniz branch'in adıdır ve repo_adresi: Klonlamak istediğiniz Git deposunun adresidir.
+
+
