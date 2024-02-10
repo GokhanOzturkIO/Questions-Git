@@ -96,6 +96,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- .gitignore dosyası, Git'in izlemesini istemediğiniz dosya ve klasörleri belirttiğiniz bir dosyadır.
 
+25-) "git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+-- git push origin --delete branch_name, belirtilen uzak depodaki bir branch'i silmek için kullanılır.
+
 
 
 
