@@ -1,11 +1,10 @@
 question1 -> Git Nedir?
-answer1 -> 
-Git, versiyon kontrol sistemi olarak bilinen, kod değişikliklerini takip etmeyi ve birden fazla kişinin aynı projede çalışırken değişiklikleri koordine etmeyi sağlayan bir yazılımdır. Açık kaynaklıdır ve projelerdeki değişiklikleri yönetmek, eski sürümlere geri dönmek ve farklı geliştirme dallarında çalışmayı kolaylaştırır. Bu, özellikle yazılım geliştirme süreçlerinde ekip çalışması için vazgeçilmez bir araçtır.
+answer1 -> Git, versiyon kontrol sistemi olarak bilinen, kod değişikliklerini takip etmeyi ve birden fazla kişinin aynı projede çalışırken değişiklikleri koordine etmeyi sağlayan bir yazılımdır. Açık kaynaklıdır ve projelerdeki değişiklikleri yönetmek, eski sürümlere geri dönmek ve farklı geliştirme dallarında çalışmayı kolaylaştırır. Bu, özellikle yazılım geliştirme süreçlerinde ekip çalışması için vazgeçilmez bir araçtır.
 
 question2 -> "git pull" ile "git fetch" komutlarının farkı nedir?
 answer2 -> git pull, uzak depodan değişiklikleri çekip yerelde otomatik olarak birleştirir. git fetch, uzak değişiklikleri çeker ama birleştirmez, kullanıcıya inceleme ve manuel birleştirme imkanı sunar.
 
-question3 ->Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+question3 -> Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 answer3 -> Ya takım arkadaşınız kodları push etmemiştir, Ya ben yada o yanlış branchda olabilir, ya da fetch işlemi yapmayı unutmuş olabilirim.
 
 question4 -> "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
@@ -22,3 +21,7 @@ answer7 -> "Untracked file", Git tarafından henüz takip edilmeyen, yani herhan
 
 question8 -> ".git" klasörünü silersek ne olur?
 answer8 -> ".git" klasörünü silmek, Git versiyon kontrol bilgilerini ve tüm geçmişi siler; projeniz artık bir Git deposu olarak takip edilmez ancak projenizin dosyaları korunur.
+
+question9 -> Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+answer9 -> Git'in "templates" özelliğini kullanarak her git init işlemiyle README.md dosyası oluşturmak için, özel bir Git şablon dizini oluşturun ve bu dizine post-init hook'u ekleyin. Bu hook, README.md oluşturma komutlarını içermeli ve her yeni repo başlatıldığında otomatik çalışacak şekilde ayarlanmalıdır. Bu yöntem, yeni projeler için otomatik bir başlangıç dosyası sağlar.
+
