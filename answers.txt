@@ -158,3 +158,10 @@ Main veya master branch , ana kodun bulunduğu branch’lerdir. Diğer branch’
 
 ———————————————————————————————————————————————
 
+26."git push origin --delete branch_name” nedir ve ne için kullanılır?
+
+
+"git push origin --delete branch_name” komutu, Git deposundan uzak bir dalı silmek için kullanılır.
+
+———————————————————————————————————————————————
+
