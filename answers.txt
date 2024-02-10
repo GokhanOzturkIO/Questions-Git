@@ -18,3 +18,9 @@ Uzak sunucudaki değişiklikleri localimize almak için ilk önce “git fetch�
 2) Takım arkadaşımız commitleri staging area’ya almış ama ‘commit’ ve ‘push’ işlemlerini veya sadece ‘push’ işlemini uygulamamış olabilir.
 
 ———————————————————————————————————————————————
+
+4."git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+Genellikle Git deposunun bir uzak depo olarak adlandırıldığı yerdir.Projenin yerel kopyasının aldığı veya gönderdiği uzak depoyu temsil eder.
+
+———————————————————————————————————————————————
