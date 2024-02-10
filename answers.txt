@@ -60,6 +60,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git diff, iki farklı durum arasındaki değişiklikleri gösterir. Genellikle çalışma dizini ve staging alanı arasındaki farkları göstermek için kullanılır.
 
+16-) Git reset ile neyi geri alıyoruz?
+
+-- git reset, commit geçmişinde geriye doğru hareket ederek yapılan değişiklikleri geri alır.
+
 
 
 
