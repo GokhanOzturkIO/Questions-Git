@@ -78,7 +78,8 @@ answer23 -> GitHub, Git tabanlı projelerin barındırıldığı bir platformken
 question24 -> main ya da master branch'inin diğer branchlerden farkı nedir?
 answer24 -> main veya master branch, genellikle projenin ana dalını temsil eder ve stabil sürümü barındırır. Diğer branch'ler ise genellikle yeni özelliklerin veya düzeltmelerin geliştirilmesi için kullanılır. Ana branch, yayınlanabilir sürümü temsil ederken, diğer branch'ler genellikle geliştirme veya test aşamasındaki değişiklikleri içerir.
 
-
+question25 -> ".gitignore" dosyası nedir ve ne amaçla kullanılır? 
+answer25 -> .gitignore dosyası, Git tarafından izlenmemesi gereken dosyaları ve dizinleri belirtmek için kullanılır. Bu dosya, proje dosyası boyutunu küçültmek, gereksiz dosya değişikliklerini önlemek ve projenin düzenini temiz tutmak için önemlidir.
 
 
 
