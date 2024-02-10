@@ -66,6 +66,12 @@ question20 -> Repository ne demektir?
 answer20 -> Repository (Depo), bir yazılım projesinin veya belgelerin, dosyaların, kaynak kodlarının ve tarihsel değişikliklerin saklandığı merkezi bir depodur. Bu depo, projenin tüm sürümlerini ve değişikliklerini içerir ve genellikle bir versiyon kontrol sistemi (VCS) tarafından yönetilir.
 
 
+question21 -> git tag" nedir? "git branch"’ten farkı nedir?
+answer21 -> git tag, belirli bir commit veya başka bir referans üzerine anlamlı bir etiket eklemek için kullanılırken, git branch, farklı sürümleri veya özellikleri izole etmek için kullanılan ayrı dallar oluşturmak ve yönetmek için kullanılır. Etiketler genellikle sürüm numaraları gibi anlamlı isimler alırken, dallar farklı işlevlerin veya özelliklerin geliştirilmesi için kullanılır.
+
+
+
+
 
 
 
