@@ -48,6 +48,10 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 -- git clone -b branch_name <repository_url> komutunu kullanarak belirli bir branch'i çekebiliriz.
 
+13-) "Merge conflict" ne demektir?
+
+-- "Merge conflict", birleştirme (merge) işlemi sırasında Git'in otomatik olarak çözemediği iki farklı değişiklik arasındaki çakışmayı ifade eder.
+
 
 
 
