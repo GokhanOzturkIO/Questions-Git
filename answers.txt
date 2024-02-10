@@ -36,3 +36,10 @@ Git’te şu an çalışmakta olduğumuz konumu gösteren terimdir.En son yapmı
 Kontrol ve tutma bölgesi diyebiliriz.Commit’leri push’lamadan önce gönderdiğimiz ara alandır.Burada yapılan değişiklikler geri alınabilir,kontrol edilebili.Bu bölge sayesinde hataları daha erken tespit edebiliriz.
 
 ———————————————————————————————————————————————
+
+7."Untracked file" ne demektir?
+
+Untracked file git tarafından takip edilmeyen dosyalara verilen addır. Bu dosyaları git add ile staging area'ya alıp tracked file haline getirebiliriz.
+
+———————————————————————————————————————————————
+
