@@ -22,7 +22,11 @@ git fetch: Uzak bir depodan güncellemeleri alır, ancak yerel branch'e merge et
 
 6-) "Untracked file" ne demektir?
 
-"Untracked file", Git'in takip etmediği ve depolamadığı bir dosyadır. Yani, dosya Git veritabanında henüz eklenmemiştir.
+-- "Untracked file", Git'in takip etmediği ve depolamadığı bir dosyadır. Yani, dosya Git veritabanında henüz eklenmemiştir.
+
+7-) ".git" klasörünü silersek ne olur?
+
+-- ".git" klasörü, Git deposunun tüm yapılandırma ve tarih bilgilerini içerir. Eğer bu klasörü silerseniz, Git deposunu ve geçmişini kaybedersiniz.
 
 
 
