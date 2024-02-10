@@ -1,0 +1,87 @@
+1) Git Nedir? 
+
+*** Git açık kaynak kodlu bir versiyon kontrol sistemidir.
+
+2) "git pull" ile "git fetch" komutlarının farkı nedir?
+
+*** "git pull" komutu remote daki commit' i çeker. "git fetch" remote ile local'i eşitler.
+
+3) Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" 
+derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+
+*** muhtemelen "commit" ettikten sonra "push" etmemiştir. Veya biz "pull" etmeden önce "fetch" etmemişizdir.
+
+4) "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+
+*** "origin" klonlanan orjinal repository' i temsil eder. Yani birden fazla remote repository' e sahipsek "git fetch orgin" komutu bize klonlanan
+orjinal repodan "fetch" etme işlemini gerçekleştirir.
+
+5) "HEAD" kelimesi neyi temsil etmektedir?
+
+*** "HEAD" kelimesi, en son atılan commit'i işaret eder. Bazen branch' i de temsil eder.
+
+6) "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+
+*** Git'in commit işlemine hazırlık yapmak için kullandığı geçici bir depolama alanıdır. "Staging area" veya "index," projede yapılan değişiklikleri,
+ bir sonraki commit'e dahil etmek istediğimiz dosyaları seçme ve düzenleme imkanı sağlar.
+
+7) "Untracked file" ne demektir?
+
+*** "git" tarafından takip edilmeyen dosyalardır.
+
+8) ".git" klasörünü silersek ne olur?
+
+*** .git klasörü git init komutu çalıştırıldığında oluşturulur. Ve o çalışma dizininingit'e bağlandığını gösterir.
+ Bunu silersek git'le bağımız gider ve commit historyile bağımızı kaybederiz. Projede eski değişikliklere dönemeyiz.
+
+9) Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+
+*** Daha öncesinde bir templete oluşturmuş, git init i kullanırken template'i kullanarak init etmiş olmalıyız.
+
+10) Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+
+*** Branch yapısı projenin kopyasını oluşturur. Avantajı ise ana yapının etkilenmemesini sağlamaktır. Bu sayede bir proje üzerinde
+ ana yapıyı bozmadan birçok farklı kişi çalışabilir. Ayrıca branchler birleştirilebilir.
+
+11) Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+*** "git branch branchName" ile yeni bir branch oluşturabiliriz.
+
+12) Var olan bir "branch"e nasıl geçebiliriz?
+
+*** "git checkout branchName" ile oluşturduğumuz yeni branch'e geçiş yapabiliriz.
+
+13) "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+
+*** "git clone --onurkaraduman url" komutu url adresinde bulunan reponun onurkaraduman branchini çeker
+
+14) "Merge conflict" ne demektir?
+
+***  Birleştirme çakışması olarak geçer,
+ birden fazla branch birleştirilirken ortaya çıkabilecek bir hatadır.
+ Bu durum, iki farklı daldaki değişikliklerin aynı dosyanın aynı satırlarında çakışması veya çelişmesi durumunda meydana gelir.
+
+ Merge conflict, genellikle şu durumlarda ortaya çıkar:
+ İki farklı dalda aynı dosyanın aynı satırlarında yapılan değişiklikler çakışır.
+ Bir dalda bir dosya silinirken, diğer dalda aynı dosya değiştirilmiş veya taşınmışsa.
+ İki farklı dalda aynı dosya adı kullanılıyorsa, ancak içerikleri farklıdır.
+   
+ Merge conflict meydana geldiğinde, Git bu çakışmaları otomatik olarak çözemez ve kullanıcıdan yardım ister. 
+ Kullanıcı, çakışmayı elle çözmeli ve sonrasında commit etmelidir.
+
+15) "git log" komutu ile hangi bilgileri görebiliriz?
+
+*** Commit Hash: Her bir commit için benzersiz bir id
+ Yazar Bilgisi: Değişikliğin kim tarafından yapıldığı bilgisi
+ Tarih ve Saat: Commitin ne zaman yapıldığı
+ Commit Mesajı: Yapılan değişikliği açıklayan bir commit mesajı
+
+16) "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+*** local'deki degisiklikleri gorebiliriz.
+    staging area'daki degisiklikleri gorebiliriz. (git diff --staged komutu ile)
+    branch id lerini kullanarak branchler arası farkları görebiliriz
+
+
+Ders 3 Fork Denemesi
