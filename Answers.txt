@@ -9,3 +9,9 @@
 
 --Bu nedenle, genellikle güncellemeleri almak için git fetch kullanmanız ve ardından gerektiğinde yerel çalışma alanınızı güncellemek için git merge veya git rebase kullanmanız önerilir. git pull kullanmak, sadece basit güncellemeler alırken ve hızlı bir şekilde çalışırken tercih edilebilir.
 
+3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir? Sorusunun Cevabı:
+
+--Takım arkadaşınızın kodlarını gönderdiği branch ile sizin lokalde olduğunuz branch farklı olabilir.
+--İnternet bağlantınızda bir sorun olabilir.
+--Uzak depoya erişim yetkiniz olmayabilir.
+--Takım arkadaşınızın kodlarını gönderdiği commitler sizin lokaldeki commitlerle çakışıyor(conflict) olabilir.
