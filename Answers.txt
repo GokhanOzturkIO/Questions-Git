@@ -104,7 +104,17 @@
 --> git clone --single-branch -b master <repository-url> --
 --Bu komut, sadece master branch'ini klonlar ve diğer branch'leri almaz. --single-branch parametresi, sadece belirtilen branch'i klonlamak için kullanılırken, -b parametresi ise klonlanacak branch'i belirtmek için kullanılır.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+14."Merge conflict" ne demektir? Sorusunun Cevabı:
+
+--"Merge conflict" (birleştirme çakışması), genellikle Git'in farklı branch'lerde yapılan değişiklikleri birleştirmeye çalışırken karşılaşılan bir durumdur. İki farklı branch'te aynı satıra veya aynı dosyaya yapılan değişikliklerin çakışması durumunda ortaya çıkar.
+
+--Örneğin, bir ekip üyesi master branch'indeki bir dosyayı değiştirirken, başka bir ekip üyesi aynı dosyayı farklı bir branch'te değiştirirse ve bu branch'ler birleştirilmeye çalışılırsa birleştirme çakışması meydana gelir. Git, bu durumu algılar ve çakışan değişiklikleri çözmemiz için bize uyarılar gösterir.
+
+--Merge conflict'leri çözmek için, çakışan dosyaları açarız ve Git'in işaretlediği çakışmaları (<<<<<<<, =======, >>>>>>> gibi işaretlerle) düzenleyerek hangi değişikliklerin kullanılacağını belirleriz. Daha sonra, düzenlenmiş dosyaları işaretlenmiş çakışma işaretlerinden temizleyerek (git add komutuyla) çözülmüş olarak işaretleriz ve commit işlemimizi tamamlarız. Bu sayede merge conflict çözülmüş olur ve branch'ler başarıyla birleştirilmiş olur.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
