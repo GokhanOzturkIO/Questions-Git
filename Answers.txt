@@ -231,9 +231,13 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-26.
+26."git push origin --delete branch_name” nedir ve ne için kullanılır? Sorusunun Cevabı:
 
+--git push origin --delete branch_name komutu, uzak bir depodan (origin olarak adlandırılan genellikle GitHub veya GitLab gibi bir platform) bir branch'i silmek için kullanılır. Bu komutu kullandığınızda, belirttiğiniz branch_name adındaki branch, uzak depodan silinir ve artık o branch'e ait verilere erişilemez.
 
+--Bu komut genellikle gereksiz veya artık kullanılmayan bir branch'i temizlemek veya yanlışlıkla oluşturulan bir branch'i silmek için kullanılır. Ancak, bir branch'i silmeden önce dikkatli olmalısınız, çünkü silinen bir branch geri getirilemez. Bu nedenle, silme işleminden emin olmadan önce branch'inizdeki önemli değişiklikleri başka bir branch'e veya yereldeki başka bir yere aktarmayı unutmamalısınız.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
