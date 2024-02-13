@@ -76,8 +76,16 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-11
+11.Sıfırdan bir "branch" nasıl oluşturabiliriz? Sorusunun Cevabı:
 
+--Sıfırdan bir branch oluşturmak için öncelikle Git deposunda olmanız ve oluşturmak istediğiniz branch'e geçmiş olmanız gerekmektedir. Örneğin, mevcut branch "master" ise ve yeni bir "feature" branch oluşturmak istiyorsanız, aşağıdaki adımları izleyebilirsiniz:
+
+-->Terminal veya Git bash üzerinden Git deposunun bulunduğu dizine gidin.
+-->git checkout -b feature komutunu kullanarak "feature" isimli yeni bir branch oluşturun ve bu branch'e geçin. Bu komut aynı anda branch oluşturur ve o branch'e geçer.
+-->Artık "feature" branch üzerinde çalışabilirsiniz. Değişikliklerinizi ekleyerek (staging area'ya) ve commit ederek bu branch'e kaydedebilirsiniz.
+--!!! Veya sıfırdan bir branch oluşturmak için git branch komutunu kullanabilirsiniz. Yeni oluşturulan branch, mevcut konumunuzdaki commit'e göre oluşturulur ve bu commit'in üzerine devam eder.
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 
 
