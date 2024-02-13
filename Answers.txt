@@ -156,9 +156,18 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+18."git commit" ile "git push" arasındaki fark nedir? Sorusunun Cevabı:
 
 
+-->git commit: Bu komut, yapılan değişiklikleri yerel depoya (local repository) kaydetmek için kullanılır. Yani, bu komutla değişiklikler sadece kendi bilgisayarınızda kaydedilir ve diğerlerinin erişimine açılmaz. Commit işlemi, değişiklikleri belirli bir anlık görüntü olarak depoya kaydeder ve bu değişikliklerin bir mesajla birlikte tanımlanmasını sağlar.
 
+-->git push: Bu komut, yerel depodaki (local repository) commit'leri uzak bir depoya (remote repository) göndermek için kullanılır. Yani, git push komutuyla yerelde yaptığınız commit'leri uzak bir depoya yükleyerek, diğer ekip üyeleriyle paylaşabilir veya yedekleyebilirsiniz. Bu sayede, yapılan değişiklikler diğerlerinin erişimine açılır ve işbirliği yapılabilir hale gelir.
+
+--Özetle, git commit komutu yerelde yapılan değişiklikleri kaydederken, git push komutu bu değişiklikleri uzak bir depoya göndererek diğerleriyle paylaşmanızı sağlar.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19.
 
 
 
