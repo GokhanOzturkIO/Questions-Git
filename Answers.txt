@@ -221,11 +221,17 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+25..gitignore" dosyası nedir ve ne amaçla kullanılır? Sorusunun Cevabı:
 
+--.gitignore dosyası, Git'e hangi dosyaların veya dizinlerin izlenmemesini söyleyen bir dosyadır. Yani, Git'in takip etmesini istemediğiniz dosyaların veya dizinlerin listesini içerir. Bu dosyalar genellikle proje dosyalarının dışında tutulmak istenen geçici veya üretime yönelik olmayan dosyalardır.
 
+--.gitignore dosyası, projenin kök dizininde bulunur ve belirli dosya veya dizinlerin takip edilmemesini sağlar. Örneğin, derleme sonucu oluşan .class dosyaları, geçici dosyalar veya kişisel ayar dosyaları bu dosya aracılığıyla Git tarafından takip edilmeyebilir.
 
+--Bu dosya, Git'in daha temiz ve düzenli çalışmasını sağlar ve gereksiz dosyaların depoya eklenmesini engeller. Bu sayede, projenin boyutu küçülür ve gereksiz dosyaların paylaşılmasını önler.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+26.
 
 
 
