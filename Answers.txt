@@ -49,10 +49,13 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-8.
+8.".git" klasörünü silersek ne olur? Sorusunun Cevabı:
 
+--.git klasörü, Git'in depo ile ilgili tüm bilgileri içeren ve depo yönetimi için gereken dosyaları barındıran kritik bir klasördür. Eğer bu klasörü silerseniz, depo yönetimiyle ilgili tüm bilgileri kaybedersiniz ve Git ile çalışamaz hale gelirsiniz. Bu durumda, Git geçmişi, branch'ler ve commit'ler gibi tüm bilgiler kaybolur ve depo boş bir klasör gibi davranır.
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
+9.
 
 
 
