@@ -173,7 +173,11 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+20.Repository ne demektir? Sorusunun Cevabı:
 
+--Repository (depot veya depo olarak da bilinir), bir yazılım projesinin veya dosyaların sürüm kontrolü altında tutulduğu, saklandığı ve yönetildiği yerdir. Git terminolojisinde, repository genellikle bir projenin tamamını veya belirli bir sürümünü içeren bir depoyu ifade eder. Bu depo, proje dosyalarının geçmiş sürümlerini (commit'leri) ve bu sürümlerde yapılan değişiklikleri içerir. Aynı zamanda, repository aynı projede çalışan diğer geliştiricilerle işbirliği yapmak için kullanılır ve proje dosyalarının güncel sürümlerinin paylaşılmasını sağlar.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
