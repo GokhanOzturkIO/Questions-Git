@@ -1,3 +1,11 @@
 1.Git Nedir? Sorusunun Cevabı:
 
 -- Yazılım geliştirme projelerinde kullanılan, dosyaların ve projenin tüm geçmişinin kaydedilmesini ve yönetilmesini sağlayan bir araçtır. Projedeki her değişiklik bir "commit" olarak adlandırılır ve her kullanıcı kendi kopyası üzerinde bağımsız olarak çalışabilir. Git, projenin farklı sürümlerini karşılaştırma, birleştirme ve geri alma gibi işlemleri kolaylaştırır, böylece ekip üyeleri daha verimli bir şekilde işbirliği yapabilir.
+
+2."Git Pull" ile "Git Fetch" komutlarının farkı nedir? sorusunun cevabı:
+
+--git fetch: Uzak depodan güncellemeleri alır, ancak yerel çalışma alanınızı değiştirmez. Yani, uzak depodaki değişiklikler yereldeki dosyalara yansıtılmaz. Bu komut, sadece uzak depodaki güncellemeleri indirir ve onları yerelde kontrol etmenizi sağlar.
+--git pull: Uzak depodan güncellemeleri alır ve bunları yerel çalışma alanınıza uygular. Bu komut, aslında git fetch ve git merge komutlarını birleştirir. Yani, uzak depodaki değişiklikleri alır ve mevcut çalışma dalınıza (branch) birleştirir
+
+--Bu nedenle, genellikle güncellemeleri almak için git fetch kullanmanız ve ardından gerektiğinde yerel çalışma alanınızı güncellemek için git merge veya git rebase kullanmanız önerilir. git pull kullanmak, sadece basit güncellemeler alırken ve hızlı bir şekilde çalışırken tercih edilebilir.
+
