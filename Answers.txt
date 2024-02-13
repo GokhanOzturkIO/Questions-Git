@@ -167,7 +167,11 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-19.
+19.Atomic commit ne demektir? Sorusunun Cevabı:
+
+--Atomic commit, bir değişiklik setinin (change set) tümünün ya da hiçbirinin commit edildiği bir commit işlemidir. Yani, bir değişiklik setindeki tüm dosya değişiklikleri veya ilgili değişiklikler birlikte commit edilir. Bu sayede, projenin tutarlılığını korumak ve değişiklikler arasında bütünlüğü sağlamak için kullanılır. Eğer bir dosya değişikliği başarısız olursa, tüm değişiklik seti geri alınır ve projede tutarlılık sağlanır.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
