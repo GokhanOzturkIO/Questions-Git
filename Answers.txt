@@ -42,10 +42,14 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-7.
+7."Untracked file" ne demektir? Sorusunun Cevabı:
 
+--"Untracked file" (izlenmeyen dosya), Git'in takip etmediği ve değişikliklerini izlemediği dosyalardır. Genellikle proje klasörünüzde bulunan ve Git'in göz ardı ettiği yeni dosyalar olarak düşünebilirsiniz.
+--Bir dosya, projenize eklediğinizde (örneğin, git add komutunu kullanarak), Git bu dosyayı izlemeye başlar ve değişikliklerini takip eder. Ancak, henüz eklenmemiş ve Git tarafından izlenmeyen dosyalar untracked file olarak kabul edilir.
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
+8.
 
 
 
