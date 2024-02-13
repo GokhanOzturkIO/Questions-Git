@@ -201,10 +201,16 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-23.
+23."GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?  Sorusunun Cevabı:
 
 
+--GitHub, bir kod barındırma ve işbirliği platformudur, Git'in merkezi olmayan dağıtık versiyon kontrol sistemini kullanan bir hizmettir. GitHub, yazılım geliştirme projeleri için bir depo sunar ve geliştiricilere kod paylaşımı, sürüm kontrolü, iş takibi ve diğer birçok işlevi sağlar. Git ise, projelerin sürüm kontrolünü yönetmek için kullanılan bir yazılım aracıdır.
 
+--GitHub veya diğer sitelerdeki kullanıcı adları genellikle kişisel tercihlere göre belirlenir. Örnek olarak, GitHub'da kullanıcı adları şu şekilde olabilir: "john-doe", "jane_smith", "dev_guru" gibi. Ancak, her platformun kendi kullanıcı adı kuralları ve kısıtlamaları olabilir.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+24.
 
 
 
