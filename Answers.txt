@@ -64,9 +64,19 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-10.
+10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar? Sorusunun Cevabı:
 
+--Git'te "branch" (dal) kavramı, projenizin farklı versiyonlarını ve değişikliklerini ayrı ayrı izlemenizi sağlayan bir yapıdır. Her bir branch, projenin belirli bir versiyonunu temsil eder ve üzerinde yapılan değişiklikler sadece o branch'e etki eder.
 
+--Branch'ler, aynı projenin farklı özelliklerinin veya farklı işlevlerinin geliştirilmesi için kullanılır. Örneğin, bir branch üzerinde yeni bir özellik eklerken, ana branch olan "master" branch'te stabil bir sürümü koruyabilirsiniz. Bu şekilde, yeni özellik geliştirme çalışmalarınız, diğer geliştiricilerin çalışmalarını etkilemeden devam edebilir.
+
+--Branch'ler ayrıca paralel çalışma imkanı da sağlar. Bir ekip, aynı anda farklı özellikler üzerinde çalışabilir ve her bir özellik için ayrı branch'ler oluşturabilir. Sonrasında, bu branch'ler birleştirilerek (merge) projeye entegre edilebilir.
+
+--Özetle, branch'ler Git'in esnekliğini ve gücünü arttırır, farklı özelliklerin ve değişikliklerin paralel olarak geliştirilmesine imkan tanır ve projenin daha iyi organize edilmesini sağlar.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+11
 
 
 
