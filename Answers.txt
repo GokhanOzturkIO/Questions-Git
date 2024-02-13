@@ -35,8 +35,14 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-6.
+6."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir? Sorusunun Cevabı:
 
+
+--"Staging Area" veya "Index", Git'in çalışma prensibinde önemli bir role sahip olan bir bölgedir. Bu bölge, değişiklikleri commit etmeden önce hazırlayabileceğiniz bir alandır. Yani, değişiklik yapmak istediğiniz dosyaları buraya ekleyerek (staging), bu dosyaları bir sonraki commit işleminizde dahil etmeyi seçebilirsiniz.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+7.
 
 
 
