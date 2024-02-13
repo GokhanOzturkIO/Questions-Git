@@ -27,3 +27,38 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
+5.HEAD" kelimesi neyi temsil etmektedir? Sorusunun Cevabı:
+
+--"HEAD", Git deposundaki şu anki çalışma konumunu (branch'i) gösteren bir referanstır. HEAD, genellikle çalışma alanınızdaki son commit'i (en son yapılan değişiklik) gösterir.
+--HEAD'in işaret ettiği yer, çalışma alanınızda bulunan branch'in son commit'idir. Eğer doğrudan bir commit'in ID'sini vermek isterseniz, bu commit üzerinde HEAD'i taşıyabilirsiniz. Bu durumda, çalışma alanınızı bu commit'in durumuna götürmüş olursunuz.
+--Özetle, HEAD, şu anki branch'in son commit'ini temsil eder ve çalışma alanınızda nerede olduğunuzu belirler.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+6.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
