@@ -55,10 +55,16 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-9.
+9.Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız? Sorusunun Cevabı:
 
+--Her git init komutu çalıştırıldığında otomatik olarak bir ReadMe.md dosyası oluşturmak için, Git'in varsayılan şablon dosyalarını değiştirmeniz gerekmektedir. 
+--Bunun için, Git'in template dizininde bulunan dosyaları düzenlemeniz veya değiştirmeniz gerekmektedir. 
+--Bu dizin, genellikle Git'in yüklendiği yerde '/usr/share/gitcore/templates'  şeklinde bulunur. 
+--Bu dizinde ReadMe.md adında bir dosya oluşturarak, bu dosyanın her yeni proje başlatıldığında kopyalanmasını sağlayabilirsiniz. Ancak, bu değişikliklerin tüm Git projelerinde etkili olacağını unutmayın.
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
+10.
 
 
 
