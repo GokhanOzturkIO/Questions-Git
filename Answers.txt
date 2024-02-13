@@ -1,7 +1,7 @@
 1.Git Nedir? Sorusunun Cevabı:
 
 -- Yazılım geliştirme projelerinde kullanılan, dosyaların ve projenin tüm geçmişinin kaydedilmesini ve yönetilmesini sağlayan bir araçtır. Projedeki her değişiklik bir "commit" olarak adlandırılır ve her kullanıcı kendi kopyası üzerinde bağımsız olarak çalışabilir. Git, projenin farklı sürümlerini karşılaştırma, birleştirme ve geri alma gibi işlemleri kolaylaştırır, böylece ekip üyeleri daha verimli bir şekilde işbirliği yapabilir.
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2."Git Pull" ile "Git Fetch" komutlarının farkı nedir? sorusunun cevabı:
 
@@ -9,7 +9,7 @@
 --git pull: Uzak depodan güncellemeleri alır ve bunları yerel çalışma alanınıza uygular. Bu komut, aslında git fetch ve git merge komutlarını birleştirir. Yani, uzak depodaki değişiklikleri alır ve mevcut çalışma dalınıza (branch) birleştirir.
 --Bu nedenle, genellikle güncellemeleri almak için git fetch kullanmanız ve ardından gerektiğinde yerel çalışma alanınızı güncellemek için git merge veya git rebase kullanmanız önerilir. git pull kullanmak, sadece basit güncellemeler alırken ve hızlı bir şekilde çalışırken tercih edilebilir.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir? Sorusunun Cevabı:
 
@@ -18,14 +18,14 @@
 --Uzak depoya erişim yetkiniz olmayabilir.
 --Takım arkadaşınızın kodlarını gönderdiği commitler sizin lokaldeki commitlerle çakışıyor(conflict) olabilir.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4.git fetch origin" komutundaki "origin" neye karşılık gelmektedir? Sorusunun Cevabı:
 
 --origin, genellikle bir Git depoya verilen isimdir ve uzak depoyu temsil eder. Bir depoyu klonladığınızda, Git otomatik olarak bu depoya origin adını verir. 
 --Bu şekilde, uzak depoyu ifade etmek için origin adını kullanabilir ve git fetch origin gibi komutlarla bu uzak depodan güncellemeleri alabilirsiniz.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5.HEAD" kelimesi neyi temsil etmektedir? Sorusunun Cevabı:
 
@@ -33,27 +33,27 @@
 --HEAD'in işaret ettiği yer, çalışma alanınızda bulunan branch'in son commit'idir. Eğer doğrudan bir commit'in ID'sini vermek isterseniz, bu commit üzerinde HEAD'i taşıyabilirsiniz. Bu durumda, çalışma alanınızı bu commit'in durumuna götürmüş olursunuz.
 --Özetle, HEAD, şu anki branch'in son commit'ini temsil eder ve çalışma alanınızda nerede olduğunuzu belirler.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6."Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir? Sorusunun Cevabı:
 
 
 --"Staging Area" veya "Index", Git'in çalışma prensibinde önemli bir role sahip olan bir bölgedir. Bu bölge, değişiklikleri commit etmeden önce hazırlayabileceğiniz bir alandır. Yani, değişiklik yapmak istediğiniz dosyaları buraya ekleyerek (staging), bu dosyaları bir sonraki commit işleminizde dahil etmeyi seçebilirsiniz.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7."Untracked file" ne demektir? Sorusunun Cevabı:
 
 --"Untracked file" (izlenmeyen dosya), Git'in takip etmediği ve değişikliklerini izlemediği dosyalardır. Genellikle proje klasörünüzde bulunan ve Git'in göz ardı ettiği yeni dosyalar olarak düşünebilirsiniz.
 --Bir dosya, projenize eklediğinizde (örneğin, git add komutunu kullanarak), Git bu dosyayı izlemeye başlar ve değişikliklerini takip eder. Ancak, henüz eklenmemiş ve Git tarafından izlenmeyen dosyalar untracked file olarak kabul edilir.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 8.".git" klasörünü silersek ne olur? Sorusunun Cevabı:
 
 --.git klasörü, Git'in depo ile ilgili tüm bilgileri içeren ve depo yönetimi için gereken dosyaları barındıran kritik bir klasördür. Eğer bu klasörü silerseniz, depo yönetimiyle ilgili tüm bilgileri kaybedersiniz ve Git ile çalışamaz hale gelirsiniz. Bu durumda, Git geçmişi, branch'ler ve commit'ler gibi tüm bilgiler kaybolur ve depo boş bir klasör gibi davranır.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 9.Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız? Sorusunun Cevabı:
 
@@ -62,7 +62,7 @@
 --Bu dizin, genellikle Git'in yüklendiği yerde '/usr/share/gitcore/templates'  şeklinde bulunur. 
 --Bu dizinde ReadMe.md adında bir dosya oluşturarak, bu dosyanın her yeni proje başlatıldığında kopyalanmasını sağlayabilirsiniz. Ancak, bu değişikliklerin tüm Git projelerinde etkili olacağını unutmayın.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10.Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar? Sorusunun Cevabı:
 
@@ -74,7 +74,7 @@
 
 --Özetle, branch'ler Git'in esnekliğini ve gücünü arttırır, farklı özelliklerin ve değişikliklerin paralel olarak geliştirilmesine imkan tanır ve projenin daha iyi organize edilmesini sağlar.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11.Sıfırdan bir "branch" nasıl oluşturabiliriz? Sorusunun Cevabı:
 
@@ -85,7 +85,7 @@
 -->Artık "feature" branch üzerinde çalışabilirsiniz. Değişikliklerinizi ekleyerek (staging area'ya) ve commit ederek bu branch'e kaydedebilirsiniz.
 --!!! Veya sıfırdan bir branch oluşturmak için git branch komutunu kullanabilirsiniz. Yeni oluşturulan branch, mevcut konumunuzdaki commit'e göre oluşturulur ve bu commit'in üzerine devam eder.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 12.Var olan bir "branch"e nasıl geçebiliriz? Sorusunun Cevabı:
@@ -96,9 +96,15 @@
 --> git checkout feature --
 --Bu komutlar, mevcut branch'ten başka bir branch'e geçiş yapmanızı sağlar ve çalışma alanınızı seçtiğiniz branch'e göre ayarlar.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-13.
+13."git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz? Sorusunun Cevabı:
+
+--git clone komutu, varsayılan olarak uzak depodaki tüm branch'leri klonlar. Ancak, belirli bir spesifik branch'i sadece çekmek istiyorsanız, --single-branch ve -b parametrelerini kullanabilirsiniz.Örneğin, master branch'ini klonlamak istiyorsanız:
+--> git clone --single-branch -b master <repository-url> --
+--Bu komut, sadece master branch'ini klonlar ve diğer branch'leri almaz. --single-branch parametresi, sadece belirtilen branch'i klonlamak için kullanılırken, -b parametresi ise klonlanacak branch'i belirtmek için kullanılır.
+
+
 
 
 
