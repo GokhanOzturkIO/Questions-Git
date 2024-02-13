@@ -88,6 +88,17 @@
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
+12.Var olan bir "branch"e nasıl geçebiliriz? Sorusunun Cevabı:
+
+--Var olan bir branch'e geçmek için git checkout komutunu kullanabilirsiniz. Örneğin, master branch'ine geçmek için şu komutu kullanabilirsiniz:
+---> git checkout master --
+--Bu komut, master branch'ine geçiş yapar ve bu branch üzerinde çalışmaya başlamanızı sağlar. Branch ismini değiştirerek başka bir branch'e geçmek için aynı komutu kullanabilirsiniz. Örneğin, feature adındaki bir branch'e geçmek için şu komutu kullanabilirsiniz:
+--> git checkout feature --
+--Bu komutlar, mevcut branch'ten başka bir branch'e geçiş yapmanızı sağlar ve çalışma alanınızı seçtiğiniz branch'e göre ayarlar.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+13.
 
 
 
