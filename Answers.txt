@@ -116,7 +116,21 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+15."git log" komutu ile hangi bilgileri görebiliriz? Sorusunun Cevabı:
 
+--git log komutu, Git deposundaki commit geçmişini gösteren bir komuttur. Bu komut kullanıldığında, her commit için aşağıdaki bilgileri görebilirsiniz:
+
+-->Commit ID: Her commit'in benzersiz bir kimliği vardır. Bu ID, commit'in detaylarını görmek veya belirli bir commit'e geri dönmek için kullanılabilir.
+
+-->Author ve Date: Her commit'in kim tarafından yapıldığını (Author) ve ne zaman yapıldığını (Date) gösterir.
+
+-->Commit Message: Commit'in yapılan değişiklikleri açıklayan mesajıdır. Bu mesaj, commit'in içeriği hakkında bilgi verir.
+
+--Bu bilgiler, git log komutunu kullanarak commit geçmişini görebileceğiniz temel bilgilerdir. git log komutuyla birlikte kullanılabilecek birçok parametre ve seçenek vardır, bu seçenekler sayesinde commit geçmişini filtrelemek, sıralamak veya biçimlendirmek mümkündür.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16.
 
 
 
