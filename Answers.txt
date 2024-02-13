@@ -1,13 +1,15 @@
 1.Git Nedir? Sorusunun Cevabı:
 
 -- Yazılım geliştirme projelerinde kullanılan, dosyaların ve projenin tüm geçmişinin kaydedilmesini ve yönetilmesini sağlayan bir araçtır. Projedeki her değişiklik bir "commit" olarak adlandırılır ve her kullanıcı kendi kopyası üzerinde bağımsız olarak çalışabilir. Git, projenin farklı sürümlerini karşılaştırma, birleştirme ve geri alma gibi işlemleri kolaylaştırır, böylece ekip üyeleri daha verimli bir şekilde işbirliği yapabilir.
+-------------------------------------------------------------------------------------------------------------------------------------
 
 2."Git Pull" ile "Git Fetch" komutlarının farkı nedir? sorusunun cevabı:
 
 --git fetch: Uzak depodan güncellemeleri alır, ancak yerel çalışma alanınızı değiştirmez. Yani, uzak depodaki değişiklikler yereldeki dosyalara yansıtılmaz. Bu komut, sadece uzak depodaki güncellemeleri indirir ve onları yerelde kontrol etmenizi sağlar.
---git pull: Uzak depodan güncellemeleri alır ve bunları yerel çalışma alanınıza uygular. Bu komut, aslında git fetch ve git merge komutlarını birleştirir. Yani, uzak depodaki değişiklikleri alır ve mevcut çalışma dalınıza (branch) birleştirir
-
+--git pull: Uzak depodan güncellemeleri alır ve bunları yerel çalışma alanınıza uygular. Bu komut, aslında git fetch ve git merge komutlarını birleştirir. Yani, uzak depodaki değişiklikleri alır ve mevcut çalışma dalınıza (branch) birleştirir.
 --Bu nedenle, genellikle güncellemeleri almak için git fetch kullanmanız ve ardından gerektiğinde yerel çalışma alanınızı güncellemek için git merge veya git rebase kullanmanız önerilir. git pull kullanmak, sadece basit güncellemeler alırken ve hızlı bir şekilde çalışırken tercih edilebilir.
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 3.Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir? Sorusunun Cevabı:
 
@@ -15,3 +17,13 @@
 --İnternet bağlantınızda bir sorun olabilir.
 --Uzak depoya erişim yetkiniz olmayabilir.
 --Takım arkadaşınızın kodlarını gönderdiği commitler sizin lokaldeki commitlerle çakışıyor(conflict) olabilir.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+4.git fetch origin" komutundaki "origin" neye karşılık gelmektedir? Sorusunun Cevabı:
+
+--origin, genellikle bir Git depoya verilen isimdir ve uzak depoyu temsil eder. Bir depoyu klonladığınızda, Git otomatik olarak bu depoya origin adını verir. 
+--Bu şekilde, uzak depoyu ifade etmek için origin adını kullanabilir ve git fetch origin gibi komutlarla bu uzak depodan güncellemeleri alabilirsiniz.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
