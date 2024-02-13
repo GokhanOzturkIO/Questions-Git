@@ -142,7 +142,62 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-17.
+17.Git reset ile neyi geri alıyoruz? Sorusunun Cevabı:
+
+--git reset komutu, Git'in belirli bir commit'e geri dönmenizi veya belirli bir commit'in değişikliklerini geri almanızı sağlar. Bu komutla geri alabileceğiniz şeyler şunlardır:
+
+-->Commit Geri Alma: --soft, --mixed, veya --hard parametreleriyle kullanılarak, commit'leri geri alabilirsiniz. --soft parametresiyle commit'i geri alırken dosyalarınızın değişiklikleri staging alanında kalır, --mixed parametresiyle dosyalarınızın değişiklikleri çalışma dizininde kalır ve --hard parametresiyle dosyalarınızın değişiklikleri tamamen silinir
+
+-->Dosya Değişikliklerini Geri Alma: HEAD veya belirli bir commit ID'si ile bir dosyanın belirli bir commit'e kadar olan değişikliklerini geri alabilirsiniz.
+
+-->Branch'i Geri Alma: --hard parametresiyle bir branch'i belirli bir commit'e geri alabilirsiniz. Bu şekilde, branch'in sonraki commit'leri silinir ve belirlediğiniz commit'e geri dönülmüş olur.
+
+--git reset komutu güçlü bir komuttur ve dikkatli kullanılmalıdır. Geri alınan değişiklikler geri getirilemez, bu nedenle geri almadan önce değişikliklerinizi dikkatlice kontrol etmelisiniz.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
