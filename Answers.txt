@@ -210,15 +210,16 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-24.
+24.main ya da master branch'inin diğer branchlerden farkı nedir? Sorusunun Cevabı:
+
+--main veya master branch'i, Git deposunun varsayılan ana branch'ini temsil eder. Diğer branch'ler genellikle main veya master branch'inden ayrılarak farklı özelliklerin veya geliştirmelerin yapılmasını sağlar.
+
+--Önceden, Git'te master branch kullanılırken, son zamanlarda bazı platformlar ve topluluklar, master yerine main ismini tercih etmeye başladılar. Bu değişiklik, dil ve kültürel faktörlerle de ilgilidir ve "master" kelimesinin kölelikle olan ilişkisinden dolayı bazı insanlarda rahatsızlık yaratabileceği düşüncesiyle yapılmıştır.
+
+--Yani, main veya master branch, diğer branch'lerden farklı olarak genellikle projenin ana ve istikrarlı sürümünü içerir. Diğer branch'ler ise genellikle yeni özelliklerin geliştirildiği, hata düzeltmelerinin yapıldığı veya deneme amaçlı değişikliklerin yapıldığı geçici dallardır.
 
 
-
-
-
-
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
