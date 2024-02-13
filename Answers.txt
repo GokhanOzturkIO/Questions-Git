@@ -130,13 +130,19 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-16.
+16."git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz? Sorusunun Cevabı:
 
+--git diff komutu, iki farklı durum arasındaki değişiklikleri göstermek için kullanılır. Bu durumlar genellikle şunları ifade eder:
 
+-->Çalışma Dizini ve Staging Alanı Arasındaki Değişiklikler: git diff komutunu çalıştırdığınızda, çalışma dizinizdeki dosyalar ile staging alanı arasındaki farkları görebilirsiniz. Yani, henüz staging'e eklenmemiş değişiklikleri görebilirsiniz.
 
+-->Staging Alanı ve Son Commit Arasındaki Değişiklikler: git diff --staged veya git diff --cached komutunu kullanarak, staging alanındaki dosyalar ile son commit arasındaki farkları görebilirsiniz. Yani, son commit'ten sonra yapılan ancak henüz commit edilmemiş değişiklikleri görebilirsiniz.
 
+-->İki Farklı Commit Arasındaki Değişiklikler: git diff <commit1> <commit2> komutunu kullanarak, iki farklı commit arasındaki değişiklikleri görebilirsiniz. Bu şekilde, iki farklı commit'in dosya içeriği arasındaki farkları detaylı olarak inceleyebilirsiniz.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+17.
 
 
 
