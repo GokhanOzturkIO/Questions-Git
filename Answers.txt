@@ -187,13 +187,21 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+22.Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz? Sorusunun Cevabı:
 
+--Git'i görsel olarak kullanabilmek için birkaç üçüncü taraf araç ve uygulama bulunmaktadır. Bu araçlar genellikle Git'in komut satırı arayüzü yerine grafiksel bir kullanıcı arayüzü sunarlar ve Git işlemlerini daha kolay ve görsel olarak yapmanıza olanak tanır. İşte bazı popüler Git görsel araçları:
 
+-->GitKraken: GitKraken, Windows, macOS ve Linux için kullanılabilir olan popüler bir Git istemcisidir. Görsel bir arayüz sunar ve birçok Git özelliğini kolayca kullanmanıza olanak tanır.
 
+-->Sourcetree: Sourcetree, Windows ve macOS için ücretsiz olarak kullanılabilen bir Git ve Mercurial istemcisidir. Git işlemlerini görsel olarak yönetmek için kullanıcı dostu bir arayüz sunar.
 
+-->GitHub Desktop: GitHub Desktop, GitHub kullanıcıları için Windows ve macOS'ta mevcut olan resmi GitHub istemcisidir. GitHub projelerini kolayca klonlamak, commit etmek ve push etmek için kullanılabilir.
 
+-->GitAhead: GitAhead, Windows, macOS ve Linux için kullanılabilen açık kaynaklı bir Git istemcisidir. Basit ve kullanıcı dostu bir arayüz sunar ve birçok Git özelliğini destekler.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+23.
 
 
 
