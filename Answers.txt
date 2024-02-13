@@ -1,0 +1,3 @@
+1.Git Nedir? Sorusunun Cevabı:
+
+-- Yazılım geliştirme projelerinde kullanılan, dosyaların ve projenin tüm geçmişinin kaydedilmesini ve yönetilmesini sağlayan bir araçtır. Projedeki her değişiklik bir "commit" olarak adlandırılır ve her kullanıcı kendi kopyası üzerinde bağımsız olarak çalışabilir. Git, projenin farklı sürümlerini karşılaştırma, birleştirme ve geri alma gibi işlemleri kolaylaştırır, böylece ekip üyeleri daha verimli bir şekilde işbirliği yapabilir.
