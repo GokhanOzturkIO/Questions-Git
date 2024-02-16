@@ -1,0 +1,52 @@
+Soruların Cevapları : 
+
+1-Git, versiyon kontrol sistemi olarak kullanılan bir yazılımdır ve Linus Torvalds tarafından Linux çekirdeği geliştirilirken 2005 yılında oluşturulmuştur.
+
+2-"git pull" uzak sunucudan lokal bilgisayara branch'teki değişiklikleri çekerken, "git fetch" ise uzak sunucudaki değişiklikleri lokaldeki bilgisayarın haberdar olmasını sağlar.
+
+3- Takım arkadaşının gönderdiği kodları "git pull" ile alamıyorsak, kodlar henüz uzak sunucuya gönderilmemiş olabilir veya çakışan değişiklikler bulunabilir.
+
+4- "git fetch origin" komutundaki "origin", uzak sunucuyu temsil eder ve uzaktaki sunucudaki son değişiklikleri lokal bilgisayara çeker.
+
+5- "HEAD", commit işlemini temsil eden bir yapıdır ve genellikle atılan son commiti gösterir.
+
+6- "Staging Area" ya da "Index", local ve uzak arasında bulunan bölgeyi ifade eder ve dosyaları git'e takip ettirmek için kullanılır.
+
+7- "Untracked file", git tarafından takip edilmeyen ve git add komutu ile staging area'ya eklenmemiş dosyaları ifade eder.
+
+8- ".git" klasörünü silmek, git ile yapılan çalışmaların tamamını kaybetmeye yol açar ve git'i tekrar başlatmak gereklidir.
+
+9- Kendi lokalimizde "git init" komutunu kullanırken otomatik olarak "ReadMe.md" dosyası oluşturmak için bir template ayarlamalıyız.
+
+10- Git'te "branch" yapısı, projeyi farklı kollara ayırarak eş zamanlı çalışmayı sağlar ve conflict'leri önler.
+
+11- Yeni bir "branch" oluşturmak için "git branch 'feature/branchadi'" komutunu kullanabiliriz.
+
+12- Var olan bir "branch"e geçmek için "git checkout 'feature/branchadi'" komutunu kullanabiliriz.
+
+13- "git clone" komutunu kullanırken belirli bir branch'i çekmek için "git clone --branch 'branchadi'" komutunu kullanabiliriz.
+
+14- "Merge conflict", aynı dosya ve satırda iki farklı değişiklik olduğunda ortaya çıkar, git hangi değişikliği seçeceğine karar veremez.
+
+15- "git log" komutu, yapılan commit işlemleri ile ilgili bilgileri gösterir, commit hash'leri, yapılan değişiklikler ve commit yapan kişinin bilgileri görülebilir.
+
+16- "git diff" ile 1. localdeki değişiklikleri ve 2. staging area'daki değişiklikleri görebiliriz.
+
+17- Git reset, dosyaları staging area'dan geri alır, dosya içindeki değişiklikleri geri almaz.
+
+18- "git commit", lokalde yapılan değişiklikleri commit yapar, "git push" ise bu değişiklikleri uzak sunucuya gönderir.
+
+19- Atomic commit, commit yaparken belirli bir kurala uymak demektir, değişiklikleri açıklayan keywordler kullanılır.
+
+20- Repository, dosyaların ve değişikliklerin uzak bir sunucuda depolandığı yerdir.
+
+21- "git tag", projede yapılan release'lere etiket eklemek için kullanılır, "git branch" ise farklı kollar oluşturmak için kullanılır.
+
+22- Git'i görsel olarak kullanmak için SourceTree, GitKraken, GitHub Desktop gibi araçlar kullanılabilir.
+
+23- GitHub, git projelerini paylaşmak için web tabanlı bir platformdur; benzer siteler arasında GitLab ve Bitbucket bulunur.
+
+24- "main" veya "master" branch'i, projenin ana, yayınlanabilir halini barındıran başlangıç branch'idir ve diğer branchlerden farklıdır.
+
+Ek - Bu ödevi zamanında yapamadığımın farkındayım. Hiç yapmamış olmamak ve git üzerinden işlem yapmak adına geçte olsa bu ödevi gönderiyorum. Cevaplar için yapay zekadan destek aldığımı belirtmek isterim. Gökhan bey dilerse ödevin neden 
+geç teslim edildiğini söyleyebilirim.
