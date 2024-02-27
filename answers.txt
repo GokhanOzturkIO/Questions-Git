@@ -17,4 +17,7 @@ origin, projenin orijinal olarak kopyalandığı geçici deponun kısaltmasıdı
 q5-"HEAD" kelimesi neyi temsil etmektedir?
 HEAD en son kontrol edilen branch'deki son commit'tir.
 
-q6-
+q6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Staging area bir dosyadır, genellikle Git directory sinde bulunur, sonraki commitlerde önizlemesi denilebilir . Teknik ismi index'tir.
+
+q7-"Untracked file" ne demektir?
