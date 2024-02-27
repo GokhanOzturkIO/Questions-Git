@@ -7,4 +7,6 @@ q2-"git pull" ile "git fetch" komutlarının farkı nedir?
 git pull, yapılan değişiklikleri uzaktaki bir depodan doğrudan çalıştığınız directory'e kopyalar.
 git fetch ise değişiklikleri yalnızca local git reposuna kopyalar, git pull ikisini de sağlar.
 
- 
+q3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları 
+"git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+Arkadaşımız ile aynı branch'de olmayabiliriz, bu kontrol edilmeli. Arkadaşımız kodları göndermiş olup değişiklikleri güncellememiş olabilir, git fetch komutu ile bu sağlanabilir.
