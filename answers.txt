@@ -24,3 +24,4 @@ q7-"Untracked file" ne demektir?
 Repo'muzda oluşturulan ama git add ile reponun izleme dizinine eklenmemiş dosyalardır.
 
 q8-".git" klasörünü silersek ne olur?
+Git tarafından kaydedilen bilgiler silinecek ve o dizin artık git reposu olarak çalışmayacak.
