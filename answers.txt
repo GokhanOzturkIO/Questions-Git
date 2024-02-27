@@ -1,0 +1,8 @@
+Questions - Git
+
+q1-Git Nedir?
+Git, küçük veya büyük projeleri ve diğer yapıları hızlı ve verimli olarak ele alabilmek için kullanılabilen bir version control sistemidir. İlk sürümü Linux çekirdeğinin geliştirilmesinde kullanılabilmesi için Linus Torvalds tarafından geliştirilmiştir.
+
+
+
+ 
