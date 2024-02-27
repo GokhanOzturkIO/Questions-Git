@@ -13,3 +13,8 @@ Arkadaşımız ile aynı branch'de olmayabiliriz, bu kontrol edilmeli. Arkadaş�
 
 q4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 origin, projenin orijinal olarak kopyalandığı geçici deponun kısaltmasıdır.
+
+q5-"HEAD" kelimesi neyi temsil etmektedir?
+HEAD en son kontrol edilen branch'deki son commit'tir.
+
+q6-
