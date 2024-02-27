@@ -3,6 +3,8 @@ Questions - Git
 q1-Git Nedir?
 Git, küçük veya büyük projeleri ve diğer yapıları hızlı ve verimli olarak ele alabilmek için kullanılabilen bir version control sistemidir. İlk sürümü Linux çekirdeğinin geliştirilmesinde kullanılabilmesi için Linus Torvalds tarafından geliştirilmiştir.
 
-
+q2-"git pull" ile "git fetch" komutlarının farkı nedir?
+git pull, yapılan değişiklikleri uzaktaki bir depodan doğrudan çalıştığınız directory'e kopyalar.
+git fetch ise değişiklikleri yalnızca local git reposuna kopyalar, git pull ikisini de sağlar.
 
  
