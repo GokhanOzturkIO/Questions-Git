@@ -42,3 +42,4 @@ q13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekm
 git clone --branch newBranch repo adresi komutu yazılırsa ve bu branch bulunuyorsa, bu branch çekilebilir.
 
 q14-"Merge conflict" ne demektir?
+Git iki commit arasındaki farklılıkları otomatik olarak çözemediğinde bu durum oluşur. Değişiklikler farklı satırlarda veya brachlerde olması durumunda bunlar otomatikman birleştirilebilir.
