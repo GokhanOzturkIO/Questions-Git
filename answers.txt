@@ -72,7 +72,7 @@ GitHub git repolarını yönetmeye yarayan bulut tabanlı bir barınma sistemidi
 GitHub benzeri siteler; Gitlab, Bitbucket, OneDev, Gogs, Codeberg, Radicle, Gitea, Google Cloud Soruce Repositories
 
 q24-main ya da master branch'inin diğer branchlerden farkı nedir?
-
+master branch özel bir branch değildir, git init komutunun onu otomatik olarak oluşturması nedeniyle neredeyse her repoda bulunur.
 q25-".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
 
 q26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
