@@ -68,6 +68,8 @@ q22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları v
 GitDesktop, GitKraken, SourceTree, Git Extensions, Tower gibi araçlar kullanılabilir.
 
 q23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+GitHub git repolarını yönetmeye yarayan bulut tabanlı bir barınma sistemidir. git ise kaynak kod geçmişinizi takip edip yönetmenizi sağlayan bir versiyon kontrol sistemidir.
+GitHub benzeri siteler; Gitlab, Bitbucket, OneDev, Gogs, Codeberg, Radicle, Gitea, Google Cloud Soruce Repositories
 
 q24-main ya da master branch'inin diğer branchlerden farkı nedir?
 
