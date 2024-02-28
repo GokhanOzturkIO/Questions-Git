@@ -62,6 +62,7 @@ q20-Repository ne demektir?
 Dosya veya dizindeki değişiklikleri izlemek ve yönetmek için bir merkezi depolama merkezidir.
 
 q21-"git tag" nedir? "git branch"’ten farkı nedir?
+tag, reponun geçmişindeki önemli yerlere işaret koymak olarak açıklanabilir. Branchlerin aksine tagler üsrekli gelişime açık değillerdir.
 
 q22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 
