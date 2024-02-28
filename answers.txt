@@ -28,3 +28,14 @@ Git tarafından kaydedilen bilgiler silinecek ve o dizin artık git reposu olara
 
 q9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 github üzerinde her zaman kullandığımız bir template türü var diyelim ve bunun içinde ReadMe dosyası da bulunuyor. Bu şekilde her git init komutunu kullandığımızda oluşturulması için git init --template yazdıktan sonra kullanacağımız template'in bilgisayardaki adresini yazıp enter!a bastıktan sonra bu şekilide ReadMe dosyasını oluşturacaktır.
+
+q10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+branch ler projede yapılan değişiklikleri işaret eden araçlar olarak düşünülebilirler. Eklenen commitler şu anki branch'in geçmişine kaydedilir ve bunlar da dallanmalar oluşturur.
+
+q11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+
+q12-Var olan bir "branch"e nasıl geçebiliriz?
+
+q13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+
+q14-"Merge conflict" ne demektir?
