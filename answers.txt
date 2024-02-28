@@ -59,6 +59,7 @@ q19-Atomic commit ne demektir?
 Atomic commit, bir projede yapılan en ufak farklı değişkliklikleri commitleme işlemidir.
 
 q20-Repository ne demektir?
+Dosya veya dizindeki değişiklikleri izlemek ve yönetmek için bir merkezi depolama merkezidir.
 
 q21-"git tag" nedir? "git branch"’ten farkı nedir?
 
