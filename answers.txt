@@ -1,0 +1,81 @@
+Questions - Git
+
+q1-Git Nedir?
+Git, küçük veya büyük projeleri ve diğer yapıları hızlı ve verimli olarak ele alabilmek için kullanılabilen bir version control sistemidir. İlk sürümü Linux çekirdeğinin geliştirilmesinde kullanılabilmesi için Linus Torvalds tarafından geliştirilmiştir.
+
+q2-"git pull" ile "git fetch" komutlarının farkı nedir?
+git pull, yapılan değişiklikleri uzaktaki bir depodan doğrudan çalıştığınız directory'e kopyalar.
+git fetch ise değişiklikleri yalnızca local git reposuna kopyalar, git pull ikisini de sağlar.
+
+q3-Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları 
+"git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
+Arkadaşımız ile aynı branch'de olmayabiliriz, bu kontrol edilmeli. Arkadaşımız kodları göndermiş olup değişiklikleri güncellememiş olabilir, git fetch komutu ile bu sağlanabilir.
+
+q4-"git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+origin, projenin orijinal olarak kopyalandığı geçici deponun kısaltmasıdır.
+
+q5-"HEAD" kelimesi neyi temsil etmektedir?
+HEAD en son kontrol edilen branch'deki son commit'tir.
+
+q6-"Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+Staging area bir dosyadır, genellikle Git directory sinde bulunur, sonraki commitlerde önizlemesi denilebilir . Teknik ismi index'tir.
+
+q7-"Untracked file" ne demektir?
+Repo'muzda oluşturulan ama git add ile reponun izleme dizinine eklenmemiş dosyalardır.
+
+q8-".git" klasörünü silersek ne olur?
+Git tarafından kaydedilen bilgiler silinecek ve o dizin artık git reposu olarak çalışmayacak.
+
+q9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+github üzerinde her zaman kullandığımız bir template türü var diyelim ve bunun içinde ReadMe dosyası da bulunuyor. Bu şekilde her git init komutunu kullandığımızda oluşturulması için git init --template yazdıktan sonra kullanacağımız template'in bilgisayardaki adresini yazıp enter!a bastıktan sonra bu şekilide ReadMe dosyasını oluşturacaktır.
+
+q10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+branch ler projede yapılan değişiklikleri işaret eden araçlar olarak düşünülebilirler. Eklenen commitler şu anki branch'in geçmişine kaydedilir ve bunlar da dallanmalar oluşturur.
+
+q11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
+git branch newBranch ile newBranch isimli bir branch oluşturulabilir. git checkout -b newBranch ile de yeni branch oluşturup o branch içine girebiliriz.
+
+q12-Var olan bir "branch"e nasıl geçebiliriz?
+git checkout branch ile var olan branc e geçiş yapılır.
+
+q13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+git clone --branch newBranch repo adresi komutu yazılırsa ve bu branch bulunuyorsa, bu branch çekilebilir.
+
+q14-"Merge conflict" ne demektir?
+Git iki commit arasındaki farklılıkları otomatik olarak çözemediğinde bu durum oluşur. Değişiklikler farklı satırlarda veya brachlerde olması durumunda bunlar otomatikman birleştirilebilir.
+
+q15-"git log" komutu ile hangi bilgileri görebiliriz?
+git log içinde bulunulan repo'daki tüm commit geçmişini gösterir.
+
+q16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+q17-Git reset ile neyi geri alıyoruz?
+git reset, çalışma dizinindeki yapılan son değişiklikleri geri almak için kullanılır. Bundan sonra atılacak olan commitler bu alınan değişiklikten önceki commitlerin ardına eklenir.
+
+q18-"git commit" ile "git push" arasındaki fark nedir?
+git commit değişiklikleri local repoya kaydederken git push commit değişikliklerini kaydeder ve uzak repoya kaydeder.
+
+q19-Atomic commit ne demektir?
+Atomic commit, bir projede yapılan en ufak farklı değişkliklikleri commitleme işlemidir.
+
+q20-Repository ne demektir?
+Dosya veya dizindeki değişiklikleri izlemek ve yönetmek için bir merkezi depolama merkezidir.
+
+q21-"git tag" nedir? "git branch"’ten farkı nedir?
+tag, reponun geçmişindeki önemli yerlere işaret koymak olarak açıklanabilir. Branchlerin aksine tagler üsrekli gelişime açık değillerdir.
+
+q22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+GitDesktop, GitKraken, SourceTree, Git Extensions, Tower gibi araçlar kullanılabilir.
+
+q23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+GitHub git repolarını yönetmeye yarayan bulut tabanlı bir barınma sistemidir. git ise kaynak kod geçmişinizi takip edip yönetmenizi sağlayan bir versiyon kontrol sistemidir.
+GitHub benzeri siteler; Gitlab, Bitbucket, OneDev, Gogs, Codeberg, Radicle, Gitea, Google Cloud Soruce Repositories
+
+q24-main ya da master branch'inin diğer branchlerden farkı nedir?
+master branch özel bir branch değildir, git init komutunun onu otomatik olarak oluşturması nedeniyle neredeyse her repoda bulunur.
+
+q25-".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
+.gitignore dosyası, git tarafından özellikle takip edilmeyecek olan dosyaları belirtir. Takip edilmesi istenmeyen dosyalar olduğunda kullanılır.
+
+q26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
+İsmi belirtilen branch uzak repodan yani originden silinir. Bu işlem ismi yazılan branch'i kalıcı olarak siler ev bu değişiklik geri alınamaz.
