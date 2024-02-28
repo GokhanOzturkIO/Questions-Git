@@ -65,6 +65,7 @@ q21-"git tag" nedir? "git branch"’ten farkı nedir?
 tag, reponun geçmişindeki önemli yerlere işaret koymak olarak açıklanabilir. Branchlerin aksine tagler üsrekli gelişime açık değillerdir.
 
 q22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+GitDesktop, GitKraken, SourceTree, Git Extensions, Tower gibi araçlar kullanılabilir.
 
 q23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 
