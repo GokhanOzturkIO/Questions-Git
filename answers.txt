@@ -53,6 +53,7 @@ q17-Git reset ile neyi geri alıyoruz?
 git reset, çalışma dizinindeki yapılan son değişiklikleri geri almak için kullanılır. Bundan sonra atılacak olan commitler bu alınan değişiklikten önceki commitlerin ardına eklenir.
 
 q18-"git commit" ile "git push" arasındaki fark nedir?
+git commit değişiklikleri local repoya kaydederken git push commit değişikliklerini kaydeder ve uzak repoya kaydeder.
 
 q19-Atomic commit ne demektir?
 
