@@ -50,6 +50,7 @@ git log içinde bulunulan repo'daki tüm commit geçmişini gösterir.
 q16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 
 q17-Git reset ile neyi geri alıyoruz?
+git reset, çalışma dizinindeki yapılan son değişiklikleri geri almak için kullanılır. Bundan sonra atılacak olan commitler bu alınan değişiklikten önceki commitlerin ardına eklenir.
 
 q18-"git commit" ile "git push" arasındaki fark nedir?
 
