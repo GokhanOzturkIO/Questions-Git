@@ -39,5 +39,6 @@ q12-Var olan bir "branch"e nasıl geçebiliriz?
 git checkout branch ile var olan branc e geçiş yapılır.
 
 q13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
+git clone --branch newBranch repo adresi komutu yazılırsa ve bu branch bulunuyorsa, bu branch çekilebilir.
 
 q14-"Merge conflict" ne demektir?
