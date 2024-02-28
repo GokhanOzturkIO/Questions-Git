@@ -33,9 +33,10 @@ q10-Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 branch ler projede yapılan değişiklikleri işaret eden araçlar olarak düşünülebilirler. Eklenen commitler şu anki branch'in geçmişine kaydedilir ve bunlar da dallanmalar oluşturur.
 
 q11-Sıfırdan bir "branch" nasıl oluşturabiliriz?
-git branch newBranch ile newBranch isimli bir branch oluşturulabilir.
+git branch newBranch ile newBranch isimli bir branch oluşturulabilir. git checkout -b newBranch ile de yeni branch oluşturup o branch içine girebiliriz.
 
 q12-Var olan bir "branch"e nasıl geçebiliriz?
+git checkout branch ile var olan branc e geçiş yapılır.
 
 q13-"git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 
