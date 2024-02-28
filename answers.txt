@@ -43,3 +43,28 @@ git clone --branch newBranch repo adresi komutu yazılırsa ve bu branch bulunuy
 
 q14-"Merge conflict" ne demektir?
 Git iki commit arasındaki farklılıkları otomatik olarak çözemediğinde bu durum oluşur. Değişiklikler farklı satırlarda veya brachlerde olması durumunda bunlar otomatikman birleştirilebilir.
+
+q15-"git log" komutu ile hangi bilgileri görebiliriz?
+git log içinde bulunulan repo'daki tüm commit geçmişini gösterir.
+
+q16-"git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+
+q17-Git reset ile neyi geri alıyoruz?
+
+q18-"git commit" ile "git push" arasındaki fark nedir?
+
+q19-Atomic commit ne demektir?
+
+q20-Repository ne demektir?
+
+q21-"git tag" nedir? "git branch"’ten farkı nedir?
+
+q22-Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
+
+q23-"GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+
+q24-main ya da master branch'inin diğer branchlerden farkı nedir?
+
+q25-".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
+
+q26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
