@@ -25,3 +25,6 @@ Repo'muzda oluşturulan ama git add ile reponun izleme dizinine eklenmemiş dosy
 
 q8-".git" klasörünü silersek ne olur?
 Git tarafından kaydedilen bilgiler silinecek ve o dizin artık git reposu olarak çalışmayacak.
+
+q9-Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+github üzerinde her zaman kullandığımız bir template türü var diyelim ve bunun içinde ReadMe dosyası da bulunuyor. Bu şekilde her git init komutunu kullandığımızda oluşturulması için git init --template yazdıktan sonra kullanacağımız template'in bilgisayardaki adresini yazıp enter!a bastıktan sonra bu şekilide ReadMe dosyasını oluşturacaktır.
