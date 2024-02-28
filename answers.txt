@@ -56,6 +56,7 @@ q18-"git commit" ile "git push" arasındaki fark nedir?
 git commit değişiklikleri local repoya kaydederken git push commit değişikliklerini kaydeder ve uzak repoya kaydeder.
 
 q19-Atomic commit ne demektir?
+Atomic commit, bir projede yapılan en ufak farklı değişkliklikleri commitleme işlemidir.
 
 q20-Repository ne demektir?
 
