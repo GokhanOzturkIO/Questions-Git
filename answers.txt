@@ -73,6 +73,8 @@ GitHub benzeri siteler; Gitlab, Bitbucket, OneDev, Gogs, Codeberg, Radicle, Gite
 
 q24-main ya da master branch'inin diğer branchlerden farkı nedir?
 master branch özel bir branch değildir, git init komutunun onu otomatik olarak oluşturması nedeniyle neredeyse her repoda bulunur.
+
 q25-".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
+.gitignore dosyası, git tarafından özellikle takip edilmeyecek olan dosyaları belirtir. Takip edilmesi istenmeyen dosyalar olduğunda kullanılır.
 
 q26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
