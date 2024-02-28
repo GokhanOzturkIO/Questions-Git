@@ -78,3 +78,4 @@ q25-".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @ma
 .gitignore dosyası, git tarafından özellikle takip edilmeyecek olan dosyaları belirtir. Takip edilmesi istenmeyen dosyalar olduğunda kullanılır.
 
 q26-"git push origin --delete branch_name” nedir ve ne için kullanılır?
+İsmi belirtilen branch uzak repodan yani originden silinir. Bu işlem ismi yazılan branch'i kalıcı olarak siler ev bu değişiklik geri alınamaz.
